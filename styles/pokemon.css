@@ -1,0 +1,27 @@
+:root {
+  /* Energy colors */
+  --colorless: hsl(0, 0%, 85%);
+  --darkness: hsl(189, 77%, 27%);
+  --dragon: hsl(51, 60%, 35%);
+  --fairy: hsl(323, 100%, 89%);
+  --fighting: rgb(145, 90, 39);
+  --fire: hsl(9, 81%, 59%);
+  --grass: hsl(96, 81%, 65%);
+  --lightning: hsl(54, 87%, 63%);
+  --metal: hsl(184, 20%, 70%);
+  --psychic: hsl(281, 62%, 58%);
+  --water: hsl(192, 97%, 60%);
+
+  /* Trainer colors */
+  --item: hsl(205, 95%, 39%);
+  --pokemontool: hsl(255, 29%, 53%);
+  --stadium: hsl(106, 57%, 45%);
+  --supporter: hsl(16, 87%, 53%);
+
+  /* Card settings */
+  --card-aspect: 0.718;
+  --card-radius: 4.55% / 3.5%;
+  --card-edge: hsl(47.14 100% 78.04%);
+  --card-back: hsl(205, 100%, 25%);
+  --card-glow: hsl(175, 100%, 90%);
+}

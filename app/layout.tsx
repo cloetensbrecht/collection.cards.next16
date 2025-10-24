@@ -1,4 +1,5 @@
 import { cms } from "@/cms";
+import Footer from "@/components/footer/Footer";
 import ThemeProvider from "@/components/themeprovider/ThemeProvider";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -36,6 +37,7 @@ export default function RootLayout({
           <cms.previews widget />
           <Analytics />
           <SpeedInsights />
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
