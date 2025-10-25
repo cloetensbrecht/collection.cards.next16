@@ -1,6 +1,7 @@
 import { createCMS } from "alinea/next";
 import { Collections } from "./alinea/schemas/Collections";
 import { Footer } from "./alinea/schemas/Footer";
+import { Header } from "./alinea/schemas/Header";
 import { Illustrator } from "./alinea/schemas/Illustrator";
 import { Illustrators } from "./alinea/schemas/Illustrators";
 import { Page } from "./alinea/schemas/Page";
@@ -14,6 +15,7 @@ export const cms = createCMS({
   schema: {
     Collections,
     Footer,
+    Header,
     Illustrator,
     Illustrators,
     Page,

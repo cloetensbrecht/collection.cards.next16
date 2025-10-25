@@ -1,5 +1,6 @@
 import { cms } from "@/cms";
 import Footer from "@/components/footer/Footer";
+import Header from "@/components/header/Header";
 import ThemeProvider from "@/components/themeprovider/ThemeProvider";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -32,6 +33,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Header />
           {children}
           <Toaster />
           <cms.previews widget />
