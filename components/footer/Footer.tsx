@@ -46,26 +46,22 @@ const Footer: React.FC = () => (
               className="flex gap-4 justify-center lg:justify-start content-center"
               aria-label="Community links"
             >
-              <ComingSoon>
-                <Link
-                  href="#"
-                  target="_blank"
-                  aria-label="Discord"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  <Discord width={24} />
-                </Link>
-              </ComingSoon>
-              <ComingSoon>
-                <Link
-                  href="#"
-                  target="_blank"
-                  aria-label="Reddit"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  <Reddit width={24} />
-                </Link>
-              </ComingSoon>
+              <Link
+                href="https://discord.gg/NSjyKFHRaf"
+                target="_blank"
+                aria-label="Discord"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Discord width={24} />
+              </Link>
+              <Link
+                href="https://www.reddit.com/r/collectioncards/"
+                target="_blank"
+                aria-label="Reddit"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Reddit width={24} />
+              </Link>
             </nav>
           </div>
           <p className="text-sm text-muted-foreground">
