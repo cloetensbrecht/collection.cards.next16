@@ -37,7 +37,7 @@ const Footer: React.FC = async () => {
 
   return (
     <footer
-      className="bg-background text-sm pb-8 pt-32"
+      className="bg-background text-sm pb-8 pt-24"
       role="contentinfo"
       aria-label="Site footer"
     >
