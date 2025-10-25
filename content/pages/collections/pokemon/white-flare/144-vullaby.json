@@ -1,0 +1,45 @@
+{
+  "_id": "33R1m7zvH3Ph7GElk8877wp3pqO",
+  "_type": "PokemonCard",
+  "_index": "b9M",
+  "title": "Vullaby",
+  "number": "144",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Vullaby",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EDmlHP2RduPNvSXu1BzmqoH26",
+    "_type": "entry",
+    "_entry": "33vYtz57L4fwpvIVtuPnqX0YjVv"
+  },
+  "card": {
+    "_id": "33R1nYTqUsyXXVQYsXUl0OffigA",
+    "_type": "image",
+    "_entry": "33QkgaJUVysE66NlYHdWg4duD11"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R1m7bzplEBoUrFpmefI4lW2s6",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EDntytE2mCdClDia7eHbOsJYR",
+        "_type": "image",
+        "_entry": "34BJ5ogEQqIj1oD9i8zccMtt1Jz"
+      },
+      "foil": {
+        "_id": "34EDoMysrlu8Z4CPAiwydIJ54m9",
+        "_type": "image",
+        "_entry": "34BJ5lIEHBV4BR1togy07RWWoNN"
+      }
+    }
+  ],
+  "isFullArt": true
+}

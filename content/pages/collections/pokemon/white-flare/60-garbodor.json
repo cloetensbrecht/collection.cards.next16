@@ -1,0 +1,70 @@
+{
+  "_id": "33Qs84FUkVFZqfOuPmOtNlbXYl1",
+  "_type": "PokemonCard",
+  "_index": "b6M",
+  "title": "Garbodor",
+  "number": "60",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Garbodor",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A8KMjOJhgNpug4ChQj3IbO120",
+    "_type": "entry",
+    "_entry": "33vZxSeSWkaSCUcDxgpVHj78xA8"
+  },
+  "card": {
+    "_id": "33Qs9ARzdQOsbige4wQbsuXjiZa",
+    "_type": "image",
+    "_entry": "33QkB33URumII4CwHFbADwJDrhS"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qs893ZX8jdGAAJCyVpnsnEbdO",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8LBaPWNDsRVrRIoX6g10EuSk",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A8OSIaoD6XYulzTPCX3KIUGA3",
+        "_type": "image",
+        "_entry": "34A8NrTGuckkhpeOAgzVI71qYHJ"
+      },
+      "foil": {
+        "_id": "34A8P4K0dZJFCBsbdiYM4Q6oiOS",
+        "_type": "image",
+        "_entry": "34A8NtDsXRsVitRpLx3R99M2B1C"
+      }
+    },
+    {
+      "_id": "34A8LiPEgik2r1a4Gh5xR2w1Yol",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8M6TOWqhhL7VuCOaFC0Mgipo",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

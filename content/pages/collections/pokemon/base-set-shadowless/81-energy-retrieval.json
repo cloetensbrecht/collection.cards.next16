@@ -1,0 +1,27 @@
+{
+  "_id": "30ogFljWLWgrf1htpBsiu6KC3Aq",
+  "_type": "PokemonCard",
+  "_index": "b0I",
+  "title": "Energy Retrieval",
+  "number": "81",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31CI5D0HpV9MS9rtcs4yn9PQDL4",
+    "_type": "image",
+    "_entry": "31A259pnqlyfi4EiMpeXG8m4po7"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

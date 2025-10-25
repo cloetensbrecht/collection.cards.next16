@@ -1,0 +1,45 @@
+{
+  "_id": "33QtinoOxDkET8y1KikDlW6KjdC",
+  "_type": "PokemonCard",
+  "_index": "b6d",
+  "title": "Hydreigon Ex",
+  "number": "67",
+  "edgeColor": "#97999b",
+  "rarity": "double-rare",
+  "cardtype": "pokemon",
+  "hp": 330,
+  "pokemon": "Hydreigon",
+  "energy": "darkness",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34A9ErThwmZyOmjwO6AHGwh7o2S",
+    "_type": "entry",
+    "_entry": "33vWmw98oNnKQtVa4Sd9tUkwdMW"
+  },
+  "card": {
+    "_id": "33QtkNx4TKb7SyvnuTWTu9QNyVJ",
+    "_type": "image",
+    "_entry": "33QkFB8Y1t7IFa8goQlzm44v9Uc"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QtiiHePT4TWs37V3AaMgF4UAz",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34A9HxFYVnww09A6GdCFOmQRwQh",
+        "_type": "image",
+        "_entry": "34A9Gk86nb2Gq89R15o8O32idJD"
+      },
+      "foil": {
+        "_id": "34A9IW2LGaAvo6uyU4Y2q4KSzW7",
+        "_type": "image",
+        "_entry": "34A9Gn1xQymmjN4p8mUiK8PVV4Y"
+      }
+    }
+  ],
+  "isEx": true
+}

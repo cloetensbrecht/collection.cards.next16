@@ -1,0 +1,77 @@
+{
+  "_id": "31wy3ij18qu0FJyD1FE9kJyktrY",
+  "_type": "PokemonCard",
+  "_index": "b6n",
+  "title": "Haxorus",
+  "number": "70",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 170,
+  "pokemon": "Haxorus",
+  "energy": "dragon",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33w00WgXNoCMgTINy4an15noyMi",
+    "_type": "entry",
+    "_entry": "33vYlZFevQisL14GcNtrhc5zmus"
+  },
+  "card": {
+    "_id": "31wy5UVNNgnX5M4oFrmpTtPXbPx",
+    "_type": "image",
+    "_entry": "31wtY40Uf0BaJ5JM185BU34Tcnm"
+  },
+  "variants": [
+    {
+      "_id": "31wy3iYvEXuOGXsQIdCdtTAqx2Z",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {
+        "_id": "31wyHb78va8IOuuqZv4VLm0oXDy",
+        "_type": "image",
+        "_entry": "31wyG4aLcD0oF4xJWGdrUChRU0v"
+      },
+      "foil": {
+        "_id": "31wyIF2zcuPkrbjh8JfixiYTvVA",
+        "_type": "image",
+        "_entry": "31wyG4URm7xo8liqKzDS4EcrEjT"
+      }
+    },
+    {
+      "_id": "31wy9vyl2UPgEs2SAoiRTu8gPvj",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wyJ3vJQgdUhOnGVz1uR9LHyAu",
+        "_type": "image",
+        "_entry": "31wyCj710AN3LfijW3b4zM8iVEm"
+      },
+      "foil": {
+        "_id": "31wyJnKIDFNyfzP4m5oN65wjo5r",
+        "_type": "image",
+        "_entry": "31wyCi5OOR3k9dRWapIhQw5zixv"
+      }
+    },
+    {
+      "_id": "31wyJxMAHxbJCGjzx2Tb2mawPgK",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wyL5qrUAh69725paXBfqmNUIB",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "33QxRB42Cd1rGEro3R7zLYMt7aF",
+  "_type": "PokemonCard",
+  "_index": "b7f",
+  "title": "Chandelure",
+  "number": "103",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Chandelure",
+  "energy": "fire",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34BWqsHYMd2quuvcmWnLYgkaU0u",
+    "_type": "entry",
+    "_entry": "34BWqKm9kK6wIvmBSUFyymxL35e"
+  },
+  "card": {
+    "_id": "33QxSTBgDNKpc8Mji6LXx5IhAj9",
+    "_type": "image",
+    "_entry": "33QkWkUr1pWx10irywy7u6FW6iF"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QxRAqHdlYtwVHnehN1EblNJF1",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BWrsjYGLxs6pTMQJ67nBFec7e",
+        "_type": "image",
+        "_entry": "34BItH5OECYbtHr1oNzZF1wXduP"
+      },
+      "foil": {
+        "_id": "34BWsH9Hx7jo9EuftUL0b7xdBvx",
+        "_type": "image",
+        "_entry": "34BItDx3cA8jeInbEKfLdundmZG"
+      }
+    }
+  ],
+  "isFullArt": true
+}

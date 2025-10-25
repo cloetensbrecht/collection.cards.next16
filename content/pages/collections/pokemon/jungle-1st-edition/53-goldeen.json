@@ -1,0 +1,30 @@
+{
+  "_id": "30qDlgtHDEjEgfRuZzGQknjAA51",
+  "_type": "PokemonCard",
+  "_index": "aq",
+  "title": "Goldeen",
+  "number": "53",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Goldeen",
+  "energy": "water",
+  "stage": "basic",
+  "card": {
+    "_id": "30qDmyX9J8zl6FF7FhHsNzccD28",
+    "_type": "image",
+    "_entry": "30q9C10vtkYnScSqYVfnqgEqQhf"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

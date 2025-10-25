@@ -1,0 +1,45 @@
+{
+  "_id": "33R0ifhmOWS5KiKPb7WwSsZoAZ8",
+  "_type": "PokemonCard",
+  "_index": "b8t",
+  "title": "Mienfoo",
+  "number": "133",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Mienfoo",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34ECmMC296IBCkk2njhVrpdodqQ",
+    "_type": "entry",
+    "_entry": "34EClt1MvHI3gZvTONV1BhzWRQS"
+  },
+  "card": {
+    "_id": "33R0jsib3swThMAJNKE0nA0YOFC",
+    "_type": "image",
+    "_entry": "33QkcIG8moTvBKYJnCfSt3MMDjC"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R0ijC5fBzc7z3qMvENE5KgSR4",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34ECn6XhvOOiQkQjJ7AOMZxCQkT",
+        "_type": "image",
+        "_entry": "34BJ5jr0hip2q0JAKa8wbRM0tH9"
+      },
+      "foil": {
+        "_id": "34ECnYqVGhq4UauYsJPX5oolrJc",
+        "_type": "image",
+        "_entry": "34BJ5kDZEQ93fFUBSCJCLkiU2iw"
+      }
+    }
+  ],
+  "isFullArt": true
+}

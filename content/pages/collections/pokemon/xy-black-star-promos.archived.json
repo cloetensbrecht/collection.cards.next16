@@ -1,0 +1,46 @@
+{
+  "_id": "2zpa06efemoszCRbkPpzwUJAh7g",
+  "_type": "PokemonSet",
+  "_index": "Z3V",
+  "title": "XY Black Star Promos",
+  "ptcgoCode": "PR-XY",
+  "releaseDate": "2013-09-30",
+  "generation": "VI",
+  "serie": "blackStarPromotionalCards",
+  "symbol": [
+    {
+      "_id": "2zpaeEkljptZCQxSIcXb1QzKr5O",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8bVGCQF6rikZoDKQNmAnuy"
+    }
+  ],
+  "logo": {
+    "_id": "2zyFMTHqRn9nIYGhYqMrfDW5fQT",
+    "_type": "image",
+    "_entry": "2zyFLQAjWvZQcVuGMB6kHVaNutc"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

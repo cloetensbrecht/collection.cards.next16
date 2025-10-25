@@ -1,0 +1,45 @@
+{
+  "_id": "33QyxuY3L4qxNUEQ4Wys0XskTC1",
+  "_type": "PokemonCard",
+  "_index": "b8D",
+  "title": "Joltik",
+  "number": "116",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Joltik",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EB78WjuFoFhHr8pgh4GXbgxqt",
+    "_type": "entry",
+    "_entry": "34EB6dYg46TmqKy3T1qB5F9EJ1Z"
+  },
+  "card": {
+    "_id": "33QyzPZ01UctSStOuP2QcItkA5K",
+    "_type": "image",
+    "_entry": "33QkWidN7cQyBS9s0HGu60dhkUF"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qyxyz1W0uM0tbgIJPINZgwNpu",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EB8IFPAPYu7VG4XTjFZqK5QVL",
+        "_type": "image",
+        "_entry": "34BItEGHn8jr3i1y94U9d5smCJB"
+      },
+      "foil": {
+        "_id": "34EB8u0xGpYy07WkWT66kHOI9AQ",
+        "_type": "image",
+        "_entry": "34BItDNkS9tyeOBX7d6TABXwTy8"
+      }
+    }
+  ],
+  "isFullArt": true
+}

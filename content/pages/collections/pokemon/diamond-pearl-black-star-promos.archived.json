@@ -1,0 +1,42 @@
+{
+  "_id": "2zpZtT60ZqPWtL6rAnho8hoouLb",
+  "_type": "PokemonSet",
+  "_index": "b0w",
+  "title": "Diamond & Pearl Black Star Promos",
+  "ptcgoCode": "DPP",
+  "releaseDate": "2007-05-01",
+  "generation": "IV",
+  "serie": "blackStarPromotionalCards",
+  "symbol": [
+    {
+      "_id": "2zpaguGfCnKRH6CCMwHestBnFlA",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8bVGCQF6rikZoDKQNmAnuy"
+    }
+  ],
+  "logo": {},
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

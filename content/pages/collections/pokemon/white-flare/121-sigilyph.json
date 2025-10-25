@@ -1,0 +1,45 @@
+{
+  "_id": "33QzTcF2mBZe41GPU5bQWm4TjWx",
+  "_type": "PokemonCard",
+  "_index": "b8O",
+  "title": "Sigilyph",
+  "number": "121",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Sigilyph",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EBiW7CYe0hwUm1c4h1hN7FLce",
+    "_type": "entry",
+    "_entry": "33vXBxUxY5WMrxi4fbLeK4KVLmp"
+  },
+  "card": {
+    "_id": "33QzUkVpDSXYZQ0GjadtQ2Lt6s9",
+    "_type": "image",
+    "_entry": "33QkcE5oCpqNN67MzDg9HmuCh11"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QzTfz71ZLXbUveGVYhE31EF8S",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EBjMDwKus3sGOrAjYpYm6dMtr",
+        "_type": "image",
+        "_entry": "34BItDooJDS6Jboq4dSggh3D0eN"
+      },
+      "foil": {
+        "_id": "34EBjsw1j3x9Bny0xy6TI3AIuok",
+        "_type": "image",
+        "_entry": "34BItBEtWFnK0xL0AWi6OasC41k"
+      }
+    }
+  ],
+  "isFullArt": true
+}

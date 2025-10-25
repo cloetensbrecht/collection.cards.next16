@@ -1,0 +1,44 @@
+{
+  "_id": "31zcc7dZ7WXHyWmk1EJCjJdO0Nc",
+  "_type": "PokemonCard",
+  "_index": "b7e",
+  "title": "Panpour",
+  "number": "101",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Panpour",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vz0BW0LjRpPygxuBQ2BlsiP13",
+    "_type": "entry",
+    "_entry": "33vaB2oY7ZeHfijDZABDx1YZP3R"
+  },
+  "card": {
+    "_id": "31zceAM0f2Ub5iFUxatVVhR2JDV",
+    "_type": "image",
+    "_entry": "31zcX34w1gmYZ9dKQvFOpFb72n2"
+  },
+  "variants": [
+    {
+      "_id": "31zcc25xmU451G8HZE1IoKzdrvP",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zcgYXTKFLOZKbwQbkM82u7tZh",
+        "_type": "image",
+        "_entry": "31zcaY0Id6XF6AJfOyLr6qjLy0d"
+      },
+      "foil": {
+        "_id": "31zchLI3IG6rNLRwRDeK5Oi9B9c",
+        "_type": "image",
+        "_entry": "31zcaYOe9fXUHRsTQN4m74IiLBI"
+      }
+    }
+  ],
+  "isFullArt": true
+}

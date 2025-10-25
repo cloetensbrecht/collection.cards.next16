@@ -1,0 +1,45 @@
+{
+  "_id": "33QwpraBSGYvOCuFbH45VL9qVlU",
+  "_type": "PokemonCard",
+  "_index": "b0Y",
+  "title": "Pignite",
+  "number": "97",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Pignite",
+  "energy": "fire",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34BW7JMomDsyrpe1JfbS1Z1LyHh",
+    "_type": "entry",
+    "_entry": "34BW6umcGPLgjNs7xRFil1MkUb3"
+  },
+  "card": {
+    "_id": "33Qwr0EsPn4q5HX8YDPHOIBKqPC",
+    "_type": "image",
+    "_entry": "33QkSA3w01hCBRHhzABeJmIunUz"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QwprA4zJTzmGQz0Msh6pEYpSk",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BWFjd8TvIvdp2nBy9EBJH40UD",
+        "_type": "image",
+        "_entry": "34BIk6ZjhgqNAdxKURasFhO4gkm"
+      },
+      "foil": {
+        "_id": "34BWGIdo9TKzNgn2HL3Z40EGwGV",
+        "_type": "image",
+        "_entry": "34BIk5RIkq19SFrWHiEApegh41V"
+      }
+    }
+  ],
+  "isFullArt": true
+}

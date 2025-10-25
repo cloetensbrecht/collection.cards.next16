@@ -1,0 +1,69 @@
+{
+  "_id": "31olJg4LndBjMHMgwA1dEpZ6NB8",
+  "_type": "PokemonCard",
+  "_index": "b3r",
+  "title": "Tirtouga",
+  "number": "22",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Tirtouga",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w1M6vKJQBNVzHUpKZp49o7VYr",
+    "_type": "entry",
+    "_entry": "33vXZdai5YlKTpVz9murSbKzPZg"
+  },
+  "card": {
+    "_id": "31olM5o1DjFKs5R3KiLciltHQd1",
+    "_type": "image",
+    "_entry": "31oiF7iFjPKsKW1YiZnt1aXOr3x"
+  },
+  "variants": [
+    {
+      "_id": "31olJfrEg9J4Vd6vpBvhdaELIVs",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31olUGQ9c7QYaQpQT5iOaUVg6Ri",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31olcpO4sPjSDmHJezqBHnHjlRa",
+        "_type": "image",
+        "_entry": "31olbTpyEhrIpxEwEoHr8lCmCYF"
+      },
+      "foil": {
+        "_id": "31oldaL7yhfAJqyYs5WON26MfpP",
+        "_type": "image",
+        "_entry": "31olbT4cBjaXJzKH6T8MqvdoHfP"
+      }
+    },
+    {
+      "_id": "31olUqfMkNlltcrRkAziGQuVCRo",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31olVo9PWbsFuX7ZcPa9FpOorTp",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

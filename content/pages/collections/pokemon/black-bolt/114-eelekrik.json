@@ -1,0 +1,44 @@
+{
+  "_id": "320BzrjXtYT8FQ1e2E5LU55k4c7",
+  "_type": "PokemonCard",
+  "_index": "b8C",
+  "title": "Eelekrik",
+  "number": "114",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Eelektrik",
+  "energy": "lightning",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vyZz5tSmHP85DMnBPPGXxeNBk",
+    "_type": "entry",
+    "_entry": "33vXFtQdeH0f1XVOXsWkr39Jnac"
+  },
+  "card": {
+    "_id": "320C1eJvTLZDLvw5ogD2MMaIinN",
+    "_type": "image",
+    "_entry": "320Ak4tbSKu7NOoI0Y9Kt0GCjdn"
+  },
+  "variants": [
+    {
+      "_id": "320BzuKC0gUMtCk7XQxvDGYudNI",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320C4MrDcpIM67rNlfjhg4rDicb",
+        "_type": "image",
+        "_entry": "320BxcTwRsAqOz7ugCDBmKCvadY"
+      },
+      "foil": {
+        "_id": "320C4uDO3GH1aNh6B9zwvhipQIn",
+        "_type": "image",
+        "_entry": "320BxZMNjKZ6vdWAcDhr3I1E46X"
+      }
+    }
+  ],
+  "isFullArt": true
+}

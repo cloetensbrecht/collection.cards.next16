@@ -1,0 +1,69 @@
+{
+  "_id": "31ww2XPlt8EhbFjGvrg1v1r5ILU",
+  "_type": "PokemonCard",
+  "_index": "b6c",
+  "title": "Bisharp",
+  "number": "65",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Bisharp",
+  "energy": "metal",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w08rt1NH0bt2aS7YlXCsJka4g",
+    "_type": "entry",
+    "_entry": "33vYdQzloWTV17Bc5QfwG27zmT7"
+  },
+  "card": {
+    "_id": "31ww4wOo0Qi7lbaNdbPjGDYJpee",
+    "_type": "image",
+    "_entry": "31wtY3AUIAt8IZgk2vmRUCiCs1T"
+  },
+  "variants": [
+    {
+      "_id": "31ww2Rt0asRoFcxcsTuAah1AJmU",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wwAL3TGZQM7hsnmXk9xun8vVr",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wwDCp0QF6oMj4csufFxiaH39C",
+        "_type": "image",
+        "_entry": "31ww9cgPmIPotpLOkkXs3ASE17Y"
+      },
+      "foil": {
+        "_id": "31wwDvLM3oJCPC905IOp10xYrZw",
+        "_type": "image",
+        "_entry": "31ww9d8vmigdSzyuxMnrGIL67rK"
+      }
+    },
+    {
+      "_id": "31wwEFyuVhIksC7Je1tLUt7q7cB",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wwF8GMQRNVkDY6JEWOIGQbCYA",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "31QZwrZ2s1c59YYD83J5HgKXGsd",
+  "_type": "PokemonSet",
+  "_index": "a6",
+  "title": "Team Rocket (Unlimited)",
+  "number": 5,
+  "ptcgoCode": "TR",
+  "releaseDate": "2000-04-24",
+  "generation": "I",
+  "serie": "originalSeries",
+  "symbol": [
+    {
+      "_id": "2zpNgortvpnfvBVph9aAEey6KPw",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe83Hk7MIVVe4h8Jt0coxbK3"
+    }
+  ],
+  "logo": {
+    "_id": "2zoxZeGJIET6eLdispVdnxrMMd5",
+    "_type": "image",
+    "_entry": "2zowiqthsPM8oOllvczjj9BI82F"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

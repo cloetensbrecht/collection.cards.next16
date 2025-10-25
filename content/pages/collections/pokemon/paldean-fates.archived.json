@@ -1,0 +1,47 @@
+{
+  "_id": "2zpAlehhvRjpT0WpvyT1JeCznQ6",
+  "_type": "PokemonSet",
+  "_index": "aW",
+  "title": "Paldean Fates",
+  "number": null,
+  "ptcgoCode": "PAF",
+  "releaseDate": "2024-01-26",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zpLbcCqLFHHIbx8IcCJMeQ4BGC",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe6pf9vzWW4PQstPW8JcRJlT"
+    }
+  ],
+  "logo": {
+    "_id": "2zpLcC4yEMouI9pbgEM4GWAoHWA",
+    "_type": "image",
+    "_entry": "2zowiuboLinsl47hZCH1gCYmL96"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

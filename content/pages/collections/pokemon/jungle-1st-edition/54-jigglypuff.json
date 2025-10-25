@@ -1,0 +1,30 @@
+{
+  "_id": "30qDqDTbJIZ6exDN4GBBvxUBZIW",
+  "_type": "PokemonCard",
+  "_index": "ar",
+  "title": "Jigglypuff",
+  "number": "54",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Jigglypuff",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "30qDrdCtfXBB41Gqcbd9NqXrHML",
+    "_type": "image",
+    "_entry": "30q9Bz4TwotytMvABUDxTsIlzxG"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

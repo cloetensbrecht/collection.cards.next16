@@ -1,0 +1,30 @@
+{
+  "_id": "30qECnYblI9zRIZZ0zHrow46lmV",
+  "_type": "PokemonCard",
+  "_index": "av",
+  "title": "Oddish",
+  "number": "58",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Oddish",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "30qEE2ECZmDMJK4L7uDeTFSQF7P",
+    "_type": "image",
+    "_entry": "30q9C120tRIiIVfaTbTSemEsCfc"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

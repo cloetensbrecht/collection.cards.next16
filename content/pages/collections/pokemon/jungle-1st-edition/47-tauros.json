@@ -1,0 +1,30 @@
+{
+  "_id": "30qDIZPV4k7NE0o274wP2hpYa82",
+  "_type": "PokemonCard",
+  "_index": "b5f",
+  "title": "Tauros",
+  "number": "47",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Tauros",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "30qDJgZUe3ffFS5pNN8m8h0WhYy",
+    "_type": "image",
+    "_entry": "30q9C36Goc3PsfSyE2RGRaXTK3g"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

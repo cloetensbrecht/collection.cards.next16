@@ -1,0 +1,30 @@
+{
+  "_id": "311b1H3g71kQt772vNLmNBZ4WrT",
+  "_type": "PokemonCard",
+  "_index": "a5",
+  "title": "Gyarados",
+  "number": "6",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Gyarados",
+  "energy": "water",
+  "stage": "stage1",
+  "card": {
+    "_id": "31MIJejNZR8u2LHjBCqKReLf52j",
+    "_type": "image",
+    "_entry": "31MIGnnMhCNoKMO2QHV61Ne0Kan"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

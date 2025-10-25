@@ -1,0 +1,25 @@
+{
+  "_id": "2zvNOeFTeCNhW5168NTEgXDgWeh",
+  "_type": "PokemonSet",
+  "_index": "b2Y",
+  "title": "POP Series 8",
+  "ptcgoCode": "POP8",
+  "releaseDate": "2008-09-01",
+  "generation": "IV",
+  "serie": "popSeries",
+  "symbol": [
+    {
+      "_id": "2zvNQgTNweXENLT7biy9C32wmPk",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zvK0K9ExZ2xZCjPYH4Xp79Cs63"
+    }
+  ],
+  "logo": {
+    "_id": "2zvNRC2XwrC9tbL7OcbYTmTFyrc",
+    "_type": "image",
+    "_entry": "2zvKEqF9YEjyHjHWMbj5xrLh5oP"
+  },
+  "rarity": {},
+  "energy": {}
+}

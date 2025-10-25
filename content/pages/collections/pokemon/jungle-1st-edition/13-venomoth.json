@@ -1,0 +1,30 @@
+{
+  "_id": "30qAQEx3xPynTTF0GEdVQD8RvI0",
+  "_type": "PokemonCard",
+  "_index": "b2J",
+  "title": "Venomoth",
+  "number": "13",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Venomoth",
+  "energy": "grass",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qARqKHyhhloWVRLFCa2Y3QO92",
+    "_type": "image",
+    "_entry": "30q9C0jgdOjfGSmGwRPtzaTeCQ1"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

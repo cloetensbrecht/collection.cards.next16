@@ -1,0 +1,44 @@
+{
+  "_id": "31zXvN5ghvSJ3fzfyda6SIby9v0",
+  "_type": "PokemonCard",
+  "_index": "b7I",
+  "title": "Servine",
+  "number": "88",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Servine",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vzOu5z0RGlZbrS1uBCsFlDpVC",
+    "_type": "entry",
+    "_entry": "33vZdJbDdd4rJZqm2Jo5GtNn7IL"
+  },
+  "card": {
+    "_id": "31zXyVLRFvnuJQQg5oQUnt4EfH0",
+    "_type": "image",
+    "_entry": "31yUZ2SyIZ39v3tlKAt0xA2O9b7"
+  },
+  "variants": [
+    {
+      "_id": "31zXvNPVI29YPtzo3c4P3o3VqbL",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zY4VdQMPP50HlVRTpXsKXD3Wo",
+        "_type": "image",
+        "_entry": "31zXwxBeu9iyj3RFfSwqGgsAB1y"
+      },
+      "foil": {
+        "_id": "31zY5fZvpI8COLwToHIudoccX8J",
+        "_type": "image",
+        "_entry": "31zXwsFQSU4rtFQ3CZCnp41bQHi"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "33QnhFOi6B9v34lgOr5ZVpOUrzq",
+  "_type": "PokemonCard",
+  "_index": "b3t",
+  "title": "Basculin",
+  "number": "24",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Basculin",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349wDeGx9NJSo3DleLfsbhGblpq",
+    "_type": "entry",
+    "_entry": "33vaLpCKAF8vbVpKm16XKctYSjv"
+  },
+  "card": {
+    "_id": "33QnjF8ZTwRvb0Ih8ou237LSAJp",
+    "_type": "image",
+    "_entry": "33Qje1BGffLvXJAjH9psBft2qAd"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QnhCg71ccJd2NsoXEECj80FJi",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349wFDkM0T2EAARk2SXb0rgJJMx",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349wLUnQR0nORD1R7MrbhhIWnIR",
+        "_type": "image",
+        "_entry": "349wKNNW0aRS3Lyzj4sbmhOTHWI"
+      },
+      "foil": {
+        "_id": "349wM9brxVaKqeMwk5PaOuFnlUt",
+        "_type": "image",
+        "_entry": "349wKRPrgYVuKWXwHKw8xPtKaPC"
+      }
+    },
+    {
+      "_id": "349wFbbUsNk1ryfwY1EkXNtUPBs",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349wG62yxOu3FrCyppv9MnCsgjr",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

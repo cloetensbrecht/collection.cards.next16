@@ -1,0 +1,47 @@
+{
+  "_id": "2zp9FmA2rippj2Ab8yG3Nd5sQGC",
+  "_type": "PokemonSet",
+  "_index": "ao",
+  "title": "Chilling Reign",
+  "number": 88,
+  "ptcgoCode": "CRE",
+  "releaseDate": "2021-06-18",
+  "generation": "VIII",
+  "serie": "swordShieldSeries",
+  "symbol": [
+    {
+      "_id": "2zpLtnOu5GilSiQ1RNdhOR7BsmD",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe6vUJ6cwUB5KlpKiKocX0f6"
+    }
+  ],
+  "logo": {
+    "_id": "2zp9JVSLwivmJtWV8Oo6wxF8equ",
+    "_type": "image",
+    "_entry": "2zowiq9BW72NuCBKVz5F1Pumcxn"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

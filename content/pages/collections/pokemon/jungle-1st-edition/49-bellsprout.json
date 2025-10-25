@@ -1,0 +1,30 @@
+{
+  "_id": "30qDSp20zpVdqDQvs3OnWPCeNXj",
+  "_type": "PokemonCard",
+  "_index": "b5o",
+  "title": "Bellsprout",
+  "number": "49",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Bellsprout",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "30qDU9gGD5jf3O4nE10LmZeP76o",
+    "_type": "image",
+    "_entry": "30q9C4PCdR8do6GCnPXvnnQBC9r"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

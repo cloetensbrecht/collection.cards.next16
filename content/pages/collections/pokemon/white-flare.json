@@ -1,0 +1,41 @@
+{
+  "_id": "2zvQn39R0a0BrwvW0MLrIqz5yFg",
+  "_type": "PokemonSet",
+  "_index": "Yz2l",
+  "title": "White Flare",
+  "number": 105,
+  "ptcgoCode": "WHT",
+  "releaseDate": "2025-07-18",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zvQtLkdfzVWkB25CSyKtI4tHo5",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpKs9OLUWSL52cojXO0ixd5T9c"
+    }
+  ],
+  "logo": {
+    "_id": "33uegnalqAjci1RaU0MvqqlBC24",
+    "_type": "image",
+    "_entry": "33uee3uvtk4XTDNy6SROzsYaFET"
+  },
+  "heroImage": {
+    "_id": "34QD2Mtxn6Wtu69iwiwUvsbDd98",
+    "_type": "image",
+    "_entry": "34QCxXEiTu7ANXVH87CcB7loReC"
+  },
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "White Flare is a fire-themed expansion centered around Reshiram, featuring powerful Fire-type Pokémon, energy acceleration mechanics, and abilities that focus on high damage and fast-paced play. It brings intense offensive strategies and striking new artwork to the forefront of the game."
+        }
+      ]
+    }
+  ],
+  "cta_button": "Unleash White Flare"
+}

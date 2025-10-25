@@ -1,0 +1,27 @@
+{
+  "_id": "31aKFdkToXHiMLOCJNsxylAV3jW",
+  "_type": "PokemonCard",
+  "_index": "b0S",
+  "title": "Energy Removal",
+  "number": "92",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31aKHPyLX674dkoQeA3qOhMq8I8",
+    "_type": "image",
+    "_entry": "31aKA6xdrIERH68G39esq7sZT7p"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

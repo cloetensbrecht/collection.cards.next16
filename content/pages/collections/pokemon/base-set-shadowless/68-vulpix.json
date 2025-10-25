@@ -1,0 +1,30 @@
+{
+  "_id": "30oekOBYbu0jNbbzkqtyFnLUHbt",
+  "_type": "PokemonCard",
+  "_index": "b05",
+  "title": "Vulpix",
+  "number": "68",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Vulpix",
+  "energy": "fire",
+  "stage": "basic",
+  "card": {
+    "_id": "31CId93PHAUiX9OromsLuVWVaMI",
+    "_type": "image",
+    "_entry": "31A25E3tPoFT4uaW4v0Qrj2K22y"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

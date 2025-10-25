@@ -1,0 +1,47 @@
+{
+  "_id": "2zp07WLh0ORYZnpATBIIiY2CmUn",
+  "_type": "PokemonSet",
+  "_index": "b13",
+  "title": "EX Unseen Forces",
+  "number": 25,
+  "ptcgoCode": "UF",
+  "releaseDate": "2005-08-22",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNGwbHT5gn3VbtePyvUGbnN9t",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe26NwJ51CepQCOLsHr6JP5l"
+    }
+  ],
+  "logo": {
+    "_id": "2zp0BCWm5Bx4z8sjRQZn86SaAzk",
+    "_type": "image",
+    "_entry": "2zowiu85LkDh4k6fC7kd1Yu0TyD"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

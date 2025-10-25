@@ -1,0 +1,27 @@
+{
+  "_id": "31Yw9GiUONopiXJ62HJca00WE7S",
+  "_type": "PokemonCard",
+  "_index": "b08",
+  "title": "Devolution Spray",
+  "number": "72",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31YwAnl9VtzYG9RgHGdJG09tS3S",
+    "_type": "image",
+    "_entry": "31Yw6e7xfUmDIlFRcoq6g69lmKk"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

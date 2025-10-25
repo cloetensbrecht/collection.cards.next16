@@ -1,0 +1,46 @@
+{
+  "_id": "2zpB4Lfa7HMgGVChjKNDNgMOXPd",
+  "_type": "PokemonSet",
+  "_index": "aT",
+  "title": "Shrouded Fable",
+  "ptcgoCode": "SFA",
+  "releaseDate": "2024-08-02",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zpLXOKUwYrIdIkbFDSf249oDeV",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe3PA5p3I6IYg9InlFhwano6"
+    }
+  ],
+  "logo": {
+    "_id": "2zpB7Wk4NUJcYTd36fJXZnEBr6Y",
+    "_type": "image",
+    "_entry": "2zowipMJEqUwyGlGqKn5syjKNpp"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

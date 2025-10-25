@@ -1,0 +1,47 @@
+{
+  "_id": "2zpBLg5QTbDah3bZn1EL7qsWJNt",
+  "_type": "PokemonSet",
+  "_index": "aP",
+  "title": "Prismatic Evolutions",
+  "number": null,
+  "ptcgoCode": "PRE",
+  "releaseDate": "2025-01-17",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zpLTliNzDPy4dgX6CgTBAp3mV6",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe60xNkLRwSEFhukQyE424Q7"
+    }
+  ],
+  "logo": {
+    "_id": "2zpBQknkLiBbtjk5QAmMnuiRAGJ",
+    "_type": "image",
+    "_entry": "2zowipMGIs4mMOSwWqtwh10yaEt"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

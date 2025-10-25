@@ -1,0 +1,30 @@
+{
+  "_id": "30obhcrICIWKJQGts0nyEHpWB3r",
+  "_type": "PokemonCard",
+  "_index": "ab",
+  "title": "Poliwhirl",
+  "number": "38",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Poliwhirl",
+  "energy": "water",
+  "stage": "stage1",
+  "card": {
+    "_id": "30obiqHKtmx43PbBCVBpj81adqc",
+    "_type": "image",
+    "_entry": "30oJl9sRccFGo0hKgR1KF4WtqjS"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

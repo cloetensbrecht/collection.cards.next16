@@ -1,0 +1,46 @@
+{
+  "_id": "2zpAZtfNFSOHo3Gcy4zX87Wdi9A",
+  "_type": "PokemonSet",
+  "_index": "aY",
+  "title": "151",
+  "number": null,
+  "ptcgoCode": "MEW",
+  "releaseDate": "2023-09-22",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zpAdaf6pfRUyiJLtuYGzUmvDn1",
+      "_type": "image",
+      "_entry": "2zowe9g6ipOwPJiGrAAUkhfp1Mv"
+    }
+  ],
+  "logo": {
+    "_id": "2zpAe7bPNESr1QnJmCpQRmxSg0Q",
+    "_type": "image",
+    "_entry": "2zowit5UogLaSSDVXoOZkGF1bQ0"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

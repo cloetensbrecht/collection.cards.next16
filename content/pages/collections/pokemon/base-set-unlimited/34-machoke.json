@@ -1,0 +1,30 @@
+{
+  "_id": "31Y9QXC3duMbM4XzYsivSyoUZ6h",
+  "_type": "PokemonCard",
+  "_index": "aX",
+  "title": "Machoke",
+  "number": "34",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Machoke",
+  "energy": "fighting",
+  "stage": "stage1",
+  "card": {
+    "_id": "31Y9S9qr8tjcNCj0gjlB3wrBkPT",
+    "_type": "image",
+    "_entry": "31Y9O2DRFnIZgLrg3bnYgJHieGa"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

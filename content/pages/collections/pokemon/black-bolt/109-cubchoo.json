@@ -1,0 +1,44 @@
+{
+  "_id": "320B31qrm2ZnLRlV3FODX5vftKU",
+  "_type": "PokemonCard",
+  "_index": "b80",
+  "title": "Cubchoo",
+  "number": "109",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Cubchoo",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vyiylddNhBS6MNVYDV2FOLstI",
+    "_type": "entry",
+    "_entry": "33vabllU8Ul1mQxWJnYO2UvxZiq"
+  },
+  "card": {
+    "_id": "320B5I99tyg3gz25sE52ylAwfYB",
+    "_type": "image",
+    "_entry": "320Ak3Oi1cMlf8gfR5scaHg9APO"
+  },
+  "variants": [
+    {
+      "_id": "320B31cveJqF0Kqra4Iglf9qOcZ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320B7gcnVVKWzJPH6RbNQtkxEE8",
+        "_type": "image",
+        "_entry": "320ApxYtDT28rlAOQcjeBDtzWQU"
+      },
+      "foil": {
+        "_id": "320B8XjEWNR4JeFZfYikbcvBEXQ",
+        "_type": "image",
+        "_entry": "320ApwnjHEMPsAeXO6LhPhSSNCD"
+      }
+    }
+  ],
+  "isFullArt": true
+}

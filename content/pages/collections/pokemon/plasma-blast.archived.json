@@ -1,0 +1,47 @@
+{
+  "_id": "2zp4sUApaeumjRHb7c0o6CsiRcl",
+  "_type": "PokemonSet",
+  "_index": "b0T",
+  "title": "Plasma Blast",
+  "number": 57,
+  "ptcgoCode": "PLB",
+  "releaseDate": "2013-08-14",
+  "generation": "V",
+  "serie": "blackWhiteSeries",
+  "symbol": [
+    {
+      "_id": "2zpMhoGiraZPjcFLPT84trrfARy",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8S21hlV2V1qGis4Vu7fPIZ"
+    }
+  ],
+  "logo": {
+    "_id": "2zp4x40aUHzKe4LPpO34tsuHjF1",
+    "_type": "image",
+    "_entry": "2zowiqHlBFkc2id32p2LxNMWrGy"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

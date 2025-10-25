@@ -1,0 +1,70 @@
+{
+  "_id": "33QsloQcq1CfzeiSHNcyEK58xVW",
+  "_type": "PokemonCard",
+  "_index": "b6Z",
+  "title": "Deino",
+  "number": "65",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Deino",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A8yslqTwQKskSpqjqCXSzB3WD",
+    "_type": "entry",
+    "_entry": "34A8yhIIpiCaHD8vB0u1Wz9JMJB"
+  },
+  "card": {
+    "_id": "33Qsmw3WjnPVHrVH5JbRkqiCQra",
+    "_type": "image",
+    "_entry": "33QkFAVbmm4L3Y8RU6zt4LdAfCc"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QslnHVuO552GC8TitMG4wuIWc",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A904hiTgORaKi1KQb4H4icy5Y",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A93LMcrAT4SKUQTxU0CGvxXMo",
+        "_type": "image",
+        "_entry": "34A92Vs124nqhldLei4PgClvL3v"
+      },
+      "foil": {
+        "_id": "34A93nBfp0XNBNgCUMFR7xTKDlr",
+        "_type": "image",
+        "_entry": "34A92affmWakLkhmtuPwzkeSBgb"
+      }
+    },
+    {
+      "_id": "34A90MoWL3sJwQkRBrljFBsIcIc",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A90yDK1UFCCNVUhjqMRsl5o46",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

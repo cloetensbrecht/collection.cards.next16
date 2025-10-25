@@ -1,0 +1,44 @@
+{
+  "_id": "320K6NIiVImk7Q9YDPtrNJKti7f",
+  "_type": "PokemonCard",
+  "_index": "b8X",
+  "title": "Golurk",
+  "number": "123",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 160,
+  "pokemon": "Golurk",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vyJPBmZ9UDNbQhHLJpzlVB31a",
+    "_type": "entry",
+    "_entry": "33vYCHr1eRfKbjcW34SJd26wMUg"
+  },
+  "card": {
+    "_id": "320K8j7IGQTiSBlBZHxLKfHpLYy",
+    "_type": "image",
+    "_entry": "320FBSpUzc6zBXPrTfGDHHGIBoD"
+  },
+  "variants": [
+    {
+      "_id": "320K6Pl0g1wxVt4Ew7wn3PFUGFs",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320KBNEhBqSksUYQQGgOg2TblaK",
+        "_type": "image",
+        "_entry": "320K3bAOUb3ioK42DeIfJIOfgmc"
+      },
+      "foil": {
+        "_id": "320KCB2reVkBHLfcys6UcLL57gm",
+        "_type": "image",
+        "_entry": "320K3ci48RsfpthUm0aDMFfwo92"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "33QliJNhCZC7CS5HnnRWq789yXF",
+  "_type": "PokemonCard",
+  "_index": "b2E",
+  "title": "Pignite",
+  "number": "12",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Pignite",
+  "energy": "fire",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "349rsuyWFnw2i8wTYd1EnVn8bXN",
+    "_type": "entry",
+    "_entry": "349r15HPSoIebKPFp8gePJa02Ns"
+  },
+  "card": {
+    "_id": "33QlltOhKuz719DZvAs92mLyjO4",
+    "_type": "image",
+    "_entry": "33Qja63v48VlaKl2HdQvBXKD1wn"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QliPo4OIWnUI6dOdelXIu1Oap",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349rvItnbvUm75cgMbLyEQcaLfq",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349s0S0Thu9s0eB3vMD2BbkFx1e",
+        "_type": "image",
+        "_entry": "349rzH9gzmfMIb8tDm6Anrjqc4X"
+      },
+      "foil": {
+        "_id": "349s19B7Wa4xlik5AZ88Au0vf4M",
+        "_type": "image",
+        "_entry": "349rzM00D7M9LqhKjQd5REC3JhF"
+      }
+    },
+    {
+      "_id": "349rvtwrgbBPQyEWjRLGD2lEkkm",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349rwZbV2cCHo4H1BvNTS5GBKFM",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

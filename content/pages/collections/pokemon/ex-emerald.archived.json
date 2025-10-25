@@ -1,0 +1,47 @@
+{
+  "_id": "2zp01qS0zdcPhNAIanLkQnudbE7",
+  "_type": "PokemonSet",
+  "_index": "b14",
+  "title": "EX Emerald",
+  "number": 24,
+  "ptcgoCode": "EM",
+  "releaseDate": "2005-05-09",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNI5efkUImPH8r6ehk2klXnvm",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe5mJ3BTSxleuII7n39EbAug"
+    }
+  ],
+  "logo": {
+    "_id": "2zp04ninHIYhLKgmAE7yosVvyRw",
+    "_type": "image",
+    "_entry": "2zowivIO8bMcFqG9HT2X0KIDd0P"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

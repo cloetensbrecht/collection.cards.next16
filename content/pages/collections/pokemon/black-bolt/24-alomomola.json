@@ -1,0 +1,69 @@
+{
+  "_id": "31onYXuU3vncDhIT7DjKOIm9pbi",
+  "_type": "PokemonCard",
+  "_index": "b43",
+  "title": "Alomomola",
+  "number": "24",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Alomomola",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1J9eRq6PsoO6O7shNC22Y4W0",
+    "_type": "entry",
+    "_entry": "33vXcM15PedMEYsHlvXWD9bbCSX"
+  },
+  "card": {
+    "_id": "31onaWc3pAEeQsXMN4y9aFsnWsJ",
+    "_type": "image",
+    "_entry": "31oiF6FlLpwYeexJyR8grcscg0h"
+  },
+  "variants": [
+    {
+      "_id": "31onYb9f9JYZNgy9qLEBgiQP8SR",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31ooS8VCi5UaM6pxxS3zGyJON25",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31ooTVpXV7DN5MBwS0gY4oRbrBB",
+        "_type": "image",
+        "_entry": "31omp8rcGuuWYNIx4khsBCzMXZX"
+      },
+      "foil": {
+        "_id": "31ooUUaZ9tezicoJa0p3BLP0fAF",
+        "_type": "image",
+        "_entry": "31ompDo10o6cxTYbTyJRs8LUgAU"
+      }
+    },
+    {
+      "_id": "31ooWTUugsZxbuZ8dWp7QrzQVlF",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31ooXJbNe2tylk5EHLzSVUIhHbo",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

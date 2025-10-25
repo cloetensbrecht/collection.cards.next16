@@ -1,0 +1,57 @@
+{
+  "_id": "31yW0BYhHZRDhxFBLObAH3JJxRl",
+  "_type": "PokemonCard",
+  "_index": "b7D",
+  "title": "Pokégear 3.0",
+  "number": "84",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "subtype": "item",
+  "illustrator": {
+    "_id": "33vzYl6R3ePtQAGixkJ1bX1QAjR",
+    "_type": "entry",
+    "_entry": "33vZGqAhMVeaMz9R4gLoz8dBmSI"
+  },
+  "card": {
+    "_id": "31yW4uzKTRv4nES7zWihDrlCpWj",
+    "_type": "image",
+    "_entry": "31yUYyL7fvPqZ0Cn0rDeq83reFt"
+  },
+  "variants": [
+    {
+      "_id": "31yW0A5b6IuureflGVorgWUHnkR",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31yWA5DW0u4rIJ6Y61wxPX2Q7Y3",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31yWFNzPDoLWOea7Cs7LeIFh08Y",
+        "_type": "image",
+        "_entry": "31yWDmnIkdBMeK8TgJPvGRnFWce"
+      },
+      "foil": {
+        "_id": "31yWG8q34BNOXCztFHfDhqMCxd5",
+        "_type": "image",
+        "_entry": "31yWDrz2Ww5wHpb1j1uytLYOkfl"
+      }
+    },
+    {
+      "_id": "31yWAfdNHA6udXAOVT4EU0x5KE9",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "33QrjcSZXyuaZBX7XiiMlxMjOf7",
+  "_type": "PokemonCard",
+  "_index": "b6A",
+  "title": "Liepard",
+  "number": "56",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Liepard",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A7oKuN0FY5NRY1snjC2FDapDj",
+    "_type": "entry",
+    "_entry": "33vZJOti7WXEFhja1ECral3WpcT"
+  },
+  "card": {
+    "_id": "33QrlMR7LylOf2ELNocvvGqDfHL",
+    "_type": "image",
+    "_entry": "33QkB8cNZ89ayAr0XmR3qD5e5F5"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QrjaW2HL4rWXcGoZ79Pm3U1uX",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A7r8WBMNSffyEvUV5KQ034fjg",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A7vO6TL7Ia9snCiDGwGvlAJIa",
+        "_type": "image",
+        "_entry": "34A7ueSqX5fEELtq0kcvbvaK4lI"
+      },
+      "foil": {
+        "_id": "34A7vz96smEOgDaOtyTLpjvOWCz",
+        "_type": "image",
+        "_entry": "34A7uhja9UYphDGbnyDe5w1a7pP"
+      }
+    },
+    {
+      "_id": "34A7s5Dl0D1IyM607BEDakBGIbb",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A7sgDzsF7DYpN121aYIalw93i",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "33Qq6n4Mkx9Gfbpqfe0hGPCRYQx",
+  "_type": "PokemonCard",
+  "_index": "b5G",
+  "title": "Gothita",
+  "number": "41",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Gothita",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A0czguyl9xgIMZvzEijQXZrnC",
+    "_type": "entry",
+    "_entry": "34A0cD790SHRPbh2bKn6bfTcDeC"
+  },
+  "card": {
+    "_id": "33Qq8D5VxsRnVLQP7LzWrBeQazj",
+    "_type": "image",
+    "_entry": "33Qk4ZP1L8N2tPPqkBHb8wPZavU"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qq6pFaFHo7FEpDBi5lM3hEctZ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A0ff7jgM8JhYrAHbMM7Pec5F3",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A0jeJqua5G0tbBEjzKAXcAQEh",
+        "_type": "image",
+        "_entry": "34A0iZSpvbp7gA8w4ucvsTBfAT0"
+      },
+      "foil": {
+        "_id": "34A0kRaW3mGqNmUafi3EzZL3Dto",
+        "_type": "image",
+        "_entry": "34A0iahhrq0eaaLfvkOFnZzt6Ov"
+      }
+    },
+    {
+      "_id": "34A0g9AxuI2hd7aiEogMORKbyE6",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A0gdo2FjPLIKasvO8BpzcVGve",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "33R25U3lp3cfRayIQNGWuHq4U65",
+  "_type": "PokemonCard",
+  "_index": "b9T",
+  "title": "Zweilous",
+  "number": "147",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Zweilous",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EDyTXsOkkR7gZAZeSVTsjzoRF",
+    "_type": "entry",
+    "_entry": "33vXiJQnuDURy2I44vdKnsrhhlA"
+  },
+  "card": {
+    "_id": "33R26agQnSyWRgfq3svyUCEELos",
+    "_type": "image",
+    "_entry": "33QkgdTPdy8RhTmlQd7txAiSksl"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R25UG9DdzBcmBSeKniknssFuY",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EDzYP0WKOxKRUYlXTbkM2JzhL",
+        "_type": "image",
+        "_entry": "34BJ5orAmIA4cn2ll5Dv3cRbEJw"
+      },
+      "foil": {
+        "_id": "34EE0HP0K9o7QwH9IXTtk2pjmb1",
+        "_type": "image",
+        "_entry": "34BJ5jvoXWgku9plqkeiI9sO44d"
+      }
+    }
+  ],
+  "isFullArt": true
+}

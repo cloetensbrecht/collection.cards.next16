@@ -1,0 +1,43 @@
+{
+  "_id": "33R4Kcq4NoWTg0hwLTn3DkTHvml",
+  "_type": "PokemonCard",
+  "_index": "bAG",
+  "title": "Hilda",
+  "number": "164",
+  "edgeColor": "#97999b",
+  "rarity": "ultra-rare",
+  "cardtype": "trainer",
+  "hp": null,
+  "subtype": "supporter",
+  "illustrator": {
+    "_id": "34EFIbTc9NJjn4iVIpdh3udmUBW",
+    "_type": "entry",
+    "_entry": "34BT8ruBUOSyjVQjt4CzHpRR8Nl"
+  },
+  "card": {
+    "_id": "33R4M90ZouzX2eChhOuiH8mMtgi",
+    "_type": "image",
+    "_entry": "33QkjuTsbw7uBCRB5YGfJ2SIJga"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R4KbPbkbl3IhlevUp8D0qUBd0",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EFKDcfLKUhbTnWAd4l9votYrH",
+        "_type": "image",
+        "_entry": "34BJ5n1JQ2TFr2t0RAU7pgx9IwX"
+      },
+      "foil": {
+        "_id": "34EFKhVifSdxuEVRlPDX0RLsAJ7",
+        "_type": "image",
+        "_entry": "34BJ5liI7zl1KVDP8u8NslpPJBs"
+      }
+    }
+  ],
+  "isFullArt": true
+}

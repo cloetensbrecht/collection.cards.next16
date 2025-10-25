@@ -59,76 +59,78 @@ const Footer: React.FC = async () => {
                   {column.title}
                 </h2>
                 <nav
-                  className="flex gap-4 justify-center lg:justify-start content-center"
+                  className="flex gap-4 justify-center lg:justify-start content-center flex-col"
                   aria-label={`${column.title} links`}
                 >
-                  {column.items
-                    .filter((item) => item._type === "Icons")
-                    .map((item) => {
-                      return item.links.map((iconLink) => {
-                        const href = iconLink.href || "#";
-                        const iconType = iconLink.fields.icon;
-                        let IconComponent;
-                        switch (iconType) {
-                          case "discord":
-                            IconComponent = Discord;
-                            break;
-                          case "github":
-                            IconComponent = GitHub;
-                            break;
-                          case "reddit":
-                            IconComponent = Reddit;
-                            break;
-                          default:
-                            return null;
-                        }
+                  {column.items.map((item) => {
+                    switch (item._type) {
+                      case "Icons":
+                        return (
+                          <div
+                            key={item._id}
+                            className="flex gap-4 justify-center lg:justify-start content-center w-full flex-row"
+                          >
+                            {item.links.map((iconLink) => {
+                              const href = iconLink.href || "#";
+                              const iconType = iconLink.fields.icon;
+                              let IconComponent;
+                              switch (iconType) {
+                                case "discord":
+                                  IconComponent = Discord;
+                                  break;
+                                case "github":
+                                  IconComponent = GitHub;
+                                  break;
+                                case "reddit":
+                                  IconComponent = Reddit;
+                                  break;
+                                default:
+                                  return null;
+                              }
+                              return (
+                                <Link
+                                  key={iconLink._id}
+                                  href={href}
+                                  target="_blank"
+                                  aria-label="GitHub"
+                                  className="text-muted-foreground hover:text-foreground transition-colors"
+                                >
+                                  <IconComponent width={24} />
+                                </Link>
+                              );
+                            })}
+                          </div>
+                        );
+                      case "Link":
                         return (
                           <Link
-                            key={iconLink._id}
-                            href={href}
-                            target="_blank"
-                            aria-label="GitHub"
-                            className="text-muted-foreground hover:text-foreground transition-colors"
+                            key={item._id}
+                            href={item.link?.href || "#"}
+                            target={
+                              item.link?._type === "url"
+                                ? item.link.target
+                                : undefined
+                            }
+                            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                           >
-                            <IconComponent width={24} />
+                            {item.link?.title || "Untitled"}
                           </Link>
                         );
-                      });
-                    })}
+                      case "Text":
+                        return (
+                          <div
+                            key={item._id}
+                            className="text-sm text-muted-foreground [&_a]:font-medium [&_a]:text-foreground [&_a:hover]:underline"
+                          >
+                            <RichText doc={item.text} />
+                          </div>
+                        );
+                      default:
+                        return null;
+                    }
+                  })}
                 </nav>
               </div>
-              {column.items
-                .filter((item) => item._type !== "Icons")
-                .map((item) => {
-                  switch (item._type) {
-                    case "Link":
-                      return (
-                        <Link
-                          key={item._id}
-                          href={item.link?.href || "#"}
-                          target={
-                            item.link?._type === "url"
-                              ? item.link.target
-                              : undefined
-                          }
-                          className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                        >
-                          {item.link?.title || "Untitled"}
-                        </Link>
-                      );
-                    case "Text":
-                      return (
-                        <div
-                          key={item._id}
-                          className="text-sm text-muted-foreground [&_a]:font-medium [&_a]:text-foreground [&_a:hover]:underline"
-                        >
-                          <RichText doc={item.text} />
-                        </div>
-                      );
-                    default:
-                      return null;
-                  }
-                })}
             </div>
           ))}
         </div>

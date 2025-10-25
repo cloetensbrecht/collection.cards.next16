@@ -1,0 +1,70 @@
+{
+  "_id": "33Qor7GHVzma9k62HnVYtk3gYSe",
+  "_type": "PokemonCard",
+  "_index": "b4L",
+  "title": "Vanilluxe",
+  "number": "29",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Vanilluxe",
+  "energy": "water",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "349xYrdRlTjUhqINsWbBfOVRTxo",
+    "_type": "entry",
+    "_entry": "33vcMhz8OfYUUDaKc2nthOI5148"
+  },
+  "card": {
+    "_id": "33Qos5LDso0oWm10qPrngLPiKf7",
+    "_type": "image",
+    "_entry": "33Qje5LAUPouHrJb482EyaLl5kb"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qor9iCWjCn55m3nmQpWhSsTaa",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349xcefPuMVIjgK4TL2UASj8pL4",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349xfP7RRw4WsGXg9VfD9Cwdjn4",
+        "_type": "image",
+        "_entry": "349xZxNenZGyzI9F3ZgAcx5Bu4T"
+      },
+      "foil": {
+        "_id": "349xgBpZhH2679ggPLmZVtS3ept",
+        "_type": "image",
+        "_entry": "349xZsUYJEZH2sak42kDYMKEnNh"
+      }
+    },
+    {
+      "_id": "349xdCvBK0syFWdxNw3sunY3vIF",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349xdgZTdjoyjha4cKtFaTbupX7",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "320L6ZMtYcuwItXoSbsop1yA6az",
+  "_type": "PokemonCard",
+  "_index": "b8h",
+  "title": "Conkeldurr",
+  "number": "127",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Conkeldurr",
+  "energy": "fighting",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33vyAXgz6DkSmMPnJVjTCYaWnAD",
+    "_type": "entry",
+    "_entry": "33vYMmWWk5NkFv59ifqpF8scdjV"
+  },
+  "card": {
+    "_id": "320L8rs3sy5WO9Q8iUNHwEJ7OvX",
+    "_type": "image",
+    "_entry": "320FBO7x9CkqF3dJKgGk2Qqs8xj"
+  },
+  "variants": [
+    {
+      "_id": "320L6aqY1LrXbgndM4xocDrwXNf",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320LBSFKE5HbPLuNxqw95SEO2rD",
+        "_type": "image",
+        "_entry": "320L4rK0GnL4z50UXiuoftLZY1q"
+      },
+      "foil": {
+        "_id": "320LCYsCN7b4rJjhE50AxdHgJRi",
+        "_type": "image",
+        "_entry": "320L4nMLRBiqdPfsCg71JzwdfR8"
+      }
+    }
+  ],
+  "isFullArt": true
+}

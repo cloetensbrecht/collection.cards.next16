@@ -1,0 +1,70 @@
+{
+  "_id": "33QlspuP3A4pJsEGDBrLDuqMkBT",
+  "_type": "PokemonCard",
+  "_index": "b2K",
+  "title": "Emboar",
+  "number": "13",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 180,
+  "pokemon": "Emboar",
+  "energy": "fire",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "349sPCt8BTIXWh2JrguUfr9KMBE",
+    "_type": "entry",
+    "_entry": "349r15HPSoIebKPFp8gePJa02Ns"
+  },
+  "card": {
+    "_id": "33Qluc0JI3ScdHvNGF8ovgcogHV",
+    "_type": "image",
+    "_entry": "33Qja7jtPhoMetVJWGVG4RfZyWn"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QlsmKpMOADZnXvV3tvBbI3yR5",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349sS7hkJ21WuwZKBvvniwXq2rL",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349sWiprxby1kqUiWDDtY1Pq1Of",
+        "_type": "image",
+        "_entry": "349sVazajll7EL3wXTpNevFeI4G"
+      },
+      "foil": {
+        "_id": "349sXW8nym7PjwPC2pvahBboFlC",
+        "_type": "image",
+        "_entry": "349sVcv3QxoezvhTcC2v18ptwG7"
+      }
+    },
+    {
+      "_id": "349sSWKk559IqiVXMsaC29wG9z2",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349sTAffEzmlQdGtEXBOTG2Qt3L",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "30qCPBkkUx1m1pqhptredJKXLnY",
+  "_type": "PokemonCard",
+  "_index": "b4o",
+  "title": "Exeggutor",
+  "number": "35",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Exeggutor",
+  "energy": "grass",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qCQQUoJnfIgedrjA6tn2XPWtb",
+    "_type": "image",
+    "_entry": "30q9C1Dzkpgy0zqzgqI4YiGsQe6"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

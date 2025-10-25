@@ -1,0 +1,44 @@
+{
+  "_id": "31za8TQGhFnxAxOT1ILX5F7BV9N",
+  "_type": "PokemonCard",
+  "_index": "b0W",
+  "title": "Maractus",
+  "number": "93",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Maractus",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vzEZWqw89zyhI9jIFaiQaPnNX",
+    "_type": "entry",
+    "_entry": "33vZr66XFKej7wNroGZCWzmfbk4"
+  },
+  "card": {
+    "_id": "31zaASb0DIMzIxznTEUNXRseGtL",
+    "_type": "image",
+    "_entry": "31za4IxbglBYw9Sp1qwhgNNhNQD"
+  },
+  "variants": [
+    {
+      "_id": "31za8VgZ28hcT88VGU20iBeYl6k",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zaDTfQNXUvxQfU2HaDCdBQW5k",
+        "_type": "image",
+        "_entry": "31za7Ap7V2ZNkO8OWAa4MMtvpzf"
+      },
+      "foil": {
+        "_id": "31zaEUAizvnqmDxXZcVvjkdDbGT",
+        "_type": "image",
+        "_entry": "31za77rrh2jflHfCI91dveCz0ap"
+      }
+    }
+  ],
+  "isFullArt": true
+}

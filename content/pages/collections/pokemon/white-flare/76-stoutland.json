@@ -1,0 +1,70 @@
+{
+  "_id": "33Qub5IK72I2P3wOLdzRZmemtRY",
+  "_type": "PokemonCard",
+  "_index": "b0D",
+  "title": "Stoutland",
+  "number": "76",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 160,
+  "pokemon": "Stoutland",
+  "energy": "colorless",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34AASW1BdddFADGl1FNgUqKTqsb",
+    "_type": "entry",
+    "_entry": "34AA6ttWKz1ObnMbpME8lVJrnri"
+  },
+  "card": {
+    "_id": "33QucC5Tedh9wQ2MLvQzLlXre3p",
+    "_type": "image",
+    "_entry": "33QkLi2yXL3s9m2Q3RlsmRKNBis"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qub4qL1yWx36euLePXSba4lSE",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34AATttqJk4ROhEpvskWQWL7wqJ",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34AAX4NKhwRXaS6PsrdFRNUGs6c",
+        "_type": "image",
+        "_entry": "34AAW5KfdsmrmQMRipXmvANhLL0"
+      },
+      "foil": {
+        "_id": "34AAXRWhWwPicxTHoKVJkjO3kMo",
+        "_type": "image",
+        "_entry": "34AAW4I8AkxNgAMECosw05DHoC6"
+      }
+    },
+    {
+      "_id": "34AAUEgTnUjfSXqWROvVK20IYb2",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34AAUhEJraZiidQFPtrxMVkLmcC",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

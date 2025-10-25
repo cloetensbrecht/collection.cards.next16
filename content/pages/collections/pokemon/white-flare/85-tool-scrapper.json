@@ -1,0 +1,58 @@
+{
+  "_id": "33QvZJcP0HdVdv3jwG47sKvqV4S",
+  "_type": "PokemonCard",
+  "_index": "b0M",
+  "title": "Tool Scrapper",
+  "number": "85",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "subtype": "item",
+  "illustrator": {
+    "_id": "34BTdZxair18fUVXvVqhzEOx5P5",
+    "_type": "entry",
+    "_entry": "33vZAqyuU8Gja4OXFzcQJArULvr"
+  },
+  "card": {
+    "_id": "33Qvat2BmyKzOKy7DrT8MS37RJR",
+    "_type": "image",
+    "_entry": "33QkPQDFBCkltydndcQk5r4Jovf"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QvZJ9UR6qY9xN6j9cZDQO6Xt2",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34BTe29NRxxAab8vSaWZECmjuoC",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34BTibgnqnlca1qtx75xuQZJFAr",
+        "_type": "image",
+        "_entry": "34BIk20clOHwSkkoMrqLYiaf226"
+      },
+      "foil": {
+        "_id": "34BTjGNkanl68E01uyMaSm3DCa4",
+        "_type": "image",
+        "_entry": "34BIk5PrInR7ilsoMP1VMDkk08R"
+      }
+    },
+    {
+      "_id": "34BTeLuLAvWkB4x5lBJcX3OJcDg",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "_id": "31wxj0tEjpp5woGfJfcQcj3jFoT",
+  "_type": "PokemonCard",
+  "_index": "b6l",
+  "title": "Fraxure",
+  "number": "69",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Fraxure",
+  "energy": "dragon",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w02WJiotbQHxNkLBw2XikbM5N",
+    "_type": "entry",
+    "_entry": "33vYlZFevQisL14GcNtrhc5zmus"
+  },
+  "card": {
+    "_id": "31wxmrQB3C46UIUYTYKh7RmJZlK",
+    "_type": "image",
+    "_entry": "31wtY3tU2H4ITDj55se6Vg8CXYF"
+  },
+  "variants": [
+    {
+      "_id": "31wxj6QTGkb16qU7nI9QVhTAgw4",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wxtgwtqi3umqgJHnTyyS6HJS8",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wxzFBGhgQ1CeCDRCf9fconGmf",
+        "_type": "image",
+        "_entry": "31wxoKtcMl5RhcWwGQKTkFomEfq"
+      },
+      "foil": {
+        "_id": "31wy044yO3vYKZ1HVLWLyh8tT3m",
+        "_type": "image",
+        "_entry": "31wxoKyAqVBkLXtUtLtLUYAKo9M"
+      }
+    },
+    {
+      "_id": "31wxuWQrU49kZdUDfLVf1eBs2uI",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wxuxqvYwK8Vk8mSUKbxflwTAF",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

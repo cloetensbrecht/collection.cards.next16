@@ -1,0 +1,30 @@
+{
+  "_id": "30qAgvDIqb7yGNk6NXKZ0xqp6cU",
+  "_type": "PokemonCard",
+  "_index": "b37",
+  "title": "Wigglytuff",
+  "number": "16",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Wigglytuff",
+  "energy": "colorless",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qAiZ67ApLHu23n2HqudzMhqRt",
+    "_type": "image",
+    "_entry": "30q9C3qthkViwUBJu2dnVqiwMS3"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

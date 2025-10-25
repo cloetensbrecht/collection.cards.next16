@@ -1,0 +1,30 @@
+{
+  "_id": "30oYNSiuUhoiPrsK7IGlGdLe2Ai",
+  "_type": "PokemonCard",
+  "_index": "b25",
+  "title": "Nidoking",
+  "number": "11",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Nidoking",
+  "energy": "grass",
+  "stage": "stage2",
+  "card": {
+    "_id": "30oYP1gLa5wwmIbBLoDJ1CsqfUi",
+    "_type": "image",
+    "_entry": "30oJlAtIjo62S2cb0c1YUg5FjE5"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "33QnF5aBwDWD9M5JgTmVSfdKaoh",
+  "_type": "PokemonCard",
+  "_index": "b3h",
+  "title": "Dewott",
+  "number": "22",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Dewott",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "349vQyFVAf4tPwsVAdtNi7Y6uHI",
+    "_type": "entry",
+    "_entry": "33vag6TWH8ngzP7YNAJCfyljdju"
+  },
+  "card": {
+    "_id": "33QnGSzKRg7DyDl7xbssWX9j8Zs",
+    "_type": "image",
+    "_entry": "33Qje0IHleZLr8ihLWpoYCWQ3DR"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QnF7RqdTpKFJ03ccEJH1rSKw0",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349vS08fQ5N9GPXOPYNWc3KYR7P",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349vXHPMIRRcDrz9K5HitKgXJ1b",
+        "_type": "image",
+        "_entry": "349vW5N5AFurOiuSlS4VkOls9gQ"
+      },
+      "foil": {
+        "_id": "349vXwBbg31Q0mk60KFR4jjxOSb",
+        "_type": "image",
+        "_entry": "349vW8ZMpG3ocHJPEpGGu0Lje3c"
+      }
+    },
+    {
+      "_id": "349vSLeLflaFJK3FlJPLFFLeS7B",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349vStdTV8ZDOaDLpBdd0Wa9adZ",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

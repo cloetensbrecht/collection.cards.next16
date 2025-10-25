@@ -1,0 +1,45 @@
+{
+  "_id": "33QyXoGqGjAnZZ5exue4HwrSCyz",
+  "_type": "PokemonCard",
+  "_index": "b83",
+  "title": "Vanillish",
+  "number": "112",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Vanillish",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EAicM5k0XaC6QymaYjH6j3eF7",
+    "_type": "entry",
+    "_entry": "34EAiJmbj3v3JxwYSb4mOfd3nCw"
+  },
+  "card": {
+    "_id": "33QyYyXjDJNA409nJ7wFYFayeIj",
+    "_type": "image",
+    "_entry": "33QkWfIr9N2vojHbzpOd68x4Hz3"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QyXsXoba1gfujRHakn1xf2AO9",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EAjVtU6c4wm7kKgTVtF1P1VPt",
+        "_type": "image",
+        "_entry": "34BItD6mZaWJbfIGl1XFmQtsI2X"
+      },
+      "foil": {
+        "_id": "34EAkFWRWq7ZlDZVfVCNZ3UQTQc",
+        "_type": "image",
+        "_entry": "34BItEaWAA4mzt7JG5ljtoS2H6f"
+      }
+    }
+  ],
+  "isFullArt": true
+}

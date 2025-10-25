@@ -1,0 +1,30 @@
+{
+  "_id": "30qAUy3qyufpmRsFpl2YiWXUKAZ",
+  "_type": "PokemonCard",
+  "_index": "b2P",
+  "title": "Victreebel",
+  "number": "14",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Victreebel",
+  "energy": "grass",
+  "stage": "stage2",
+  "card": {
+    "_id": "30qAWFzPUQf7r56eT1lRuThr1zK",
+    "_type": "image",
+    "_entry": "30q9C2AbB4DirGJ7KXFWtAop7bF"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

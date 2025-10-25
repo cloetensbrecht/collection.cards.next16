@@ -1,0 +1,69 @@
+{
+  "_id": "31maQbI2hJiODHVGw9UaI3zPfbz",
+  "_type": "PokemonCard",
+  "_index": "b27",
+  "title": "Karrablast",
+  "number": "9",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Karrablast",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1pmZzW4q6KZWl3D5vltZjqFi",
+    "_type": "entry",
+    "_entry": "33vXDMRgpJW9sU8dGWUzYIzw64y"
+  },
+  "card": {
+    "_id": "31maSiiTmwbwsF5gSVDEjR8GR4K",
+    "_type": "image",
+    "_entry": "31maLv5YGl7Djo8zO6T0OGGTONX"
+  },
+  "variants": [
+    {
+      "_id": "31maQa2nSYzcrZ5L3H6KT15sjAV",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31maWXsvw4jemWhQskLjuaettRI",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31maXmfkreu4iFrULFlv8RiUDEZ",
+        "_type": "image",
+        "_entry": "31maNqZOikIBg7ZYaiKA2utCkDO"
+      },
+      "foil": {
+        "_id": "31maYm6XrGMDWcyc5SUXF56X06G",
+        "_type": "image",
+        "_entry": "31maNvcpBAoYCmZiTEVq42Vjphj"
+      }
+    },
+    {
+      "_id": "31maaOPOP0IAVVTOMNTe3pkKsul",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mabqnbCWx0mewe0CWiNZypcMf",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

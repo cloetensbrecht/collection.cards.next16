@@ -1,0 +1,77 @@
+{
+  "_id": "31wpCoA7mHHsy4FgjkXsMbyVvFc",
+  "_type": "PokemonCard",
+  "_index": "b66",
+  "title": "Landorus",
+  "number": "53",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 130,
+  "pokemon": "Landorus",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w0UgxlAvbCg0FL1TYZ7VjqRgd",
+    "_type": "entry",
+    "_entry": "33vYMmWWk5NkFv59ifqpF8scdjV"
+  },
+  "card": {
+    "_id": "31wpFYQDLwOTYTnqOcu6P3T9LL4",
+    "_type": "image",
+    "_entry": "31woH61WRvvKfdZRcCjDdu6Osq0"
+  },
+  "variants": [
+    {
+      "_id": "31wpCi7FGdodmUb9AzYKU1xKm8i",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {
+        "_id": "31wpTurgxj9Ot1hewlOQRvyA2Vi",
+        "_type": "image",
+        "_entry": "31wpQYzWeESstCUAfeSoivTt0oN"
+      },
+      "foil": {
+        "_id": "31wpUrVc1xM2QZSUIg7QvQzZPMn",
+        "_type": "image",
+        "_entry": "31wpQWRGJvYoFpl6dhiyE2w6aDF"
+      }
+    },
+    {
+      "_id": "31wpWXN387LqpQaZYnE917Hb0wr",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wpbnEZAfiJDbnNIrWNTjMNJC0",
+        "_type": "image",
+        "_entry": "31wpYatoXJegY8SgOgWt0oVK1rc"
+      },
+      "foil": {
+        "_id": "31wpcj1biXyUiTN65pNxV5hb4tv",
+        "_type": "image",
+        "_entry": "31wpYZiEXW4l2Gd0BTiTriu2sMX"
+      }
+    },
+    {
+      "_id": "31wpewNftuqLcmuj82ZpxYKUhaX",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wpfp07zKEzr0ZQD3RKYnrYDf2",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

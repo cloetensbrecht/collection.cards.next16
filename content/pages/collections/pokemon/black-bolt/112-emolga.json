@@ -1,0 +1,44 @@
+{
+  "_id": "320BZHoJuFApUEKkslEjTcjlbAt",
+  "_type": "PokemonCard",
+  "_index": "b87",
+  "title": "Emolga",
+  "number": "112",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Emolga",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vydhBZ0zP3nksN094YAC2Ntgu",
+    "_type": "entry",
+    "_entry": "33vYpwBnY6o622RpPW4Ru1p5wwg"
+  },
+  "card": {
+    "_id": "320BbPsw40aQmAUB83kg8TNfXFB",
+    "_type": "image",
+    "_entry": "320Ak1jIHfEWucD20MkSRsZgVeu"
+  },
+  "variants": [
+    {
+      "_id": "320BZN1JYRn9AAR1u58NbgIsWDJ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320BdjUriLWsi4enxLX9QoVEJaY",
+        "_type": "image",
+        "_entry": "320BXBu2OPXBo5VXc9VdSst2rrA"
+      },
+      "foil": {
+        "_id": "320BeLxk1lPfCtn8tyf9WnOPwKN",
+        "_type": "image",
+        "_entry": "320BXBpyEqhu2w4ffh0ifQKop7o"
+      }
+    }
+  ],
+  "isFullArt": true
+}

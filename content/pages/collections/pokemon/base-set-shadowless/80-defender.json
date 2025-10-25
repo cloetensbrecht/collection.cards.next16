@@ -1,0 +1,27 @@
+{
+  "_id": "30ogAvuUM592XxAXqC324OeeCHD",
+  "_type": "PokemonCard",
+  "_index": "b0H",
+  "title": "Defender",
+  "number": "80",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31CIPLJjWbsrXoHUMRtteUhJtvL",
+    "_type": "image",
+    "_entry": "31A258SbCdsHLo0FX1Q17sR3OCQ"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

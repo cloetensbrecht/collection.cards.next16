@@ -1,0 +1,69 @@
+{
+  "_id": "31wrgEFXb3x0RwujAwVyLlcjUqG",
+  "_type": "PokemonCard",
+  "_index": "b6I",
+  "title": "Sandile",
+  "number": "57",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Sandile",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w0MraYfcL0j4ZrkSpg2EN4MZt",
+    "_type": "entry",
+    "_entry": "33vYWzmeeHJLoLa6oDJgmonBY5O"
+  },
+  "card": {
+    "_id": "31wriG5985Zbj1I4lGGdNIZrc5F",
+    "_type": "image",
+    "_entry": "31woH5R3067UEx0Jqg61bDFJJ0o"
+  },
+  "variants": [
+    {
+      "_id": "31wrg9qgCBQ9Pe7QykeIcGTqLJU",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wrnEN7kSvcmuWhhxw5tzpW80g",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wrwdw0T1RX6sA5mMDmYUc2wMi",
+        "_type": "image",
+        "_entry": "31wrttp131SIOci3Cvg596Yqdco"
+      },
+      "foil": {
+        "_id": "31wrxUJDyFNrU7hYocCCq1kJby6",
+        "_type": "image",
+        "_entry": "31wrtuGUfCfnrUq2xKla7X5RSpY"
+      }
+    },
+    {
+      "_id": "31wrnpo1IJfbCIEmEt5r1igY6nd",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wrolhXsiz4PKeClDLJ7uFXyHQ",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

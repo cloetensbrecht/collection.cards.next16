@@ -1,0 +1,45 @@
+{
+  "_id": "33QwF5XeFlD8XLaD6vclVovaaw0",
+  "_type": "PokemonCard",
+  "_index": "b0S",
+  "title": "Deerling",
+  "number": "91",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Deerling",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BV8CWHWrEPMch3MO4eU2tOusA",
+    "_type": "entry",
+    "_entry": "34BV7ELWsiELyxTB157nbsSwcHr"
+  },
+  "card": {
+    "_id": "33QwGa0fqtrJAXlWWM6qsdia6xY",
+    "_type": "image",
+    "_entry": "33QkS9UK4pRxIEAauLnFzXOoRSG"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QwF7GbU4J0JcSwpK4tir7S0Ta",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BV9kMCJ3PshhIte6LgtGc8FN6",
+        "_type": "image",
+        "_entry": "34BIk4OGDdmEGGCIfIhozXmKFt7"
+      },
+      "foil": {
+        "_id": "34BVAGUJgBFUV5PHEXrqJV1Ozty",
+        "_type": "image",
+        "_entry": "34BIjzhF16QvMSYcf2tP713jhz0"
+      }
+    }
+  ],
+  "isFullArt": true
+}

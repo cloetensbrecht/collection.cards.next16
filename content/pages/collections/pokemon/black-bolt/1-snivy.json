@@ -1,0 +1,86 @@
+{
+  "_id": "31m8FankJL72BjnwHjVCNxSFwTi",
+  "_type": "PokemonCard",
+  "_index": "b19",
+  "title": "Snivy",
+  "number": "1",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Snivy",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w228Upbb4v92k4saQMSXaMqpw",
+    "_type": "entry",
+    "_entry": "33vWxmOFYwZfiysq0e27tmWpATd"
+  },
+  "card": {
+    "_id": "31m8JAM9n5Dt3fwtYwlRHRwxAcI",
+    "_type": "image",
+    "_entry": "31m88rhJNx0A1lm6S43rPWUjzYF"
+  },
+  "variants": [
+    {
+      "_id": "31mQhouKLh6HQZJAbGOROIgCnw4",
+      "_index": "Zz",
+      "_type": "Variant",
+      "variant": "normal",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "33QRHK8mx1Rf60pPuM24KC1aVBB",
+      "_index": "ZzV",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {
+        "_id": "33RBhtmWNgBX1Cwi56LmYb0Hcwg",
+        "_type": "image",
+        "_entry": "33RBfHXplyHYw61fEfGEcWSg1qD"
+      },
+      "foil": {
+        "_id": "33RBjDwKDUGCwjkOEvHcZk46ulP",
+        "_type": "image",
+        "_entry": "33RBfF6SyFQFv15dNXl6SvbEehw"
+      }
+    },
+    {
+      "_id": "31m8FYgwbKhBObFwybsxFsjA06c",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31m8LHvWBlO3OQUiWT2TEX1zzP8",
+        "_type": "image",
+        "_entry": "31m8CiHo919zyNNt3wp0JUsoL90"
+      },
+      "foil": {
+        "_id": "31mDjOMzjkRTpas53wX5kbZTFNg",
+        "_type": "image",
+        "_entry": "31m8ClPhaEeLuG8Q5vCVH248T3I"
+      }
+    },
+    {
+      "_id": "31mFwBLk5uukfI45tzN0iAA7IU3",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mGHnh4TWjHmh78jvuEDDcCCi0",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

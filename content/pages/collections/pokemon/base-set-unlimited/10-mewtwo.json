@@ -1,0 +1,30 @@
+{
+  "_id": "31P0j9uFQ2d90CmDslO0tiCSuaR",
+  "_type": "PokemonCard",
+  "_index": "a9",
+  "title": "Mewtwo",
+  "number": "10",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Mewtwo",
+  "energy": "psychic",
+  "stage": "basic",
+  "card": {
+    "_id": "31P0k8ILPqCXPMGbUju9vv9dbfq",
+    "_type": "image",
+    "_entry": "31P0gh1iIChZABIKVv3pWg6MOpe"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

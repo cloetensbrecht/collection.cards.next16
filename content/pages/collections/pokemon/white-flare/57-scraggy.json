@@ -1,0 +1,70 @@
+{
+  "_id": "33Qrqdi3VuH7BJf58fOuf5EAD7X",
+  "_type": "PokemonCard",
+  "_index": "b6D",
+  "title": "Scraggy",
+  "number": "57",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Scraggy",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A7xwInTAeyNjA8oDolnlpEPcW",
+    "_type": "entry",
+    "_entry": "33vabllU8Ul1mQxWJnYO2UvxZiq"
+  },
+  "card": {
+    "_id": "33QrrjwtcZJjqmfzZt8wL3374h7",
+    "_type": "image",
+    "_entry": "33QkB97rhrbPIL2Cw6fWL0nZ4tF"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QrqZJFZ7sNMQx9ovnJzame2iX",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A7z6OrBsDENMPVyP8tXu9CRW8",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A81lrKDFzQpwMjzq8Vuz2EkJW",
+        "_type": "image",
+        "_entry": "34A819THa1KIFZNPsZ4Bb7MVW0Z"
+      },
+      "foil": {
+        "_id": "34A82DatA5FBaETbVb7hdPByVMf",
+        "_type": "image",
+        "_entry": "34A817TMiHHMA51CLEbCqtOI4GP"
+      }
+    },
+    {
+      "_id": "34A7zUCwUs9IjjCVeIhAy48y9qk",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A7zohkMOfE4oCFbPfRko5f91i",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "2zvKfb2bplOCGcWOGWPys68eyGB",
+  "_type": "PokemonSet",
+  "_index": "b2g",
+  "title": "POP Series 1",
+  "ptcgoCode": "POP1",
+  "releaseDate": "2004-09-01",
+  "generation": "III",
+  "serie": "popSeries",
+  "symbol": [
+    {
+      "_id": "2zvKhXWp844pUrKX3CXf5XgGmIS",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zvJYrBFXvPAnkCyd6OiEn7zvDz"
+    }
+  ],
+  "logo": {
+    "_id": "2zvKhvrwpebmutKUflsOY6TL3VH",
+    "_type": "image",
+    "_entry": "2zvKEqF9YEjyHjHWMbj5xrLh5oP"
+  },
+  "rarity": {
+    "common": null
+  },
+  "energy": {}
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "33Qw23Z5OppBBWe9OZmtBt7PBYh",
+  "_type": "PokemonCard",
+  "_index": "b0Q",
+  "title": "Leavanny",
+  "number": "89",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 130,
+  "pokemon": "Leavanny",
+  "energy": "grass",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34BUeeHRk2wB4Vw5kdtC0DDTr4D",
+    "_type": "entry",
+    "_entry": "33vXORBZFTHoxnDct1xdyH0X3Rj"
+  },
+  "card": {
+    "_id": "33Qw3BXRkn1asR2EyQj48dYogee",
+    "_type": "image",
+    "_entry": "33QkPMtWOs1P1bvo1BVxwnazYvV"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qw20AQnCoQuRMFkXISk197z87",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BUhW0vzdDa2BSHFOrDPYeHgPx",
+        "_type": "image",
+        "_entry": "34BIk5vsYyKgBFMCptSIq1ooLmM"
+      },
+      "foil": {
+        "_id": "34BUhxAVlhKSMrmGTZisi6DG6oT",
+        "_type": "image",
+        "_entry": "34BIk40yo8wasC7wgfC30KhSJTE"
+      }
+    }
+  ],
+  "isFullArt": true
+}

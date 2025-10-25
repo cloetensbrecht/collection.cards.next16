@@ -1,0 +1,47 @@
+{
+  "_id": "2zoybIBJPEXEUxWFXZiBkxhqH6P",
+  "_type": "PokemonSet",
+  "_index": "b2m",
+  "title": "EX Ruby & Sapphire",
+  "number": 16,
+  "ptcgoCode": "RS",
+  "releaseDate": "2003-06-18",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNSq0Bpy1Ev7GYFMH4siwi6V1",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe58dr5TrsDWWvaEyvKpSqff"
+    }
+  ],
+  "logo": {
+    "_id": "2zoyebeuFhzySqxuaquMAGbY4tj",
+    "_type": "image",
+    "_entry": "2zowioXPfYD1pvjJE6kE6ZrVnQx"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

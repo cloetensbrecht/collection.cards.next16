@@ -1,0 +1,45 @@
+{
+  "_id": "320W2YHHkLk0qRs3AfO6KXrNHI2",
+  "_type": "PokemonCard",
+  "_index": "bAN",
+  "title": "Zekrom Ex",
+  "number": "166",
+  "edgeColor": "#97999b",
+  "rarity": "special-illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 230,
+  "pokemon": "Zekrom",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vwhngwBzOsFYzFTEaEL7Eg0gg",
+    "_type": "entry",
+    "_entry": "33vcv7Ong3ajNUesLo81FMsDyuv"
+  },
+  "card": {
+    "_id": "320W4FRhCSn0uJzRZycYiCq0s16",
+    "_type": "image",
+    "_entry": "320FBTG5RCMNegukfshZ0sieD1P"
+  },
+  "variants": [
+    {
+      "_id": "320W2dGzBVhcQjcyNCvbSAavQlh",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320W5JTWLoIqjQw7fPBQTk1oX09",
+        "_type": "image",
+        "_entry": "320V5SKhtV2aZelG5JEWm7PHZSQ"
+      },
+      "foil": {
+        "_id": "320W5tuDzJtE2phtJJteCVCCgiJ",
+        "_type": "image",
+        "_entry": "320V5RNPQelXE1ZBa3QZ1K4Dtvq"
+      }
+    }
+  ],
+  "isEx": true,
+  "isFullArt": true
+}

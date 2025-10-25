@@ -1,0 +1,45 @@
+{
+  "_id": "33QwdeVzNX16hW1Q9141mUm3pTD",
+  "_type": "PokemonCard",
+  "_index": "b0W",
+  "title": "Virizion",
+  "number": "95",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Virizion",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BVdUTXwjQwmCyryy2kXmgbTb0",
+    "_type": "entry",
+    "_entry": "34A8yhIIpiCaHD8vB0u1Wz9JMJB"
+  },
+  "card": {
+    "_id": "33QwevncOSpSCTelJWXpKW81wT5",
+    "_type": "image",
+    "_entry": "33QkSBw9Tv7bBGV8y0H9Al861Np"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QwdjTCudQQyyTVdw4HPgLHpDj",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BVehL4Rst6aTRx5juLEEaSBM7",
+        "_type": "image",
+        "_entry": "34BIk31T8pTjcOn04Mw7bv51m8k"
+      },
+      "foil": {
+        "_id": "34BVfBsWzuwbS66s8GU02HHZnmo",
+        "_type": "image",
+        "_entry": "34BIk5gFcB9zHJPVjLAIe4rf3So"
+      }
+    }
+  ],
+  "isFullArt": true
+}

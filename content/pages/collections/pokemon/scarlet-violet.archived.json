@@ -1,0 +1,47 @@
+{
+  "_id": "2zpAGuPT2vcVCiuMCszYCIwlRPD",
+  "_type": "PokemonSet",
+  "_index": "ac",
+  "title": "Scarlet & Violet",
+  "number": 95,
+  "ptcgoCode": "SVI",
+  "releaseDate": "2023-03-31",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zpLiAwAQkTyK0xWT1IUsHnLQsH",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe6CGc3u239D4MTdbXhjNCJT"
+    }
+  ],
+  "logo": {
+    "_id": "2zpALDYfeaYuoEf7dfcKpoNKzWR",
+    "_type": "image",
+    "_entry": "2zowiuaH4mJGLsP1jkoZfMYj18x"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

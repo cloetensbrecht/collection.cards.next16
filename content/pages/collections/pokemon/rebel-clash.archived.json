@@ -1,0 +1,47 @@
+{
+  "_id": "2zp8ZkNOmtxtOngWQgVpwO16sIQ",
+  "_type": "PokemonSet",
+  "_index": "au",
+  "title": "Rebel Clash",
+  "number": 84,
+  "ptcgoCode": "RCL",
+  "releaseDate": "2020-05-01",
+  "generation": "VIII",
+  "serie": "swordShieldSeries",
+  "symbol": [
+    {
+      "_id": "2zpM1FjnKYwOaLH3fu1lYQPvL2R",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe5iQXnh4kmqN3cMdCdtFY2M"
+    }
+  ],
+  "logo": {
+    "_id": "2zp8e7tbUZBG3BKcBVgT3REjhBR",
+    "_type": "image",
+    "_entry": "2zowiqb0z210Frhp238zjw4vp9f"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

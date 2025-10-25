@@ -1,0 +1,69 @@
+{
+  "_id": "31wpsCR2Vs8gLrAjHEPMVOssCsh",
+  "_type": "PokemonCard",
+  "_index": "b69",
+  "title": "Venipede",
+  "number": "54",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Venipede",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w0SeExPrlrug6OVamjwbWCWVK",
+    "_type": "entry",
+    "_entry": "33vYShPn1MFdmM9hYQmk5aO5Kgp"
+  },
+  "card": {
+    "_id": "31wpuAUavfoVwYOCoJXE8pTKgXu",
+    "_type": "image",
+    "_entry": "31woH79J0UcKAilbRbVQkP78Pxt"
+  },
+  "variants": [
+    {
+      "_id": "31wpsH95F1z7SOePteK9TYkDIPU",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wq1uJ5OGI1RTlE1cJZ3Z7FFd6",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wq96DhDvnfKf0ZMSOO8vA6q6a",
+        "_type": "image",
+        "_entry": "31wq7alz0o7Af2BEzrtc76HRUZt"
+      },
+      "foil": {
+        "_id": "31wq9jRK0CQCwUJ0Bwtj6qMkc2f",
+        "_type": "image",
+        "_entry": "31wq7Yodn60ya8FWbF33Vqc8F8c"
+      }
+    },
+    {
+      "_id": "31wq2L04eX9IxvoA9O1ZCDaz8hL",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wq3EYa9Q9nTwtKxbP1TeJbO4Y",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

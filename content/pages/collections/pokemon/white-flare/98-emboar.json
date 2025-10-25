@@ -1,0 +1,45 @@
+{
+  "_id": "33QwvhAImwZDgw3gIklyvaCw7Bh",
+  "_type": "PokemonCard",
+  "_index": "b0Z",
+  "title": "Emboar",
+  "number": "98",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 180,
+  "pokemon": "Emboar",
+  "energy": "fire",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34BWKQ3baowZp5SmYlpVkx9zImO",
+    "_type": "entry",
+    "_entry": "34BWJakp0lJ5SlKP0q7En4NFXK4"
+  },
+  "card": {
+    "_id": "33Qwx4JMmmUhc18VLqWKyoJ1iIA",
+    "_type": "image",
+    "_entry": "33QkSDLT4JHfHc8kN8tWprwcOwV"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QwveBaK87g0m03JIQAnd5gzFA",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BWLDf47lXbuphvcunKW02YAyJ",
+        "_type": "image",
+        "_entry": "34BIk6l1yQnfUW5j2BllJMvXyPp"
+      },
+      "foil": {
+        "_id": "34BWLcyweiZEXE7OVWu8BcK5zjz",
+        "_type": "image",
+        "_entry": "34BIk2t7N0dpWujiuMc4pp02vTP"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "2zp1KmnTXmUx0PoFeF9CFDoXuBG",
+  "_type": "PokemonSet",
+  "_index": "b0r",
+  "title": "Majestic Dawn",
+  "number": 36,
+  "ptcgoCode": "MD",
+  "releaseDate": "2008-05-21",
+  "generation": "IV",
+  "serie": "diamondPearlSeries",
+  "symbol": [
+    {
+      "_id": "2zpN5zQTiIW4K18Yk1Mdx3scj5Y",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8QhktlDNISBrekp6JeKoQQ"
+    }
+  ],
+  "logo": {
+    "_id": "2zp1P9BjoSfccTr760SYHeBUvtK",
+    "_type": "image",
+    "_entry": "2zowipDvyByLxhMEuePfOuDlOCJ"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

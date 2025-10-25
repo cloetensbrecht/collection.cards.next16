@@ -1,0 +1,45 @@
+{
+  "_id": "33QwjRsIYcmZrY73Dp6kARnpj7o",
+  "_type": "PokemonCard",
+  "_index": "b0X",
+  "title": "Tepig",
+  "number": "96",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Tepig",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BW3C8ss8nfEg95N9MwKefCSDC",
+    "_type": "entry",
+    "_entry": "34BW2OGxEgbF0eqisrfxHfuTewe"
+  },
+  "card": {
+    "_id": "33QwkYXMV8J1N6l28AtvRcTbIjI",
+    "_type": "image",
+    "_entry": "33QkS95UyGyxnCeeNkdLVrCj8MZ"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QwjVXkjnqb1qhi1b8iZaIBe4J",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BW4OoM4Z3Ns20oEYnIwbjDGos",
+        "_type": "image",
+        "_entry": "34BIk29DyrLtmT1FFTow3OmCXla"
+      },
+      "foil": {
+        "_id": "34BW4wf9C2wjYoKNHdWtPqaOiXU",
+        "_type": "image",
+        "_entry": "34BIk5AXIcaVV4pfPqHnl9NDoNR"
+      }
+    }
+  ],
+  "isFullArt": true
+}

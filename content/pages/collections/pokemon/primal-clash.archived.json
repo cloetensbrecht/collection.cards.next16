@@ -1,0 +1,47 @@
+{
+  "_id": "2zp5r6nVl4RE3y71szfhu5KohG3",
+  "_type": "PokemonSet",
+  "_index": "b0N",
+  "title": "Primal Clash",
+  "number": 63,
+  "ptcgoCode": "PRC",
+  "releaseDate": "2015-02-04",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMXzoIwSNKR9CW1BZqTe4rYPx",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe6F4moj6VcBKxGCN4v08KnI"
+    }
+  ],
+  "logo": {
+    "_id": "2zyGN3eBKPHtibhwDyyih0ZY5Tr",
+    "_type": "image",
+    "_entry": "2zowivGV2oUFHbyCIaZGAEjfVDw"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "33QxYMjMexdqZC5paeApIACz6Us",
+  "_type": "PokemonCard",
+  "_index": "b7i",
+  "title": "Heatmor",
+  "number": "104",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Heatmor",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BWwwz0JxkbWiIaj5RGW3qkPj8",
+    "_type": "entry",
+    "_entry": "34BWvdmyw2FWHhjtuIzawVqorqv"
+  },
+  "card": {
+    "_id": "33QxZTA5u7qs8qbPSuLG0FwmsOY",
+    "_type": "image",
+    "_entry": "33QkWh0hsWY7kTMHljIiY2RugXX"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QxYQl0ychkWN1BaRPAz1rP2hs",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BWydzGKeODsjctXWhlLSm21OR",
+        "_type": "image",
+        "_entry": "34BItE02EimaHX6HoKEjLmSppci"
+      },
+      "foil": {
+        "_id": "34BWz8RJJ4SGMDP2Vgizwkh6ZmC",
+        "_type": "image",
+        "_entry": "34BItC93ITqLXDPRECUcMsNPZ2g"
+      }
+    }
+  ],
+  "isFullArt": true
+}

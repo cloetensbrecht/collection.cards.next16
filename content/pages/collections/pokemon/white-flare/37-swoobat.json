@@ -1,0 +1,70 @@
+{
+  "_id": "33QpieDDdvK5gJiqgRvdlbOGtZa",
+  "_type": "PokemonCard",
+  "_index": "b4z",
+  "title": "Swoobat",
+  "number": "37",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Swoobat",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "349zOnaRR0Bez2nQtYoV5bGRhDO",
+    "_type": "entry",
+    "_entry": "349zDtOmQUBu3BRb8igKhhizPWJ"
+  },
+  "card": {
+    "_id": "33Qpk4hWXh44hAuN2kv6vDDtYGF",
+    "_type": "image",
+    "_entry": "33Qjzi9h3mtoS1LQxqvwdLg1dRo"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QpiiBrwxoyT4xgRwYRnzT7CzW",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349zVOdg0HDNTkzwYrnEEtucU3r",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349zbbJqvzX2c87rHUpfW3MNCu3",
+        "_type": "image",
+        "_entry": "349zZAlfHYOZymEzWXoydFlPHXw"
+      },
+      "foil": {
+        "_id": "349zc73Ydg10kVs0j2bRHsv8s1L",
+        "_type": "image",
+        "_entry": "349zZAC3bk3gtpc366KAzV2Bj4B"
+      }
+    },
+    {
+      "_id": "349zVnqleppFBPilwcSlN1jzQua",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349zWK05EC9BZ8i2EqlIWO47luv",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

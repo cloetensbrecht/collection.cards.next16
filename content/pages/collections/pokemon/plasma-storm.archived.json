@@ -1,0 +1,47 @@
+{
+  "_id": "2zp3TOmxiLC3SOcR0AdL1ngha4Z",
+  "_type": "PokemonSet",
+  "_index": "b0V",
+  "title": "Plasma Storm",
+  "number": 55,
+  "ptcgoCode": "PLS",
+  "releaseDate": "2013-02-06",
+  "generation": "V",
+  "serie": "blackWhiteSeries",
+  "symbol": [
+    {
+      "_id": "2zpMjfUwLMj7id2CRaqGL9kEErE",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe4QM0VsysFhB3vrSjfB8van"
+    }
+  ],
+  "logo": {
+    "_id": "2zp3YSnKxJ9XROTAS1l7j0jbMlf",
+    "_type": "image",
+    "_entry": "2zowip24WbwhzjEv6nE6hQzeFrj"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

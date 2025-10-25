@@ -1,0 +1,30 @@
+{
+  "_id": "30qDuuaKRhV78qnJFewlraQkjIt",
+  "_type": "PokemonCard",
+  "_index": "as",
+  "title": "Mankey",
+  "number": "55",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 30,
+  "pokemon": "Mankey",
+  "energy": "fighting",
+  "stage": "basic",
+  "card": {
+    "_id": "30qDw8xKDXZbNl0poT8uUAnvhpf",
+    "_type": "image",
+    "_entry": "30q9BzQPfmGbCytJ4cgLB9pfFNO"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

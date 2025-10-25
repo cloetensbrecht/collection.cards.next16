@@ -1,0 +1,30 @@
+{
+  "_id": "31PBYW0ZbdHcWOAjIuQIWILagoR",
+  "_type": "PokemonCard",
+  "_index": "aJ",
+  "title": "Electabuzz",
+  "number": "20",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Electabuzz",
+  "energy": "lightning",
+  "stage": "basic",
+  "card": {
+    "_id": "31PBZxD1PqR3DJKsqB7HjUBRqjL",
+    "_type": "image",
+    "_entry": "31PBV4vSzkd2ayHxukbCYxAWRUP"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

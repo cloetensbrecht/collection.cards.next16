@@ -1,0 +1,45 @@
+{
+  "_id": "33QxFcmdySkH0UKo2b545vHhYZ7",
+  "_type": "PokemonCard",
+  "_index": "b7Y",
+  "title": "Litwick",
+  "number": "101",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Litwick",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BWexw5mg7RWRLQJFWqghJyFu5",
+    "_type": "entry",
+    "_entry": "34BWeUH6PYdBa9vtvFGiuAwlozR"
+  },
+  "card": {
+    "_id": "33QxHJDoULZcXFB1w6XUJKnHA7m",
+    "_type": "image",
+    "_entry": "33QkWfyScs9tVWitYaJt1HeYk1O"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QxFfZIcRBbkl9Gq5zAA8oWnne",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BWfxAAnXbdlNP7EWdbNKRmYGS",
+        "_type": "image",
+        "_entry": "34BItB2p3ZKWqfVubxUFbxVJQ17"
+      },
+      "foil": {
+        "_id": "34BWgTuNQ14N8UOpXBm7Bm1yv0u",
+        "_type": "image",
+        "_entry": "34BItFmPUKzfIY1WgzKyQXR4O9B"
+      }
+    }
+  ],
+  "isFullArt": true
+}

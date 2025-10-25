@@ -1,0 +1,30 @@
+{
+  "_id": "31YVIttA9w5celD42cXLr4brhVy",
+  "_type": "PokemonCard",
+  "_index": "as",
+  "title": "Nidoran ♂",
+  "number": "55",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Nidoran ♂",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "31YVL2LmeUtiEuqN5cqKwOck0id",
+    "_type": "image",
+    "_entry": "31YVFgXz3DKGh9vxYH4z8C5HJQj"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

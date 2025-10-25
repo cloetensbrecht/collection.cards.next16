@@ -1,0 +1,47 @@
+{
+  "_id": "2zp2BycSRq7TUyfX1wHXc2jxsdF",
+  "_type": "PokemonSet",
+  "_index": "b0j",
+  "title": "HeartGold & SoulSilver",
+  "number": 43,
+  "ptcgoCode": "HS",
+  "releaseDate": "2010-02-10",
+  "generation": "IV",
+  "serie": "heartGoldSoulSilverSeries",
+  "symbol": [
+    {
+      "_id": "2zpMyOuDLPqoQPaziypmEBPY3qj",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe2XkruFu3mdlIaB4YvzS7fr"
+    }
+  ],
+  "logo": {
+    "_id": "2zp2G4vIQt2X4X1W12sPaNAJnhh",
+    "_type": "image",
+    "_entry": "2zowitCRsBEbpDF41bMqtNYCpyk"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

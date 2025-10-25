@@ -1,0 +1,69 @@
+{
+  "_id": "31mWrWuBiFTky4DrdhNsfsae5iz",
+  "_type": "PokemonCard",
+  "_index": "b1p",
+  "title": "Pansage",
+  "number": "4",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Pansage",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1wjARZJwQTYBbWHQikcpIbXq",
+    "_type": "entry",
+    "_entry": "33vX4WvQg56xcSKuJLX8xm3UVfu"
+  },
+  "card": {
+    "_id": "31mWuHD9EdEQYexWEuwisMKbPQX",
+    "_type": "image",
+    "_entry": "31mWptro02K5H7a15ipavTPQNt6"
+  },
+  "variants": [
+    {
+      "_id": "31mWrdoga0pfwP7ynqvwiIJJPK9",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mX3xkihpc76vwSsQ222a0Hkyt",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31mXE1Y8e3mpRQqQAyhKFpsR6dx",
+        "_type": "image",
+        "_entry": "31mXCdg3hDVLy4FtXkEpiElO4VM"
+      },
+      "foil": {
+        "_id": "31mXEpLWfdb1CO0yGt06GWoCWCt",
+        "_type": "image",
+        "_entry": "31mXCdVfvtu5yZ1r1BuRzl5GW8m"
+      }
+    },
+    {
+      "_id": "31mX4ajNu3rQFqNG6uyQvh4vNn7",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mX5GYfS0OJbAf1zDSQXrmyYMs",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

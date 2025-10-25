@@ -1,0 +1,47 @@
+{
+  "_id": "2zp797vp7jKCKsojSKQ8B0t2O0Z",
+  "_type": "PokemonSet",
+  "_index": "b09",
+  "title": "Shining Legends",
+  "number": null,
+  "ptcgoCode": "SLG",
+  "releaseDate": "2017-10-06",
+  "generation": "VII",
+  "serie": "sunMoonSeries",
+  "symbol": [
+    {
+      "_id": "2zpMHooQ5yFrgVP4uzvnbZKh5Vw",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8MQDMLyKth12cNQJpKm1R4"
+    }
+  ],
+  "logo": {
+    "_id": "2zp7DBwSoFwMpZEhJW8bf2iYODM",
+    "_type": "image",
+    "_entry": "2zowiuoCPYr53i8VWY6zxwxMX27"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

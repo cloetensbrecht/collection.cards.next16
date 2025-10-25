@@ -1,0 +1,47 @@
+{
+  "_id": "2zp0cGYyohfFriFEGqIXfQhOGEr",
+  "_type": "PokemonSet",
+  "_index": "b0y",
+  "title": "EX Dragon Frontiers",
+  "number": 30,
+  "ptcgoCode": "DF",
+  "releaseDate": "2006-11-08",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNBiPoiqRjDQ1TodFqXTYJ3Xf",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe757bDUOTfMI4f57zanyXW4"
+    }
+  ],
+  "logo": {
+    "_id": "2zp0hiuGIRNrZhsvCwDcWHRqObN",
+    "_type": "image",
+    "_entry": "2zowiunDIPJNxLpUYgCmk6I6j3F"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

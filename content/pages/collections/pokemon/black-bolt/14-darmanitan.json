@@ -1,0 +1,69 @@
+{
+  "_id": "31mdspwpgBfa68zDS2P5E06y8HF",
+  "_type": "PokemonCard",
+  "_index": "b36",
+  "title": "Darmanitan",
+  "number": "14",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Darmanitan",
+  "energy": "fire",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w1iYzQTTqNQU6Qbzy1aoDJpwH",
+    "_type": "entry",
+    "_entry": "33vXMCPGpNs4YpYKPNnKgmsDhqU"
+  },
+  "card": {
+    "_id": "31mduxSwYDeV3mzn8Xs0UJ09Lxk",
+    "_type": "image",
+    "_entry": "31mdo3rBQUrjG0tPLG5RSaPqoSX"
+  },
+  "variants": [
+    {
+      "_id": "31mdsnOXNHuWllf0t4Ohispjd3n",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mdyjtwcF9laJq7ZM1PMkLxHSG",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31me04QlG7GGKgVlF7Tb8GrPiuY",
+        "_type": "image",
+        "_entry": "31mdpTlsW8e6yoJqbUmPquefDTR"
+      },
+      "foil": {
+        "_id": "31me11wUmnNFhLJqWpBmpv0xmOG",
+        "_type": "image",
+        "_entry": "31mdpVsKzWxRMtBUcKNpMsIVJfz"
+      }
+    },
+    {
+      "_id": "31me0KnHUCvjdYHKjvMaplHarOp",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31me2ZJMGb5OdMcl7wn8O3u2Dli",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

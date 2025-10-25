@@ -1,0 +1,53 @@
+{
+  "_id": "2zoxB1TGWAbnjMBYaTZwnEyxjzs",
+  "_type": "PokemonSet",
+  "_index": "b31",
+  "title": "Fossil (1st Edition)",
+  "number": 3,
+  "ptcgoCode": "FO",
+  "releaseDate": "1999-10-10",
+  "generation": "I",
+  "serie": "originalSeries",
+  "symbol": [
+    {
+      "_id": "31QZY4DRf9ZxHyuxUZnUFG7JGx6",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe5iJD9rgOSL9OAX0dNEoUZU"
+    },
+    {
+      "_id": "31QZY45Se8GomwFka1TAx6seD8s",
+      "_index": "a1",
+      "_type": "image",
+      "_entry": "311Q1su8EEGY6gkVO3yThZr3e9q"
+    }
+  ],
+  "logo": {
+    "_id": "2zoxGJZq8UCpGpBbV7ceb9NZqVR",
+    "_type": "image",
+    "_entry": "2zowirfWTBZPWyCznfT4c4fT8F6"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

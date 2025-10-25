@@ -1,0 +1,45 @@
+{
+  "_id": "33R1CD6dHLIv1a0XsUeZ7aUBkKK",
+  "_type": "PokemonCard",
+  "_index": "b97",
+  "title": "Scraggy",
+  "number": "138",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Scraggy",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EDGvmONfDfdyal2MLNHCvjIY4",
+    "_type": "entry",
+    "_entry": "34EDGOS1X7vJ7iJzlPKO9vDTVXE"
+  },
+  "card": {
+    "_id": "33R1DPaTNRZ4gqVF2kAIpV19B8p",
+    "_type": "image",
+    "_entry": "33QkcHBCERwnhjDPVhFTcIf1I0V"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R1CFHj3sq01V0gZi0suGSDfSu",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EDI71Sa2SzG4XNLrORuZldqoc",
+        "_type": "image",
+        "_entry": "34BJ5orLQIlPeVvsVyRzbopy7cA"
+      },
+      "foil": {
+        "_id": "34EDIml1PODjG1nOvGpkYAAkAw0",
+        "_type": "image",
+        "_entry": "34BJ5oua4I0O24Y8dlZ8c5JEGL3"
+      }
+    }
+  ],
+  "isFullArt": true
+}

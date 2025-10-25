@@ -1,0 +1,69 @@
+{
+  "_id": "31whHbMT1T8eqsu68yhUdeHPfPR",
+  "_type": "PokemonCard",
+  "_index": "b59",
+  "title": "Duosion",
+  "number": "38",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Duosion",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w0xlM6BFO48ymNpyHE54lsfze",
+    "_type": "entry",
+    "_entry": "33vXzoV2zrjui8c40TpxruGtopz"
+  },
+  "card": {
+    "_id": "31whMfjTtHfvTeF10OEneD14m3S",
+    "_type": "image",
+    "_entry": "31ve9RR8UDzEm2HsXD77bZdKVQu"
+  },
+  "variants": [
+    {
+      "_id": "31whHdtcfodxAupErAqTxyHJQhY",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31whRK8xmSm3h9rkErhZYUkZ5ds",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31whZibMUtLcUIByFIFSr7Dmb7F",
+        "_type": "image",
+        "_entry": "31whY5EDSwGbC5oiygenljhArTU"
+      },
+      "foil": {
+        "_id": "31whahwx5XSLqEihRZyobAHXoLr",
+        "_type": "image",
+        "_entry": "31whY8eoYoHujsbhdfQYyd06ihe"
+      }
+    },
+    {
+      "_id": "31whRxjFDIZxCLCOLDGTWLZYvW9",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31whSqhuWk5TYMDRvSHRGdTjzml",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

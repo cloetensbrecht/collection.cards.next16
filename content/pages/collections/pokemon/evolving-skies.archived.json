@@ -1,0 +1,47 @@
+{
+  "_id": "2zp9LT1JNp9bJuFsAtl5AIkKVDo",
+  "_type": "PokemonSet",
+  "_index": "an",
+  "title": "Evolving Skies",
+  "number": 89,
+  "ptcgoCode": "EVS",
+  "releaseDate": "2021-08-27",
+  "generation": "VIII",
+  "serie": "swordShieldSeries",
+  "symbol": [
+    {
+      "_id": "2zpLsTWqp32TpqiaFvZRddHsMzw",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8mDu19xaGiJUnasorh0JIN"
+    }
+  ],
+  "logo": {
+    "_id": "2zp9Q1e1L5Dnr3QfMd1p1BorNhW",
+    "_type": "image",
+    "_entry": "2zowityeYYHsAWWKHpM3OhI8Ayh"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

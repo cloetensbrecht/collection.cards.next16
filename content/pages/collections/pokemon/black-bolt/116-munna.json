@@ -1,0 +1,44 @@
+{
+  "_id": "320EpZf81khzGYaZzJ7nj8mlQ4X",
+  "_type": "PokemonCard",
+  "_index": "b8H",
+  "title": "Munna",
+  "number": "116",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Munna",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vyWDiDejiN3Xj54NnJzeGnH5m",
+    "_type": "entry",
+    "_entry": "33varjEHrxhPqKsUIKCQt1vtBBD"
+  },
+  "card": {
+    "_id": "320ErVkYi0D4mjOKSaqngNbeCm2",
+    "_type": "image",
+    "_entry": "320Ak3dWrEBuvuZcgWi4I5FFxkC"
+  },
+  "variants": [
+    {
+      "_id": "320EpVfKmsfn7bPbgzt39sQ98I7",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320EuNpeEkz98b7EG8C2XVYxYAZ",
+        "_type": "image",
+        "_entry": "320En1BpFFJGz3EbVb4BSkyIHuG"
+      },
+      "foil": {
+        "_id": "320Ev1Pctywokn63elNJj0ypC14",
+        "_type": "image",
+        "_entry": "320En0c0FwqNOmWfrZfXB6Wyb0u"
+      }
+    }
+  ],
+  "isFullArt": true
+}

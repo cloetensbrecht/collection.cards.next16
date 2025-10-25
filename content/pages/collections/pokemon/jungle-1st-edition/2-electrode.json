@@ -1,0 +1,30 @@
+{
+  "_id": "30q9SQG50PiihP3Ikpb4JK3aw4g",
+  "_type": "PokemonCard",
+  "_index": "b1P",
+  "title": "Electrode",
+  "number": "2",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Electrode",
+  "energy": "lightning",
+  "stage": "stage1",
+  "card": {
+    "_id": "30q9Tpg51RBAY8XxJfzFiSpHasN",
+    "_type": "image",
+    "_entry": "30q9C1uUgUr09i46zr9Yp3ShBcv"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

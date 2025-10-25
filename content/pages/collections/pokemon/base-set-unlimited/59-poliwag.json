@@ -1,0 +1,30 @@
+{
+  "_id": "31YjhqDOYfXLl2V7drb0j91Ta24",
+  "_type": "PokemonCard",
+  "_index": "aw",
+  "title": "Poliwag",
+  "number": "59",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Poliwag",
+  "energy": "water",
+  "stage": "basic",
+  "card": {
+    "_id": "31YjjVXvHZ3dkzWsp0vhllU3gUP",
+    "_type": "image",
+    "_entry": "31YjeSz8rymnMpxKv97lncRzhg0"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

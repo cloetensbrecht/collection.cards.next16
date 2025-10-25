@@ -1,0 +1,47 @@
+{
+  "_id": "2zozwRKHIkM4GPVZIfyHHfOX9RP",
+  "_type": "PokemonSet",
+  "_index": "b15",
+  "title": "EX Deoxys",
+  "number": 23,
+  "ptcgoCode": "DX",
+  "releaseDate": "2005-02-14",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNJBoizBgIFGf9qaCsUajMTRW",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe9GQlaHgNe5gnPd5Og0fuco"
+    }
+  ],
+  "logo": {
+    "_id": "2zozzgr6tUOcgqN0QAKh83rjglV",
+    "_type": "image",
+    "_entry": "2zowiuEgXNUssQ0ABh1q0skT7F9"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

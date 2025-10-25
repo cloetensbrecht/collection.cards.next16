@@ -1,0 +1,70 @@
+{
+  "_id": "33Ql2DvWPW7Nts5t8sw72Vvvhi4",
+  "_type": "PokemonCard",
+  "_index": "a7",
+  "title": "Shelmet",
+  "number": "8",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Shelmet",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349q5NmpnphidqockfW5MnvWBd3",
+    "_type": "entry",
+    "_entry": "33vtSoFZ0bvONM8edNtxXPsYYMG"
+  },
+  "card": {
+    "_id": "33Ql3uNqwGQFaf1aIPPBmOofklA",
+    "_type": "image",
+    "_entry": "33OElKi1cIqsgbMvqafS0kEpqRR"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Ql2EZHoHU6wkXI8COZQD0MId0",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349q7tRsIYJ25uewygt1xYW72dG",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349qNubIJyBeBqIoz7OI21iXGZ9",
+        "_type": "image",
+        "_entry": "349qMGdWGFMCGF305LPXaHp3Inj"
+      },
+      "foil": {
+        "_id": "349qOm0oyoNlBP76NMkThKOLNxV",
+        "_type": "image",
+        "_entry": "349qMJJxkSBEQt3vfxtMKip4nxW"
+      }
+    },
+    {
+      "_id": "349q8WqJ5l5QQ4ThTQyHlho9JCt",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349q8v8XwAzIFB1VIYjX2ANF16w",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

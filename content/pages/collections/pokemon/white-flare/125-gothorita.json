@@ -1,0 +1,45 @@
+{
+  "_id": "33QzuUnaYn7UZirjMUvEG7MvFQe",
+  "_type": "PokemonCard",
+  "_index": "b8Y",
+  "title": "Gothorita",
+  "number": "125",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Gothorita",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EC2JyzqXKfvD70nkxDipDO90W",
+    "_type": "entry",
+    "_entry": "34EC260ZiVLHE8Q7gPMCpnquAYL"
+  },
+  "card": {
+    "_id": "33QzvRTpptPXM1hcubBk6nebcs8",
+    "_type": "image",
+    "_entry": "33QkcI3DITFZtNM5imP3vX1JAck"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QzuTtdNFFxITCyrywZTaWIHBq",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EC3MSD9IvPFtNlgAWKZdi7e0W",
+        "_type": "image",
+        "_entry": "34BItC9mzuBTXXqoJy57n7SMjH3"
+      },
+      "foil": {
+        "_id": "34EC3rUtHpRQGYpgJ54WJNGWlGa",
+        "_type": "image",
+        "_entry": "34BItGMsxK60Pi2dNJdAfPqIYPS"
+      }
+    }
+  ],
+  "isFullArt": true
+}

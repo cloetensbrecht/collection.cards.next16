@@ -1,0 +1,45 @@
+{
+  "_id": "33R0P5WbZgGyHxX5V6IO4zXT605",
+  "_type": "PokemonCard",
+  "_index": "b8k",
+  "title": "Sawk",
+  "number": "130",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Sawk",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34ECWA1MUseSZHMZTsGJCDIH0Py",
+    "_type": "entry",
+    "_entry": "34ECVa1E1x8rycoIbDfVA36UfP2"
+  },
+  "card": {
+    "_id": "33R0QKQ5MnA3h7dzL0imm4LKxyE",
+    "_type": "image",
+    "_entry": "33QkcIzVWAQdJ5S7JqfkhDGZGXN"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R0P6Xk09ejXqZHxpGuuVRE2y3",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34ECXGkrPIvxm6t9oDmwxfhpTQ5",
+        "_type": "image",
+        "_entry": "34BItBnIefSrIuPIaQxsrlTsEih"
+      },
+      "foil": {
+        "_id": "34ECXluk08pkeuK0bKD4XcEvZRR",
+        "_type": "image",
+        "_entry": "34BItFzW32emGRaBEKItD3Vq0iF"
+      }
+    }
+  ],
+  "isFullArt": true
+}

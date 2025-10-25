@@ -1,0 +1,47 @@
+{
+  "_id": "2zp1yaQ3MkPCZk2m2L2kmFIeK1A",
+  "_type": "PokemonSet",
+  "_index": "b0m",
+  "title": "Supreme Victors",
+  "number": 41,
+  "ptcgoCode": "SV",
+  "releaseDate": "2009-08-19",
+  "generation": "IV",
+  "serie": "platinumSeries",
+  "symbol": [
+    {
+      "_id": "2zpN0PPYohJzRS2gSBcEeduUOTr",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe57fJO5sw7Ab0tSk3YVWQ2m"
+    }
+  ],
+  "logo": {
+    "_id": "2zp22OIR5OS2WdbKrJURZrI3kgP",
+    "_type": "image",
+    "_entry": "2zowisZNUb7tFYpmZazwkyL5oyO"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

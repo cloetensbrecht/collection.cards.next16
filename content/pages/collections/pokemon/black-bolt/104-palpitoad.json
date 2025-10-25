@@ -1,0 +1,44 @@
+{
+  "_id": "3209ovVoGS91sBFOwHpcewodoGL",
+  "_type": "PokemonCard",
+  "_index": "b7n",
+  "title": "Palpitoad",
+  "number": "104",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Palpitoad",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vysbQti9a9f3carTW9HsUhg3b",
+    "_type": "entry",
+    "_entry": "33vaLpCKAF8vbVpKm16XKctYSjv"
+  },
+  "card": {
+    "_id": "3209tchP8RaMXysanVm6kHjihvn",
+    "_type": "image",
+    "_entry": "3209kOjkvv1Jx0B4ORwJm5JuEn5"
+  },
+  "variants": [
+    {
+      "_id": "3209opg9PbdMPelEXkFMntGLv5g",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "3209wngHZ1qnEjUU6srDc9PiolJ",
+        "_type": "image",
+        "_entry": "3209lswBsNIODaqZ2AT2I2ffFJT"
+      },
+      "foil": {
+        "_id": "3209xXfbmczlyvyPmKTxnehrWgc",
+        "_type": "image",
+        "_entry": "3209lpSR9B35ijA0Txql4AwAunH"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "30pwNXydWMSPLv9rfBltBuKf4cM",
+  "_type": "PokemonCard",
+  "_index": "b7W",
+  "title": "Psychic Energy",
+  "number": "101",
+  "edgeColor": "#ffe78f",
+  "cardtype": "energy",
+  "energy": "psychic",
+  "stage": null,
+  "card": {
+    "_id": "30pwObXEfSr6cX9Ey2kK8Vt0F8Z",
+    "_type": "image",
+    "_entry": "30oJlBSgLGlp614UK69M4Azx8C7"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "2zp8NGdgu2hpvliksBdTjTGJ2Xm",
+  "_type": "PokemonSet",
+  "_index": "ax",
+  "title": "Cosmic Eclipse",
+  "number": 82,
+  "ptcgoCode": "CEC",
+  "releaseDate": "2019-11-01",
+  "generation": "VII",
+  "serie": "sunMoonSeries",
+  "symbol": [
+    {
+      "_id": "2zpM30zMPQca1z2dbXEB1HDt0Ns",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe53eX5Zcv1GVxgBoEf9XX8O"
+    }
+  ],
+  "logo": {
+    "_id": "2zp8R8ITrHzfxg2aWGNThwR5jZX",
+    "_type": "image",
+    "_entry": "2zowippD6xhVBGC0hXFO7mfcaKX"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

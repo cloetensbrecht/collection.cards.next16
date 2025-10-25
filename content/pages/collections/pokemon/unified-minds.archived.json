@@ -1,0 +1,47 @@
+{
+  "_id": "2zp898isnYd5oqkm2qNbnH7dfa1",
+  "_type": "PokemonSet",
+  "_index": "az",
+  "title": "Unified Minds",
+  "number": 81,
+  "ptcgoCode": "UNM",
+  "releaseDate": "2019-08-02",
+  "generation": "VII",
+  "serie": "sunMoonSeries",
+  "symbol": [
+    {
+      "_id": "2zpM5819CitXr6EbwEdPgzym5fl",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe32z0q2tuS1azLDqlfd1HAq"
+    }
+  ],
+  "logo": {
+    "_id": "2zp8BkPQQWoe5hay7Cnm9Hs7k9Z",
+    "_type": "image",
+    "_entry": "2zowitUTt2TtuM8nODsCDMFIeKa"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

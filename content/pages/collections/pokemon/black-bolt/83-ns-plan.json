@@ -1,0 +1,57 @@
+{
+  "_id": "31yVa99dPUOsopc5THu9fep8l30",
+  "_type": "PokemonCard",
+  "_index": "b7B",
+  "title": "N's Plan",
+  "number": "83",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "subtype": "supporter",
+  "illustrator": {
+    "_id": "33vzab4eLVkLr90RnJIkpAgRFEQ",
+    "_type": "entry",
+    "_entry": "33vXtFEOiWjAFERRvhwRAMXm9Eq"
+  },
+  "card": {
+    "_id": "31yVcPCksqfKZvJOfpEA8Fq9Rm2",
+    "_type": "image",
+    "_entry": "31yUZ1uhHs6waRSaF8MweiJjID9"
+  },
+  "variants": [
+    {
+      "_id": "31yVaA6au4FoZpe0Lg3oJWUP2u1",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31yVeDo5PdLod32SAakk1D9pMv4",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31yVrcSFAi2qvCbtiaMEoZWJS6p",
+        "_type": "image",
+        "_entry": "31yVncVUWqTngnv4QgFhOlIabh8"
+      },
+      "foil": {
+        "_id": "31yVsUdafuLj8hokKYxdHvmRuEh",
+        "_type": "image",
+        "_entry": "31yVnjXw9kS7b8Kcql2Wrt9o43w"
+      }
+    },
+    {
+      "_id": "31yVeeBLz18EnEwM6WIJQvdBIKy",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

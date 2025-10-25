@@ -1,0 +1,27 @@
+{
+  "_id": "30puhkW9uuJev1cYOHnmK7P3KDf",
+  "_type": "PokemonCard",
+  "_index": "b0V",
+  "title": "Potion",
+  "number": "94",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31CHaFf57WSqmwjzS8O8wpBgia1",
+    "_type": "image",
+    "_entry": "31A259tuGzyJzuZouqr6JaN7aEn"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

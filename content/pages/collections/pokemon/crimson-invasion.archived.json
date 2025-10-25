@@ -1,0 +1,47 @@
+{
+  "_id": "2zp7FeZZbq413t2cLJ0P8xCtycM",
+  "_type": "PokemonSet",
+  "_index": "b08",
+  "title": "Crimson Invasion",
+  "number": 74,
+  "ptcgoCode": "CIN",
+  "releaseDate": "2017-11-03",
+  "generation": "VII",
+  "serie": "sunMoonSeries",
+  "symbol": [
+    {
+      "_id": "2zpMFmi4HK1S192qbhpCcxp5agX",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe53RthSeRau8kYoLzP3xsQO"
+    }
+  ],
+  "logo": {
+    "_id": "2zp7JiSBER1vidEtqWj2cbJoocc",
+    "_type": "image",
+    "_entry": "2zowitBd8nZEg8Br9dXzW7fFPcy"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

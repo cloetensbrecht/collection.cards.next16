@@ -1,0 +1,30 @@
+{
+  "_id": "30qD1fzF20iJBDJLa4HFxDAb0mn",
+  "_type": "PokemonCard",
+  "_index": "b5O",
+  "title": "Primeape",
+  "number": "43",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Primeape",
+  "energy": "fighting",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qD2ycS1e5tBmUSKSHoedgUTgV",
+    "_type": "image",
+    "_entry": "30q9C2lfgOMLOd7HbAqlKP5BGVC"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

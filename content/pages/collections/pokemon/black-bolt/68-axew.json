@@ -1,0 +1,69 @@
+{
+  "_id": "31wxK3xRMCP31pwuyOfcmzYdLnA",
+  "_type": "PokemonCard",
+  "_index": "b6j",
+  "title": "Axew",
+  "number": "68",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Axew",
+  "energy": "dragon",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w043YxHetn9mh5zWjRlgP9NvZ",
+    "_type": "entry",
+    "_entry": "33vYlZFevQisL14GcNtrhc5zmus"
+  },
+  "card": {
+    "_id": "31wxMCCUqjJbGz5ju2Y1XSFuDxg",
+    "_type": "image",
+    "_entry": "31wtY2OGJ8Lf4ujSi7vdu5uc8nG"
+  },
+  "variants": [
+    {
+      "_id": "31wxK0H4cQv9mBD5cMGHGyeEE7s",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wxQHYHPYbOEJswfwrEgf3FV8t",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wxXqqxs4gi8u8OGFRvL3cBA27",
+        "_type": "image",
+        "_entry": "31wxVektki2kDnBjLYfOBmKN4eh"
+      },
+      "foil": {
+        "_id": "31wxYdTjinmL0nlPpTUsO8evezy",
+        "_type": "image",
+        "_entry": "31wxVYTJyp0xWvmllHNmzX4Jg03"
+      }
+    },
+    {
+      "_id": "31wxR3wqmpqD2qSr2dOPgnKtv5b",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wxSADUXM0oZbnCDXxp6KHFPfn",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

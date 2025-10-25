@@ -1,0 +1,70 @@
+{
+  "_id": "33Qr3Ayor8P276Gy0mg0Wn4QiMB",
+  "_type": "PokemonCard",
+  "_index": "b5p",
+  "title": "Sawk",
+  "number": "49",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Sawk",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A3FdnOza4y1feK1EWJP9nqs4A",
+    "_type": "entry",
+    "_entry": "33vc4oQZtqyXs1uqpPWafLku8bk"
+  },
+  "card": {
+    "_id": "33Qr4LmGaj11Kgs7EPeGOZ9LqDT",
+    "_type": "image",
+    "_entry": "33Qk4Ygc0ng2Hhqh14xK9G5fs1o"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qr3Ik2gwfcWCsU1ehodp5ySvi",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A3Gtllc3V0eQV9CB4a3Zarzv5",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A3Kdk0W7izRjbX3jCMBs0P7oN",
+        "_type": "image",
+        "_entry": "34A3JK4A8Ez3DlAlFwdiaxcPeJs"
+      },
+      "foil": {
+        "_id": "34A3L9BFVA5MGH9n18Zt5BbHlRk",
+        "_type": "image",
+        "_entry": "34A3JJwtwbLnChYZZKBI1pyRMzV"
+      }
+    },
+    {
+      "_id": "34A3HBFodyxxOtPD2B2z4d3NMa6",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A3Hks8LK6T5g2HsviFf5wDfMX",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "320SydAyYoXUDx4kqBGuveLclpK",
+  "_type": "PokemonCard",
+  "_index": "b9n",
+  "title": "Minccino",
+  "number": "152",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Minccino",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vxH1xyW0EY9qT3odtYApzmJQq",
+    "_type": "entry",
+    "_entry": "33vXK9uFwEC2T3h2oPHHbLp1mTZ"
+  },
+  "card": {
+    "_id": "320T0Qf1jnsRIv1HppIemdVWE1Z",
+    "_type": "image",
+    "_entry": "320FBQ2VXzHo7jlqd2vIGVvXHDt"
+  },
+  "variants": [
+    {
+      "_id": "320Sya9ix0m3AyDY2PiHVemREbp",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320T1PkY6X3TbicHtsj1ZehROOx",
+        "_type": "image",
+        "_entry": "320SiNwroKKdpHUw08eln5Ccr9s"
+      },
+      "foil": {
+        "_id": "320T1xNj7SGIhF360ZTHbMrZUdL",
+        "_type": "image",
+        "_entry": "320SiJRFWmybL8UJQztKx3FQhg4"
+      }
+    }
+  ],
+  "isFullArt": true
+}

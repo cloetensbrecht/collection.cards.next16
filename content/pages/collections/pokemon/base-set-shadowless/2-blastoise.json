@@ -1,0 +1,30 @@
+{
+  "_id": "311QhRjLHecGw6pCAzvTDeXXKzh",
+  "_type": "PokemonCard",
+  "_index": "b1N",
+  "title": "Blastoise",
+  "number": "2",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Blastoise",
+  "energy": "water",
+  "stage": "stage2",
+  "card": {
+    "_id": "311Td0XJe6ZSCsFTCBWv6ymzIjI",
+    "_type": "image",
+    "_entry": "311TbFwxdI7BLkMVI7J74hnroRV"
+  },
+  "variants": [
+    {
+      "_id": "311L9YdGKtJr18DAiN3NNkCUlHt",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

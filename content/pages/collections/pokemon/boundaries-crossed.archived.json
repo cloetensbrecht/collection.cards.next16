@@ -1,0 +1,47 @@
+{
+  "_id": "2zp3MNXw0m4jLVf1aYVJnu9UBSS",
+  "_type": "PokemonSet",
+  "_index": "b0W",
+  "title": "Boundaries Crossed",
+  "number": 54,
+  "ptcgoCode": "BCR",
+  "releaseDate": "2012-11-07",
+  "generation": "V",
+  "serie": "blackWhiteSeries",
+  "symbol": [
+    {
+      "_id": "2zpMkfbNlHTBKmOIFBlgLy7VimY",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe9a9l4GOCHvVp37lNGCf9aS"
+    }
+  ],
+  "logo": {
+    "_id": "2zp3RDpw3ETyu766qin2BAs3X0U",
+    "_type": "image",
+    "_entry": "2zowitwg1HLsWWQGPezsXl1tHtJ"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

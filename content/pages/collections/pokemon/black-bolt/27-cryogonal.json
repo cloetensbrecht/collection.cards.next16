@@ -1,0 +1,69 @@
+{
+  "_id": "31opmL0zbHQ8OUtqL5eCumlkY0U",
+  "_type": "PokemonCard",
+  "_index": "b4J",
+  "title": "Cryogonal",
+  "number": "27",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Cryogonal",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1EeR8bsKXSWB7ofr7qelnQbv",
+    "_type": "entry",
+    "_entry": "33vXiJQnuDURy2I44vdKnsrhhlA"
+  },
+  "card": {
+    "_id": "31oppxx2cwwIf5sN4BVsiQyHXWl",
+    "_type": "image",
+    "_entry": "31oiFBS9NJea3ZzrmagbGMm3tD5"
+  },
+  "variants": [
+    {
+      "_id": "31opmLPbVsh4MkjmpDNxU0ZI0YA",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31opuM8geQM0OBd9eQ63Z6mSnSw",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31oq0w1UKpk7nfIFNvfluK9WRZr",
+        "_type": "image",
+        "_entry": "31opywiWG7IWVwW7gr6DGo1vdsT"
+      },
+      "foil": {
+        "_id": "31oq1rIzFhcEOfe3k1bSB68ZMyF",
+        "_type": "image",
+        "_entry": "31opyyoSMyqWlaQ2Rs0UFrb2NX6"
+      }
+    },
+    {
+      "_id": "31opukfLpsq4HqdjEhrZHeBFqZA",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31opvfANjmxUojuPh6Im6bQ7ZQh",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

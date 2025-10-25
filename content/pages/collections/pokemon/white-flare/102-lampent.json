@@ -1,0 +1,45 @@
+{
+  "_id": "33QxLI1Rs2tP2FWCqgqulEo4Y4e",
+  "_type": "PokemonCard",
+  "_index": "b7c",
+  "title": "Lampent",
+  "number": "102",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Lampent",
+  "energy": "fire",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34BWjP3HiVLYZTvYYx50X0yNP8l",
+    "_type": "entry",
+    "_entry": "34BWjApKeCPdshB51IjX6di69a0"
+  },
+  "card": {
+    "_id": "33QxMXQhThiZtIMOGcvBIakKDc0",
+    "_type": "image",
+    "_entry": "33QkWhctE4M7of5chGbFluQtx1W"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QxLJO4FFSQSryiRWgvxe176fJ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BWls0yAQjk9vlMOXivhGFvW3F",
+        "_type": "image",
+        "_entry": "34BItEX5OwXndrEHpJev8mWUnV2"
+      },
+      "foil": {
+        "_id": "34BWmPc5fSaIbFBzo5a92zi8Uj0",
+        "_type": "image",
+        "_entry": "34BItBdtvhCGg0FKwQllEGhwXZ9"
+      }
+    }
+  ],
+  "isFullArt": true
+}

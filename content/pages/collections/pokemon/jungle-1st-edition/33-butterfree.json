@@ -1,0 +1,30 @@
+{
+  "_id": "30qCCc6432ZZxSgcVMVod1NlemN",
+  "_type": "PokemonCard",
+  "_index": "b4e",
+  "title": "Butterfree",
+  "number": "33",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Butterfree",
+  "energy": "grass",
+  "stage": "stage2",
+  "card": {
+    "_id": "30qCDx6qWShZDdIqCi6Tx9azXWt",
+    "_type": "image",
+    "_entry": "30q9C5c6oeO1C4Og8pc45drolrx"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

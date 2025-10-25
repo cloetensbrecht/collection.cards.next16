@@ -1,0 +1,47 @@
+{
+  "_id": "2zp3AvG5QL9M9m5XdsT5jtI7Z4Z",
+  "_type": "PokemonSet",
+  "_index": "b0Y",
+  "title": "Dragons Exalted",
+  "number": 53,
+  "ptcgoCode": "DRX",
+  "releaseDate": "2012-08-15",
+  "generation": "V",
+  "serie": "blackWhiteSeries",
+  "symbol": [
+    {
+      "_id": "2zpMnhxHCBZhWSjKlIJJkTFLeBa",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe2yZgXpb2eR0rLO07eBlFt8"
+    }
+  ],
+  "logo": {
+    "_id": "2zp3EIaEkI67yZMlhZPNbZVsqz8",
+    "_type": "image",
+    "_entry": "2zowis7jGkejAIOMfYDGR4BDwrV"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

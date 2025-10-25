@@ -1,0 +1,44 @@
+{
+  "_id": "31zbnm15Z5qza5khAp6JgDh6xYS",
+  "_type": "PokemonCard",
+  "_index": "b0b",
+  "title": "Darmanitan",
+  "number": "98",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Darmanitan",
+  "energy": "fire",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vz5Nrxc9TVfEtuzX0xDbB7qZ2",
+    "_type": "entry",
+    "_entry": "33va28LR7XuYuqRjPlGgMFfpA37"
+  },
+  "card": {
+    "_id": "31zbpsRYZFmGjQt1Az5Wfe9bSJD",
+    "_type": "image",
+    "_entry": "31zbjBRB7Zud67JF1EMPI22U2xx"
+  },
+  "variants": [
+    {
+      "_id": "31zbnqKTcDpzEH9nF9mHpQyplCI",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zbt6h1BirxJoOoV4tFt56zilT",
+        "_type": "image",
+        "_entry": "31zblv1RoKwu4Z2yD5yuuQG9W7H"
+      },
+      "foil": {
+        "_id": "31zbtr3bUHOdQK1jmuwZiGR8yO4",
+        "_type": "image",
+        "_entry": "31zbluaMPHjXWEN46mHkzpU8E5N"
+      }
+    }
+  ],
+  "isFullArt": true
+}

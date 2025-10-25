@@ -1,0 +1,41 @@
+{
+  "_id": "320VTaQo5E8MiTQZ8ORy8tyvmh3",
+  "_type": "PokemonCard",
+  "_index": "bAH",
+  "title": "N's Plan",
+  "number": "163",
+  "edgeColor": "#97999b",
+  "rarity": "ultra-rare",
+  "cardtype": "trainer",
+  "subtype": "supporter",
+  "illustrator": {
+    "_id": "33vwqCgo6xjdNIhTA6BIBAYnNfP",
+    "_type": "entry",
+    "_entry": "33vXtFEOiWjAFERRvhwRAMXm9Eq"
+  },
+  "card": {
+    "_id": "320VUDnEccQfNZ7uVfStXkUkpOy",
+    "_type": "image",
+    "_entry": "320FBOHCoAcKRFHQlZZyWPbJj2Z"
+  },
+  "variants": [
+    {
+      "_id": "320VTV9QThTfrpPXnVEUQdDn633",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320VWjp5U38IDeIe19mzzSF7zXD",
+        "_type": "image",
+        "_entry": "320V5N0y1ObGi5g0yulQwcoZrQp"
+      },
+      "foil": {
+        "_id": "320VXaRcOaan4ZQHZ52PQ1SGq3w",
+        "_type": "image",
+        "_entry": "320V5PWMVgBVD1il55cufjQM1GI"
+      }
+    }
+  ],
+  "isFullArt": true
+}

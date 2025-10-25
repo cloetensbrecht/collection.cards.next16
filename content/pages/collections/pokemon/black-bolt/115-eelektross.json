@@ -1,0 +1,44 @@
+{
+  "_id": "320CAfGxsy7BbkILJA1offhnDCe",
+  "_type": "PokemonCard",
+  "_index": "b8E",
+  "title": "Eelektross",
+  "number": "115",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 160,
+  "pokemon": "Eelektross",
+  "energy": "lightning",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33vyYKoTksOm5LKkiZWR5qW1lM2",
+    "_type": "entry",
+    "_entry": "33vap8sEcE4XWgMaBPFAUwlPbXz"
+  },
+  "card": {
+    "_id": "320CCXReMrza0UheCMeD81udjty",
+    "_type": "image",
+    "_entry": "320Ak4eRTaQvLKiRkLJTzV1oQl6"
+  },
+  "variants": [
+    {
+      "_id": "320CAe9dqKftq6WHVb46qJ3F3ki",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320CFLRhYZopVvwfgVNwvN44TzL",
+        "_type": "image",
+        "_entry": "320C8yDxa8qnPePNCQOzaYCcrp2"
+      },
+      "foil": {
+        "_id": "320CFyb8aYzmsH3NdfPo42k2r1Z",
+        "_type": "image",
+        "_entry": "320C8u90l6fb27bdY9AsbhNbeWT"
+      }
+    }
+  ],
+  "isFullArt": true
+}

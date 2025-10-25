@@ -1,0 +1,70 @@
+{
+  "_id": "33QqqZNs7tRAkJeAAygPChIyWzI",
+  "_type": "PokemonCard",
+  "_index": "b5g",
+  "title": "Boldore",
+  "number": "47",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Boldore",
+  "energy": "fighting",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A2nKz0gX3GQVxvmliJ6a6HKL5",
+    "_type": "entry",
+    "_entry": "33vdnbkPf4vXYkE8OI8gnjIlV7Z"
+  },
+  "card": {
+    "_id": "33QqrllodoVFWYykz6FsvpSPFP4",
+    "_type": "image",
+    "_entry": "33Qk4bO3dSXsFl6wLmsYxRSvpZy"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QqqUoBVQkcxf9wcBL389Oc03e",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A2p6kEBObBRXt9R76aHJN2KS4",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A2zdGS1bCqcp7EqBqb46dORzF",
+        "_type": "image",
+        "_entry": "34A2yisPjODp5BWeFBCC5f8nVn9"
+      },
+      "foil": {
+        "_id": "34A30C7qgUJXXMxwXsTXEGP3Idw",
+        "_type": "image",
+        "_entry": "34A2yi2iNUk75WDA9i44TGZeJ4i"
+      }
+    },
+    {
+      "_id": "34A2pWoQjGCfMd5GQMkc38pdZWz",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A2pvDkftzU75AAOJf98SYUlHv",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

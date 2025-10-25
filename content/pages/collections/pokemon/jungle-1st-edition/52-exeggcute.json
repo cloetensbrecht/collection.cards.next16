@@ -1,0 +1,30 @@
+{
+  "_id": "30qDhe3PeyJfWGVL8mnR1oPUSuq",
+  "_type": "PokemonCard",
+  "_index": "b5y",
+  "title": "Exeggcute",
+  "number": "52",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Exeggcute",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "30qDizoojPuuUut9OVtABOxCvIY",
+    "_type": "image",
+    "_entry": "30q9C3EJq0Tq5ozebHN9M9vmJUP"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

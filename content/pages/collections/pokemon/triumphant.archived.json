@@ -1,0 +1,47 @@
+{
+  "_id": "2zp2UmQrIPcVFMY7zfUtekjBjl9",
+  "_type": "PokemonSet",
+  "_index": "b0g",
+  "title": "Triumphant",
+  "number": 46,
+  "ptcgoCode": "TM",
+  "releaseDate": "2010-11-02",
+  "generation": "IV",
+  "serie": "heartGoldSoulSilverSeries",
+  "symbol": [
+    {
+      "_id": "2zpMvZDTsgApMyeJAn5y2I9G3Qk",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8pxGGvbb1NVBqZycP16oCN"
+    }
+  ],
+  "logo": {
+    "_id": "2zp2XjS4qdlC4ASO26kzdFyWV8r",
+    "_type": "image",
+    "_entry": "2zowitordaVfEnMlXNKMGUeHM8N"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

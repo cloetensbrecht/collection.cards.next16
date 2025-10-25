@@ -1,0 +1,27 @@
+{
+  "_id": "30ofkmzfdmJ2L3Ba3OmuEsvjhnW",
+  "_type": "PokemonCard",
+  "_index": "b0D",
+  "title": "Pokémon Breeder",
+  "number": "76",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31CIUUKobzFIjGj5F4r04a89jPu",
+    "_type": "image",
+    "_entry": "31A25AFWId4xHRo3HSRjlAJP1pY"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

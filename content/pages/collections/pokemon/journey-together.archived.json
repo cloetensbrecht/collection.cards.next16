@@ -1,0 +1,47 @@
+{
+  "_id": "2zpBqrVppneNc6zWyK8Y2XFykEI",
+  "_type": "PokemonSet",
+  "_index": "aO",
+  "title": "Journey Together",
+  "number": 103,
+  "ptcgoCode": "JTG",
+  "releaseDate": "2025-03-28",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zpLSBIMley05iOg05ZSRC9YqxC",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpCZQjD6kp5lFtVHHIr4Lu26cC"
+    }
+  ],
+  "logo": {
+    "_id": "2zpCGp4ZModIU5dk3x9M7RW8XVY",
+    "_type": "image",
+    "_entry": "2zpCGifR801DgZXbwQoLYLVoe40"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "2zp1sB6FC0JbYiq1zISbMl47ZfW",
+  "_type": "PokemonSet",
+  "_index": "b0n",
+  "title": "Rising Rivals",
+  "number": 40,
+  "ptcgoCode": "RR",
+  "releaseDate": "2009-05-20",
+  "generation": "IV",
+  "serie": "platinumSeries",
+  "symbol": [
+    {
+      "_id": "2zpN1SCc9pFz7ElxWHMwpysU8LM",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe5zEzXkg338IWJgAcPMXeMv"
+    }
+  ],
+  "logo": {
+    "_id": "2zp1w84YTFJQtbXDmosMyLagNof",
+    "_type": "image",
+    "_entry": "2zowiu2Olu6tkJh7TqjYrfoV48u"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

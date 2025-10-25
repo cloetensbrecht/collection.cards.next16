@@ -1,0 +1,45 @@
+{
+  "_id": "33R0cIiTpvIVHN3mKlArB78oecr",
+  "_type": "PokemonCard",
+  "_index": "b8q",
+  "title": "Archeops",
+  "number": "132",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Archeops",
+  "energy": "fighting",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34ECfcJZELq91aT76xFSaGlNhNC",
+    "_type": "entry",
+    "_entry": "33vXqGCgzVMiaM4Y3FQRJ8n7xiD"
+  },
+  "card": {
+    "_id": "33R0dXXsPMdHcGXI3GDy8h8gjQz",
+    "_type": "image",
+    "_entry": "33QkcE2adpCoKjGq8XvxX2EFffA"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R0cI3FMvEUIFiYAUEeYmYxIyZ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34ECgrvGA2QZyKHbmycqyEg4qkj",
+        "_type": "image",
+        "_entry": "34BJ5jzHsnc6FLv1JTgOBunRQOR"
+      },
+      "foil": {
+        "_id": "34EChV30yaDleGzBO620Nd4gs6n",
+        "_type": "image",
+        "_entry": "34BJ5kKellc4ZtzW6erw1Jh2pn8"
+      }
+    }
+  ],
+  "isFullArt": true
+}

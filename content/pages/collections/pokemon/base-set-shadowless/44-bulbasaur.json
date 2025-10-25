@@ -1,0 +1,30 @@
+{
+  "_id": "30ocEabN3JcfT6cU9BlIU9GInw9",
+  "_type": "PokemonCard",
+  "_index": "b5R",
+  "title": "Bulbasaur",
+  "number": "44",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Bulbasaur",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "31CJAE381DlzybKeqlxnbbqPdFq",
+    "_type": "image",
+    "_entry": "31A25B1WOvNb2JK11BsTeEti402"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "31Y8c5XJEkj8Djx8AsVAn4i8z61",
+  "_type": "PokemonCard",
+  "_index": "aV",
+  "title": "Kadabra",
+  "number": "32",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Kadabra",
+  "energy": "psychic",
+  "stage": "stage1",
+  "card": {
+    "_id": "31Y8doVx2rP4gkkhrzik97rzVKz",
+    "_type": "image",
+    "_entry": "31Y8Z9YR4nRXphA0SgDLUkaFFCq"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

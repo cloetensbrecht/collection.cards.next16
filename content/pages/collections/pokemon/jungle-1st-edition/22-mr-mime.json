@@ -1,0 +1,30 @@
+{
+  "_id": "30qBIDe350LlLCaMjg8XAJjtCga",
+  "_type": "PokemonCard",
+  "_index": "b3g",
+  "title": "Mr. Mime",
+  "number": "22",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Mr. Mime",
+  "energy": "psychic",
+  "stage": "basic",
+  "card": {
+    "_id": "30qBJusGmEVzt9O6VjZKXuYzYfY",
+    "_type": "image",
+    "_entry": "30q9C1FABMHbkcLwzlA9KcxJZsE"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "31YxXnU3tC7yeRJe9bsJ15u9l6B",
+  "_type": "PokemonCard",
+  "_index": "b0A",
+  "title": "Item Finder",
+  "number": "74",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "trainer",
+  "hp": null,
+  "stage": null,
+  "card": {
+    "_id": "31YxYnUgTQperNgrGppT6tzqfFp",
+    "_type": "image",
+    "_entry": "31YxUbTHgWrwPN1TlXDaRYgXYSH"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

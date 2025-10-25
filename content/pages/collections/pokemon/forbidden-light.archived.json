@@ -1,0 +1,47 @@
+{
+  "_id": "2zp7SQeTumNVZKxlc1q7YCfKps0",
+  "_type": "PokemonSet",
+  "_index": "b06",
+  "title": "Forbidden Light",
+  "number": 76,
+  "ptcgoCode": "FLI",
+  "releaseDate": "2018-05-04",
+  "generation": "VII",
+  "serie": "sunMoonSeries",
+  "symbol": [
+    {
+      "_id": "2zpMDq288hzQacXDXRm2ZwlquVQ",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe7HsNzI0c6JChEw9YvCWJMd"
+    }
+  ],
+  "logo": {
+    "_id": "2zp7VzDlIiFEs0JimxQgXl3lR6n",
+    "_type": "image",
+    "_entry": "2zowipLFlkvd82PgqTvRtsB2dIY"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

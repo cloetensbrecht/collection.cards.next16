@@ -1,0 +1,44 @@
+{
+  "_id": "320KONrYL9vS0RxABXKuaTrS400",
+  "_type": "PokemonCard",
+  "_index": "b8Z",
+  "title": "Drillbur",
+  "number": "124",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Drilbur",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vyHSm6GBC4rZxhvppClnCl7ns",
+    "_type": "entry",
+    "_entry": "33vbFKghFIGffBK5J1soV3AKmHL"
+  },
+  "card": {
+    "_id": "320KQvZIOj2pSDacGke6cstnPof",
+    "_type": "image",
+    "_entry": "320FBOo8HNWA2cgJ66dLQZh6Rgf"
+  },
+  "variants": [
+    {
+      "_id": "320KOQuAn5cpKYrMHqAX4vuuq3C",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320KTJBISuaU8Lxbjpxmn3elONV",
+        "_type": "image",
+        "_entry": "320KNFq0kYByWDeR96CaxC1MAii"
+      },
+      "foil": {
+        "_id": "320KTyHQyW19aqdqSaF98LGfFIm",
+        "_type": "image",
+        "_entry": "320KNEFpi6F4yXFJpWlYcdIG3HA"
+      }
+    }
+  ],
+  "isFullArt": true
+}

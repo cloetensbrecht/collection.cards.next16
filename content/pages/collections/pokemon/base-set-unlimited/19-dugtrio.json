@@ -1,0 +1,30 @@
+{
+  "_id": "31PBJ6cAILCasTgt5A79r2MUIyy",
+  "_type": "PokemonCard",
+  "_index": "aI",
+  "title": "Dugtrio",
+  "number": "19",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Dugtrio",
+  "energy": "fighting",
+  "stage": "stage1",
+  "card": {
+    "_id": "31PBL9hg1jvJUh5egcmd370T9TO",
+    "_type": "image",
+    "_entry": "31PBFujdF23BMyINuReqfj49S2f"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

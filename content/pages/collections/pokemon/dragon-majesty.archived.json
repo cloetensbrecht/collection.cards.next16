@@ -1,0 +1,47 @@
+{
+  "_id": "2zp7dnMlvguhBNJpe3402NO4DgT",
+  "_type": "PokemonSet",
+  "_index": "b04",
+  "title": "Dragon Majesty",
+  "number": null,
+  "ptcgoCode": "DRM",
+  "releaseDate": "2018-09-07",
+  "generation": "VII",
+  "serie": "sunMoonSeries",
+  "symbol": [
+    {
+      "_id": "2zpMBfvvGvNbqgxmn09MjjDcRxy",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe9K9bsMKzpbkyUKgqjhXahH"
+    }
+  ],
+  "logo": {
+    "_id": "2zp7gnd3Qa8hauTbPpo38kt56VH",
+    "_type": "image",
+    "_entry": "2zowirDSO4XeoSQc5xiDnbTfDyQ"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

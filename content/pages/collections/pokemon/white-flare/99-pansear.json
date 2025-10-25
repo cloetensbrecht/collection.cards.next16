@@ -1,0 +1,45 @@
+{
+  "_id": "33Qx3e7nQZ6nvE6PENHyaSApC8o",
+  "_type": "PokemonCard",
+  "_index": "b0a",
+  "title": "Pansear",
+  "number": "99",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Pansear",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BWT5sMREgDTFykK1wtoYW5Npr",
+    "_type": "entry",
+    "_entry": "34BWSEAvqOaxZZJSQsqm6ElvZWP"
+  },
+  "card": {
+    "_id": "33Qx4gakHvSKJJWCc7sn28qCkhN",
+    "_type": "image",
+    "_entry": "33QkSFIByOb7MZXtxTxqVpIg6Xw"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qx3eYTuFaGzeJCAoFnQcAgkMe",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BWUdVPHm9YTQLik4BhOfDfzVf",
+        "_type": "image",
+        "_entry": "34BIjzpWUgpnI1dVImBJXmxIesA"
+      },
+      "foil": {
+        "_id": "34BWV6PfntnPaKVkkSaaCgNk583",
+        "_type": "image",
+        "_entry": "34BIk6iDGWB5ij5zH5SfahzF9Zg"
+      }
+    }
+  ],
+  "isFullArt": true
+}

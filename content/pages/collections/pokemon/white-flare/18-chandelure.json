@@ -1,0 +1,70 @@
+{
+  "_id": "33QmdXBDKjFjyfTIi9nnB1iz77Q",
+  "_type": "PokemonCard",
+  "_index": "b3K",
+  "title": "Chandelure",
+  "number": "18",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Chandelure",
+  "energy": "fire",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "349u6LRKzhIXA7YkGAV0HPnYD2p",
+    "_type": "entry",
+    "_entry": "349tWftyxx6WEzzYt8kfs8dWWPv"
+  },
+  "card": {
+    "_id": "33QmfPud2at0hdq0jDRQpjlWbzf",
+    "_type": "image",
+    "_entry": "33QjaDC04tfcZIL82Gao4icJ7oi"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QmdYyja6lQJjDOJ4kmyLLfVPF",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349u7qiqbSx7IGuOCZwsA1YMPfq",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349uFrcmLojeEcyOpkGBvCvPEQb",
+        "_type": "image",
+        "_entry": "349uE5nMXw7ecmFKcfZgehGsj9N"
+      },
+      "foil": {
+        "_id": "349uGnfrNSnXbXILuz4TyKsU00n",
+        "_type": "image",
+        "_entry": "349uE6vVGp0pu02AVvyJLYl62WU"
+      }
+    },
+    {
+      "_id": "349uAcm56118XNpxGB1D7C6mNF9",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349uBEVo95nJN17qIMPDlfF0ufb",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

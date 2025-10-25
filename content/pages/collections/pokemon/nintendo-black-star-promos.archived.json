@@ -1,0 +1,46 @@
+{
+  "_id": "2zpZr9WCUuvSMcl1L7jBoseLdaz",
+  "_type": "PokemonSet",
+  "_index": "b16",
+  "title": "Nintendo Black Star Promos",
+  "ptcgoCode": "PR-NP",
+  "releaseDate": "2003-09-01",
+  "generation": "III",
+  "serie": "blackStarPromotionalCards",
+  "symbol": [
+    {
+      "_id": "2zpahpIa1grVN4XzegjMjYBMIlW",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8bVGCQF6rikZoDKQNmAnuy"
+    }
+  ],
+  "logo": {
+    "_id": "2zvO6JYzEfSFbRCWIweYW2IEkPy",
+    "_type": "image",
+    "_entry": "2zvK9IW3Kx65YMSNuIwq98MEGES"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

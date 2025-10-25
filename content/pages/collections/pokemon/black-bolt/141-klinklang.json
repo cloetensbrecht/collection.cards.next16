@@ -1,0 +1,44 @@
+{
+  "_id": "320QhEONV7QV9euDAMjWJf1RBLm",
+  "_type": "PokemonCard",
+  "_index": "b9J",
+  "title": "Klinklang",
+  "number": "141",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Klinklang",
+  "energy": "metal",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33vxk4aIFzaEluphJOdRsN2FHAE",
+    "_type": "entry",
+    "_entry": "33vc2NJGc9cPVWfDG1A2GplHfLI"
+  },
+  "card": {
+    "_id": "320Qj1loPbW6go6rV64fTXMFChX",
+    "_type": "image",
+    "_entry": "320FBQT9lU2NT6dsf8mdWBlj1nz"
+  },
+  "variants": [
+    {
+      "_id": "320Qh9yRmGNY5tuCxFFHHDjnzV3",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320QmEySC7AwBgnuIGngvYWesLN",
+        "_type": "image",
+        "_entry": "320QFMMymJjtdvYpNyvW8RdoZnV"
+      },
+      "foil": {
+        "_id": "320Qmfr8LyMUz2rOTjkrSE8zKGp",
+        "_type": "image",
+        "_entry": "320QFIMjazFV4HmJhkJi80TpcB2"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "33R3kId6DKDHSLIzOrZ5qGzykKM",
+  "_type": "PokemonCard",
+  "_index": "bA5",
+  "title": "Jellicent Ex",
+  "number": "160",
+  "edgeColor": "#97999b",
+  "rarity": "ultra-rare",
+  "cardtype": "pokemon",
+  "hp": 270,
+  "pokemon": "Jellicent",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EEzMqIezI0AWOrQ4P7FhkX4Kh",
+    "_type": "entry",
+    "_entry": "33vXl0YjFKTZFNhit5bDLN0JKiv"
+  },
+  "card": {
+    "_id": "33R3m4qKLWZ61HhIq92GEHoxuA9",
+    "_type": "image",
+    "_entry": "33QkgcSKVGxictLJPF8HxFWbixT"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R3kKABcDDATOU6KtPM2yGRVGu",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EF0SKCXHvFiV44A4CIBCrgHw8",
+        "_type": "image",
+        "_entry": "34BJ5qfKMGhpXwbnJ13QaDjmHpD"
+      },
+      "foil": {
+        "_id": "34EF0t5OHxxD1j8NxjkoS5OFUxH",
+        "_type": "image",
+        "_entry": "34BJ5q4XwIzgQX2FJizyHhCqW47"
+      }
+    }
+  ],
+  "isEx": true,
+  "isFullArt": true
+}

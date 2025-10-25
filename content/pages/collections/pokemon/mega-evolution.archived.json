@@ -1,0 +1,41 @@
+{
+  "_id": "2zpEdHHv4nvJaXg8RsLwS49K0Zk",
+  "_type": "PokemonSet",
+  "_index": "aL",
+  "title": "Mega Evolution",
+  "number": 106,
+  "ptcgoCode": "MEG",
+  "releaseDate": "2025-09-26",
+  "generation": null,
+  "serie": "megaEvolutionSeries",
+  "symbol": [
+    {
+      "_id": "2zpLBGJ5FGI2cRRAyhCccKmxBAB",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpEwAUUS0WW9mcZBjnWvY18yV2"
+    }
+  ],
+  "logo": {
+    "_id": "33ug9CaegxK7ou1KiLMGVNNEXg3",
+    "_type": "image",
+    "_entry": "33ug87dzBVEiVBlRxgWRmP4mi26"
+  },
+  "heroImage": {
+    "_id": "34QqFaGeSnoZ7T2vpACdspTwkp5",
+    "_type": "image",
+    "_entry": "34QqDt7UdQJZdXVWwKIdPVAO7Lf"
+  },
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Mega Evolution marks a bold new era in the Pokémon Trading Card Game, unleashing the unstoppable power of Mega Evolution Pokémon ex. With towering HP, devastating attacks, and dazzling new card artwork, these Mega-powered Pokémon bring high-risk, high-reward strategy to the forefront. Rise above the competition with explosive plays and unforgettable transformations."
+        }
+      ]
+    }
+  ],
+  "cta_button": "Unleash Mega Evolution"
+}

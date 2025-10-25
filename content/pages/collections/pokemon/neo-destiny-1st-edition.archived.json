@@ -1,0 +1,53 @@
+{
+  "_id": "2zoy6mWbGw9Umyh22RDB8x6ws3P",
+  "_type": "PokemonSet",
+  "_index": "b2s",
+  "title": "Neo Destiny (1st Edition)",
+  "number": 11,
+  "ptcgoCode": "N4",
+  "releaseDate": "2002-02-28",
+  "generation": "II",
+  "serie": "neoSeries",
+  "symbol": [
+    {
+      "_id": "31QadSowopwphxz64B2wrSY9bKE",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe7nPW32rFx2tYfY4kHTwooW"
+    },
+    {
+      "_id": "31QadZSajZoW8y28AhRm7Uo8u0c",
+      "_index": "a1",
+      "_type": "image",
+      "_entry": "311Q1su8EEGY6gkVO3yThZr3e9q"
+    }
+  ],
+  "logo": {
+    "_id": "2zoy9zL1NhuV72YgnJ1NnVoYgxG",
+    "_type": "image",
+    "_entry": "2zowipuSgGJ01NNHrM7a4piEEjX"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

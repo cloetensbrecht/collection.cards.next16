@@ -1,0 +1,77 @@
+{
+  "_id": "31opEcRIp7Kxk5CvS3wJ51K7q0F",
+  "_type": "PokemonCard",
+  "_index": "b4E",
+  "title": "Beartic",
+  "number": "26",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Beartic",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w1G9jJJJzh0NYXi6sr8eqnZJy",
+    "_type": "entry",
+    "_entry": "33vXeV6EHuY9R8IbwHOdP5FNiQy"
+  },
+  "card": {
+    "_id": "31opGda9Jgp0KpP3Gb3oTGGHkxj",
+    "_type": "image",
+    "_entry": "31oiF91n8fSravgsJNGXGtIU3HP"
+  },
+  "variants": [
+    {
+      "_id": "31opEZSk4d80wgZybT5ZJP1HFUZ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {
+        "_id": "31opRxFrF8PU5OIMg1paV40Qs6i",
+        "_type": "image",
+        "_entry": "31opQRbxGegu4yxZQ5RAMnrkL5u"
+      },
+      "foil": {
+        "_id": "31opSe91KbPJxRBB2VWp2h8Pf3z",
+        "_type": "image",
+        "_entry": "31opQPpgLd3yEyqFFbknQHX05bb"
+      }
+    },
+    {
+      "_id": "31opUKhbkLvaxBAJPvLTwrVFp7X",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31opaB1j33eB02CL75GoHWbIV4E",
+        "_type": "image",
+        "_entry": "31opYigmIbGLLyyjht60wC6pFZo"
+      },
+      "foil": {
+        "_id": "31opatgsQoOZEiiSOoHrTDfhXJl",
+        "_type": "image",
+        "_entry": "31opYjvnhxTeGFpDYbLCAi1sEVB"
+      }
+    },
+    {
+      "_id": "31opV0SD01WE0r7EA7VMOaY2mrm",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31opVjx86WOeAwg9S8guc17JDa7",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

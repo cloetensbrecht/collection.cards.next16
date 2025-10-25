@@ -1,0 +1,70 @@
+{
+  "_id": "33QpWedpoVpxPL5mNPwDKRIOjlf",
+  "_type": "PokemonCard",
+  "_index": "b4p",
+  "title": "Stunfisk",
+  "number": "35",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Stunfisk",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349yuXLMTHNRbs8rOX03x5Htjb6",
+    "_type": "entry",
+    "_entry": "33vcE5vVaFLWyYpzIZzNxWDatWY"
+  },
+  "card": {
+    "_id": "33QpXrbFAos3hcZXZzRg8FG1ZwF",
+    "_type": "image",
+    "_entry": "33Qjj1KDRipv5XGfc6uxq1OQvKq"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QpWa9g4ojaFPUsKaZuOGN0HTg",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349yvcpwEAnXzv2ohVyzsuNN6IY",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349yzHqRBBc7xcwveGmd5f6pF9v",
+        "_type": "image",
+        "_entry": "349yyJa3OQdG208RUFKFMtF4Bzs"
+      },
+      "foil": {
+        "_id": "349yznOnnk1JsKSEn8fbG9dIa4B",
+        "_type": "image",
+        "_entry": "349yyLbdjO1CtZ1sxRLLsO7r02V"
+      }
+    },
+    {
+      "_id": "349yw4sExmFLPUOgkHP1S9L0JKJ",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349ywmcqTKtW2Btvn8xUzFTgAmQ",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "2zp0Vr7HALiuRWvXrvCgezLDpIQ",
+  "_type": "PokemonSet",
+  "_index": "b0z",
+  "title": "EX Crystal Guardians",
+  "number": 29,
+  "ptcgoCode": "CG",
+  "releaseDate": "2006-08-30",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNCVd7bpBuCrwbXGwiRzBjTXa",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe4eac4FUHVIcRzdiFOIwQ6Q"
+    }
+  ],
+  "logo": {
+    "_id": "2zp0ZgKwGlVOel5Ggi6vUTStAbl",
+    "_type": "image",
+    "_entry": "2zowivWZV3MRPUMMF7kwCtnaHd0"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

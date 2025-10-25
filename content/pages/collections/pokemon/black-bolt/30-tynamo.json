@@ -1,0 +1,69 @@
+{
+  "_id": "31or8aXBYM7HogUlRWNz5qJlDm3",
+  "_type": "PokemonCard",
+  "_index": "b4Y",
+  "title": "Tynamo",
+  "number": "30",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Tynamo",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w19iPBK4jdbOMdtCTQ9JfbaHs",
+    "_type": "entry",
+    "_entry": "33vXqGCgzVMiaM4Y3FQRJ8n7xiD"
+  },
+  "card": {
+    "_id": "31orAsYaCMQaz4xTasGjCxvphaJ",
+    "_type": "image",
+    "_entry": "31oiFDRjK5xrocnFcB3LWGum7hQ"
+  },
+  "variants": [
+    {
+      "_id": "31or8dbKA1ZxnAT0R15XJW4Tlvs",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31orH184Zqj4BjF7PjIZ2wcrQog",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31orTxtpuErmBVHz35pTI3kqOho",
+        "_type": "image",
+        "_entry": "31orRuQ92AsIwxPbTpGEQZkc9TQ"
+      },
+      "foil": {
+        "_id": "31orUoRJpsc951FSfMjkWIFM7NB",
+        "_type": "image",
+        "_entry": "31orRynm9dfsVLtk1N9lOpekND2"
+      }
+    },
+    {
+      "_id": "31orHzmZ2qcVd0rUONqENuCfHiv",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31orJNiMBi89PUsNqbzBfxjK6Ld",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

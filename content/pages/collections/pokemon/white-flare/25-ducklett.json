@@ -1,0 +1,70 @@
+{
+  "_id": "33QnqjkKWTRzjDBHwbirZG4tW9r",
+  "_type": "PokemonCard",
+  "_index": "b3z",
+  "title": "Ducklett",
+  "number": "25",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Ducklett",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349wSz9L0UidOF9KoWYE4O63kaT",
+    "_type": "entry",
+    "_entry": "33vatyiipWTADIY1Vxjg6GCQUNF"
+  },
+  "card": {
+    "_id": "33QnsQGustRoKtQlfIGBKUUvQTo",
+    "_type": "image",
+    "_entry": "33Qje3HpIKzS0EYZMvFCRqPHsUv"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QnqfRkGeuSlYEbXd7HwXNH69b",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349wZaFvUqLIuouD3uqty2RYhuq",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349wdeUYUWYZ1XXWNLZ2mL481is",
+        "_type": "image",
+        "_entry": "349wcf7bngNPXUsXulKu47zeUgM"
+      },
+      "foil": {
+        "_id": "349weDSFHiEDakcLKSePkOqv9Mf",
+        "_type": "image",
+        "_entry": "349wcdBLUEPMWhnENp6nn3X9J00"
+      }
+    },
+    {
+      "_id": "349wa7CcACsT0R1kIkqkbiXRmwG",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349waYttTIkezC0UR35ZtWpUgNv",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

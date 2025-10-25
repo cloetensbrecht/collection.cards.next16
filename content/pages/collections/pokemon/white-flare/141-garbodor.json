@@ -1,0 +1,45 @@
+{
+  "_id": "33R1UCBKFSROPaVBcq0jSk6xfWc",
+  "_type": "PokemonCard",
+  "_index": "b9F",
+  "title": "Garbodor",
+  "number": "141",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Garbodor",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EDVEU1RaAEUQr4LZabhIAvgsi",
+    "_type": "entry",
+    "_entry": "33vYWzmeeHJLoLa6oDJgmonBY5O"
+  },
+  "card": {
+    "_id": "33R1V9gLf5rb3NutX2qMfYO7oLD",
+    "_type": "image",
+    "_entry": "33QkghOj8o4jPwwCxgPkopPJl5s"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R1U8fnDrCCid84rkLspDQymQK",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EDVscbrnMrFWg8geykRDuvyvX",
+        "_type": "image",
+        "_entry": "34BJ5lpz9bYhUNB6XHlRcVjunwK"
+      },
+      "foil": {
+        "_id": "34EDWVJh9XnXwPMzTwVKxHiDxHG",
+        "_type": "image",
+        "_entry": "34BJ5qBVcSgoGdXmqn5T9zqJn3Q"
+      }
+    }
+  ],
+  "isFullArt": true
+}

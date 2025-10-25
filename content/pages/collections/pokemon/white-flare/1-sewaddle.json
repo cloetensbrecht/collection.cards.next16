@@ -1,0 +1,70 @@
+{
+  "_id": "31bC2GGV0KcdTVaKEAS3k8YrVxF",
+  "_type": "PokemonCard",
+  "_index": "b1B",
+  "title": "Sewaddle",
+  "number": "1",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Sewaddle",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349e5QB0mKhnHE3rXYea4OHhFrv",
+    "_type": "entry",
+    "_entry": "349e4JeljFnnzz85BdmNSIhdzCc"
+  },
+  "card": {
+    "_id": "31bCCuj1NLywttM0mG6LKvDB4MQ",
+    "_type": "image",
+    "_entry": "31bC0LkJ8FgyQWDMoCXTxUhZYng"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "31bC2A8yJ2ErAWmPIL0PRGRZcor",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31bCNfyaNg7uoBBJ0eZQx9LlJF3",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "33RFSa2dqo433hBcnp2WKtm9DsC",
+        "_type": "image",
+        "_entry": "33RFR2ELTjYeuGhVDk9KB8vyxVD"
+      },
+      "foil": {
+        "_id": "33RFTJ7lZ3PbY7YoSXkUEumTTrS",
+        "_type": "image",
+        "_entry": "33RFR3w2oulnPLOYOuqaRAdq40p"
+      }
+    },
+    {
+      "_id": "31bCOLkDhpUXTfB6uHq1C2zTpse",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31bCUntJls1ZckQv3LDiqv95fuh",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

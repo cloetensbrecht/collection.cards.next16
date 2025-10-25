@@ -1,0 +1,77 @@
+{
+  "_id": "31wwLsPgDR2HPW5r5PkcKUEB9eF",
+  "_type": "PokemonCard",
+  "_index": "b6f",
+  "title": "Cobalion",
+  "number": "66",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Cobalion",
+  "energy": "metal",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w07PoTwZLH89rMh6xyU1vXp0E",
+    "_type": "entry",
+    "_entry": "33vYg2tIgsbObyeJCp0QzquUKcm"
+  },
+  "card": {
+    "_id": "31wwNrrVPHavcGa5FIDe0UQRgfY",
+    "_type": "image",
+    "_entry": "31wtY0ZbiV9um4Tvq29YHEjuh6I"
+  },
+  "variants": [
+    {
+      "_id": "31wwLoWowjyS6LUH2TjsH6Qm2sp",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {
+        "_id": "31wwe815YHR60pqyzpFIqgmNfy0",
+        "_type": "image",
+        "_entry": "31wwWmcgFbmqXaFIVMFUDNfWyPg"
+      },
+      "foil": {
+        "_id": "31wwekg3fyek6CY0afkHCUpN9kd",
+        "_type": "image",
+        "_entry": "31wwWngYwOy8XHXWMXjFCVz1uX4"
+      }
+    },
+    {
+      "_id": "31wwhvkbW8fdUFVErvEhgvezmO5",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wwsRfzbVSmFwccjphNiqFrbdV",
+        "_type": "image",
+        "_entry": "31wwoLFOWkETDI4W1DL9Q8OfLwB"
+      },
+      "foil": {
+        "_id": "31wwtHFrpDdnAmLAb3nHCyE7yAQ",
+        "_type": "image",
+        "_entry": "31wwoMDwvdJFR7mXhOBkdFmxfKm"
+      }
+    },
+    {
+      "_id": "31wwizVbrjGUk2cGDBnOiHClpPP",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wwjp2ORTJaEtJCvk7DMhIItji",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

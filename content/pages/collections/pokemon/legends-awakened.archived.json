@@ -1,0 +1,47 @@
+{
+  "_id": "2zp1aXb2jpqDaZjUgDbCWm5rai9",
+  "_type": "PokemonSet",
+  "_index": "b0q",
+  "title": "Legends Awakened",
+  "number": 37,
+  "ptcgoCode": "LA",
+  "releaseDate": "2008-08-20",
+  "generation": "IV",
+  "serie": "diamondPearlSeries",
+  "symbol": [
+    {
+      "_id": "2zpN5Bm6Eb3FobhNEyu4u2sscMH",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe4tOpBe6gMiytpYTgNPeFtE"
+    }
+  ],
+  "logo": {
+    "_id": "2zp1eWlPcKIeNoHhdkY8PrpwPJu",
+    "_type": "image",
+    "_entry": "2zowiqOC6zPS21G23OTDV9mBooL"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

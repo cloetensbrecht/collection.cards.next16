@@ -1,0 +1,45 @@
+{
+  "_id": "33R2xnjY5kGv4VDWTPAfiGHg4lO",
+  "_type": "PokemonCard",
+  "_index": "b9u",
+  "title": "Stoutland",
+  "number": "156",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 160,
+  "pokemon": "Stoutland",
+  "energy": "colorless",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34EEeb9waTuqzcneI3WC9BN9XzX",
+    "_type": "entry",
+    "_entry": "33vXxaxiOer6KWGzeJiPP5iJJZe"
+  },
+  "card": {
+    "_id": "33R2ywpDqfXTvs6N4XaJh994gcd",
+    "_type": "image",
+    "_entry": "33QkgcqfQY7PPXtspYlaZNLm17r"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R2xoHYfBw5hX8kDZupnNp3hXU",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EEgKZmXmXn4lGpOBFo7wX6wHL",
+        "_type": "image",
+        "_entry": "34BJ5kEqzDoTxy17K1tK360z02R"
+      },
+      "foil": {
+        "_id": "34EEgzXIwKmeC5teaqBoni7j9xs",
+        "_type": "image",
+        "_entry": "34BJ5lQvTWJjbrKzNKbgxqx5zHy"
+      }
+    }
+  ],
+  "isFullArt": true
+}

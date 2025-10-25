@@ -1,0 +1,69 @@
+{
+  "_id": "31mcehe2DOJAxVAM9ktB3Xn34d0",
+  "_type": "PokemonCard",
+  "_index": "b2T",
+  "title": "Darumaka",
+  "number": "13",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Darumaka",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1jj96gCcg74hraTU5JPSSOMz",
+    "_type": "entry",
+    "_entry": "33vXMCPGpNs4YpYKPNnKgmsDhqU"
+  },
+  "card": {
+    "_id": "31mchHQs00blG4x4x5CDqGzOFzJ",
+    "_type": "image",
+    "_entry": "31mcZc5Esa53iydelV5w6oByeca"
+  },
+  "variants": [
+    {
+      "_id": "31mcekC3Dps8yTDyi0weuYYuZWt",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mckbiAFGvbb9CiJAqipjpOktO",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31mcmBdnNNmHJyYrbMvUWgYNBa5",
+        "_type": "image",
+        "_entry": "31mcb0TPbweHXDZvbBoXZRskhHa"
+      },
+      "foil": {
+        "_id": "31mcn8D6JopC3oZLmDapnjXuQoT",
+        "_type": "image",
+        "_entry": "31mcavIAazIkvZPKspOxGZdb9C7"
+      }
+    },
+    {
+      "_id": "31mcrESXpGsZWKElIAS6lQVyfID",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mcsAqgU9Hcv1k9YH3zGtffdWZ",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

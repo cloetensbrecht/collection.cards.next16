@@ -1,0 +1,45 @@
+{
+  "_id": "33R06J9Q2NHeSStaTBcQAwepsIW",
+  "_type": "PokemonCard",
+  "_index": "b8d",
+  "title": "Roggenrola",
+  "number": "127",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Roggenrola",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34ECF3qwXia55KDDfMhuoU9DGoz",
+    "_type": "entry",
+    "_entry": "34ECEdt3270NnDZOB8QfU5xWsTT"
+  },
+  "card": {
+    "_id": "33R07WaJUtlXA5X9buoNBgZPu1b",
+    "_type": "image",
+    "_entry": "33QkcDjudiI1cYFhXSpoiaQwe2o"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R06NhUcwI1xVGQQSx5cAHmDJx",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34ECH8BZRpOkV69Mn9OvJMSTO7Y",
+        "_type": "image",
+        "_entry": "34BItETo9eoFMSJZTBF3tR0cfqu"
+      },
+      "foil": {
+        "_id": "34ECHlYaKAbGQcyZQ7krN5kuEFi",
+        "_type": "image",
+        "_entry": "34BItB8678dmw3xGTeKoCuLoS3i"
+      }
+    }
+  ],
+  "isFullArt": true
+}

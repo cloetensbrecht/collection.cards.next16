@@ -1,0 +1,30 @@
+{
+  "_id": "30qBn2wciFaErA1hMG3Zybh6tcY",
+  "_type": "PokemonCard",
+  "_index": "b4F",
+  "title": "Vaporeon",
+  "number": "28",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Vaporeon",
+  "energy": "water",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qBoLLwwiOXqtm3NlOFdyUnwEY",
+    "_type": "image",
+    "_entry": "30q9C0sqasb2hF3T5v08qBTpgIl"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

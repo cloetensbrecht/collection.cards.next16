@@ -1,0 +1,30 @@
+{
+  "_id": "31Y8GWytk5XaknrWbNZT3PNfN8N",
+  "_type": "PokemonCard",
+  "_index": "aU",
+  "title": "Jynx",
+  "number": "31",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Jynx",
+  "energy": "psychic",
+  "stage": "basic",
+  "card": {
+    "_id": "31Y8IN77fsTOFUtOZpYjg7kElh8",
+    "_type": "image",
+    "_entry": "31Y8CyJCQ3tnFmZSXAwN0NMXQLR"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "3209ZvKR7KYs0obVKMZs6216o8h",
+  "_type": "PokemonCard",
+  "_index": "b7k",
+  "title": "Tympole",
+  "number": "103",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Tympole",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vyuSBQGOvPVKJC7SuB5JPkm9b",
+    "_type": "entry",
+    "_entry": "33vaIjJh3tJYZXFxFnfodi0wzxb"
+  },
+  "card": {
+    "_id": "3209bw0l8M5V5VD5PT8y1VMmGQy",
+    "_type": "image",
+    "_entry": "3209WU9r7ceNylxjJT9NpHtcXg9"
+  },
+  "variants": [
+    {
+      "_id": "3209Zx7BOl5JR7GvAyNjAfDzT2u",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "3209elINVKgS1UzIpUQM2XkPHSZ",
+        "_type": "image",
+        "_entry": "3209XuIlwi7ipQZ8m6vEsNhkd4o"
+      },
+      "foil": {
+        "_id": "3209faYsEHV5eEl7cGbB0whmHq0",
+        "_type": "image",
+        "_entry": "3209XtRVROJfBew0vbNMQlp3C8w"
+      }
+    }
+  ],
+  "isFullArt": true
+}

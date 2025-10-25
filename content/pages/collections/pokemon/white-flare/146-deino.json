@@ -1,0 +1,45 @@
+{
+  "_id": "33R1z93ZSH4Wekk1xFpNiVJAwXT",
+  "_type": "PokemonCard",
+  "_index": "b9R",
+  "title": "Deino",
+  "number": "146",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Deino",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EDujF3GQMW0TV4sasEknSQiDP",
+    "_type": "entry",
+    "_entry": "349r15HPSoIebKPFp8gePJa02Ns"
+  },
+  "card": {
+    "_id": "33R20BXRlUXdLrB4aPPR3Ro6Kmz",
+    "_type": "image",
+    "_entry": "33QkgbndFZ0jTaxgLO6Rhr5njK8"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R1z3wcN7l1aeiQY9Dv9CaZnAF",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EDvVzVdSXwbN6osxvGo7FsVxi",
+        "_type": "image",
+        "_entry": "34BJ5k911S8A4eRVWTPwwBPuAGa"
+      },
+      "foil": {
+        "_id": "34EDwEGSR4aHoewgc8IuyjbAVkP",
+        "_type": "image",
+        "_entry": "34BJ5nWEhzxfKBwthawnkjCGwFy"
+      }
+    }
+  ],
+  "isFullArt": true
+}

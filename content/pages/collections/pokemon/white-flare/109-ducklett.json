@@ -1,0 +1,45 @@
+{
+  "_id": "33Qy5OyzExAyJTXntLgBsDhvbV7",
+  "_type": "PokemonCard",
+  "_index": "b7v",
+  "title": "Ducklett",
+  "number": "109",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Ducklett",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BXIpwrB13lPI7sDp2mNfwN3fo",
+    "_type": "entry",
+    "_entry": "33vdB15Dd9uB2wt8to7YduIXBVi"
+  },
+  "card": {
+    "_id": "33Qy6zQ0UjIAWKJ99ei7XAvPVRG",
+    "_type": "image",
+    "_entry": "33QkWjxqU1Gc7h1dejsX0e9lT2m"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qy5NhdCba8JNvR6I1HmpXd4xz",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BXJYE1oVWyljizNDeYcwgbdiY",
+        "_type": "image",
+        "_entry": "34BItAsozy98WihkPSNuGjSeb1x"
+      },
+      "foil": {
+        "_id": "34BXK54XHlVANGcUlZZfrzGCtDh",
+        "_type": "image",
+        "_entry": "34BItHCAvG3QqS3SVRG3gtbIoqP"
+      }
+    }
+  ],
+  "isFullArt": true
+}

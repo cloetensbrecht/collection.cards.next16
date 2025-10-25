@@ -1,0 +1,47 @@
+{
+  "_id": "31CfOe8SQpqVGOzWG5vsXvOoYBq",
+  "_type": "PokemonSet",
+  "_index": "a8",
+  "title": "Jungle (Unlimited)",
+  "number": 2,
+  "ptcgoCode": "JU",
+  "releaseDate": "1999-06-16",
+  "generation": "I",
+  "serie": "originalSeries",
+  "symbol": [
+    {
+      "_id": "31Cb5XBejumUooLil9YjWotsACj",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe2UOnGpVfzMUciXOVhg9bXF"
+    }
+  ],
+  "logo": {
+    "_id": "2zox8EFEVDKFuwSsfju7QrWvznG",
+    "_type": "image",
+    "_entry": "2zowit9CpYars6i4bm3zU1Z8XgM"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

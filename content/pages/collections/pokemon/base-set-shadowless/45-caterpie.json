@@ -1,0 +1,30 @@
+{
+  "_id": "30ocJmt6GRiiVGrszdWB2UsfljI",
+  "_type": "PokemonCard",
+  "_index": "b5V",
+  "title": "Caterpie",
+  "number": "45",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Caterpie",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "31CJ8lUa3zM1EhpoXQySJC7lLH1",
+    "_type": "image",
+    "_entry": "31A25Be8ZEtFNVCe69wDcUz9ca1"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

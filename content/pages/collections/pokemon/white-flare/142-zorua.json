@@ -1,0 +1,45 @@
+{
+  "_id": "33R1YRrI5lCdOJR6WDxgTB4cIU1",
+  "_type": "PokemonCard",
+  "_index": "b9H",
+  "title": "Zorua",
+  "number": "142",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Zorua",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EDb8FidVQuyxixcCkBV8N1Ubt",
+    "_type": "entry",
+    "_entry": "34EDaZ8p9i5yXxwsawTrUKdoVMm"
+  },
+  "card": {
+    "_id": "33R1aIXB50aieDycV1C09Dq1lx4",
+    "_type": "image",
+    "_entry": "33QkgdmyAfrsdJc8qzChOnTYxb8"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R1YPCoSEBYGZJwaOLNdfJQfhQ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EDcnxrSPNS7t4lGpWN6lccz3w",
+        "_type": "image",
+        "_entry": "34BJ5oaFvd2JtRWBWVNR2j1RS0s"
+      },
+      "foil": {
+        "_id": "34EDdTZAeXrrEHRLtXGCAX99CG5",
+        "_type": "image",
+        "_entry": "34BJ5pJgQMiD49DAPRjbszA0ef4"
+      }
+    }
+  ],
+  "isFullArt": true
+}

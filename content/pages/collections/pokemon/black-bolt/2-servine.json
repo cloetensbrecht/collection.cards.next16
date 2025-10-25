@@ -1,0 +1,69 @@
+{
+  "_id": "31mSNKJrRtIybTtSekBfqPvtIWY",
+  "_type": "PokemonCard",
+  "_index": "b1g",
+  "title": "Servine",
+  "number": "2",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Servine",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w20PdVJdTpqgqhYwi23MAj0sG",
+    "_type": "entry",
+    "_entry": "33vWxmOFYwZfiysq0e27tmWpATd"
+  },
+  "card": {
+    "_id": "31mSWO45N6e3kD5qlAG1bJpcdfV",
+    "_type": "image",
+    "_entry": "31mSV2S7joWGiSbIVGkGBLB4rxF"
+  },
+  "variants": [
+    {
+      "_id": "31mSNK0dVDkaafmMVas4EP8qZKb",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mTvD0FJZpIwHI7KckL62Y54bV",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31mUCkvgGN6N58pZzykir5KDBV0",
+        "_type": "image",
+        "_entry": "31mUAl6DsCiwLKLOJr0XkJHXoOO"
+      },
+      "foil": {
+        "_id": "31mUDkfi0ANbMNUvVPYPvOFhoqP",
+        "_type": "image",
+        "_entry": "31mUAfINNQhQEOgQnSIneDVCAYW"
+      }
+    },
+    {
+      "_id": "31mTwbPI22HpwDi6wnZnr6KaI9x",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mTxTUctSn0JT82URdMvytKkM6",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

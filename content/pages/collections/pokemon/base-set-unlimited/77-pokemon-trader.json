@@ -1,0 +1,27 @@
+{
+  "_id": "31Z15Z5L8ALpFWP475lWbpRcRX2",
+  "_type": "PokemonCard",
+  "_index": "b0D",
+  "title": "Pokémon Trader",
+  "number": "77",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31Z17StLyUF6htzABWTELz1X95a",
+    "_type": "image",
+    "_entry": "31Z12m5BqpqOdtRSwvF8QkdiPKZ"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

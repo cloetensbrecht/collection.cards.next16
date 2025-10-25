@@ -1,0 +1,30 @@
+{
+  "_id": "30q9M29jdLuza4Yvb2TfUwTrDlt",
+  "_type": "PokemonCard",
+  "_index": "b1A",
+  "title": "Clefable",
+  "number": "1",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Clefable",
+  "energy": "colorless",
+  "stage": "stage1",
+  "card": {
+    "_id": "30q9NfOmiUsRTkwSKvUPN174s0O",
+    "_type": "image",
+    "_entry": "30q9C6H1jPuyxJ03WIwlY69cTCm"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

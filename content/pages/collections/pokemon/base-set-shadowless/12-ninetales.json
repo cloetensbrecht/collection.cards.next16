@@ -1,0 +1,30 @@
+{
+  "_id": "30oYVBDueMYWobVOBv0uXyP19nI",
+  "_type": "PokemonCard",
+  "_index": "b2B",
+  "title": "Ninetales",
+  "number": "12",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Ninetales",
+  "energy": "fire",
+  "stage": "stage1",
+  "card": {
+    "_id": "31CK8D6nJZ2HGfovBksGgtf6x3F",
+    "_type": "image",
+    "_entry": "311YC6ga72Xq91DmS2wN9rKb7N3"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

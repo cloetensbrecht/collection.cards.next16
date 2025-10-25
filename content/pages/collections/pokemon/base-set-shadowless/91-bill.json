@@ -1,0 +1,27 @@
+{
+  "_id": "30puOL1o1EOkAJxOehxQPQVl1pr",
+  "_type": "PokemonCard",
+  "_index": "b0S",
+  "title": "Bill",
+  "number": "91",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31CHdXaiMSbk3POGfxV2qrBqqyK",
+    "_type": "image",
+    "_entry": "31A25EtZjst7kVZhvIbAv1LvfaI"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "33QvMHLD1LDscEzWItadWbhOKPm",
+  "_type": "PokemonCard",
+  "_index": "b0J",
+  "title": "Energy Retrieval",
+  "number": "82",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "subtype": "item",
+  "illustrator": {
+    "_id": "34BSxwIYHNfBkW7MXOFCk15dtJx",
+    "_type": "entry",
+    "_entry": "33vZAqyuU8Gja4OXFzcQJArULvr"
+  },
+  "card": {
+    "_id": "33QvNakBsi0cJoBxELuhWCx1uua",
+    "_type": "image",
+    "_entry": "33QkPNZqnZYSHNO4oDV3uJmpbPS"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QvMGP22bQGaTVPB0U7tevFtTP",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34BSyMh4fuuSnXkc8iIqkGzvcC6",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34BT0D4EUKEmTa1vpsQnDSYDQ7b",
+        "_type": "image",
+        "_entry": "34BIk0ipgRU6lFCpWFjf5XKaqz3"
+      },
+      "foil": {
+        "_id": "34BT0nKqkwD9bf1RGThJ8qsLoNT",
+        "_type": "image",
+        "_entry": "34BIk4421ThHZmHxf7C0XG9fWEJ"
+      }
+    },
+    {
+      "_id": "34BSyfi6ntYOUQ5GEamgRIDbv2J",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

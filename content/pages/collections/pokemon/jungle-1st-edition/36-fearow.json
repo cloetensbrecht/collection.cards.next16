@@ -1,0 +1,30 @@
+{
+  "_id": "30qCTfyb1Gxl9iMpfcmvZpnrssY",
+  "_type": "PokemonCard",
+  "_index": "b4t",
+  "title": "Fearow",
+  "number": "36",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Fearow",
+  "energy": "colorless",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qCV4fFbtKlqRSmvRtIgicz84C",
+    "_type": "image",
+    "_entry": "30q9C2fU6SsdbOh83bpzwSrYpgu"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

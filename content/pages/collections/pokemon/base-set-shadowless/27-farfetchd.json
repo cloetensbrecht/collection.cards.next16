@@ -1,0 +1,30 @@
+{
+  "_id": "30oa5GMJmmdpXq9tVxO87G3EaMJ",
+  "_type": "PokemonCard",
+  "_index": "b47",
+  "title": "Farfetch'd",
+  "number": "27",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Farfetch’d",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "31CJUFFYpqIMCMy2R4LEq9nulGf",
+    "_type": "image",
+    "_entry": "31A25ErbtmOs6GeTc7aNwPCAn3S"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

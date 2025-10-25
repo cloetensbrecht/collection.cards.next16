@@ -1,0 +1,47 @@
+{
+  "_id": "2zp9xW1lRveCAsOimYtgw17fbD0",
+  "_type": "PokemonSet",
+  "_index": "ah",
+  "title": "Lost Origin",
+  "number": 93,
+  "ptcgoCode": "LOR",
+  "releaseDate": "2022-09-09",
+  "generation": "VIII",
+  "serie": "swordShieldSeries",
+  "symbol": [
+    {
+      "_id": "2zpLlbcXHMUoTDPPQ3sUe2etgJX",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe48UKvIFMYQBRbGBk0cZgFN"
+    }
+  ],
+  "logo": {
+    "_id": "2zpA1oDPt7DvB6GVsgDHGJeV0oC",
+    "_type": "image",
+    "_entry": "2zowivQ9kY5Yh3odwc9wopHHsrD"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

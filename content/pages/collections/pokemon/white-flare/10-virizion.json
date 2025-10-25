@@ -1,0 +1,70 @@
+{
+  "_id": "33QlO72hWKdVZMeWniEc2dMQ4Vv",
+  "_type": "PokemonCard",
+  "_index": "b23",
+  "title": "Virizion",
+  "number": "10",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Virizion",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349qkD045KYkBeHwcOZuc0xve2y",
+    "_type": "entry",
+    "_entry": "33vtYAeAHjjJJVzpP7BiOWXzP9e"
+  },
+  "card": {
+    "_id": "33QlPQHDIzYp2gtcp7mKuKF3Wqk",
+    "_type": "image",
+    "_entry": "33OElGa6edlhEShhD0TUyQcylgG"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QlO6FugZW1H6MFghRlctiXkie",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349qm3xafFec90wVgROOalQiX62",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349qqEb1X6ulE2edrLn2J81M4Ic",
+        "_type": "image",
+        "_entry": "349qpEBXqIKPFWS0hhhfhYVs1xo"
+      },
+      "foil": {
+        "_id": "349qr3gYOl1swbDmjAa9HnIUL0N",
+        "_type": "image",
+        "_entry": "349qpDQcQc4wq3qvZaolT1clqkj"
+      }
+    },
+    {
+      "_id": "349qmW8zQEQGGB5af82z0DqnwjJ",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349qn7tzXrQhym95ihukcmgI64K",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

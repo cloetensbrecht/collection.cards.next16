@@ -1,0 +1,44 @@
+{
+  "_id": "320LIoPddkFe5QGvk6nboVsdkC4",
+  "_type": "PokemonCard",
+  "_index": "b8j",
+  "title": "Throh",
+  "number": "128",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 130,
+  "pokemon": "Throh",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vy8u5UrSNIGx5Asyn0XSH33Qz",
+    "_type": "entry",
+    "_entry": "33vbR0Kv23oYvSnWfbSRqtgyHyL"
+  },
+  "card": {
+    "_id": "320LKbmLHPCfPKvuV2kIJSYJAu1",
+    "_type": "image",
+    "_entry": "320FBQkGtMS8Owmq8E7dIzHqum1"
+  },
+  "variants": [
+    {
+      "_id": "320LIm8c79im3x7O7HsmR4YqCql",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320LNfYyE5KDE6lVs6hckK7xUl6",
+        "_type": "image",
+        "_entry": "320LHBExvPuSpFy0Ppled0ukcWd"
+      },
+      "foil": {
+        "_id": "320LOJwT3uarCsfxUpReZOmCSlQ",
+        "_type": "image",
+        "_entry": "320LH96ymewxH6rrDy7uOrnIq4v"
+      }
+    }
+  ],
+  "isFullArt": true
+}

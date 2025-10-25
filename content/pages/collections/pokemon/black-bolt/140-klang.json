@@ -1,0 +1,44 @@
+{
+  "_id": "320Py47mtJV9Mtiwr2BbDbe0nwg",
+  "_type": "PokemonCard",
+  "_index": "b9G",
+  "title": "Klang",
+  "number": "140",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Klang",
+  "energy": "metal",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vxllKDjZGfO6gA5jsWQGBoZES",
+    "_type": "entry",
+    "_entry": "33vYShPn1MFdmM9hYQmk5aO5Kgp"
+  },
+  "card": {
+    "_id": "320PzrRzliUVXlNpAvf5JIq7T2c",
+    "_type": "image",
+    "_entry": "320FBQkmRTzuhDNrrWYfixZaFzL"
+  },
+  "variants": [
+    {
+      "_id": "320Py24QzToj1w0yDduSBa4yInf",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320Q2LoGWLrCWC77M7mv31mSzgw",
+        "_type": "image",
+        "_entry": "320OqbSMiKnW7HungwTDOGU0Zf5"
+      },
+      "foil": {
+        "_id": "320Q37vL9Avmlv7gCmRRTeRgJKp",
+        "_type": "image",
+        "_entry": "320OqcTsc1CcWKNSwvJOwf8dDTT"
+      }
+    }
+  ],
+  "isFullArt": true
+}

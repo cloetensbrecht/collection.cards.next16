@@ -1,0 +1,70 @@
+{
+  "_id": "33QtctteIK909T95uqZDFsCSRkL",
+  "_type": "PokemonCard",
+  "_index": "b6b",
+  "title": "Zweilous",
+  "number": "66",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Zweilous",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A95k0hmTgIeuvQIMizsvYvMew",
+    "_type": "entry",
+    "_entry": "34A8yhIIpiCaHD8vB0u1Wz9JMJB"
+  },
+  "card": {
+    "_id": "33QteWODe9BhMqAHlqZhmgKrRXj",
+    "_type": "image",
+    "_entry": "33QkFAhWQQeBvUDE0Xz3z7XFM5p"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QtcxK5FwlV7c0bijvJXYHMCe8",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A96bwMyEDD70egDwsCXv5KT0z",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A9AkHYrvraeaLLIFawCaoxIJD",
+        "_type": "image",
+        "_entry": "34A99Mx1vtHolrNF0qMMt1UEmnv"
+      },
+      "foil": {
+        "_id": "34A9BQEm9wDtrJZtqgfvRhpLWoM",
+        "_type": "image",
+        "_entry": "34A99IH7I3JcaJGF3ENAW4LhtA9"
+      }
+    },
+    {
+      "_id": "34A96uUXxpBGQIxHSm6wN7T2kiE",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A97O6WZDE6uyLh8bRAVrEMnfz",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "2zvNSDv3KpahQb6qn8ryKio0f2w",
+  "_type": "PokemonSet",
+  "_index": "b2X",
+  "title": "POP Series 9",
+  "ptcgoCode": "POP9",
+  "releaseDate": "2009-03-01",
+  "generation": "IV",
+  "serie": "popSeries",
+  "symbol": [
+    {
+      "_id": "2zvNUl2vUgfCYpc4hVNPjSK69nm",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zvK0KEPMgR6Fh4g4EVW5JmDozk"
+    }
+  ],
+  "logo": {
+    "_id": "2zvNVBGDeGk07uixJptJMg79f1T",
+    "_type": "image",
+    "_entry": "2zvKEqF9YEjyHjHWMbj5xrLh5oP"
+  },
+  "rarity": {},
+  "energy": {}
+}

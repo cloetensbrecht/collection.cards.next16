@@ -1,0 +1,30 @@
+{
+  "_id": "30qCJ1ug1Rp0tLEnEesYBxVv38X",
+  "_type": "PokemonCard",
+  "_index": "b4j",
+  "title": "Dodrio",
+  "number": "34",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Dodrio",
+  "energy": "colorless",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qCKjsH8Fvr8RYQqofc06GYkyb",
+    "_type": "image",
+    "_entry": "30q9BzJI511C3ffwXRPFmzC60ln"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

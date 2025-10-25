@@ -1,0 +1,69 @@
+{
+  "_id": "31wfeB9HP0TEjfyEvXrl10vbpAJ",
+  "_type": "PokemonCard",
+  "_index": "b51",
+  "title": "Musharna",
+  "number": "36",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Musharna",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w10WaGxQ3mx6OzdokOwkC8YCB",
+    "_type": "entry",
+    "_entry": "33vXxaxiOer6KWGzeJiPP5iJJZe"
+  },
+  "card": {
+    "_id": "31wfgsFNZvjU6ULrTmOXAMkB0gg",
+    "_type": "image",
+    "_entry": "31ve9RYyZavR7r3Nxs5emuCSjIV"
+  },
+  "variants": [
+    {
+      "_id": "31wfeAWggmwoZvMv3VLQ5bmwnF4",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wgEVKTBLJFcfo9Z2wqQzbmWzN",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wgQ7dYWOVxYXB7UeW1ynKmN6G",
+        "_type": "image",
+        "_entry": "31wgOdz6uZAG2boGObzdYOhxNun"
+      },
+      "foil": {
+        "_id": "31wgRdC2nfsLqyKT2qZIjX4P8Un",
+        "_type": "image",
+        "_entry": "31wgOclDwNvgrbgoJuGAjSzxeJe"
+      }
+    },
+    {
+      "_id": "31wgGp7C61zsKqhVRX64XWApE2e",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wgIbz6RQphlevKlSHApATh0eh",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

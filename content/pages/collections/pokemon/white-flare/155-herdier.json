@@ -1,0 +1,45 @@
+{
+  "_id": "33R2rJTpjRkloVQ8W8Nqj1k8bbQ",
+  "_type": "PokemonCard",
+  "_index": "b9r",
+  "title": "Herdier",
+  "number": "155",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Herdier",
+  "energy": "colorless",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EEbEZC47xjwnuCsi3HdHBbGaj",
+    "_type": "entry",
+    "_entry": "33vXTH9IN4Vmwr4ZJnpPTlezcXg"
+  },
+  "card": {
+    "_id": "33R2seUnidcxycXnXluCzXN9NHG",
+    "_type": "image",
+    "_entry": "33QkgbS0PmWruWpMzhPqGtmyKW9"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R2rHN8BtQViMncoMjzzyEBSG9",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EEcJWJ311M3CLXAhZRzmaMt0r",
+        "_type": "image",
+        "_entry": "34BJ5o248X6xKOO0OLeTtTTwXuS"
+      },
+      "foil": {
+        "_id": "34EEcrb27Jt5gpixgu1ZzSGiOSl",
+        "_type": "image",
+        "_entry": "34BJ5qCNQFuWWOz3uo0lDQ4B3lq"
+      }
+    }
+  ],
+  "isFullArt": true
+}

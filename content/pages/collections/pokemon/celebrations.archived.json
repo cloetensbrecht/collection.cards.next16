@@ -1,0 +1,47 @@
+{
+  "_id": "2zp9RkjJRX8is5nlavqarkfrqpQ",
+  "_type": "PokemonSet",
+  "_index": "am",
+  "title": "Celebrations",
+  "number": null,
+  "ptcgoCode": "CEL",
+  "releaseDate": "2021-10-08",
+  "generation": "VIII",
+  "serie": "swordShieldSeries",
+  "symbol": [
+    {
+      "_id": "2zpLqrqJc4VeAYESCbz5XBwgp8C",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe398JDMxQFBAYi8ZtYSfRua"
+    }
+  ],
+  "logo": {
+    "_id": "2zp9WPn2k6c2oQpVUM1CgVf6Lq2",
+    "_type": "image",
+    "_entry": "2zowitrLyUaHVJ22qzaqootesw0"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "33QmvLUdn9pUPm0hulSkDJi6UDB",
+  "_type": "PokemonCard",
+  "_index": "b3W",
+  "title": "Reshiram Ex",
+  "number": "20",
+  "edgeColor": "#97999b",
+  "rarity": "double-rare",
+  "cardtype": "pokemon",
+  "hp": 230,
+  "pokemon": "Reshiram",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349ueRaIyLesQ1EOtSpVkGHyglz",
+    "_type": "entry",
+    "_entry": "33vWmw98oNnKQtVa4Sd9tUkwdMW"
+  },
+  "card": {
+    "_id": "33QmxY35zjH2RNg40qaJi2zlffQ",
+    "_type": "image",
+    "_entry": "33QjaCmIddJjZBAQPk2BZdeTa3x"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QmvOp5PqlnMLJvKuwApMxk0Wr",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "349urmOyf9AZiULIRzn2GHSJbyD",
+        "_type": "image",
+        "_entry": "349uqOhneDFFbIAZfdcMQY4ALqZ"
+      },
+      "foil": {
+        "_id": "349ussbCnZ4IumAn144chuYNfmd",
+        "_type": "image",
+        "_entry": "349uqQw7HxDJL5dcU6cZHAqCpAM"
+      }
+    }
+  ],
+  "isEx": true
+}

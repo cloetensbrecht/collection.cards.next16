@@ -1,0 +1,47 @@
+{
+  "_id": "2zpANtjwdOAF6VpRwnB3IW9C8DW",
+  "_type": "PokemonSet",
+  "_index": "ab",
+  "title": "Paldea Evolved",
+  "number": 96,
+  "ptcgoCode": "PAL",
+  "releaseDate": "2023-06-09",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zpLhCGSCvZ4mTDibA2pwJnLper",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8bch0j4Xp8pNLDeoAWMMXw"
+    }
+  ],
+  "logo": {
+    "_id": "2zpASPS9HNx0WX0PzeAibpzcCwx",
+    "_type": "image",
+    "_entry": "2zowio3IDfAdGawjqoozWK17IwO"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

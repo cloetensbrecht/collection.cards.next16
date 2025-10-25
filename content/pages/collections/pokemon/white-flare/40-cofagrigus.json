@@ -1,0 +1,70 @@
+{
+  "_id": "33Qq0ezoBgyUzfGSfWFr0xQTCX8",
+  "_type": "PokemonCard",
+  "_index": "b5B",
+  "title": "Cofagrigus",
+  "number": "40",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Cofagrigus",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A0OjyTeVvmi10ATOILZqhB8Um",
+    "_type": "entry",
+    "_entry": "34A0C6qda8oZbG90NORi5HJpKqW"
+  },
+  "card": {
+    "_id": "33Qq27RCtvHWVM9FJII9HI9CMM0",
+    "_type": "image",
+    "_entry": "33Qjj1GM8e2jEP1Qsie4rtKlNCC"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qq0fezlbH80dwIv1vwzWgW0qy",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A0RjevUcrs8LSuEvBmmWMlWyP",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A0X1pfVBK2UD2KFVX0gDiDcIa",
+        "_type": "image",
+        "_entry": "34A0W2NsNxWd0D2SDQO0nuMA1qY"
+      },
+      "foil": {
+        "_id": "34A0XfwOtjz7zbcB9voFSOqQgIi",
+        "_type": "image",
+        "_entry": "34A0W43ZcemN82QPSfRJzPqvX9x"
+      }
+    },
+    {
+      "_id": "34A0SFXCcY5haW2h5kdzzo7JzaJ",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A0Sme4CmyRS013sNpStXIkWlV",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

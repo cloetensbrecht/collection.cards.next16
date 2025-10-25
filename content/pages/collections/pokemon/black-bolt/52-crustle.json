@@ -1,0 +1,69 @@
+{
+  "_id": "31woh42HX0thxkARJYpC70tEJeg",
+  "_type": "PokemonCard",
+  "_index": "b63",
+  "title": "Crustle",
+  "number": "52",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Crustle",
+  "energy": "fighting",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w0WLr3lIrcBvi5IVs6YiWkjpN",
+    "_type": "entry",
+    "_entry": "33vYHybqzDsdjmH5AwoSinkDL2L"
+  },
+  "card": {
+    "_id": "31wojNrwWHamNS3z8OkdIo3M2zT",
+    "_type": "image",
+    "_entry": "31woH3vFCCzqHNyWqVbOGkSzK02"
+  },
+  "variants": [
+    {
+      "_id": "31woh3tT2wLroXIuCt7hB0QECK7",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wouATAtKYmm8wVXXm7o3IqTPj",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wp3YHnh6MB8IvKoPYs8MXJiv0",
+        "_type": "image",
+        "_entry": "31wp0nmgGkvAyGWeq33XRWooo3n"
+      },
+      "foil": {
+        "_id": "31wp4BEmPs5wV2azaLrFaqgcOe8",
+        "_type": "image",
+        "_entry": "31wp0qWu0wg1oikShokuV672AQP"
+      }
+    },
+    {
+      "_id": "31woulKJJ9XCm8V4us6ivD3xf5S",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wovK6MFVacSisO1pICxgu1GRV",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

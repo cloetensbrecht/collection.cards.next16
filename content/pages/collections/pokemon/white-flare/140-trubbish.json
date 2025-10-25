@@ -1,0 +1,45 @@
+{
+  "_id": "33R1NKD6oD88QIjHw5c5z8C3Xvl",
+  "_type": "PokemonCard",
+  "_index": "b9D",
+  "title": "Trubbish",
+  "number": "140",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Trubbish",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EDR9l83HPVQ51aitq4PVLo2R3",
+    "_type": "entry",
+    "_entry": "349e4JeljFnnzz85BdmNSIhdzCc"
+  },
+  "card": {
+    "_id": "33R1P8cG8v2uHzCIxKUPEdAhVcm",
+    "_type": "image",
+    "_entry": "33QkcDPSGzBj5dClxampaodRIHO"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R1NOKmpNkMzFs3PCcdRACjHZ1",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EDRxZj0LnFb7uNDOk6JFZzY96",
+        "_type": "image",
+        "_entry": "34BJ5plKEALlzYWfgfvpZqiqERK"
+      },
+      "foil": {
+        "_id": "34EDSWkhKcK79j6dOTsRzsgjpph",
+        "_type": "image",
+        "_entry": "34BJ5jGxZbdnFTbXHErTdrMT5qS"
+      }
+    }
+  ],
+  "isFullArt": true
+}

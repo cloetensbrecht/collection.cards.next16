@@ -1,0 +1,47 @@
+{
+  "_id": "2zp0DVxYVKeDFZgmfJ89JU8C7WR",
+  "_type": "PokemonSet",
+  "_index": "b12",
+  "title": "EX Delta Species",
+  "number": 26,
+  "ptcgoCode": "DS",
+  "releaseDate": "2005-10-31",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNFznXBOivJrcCLIvtatg0hQW",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe4J3ckOcpSbrZMJDFky6fnB"
+    }
+  ],
+  "logo": {
+    "_id": "2zp0GaihUMKReibq0wFji7fGRwi",
+    "_type": "image",
+    "_entry": "2zowioUhi6KwmjgWfrvsqfBZD3P"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

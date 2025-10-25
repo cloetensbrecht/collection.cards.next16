@@ -1,0 +1,69 @@
+{
+  "_id": "31wsbFzOxBAhFoOM8QId36vcNQ8",
+  "_type": "PokemonCard",
+  "_index": "b6N",
+  "title": "Krookodile",
+  "number": "59",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 170,
+  "pokemon": "Krookodile",
+  "energy": "darkness",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33w0J793HSsaMTcvPrWOj7GtEI8",
+    "_type": "entry",
+    "_entry": "33vYWzmeeHJLoLa6oDJgmonBY5O"
+  },
+  "card": {
+    "_id": "31wsd43PMVEwebt0bX4849TRzdw",
+    "_type": "image",
+    "_entry": "31woH0ZYn8TQEeQLun2Q79ybEvL"
+  },
+  "variants": [
+    {
+      "_id": "31wsbI99b65FMbMoNcXVjER00yx",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wsiRdAOPHTcaeTPOok7JmxObU",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wsqTB8AYMVsxhZfi6qGskwlWd",
+        "_type": "image",
+        "_entry": "31wsoDQGDc1VoNNZfWrdmwMjuFo"
+      },
+      "foil": {
+        "_id": "31wsrCbaxdxATBPggtpFeZDFNN1",
+        "_type": "image",
+        "_entry": "31wsoC6Qzgcs4RayR60OHHuMD6B"
+      }
+    },
+    {
+      "_id": "31wsj39Or6xc3ivAC26x3CFA5ZH",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wsjYQKbCOCkBDPUQiCCdpmrRd",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "33QuQThWgSroFN10RdHe6k9OUT9",
+  "_type": "PokemonCard",
+  "_index": "b6u",
+  "title": "Lillipup",
+  "number": "74",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Lillipup",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34AA77QTJoZTTHK3DUygm4llxxs",
+    "_type": "entry",
+    "_entry": "34AA6ttWKz1ObnMbpME8lVJrnri"
+  },
+  "card": {
+    "_id": "33QuS2c5HpjAQXMJgJJgvOuRGwa",
+    "_type": "image",
+    "_entry": "33QkLfUoy2JyWnpuU1VfMUYRXhV"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QuQUC3pqKiJpYMIAhRxFGd57T",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34AA8LRIaW0bhNLMOlmt3K2sbeH",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34AABGrGkauiaDPK2gRNznyoWQl",
+        "_type": "image",
+        "_entry": "34AAAbMflvwsoYbvMeEXIih6tif"
+      },
+      "foil": {
+        "_id": "34AABr8VRK0YdYnfov36nNNYdhv",
+        "_type": "image",
+        "_entry": "34AAAWugWadzmU4loI0whmFdV4R"
+      }
+    },
+    {
+      "_id": "34AA8ZHXm9vxpe1NntuZBHOe37X",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34AA8wWTr3dDFT1pZVPut0Vg6Xj",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

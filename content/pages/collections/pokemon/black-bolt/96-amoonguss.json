@@ -1,0 +1,44 @@
+{
+  "_id": "31zaxAjTjkK7CCShMTJzmiJZcYm",
+  "_type": "PokemonCard",
+  "_index": "b0Z",
+  "title": "Amoonguss",
+  "number": "96",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Amoonguss",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vz8p6j87vXR60uyBh2xWaug9U",
+    "_type": "entry",
+    "_entry": "33vZxSeSWkaSCUcDxgpVHj78xA8"
+  },
+  "card": {
+    "_id": "31zb4C9hkSextuOmM1UgqG8Jhdv",
+    "_type": "image",
+    "_entry": "31zazn4ICuFla9VwWp0lTvgXvP7"
+  },
+  "variants": [
+    {
+      "_id": "31zaxAmS7baTMmhNulnymD4p5hT",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zb7uJAWNkcEUHZ8eUEc9J3l77",
+        "_type": "image",
+        "_entry": "31zb3DL8Usf2J5ZPpyxHXiv1MYU"
+      },
+      "foil": {
+        "_id": "31zb8ZWfCMGJRlvk9RVNApSjtHC",
+        "_type": "image",
+        "_entry": "31zb39sbYwTfJIW4GHk2JHJAyF6"
+      }
+    }
+  ],
+  "isFullArt": true
+}

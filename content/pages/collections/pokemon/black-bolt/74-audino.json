@@ -1,0 +1,69 @@
+{
+  "_id": "31wzki7CXYfMbF5Hf0TVWJ4nzA5",
+  "_type": "PokemonCard",
+  "_index": "b6x",
+  "title": "Audino",
+  "number": "74",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Audino",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vzr557jxPFKm53Mn1X3PbUDII",
+    "_type": "entry",
+    "_entry": "33vYtz57L4fwpvIVtuPnqX0YjVv"
+  },
+  "card": {
+    "_id": "31wzmmwMnkRCNxQlcPsvHIIijOM",
+    "_type": "image",
+    "_entry": "31wyj4b0miQurG6oe6BaefItt4A"
+  },
+  "variants": [
+    {
+      "_id": "31wzkjcr6ENfXRC6Jq3SnoZ5q4O",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wzoS4sV9UuVOPj1GZfYuVXF3u",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wzppi1l35WklHKoJobHjsLSIh",
+        "_type": "image",
+        "_entry": "31wzjC78TJVFO4NL810rAiQFXm7"
+      },
+      "foil": {
+        "_id": "31wzqTQh7CbZ7iJgTdgc11sKISL",
+        "_type": "image",
+        "_entry": "31wzjCZdVQQLip6DrOWOAeK3DTL"
+      }
+    },
+    {
+      "_id": "31wzsRDN1rWAAPOxIWxv0992YVt",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wztIIDmA9X3sGi63PikIDdGAK",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

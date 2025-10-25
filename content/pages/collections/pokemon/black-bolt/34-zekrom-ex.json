@@ -1,0 +1,45 @@
+{
+  "_id": "31weeLexwuZ3ysQGu5bkYYwjwF2",
+  "_type": "PokemonCard",
+  "_index": "b4s",
+  "title": "Zekrom ex",
+  "number": "34",
+  "edgeColor": "#97999b",
+  "rarity": "double-rare",
+  "cardtype": "pokemon",
+  "hp": 230,
+  "pokemon": "Zekrom",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w13Rl4wb9Tt2uRrgzya5kC6u4",
+    "_type": "entry",
+    "_entry": "33vV7Az7hYGpLDq7N0F87wVc5wX"
+  },
+  "card": {
+    "_id": "32hyGx6XhYdZRLKftt8bhc5a0ZY",
+    "_type": "image",
+    "_entry": "31ve9OOx6ViQ2pgNzz1OSPdWuWU"
+  },
+  "variants": [
+    {
+      "_id": "31weePHkkl51j58q05sUYhz5hT3",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "32i0IxjyA8FsNZz0WGnO3oFmMKg",
+        "_type": "image",
+        "_entry": "31wesN3dZorjpfgdftYte1PXznb"
+      },
+      "foil": {
+        "_id": "32i0KB1lAPRwlKlqst2K48vRdFb",
+        "_type": "image",
+        "_entry": "31wesJ7I15bW0JhvbFFNLM59fMO"
+      }
+    }
+  ],
+  "isEx": true,
+  "isFullArt": true
+}

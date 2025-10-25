@@ -1,0 +1,70 @@
+{
+  "_id": "33QpoevfOeUPAu0wZpOmBGXsoad",
+  "_type": "PokemonCard",
+  "_index": "b53",
+  "title": "Sigilyph",
+  "number": "38",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Sigilyph",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349zkl5FZlg2eZZixl7d0MMvwhX",
+    "_type": "entry",
+    "_entry": "349zkO7TWuwNfwDHyzn5cCwuG9l"
+  },
+  "card": {
+    "_id": "33QppySW51Wgsej7JHZifROZycw",
+    "_type": "image",
+    "_entry": "33QjzgnJTpEQz2DI9exfVjWdKgr"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QpohItYpMb5IESWnwjTX2koEG",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349zlnxCZwW2JlXZwglOuBvRYZk",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349zpUGXFVQ7YEayznbil4Le99N",
+        "_type": "image",
+        "_entry": "349zoWNkM7sNerpBgNEMcbFwOsO"
+      },
+      "foil": {
+        "_id": "349zq6DmhydQum1xSLtjaObiHfC",
+        "_type": "image",
+        "_entry": "349zoTxHfVp0lwyqFCYUrYwV6QT"
+      }
+    },
+    {
+      "_id": "349zmGaVqDyDgji6MF3j2F7YVPD",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349zmmEpZmiMeqigGVbquJDY3uZ",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

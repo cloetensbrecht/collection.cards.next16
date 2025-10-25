@@ -1,0 +1,59 @@
+{
+  "_id": "33QuuALB2vIEXVVUP5sKMDqQ5Uo",
+  "_type": "PokemonCard",
+  "_index": "b0G",
+  "title": "Antique Plume Fossil",
+  "number": "79",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "trainer",
+  "hp": 60,
+  "subtype": "item",
+  "illustrator": {
+    "_id": "34ABB0kNO22rTRIYYb2F7cll7mC",
+    "_type": "entry",
+    "_entry": "33vZDiCauBlUuRJ1IRKwZaoYqp8"
+  },
+  "card": {
+    "_id": "33QuucpNCHaE9vCTSwFJoiQHzSO",
+    "_type": "image",
+    "_entry": "33QkLdhV8Y38J7j93agdUSvNFAX"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Quu8UFrROuyY1MnXDivaMrsMT",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34AB8Cw3SnUHADJUZOrUqiN3B7A",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34ABDJqKeHmflgibof4RpLjbwdD",
+        "_type": "image",
+        "_entry": "34ABCXz2gXZmt7eSwgrCZBJkJ3d"
+      },
+      "foil": {
+        "_id": "34ABDkvZrfDoN2KtDyFLacVFSTi",
+        "_type": "image",
+        "_entry": "34ABCSrQorEdHGHaQm4a4ZPrckN"
+      }
+    },
+    {
+      "_id": "34AB8WofR1sYcMZlFNNVkP6df6D",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

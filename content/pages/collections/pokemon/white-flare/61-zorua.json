@@ -1,0 +1,70 @@
+{
+  "_id": "33QsDWpLwdSPHnGKTxqZBfU26Tz",
+  "_type": "PokemonCard",
+  "_index": "b6O",
+  "title": "Zorua",
+  "number": "61",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Zorua",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A8RvMcUKLIqLCoVGFhuUeZaKn",
+    "_type": "entry",
+    "_entry": "33vcGVqgTM5CbQwSHRZZIA3rttd"
+  },
+  "card": {
+    "_id": "33QsERrKmqYov57kM5NFOWxkXZB",
+    "_type": "image",
+    "_entry": "33QkF71LoOtxs76L4Zk2Uqjfrqj"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QsDY9Y2pxIHXPKt8wwwLt7k6E",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8S3z5ms8oxpLa2zHTKzSHDaj",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A8V3so3iIsu2WfbdDfcLSK2lt",
+        "_type": "image",
+        "_entry": "34A8U8Bq3Ggwb80sysXoTK9HfKW"
+      },
+      "foil": {
+        "_id": "34A8VPmtjSQLRdxZ8ewxU8PXeRz",
+        "_type": "image",
+        "_entry": "34A8UAffrgzoBPxP4pnCUUdzdVX"
+      }
+    },
+    {
+      "_id": "34A8SLlZXxWD4M7w1rTCWXHvw9f",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8SuT8iZdLLrDoeIK4BBeYfz0",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

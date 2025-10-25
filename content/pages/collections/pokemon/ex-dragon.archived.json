@@ -1,0 +1,47 @@
+{
+  "_id": "2zozN2sB5mBVt2jSGOCEcSIhCNh",
+  "_type": "PokemonSet",
+  "_index": "b2k",
+  "title": "EX Dragon",
+  "number": 18,
+  "ptcgoCode": "DR",
+  "releaseDate": "2003-11-24",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNQYQdKNS9NH5HNK7tk3IO9id",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe2AssXfmx7C78QaNT3BJR3z"
+    }
+  ],
+  "logo": {
+    "_id": "2zozQanVEeUZuoup5ViVqnXSa9E",
+    "_type": "image",
+    "_entry": "2zowiq5f4mfLBTl10pOh28Arrmd"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

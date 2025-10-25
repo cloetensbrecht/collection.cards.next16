@@ -1,0 +1,45 @@
+{
+  "_id": "33R2ZSUc05GNNeqykDKVhc0koM0",
+  "_type": "PokemonCard",
+  "_index": "b9i",
+  "title": "Patrat",
+  "number": "152",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Patrat",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EEO0VpAD0CS9foxmMFCaIwA3V",
+    "_type": "entry",
+    "_entry": "33vXX4BkgLXx0jyfFy6DbsrdwFW"
+  },
+  "card": {
+    "_id": "33R2aaJWUoprs3VQ6Klp1sHoFVQ",
+    "_type": "image",
+    "_entry": "33QkgglMYYRPTrmhxdCHc1ih32W"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R2ZSGaWn2JFDDNfHq5pTSE6K4",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EEOjgJxswP1ptE00mlm4zWe2r",
+        "_type": "image",
+        "_entry": "34BJ5qU2VCv1wWiaVNALIYOLWqq"
+      },
+      "foil": {
+        "_id": "34EEPdMPGYuAqZYWYTXIhUbOqY9",
+        "_type": "image",
+        "_entry": "34BJ5jmd4kplR3v7kBpHVUTis0F"
+      }
+    }
+  ],
+  "isFullArt": true
+}

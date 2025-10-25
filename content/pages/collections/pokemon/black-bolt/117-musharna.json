@@ -1,0 +1,44 @@
+{
+  "_id": "320FJim9wOmh1W0ym9p5pzUqvnJ",
+  "_type": "PokemonCard",
+  "_index": "b8J",
+  "title": "Musharna",
+  "number": "117",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Musharna",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vyUe58vtkqtVW86p1GLplkEbo",
+    "_type": "entry",
+    "_entry": "33vatyiipWTADIY1Vxjg6GCQUNF"
+  },
+  "card": {
+    "_id": "320FMC0IHtPVipE6lrpdA1aVaTV",
+    "_type": "image",
+    "_entry": "320FBPC19KyDwmimbqlzYWKSyEr"
+  },
+  "variants": [
+    {
+      "_id": "320FJfjor2t9xq5CCrIxPyRE5mT",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320FTkmvzEUmqvwOdzRtqbqtIW7",
+        "_type": "image",
+        "_entry": "320FHWI7ZTiysgLYm84Dl1NiNnK"
+      },
+      "foil": {
+        "_id": "320FUMIanLatqqe5a9W7dJj5AC2",
+        "_type": "image",
+        "_entry": "320FHd4c9VT5a7ojBiRYhtr0bpL"
+      }
+    }
+  ],
+  "isFullArt": true
+}

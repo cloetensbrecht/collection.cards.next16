@@ -1,0 +1,44 @@
+{
+  "_id": "320M0dAIeZOCwUFsudNqV7TX0pe",
+  "_type": "PokemonCard",
+  "_index": "b8s",
+  "title": "Landorus",
+  "number": "131",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 130,
+  "pokemon": "Landorus",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vy3DV1PSDWvInCfs5B6xWv36v",
+    "_type": "entry",
+    "_entry": "33vbdrndadOTmVOkB0JhpBP1xDl"
+  },
+  "card": {
+    "_id": "320M2oD7BRwwEsfn5TzioXqdBn7",
+    "_type": "image",
+    "_entry": "320FBQkVQGyNIGmqDhfYNkNawMi"
+  },
+  "variants": [
+    {
+      "_id": "320M0g7kA7W6Ou2Pz9txPywOjoL",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320M5iYa2CY9q4fiX9AZM3Uoh7C",
+        "_type": "image",
+        "_entry": "320Lytl79ldlukyDl5SCWFlCTDc"
+      },
+      "foil": {
+        "_id": "320M6DQ4KlB9nxXMhRjORjrupBq",
+        "_type": "image",
+        "_entry": "320Lyv3oC9czEeExXtRYDrl26s4"
+      }
+    }
+  ],
+  "isFullArt": true
+}

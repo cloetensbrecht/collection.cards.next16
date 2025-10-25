@@ -1,0 +1,70 @@
+{
+  "_id": "33OFzGUd0WSLsiLmDi3BimO8TXa",
+  "_type": "PokemonCard",
+  "_index": "b1q",
+  "title": "Deerling",
+  "number": "6",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Deerling",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349nzcgl0xHinzDYTXQlLTI7zJv",
+    "_type": "entry",
+    "_entry": "349nzDJKI04h6Q5aVL2yaAj8Uzb"
+  },
+  "card": {
+    "_id": "33OG0sKROHpbxqf8nHbU1KL0NFU",
+    "_type": "image",
+    "_entry": "33OEiRK0Uk4FCtJ9AOHpowby3r6"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33OFzBVxgbeQIYKh1pUKnzC8FY2",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "33OG6uO3l3yOQImThBkwJPjybwQ",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "33RFyMvkST2kdd9jSkxnFOEfonf",
+        "_type": "image",
+        "_entry": "33RFwtWMiQlQcPzwnkkvZgF4fY8"
+      },
+      "foil": {
+        "_id": "33RFzFbiRHJT7LtwZWBL12lgi4y",
+        "_type": "image",
+        "_entry": "33RFwzpD7xWKlZIFnSrgtfRc4VE"
+      }
+    },
+    {
+      "_id": "33OG8H6wxLivNI7p3GOOrTl4zVZ",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "33OG95JyrINANiTtens1xDxha8b",
+      "_index": "a4",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

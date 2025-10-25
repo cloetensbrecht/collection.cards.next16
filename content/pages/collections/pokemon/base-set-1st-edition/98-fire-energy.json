@@ -1,0 +1,27 @@
+{
+  "_id": "30pw8PGiozWPMHV9kclOpiYkBYX",
+  "_type": "PokemonCard",
+  "_index": "b0Z",
+  "title": "Fire Energy",
+  "number": "98",
+  "edgeColor": "#ffe78f",
+  "cardtype": "energy",
+  "energy": "fire",
+  "stage": null,
+  "card": {
+    "_id": "30pw97SwFO1XOf2dgGzwZUntS2J",
+    "_type": "image",
+    "_entry": "30oJlDZSLZBLtL6PEpfbSFLBUvC"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

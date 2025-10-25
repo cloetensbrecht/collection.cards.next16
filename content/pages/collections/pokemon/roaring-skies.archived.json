@@ -1,0 +1,47 @@
+{
+  "_id": "2zp63pWCG7CsNtJvFmwRJx33kCF",
+  "_type": "PokemonSet",
+  "_index": "b0L",
+  "title": "Roaring Skies",
+  "number": 64,
+  "ptcgoCode": "ROS",
+  "releaseDate": "2015-05-06",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMUvhIf5QrN1sTf8wyBGMga10",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe3Zl9LPpeJoxYMw4pHRdm0K"
+    }
+  ],
+  "logo": {
+    "_id": "2zp67ooVAN0WgpoX0MRoiMTVPec",
+    "_type": "image",
+    "_entry": "2zowisLhp4cFka8hYhUILFYibg6"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

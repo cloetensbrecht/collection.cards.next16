@@ -1,0 +1,69 @@
+{
+  "_id": "31woJq3LD8nB7esD37hNyr1ywx8",
+  "_type": "PokemonCard",
+  "_index": "b61",
+  "title": "Dwebble",
+  "number": "51",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Dwebble",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w0XyxtlYqOWe565GgfJwV3j0I",
+    "_type": "entry",
+    "_entry": "33vYHybqzDsdjmH5AwoSinkDL2L"
+  },
+  "card": {
+    "_id": "31woMDAHV0wbruOHSBnTr9u40WE",
+    "_type": "image",
+    "_entry": "31woH7Cfs5ApjQFTplsR8c2Hc5I"
+  },
+  "variants": [
+    {
+      "_id": "31woJtFTwJdrdK1NcbkHvq0in9h",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31woRQzlvI4qVAKm1PjCKueGabo",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31woYG7QZpHK4t6IT4w9Qqg871g",
+        "_type": "image",
+        "_entry": "31woVFpEueV5mU1VCeQQAyZB8HU"
+      },
+      "foil": {
+        "_id": "31woYv9rVmXg9tB2b3fSPNZMP0i",
+        "_type": "image",
+        "_entry": "31woVFjQBGwfyiVjo9GfQYuf2Jf"
+      }
+    },
+    {
+      "_id": "31woSAxpqIdqdxMv35fG5KDM58F",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31woSuOc9tvcciM858lbfoh7EmJ",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

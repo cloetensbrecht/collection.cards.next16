@@ -1,0 +1,44 @@
+{
+  "_id": "320Fd1vgjY9uZPidaZrDDuqC4rk",
+  "_type": "PokemonCard",
+  "_index": "b8L",
+  "title": "Solosis",
+  "number": "118",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Solosis",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vySpNwYhxj24GCOBiAAoNwBEj",
+    "_type": "entry",
+    "_entry": "33vawSF1bqJWDt149gIBY7aKwiY"
+  },
+  "card": {
+    "_id": "320FfYr6Eo4k7GnBDUzDZMBZ5KV",
+    "_type": "image",
+    "_entry": "320FBOsBBsxq4kg6KfSQGCxX5Qn"
+  },
+  "variants": [
+    {
+      "_id": "320Fd10QpV2oKynxqSdnZpdvPxG",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320FlbHy6dXunjOHlYokCjZe40Y",
+        "_type": "image",
+        "_entry": "320Fbz7h0bhDgFS3ZdnKzplL9y7"
+      },
+      "foil": {
+        "_id": "320FmtN3jEcdYjXj476YuBkvavn",
+        "_type": "image",
+        "_entry": "320FbyKOElytovgKhisNveWQT7g"
+      }
+    }
+  ],
+  "isFullArt": true
+}

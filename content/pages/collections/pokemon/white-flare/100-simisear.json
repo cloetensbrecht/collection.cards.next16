@@ -1,0 +1,45 @@
+{
+  "_id": "33Qx9Ar05ss8jbMlVa801ydDsL9",
+  "_type": "PokemonCard",
+  "_index": "b7U",
+  "title": "Simisear",
+  "number": "100",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Simisear",
+  "energy": "fire",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34BWWKqzDHJj8rmIA5Km07lUeAI",
+    "_type": "entry",
+    "_entry": "34AA6ttWKz1ObnMbpME8lVJrnri"
+  },
+  "card": {
+    "_id": "33QxAgm6vom02W4e2K49XkyicgO",
+    "_type": "image",
+    "_entry": "33QkSCEQ6wxhd2hg4Ze6NrZ24tM"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qx96Wcm6gl1UlkCJN3GybjWLO",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BWZ2V35RbM649XlrRIxUIb3Wn",
+        "_type": "image",
+        "_entry": "34BIk0cMMAffppSRv3zggWgoXkB"
+      },
+      "foil": {
+        "_id": "34BWZww9NdCevnnrIQRsXtprY1B",
+        "_type": "image",
+        "_entry": "34BIk2rG6BHS2R9XsmLbPHvV6gf"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "33QxoqM1cFyZpvwHsqno6KfP4Bn",
+  "_type": "PokemonCard",
+  "_index": "b7q",
+  "title": "Samurott",
+  "number": "107",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 160,
+  "pokemon": "Samurott",
+  "energy": "water",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34BX8F0tmJVWS9i3G3szGrQbpiz",
+    "_type": "entry",
+    "_entry": "33vXDMRgpJW9sU8dGWUzYIzw64y"
+  },
+  "card": {
+    "_id": "33Qxq1aJvfuLcWTKrcyD5k7Vxny",
+    "_type": "image",
+    "_entry": "33QkWh1yy5kzvfkWPFIXXz4pOMr"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QxorYtyHCiCigS3QLi0bkTuJJ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BX9XcGt2GeVvMVLOY4B5WZ6sL",
+        "_type": "image",
+        "_entry": "34BItAatHRceHY2Tu0O0BfqmjzZ"
+      },
+      "foil": {
+        "_id": "34BX9tsRIi4HkBykZSJYE9Ws5Jb",
+        "_type": "image",
+        "_entry": "34BIt9whNRj8DqXKQagOBOUCF0B"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "2zpK0AHnqPQ25NWYOV0wq9kHVQX",
+  "_type": "PokemonSet",
+  "_index": "aa",
+  "title": "McDonald's Collection 2023",
+  "ptcgoCode": "M23",
+  "releaseDate": "2023-07-27",
+  "generation": "IX",
+  "serie": "mcDonaldsSeries",
+  "symbol": [
+    {
+      "_id": "2zpNmLAJK0ukn17w4y0N14mj6FE",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpJyca9jTCcwQfuVn9HJ6AZWYk"
+    }
+  ],
+  "logo": {
+    "_id": "2zpK28SMdPLDhRcmGQvmOcR12Ns",
+    "_type": "image",
+    "_entry": "2zpJnZrKhenvm8jbM6DkToTR2kt"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "33QzomTzWz0dXhgHqVmCs0ySyA0",
+  "_type": "PokemonCard",
+  "_index": "b8V",
+  "title": "Gothita",
+  "number": "124",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Gothita",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EBw3Jeg8u1kWW7vbHIQbbqHmw",
+    "_type": "entry",
+    "_entry": "33vdWGYoPY49u9b8LTn1uFmrPj9"
+  },
+  "card": {
+    "_id": "33Qzpql15Ov925eXAefQVM4xg0H",
+    "_type": "image",
+    "_entry": "33QkcGVE1i60ePXDdD3wqGM6YJ7"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QzokudOVcY72TH90hbUYdS5dh",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EBxLEXCsJEMQeUrDgVYVzOuaV",
+        "_type": "image",
+        "_entry": "34BItFmiyzOjC0gW57UXVmuR2YX"
+      },
+      "foil": {
+        "_id": "34EBy3jkwBwKztYFGFMvMNpeDeu",
+        "_type": "image",
+        "_entry": "34BItANmMbSY420TLfxbmEd2htI"
+      }
+    }
+  ],
+  "isFullArt": true
+}

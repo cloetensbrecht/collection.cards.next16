@@ -1,0 +1,44 @@
+{
+  "_id": "320TPoqeSFvpj3VHL23ci9lnxuD",
+  "_type": "PokemonCard",
+  "_index": "b9w",
+  "title": "Braviary",
+  "number": "155",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Braviary",
+  "energy": "colorless",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vxAx9pxwkIqtsIXp8njYDJXG6",
+    "_type": "entry",
+    "_entry": "33vcgHcyrTEDVGllRHdQnnu0wde"
+  },
+  "card": {
+    "_id": "320TRbxdF52Ph6yTs9FH3MzIxRJ",
+    "_type": "image",
+    "_entry": "320FBQfcky2kfcz8Zvy1zMW1aOd"
+  },
+  "variants": [
+    {
+      "_id": "320TPpDWx7cklc0wJwL1CL7Y7hb",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320TSW2xJDIvUEJazkNeTG2daPi",
+        "_type": "image",
+        "_entry": "320SiM1nthvEHqoKZ8Ns1bGd436"
+      },
+      "foil": {
+        "_id": "320TT4zcnFtNo9Qp7IzH4c0naqb",
+        "_type": "image",
+        "_entry": "320SiQAx9meS8EVGvNX19ykvbon"
+      }
+    }
+  ],
+  "isFullArt": true
+}

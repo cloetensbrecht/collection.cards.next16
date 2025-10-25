@@ -1,0 +1,47 @@
+{
+  "_id": "2zp5yT796iwxuiR4CVdnfxYO699",
+  "_type": "PokemonSet",
+  "_index": "b0M",
+  "title": "Double Crisis",
+  "number": null,
+  "ptcgoCode": "DCR",
+  "releaseDate": "2015-03-25",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMW2XF4JVsPXFVnjJgk7pp32t",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe4HnKbDId2fKuZ9D5X9Fed9"
+    }
+  ],
+  "logo": {
+    "_id": "2zp60UORpsSIyvdSlXPtYGCHPBy",
+    "_type": "image",
+    "_entry": "2zowis8yRYDm352BfpnQsNGRaBk"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

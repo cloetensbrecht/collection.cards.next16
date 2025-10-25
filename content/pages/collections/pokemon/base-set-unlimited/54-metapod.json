@@ -1,0 +1,30 @@
+{
+  "_id": "31YUzKTgGZ2Y0qXzJ4V3EMrzc4N",
+  "_type": "PokemonCard",
+  "_index": "ar",
+  "title": "Metapod",
+  "number": "54",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Metapod",
+  "energy": "grass",
+  "stage": "stage1",
+  "card": {
+    "_id": "31YV0gO9ol4G4DNWOFFktA3ROPZ",
+    "_type": "image",
+    "_entry": "31YUwpfJK0TMrcfMO4vhq2I1A4J"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

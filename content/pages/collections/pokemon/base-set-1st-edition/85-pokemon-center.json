@@ -1,0 +1,27 @@
+{
+  "_id": "30ptqbKpyIoJ6xe8mRkRKTQkh0V",
+  "_type": "PokemonCard",
+  "_index": "b0M",
+  "title": "Pokémon Center",
+  "number": "85",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "30ptsWhfx2Uj4cD0537xKPcitnz",
+    "_type": "image",
+    "_entry": "30oJlDS2KrTcUTwA39ZNilYpVSi"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

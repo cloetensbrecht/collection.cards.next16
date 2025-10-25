@@ -1,0 +1,25 @@
+{
+  "_id": "2zvN4C8WAAQlmyt8E6XC4ivDDx9",
+  "_type": "PokemonSet",
+  "_index": "b2c",
+  "title": "POP Series 4",
+  "ptcgoCode": "POP4",
+  "releaseDate": "2006-08-01",
+  "generation": "III",
+  "serie": "popSeries",
+  "symbol": [
+    {
+      "_id": "2zvN6M0qxqLYQVLWPtayta9l3bo",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zvK0O6krtWUX1ecsaEmw3VTwsE"
+    }
+  ],
+  "logo": {
+    "_id": "2zvN70zfInz5hhnI92oiViGREhk",
+    "_type": "image",
+    "_entry": "2zvKEqF9YEjyHjHWMbj5xrLh5oP"
+  },
+  "rarity": {},
+  "energy": {}
+}

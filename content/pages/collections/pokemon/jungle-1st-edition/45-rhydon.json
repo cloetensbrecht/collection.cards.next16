@@ -1,0 +1,30 @@
+{
+  "_id": "30qDABWJBvDzENXIpakNlHqcVnW",
+  "_type": "PokemonCard",
+  "_index": "b5X",
+  "title": "Rhydon",
+  "number": "45",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Rhydon",
+  "energy": "fighting",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qDBNbfvTIwcin2l9zTIFqDo1k",
+    "_type": "image",
+    "_entry": "30q9C61Ozs3SUnpR8J3rYVqAm9h"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

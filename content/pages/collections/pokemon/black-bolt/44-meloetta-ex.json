@@ -1,0 +1,45 @@
+{
+  "_id": "31wkRcbhWnxRTupHQCSdj57fZU9",
+  "_type": "PokemonCard",
+  "_index": "b5a",
+  "title": "Meloetta ex",
+  "number": "44",
+  "edgeColor": "#97999b",
+  "rarity": "double-rare",
+  "cardtype": "pokemon",
+  "hp": 200,
+  "pokemon": "Meloetta",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w0kHMC3VJspGWqfiW6oRfIP2y",
+    "_type": "entry",
+    "_entry": "33vWmw98oNnKQtVa4Sd9tUkwdMW"
+  },
+  "card": {
+    "_id": "31wkUGEtqTwvzr8PXfZbaIOeiCl",
+    "_type": "image",
+    "_entry": "31wizvl4HDkZLX521Ik9HAjDVRl"
+  },
+  "variants": [
+    {
+      "_id": "31wkReEzGHdvXY8YjTJgCrP24jW",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31wkqlpi0qvMFQp0C1a79bDht6m",
+        "_type": "image",
+        "_entry": "31wknXK1lujAJJXwUHOpXzFGzKw"
+      },
+      "foil": {
+        "_id": "31wkrWeAHv0xonc5XaorQqT7Zyb",
+        "_type": "image",
+        "_entry": "31wknX0O3R4sIlC9Zu7HHUsB1nV"
+      }
+    }
+  ],
+  "isEx": true,
+  "isFullArt": true
+}

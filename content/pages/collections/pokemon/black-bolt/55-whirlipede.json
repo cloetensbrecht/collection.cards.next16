@@ -1,0 +1,69 @@
+{
+  "_id": "31wqQqlG2LEKW0D9ur3EYs6cZOt",
+  "_type": "PokemonCard",
+  "_index": "b6C",
+  "title": "Whirlipede",
+  "number": "55",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Whirlipede",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w0R3qkySaaTWRtKtPgsQgu3ke",
+    "_type": "entry",
+    "_entry": "33vYShPn1MFdmM9hYQmk5aO5Kgp"
+  },
+  "card": {
+    "_id": "31wqTMGZBYYmsvwxtUHHJBzMtqJ",
+    "_type": "image",
+    "_entry": "31woH1NHQyICofSoQAj2lw2IfzR"
+  },
+  "variants": [
+    {
+      "_id": "31wqQspY4rANgDv7em7zvONa9hY",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wqYP2ehUPebE1GprfByR6yqL8",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wqeJyC7bF3RDshnWnbFfCoAGy",
+        "_type": "image",
+        "_entry": "31wqcXvZmRYIQNEYgUKAg5Exto4"
+      },
+      "foil": {
+        "_id": "31wqfHXzYKD2CEJtfn4HKOSg7ox",
+        "_type": "image",
+        "_entry": "31wqcbanfrvIvvfRqn9G0flRTX2"
+      }
+    },
+    {
+      "_id": "31wqZ82tCRtAIVcNpzwOtR8jbhs",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wqZonVHXNxwPOoGmTQ9m7xpdm",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "_id": "31wm1z7Mw34hQZICfkkpyAoGSeg",
+  "_type": "PokemonCard",
+  "_index": "b5n",
+  "title": "Timburr",
+  "number": "47",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Timburr",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w0fxix3HcA8mnkhIIK1LZ2OXd",
+    "_type": "entry",
+    "_entry": "33vYCHr1eRfKbjcW34SJd26wMUg"
+  },
+  "card": {
+    "_id": "31wm4F3CJp2pl2D2XHbZd3wZyUU",
+    "_type": "image",
+    "_entry": "31wizti0iGukjDAAM98Zp2Yjoh3"
+  },
+  "variants": [
+    {
+      "_id": "31wm1xdqfO2RghrKyxHQPD7fOS6",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wm88k9JyQzGfCtfmWeFoIIZjd",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wmJQOIg1m6GezVxaMRoQlsvKE",
+        "_type": "image",
+        "_entry": "31wmF91X3o87pm94ArtVZoUe8Ea"
+      },
+      "foil": {
+        "_id": "31wmKGLl6Mc6eOdYQ65nT1FgUJx",
+        "_type": "image",
+        "_entry": "31wmF6vnpRbKuarEp4q351kMMRJ"
+      }
+    },
+    {
+      "_id": "31wm8ebogDXsSyMgJRVB2Lpt6yL",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wm9ZMRtyn4rDL4jp8SQO4mK5T",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

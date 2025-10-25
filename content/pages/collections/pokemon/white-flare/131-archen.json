@@ -1,0 +1,45 @@
+{
+  "_id": "33R0VfcKaJIAFjfRSE0gVMNI2Fb",
+  "_type": "PokemonCard",
+  "_index": "b8n",
+  "title": "Archen",
+  "number": "131",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Archen",
+  "energy": "fighting",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34ECcZgcVgmWhLJtvk0xdSELdz8",
+    "_type": "entry",
+    "_entry": "34A9pLulmB5LxkP6GP4T3NckM7t"
+  },
+  "card": {
+    "_id": "33R0WtVoReZS3E1b6H8SycUwuvT",
+    "_type": "image",
+    "_entry": "33QkcClTOy9NikXNgAy1HxMvHmj"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R0VhLGajspQoyhLhrFrZDrS0M",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34ECdPMIwDvEhRsB7LxY5Ipi6x2",
+        "_type": "image",
+        "_entry": "34BJ5otyf30z0SpsyVpDWgrhyYF"
+      },
+      "foil": {
+        "_id": "34ECdtmdRys9rqXiYrcK35IXwu5",
+        "_type": "image",
+        "_entry": "34BJ5pSnfGWregoDz7BN6QOMcua"
+      }
+    }
+  ],
+  "isFullArt": true
+}

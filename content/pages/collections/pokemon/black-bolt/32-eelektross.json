@@ -1,0 +1,69 @@
+{
+  "_id": "31vfQtjEN16q7c9diXWEjOUmDtF",
+  "_type": "PokemonCard",
+  "_index": "b4i",
+  "title": "Eelektross",
+  "number": "32",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 160,
+  "pokemon": "Eelektross",
+  "energy": "lightning",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33w173bUL84xdKCE0dsRk8ASQTb",
+    "_type": "entry",
+    "_entry": "33vXqGCgzVMiaM4Y3FQRJ8n7xiD"
+  },
+  "card": {
+    "_id": "31vfUYRgotkByDBUcOBzMQuPueT",
+    "_type": "image",
+    "_entry": "31ve9OimBqYFIQrX9hy5uB1nUnt"
+  },
+  "variants": [
+    {
+      "_id": "31vfQpqs40e3FLyHb0UtgZp3RaU",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31vfZhQbaBQXG4ddK2pkJLSQhMd",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31vffF2GShORsDRMUxbVP9rmsMV",
+        "_type": "image",
+        "_entry": "31vfdxiSmDWu9EfZuxnAgG9SF6v"
+      },
+      "foil": {
+        "_id": "31vfg5Beu2lRDXGLCA0S5FHJ7Ra",
+        "_type": "image",
+        "_entry": "31vfdufplDINKS4aZtRhnVMhVwW"
+      }
+    },
+    {
+      "_id": "31vfaRbngYHEWwDEc4KXNkGmoBq",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31vfbACxwDGNW73znFoWr2nu8Do",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

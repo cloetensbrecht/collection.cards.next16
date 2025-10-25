@@ -1,0 +1,69 @@
+{
+  "_id": "31okBteXtursvcmIS6M2iKuJYWe",
+  "_type": "PokemonCard",
+  "_index": "b3Z",
+  "title": "Tympole",
+  "number": "19",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Tympole",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1RwNVHXmcneIF3Oeo8ijQ0w8",
+    "_type": "entry",
+    "_entry": "33vXX4BkgLXx0jyfFy6DbsrdwFW"
+  },
+  "card": {
+    "_id": "31okDymFqCJ0jzB1OVCHiOfvJSN",
+    "_type": "image",
+    "_entry": "31oiFDEvVogYjLZtLv2lvyg2fH6"
+  },
+  "variants": [
+    {
+      "_id": "31okBvGC2zcERlV9Oh40iaVPjV0",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31okId5hJjN1qTyMN9aOrjgnECI",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31okQc07QQqqKuiUifZRZqHvE3x",
+        "_type": "image",
+        "_entry": "31okOz9siqdXVd6z1pBQmfiMW8M"
+      },
+      "foil": {
+        "_id": "31okSm7HM2GmdwuFHDuhg6WP0vq",
+        "_type": "image",
+        "_entry": "31okOxvP1EZJryUC0loYvOA4KA8"
+      }
+    },
+    {
+      "_id": "31okJ1q8OUhOKZy0lA3h8VyRDV3",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31okJgzIzP11ZHYYEh6g6C1PALk",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

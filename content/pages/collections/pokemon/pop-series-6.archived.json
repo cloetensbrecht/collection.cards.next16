@@ -1,0 +1,25 @@
+{
+  "_id": "2zvNFzJr52vIdABasRaL2CNB8A3",
+  "_type": "PokemonSet",
+  "_index": "b2a",
+  "title": "POP Series 6",
+  "ptcgoCode": "POP6",
+  "releaseDate": "2007-09-01",
+  "generation": "IV",
+  "serie": "popSeries",
+  "symbol": [
+    {
+      "_id": "2zvNHLIjvimdpPa9hWOKcdwfgQQ",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zvK0Kwie4VObbSH9G2aStgjuei"
+    }
+  ],
+  "logo": {
+    "_id": "2zvNHrzYh14j9yNeMPErX4erXMr",
+    "_type": "image",
+    "_entry": "2zvKEqF9YEjyHjHWMbj5xrLh5oP"
+  },
+  "rarity": {},
+  "energy": {}
+}

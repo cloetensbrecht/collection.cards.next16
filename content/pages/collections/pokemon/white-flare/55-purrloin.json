@@ -1,0 +1,70 @@
+{
+  "_id": "33QrcewTTk7EE5ufCiJ6AaNbejb",
+  "_type": "PokemonCard",
+  "_index": "b67",
+  "title": "Purrloin",
+  "number": "55",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Purrloin",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A7gn13dzvuSOxquJax8qFnZa4",
+    "_type": "entry",
+    "_entry": "33vZJOti7WXEFhja1ECral3WpcT"
+  },
+  "card": {
+    "_id": "33Qreh7QGLWvwyY8CdOPTlSwdlS",
+    "_type": "image",
+    "_entry": "33QkB9DOgfRI89S9hj84rJD348I"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qrci6U48EiWqngytedml1gxDn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A7hSJ4zEZ7JbXoUkMoiWHjUDE",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A7kj5NHkysxU9LmY72YHWAkky",
+        "_type": "image",
+        "_entry": "34A7jpE4S9oH9UK6iOEDLMNY3nz"
+      },
+      "foil": {
+        "_id": "34A7lRxuM6jPQEjE7tvOL4gGu9e",
+        "_type": "image",
+        "_entry": "34A7jvssNMTNLZ3Ad8ar1FqSKCv"
+      }
+    },
+    {
+      "_id": "34A7i1Bhs2wYEe35Ax401MJ7haA",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A7iQjSztmw4fjb8f5HcDhlZIX",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

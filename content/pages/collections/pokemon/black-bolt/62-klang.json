@@ -1,0 +1,69 @@
+{
+  "_id": "31wuosZOMbxRQnzusOZztnzoc0i",
+  "_type": "PokemonCard",
+  "_index": "b6V",
+  "title": "Klang",
+  "number": "62",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Klang",
+  "energy": "metal",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w0Dk0JzYBEGZRspw22r6Dh5Qg",
+    "_type": "entry",
+    "_entry": "33vYaU6cyAP5v9iEbxrbJvWTOw3"
+  },
+  "card": {
+    "_id": "31wurhZSCeLXvVHjpF1tnoCfELe",
+    "_type": "image",
+    "_entry": "31wtY5D6P6k9fM7Vtnd6Itm794h"
+  },
+  "variants": [
+    {
+      "_id": "31wuonQj0DXxkBKANLKjxZjcnVC",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wuyrPWmmpjHmsAph7ZOdhEqYO",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wv2h8StjbtpqgWQ4W9xegih1e",
+        "_type": "image",
+        "_entry": "31wun2GoIt0GPXmRmJcrvQOmxmy"
+      },
+      "foil": {
+        "_id": "31wv3bFFCjq6y1ZlZPdPuHVLKpL",
+        "_type": "image",
+        "_entry": "31wun3ae4V2MzQoIVxk1vMiCbAl"
+      }
+    },
+    {
+      "_id": "31wuzi5rhUY2zcj2k4ImagXlz6I",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wv0fr851yhsiBL94gMYfFa2cX",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "33QuW2pFPyATmh0PrmmtybHv5fK",
+  "_type": "PokemonCard",
+  "_index": "b0C",
+  "title": "Herdier",
+  "number": "75",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Herdier",
+  "energy": "colorless",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34AADr07TYp9NJfRoxFsvGr1u9q",
+    "_type": "entry",
+    "_entry": "34AA6ttWKz1ObnMbpME8lVJrnri"
+  },
+  "card": {
+    "_id": "33QuX93dX8OOApvcpztTZORZyi4",
+    "_type": "image",
+    "_entry": "33QkLgs5EftiQb524IUHTB9eJrr"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QuVzK9960LJwQ3XIicXi8eh7x",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34AAF95FTrPHRxJC3BHI2H4FFuj",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34AAJ1wVySiDYyeuNbX87eYsxe8",
+        "_type": "image",
+        "_entry": "34AAIHPmaJrEKXDuRqgDo2ZIjFp"
+      },
+      "foil": {
+        "_id": "34AAJauh2X00ZTWVKWFyBNx2Uoc",
+        "_type": "image",
+        "_entry": "34AAIGmFDRbZBWTeapordRalpdQ"
+      }
+    },
+    {
+      "_id": "34AAFUcw15spyswjfpg3mXj5yFy",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34AAFyir2Ln0KaSS963oAhSPLQS",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

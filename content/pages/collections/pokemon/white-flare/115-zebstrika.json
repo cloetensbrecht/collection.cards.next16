@@ -1,0 +1,45 @@
+{
+  "_id": "33Qyr7UkOcK7TGVbLwP7Q82Q6R2",
+  "_type": "PokemonCard",
+  "_index": "b8A",
+  "title": "Zebstrika",
+  "number": "115",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Zebstrika",
+  "energy": "lightning",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EAzReXWeexGfdcJ8L2RTIfTHP",
+    "_type": "entry",
+    "_entry": "33vd4vNTmVSC9GXxdxdvrQctNaq"
+  },
+  "card": {
+    "_id": "33QyrmAZcx5VKFLJyg2K2DRYTiO",
+    "_type": "image",
+    "_entry": "33QkWiz7ZHEf787jmng1aEAW5c1"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qyr2nWQg5SfDzAfvBOTjmDyYQ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EB0Qf28jtFx5etnPZpfJFUGev",
+        "_type": "image",
+        "_entry": "34BItA4XlZ5RpCIpQxTs8a9yP6i"
+      },
+      "foil": {
+        "_id": "34EB18AeMQrXsDAykqwtGJGrt6k",
+        "_type": "image",
+        "_entry": "34BItF9Gv1LvaNxvliLm9CxaOo4"
+      }
+    }
+  ],
+  "isFullArt": true
+}

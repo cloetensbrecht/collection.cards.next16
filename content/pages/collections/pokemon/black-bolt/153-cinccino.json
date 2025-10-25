@@ -1,0 +1,44 @@
+{
+  "_id": "320T6TzfNAz8Zqf0ekXdUWYB1xa",
+  "_type": "PokemonCard",
+  "_index": "b9q",
+  "title": "Cinccino",
+  "number": "153",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Cinccino",
+  "energy": "colorless",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vxFZeSnPW9u3frlhfzl7hewO5",
+    "_type": "entry",
+    "_entry": "33vca1V1h8hkaaVUVld5rGWVy6H"
+  },
+  "card": {
+    "_id": "320T8lQpF4cakqDP2H97zbdOVjE",
+    "_type": "image",
+    "_entry": "320FBOlWmDT4JDEuJc0bYsDNkiN"
+  },
+  "variants": [
+    {
+      "_id": "320T6WF2tXIjqRbt3eT2jPbbGdC",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320T9hsqJNdI0xcbi4a5pdMgWT7",
+        "_type": "image",
+        "_entry": "320SiJmBZWgIHaLWaIfdQ1Qm8hh"
+      },
+      "foil": {
+        "_id": "320TALHjlXIUvRIJpTaGnjlUpe0",
+        "_type": "image",
+        "_entry": "320SiJUqOrbaDQVQWzzy3FYfkDj"
+      }
+    }
+  ],
+  "isFullArt": true
+}

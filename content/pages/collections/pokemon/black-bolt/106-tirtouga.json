@@ -1,0 +1,44 @@
+{
+  "_id": "320AILxVDyNbgkZjf70r1v3p3iJ",
+  "_type": "PokemonCard",
+  "_index": "b7s",
+  "title": "Tirtouga",
+  "number": "106",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Tirtouga",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vyoaGgKpBUqCdl7QbqtbOh6oD",
+    "_type": "entry",
+    "_entry": "33vaSIitHichKsNfPHDcoW3ApKB"
+  },
+  "card": {
+    "_id": "320AKKryl0kG19pvGXGFYP4b4sQ",
+    "_type": "image",
+    "_entry": "320ACZU1NHgF481p21B7rbhJ6w8"
+  },
+  "variants": [
+    {
+      "_id": "320AIGIiXCNUNNued7sH6iozzWo",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320ANsWyZQbxX7FevGVKzItSDsc",
+        "_type": "image",
+        "_entry": "320AFc83swFTPOTqYHWTJzsm3Zl"
+      },
+      "foil": {
+        "_id": "320AORmKG4tU75ZoSvTxS1yHqJV",
+        "_type": "image",
+        "_entry": "320AFdvy363ipaaJAZfU0UEOsvs"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "320QrBhrxMuEIkuXeXls7JdLP8i",
+  "_type": "PokemonCard",
+  "_index": "b9L",
+  "title": "Pawniard",
+  "number": "142",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Pawniard",
+  "energy": "metal",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vxhR2CkaEKYJJJ91NPN7Wu1VL",
+    "_type": "entry",
+    "_entry": "33vc4oQZtqyXs1uqpPWafLku8bk"
+  },
+  "card": {
+    "_id": "320Qt70ea2VAmautmhi98rUYDDQ",
+    "_type": "image",
+    "_entry": "320FBMybxWQY1GnEapvqw5QFc5m"
+  },
+  "variants": [
+    {
+      "_id": "320Qr9hQ55AQtYFIdgiM5D9qM0G",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320QvdAWOOAWb9mBNTAHvMwntTE",
+        "_type": "image",
+        "_entry": "320QFKgfbH3Ru8XmBKnRlaT6xOs"
+      },
+      "foil": {
+        "_id": "320QwQUAICE1bXljpBnCXSHR24A",
+        "_type": "image",
+        "_entry": "320QFFIAbLjAAxdsIzQ1X91pNro"
+      }
+    }
+  ],
+  "isFullArt": true
+}

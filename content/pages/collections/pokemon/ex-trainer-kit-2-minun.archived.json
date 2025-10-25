@@ -1,0 +1,25 @@
+{
+  "_id": "30stvMsKfWHNqF1p4DRPojukZm6",
+  "_type": "PokemonSet",
+  "_index": "aI",
+  "title": "EX Trainer Kit 2 Minun",
+  "ptcgoCode": "",
+  "releaseDate": "2006-03-01",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "30su7QmRKM4G1Qg0DMzjWfvbM2k",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "30su6GsmU7VjbVCfzFd8HbMEv09"
+    }
+  ],
+  "logo": {
+    "_id": "30suA50kZYWxao0kqaNR9Qw9C2E",
+    "_type": "image",
+    "_entry": "30spO0dkLw2T3O1PwjqiTjFJ6jF"
+  },
+  "rarity": {},
+  "energy": {}
+}

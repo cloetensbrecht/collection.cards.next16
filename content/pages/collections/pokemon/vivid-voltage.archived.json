@@ -1,0 +1,47 @@
+{
+  "_id": "2zp8sURNvChPQ0ZMg4wrdnRlalr",
+  "_type": "PokemonSet",
+  "_index": "ar",
+  "title": "Vivid Voltage",
+  "number": 86,
+  "ptcgoCode": "VIV",
+  "releaseDate": "2020-11-13",
+  "generation": "VIII",
+  "serie": "swordShieldSeries",
+  "symbol": [
+    {
+      "_id": "2zpLxedsHhtOXKowg4N5eh0L0Rx",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe9UKVvH9cxNYcD7ZFv2p6R8"
+    }
+  ],
+  "logo": {
+    "_id": "2zp8yJ5BJoC1hV7pvL7eSKgA5Vu",
+    "_type": "image",
+    "_entry": "2zowipdoV6RvlZH0U6KvVmYCHJP"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

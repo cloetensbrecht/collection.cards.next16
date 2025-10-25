@@ -1,0 +1,47 @@
+{
+  "_id": "2zp5UEva4VG6v8cY4j3XKHqq582",
+  "_type": "PokemonSet",
+  "_index": "Z2",
+  "title": "XY",
+  "number": 59,
+  "ptcgoCode": "XY",
+  "releaseDate": "2014-02-05",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMdLrXouIAYs0RfJ2UXnyVwue",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe6j9kAYGPma6nbELVCj2kDM"
+    }
+  ],
+  "logo": {
+    "_id": "2zp5Xypzx0uYgU1eiW28URriPkj",
+    "_type": "image",
+    "_entry": "2zowisLCSn4qWlHRNw561u5KhsJ"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "2zy2t01svjpbWP9ciHYwQYh3ozi",
+  "_type": "PokemonSet",
+  "_index": "b38",
+  "title": "Pokémon Rumble",
+  "ptcgoCode": "",
+  "releaseDate": "2009-12-02",
+  "generation": "IV",
+  "serie": "platinumSeries",
+  "symbol": [
+    {
+      "_id": "2zy3mUQq8CMyYLLqq0plrgk5431",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zy3l0F4UTPaFg8Ip39wUf4Hkja"
+    }
+  ],
+  "logo": {
+    "_id": "2zy32zEbQxFxfojJWri6w6BMgge",
+    "_type": "image",
+    "_entry": "2zy312sEdXpGeGtmcfvHww9Ketd"
+  },
+  "rarity": {},
+  "energy": {}
+}

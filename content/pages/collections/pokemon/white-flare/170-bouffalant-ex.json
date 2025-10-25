@@ -1,0 +1,46 @@
+{
+  "_id": "33R54qA9RQ8GZVicJ2kTJHJIWar",
+  "_type": "PokemonCard",
+  "_index": "bAU",
+  "title": "Bouffalant Ex",
+  "number": "170",
+  "edgeColor": "#97999b",
+  "rarity": "special-illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 220,
+  "pokemon": "Bouffalant",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EFmohgfELX43wgpUiPHJrYaCn",
+    "_type": "entry",
+    "_entry": "33vdS54pArzwx4jjtxfhKv8oP8u"
+  },
+  "card": {
+    "_id": "33R56bxplAn3NPQ7WLHW5EocucA",
+    "_type": "image",
+    "_entry": "33QkjvDBmefJlz1egUzEochzDId"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R54uyX4cAGL24Y5nA7kd8CHX6",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EFo8cdyGp2H3dulcuAI7AHcta",
+        "_type": "image",
+        "_entry": "34BJ5jf0yAQsgk1gYTqddav1fqF"
+      },
+      "foil": {
+        "_id": "34EFoi9SHQdbGoTidfH8Lm4wLoE",
+        "_type": "image",
+        "_entry": "34BJ5n1yzPK9GpPV7Gn6afMYj3H"
+      }
+    }
+  ],
+  "isEx": true,
+  "isFullArt": true
+}

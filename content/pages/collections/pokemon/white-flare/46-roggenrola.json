@@ -1,0 +1,70 @@
+{
+  "_id": "33Qqfh6R3FPKLWXqElNkViuorxQ",
+  "_type": "PokemonCard",
+  "_index": "b5c",
+  "title": "Roggenrola",
+  "number": "46",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Roggenrola",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A2fNKpSdcTuTP2JMcPCRudcZM",
+    "_type": "entry",
+    "_entry": "33vdnbkPf4vXYkE8OI8gnjIlV7Z"
+  },
+  "card": {
+    "_id": "33QqguUwSeuT4gyNZUA3gKIIeCm",
+    "_type": "image",
+    "_entry": "33Qk4WQ9tBrqY3WEAK6q8eHspGC"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qqfg4k9RNFO5qztz8DGmgZJOT",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A2gcgdtVpijglHqhMEYhWBYvp",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A2kIkFZu6NClNtaO2nQuOQjIV",
+        "_type": "image",
+        "_entry": "34A2j6v7yY7U9tTD5zc9c9k1ogs"
+      },
+      "foil": {
+        "_id": "34A2kh1Zd1FVecg9CJ8cOF0mZaP",
+        "_type": "image",
+        "_entry": "34A2j7N5QWaWB82EWeJ7wxAPE0V"
+      }
+    },
+    {
+      "_id": "34A2gutUtYkX8YNZeRZndxEGYJW",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A2hf7XkHHXzmktxk8udbvPIJM",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

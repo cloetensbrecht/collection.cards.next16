@@ -1,0 +1,45 @@
+{
+  "_id": "33R2kPGFRm4caQ5NxQ2dOl5Q5V9",
+  "_type": "PokemonCard",
+  "_index": "b9o",
+  "title": "Lillipup",
+  "number": "154",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Lillipup",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EEXZbpEL2oav6hWdWyCgHJi7L",
+    "_type": "entry",
+    "_entry": "34EEXHNLXSRVdYG3SJgZkT18RYH"
+  },
+  "card": {
+    "_id": "33R2lmisJXZ9u6EPLz9GvQQSA10",
+    "_type": "image",
+    "_entry": "33QkgfGteCmGu1Mbj3DFRADLMqE"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R2kQsfRXec1L06QNc0vquwmrh",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EEYHO8kqASkgOHDpTzW9YMxS9",
+        "_type": "image",
+        "_entry": "34BJ5pTLxQlcdzF09fwz7ZKYzSz"
+      },
+      "foil": {
+        "_id": "34EEYnHhvIA5x1CqhPsVi03ubMC",
+        "_type": "image",
+        "_entry": "34BJ5mYyeB1UL7O5E7TZIpSi7ti"
+      }
+    }
+  ],
+  "isFullArt": true
+}

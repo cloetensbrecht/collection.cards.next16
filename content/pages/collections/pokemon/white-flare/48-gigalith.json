@@ -1,0 +1,70 @@
+{
+  "_id": "33QqwlrJzyt84avM4Gmp5IEl34G",
+  "_type": "PokemonCard",
+  "_index": "b5k",
+  "title": "Gigalith",
+  "number": "48",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 170,
+  "pokemon": "Gigalith",
+  "energy": "fighting",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34A33MuxPhfz4Xg3JfI1kaC3bzd",
+    "_type": "entry",
+    "_entry": "33vdnbkPf4vXYkE8OI8gnjIlV7Z"
+  },
+  "card": {
+    "_id": "33Qqxx8yg1wr07X2p9tjeTc9yYe",
+    "_type": "image",
+    "_entry": "33Qk4b0GnbuQtVCUeW0jgITng5Y"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QqwoQ4N7lwbq7X0fVv6w8xUve",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A34elibsJpzKpTjvAm9TaQJ41",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A38poh3vHr1n0LTs7XPIkRgeg",
+        "_type": "image",
+        "_entry": "34A3888duPZEluL2Boeo6kpY3Co"
+      },
+      "foil": {
+        "_id": "34A39SBwDq4LTAUZ0y2ueFUKQBe",
+        "_type": "image",
+        "_entry": "34A384AMz6lPo7wKB3boJbSWiHJ"
+      }
+    },
+    {
+      "_id": "34A34vt56VnuyxhFKI6hd2a3Wj3",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A35VIUB3EUJtFOLzFqpj6eXDz",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

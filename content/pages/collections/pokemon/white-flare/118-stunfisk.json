@@ -1,0 +1,45 @@
+{
+  "_id": "33QzBDwyw1za6hVBQNPBDU3wlzW",
+  "_type": "PokemonCard",
+  "_index": "b8I",
+  "title": "Stunfisk",
+  "number": "118",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Stunfisk",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EBL1ExMLqSS8Bs7xoFCtj6Gp6",
+    "_type": "entry",
+    "_entry": "33vtehFuB6urIIJk8fut1slYJGU"
+  },
+  "card": {
+    "_id": "33QzCIuOgEPQheaXwM0zSKLq3Ub",
+    "_type": "image",
+    "_entry": "33QkWfGnW0kBYmyBcOezGDXKbvQ"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QzB8vqtNeVHBgJffsoc2OcAiC",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EBM0Fw0zWNJiCwucJjGPzTMtE",
+        "_type": "image",
+        "_entry": "34BItBVu5NgCGIHBpnaHzxxyxS8"
+      },
+      "foil": {
+        "_id": "34EBMbPt8WRURLv6sjlwS8xorTP",
+        "_type": "image",
+        "_entry": "34BItD8WH1anVWuxSbjKBcwjTou"
+      }
+    }
+  ],
+  "isFullArt": true
+}

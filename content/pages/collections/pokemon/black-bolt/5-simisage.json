@@ -1,0 +1,69 @@
+{
+  "_id": "31mXZZfLNrk4EjX061hxtqp7mWH",
+  "_type": "PokemonCard",
+  "_index": "b1s",
+  "title": "Simisage",
+  "number": "5",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Simisage",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w1v2sSKUS4ySveyHIOyqI9tZb",
+    "_type": "entry",
+    "_entry": "33vX4WvQg56xcSKuJLX8xm3UVfu"
+  },
+  "card": {
+    "_id": "31mXfSoyU6ve0pKVkk0aiXgU3S7",
+    "_type": "image",
+    "_entry": "31mXe0R1w2QHzbcLBRqqFUJuoeZ"
+  },
+  "variants": [
+    {
+      "_id": "31mXZY75c6PdwkgKUltJzuR0JO7",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mXmrmgwDWYps2JYNepv4bOd3c",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31mXv3Qxy1Nf3XJLDFAqoPlRQcS",
+        "_type": "image",
+        "_entry": "31mXtMczGCbKvSpygWF3miAFdHx"
+      },
+      "foil": {
+        "_id": "31mXw6rtL8dJZguwQJv063qlF46",
+        "_type": "image",
+        "_entry": "31mXtG2aomB4LPiwqbvOvWvdLxe"
+      }
+    },
+    {
+      "_id": "31mXnSrL3dIjHjuJXk9NDd3scqt",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mXoLml9QbKOEbELgPS6yIHvgR",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

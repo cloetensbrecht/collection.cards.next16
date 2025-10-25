@@ -1,0 +1,44 @@
+{
+  "_id": "31zbRhqrCmFuBR4tEiROhJSW5hS",
+  "_type": "PokemonCard",
+  "_index": "b0a",
+  "title": "Darumaka",
+  "number": "97",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Darumaka",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vz70aTN1XjQwyqfdclLCqRTud",
+    "_type": "entry",
+    "_entry": "33vXo0KBpEXgvziBy0udh8bE40d"
+  },
+  "card": {
+    "_id": "31zbTi6zxXZHvuBqcQRmhzbTfgr",
+    "_type": "image",
+    "_entry": "31zbLdAPBq3TLLSobMlJ5vu60Fs"
+  },
+  "variants": [
+    {
+      "_id": "31zbRgvNww80gr58VcVT4Ab2plj",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zbWS5uU74Rd4fcdr8H4ARCoJk",
+        "_type": "image",
+        "_entry": "31zbPe2JXioHUl0TFMbzpSJjoek"
+      },
+      "foil": {
+        "_id": "31zbXBZJ8qtA6nYvScv5G29zHUa",
+        "_type": "image",
+        "_entry": "31zbPdbatu2G0CdSSuTg6nVMk35"
+      }
+    }
+  ],
+  "isFullArt": true
+}

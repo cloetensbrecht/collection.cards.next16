@@ -1,0 +1,69 @@
+{
+  "_id": "31wzBThyz0pD5Q60xEqWjliWujw",
+  "_type": "PokemonCard",
+  "_index": "b6t",
+  "title": "Tranquill",
+  "number": "72",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Tranquill",
+  "energy": "colorless",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vzuszqMvQh31UwWd0Tx5mWVZp",
+    "_type": "entry",
+    "_entry": "33vYpwBnY6o622RpPW4Ru1p5wwg"
+  },
+  "card": {
+    "_id": "31wzDjpOE1LjUtYZy9cYWfOP8v3",
+    "_type": "image",
+    "_entry": "31wyj6UUnDJptmwLgTnEmnItdtc"
+  },
+  "variants": [
+    {
+      "_id": "31wzBU4swQY3VseRa3Dr0hmZfuF",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wzHMIQulz1ZbTSH7MvlDNktEw",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wzMvugZzYzvIUZS7UqhAzesPp",
+        "_type": "image",
+        "_entry": "31wzL94sM3xzxBJUXuHvwjujFKm"
+      },
+      "foil": {
+        "_id": "31wzORXXGLp3B729Q5Fb2IThz4j",
+        "_type": "image",
+        "_entry": "31wzL6IjJ2oASfoeWVoHoCi8ugO"
+      }
+    },
+    {
+      "_id": "31wzHuDII7ceJOGcvyxvuEpxyBc",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wzIgYhMAU6Tc5xXoIkBh0voNz",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

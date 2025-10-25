@@ -1,0 +1,47 @@
+{
+  "_id": "2zp3arfUNh20m2NgKoQ3OXyy3v5",
+  "_type": "PokemonSet",
+  "_index": "b0U",
+  "title": "Plasma Freeze",
+  "number": 56,
+  "ptcgoCode": "PLF",
+  "releaseDate": "2013-05-08",
+  "generation": "V",
+  "serie": "blackWhiteSeries",
+  "symbol": [
+    {
+      "_id": "2zpMifMYH0LoLHqT9g4kImxTCi1",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe9ArrZVyWm8ZmaRpuCJenLh"
+    }
+  ],
+  "logo": {
+    "_id": "2zp3eaeruxOEZTetN9L2L8d6zIN",
+    "_type": "image",
+    "_entry": "2zowirCgCEOIYFTZFSA5tQ5HKCK"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

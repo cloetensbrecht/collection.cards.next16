@@ -1,0 +1,27 @@
+{
+  "_id": "30pwRAq9rOyhhr9eCKZByvhXwS7",
+  "_type": "PokemonCard",
+  "_index": "b7a",
+  "title": "Water Energy",
+  "number": "102",
+  "edgeColor": "#ffe78f",
+  "cardtype": "energy",
+  "energy": "water",
+  "stage": null,
+  "card": {
+    "_id": "31CGzqt5tHWa9LiwaoQDWO7LgC6",
+    "_type": "image",
+    "_entry": "31A25961v60ECgsqu9AbssPhjQE"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

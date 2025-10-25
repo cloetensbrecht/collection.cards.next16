@@ -1,0 +1,30 @@
+{
+  "_id": "30oNfkLIDg048xHQnpWH8ZIZkyF",
+  "_type": "PokemonCard",
+  "_index": "a3",
+  "title": "Charizard",
+  "number": "4",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Charizard",
+  "energy": "fire",
+  "stage": "stage2",
+  "card": {
+    "_id": "30oNgYj4DyABd2QwiMlkLM8g9Pp",
+    "_type": "image",
+    "_entry": "30oJl8ZGnUpfjYPySfdVmJpML5P"
+  },
+  "variants": [
+    {
+      "_id": "311L9YdGKtJr18DAiN3NNkCUlHt",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

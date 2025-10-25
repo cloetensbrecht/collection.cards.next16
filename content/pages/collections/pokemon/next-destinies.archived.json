@@ -1,0 +1,47 @@
+{
+  "_id": "2zp2xzQAcY74cbfAoOGyX9A8IGZ",
+  "_type": "PokemonSet",
+  "_index": "b0a",
+  "title": "Next Destinies",
+  "number": 51,
+  "ptcgoCode": "NXD",
+  "releaseDate": "2012-02-08",
+  "generation": "V",
+  "serie": "blackWhiteSeries",
+  "symbol": [
+    {
+      "_id": "2zpMpbeLArpp8JZAr11iRnmeI3d",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe4ATDzk2bIR64HB4vzZQsIy"
+    }
+  ],
+  "logo": {
+    "_id": "2zp31db1wRzcsfzmcdEHehayEaK",
+    "_type": "image",
+    "_entry": "2zowirI7OW8g8sb8Ig44a3dbo49"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

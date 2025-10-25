@@ -1,0 +1,43 @@
+{
+  "_id": "31zYEcOG4Q3xfVKfdPeVVz6hneY",
+  "_type": "PokemonCard",
+  "_index": "b7K",
+  "title": "Pansage",
+  "number": "89",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Pansage",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vzNNS0PLDNdxwyYio9RhHVo3B",
+    "_type": "entry",
+    "_entry": "33vZgL0VfUyrWoBGcpnvUtzbpbS"
+  },
+  "card": {
+    "_id": "31zYKODKu5Y9puOxwSwC8WsWkHf",
+    "_type": "image",
+    "_entry": "31yUZ1hK9AgM15BMHBtoR4IBTWM"
+  },
+  "variants": [
+    {
+      "_id": "31zYORtPpZQKTZsoWbBMGRtUtpy",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "mask": {
+        "_id": "31zYPtn46ZmUh39JeF6tt0I4JDx",
+        "_type": "image",
+        "_entry": "31zYJBUwc0SxDrGqivUpSSoCyhx"
+      },
+      "foil": {
+        "_id": "31zYQhM95LXGhkfrBhtKbC9JpCd",
+        "_type": "image",
+        "_entry": "31zYJCgiBrCYPZrCLM2elGL44xo"
+      }
+    }
+  ],
+  "isFullArt": true
+}

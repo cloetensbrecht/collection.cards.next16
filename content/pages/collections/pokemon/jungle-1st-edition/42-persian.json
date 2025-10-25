@@ -1,0 +1,30 @@
+{
+  "_id": "30qCwfmfok1ODbaixJMF3VOZ0zT",
+  "_type": "PokemonCard",
+  "_index": "b5K",
+  "title": "Persian",
+  "number": "42",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Persian",
+  "energy": "colorless",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qCxoZoByqx61ea37G6L3zUUw1",
+    "_type": "image",
+    "_entry": "30q9C5cx1ZvtAHhjAbvCPUT2SGk"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

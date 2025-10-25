@@ -1,0 +1,45 @@
+{
+  "_id": "31mVkXuAdJgsN1LWCe8hqEXMWO7",
+  "_type": "PokemonCard",
+  "_index": "b1l",
+  "title": "Serperior ex",
+  "number": "3",
+  "edgeColor": "#97999b",
+  "rarity": "double-rare",
+  "cardtype": "pokemon",
+  "hp": 320,
+  "pokemon": "Serperior",
+  "energy": "grass",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33w1yBBmc3oxgB9hzQABCIoStqs",
+    "_type": "entry",
+    "_entry": "33vX1M4b1lKhEZDnTpJijPZqHLH"
+  },
+  "card": {
+    "_id": "31mVpQSIArgPHocluJO59F4opRK",
+    "_type": "image",
+    "_entry": "31mVnVuFE7BcqvWbxbcXYTE37dD"
+  },
+  "variants": [
+    {
+      "_id": "31mVkZo42owsqoGevcN6izfbey3",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31mWNE6xSnZ1nNiDwSfOKRASKP8",
+        "_type": "image",
+        "_entry": "31mWLjLTMVPoHIhyyz6xpqoPbkE"
+      },
+      "foil": {
+        "_id": "31mWOGJEWqbe67jZ6MxdkaCtq3V",
+        "_type": "image",
+        "_entry": "31mWLgdrUO9YQ8xrao0TwkgfxsI"
+      }
+    }
+  ],
+  "isEx": true,
+  "isFullArt": true
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "2zp8g9vOzKl7Mkvks94UofVcBUk",
+  "_type": "PokemonSet",
+  "_index": "at",
+  "title": "Darkness Ablaze",
+  "number": 85,
+  "ptcgoCode": "DAA",
+  "releaseDate": "2020-08-14",
+  "generation": "VIII",
+  "serie": "swordShieldSeries",
+  "symbol": [
+    {
+      "_id": "2zpM00SHQZ2X5gXDuab0sBBtiXp",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe5fqVwC4CKsz8zozZW4rZab"
+    }
+  ],
+  "logo": {
+    "_id": "2zp8kPO5CYGmkN9qzkIKiNMf6pl",
+    "_type": "image",
+    "_entry": "2zowip9bOVEfS8pqOeif462jPqY"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

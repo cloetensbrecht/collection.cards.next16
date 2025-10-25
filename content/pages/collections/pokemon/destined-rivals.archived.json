@@ -1,0 +1,41 @@
+{
+  "_id": "2zpDGScOnUGxB9eQSBA1YZ9HRdZ",
+  "_type": "PokemonSet",
+  "_index": "aN",
+  "title": "Destined Rivals",
+  "number": 104,
+  "ptcgoCode": "DRI",
+  "releaseDate": "2025-05-30",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zpLQZI0O06lc4uQEaeyhSzFKtm",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpDKwBWlBRnDdlqciBJWsPaLWx"
+    }
+  ],
+  "logo": {
+    "_id": "2zpDNhsH6u8GhdH36oczPxzatZ7",
+    "_type": "image",
+    "_entry": "2zpDM4BKMJsrm2H3QX6uSTrscun"
+  },
+  "heroImage": {
+    "_id": "34QnoY7uEeWASI4GEarz7q90xmS",
+    "_type": "image",
+    "_entry": "34QnmeDcaWXpIkUmNqDUadmH6FN"
+  },
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Destined Rivals brings legendary clashes to the forefront, featuring iconic Pokémon locked in fierce competition. With dynamic duos like Koraidon vs. Miraidon and new Rival Trainer cards, this expansion introduces synergy-based strategies, tactical counters, and bold comeback mechanics. Forge your path, challenge your fate, and prove who stands above all in the heat of battle."
+        }
+      ]
+    }
+  ],
+  "cta_button": "Unleash Destined Rivals"
+}

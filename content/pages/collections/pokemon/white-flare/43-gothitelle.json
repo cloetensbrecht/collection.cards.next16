@@ -1,0 +1,70 @@
+{
+  "_id": "33QqIMqHFPoWrjOlJZHBD6b4MgH",
+  "_type": "PokemonCard",
+  "_index": "b5P",
+  "title": "Gothitelle",
+  "number": "43",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Gothitelle",
+  "energy": "psychic",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34A25gitY6X9I2S7M9CI21YjrqL",
+    "_type": "entry",
+    "_entry": "34A0cD790SHRPbh2bKn6bfTcDeC"
+  },
+  "card": {
+    "_id": "33QqIoZbe7RZDtUeJLEAFnsUfUs",
+    "_type": "image",
+    "_entry": "33Qk4YYJZFkScUJzCCrFAlAPvHX"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QqILEtqQYyflvW4FqAlur9bBg",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A29RQjZbkUn5go2kmo8IQ3t2M",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A2Cu4EWgsRkwWzsOIlkckrcNF",
+        "_type": "image",
+        "_entry": "34A272n8fsVj9PQAjM7yYGouspa"
+      },
+      "foil": {
+        "_id": "34A2DUaaniX8dY2rrqVyR7ghpex",
+        "_type": "image",
+        "_entry": "34A271TiKfOBSGGiloDaylwp5ep"
+      }
+    },
+    {
+      "_id": "34A29yBz8iLV2jc0Lnabtq3PIbt",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A2AaWhtlwTL8DtpFpBv04Huu5",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

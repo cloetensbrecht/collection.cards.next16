@@ -1,0 +1,46 @@
+{
+  "_id": "2zpIy9GxsbscJSi5upvoJbaos2M",
+  "_type": "PokemonSet",
+  "_index": "b1H",
+  "title": "McDonald's Collection 2016",
+  "ptcgoCode": "M16",
+  "releaseDate": "2016-08-20",
+  "generation": "VI",
+  "serie": "mcDonaldsSeries",
+  "symbol": [
+    {
+      "_id": "2zpNrsAazewgDcudDDYYs72Sfyf",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpIwTx1xfjHKiIBgK11BV46g0i"
+    }
+  ],
+  "logo": {
+    "_id": "2zpJ0aRUj6dUt82J2dTAkTr5w76",
+    "_type": "image",
+    "_entry": "2zpI15QLbrLwCdoQSfSYApqqVVN"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

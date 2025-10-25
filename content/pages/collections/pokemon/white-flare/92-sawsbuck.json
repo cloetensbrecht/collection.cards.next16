@@ -1,0 +1,45 @@
+{
+  "_id": "33QwL756EwPjErv4wLIgGWmFKHq",
+  "_type": "PokemonCard",
+  "_index": "b0T",
+  "title": "Sawsbuck",
+  "number": "92",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 130,
+  "pokemon": "Sawsbuck",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34BVGWtHj6jouDkP1vBnRUqSGJx",
+    "_type": "entry",
+    "_entry": "34BVFw5LsWXILcMTtoHXrXilLCH"
+  },
+  "card": {
+    "_id": "33QwMOazHPh05JzlMBhHVEZW4Ck",
+    "_type": "image",
+    "_entry": "33QkS88EHqFWhHCQ00dWsPQD91n"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QwL3qYN0b72dSFPn4rbA3kggq",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BVIYPS7JPCu0gSmzNDSe4amNR",
+        "_type": "image",
+        "_entry": "34BIk4otHdbWVJEnDes17BTvDLg"
+      },
+      "foil": {
+        "_id": "34BVJ8JLrdyYApWkiAF4Ih44ux5",
+        "_type": "image",
+        "_entry": "34BIk0YC6EXEnPxkxTAqyqv2TBB"
+      }
+    }
+  ],
+  "isFullArt": true
+}

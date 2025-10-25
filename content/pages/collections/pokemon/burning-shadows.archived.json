@@ -1,0 +1,47 @@
+{
+  "_id": "2zp73YrDeVfmyRrw6t87ijmhLKj",
+  "_type": "PokemonSet",
+  "_index": "b0A",
+  "title": "Burning Shadows",
+  "number": 73,
+  "ptcgoCode": "BUS",
+  "releaseDate": "2017-08-04",
+  "generation": "VII",
+  "serie": "sunMoonSeries",
+  "symbol": [
+    {
+      "_id": "2zpMJ3iBvyZ5xfXDwXDaFpHnvjS",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8ZYsEfplBwh2tc8UlKi5ey"
+    }
+  ],
+  "logo": {
+    "_id": "2zp77MhjoPJBqg6PY0zeH00DbcR",
+    "_type": "image",
+    "_entry": "2zowioCxiEfa4O5GFxOkJdPa0fl"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

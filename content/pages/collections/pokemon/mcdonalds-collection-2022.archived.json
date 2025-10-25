@@ -1,0 +1,46 @@
+{
+  "_id": "2zpJqlRtktvdiuqTQl4Th6cksX8",
+  "_type": "PokemonSet",
+  "_index": "b1C",
+  "title": "McDonald's Collection 2022",
+  "ptcgoCode": "M22",
+  "releaseDate": "2022-08-03",
+  "generation": "VIII",
+  "serie": "mcDonaldsSeries",
+  "symbol": [
+    {
+      "_id": "2zpNnKtHV5IluS1tlJpU0soEC03",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpJgxyw3HmBULG3wTRbIEC8aYT"
+    }
+  ],
+  "logo": {
+    "_id": "2zpJskSoeD8RFN52jRRqliRP7mo",
+    "_type": "image",
+    "_entry": "2zpJnZrKhenvm8jbM6DkToTR2kt"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

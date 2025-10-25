@@ -1,0 +1,70 @@
+{
+  "_id": "33Qu2EwATJLng4yqr9v2WbUUqdB",
+  "_type": "PokemonCard",
+  "_index": "b6k",
+  "title": "Durant",
+  "number": "70",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Durant",
+  "energy": "metal",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A9Z8xYakfEId3lpryfubZMtWU",
+    "_type": "entry",
+    "_entry": "33vc2NJGc9cPVWfDG1A2GplHfLI"
+  },
+  "card": {
+    "_id": "33Qu3Rh3TgTdx1rbBNIM0B8PEor",
+    "_type": "image",
+    "_entry": "33QkF9r44hDyX8b9KwAzAMttkxt"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qu2FjTe8YiY72LQvhvr0thOha",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A9acU8Lws0dZSCiCTqITh8OBZ",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A9dUXVuPbHdL2RAk7TH8sjf4Z",
+        "_type": "image",
+        "_entry": "34A9cgRjHtMJhdB18Bm8UEBYqRf"
+      },
+      "foil": {
+        "_id": "34A9e036bn6nHrkTiMpCTUirmQK",
+        "_type": "image",
+        "_entry": "34A9cbKneKXx7aEBxEBVByfKVnW"
+      }
+    },
+    {
+      "_id": "34A9az8CXPZhUf67XCgkVFqxUkt",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A9bQSIzrXH9t58ThcJvOlHl5A",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

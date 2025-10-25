@@ -1,0 +1,70 @@
+{
+  "_id": "33QsYeeKf56PFPoxomk1VvVUQGP",
+  "_type": "PokemonCard",
+  "_index": "b6U",
+  "title": "Vullaby",
+  "number": "63",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Vullaby",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A8jUoXbePrnG3vd1Wwa8Bqqiv",
+    "_type": "entry",
+    "_entry": "34A8ixJhdtLIYe3KTiBYiMw5MFl"
+  },
+  "card": {
+    "_id": "33QsZxEpPmYYFZiZMgbMVYrc6P5",
+    "_type": "image",
+    "_entry": "33QkF6pcNHlDff98IGEV8gQb5My"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QsYdOj62R2D0Wl33XCtCUrSPc",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8khXWD3Y1EVXmPizHnFEYpFg",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A8ns1K9be8YfjryCJKIYqjqqR",
+        "_type": "image",
+        "_entry": "34A8mzxWSuPn76NDhVlNVYBVN7L"
+      },
+      "foil": {
+        "_id": "34A8oR33xUAzc0hYrIWWTfudpWG",
+        "_type": "image",
+        "_entry": "34A8n0ok50FIESNmPaVMPgruWPM"
+      }
+    },
+    {
+      "_id": "34A8l8hHrLTvjyNAEC5ztsziQwy",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8lXZC8PUCBEv1PPae4tqcoK2",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "33Qs2j8Fng1c694BwWlK1BUFfhH",
+  "_type": "PokemonCard",
+  "_index": "b6J",
+  "title": "Trubbish",
+  "number": "59",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Trubbish",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A8D7u3xI3dKMTELYuTBu6o86K",
+    "_type": "entry",
+    "_entry": "33vZxSeSWkaSCUcDxgpVHj78xA8"
+  },
+  "card": {
+    "_id": "33Qs3lxgqwMHiNFTDtceP5VoqtU",
+    "_type": "image",
+    "_entry": "33QkB5WC1ozGUUuCJLnUovtVGwt"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qs2kLUGylFnvSw6ZQeflcuUs8",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8EZSIMEPVBtUj4efFt4akXjP",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A8HttHP5yuO8V89XofJhYjRfZ",
+        "_type": "image",
+        "_entry": "34A8HK17r8g9GZUelPISQE0Untp"
+      },
+      "foil": {
+        "_id": "34A8IP5Lru1TIA5GPEPzCTFziye",
+        "_type": "image",
+        "_entry": "34A8HM3lsR1VxkyaPvmEMHXdThf"
+      }
+    },
+    {
+      "_id": "34A8FOeRVL6T1ExR90vRFOuaYyK",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8Fysz9I9c3QV0Avip5c4kBDF",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

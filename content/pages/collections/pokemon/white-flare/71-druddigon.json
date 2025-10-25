@@ -1,0 +1,70 @@
+{
+  "_id": "33Qu962gYeSHeX1SogTFfJj2lYm",
+  "_type": "PokemonCard",
+  "_index": "b6m",
+  "title": "Druddigon",
+  "number": "71",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Druddigon",
+  "energy": "dragon",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A9hDJrR4sjlgQw26gfmv77yQX",
+    "_type": "entry",
+    "_entry": "34A9gooBeMPkZccViOjBb9wm5e8"
+  },
+  "card": {
+    "_id": "33QuAEh1XAy3PqwkqevqoWPJZHD",
+    "_type": "image",
+    "_entry": "33QkLfuPCt6VG0fobn5bWaB8YMY"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qu9BSYzuRYRGzPinon2rAAf88",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A9iToMf10zBm4VMW1lQQ9XP6M",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A9lICdGW8h1CYY0ZvhVGfEiBg",
+        "_type": "image",
+        "_entry": "34A9kZcFlJRupq7aCPTxmf3Trav"
+      },
+      "foil": {
+        "_id": "34A9lrqO5cOPzZS83rGiM9Iwx90",
+        "_type": "image",
+        "_entry": "34A9kb9jxsLymNvbK0mWqDmey53"
+      }
+    },
+    {
+      "_id": "34A9isP91fO5qy0mESfNjT6UDHo",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A9jRXCtjETFgTOIR9MriuaXbC",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

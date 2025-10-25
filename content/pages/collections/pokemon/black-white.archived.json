@@ -1,0 +1,47 @@
+{
+  "_id": "2zp2ed8mKJhTi1tx6bDt4c4G8YK",
+  "_type": "PokemonSet",
+  "_index": "b0d",
+  "title": "Black & White",
+  "number": 48,
+  "ptcgoCode": "BLW",
+  "releaseDate": "2011-04-25",
+  "generation": "V",
+  "serie": "blackWhiteSeries",
+  "symbol": [
+    {
+      "_id": "2zpMtlstzRKlNVn7FTYQACfNO9C",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe9e714eP3XroIzNwfStHs1G"
+    }
+  ],
+  "logo": {
+    "_id": "2zp2iCaebiOYM7LkjboLbzHlYbb",
+    "_type": "image",
+    "_entry": "2zowitnfp2s7XaR1wCoWpD38rJF"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

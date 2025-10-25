@@ -1,0 +1,45 @@
+{
+  "_id": "33R2AjjSQOY5o7aCrZKkd63ieKU",
+  "_type": "PokemonCard",
+  "_index": "b9W",
+  "title": "Ferroseed",
+  "number": "148",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Ferroseed",
+  "energy": "metal",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EE1oOxvPZp4GQ1wAMj9NKptoz",
+    "_type": "entry",
+    "_entry": "34A9gooBeMPkZccViOjBb9wm5e8"
+  },
+  "card": {
+    "_id": "33R2BWMcCIoNjS6b202p8vxJkDO",
+    "_type": "image",
+    "_entry": "33QkgchGg3i3u2SeapX2H51hy03"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R2AkVWqjiOzrTdjs7G84TS02x",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EE2n13WG7LBIfrIaVcz4Twiz3",
+        "_type": "image",
+        "_entry": "34BJ5pmvGQ4sGvsPfkZ9yTXo16P"
+      },
+      "foil": {
+        "_id": "34EE3NAPQdXrYHms2mI3rcgFct9",
+        "_type": "image",
+        "_entry": "34BJ5nAc13VCffY4Rrd92TAd1PP"
+      }
+    }
+  ],
+  "isFullArt": true
+}

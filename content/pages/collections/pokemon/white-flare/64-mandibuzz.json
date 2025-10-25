@@ -1,0 +1,70 @@
+{
+  "_id": "33Qse0AJy07w8f6MHWHp2E2tn8h",
+  "_type": "PokemonCard",
+  "_index": "b6W",
+  "title": "Mandibuzz",
+  "number": "64",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Mandibuzz",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A8qFC9CylxFW7Od3KsUUuLmQE",
+    "_type": "entry",
+    "_entry": "34A8ixJhdtLIYe3KTiBYiMw5MFl"
+  },
+  "card": {
+    "_id": "33QsfHRONcOQtXdEPkU2X0zjoge",
+    "_type": "image",
+    "_entry": "33QkF86J5TizkCgBt16t642A4tI"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qse4OoohB0XyZKazYIBIevKlK",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8rhARxCsuomaJKcLFsCNr8bb",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A8ufc5VUQW31fBZ7HlfZfNyCu",
+        "_type": "image",
+        "_entry": "34A8tuqXDFVNwyQ0ZTNeqfWeSgI"
+      },
+      "foil": {
+        "_id": "34A8v9WGYh9Y1ZcnVS6UzqILNdW",
+        "_type": "image",
+        "_entry": "34A8tr02N0FlCtAsKUwORso33QY"
+      }
+    },
+    {
+      "_id": "34A8s2TzTTLFMdfODJLvQCKsNlt",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8sUo8CocSkN7hdJVLagUF1J9",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

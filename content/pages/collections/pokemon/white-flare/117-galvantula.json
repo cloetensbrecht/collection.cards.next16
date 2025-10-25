@@ -1,0 +1,45 @@
+{
+  "_id": "33Qz45wVxndnR95tgcUNpeSMXOc",
+  "_type": "PokemonCard",
+  "_index": "b8F",
+  "title": "Galvantula",
+  "number": "117",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Galvantula",
+  "energy": "lightning",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EBDLMXnJR4MX7nOte0ZhzZ6PK",
+    "_type": "entry",
+    "_entry": "34EBCqjRuYgZ1RpuixQMxeyH6OK"
+  },
+  "card": {
+    "_id": "33Qz5MWXVF8mECwiFRuY52hWaf4",
+    "_type": "image",
+    "_entry": "33QkWkxmSPcA8G0aTODEHbJCPwi"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qz45QJBLTj6NDkfclLsR0euh0",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EBFQq2qDnc3rPkyChz33MYA5B",
+        "_type": "image",
+        "_entry": "34BItFyEGYMLbKtxeFFCTxRucOv"
+      },
+      "foil": {
+        "_id": "34EBG2MYrsodqo6H3t38k7A382k",
+        "_type": "image",
+        "_entry": "34BItAlkP1LVhOVsnWSiYl04IhL"
+      }
+    }
+  ],
+  "isFullArt": true
+}

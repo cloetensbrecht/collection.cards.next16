@@ -1,0 +1,30 @@
+{
+  "_id": "30qCid7GcDkgLPcSSSKjqUR6QEz",
+  "_type": "PokemonCard",
+  "_index": "b56",
+  "title": "Marowak",
+  "number": "39",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Marowak",
+  "energy": "fighting",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qCjoskQu2BAk5rr3QdeX1SpME",
+    "_type": "image",
+    "_entry": "30q9C6Rzhd0PIF0vfvPU2M0VuJQ"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

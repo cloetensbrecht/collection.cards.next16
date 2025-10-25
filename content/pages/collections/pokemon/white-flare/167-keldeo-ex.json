@@ -1,0 +1,46 @@
+{
+  "_id": "33R4gVyHKNuACT6zsyNe8MXAuzb",
+  "_type": "PokemonCard",
+  "_index": "bAM",
+  "title": "Keldeo Ex",
+  "number": "167",
+  "edgeColor": "#97999b",
+  "rarity": "special-illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 210,
+  "pokemon": "Keldeo",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EFZ2fh7o6sOVvscs04j7cREOb",
+    "_type": "entry",
+    "_entry": "33vZJOti7WXEFhja1ECral3WpcT"
+  },
+  "card": {
+    "_id": "33R4iPZW9vsZUimCHQhbArkfnej",
+    "_type": "image",
+    "_entry": "33QkjveixTT1ylOaYyzDTocYpmq"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R4gTj5xwRP9rPJKLrJ2XTxdV5",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EFa1C8zoE4hxlgV4nKlwLePxo",
+        "_type": "image",
+        "_entry": "34BJ5pWXucoRChVkPUYOd0FG85g"
+      },
+      "foil": {
+        "_id": "34EFaUTr0WpchQhLR7r95nMxwFv",
+        "_type": "image",
+        "_entry": "34BJ5jnQ14qYhQISTeIkUzWXOvD"
+      }
+    }
+  ],
+  "isEx": true,
+  "isFullArt": true
+}

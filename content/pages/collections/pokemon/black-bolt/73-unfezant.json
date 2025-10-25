@@ -1,0 +1,69 @@
+{
+  "_id": "31wzT6YGMHhG0t15tbC0wmXbpdq",
+  "_type": "PokemonCard",
+  "_index": "b6v",
+  "title": "Unfezant",
+  "number": "73",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Unfezant",
+  "energy": "colorless",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33vzt0Csy5cQ0kHbe3qG8B3iejv",
+    "_type": "entry",
+    "_entry": "33vYpwBnY6o622RpPW4Ru1p5wwg"
+  },
+  "card": {
+    "_id": "31wzUie0MueIZXKNNhN0vE5zIoy",
+    "_type": "image",
+    "_entry": "31wyj9tmqWL6FbSdt5xkv9Sh20s"
+  },
+  "variants": [
+    {
+      "_id": "31wzT7RcZ91vqZVdQzYpDhAYCyN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wzbY1XbGxnXKpQPgLjZXIc1cY",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wzclvsC1rvG32diFhBxi21pr1",
+        "_type": "image",
+        "_entry": "31wzXmgElGRG6RLTT8C7kXON9hI"
+      },
+      "foil": {
+        "_id": "31wzdcSNP1wb0VCrnaVKNHc2VZo",
+        "_type": "image",
+        "_entry": "31wzXoJsWCucQCxHO7HrSSH2sDv"
+      }
+    },
+    {
+      "_id": "31wzdmWWmR7HxZA6tubQS96pEJm",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wzf73yzyfAtti84elTkocHG3U",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

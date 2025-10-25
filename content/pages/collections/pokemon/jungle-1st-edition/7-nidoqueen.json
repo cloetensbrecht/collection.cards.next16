@@ -1,0 +1,30 @@
+{
+  "_id": "30q9vHGOpExfqcLAIKX0lEpi81E",
+  "_type": "PokemonCard",
+  "_index": "a6",
+  "title": "Nidoqueen",
+  "number": "7",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Nidoqueen",
+  "energy": "grass",
+  "stage": "stage2",
+  "card": {
+    "_id": "30q9wndfsHBGtbHLQEnvITDB2DV",
+    "_type": "image",
+    "_entry": "30q9C3Wy7SEE6rdCAIKvrdxjcmT"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "31YKDw968ww8A3AmGss8yTFrDlB",
+  "_type": "PokemonCard",
+  "_index": "al",
+  "title": "Doduo",
+  "number": "48",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Doduo",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "31YKFLVwmxEoFL0NW47XvuJDqEd",
+    "_type": "image",
+    "_entry": "31YKBfXjerqpkxU1xkl1KX0E02r"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "2zp9m5hrDE0bcJfCd1Xs5qXm3BJ",
+  "_type": "PokemonSet",
+  "_index": "aj",
+  "title": "Astral Radiance",
+  "number": 92,
+  "ptcgoCode": "ASR",
+  "releaseDate": "2022-05-27",
+  "generation": "VIII",
+  "serie": "swordShieldSeries",
+  "symbol": [
+    {
+      "_id": "2zpLnpA8nB3sWNX2icPh6Ucb5cZ",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe3IQPrIikWFKca9xe4G4L4Z"
+    }
+  ],
+  "logo": {
+    "_id": "2zp9qQejbPa1OM8u9AGRwcat76Z",
+    "_type": "image",
+    "_entry": "2zowipSwPtQx0wR98KgXthcwWTB"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

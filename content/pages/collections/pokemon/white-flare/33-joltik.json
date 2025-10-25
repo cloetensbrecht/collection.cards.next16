@@ -1,0 +1,71 @@
+{
+  "_id": "33QpIvWoAcOQGZUxNL2d9s4cioh",
+  "_type": "PokemonCard",
+  "_index": "b4f",
+  "title": "Joltik",
+  "number": "33",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Joltik",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349yU0M397jvCteoilLTF5H6xxn",
+    "_type": "entry",
+    "_entry": "33vbVWnveXI5Hh425yZnDzGTufd"
+  },
+  "card": {
+    "_id": "33QpKAtMhAx1uFoCvaUZyCcm4Gu",
+    "_type": "image",
+    "_entry": "33Qjj6jmH0HFpPZQRxj22MCNAXW"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QpIw21ImgmAInBD0VY3nzm2fd",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349yVrbcLNTNqnl4KLlyqeyJFJc",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "349yc5eWhBEwzY3OBnKrpCcLtP5",
+        "_type": "image",
+        "_entry": "349ybR1fnPM9DCMCgStQPgC7Ypl"
+      },
+      "foil": {
+        "_id": "349yclgUnCCqDt8hxYFHdmEOfx6",
+        "_type": "image",
+        "_entry": "349ybPdrdFRINSeaLsGbHWsEAJU"
+      }
+    },
+    {
+      "_id": "349yXFcfxt7AOvX9lo6CQqlKVIC",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349yXmjCp0MBgXoAvcDbk1Ekq13",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "33QlXNXyK1sOOcpGmkVVQtDhEHU",
+  "_type": "PokemonCard",
+  "_index": "b29",
+  "title": "Tepig",
+  "number": "11",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Tepig",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349r25Qm9BlaBjB1VMGfk19888Z",
+    "_type": "entry",
+    "_entry": "349r15HPSoIebKPFp8gePJa02Ns"
+  },
+  "card": {
+    "_id": "33QlYUJ2a5UjyHquZi2WXdSwIM3",
+    "_type": "image",
+    "_entry": "33OElILIMCYdGXUCeCbE0zveAVr"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QlXQ5t4EQr5sC8O08rYVqORuJ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349rL1rv4f81TUYb358ekXiglZB",
+      "_index": "a0V",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349r3jdPwbXMfGaKwH0rw78Lsru",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349rBuZj5PhZTP6ZVc08bnNj7b3",
+        "_type": "image",
+        "_entry": "349rA3NSGbMA7WGl5D58GxNtbcv"
+      },
+      "foil": {
+        "_id": "349rCZsGcDFeVDRpRPLwciM0FGy",
+        "_type": "image",
+        "_entry": "349rA63WVBKjMJUUJwvbJugDAUg"
+      }
+    },
+    {
+      "_id": "349r4EJVdhZznrolYrFVKCq5WAu",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349r4valvGv4aPjbsBn91VxChxw",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

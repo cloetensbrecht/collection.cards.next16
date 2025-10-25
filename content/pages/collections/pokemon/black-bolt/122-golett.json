@@ -1,0 +1,45 @@
+{
+  "_id": "320Jspq3yNCItYI6VWeQ6eLV974",
+  "_type": "PokemonCard",
+  "_index": "b8U",
+  "title": "Golett",
+  "number": "122",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Golett",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vyLDcigSEjUE0826syrraVA93",
+    "_type": "entry",
+    "_entry": "33vb9RF2tdtQCtCP4AYX7WUAYyE"
+  },
+  "card": {
+    "_id": "320JvH83IJkZLRc3fiagCfYH051",
+    "_type": "image",
+    "_entry": "320FBQPLQoJtznx5D8QdwJWsJlx"
+  },
+  "variants": [
+    {
+      "_id": "320JspJqsV5UWEXbzVmjXZ5Xhmi",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320JxxPm1fNozluke8Z1813ZLwD",
+        "_type": "image",
+        "_entry": "320Jr5VCfIv9VhlS9zxkn38jZag"
+      },
+      "foil": {
+        "_id": "320JylD0VIPZ9axB8nxkEQJ9oH6",
+        "_type": "image",
+        "_entry": "320Jr4kZipZvFQawIRk6SpuqyP0"
+      }
+    }
+  ],
+  "isTrainerGallery": false,
+  "isFullArt": true
+}

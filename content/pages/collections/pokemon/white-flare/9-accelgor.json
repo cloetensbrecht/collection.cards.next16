@@ -1,0 +1,70 @@
+{
+  "_id": "33QlBV5o5ZW70g5QzxTZgCEtmh9",
+  "_type": "PokemonCard",
+  "_index": "a8",
+  "title": "Accelgor",
+  "number": "9",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Accelgor",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "349qWxSKqdZ1NCugCUyVvpDoRiC",
+    "_type": "entry",
+    "_entry": "33vtSoFZ0bvONM8edNtxXPsYYMG"
+  },
+  "card": {
+    "_id": "33QlDkVTJ36d6ZYCXj0RpxIklRe",
+    "_type": "image",
+    "_entry": "33OElI4K90jn5weOaGeLL3Pb63J"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QlBZVemlwXPNbUUKZjZqRXeiC",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349qYyvu5rgd9Kykx3zAB1qTOJo",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349qdoL4cYPnLe0B3rULKiz03Ii",
+        "_type": "image",
+        "_entry": "349qcVI7lyv58b70yeL790cUssd"
+      },
+      "foil": {
+        "_id": "349qeUK2nT4gEOnAPXnKfZLrCCH",
+        "_type": "image",
+        "_entry": "349qcUJEWP5UNVm4eJzc1OC8ORT"
+      }
+    },
+    {
+      "_id": "349qZPb24rA8NFAAcVsS6E5QXmn",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349qZvZHh9oBHyCRsSUZGdy5hZO",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

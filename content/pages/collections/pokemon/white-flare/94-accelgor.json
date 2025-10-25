@@ -1,0 +1,45 @@
+{
+  "_id": "33QwXtLIauLHgfkX27ANqi5bmQh",
+  "_type": "PokemonCard",
+  "_index": "b0V",
+  "title": "Accelgor",
+  "number": "94",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Accelgor",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34BVXmCt57Fc32ol9OruiTHHnP7",
+    "_type": "entry",
+    "_entry": "33vYlZFevQisL14GcNtrhc5zmus"
+  },
+  "card": {
+    "_id": "33QwZ1Ecg3EbZO6B5Fxk7VV4Lai",
+    "_type": "image",
+    "_entry": "33QkS8wIWq4jWHUaotS8Br7hf0n"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QwXySlr9i4nzoMSm3Q3KW30L4",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BVZrRTRrbRSUnhCg6l7rGsMTQ",
+        "_type": "image",
+        "_entry": "34BIjzcqKvuKRdV13rfmYpxKeiM"
+      },
+      "foil": {
+        "_id": "34BVaYZMXHOMJN9a835D4JcPWos",
+        "_type": "image",
+        "_entry": "34BIjzl9omflF089pTlrTgeF9ZU"
+      }
+    }
+  ],
+  "isFullArt": true
+}

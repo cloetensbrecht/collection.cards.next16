@@ -1,0 +1,47 @@
+{
+  "_id": "2zozcZopvU2WGEQUWoLaSseM3qI",
+  "_type": "PokemonSet",
+  "_index": "b2i",
+  "title": "EX Hidden Legends",
+  "number": 20,
+  "ptcgoCode": "HL",
+  "releaseDate": "2004-06-14",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNNW2HtS1JzkvRrR5WZPUzB1v",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe4YfR7yanCYPrcs0WXccZjz"
+    }
+  ],
+  "logo": {
+    "_id": "2zozgQiAgPKTejXDRB7G9xgvfqa",
+    "_type": "image",
+    "_entry": "2zowiuBRQ5jn8IW3Y9KzLXXYmDJ"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "30qD6Jn9t36VsFX4BmQrrSLEC1R",
+  "_type": "PokemonCard",
+  "_index": "b5T",
+  "title": "Rapidash",
+  "number": "44",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Rapidash",
+  "energy": "fire",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qD7TEuAR4QoX0XMxqeB6WTAwR",
+    "_type": "image",
+    "_entry": "30q9C5f0jmOXUs24YIEEFMUS8km"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

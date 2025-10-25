@@ -1,0 +1,44 @@
+{
+  "_id": "320BNgWydN4ixmN5JSih5xORgRm",
+  "_type": "PokemonCard",
+  "_index": "b85",
+  "title": "Crygonal",
+  "number": "111",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Cryogonal",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vyfDRgOCfUIkitSCd7oXOGaF7",
+    "_type": "entry",
+    "_entry": "33vag6TWH8ngzP7YNAJCfyljdju"
+  },
+  "card": {
+    "_id": "320BPsRVZqgHroE4MxJSf1vQRo5",
+    "_type": "image",
+    "_entry": "320Ak4OOuP2CcSXDNDXy2VBjyqD"
+  },
+  "variants": [
+    {
+      "_id": "320BNdINDntRDpnjGZ2Cq1ArhVo",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320BSJVu0p9NiEvefuUUlZI12ci",
+        "_type": "image",
+        "_entry": "320BLs0ipD8iAn3tnwiRyC6TtTm"
+      },
+      "foil": {
+        "_id": "320BSy1ZY5r8KuatRaUVIuZ7r9P",
+        "_type": "image",
+        "_entry": "320BLwyIrR6gtMXKZOD6SIE30Qi"
+      }
+    }
+  ],
+  "isFullArt": true
+}

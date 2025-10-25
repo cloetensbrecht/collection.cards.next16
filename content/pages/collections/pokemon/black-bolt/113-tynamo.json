@@ -1,0 +1,44 @@
+{
+  "_id": "320BnIMefatbOnGcK0kK2RUbznt",
+  "_type": "PokemonCard",
+  "_index": "b89",
+  "title": "Tynamo",
+  "number": "113",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Tynamo",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vyc052uZgB8b8hLwQGfKn3eib",
+    "_type": "entry",
+    "_entry": "33vakbijpbWp40WWotZpVIXOAHK"
+  },
+  "card": {
+    "_id": "320BpYINvKb0RE8WuzzQw7nXxdS",
+    "_type": "image",
+    "_entry": "320Ak74OTxE1FKdanl8OfBxXtvj"
+  },
+  "variants": [
+    {
+      "_id": "320BnGt0JeAY5Vma8UfC4r042Xa",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320BsBQkCZF6pQ6EOsYJZQP9eGc",
+        "_type": "image",
+        "_entry": "320BlkEqBKp0C1rTVCuBhqWyH8W"
+      },
+      "foil": {
+        "_id": "320Bt0k7rNdECzzers3Ql1nT3DS",
+        "_type": "image",
+        "_entry": "320BloZFFQVaF8h5LyWRSrdhX8z"
+      }
+    }
+  ],
+  "isFullArt": true
+}

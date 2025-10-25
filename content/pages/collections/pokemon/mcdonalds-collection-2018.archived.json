@@ -1,0 +1,46 @@
+{
+  "_id": "2zpJHyuB7nXhDWvKWMeclDJqFJl",
+  "_type": "PokemonSet",
+  "_index": "b1F",
+  "title": "McDonald's Collection 2018",
+  "ptcgoCode": "M18",
+  "releaseDate": "2018-10-16",
+  "generation": "VII",
+  "serie": "mcDonaldsSeries",
+  "symbol": [
+    {
+      "_id": "2zpNqE6MJEoUG2SQDgIElBVQcLB",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpJH6OTx2D1CnBf2xILD8uy8eu"
+    }
+  ],
+  "logo": {
+    "_id": "2zpJKKuLyiZc1srdKa3l8VxmwXV",
+    "_type": "image",
+    "_entry": "2zpI15QLbrLwCdoQSfSYApqqVVN"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

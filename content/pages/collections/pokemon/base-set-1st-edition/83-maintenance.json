@@ -1,0 +1,27 @@
+{
+  "_id": "30ogP4yitfXGpxkXIAS55vg78Hp",
+  "_type": "PokemonCard",
+  "_index": "b0K",
+  "title": "Maintenance",
+  "number": "83",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "30ogQ81435fatIu8nsuj7EnmDV5",
+    "_type": "image",
+    "_entry": "30oJlASe0lXZFEyTVDtn12vH9la"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

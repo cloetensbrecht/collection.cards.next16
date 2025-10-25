@@ -1,0 +1,45 @@
+{
+  "_id": "33QzfHIl78igD2JH3IOVU4ekRIC",
+  "_type": "PokemonCard",
+  "_index": "b8T",
+  "title": "Cofagrigus",
+  "number": "123",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Cofagrigus",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EBqwu3fLYxSBOYRlPNXCWpC7c",
+    "_type": "entry",
+    "_entry": "34A3PQs2SDcyJ2TOLjyxI5kbkrK"
+  },
+  "card": {
+    "_id": "33QzgCWeqDLocRJhi7sr1UojYYa",
+    "_type": "image",
+    "_entry": "33QkcFIYCPAjR5nvhXiUt4HTTKM"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QzfKiwldEwiP62WTG855xi6by",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EBs9M1WuB9qMHC2LC3isgIo7G",
+        "_type": "image",
+        "_entry": "34BItGS1uiMrMzuj4t9y9Hcsugz"
+      },
+      "foil": {
+        "_id": "34EBsiXxPz4IDFMNG4D6RJebG0p",
+        "_type": "image",
+        "_entry": "34BItEqYGNGIOQWNh2sqjDF1HHE"
+      }
+    }
+  ],
+  "isFullArt": true
+}

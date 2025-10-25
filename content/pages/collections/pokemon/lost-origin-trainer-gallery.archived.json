@@ -1,0 +1,25 @@
+{
+  "_id": "30t75I4yN4rkN902lGjgoKTZkZv",
+  "_type": "PokemonSet",
+  "_index": "aD",
+  "title": "Lost Origin Trainer Gallery",
+  "ptcgoCode": "LOR",
+  "releaseDate": "2022-09-09",
+  "generation": "VIII",
+  "serie": "swordShieldSeries",
+  "symbol": [
+    {
+      "_id": "30t7B84vhGpTsI5Ksdo2YWTxBvZ",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe48UKvIFMYQBRbGBk0cZgFN"
+    }
+  ],
+  "logo": {
+    "_id": "30t7K5o1s6QniRjnY5RETnm2urA",
+    "_type": "image",
+    "_entry": "30t7Gpcofi5kfiMDrqotR9aKKRb"
+  },
+  "rarity": {},
+  "energy": {}
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "30odlpatFBQ9sL0ldBSWZPiyLlD",
+  "_type": "PokemonCard",
+  "_index": "at",
+  "title": "Onix",
+  "number": "56",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Onix",
+  "energy": "fighting",
+  "stage": "basic",
+  "card": {
+    "_id": "31CIrKoW6il2LDWofTGEQvOvCPE",
+    "_type": "image",
+    "_entry": "31A25EktK4aPTA74a4yfswHxeRe"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "33QvAZpVFFbJQtZRaVHj8BvwrXK",
+  "_type": "PokemonCard",
+  "_index": "b0H",
+  "title": "Brave Bangle",
+  "number": "80",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "subtype": "pokemontool",
+  "illustrator": {
+    "_id": "34BSlkOrh4zHvhnQuYGMiBoaDP9",
+    "_type": "entry",
+    "_entry": "33vZGqAhMVeaMz9R4gLoz8dBmSI"
+  },
+  "card": {
+    "_id": "33QvBEy72u4oWMUQ2A2E22zTkoR",
+    "_type": "image",
+    "_entry": "33QkLgG6Yv091qmNLTCUQdi6WoI"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QvAdwOpdg9Vvp02G3AFUEmPMS",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34BSLs7SGH3qBqILNYKbY40bdQZ",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34BSk6fSUPNjsnfbHF04yfGrCAu",
+        "_type": "image",
+        "_entry": "34BIjzf1HpD8XiimhDDGb9Nucrx"
+      },
+      "foil": {
+        "_id": "34BSjIqGDjGM8InryEoecKcSqjG",
+        "_type": "image",
+        "_entry": "34BIk5xlESLC09BFmF60AkuMcfz"
+      }
+    },
+    {
+      "_id": "34BSMET8SyOSU6LjSHtpJ5u3k0V",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

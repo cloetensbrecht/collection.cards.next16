@@ -1,0 +1,30 @@
+{
+  "_id": "30oebEVQFPhc5llkBgahBafzIFl",
+  "_type": "PokemonCard",
+  "_index": "b03",
+  "title": "Tangela",
+  "number": "66",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Tangela",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "31CIevoP9OfuZ5s0EViqAgHeXMI",
+    "_type": "image",
+    "_entry": "31A25FJciFLfW7UOUcKOhprRYTD"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

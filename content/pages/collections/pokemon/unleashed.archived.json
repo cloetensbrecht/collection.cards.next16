@@ -1,0 +1,47 @@
+{
+  "_id": "2zp2IEa1P9CQzbw9oCvdCYosgvh",
+  "_type": "PokemonSet",
+  "_index": "b0i",
+  "title": "Unleashed",
+  "number": 44,
+  "ptcgoCode": "UL",
+  "releaseDate": "2010-05-12",
+  "generation": "IV",
+  "serie": "heartGoldSoulSilverSeries",
+  "symbol": [
+    {
+      "_id": "2zpMxUA7ofWdSrsMOabJJH6XX7y",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe41vlxg7U6iKxYjufgZPnq8"
+    }
+  ],
+  "logo": {
+    "_id": "2zp2LsMpBMlGPfoJVTdUNCCnuId",
+    "_type": "image",
+    "_entry": "2zowir2HzMZkYsFq8KsQxDGteBz"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

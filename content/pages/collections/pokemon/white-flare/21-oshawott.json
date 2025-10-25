@@ -1,0 +1,79 @@
+{
+  "_id": "33Qn6oZ949X74tOIp0mLnW3ryNF",
+  "_type": "PokemonCard",
+  "_index": "b3b",
+  "title": "Oshawott",
+  "number": "21",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Oshawott",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349v2EqoviCdxiXpNOSu60tkudU",
+    "_type": "entry",
+    "_entry": "33vag6TWH8ngzP7YNAJCfyljdju"
+  },
+  "card": {
+    "_id": "33Qn8a9ioPgW0VuYqdAP7j3eeql",
+    "_type": "image",
+    "_entry": "33Qje68dlgU8G9N5rDcF6bWUE2C"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qn6qP1ZY7ri7yWl8hrWqPpd7F",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349v9aZnJq5saKhzy5Iv8a02wpm",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349v9zi8W872NNEpt9W1tE6Ge3u",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349vI0IOw4tXCCWz9GIj7fAYABt",
+        "_type": "image",
+        "_entry": "349vGpVo6fAoZ9pDWna96kry9d8"
+      },
+      "foil": {
+        "_id": "349vIgV6M4VpV6z7JBZrqTrVPwW",
+        "_type": "image",
+        "_entry": "349vGkQXIh3VvDic5s5RxpR57FN"
+      }
+    },
+    {
+      "_id": "349vAVK7IByPtkBipr2LwgIcamQ",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349vAyDmmSD8T1VsivYApJ9louC",
+      "_index": "a4",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

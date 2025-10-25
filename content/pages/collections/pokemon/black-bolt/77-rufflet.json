@@ -1,0 +1,69 @@
+{
+  "_id": "31x0TPt2M5ftY2yMmsNomjHdqcA",
+  "_type": "PokemonCard",
+  "_index": "b73",
+  "title": "Rufflet",
+  "number": "77",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Rufflet",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vzliXkYWNUVugUVpdB3ES3oUD",
+    "_type": "entry",
+    "_entry": "33vZ43JvHsse1WVigUw7kdgrRYh"
+  },
+  "card": {
+    "_id": "31x0VEP40M8pyvh5AnwholmKxyG",
+    "_type": "image",
+    "_entry": "31wyj5xTevUZUrfUYfWB63bGj2I"
+  },
+  "variants": [
+    {
+      "_id": "31x0TVez6dnn0f0g7dt7Tw2v8UK",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31x0YY6DDZ0QHvdkHkvAIU4aKxf",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31x0aFt2AADxKTBaKgOTydahdol",
+        "_type": "image",
+        "_entry": "31x0WeqOZiBGo2qJa80WeHDfQE2"
+      },
+      "foil": {
+        "_id": "31x0b7zSBQRM2Q5jPRRwhQURDik",
+        "_type": "image",
+        "_entry": "31x0Wa4RaNCDYhfDYYTyHHuxXyZ"
+      }
+    },
+    {
+      "_id": "31x0bNcpsYVJR5lVbWSH98x56L8",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31x0cAT4WqW5SNG2SWKHy2FeXJs",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

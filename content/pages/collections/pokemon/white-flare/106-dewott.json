@@ -1,0 +1,45 @@
+{
+  "_id": "33QxjKVyt3BVqPMiYkxJVWNO5Ue",
+  "_type": "PokemonCard",
+  "_index": "b7o",
+  "title": "Dewott",
+  "number": "106",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Dewott",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34BX4mXhT6tvWF0jjTkeFsFoqZm",
+    "_type": "entry",
+    "_entry": "33vZQuoIjQCFfMFbFLd1dJzcIQf"
+  },
+  "card": {
+    "_id": "33QxkZliHU4LUDcDTU4SDOaZKwS",
+    "_type": "image",
+    "_entry": "33QkWlvvwRuyAVUTHSwrRP9qWPl"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QxjGg9iyWiJfhvvCHea5KJXVt",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BX6MKx78Msfap0Up4siJ1SCwO",
+        "_type": "image",
+        "_entry": "34BItCX1VjM5fKDBqfyJ33dDarG"
+      },
+      "foil": {
+        "_id": "34BX6w7GRdUp7OKGtePzgPr09jd",
+        "_type": "image",
+        "_entry": "34BItDU0WNUjiqV1IEPilCZ78c6"
+      }
+    }
+  ],
+  "isFullArt": true
+}

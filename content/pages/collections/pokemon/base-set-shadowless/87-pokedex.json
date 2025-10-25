@@ -1,0 +1,27 @@
+{
+  "_id": "30pu5QRUzVd4hlWzZ7Eg6PQXjWg",
+  "_type": "PokemonCard",
+  "_index": "b0O",
+  "title": "Pokédex",
+  "number": "87",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31CI0JbkUzrC7vdSPCZAJjuIET4",
+    "_type": "image",
+    "_entry": "31A25FHvGToF0aAEqSnnZHfUYA6"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

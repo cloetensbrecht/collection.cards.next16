@@ -1,0 +1,69 @@
+{
+  "_id": "31wzxANLnPkLA228nuleIhBobfm",
+  "_type": "PokemonCard",
+  "_index": "b6z",
+  "title": "Minccino",
+  "number": "75",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Minccino",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vzozjeEapVctnxsVjUHmvE5ej",
+    "_type": "entry",
+    "_entry": "33vYxF4SaXgVk2ZpQSzursungBo"
+  },
+  "card": {
+    "_id": "31wzz2BGDvrL8qa3nnQGKQUVZnA",
+    "_type": "image",
+    "_entry": "31wyj6rh1mNUhIm00CDOvUMHFDq"
+  },
+  "variants": [
+    {
+      "_id": "31wzx8a2zDk7pG8WPAelyOKaGS3",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31x02yD9y7pnMIYYIwd2Kl3EadS",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31x03z0NXolKqgRgIar5dPc7aRG",
+        "_type": "image",
+        "_entry": "31x00SeOvteba91i1bEnxBLda7z"
+      },
+      "foil": {
+        "_id": "31x04q3tbhnVZCbqasEmykEa3KO",
+        "_type": "image",
+        "_entry": "31x00Nqb60OFLQ0Cyg2hiBPm0Jl"
+      }
+    },
+    {
+      "_id": "31x051DSraZRGz54wwddOtEd3z9",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31x05ymZdPNrpSFBuNWmzhTJ6Hx",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

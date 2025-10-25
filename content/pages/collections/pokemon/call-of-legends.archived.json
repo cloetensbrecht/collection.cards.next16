@@ -1,0 +1,47 @@
+{
+  "_id": "2zp2ZdfDpRBj0kg79MSdLVrebXM",
+  "_type": "PokemonSet",
+  "_index": "b0f",
+  "title": "Call of Legends",
+  "number": 47,
+  "ptcgoCode": "CL",
+  "releaseDate": "2011-02-09",
+  "generation": "IV",
+  "serie": "callOfLegendsSeries",
+  "symbol": [
+    {
+      "_id": "2zpMufaNEc424f4kWSJSaRLa5Pp",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe4qqEOkU3cxkZWqZRLPdJ94"
+    }
+  ],
+  "logo": {
+    "_id": "2zp2couAy2tdp2Xb13hMPzqbtXl",
+    "_type": "image",
+    "_entry": "2zowiu1abyC7kBeHQGIxwotwTvo"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

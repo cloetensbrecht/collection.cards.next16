@@ -1,0 +1,45 @@
+{
+  "_id": "33QwQfHxaIlfdPlooRCdUsBIm2C",
+  "_type": "PokemonCard",
+  "_index": "b0U",
+  "title": "Shelmet",
+  "number": "93",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Shelmet",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BVOD0QXQnDKbgWNhFY8o0FaUC",
+    "_type": "entry",
+    "_entry": "34BVNhK2lxYszQuGGd6utSHe2AB"
+  },
+  "card": {
+    "_id": "33QwRhlSNQv8J8jBj0wzJr4E53L",
+    "_type": "image",
+    "_entry": "33QkSBjZrpNRGN5t5Bc0yUw7KLE"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QwQdWmtyfB9JuvEtJPcEe71RS",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BVSokW8Sj4lby0syLRAnYUqh4",
+        "_type": "image",
+        "_entry": "34BIk6LZuLTAJM1VvgOTxrc0Ycz"
+      },
+      "foil": {
+        "_id": "34BVTjBV2WYJSMZLJcABQNDgQeb",
+        "_type": "image",
+        "_entry": "34BIk0FctZyHnF78wYTTtogn29U"
+      }
+    }
+  ],
+  "isFullArt": true
+}

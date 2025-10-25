@@ -1,0 +1,45 @@
+{
+  "_id": "33R2eyedcrAXz68jBXW8LXcoTyR",
+  "_type": "PokemonCard",
+  "_index": "b9l",
+  "title": "Watchog",
+  "number": "153",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Watchog",
+  "energy": "colorless",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EERuj5uNx9w0NytXuqH3SdbUE",
+    "_type": "entry",
+    "_entry": "34A0cD790SHRPbh2bKn6bfTcDeC"
+  },
+  "card": {
+    "_id": "33R2g6YGAfczD3t8a5Ib99uvYV5",
+    "_type": "image",
+    "_entry": "33QkgcfGfsObC1dmksOVbvmlwM1"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R2esjtEkeS2ihhn2etGjiwuBS",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EESvKp0VYUMppqRd0Is7CZWVM",
+        "_type": "image",
+        "_entry": "34BJ5ks5Fv5U9OhixnDK60AkFYZ"
+      },
+      "foil": {
+        "_id": "34EETUwWL5caQXunhCnn0nkXwsP",
+        "_type": "image",
+        "_entry": "34BJ5kduVd08ZJoc2bKFbwKi82B"
+      }
+    }
+  ],
+  "isFullArt": true
+}

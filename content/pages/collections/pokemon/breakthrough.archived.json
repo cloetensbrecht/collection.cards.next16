@@ -1,0 +1,47 @@
+{
+  "_id": "2zp6FnfDN9yTx6KdVwto7fWaNYV",
+  "_type": "PokemonSet",
+  "_index": "b0J",
+  "title": "BREAKthrough",
+  "number": 66,
+  "ptcgoCode": "BKT",
+  "releaseDate": "2015-11-04",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMSO7DjsnfAQGNTpr4eJxZtpg",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe5HLwo0Ihd63ktTULThkKSG"
+    }
+  ],
+  "logo": {
+    "_id": "2zp6JaDlrpALnjGbTMx1WEuL4so",
+    "_type": "image",
+    "_entry": "2zowisr1dBQLdTmHJtOcOLns7FW"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

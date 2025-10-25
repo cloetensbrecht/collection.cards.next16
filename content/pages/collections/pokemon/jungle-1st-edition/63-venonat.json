@@ -1,0 +1,30 @@
+{
+  "_id": "30qElabePE0xgEnkB15VCGQZ5rK",
+  "_type": "PokemonCard",
+  "_index": "b00",
+  "title": "Venonat",
+  "number": "63",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Venonat",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "30qEmknjU04pbfjPbiFOjoaTqgW",
+    "_type": "image",
+    "_entry": "30q9C2UKvcQ71Xx2ErXVM2HHGPk"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "30oZZWbwGQldOTEf9KDEKhCOcur",
+  "_type": "PokemonCard",
+  "_index": "b3d",
+  "title": "Pidgeotto",
+  "number": "22",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Pidgeotto",
+  "energy": "colorless",
+  "stage": "stage1",
+  "card": {
+    "_id": "30oZatpUanCHY9pQ6c8dU3vj0JE",
+    "_type": "image",
+    "_entry": "30oJl8htf5ZUR8seI3HFBXvpCRs"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

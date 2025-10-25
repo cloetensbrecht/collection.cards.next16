@@ -1,0 +1,30 @@
+{
+  "_id": "30oTv2w7cTHnWj2OVvzAuasgjjx",
+  "_type": "PokemonCard",
+  "_index": "a6",
+  "title": "Hitmonchan",
+  "number": "7",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Hitmonchan",
+  "energy": "fighting",
+  "stage": "basic",
+  "card": {
+    "_id": "30oTw5cROPQGrQJwgARBAku6tHj",
+    "_type": "image",
+    "_entry": "30oJlEKS2sNV5E51mYSEQbOGM5A"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

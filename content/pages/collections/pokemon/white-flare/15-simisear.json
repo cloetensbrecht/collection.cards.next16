@@ -1,0 +1,70 @@
+{
+  "_id": "33QmAur32CdUaBFDL0FhhljMGL9",
+  "_type": "PokemonCard",
+  "_index": "b2V",
+  "title": "Simisear",
+  "number": "15",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Simisear",
+  "energy": "fire",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "349t7JIWiL2kGwADYEeXrwF6sfB",
+    "_type": "entry",
+    "_entry": "349slnCqtCOtRgSHEwWf1ZdOqKy"
+  },
+  "card": {
+    "_id": "33QmCle767u1s3f1vbthfOA2JqK",
+    "_type": "image",
+    "_entry": "33QjaCNXjuRGDljRbKENjMFh9B5"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QmAsUhGBmjoSeHsxutQ86nNkS",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349t8oFxb6qKVBY5Q5AP5xk0D9m",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349tEtPN0LTaiJxvkkqLvZChHNG",
+        "_type": "image",
+        "_entry": "349tDteFWaRWLSD7GwOewOwef9q"
+      },
+      "foil": {
+        "_id": "349tFo4CmvAqmn9AXPpUujHK4uV",
+        "_type": "image",
+        "_entry": "349tDoCaBDDuAjmdvtqnn7UgMre"
+      }
+    },
+    {
+      "_id": "349t9OZl49spPbsJELPA5RVHL4y",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349tA1blmBEjdyrNIORA5GQQRdI",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

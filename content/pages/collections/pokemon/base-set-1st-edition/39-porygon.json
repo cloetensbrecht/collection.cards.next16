@@ -1,0 +1,30 @@
+{
+  "_id": "30obnNR1Roaq2jtwmZ1sMkYwPDN",
+  "_type": "PokemonCard",
+  "_index": "ac",
+  "title": "Porygon",
+  "number": "39",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 30,
+  "pokemon": "Porygon",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "30obnwxALb8Bx6YIjvhpIUEAtxf",
+    "_type": "image",
+    "_entry": "30oJlG2pIdF0V2t1mO8DZUgkMYx"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

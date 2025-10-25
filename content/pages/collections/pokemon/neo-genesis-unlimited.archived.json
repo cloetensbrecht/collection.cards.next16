@@ -1,0 +1,47 @@
+{
+  "_id": "31QaRcGYQdhgDvCZSWG57yIGtlf",
+  "_type": "PokemonSet",
+  "_index": "a3",
+  "title": "Neo Genesis (Unlimited)",
+  "number": 8,
+  "ptcgoCode": "N1",
+  "releaseDate": "2000-12-16",
+  "generation": "II",
+  "serie": "neoSeries",
+  "symbol": [
+    {
+      "_id": "31QaOtGHcZTyeEWaEIEKNEEQSDD",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe6EfzVDThUhwcuoKRVHbtyJ"
+    }
+  ],
+  "logo": {
+    "_id": "2zoxrY3wOK8pakY22X57EaXcGcF",
+    "_type": "image",
+    "_entry": "2zowisY2AL3pTtS6hQsCkfDgjXh"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

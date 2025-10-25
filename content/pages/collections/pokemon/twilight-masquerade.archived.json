@@ -1,0 +1,47 @@
+{
+  "_id": "2zpAynM3fxjxLWswkXDlID5gukg",
+  "_type": "PokemonSet",
+  "_index": "aU",
+  "title": "Twilight Masquerade",
+  "number": 100,
+  "ptcgoCode": "TWM",
+  "releaseDate": "2024-05-24",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zpLYPim3wpetulPD0v2iSLS8GC",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe2DmYaGH7x204KlIbhjRpfa"
+    }
+  ],
+  "logo": {
+    "_id": "2zpB2H3wtFrDa3C2ee2URkQQFRW",
+    "_type": "image",
+    "_entry": "2zowisyN6YsXBnlHDTBHoTtqyuQ"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "31Ywxt13SepSx5cwbA1SdlY9Wg8",
+  "_type": "PokemonCard",
+  "_index": "b09",
+  "title": "Impostor Professor Oak",
+  "number": "73",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "trainer",
+  "hp": null,
+  "stage": null,
+  "card": {
+    "_id": "31Yx0lxY0CcpflCotTRQTyqIuo3",
+    "_type": "image",
+    "_entry": "31YwsXn8znMXqzxL6D5w0ZLhgG9"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

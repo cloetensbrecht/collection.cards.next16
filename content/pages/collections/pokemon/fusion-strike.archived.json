@@ -1,0 +1,47 @@
+{
+  "_id": "2zp9YthgE6SnUvPhNqcNGkCeJI1",
+  "_type": "PokemonSet",
+  "_index": "al",
+  "title": "Fusion Strike",
+  "number": 90,
+  "ptcgoCode": "FST",
+  "releaseDate": "2021-11-12",
+  "generation": "VIII",
+  "serie": "swordShieldSeries",
+  "symbol": [
+    {
+      "_id": "2zpLpp3uCG1vKFkUYZRgET66rhw",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8t3wKxfbldP39RsIzBTxPN"
+    }
+  ],
+  "logo": {
+    "_id": "2zp9cvTCvrQPspDVIXx2C1OO5fO",
+    "_type": "image",
+    "_entry": "2zowip7UhDN7hDgU4LKRBuUtUnP"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

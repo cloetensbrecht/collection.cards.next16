@@ -1,0 +1,43 @@
+{
+  "_id": "33R4AY1fGP7584C88CYyrS4uF99",
+  "_type": "PokemonCard",
+  "_index": "bAE",
+  "title": "Harlequin",
+  "number": "163",
+  "edgeColor": "#97999b",
+  "rarity": "ultra-rare",
+  "cardtype": "trainer",
+  "hp": null,
+  "subtype": "supporter",
+  "illustrator": {
+    "_id": "34EFAk8v1qaX3g7Gn7Cx7LshX74",
+    "_type": "entry",
+    "_entry": "349r15HPSoIebKPFp8gePJa02Ns"
+  },
+  "card": {
+    "_id": "33R4BjYO2repZufHz4Z4jJiuSqO",
+    "_type": "image",
+    "_entry": "33Qkgh27BFpbBsOSKVh2apq8ZeL"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R4AcKA6SU9CvQVZPxalo0uLPW",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EFEzzwQ8Wup3FR8VSh9ZNxC4e",
+        "_type": "image",
+        "_entry": "34BJ5jdntHNLpTt3Id21GZV2ndA"
+      },
+      "foil": {
+        "_id": "34EFDFcN5maYpLZOsTFolUOQJ3s",
+        "_type": "image",
+        "_entry": "34BJ5omYJr7POQIb7wyzLS1FJc8"
+      }
+    }
+  ],
+  "isFullArt": true
+}

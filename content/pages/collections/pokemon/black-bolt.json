@@ -1,0 +1,41 @@
+{
+  "_id": "2zvQd10AmAFQDVbsmOfpa4gzSzL",
+  "_type": "PokemonSet",
+  "_index": "aM",
+  "title": "Black Bolt",
+  "number": 105,
+  "ptcgoCode": "BLK",
+  "releaseDate": "2025-07-18",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zvQuloaGKMJRjdPax7d32SWZ2s",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpKrCaQRTtRY6Apg6PGViTCvgp"
+    }
+  ],
+  "logo": {
+    "_id": "33uefTk1C34Xhl9zVddLa05tw7E",
+    "_type": "image",
+    "_entry": "33ued6Ms5rajGTTl3VspalWU63Z"
+  },
+  "heroImage": {
+    "_id": "34QD42GTOWlsrX24zBq74ssyFX4",
+    "_type": "image",
+    "_entry": "34QCzVXDXa156logqgdI87Eeimc"
+  },
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Black Bolt is an Electric-themed expansion centered around Zekrom, featuring high-voltage Electric-type Pokémon, energy overload mechanics, and abilities that focus on disruption and burst damage. It delivers fast strikes, tactical pressure, and electrifying new card designs to the game."
+        }
+      ]
+    }
+  ],
+  "cta_button": "Unleash Black Bolt"
+}

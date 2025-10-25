@@ -1,0 +1,30 @@
+{
+  "_id": "30qDXk6PSaknZTvgpMMqr0CtEUx",
+  "_type": "PokemonCard",
+  "_index": "b5r",
+  "title": "Cubone",
+  "number": "50",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Cubone",
+  "energy": "fighting",
+  "stage": "basic",
+  "card": {
+    "_id": "30qDZ6Azzq8qO6wdSmXURA54uqb",
+    "_type": "image",
+    "_entry": "30q9C2Ffe0zZDZnFRNJHOPeEBvR"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

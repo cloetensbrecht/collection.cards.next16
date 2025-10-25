@@ -1,0 +1,54 @@
+{
+  "_id": "33QvfPrGNqW4QUhPJLLstbcanvE",
+  "_type": "PokemonCard",
+  "_index": "b0N",
+  "title": "Ignition Energy",
+  "number": "86",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "energy",
+  "energy": "colorless",
+  "illustrator": {},
+  "card": {
+    "_id": "33Qvh48Uc8ayNZzlBY3pItSDsI9",
+    "_type": "image",
+    "_entry": "33QkPTcBFtHlxVnZOAx65opH1WR"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QvfQJQuv2wR9GHi1QPysdcIUz",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34BTq3k6g2JDRBfxoYgvHnGru54",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34BTud2IJTvfuLsy0kLLYN1PeuR",
+        "_type": "image",
+        "_entry": "34BIk6fbVgn4FsDqeqGy8vSPfG5"
+      },
+      "foil": {
+        "_id": "34BTv9iijQKLbIfF04GKHYfdLqL",
+        "_type": "image",
+        "_entry": "34BIk52ZNXtVBl9QMIu93GIolcW"
+      }
+    },
+    {
+      "_id": "34BTqOuwJqtIwpYBQK2JiB9yT7h",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

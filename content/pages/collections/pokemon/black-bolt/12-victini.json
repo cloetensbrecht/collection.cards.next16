@@ -1,0 +1,77 @@
+{
+  "_id": "31mbcdh6I2VCG5SF7qJeHXil8F3",
+  "_type": "PokemonCard",
+  "_index": "b2O",
+  "title": "Victini",
+  "number": "12",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Victini",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1leZMn1F2Ezbqo0OCsSx8IRV",
+    "_type": "entry",
+    "_entry": "33vXK9uFwEC2T3h2oPHHbLp1mTZ"
+  },
+  "card": {
+    "_id": "31mbef7IXBOZnLBefxsa50ngUVV",
+    "_type": "image",
+    "_entry": "31mbZ56vvvzTxxDowRHnTDXt7Bb"
+  },
+  "variants": [
+    {
+      "_id": "31mbcbPc4rVGCYoSzC6Mc4azjZ4",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {
+        "_id": "31mc6GbLx6rdipQOZ6dVWFHKcIA",
+        "_type": "image",
+        "_entry": "31mc4KIb7WJcrewb9Z7uabLMvE0"
+      },
+      "foil": {
+        "_id": "31mc82mCHDdgJJvLQ9vAEu88cjQ",
+        "_type": "image",
+        "_entry": "31mc4FMsW21hfxUArH6wnaUAAyM"
+      }
+    },
+    {
+      "_id": "31mbpGxvNP1SXAvwwRT1dIdkuxa",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31mbsr16r18OOLlNMLYI6Lrl3sO",
+        "_type": "image",
+        "_entry": "31mbb7UIaAnPLsmFMYjRXRf8ecv"
+      },
+      "foil": {
+        "_id": "31mbrjSAsv4yCdj9lemOcY6v5rm",
+        "_type": "image",
+        "_entry": "31mbbBHWoYyqhs0nR5GDaboZKoJ"
+      }
+    },
+    {
+      "_id": "31mbtMMesXqWcotJPwxfC7dE2yH",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mbuEuE1NJcOYAFTKNkn1UYhCi",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

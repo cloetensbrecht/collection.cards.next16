@@ -1,0 +1,30 @@
+{
+  "_id": "31YHXT3RHdyPxL7pZpSQH8m1rOI",
+  "_type": "PokemonCard",
+  "_index": "ag",
+  "title": "Abra",
+  "number": "43",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 30,
+  "pokemon": "Abra",
+  "energy": "psychic",
+  "stage": "basic",
+  "card": {
+    "_id": "31YHYe1Bjl9ZkNDu2eBcdnIpRwe",
+    "_type": "image",
+    "_entry": "31YHVGrTvEqUWXFxM6AZr4TcOUY"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

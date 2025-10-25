@@ -1,0 +1,45 @@
+{
+  "_id": "33QxuhKOHFJMLGnbl35UCrwgpcz",
+  "_type": "PokemonCard",
+  "_index": "b7t",
+  "title": "Basculin",
+  "number": "108",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Basculin",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BXFjHNuG9gs6UrvWpPDqKG2XH",
+    "_type": "entry",
+    "_entry": "34BXF4WRjh1ERSLAKY3ontvDE1R"
+  },
+  "card": {
+    "_id": "33QxwB2g790VD4fnuB5xkZLiqwq",
+    "_type": "image",
+    "_entry": "33QkWjVG9iwRZ2z1yghOfFpsbh3"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qxun1nJHopIicvnYkNYH8lFTE",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BXH0ZEy8wyu0PjcNCEnuYGyhh",
+        "_type": "image",
+        "_entry": "34BItDliMo9nLSc5myaYTwDuLvK"
+      },
+      "foil": {
+        "_id": "34BXHR3UygQSY0aBYioapW6lrFy",
+        "_type": "image",
+        "_entry": "34BItAd6P7QL3zJPHuqNFHCj4Yi"
+      }
+    }
+  ],
+  "isFullArt": true
+}

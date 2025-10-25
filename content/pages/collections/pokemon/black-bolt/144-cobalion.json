@@ -1,0 +1,44 @@
+{
+  "_id": "320R8xRjKhPxKUUFrBzyIyQ9aCy",
+  "_type": "PokemonCard",
+  "_index": "b9Q",
+  "title": "Cobalion",
+  "number": "144",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Cobalion",
+  "energy": "metal",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vxdn9zCS5oP6gfh94pM6mNlM7",
+    "_type": "entry",
+    "_entry": "33vXtFEOiWjAFERRvhwRAMXm9Eq"
+  },
+  "card": {
+    "_id": "320RAvzXoE12mQCAci7Lx7zL8a7",
+    "_type": "image",
+    "_entry": "320FBPIL9N0vxhfJrVBiLxZDjjr"
+  },
+  "variants": [
+    {
+      "_id": "320R8zFspHSl71drfY3TTATDtfI",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320RBvySvAClQqgIgygZFMIl06q",
+        "_type": "image",
+        "_entry": "320QOhzNOhiar2ESeR4WStQmjr6"
+      },
+      "foil": {
+        "_id": "320RChnbuoxin3Ie031R0TwR5hQ",
+        "_type": "image",
+        "_entry": "320QOmw1KPA2ZJ3WQ26rACiTdpB"
+      }
+    }
+  ],
+  "isFullArt": true
+}

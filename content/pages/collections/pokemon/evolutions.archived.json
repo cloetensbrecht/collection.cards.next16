@@ -1,0 +1,47 @@
+{
+  "_id": "2zp6hlnQx6x3pfDVSy53q5XvlR6",
+  "_type": "PokemonSet",
+  "_index": "b0E",
+  "title": "Evolutions",
+  "number": 70,
+  "ptcgoCode": "EVO",
+  "releaseDate": "2016-11-02",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMMJgJXZOtTd1CmWb4nXO5wJG",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe5ewYXzXiCFZAKFN7Zn4cv1"
+    }
+  ],
+  "logo": {
+    "_id": "2zp6lcy7gLl3zoesXHEdVr2AQ59",
+    "_type": "image",
+    "_entry": "2zowismBHHWUp5Ce5VFa0NvzgHv"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

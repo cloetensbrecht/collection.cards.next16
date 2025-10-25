@@ -1,0 +1,70 @@
+{
+  "_id": "33Qpu6DXxML2YIiRLBbm0BGxIfe",
+  "_type": "PokemonCard",
+  "_index": "b57",
+  "title": "Yamask",
+  "number": "39",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Yamask",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A0CioJeRBMNnLSxEA05L9h3wt",
+    "_type": "entry",
+    "_entry": "34A0C6qda8oZbG90NORi5HJpKqW"
+  },
+  "card": {
+    "_id": "33QpvbckrnfmeA4Onu6Yper1amT",
+    "_type": "image",
+    "_entry": "33Qjj2Vaj1TflnyIDwdho7vjsMO"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qpu9vSosmF1JVuvbHCXy0R9pz",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A0HafozbEwZ6hKzuLcltj9wuC",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A0L76fGajRaUbhIUYgnYlmiBn",
+        "_type": "image",
+        "_entry": "34A0JySz75MxviUedzEOyqJCJY1"
+      },
+      "foil": {
+        "_id": "34A0Ld5i93toJmLf5zCUQVUJlOH",
+        "_type": "image",
+        "_entry": "34A0Jw7ew2rXe5NoPmTCLAwA3Sb"
+      }
+    },
+    {
+      "_id": "34A0Hzf2Nikv3gm6vs60uyTpVM8",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A0IVrSJIkLLeQLteiTNsVFm7J",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

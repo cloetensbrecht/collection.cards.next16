@@ -1,0 +1,69 @@
+{
+  "_id": "31wyn3zuXIdloZgblH7ORE7wsfq",
+  "_type": "PokemonCard",
+  "_index": "b6q",
+  "title": "Pidove",
+  "number": "71",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Pidove",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vzwfEgBwzMF3rRjFpyGQuYLzz",
+    "_type": "entry",
+    "_entry": "33vYpwBnY6o622RpPW4Ru1p5wwg"
+  },
+  "card": {
+    "_id": "31wypB8xT6k7eEgXfPmnFoXDe97",
+    "_type": "image",
+    "_entry": "31wyj5KsoLjFLhx8kMPM0IYByLE"
+  },
+  "variants": [
+    {
+      "_id": "31wyn0UNJCSH6iDEEPoS2POdflS",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wyuEqq72PUY8vX9iWGcPSEWtQ",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wywbdEJqLt7P1ioLiL1LyIvA7",
+        "_type": "image",
+        "_entry": "31wytbHxrT12njHZNExldsKJ2aA"
+      },
+      "foil": {
+        "_id": "31wyxOMfwF1Tsg10uIf3bx7WTgA",
+        "_type": "image",
+        "_entry": "31wytVWWCua6eaHxXMXSdu58aqR"
+      }
+    },
+    {
+      "_id": "31wyxXne1qOVJFNgbyL6uFE7rmo",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wyyO2nX48FX6g3PfL2dc5jeWz",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

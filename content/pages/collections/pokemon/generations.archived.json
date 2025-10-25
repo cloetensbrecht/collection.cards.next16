@@ -1,0 +1,47 @@
+{
+  "_id": "2zp6QjYJTkvG6CNKaRp7ZdYXvjy",
+  "_type": "PokemonSet",
+  "_index": "b0H",
+  "title": "Generations",
+  "number": null,
+  "ptcgoCode": "GEN",
+  "releaseDate": "2016-02-22",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMPtTWY9LLpJKBX6cJPd0nuzr",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe2advmRiDamPpKP0lTMGbQq"
+    }
+  ],
+  "logo": {
+    "_id": "2zp6UoTOKugw8Hj5THx1G5ZgeKY",
+    "_type": "image",
+    "_entry": "2zowivRt61GMIeIVRsl0NiAmxAW"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

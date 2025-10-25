@@ -1,0 +1,45 @@
+{
+  "_id": "33QzZtt2Gg9O3oyQefKWhflvkdw",
+  "_type": "PokemonCard",
+  "_index": "b8Q",
+  "title": "Yamask",
+  "number": "122",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Yamask",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EBmm5fJ4KBug70EGOWIZBfYyb",
+    "_type": "entry",
+    "_entry": "33vdHemf3v4GMbx6zmkV2bkVbS5"
+  },
+  "card": {
+    "_id": "33QzbCUdn3i8JVFNo9Nual8d7OD",
+    "_type": "image",
+    "_entry": "33QkcFys98TuQ0kMZ7QzwjVkF10"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QzZvV0HCYYNMgDzpU7rViNXXr",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EBnbdxY3G17Ak4SO4bvbW9fWp",
+        "_type": "image",
+        "_entry": "34BItBqeNu5OpqrdqqZyXXG0HXN"
+      },
+      "foil": {
+        "_id": "34EBoMm7HMrOJBVPzYybQxgNPnl",
+        "_type": "image",
+        "_entry": "34BItFpEaKpcauPtTcXppcBS9kG"
+      }
+    }
+  ],
+  "isFullArt": true
+}

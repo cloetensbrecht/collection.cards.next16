@@ -1,0 +1,44 @@
+{
+  "_id": "320NHTewvmdk0u3jeq7ijR15aIV",
+  "_type": "PokemonCard",
+  "_index": "b8v",
+  "title": "Venipede",
+  "number": "132",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Venipede",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vy1R4VIgR5223d9H6AtHjxO2Y",
+    "_type": "entry",
+    "_entry": "33vY2e4FmEOUj4QLEhfQORGoMki"
+  },
+  "card": {
+    "_id": "320NJZT8FhrzXz4dzxIgQWt1HqQ",
+    "_type": "image",
+    "_entry": "320FBQ1AulHUEgUfsfbCXUvO8aZ"
+  },
+  "variants": [
+    {
+      "_id": "320NHVa8Uk9YnJZKtKNSxlHLDvU",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320NNUniQk3ogdopqEKilZw02fT",
+        "_type": "image",
+        "_entry": "320NFketRhSvybHot7DEC0KNseH"
+      },
+      "foil": {
+        "_id": "320NO4biiXvMgaeHBJ1a4vORVCh",
+        "_type": "image",
+        "_entry": "320NFkIpv3jAfaniIWLsA2YMmA9"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "31Y9hUtSYQw1J9rUcTxlqVxP0ia",
+  "_type": "PokemonCard",
+  "_index": "aY",
+  "title": "Magikarp",
+  "number": "35",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 30,
+  "pokemon": "Magikarp",
+  "energy": "water",
+  "stage": "basic",
+  "card": {
+    "_id": "31Y9jHizf322pw6yWirRHkkukeA",
+    "_type": "image",
+    "_entry": "31Y9eTq090T2RRKSznBE93MalR0"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

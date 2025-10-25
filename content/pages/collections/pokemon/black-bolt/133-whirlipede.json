@@ -1,0 +1,44 @@
+{
+  "_id": "320NWd1BhSytcBhfDQXxDGfQXnT",
+  "_type": "PokemonCard",
+  "_index": "b8y",
+  "title": "Whirlipede",
+  "number": "133",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Whirlipede",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vxzWve7E6vufinrQBVBFiyKpS",
+    "_type": "entry",
+    "_entry": "33vX4WvQg56xcSKuJLX8xm3UVfu"
+  },
+  "card": {
+    "_id": "320NYmz7e6KIBHm3OU4r8FpbKXo",
+    "_type": "image",
+    "_entry": "320FBPRGJYXZFA0zAq3DJlTev2e"
+  },
+  "variants": [
+    {
+      "_id": "320NWbWJbMg21qO4Ph5m7GqVApE",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320NcuukwwyfVQgiEbIhUiLkZnT",
+        "_type": "image",
+        "_entry": "320NTJZDKp9nniyCc9HJ4DKH6Ff"
+      },
+      "foil": {
+        "_id": "320NdcLhWlb5uHnjNWcPSNfftUc",
+        "_type": "image",
+        "_entry": "320NTDTNQRWlH48ocVA2syQuUdA"
+      }
+    }
+  ],
+  "isFullArt": true
+}

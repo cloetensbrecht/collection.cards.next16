@@ -1,0 +1,44 @@
+{
+  "_id": "320JfwufM2KXTj9pDc55zxrWhuL",
+  "_type": "PokemonCard",
+  "_index": "b8S",
+  "title": "Beheeyem",
+  "number": "121",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Beheeyem",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vyNOUcKOXMMIcmSR4ghSJe8dr",
+    "_type": "entry",
+    "_entry": "33vb66E84Vx4yw3W0W6JZzMrKMB"
+  },
+  "card": {
+    "_id": "320JiZ1pbU14YAdcFuDPT2xmK3h",
+    "_type": "image",
+    "_entry": "320FBPUpe9M6TfgLaZzMvcbN4DS"
+  },
+  "variants": [
+    {
+      "_id": "320JfryvKgXF6CscoBfSMAnFTwv",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320JlJawiI7scXFjpCa0m5cYkx6",
+        "_type": "image",
+        "_entry": "320JcyzhzJh6jqvuLonN50Tjue8"
+      },
+      "foil": {
+        "_id": "320Jlto8U4CjLvCLSTY8C40fLMR",
+        "_type": "image",
+        "_entry": "320JcykdBnEJZ30UA3pvYwgIqEM"
+      }
+    }
+  ],
+  "isFullArt": true
+}

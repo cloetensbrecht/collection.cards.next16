@@ -1,0 +1,69 @@
+{
+  "_id": "31wjRlpkZ2gKUmqM01pwsop8nRs",
+  "_type": "PokemonCard",
+  "_index": "b5S",
+  "title": "Golett",
+  "number": "42",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Golett",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w0rKfzLpuvjNP3w8YsuV7467G",
+    "_type": "entry",
+    "_entry": "33vY4lW5LvgZz8iymCRDST4DvHG"
+  },
+  "card": {
+    "_id": "31wjToiBhG68ArNqH907DwOcEkP",
+    "_type": "image",
+    "_entry": "31wizxPzqVTnwhlV6xSoeEcR1tV"
+  },
+  "variants": [
+    {
+      "_id": "31wjRlO5E7BcV9h8vTnKWtXHLD1",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wjaFMHVVTMeDqq9oPg9rV8xeq",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wje0JdS0RdMryWuCzzIbAo5j9",
+        "_type": "image",
+        "_entry": "31wjcAmMwXMdUb7QMIcFlUq9aNY"
+      },
+      "foil": {
+        "_id": "31wjexBlVgSfmjMouqsseD4dHf0",
+        "_type": "image",
+        "_entry": "31wjcC4vhVqEgEAKWOBjWoj8iTQ"
+      }
+    },
+    {
+      "_id": "31wjfIIglRbILUYPIQ8taJoZ8pG",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wjgiZ72LXfdBqTuvMxqXkMNzF",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

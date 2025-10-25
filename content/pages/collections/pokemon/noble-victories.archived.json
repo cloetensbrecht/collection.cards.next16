@@ -1,0 +1,47 @@
+{
+  "_id": "2zp2rVtPZ99ATsMe5j5Y3sEi058",
+  "_type": "PokemonSet",
+  "_index": "b0b",
+  "title": "Noble Victories",
+  "number": 50,
+  "ptcgoCode": "NVI",
+  "releaseDate": "2011-11-16",
+  "generation": "V",
+  "serie": "blackWhiteSeries",
+  "symbol": [
+    {
+      "_id": "2zpMqzyqzCWRQRTYNvce7rJJeZX",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8omW9AiS5z7Y3tT7w03i14"
+    }
+  ],
+  "logo": {
+    "_id": "2zp2vY0CA5iZRzbIU5c1FmOeUop",
+    "_type": "image",
+    "_entry": "2zowis1cajszVyYIaOh9RmtPJi9"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

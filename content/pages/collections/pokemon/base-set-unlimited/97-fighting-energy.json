@@ -1,0 +1,27 @@
+{
+  "_id": "31aMU00ANzZdWBgJcxMQPRV11qo",
+  "_type": "PokemonCard",
+  "_index": "b0X",
+  "title": "Fighting Energy",
+  "number": "97",
+  "edgeColor": "#ffe78f",
+  "cardtype": "energy",
+  "energy": "fighting",
+  "stage": null,
+  "card": {
+    "_id": "31aMV4N778x0Loe2WXNC0rpyUcF",
+    "_type": "image",
+    "_entry": "31aMNJgmv06f2UvvytyP9OegJ5b"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

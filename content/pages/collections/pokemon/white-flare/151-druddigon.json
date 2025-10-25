@@ -1,0 +1,45 @@
+{
+  "_id": "33R2TEEoecu0Yq4tWVVEoyLy6Tu",
+  "_type": "PokemonCard",
+  "_index": "b9f",
+  "title": "Druddigon",
+  "number": "151",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Druddigon",
+  "energy": "dragon",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EEJQ05R0KnSgVg0duli9mvTCy",
+    "_type": "entry",
+    "_entry": "34EEI6J2HcbHO9JpLKVBSscXeAt"
+  },
+  "card": {
+    "_id": "33R2UkoruSRV1qqEGwy5QyszhxG",
+    "_type": "image",
+    "_entry": "33Qkgb3vRSf1fqVZTXVHT7JnN61"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R2TE23KrvDGSO5Ta0jhWEMNej",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EEKWmjcfQ01u9v1zWoQDHe8bx",
+        "_type": "image",
+        "_entry": "34BJ5kJUBwtEkekAt7oM2H5Lfyt"
+      },
+      "foil": {
+        "_id": "34EEL3QgKe9YePt3tomQxFa8ohE",
+        "_type": "image",
+        "_entry": "34BJ5nmKGefw2HhjJemop8k9XGu"
+      }
+    }
+  ],
+  "isFullArt": true
+}

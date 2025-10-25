@@ -1,0 +1,70 @@
+{
+  "_id": "33QmmSqa9bHD6Ewx9o6uHxEDjgM",
+  "_type": "PokemonCard",
+  "_index": "b3Q",
+  "title": "Heatmor",
+  "number": "19",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Heatmor",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349uRplLDgcRRqlF3A38lCf66Gp",
+    "_type": "entry",
+    "_entry": "349uQhvTpyFTe4TC7prfuhgEM0S"
+  },
+  "card": {
+    "_id": "33QmnyLWZxjfNgtwoJyhyauIE0k",
+    "_type": "image",
+    "_entry": "33QjaCKTWr6UOwGSUYxmesXL6KO"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QmmVyxGJAdXdYesll9CCYyfsN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349uTeusYZn4Rpfc1tHlpOSqM1I",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349uXlEBsnHfS00hLqSAYpgInTG",
+        "_type": "image",
+        "_entry": "349uWssiqbNZCLPAA06bZXcCOZz"
+      },
+      "foil": {
+        "_id": "349uYdK3sThpBOWuz7IEz2JGkML",
+        "_type": "image",
+        "_entry": "349uWrCCcMP3To0kuM9bOIc27Nt"
+      }
+    },
+    {
+      "_id": "349uU94sQWBZu0lAeycUdXZUSh7",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349uUgVGP3p4puAgSLEajDSpAmn",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

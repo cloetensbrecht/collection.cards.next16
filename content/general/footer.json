@@ -5,6 +5,24 @@
   "title": "Footer",
   "columns": [
     {
+      "_id": "34Y7IYzmOQDwdiOSPmi7Aa45MdP",
+      "_index": "Zz",
+      "_type": "Column",
+      "title": "Collections",
+      "items": [
+        {
+          "_id": "34Y7kQDz4zd4tsczSkSAh7iSVUH",
+          "_index": "a0",
+          "_type": "Link",
+          "link": {
+            "_id": "34Y7lPO7Z9a7i41bFEJ3IhSMqHD",
+            "_type": "entry",
+            "_entry": "2zotBbGapvbzPGg0MW97FJGlCwo"
+          }
+        }
+      ]
+    },
+    {
       "_id": "34XypIXCoYzyyVoWFfm1x50EDUe",
       "_index": "a0",
       "_type": "Column",

@@ -1,0 +1,30 @@
+{
+  "_id": "30ocTmne3Z9GbWfHbsdtOaBWLcl",
+  "_type": "PokemonCard",
+  "_index": "ak",
+  "title": "Diglett",
+  "number": "47",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 30,
+  "pokemon": "Diglett",
+  "energy": "fighting",
+  "stage": "basic",
+  "card": {
+    "_id": "30ocVG4COU90ZdivyGSYcoVTN9c",
+    "_type": "image",
+    "_entry": "30oJlAiFP49aRRdD05iTwht82oX"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

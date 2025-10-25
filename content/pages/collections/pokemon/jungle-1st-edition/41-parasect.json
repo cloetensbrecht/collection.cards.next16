@@ -1,0 +1,30 @@
+{
+  "_id": "30qCs5y5UcC01PWmVQIHJv5FyQV",
+  "_type": "PokemonCard",
+  "_index": "b5F",
+  "title": "Parasect",
+  "number": "41",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Parasect",
+  "energy": "grass",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qCtgU9IooFjguobodyIlwgQHv",
+    "_type": "image",
+    "_entry": "30q9C0Prj88xe40bnO8mpD3FrNu"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

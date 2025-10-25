@@ -1,0 +1,47 @@
+{
+  "_id": "2zp6WkmKGDQZbPjn48TvjAq6rSR",
+  "_type": "PokemonSet",
+  "_index": "b0G",
+  "title": "Fates Collide",
+  "number": 68,
+  "ptcgoCode": "FCO",
+  "releaseDate": "2016-05-02",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMOxDfmhd3UYHyhkfA7KorQjQ",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8pRwGKUAbvZE4yFUmNDSd6"
+    }
+  ],
+  "logo": {
+    "_id": "2zp6aX7XGUCdid6fSrhN16CwECT",
+    "_type": "image",
+    "_entry": "2zowirg24ob6d9azadmhDhGc6QV"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

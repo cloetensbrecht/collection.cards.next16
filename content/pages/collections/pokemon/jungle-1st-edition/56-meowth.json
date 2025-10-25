@@ -1,0 +1,30 @@
+{
+  "_id": "30qDz2fKhqRoJEADqDtl1EDvO7W",
+  "_type": "PokemonCard",
+  "_index": "at",
+  "title": "Meowth",
+  "number": "56",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Meowth",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "30qE0HyhvcZFQMYccguPlYbcNWo",
+    "_type": "image",
+    "_entry": "30q9C02f2BimfE9AXmV63I70Z3q"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

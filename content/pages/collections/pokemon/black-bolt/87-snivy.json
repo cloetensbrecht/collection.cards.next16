@@ -1,0 +1,44 @@
+{
+  "_id": "31yX2bsDiJjqTKciPoJF3J5U92G",
+  "_type": "PokemonCard",
+  "_index": "b7H",
+  "title": "Snivy",
+  "number": "87",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Snivy",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vzReykzQiLAKVTF4OqTn6ZZuG",
+    "_type": "entry",
+    "_entry": "33vZa8kDBUIekvfVzKcCx1LV1nL"
+  },
+  "card": {
+    "_id": "31yX4tke93ZZSblkFAk8vuimqKg",
+    "_type": "image",
+    "_entry": "31yUYzmsGsHcB1uEIgPEZbu9of9"
+  },
+  "variants": [
+    {
+      "_id": "31yX2a9STKt0UeyLEtX2hmm0c5M",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31yXVLceomukJPb1zuKqcsUSyW1",
+        "_type": "image",
+        "_entry": "31yXST2Fdi3NHjfVDc8qiWLC41e"
+      },
+      "foil": {
+        "_id": "31yXW42lBtlmcwP3jourTUDNEoL",
+        "_type": "image",
+        "_entry": "31yXSQ16nEUioB1BT0G1tCN3GNO"
+      }
+    }
+  ],
+  "isFullArt": true
+}

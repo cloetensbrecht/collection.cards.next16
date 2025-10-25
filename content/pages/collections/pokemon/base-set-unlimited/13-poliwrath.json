@@ -1,0 +1,30 @@
+{
+  "_id": "31P200AfewS1Rz2YKmi1uhePuRB",
+  "_type": "PokemonCard",
+  "_index": "aC",
+  "title": "Poliwrath",
+  "number": "13",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Poliwrath",
+  "energy": "water",
+  "stage": "stage2",
+  "card": {
+    "_id": "31P21vUFCpwoS33M4CR6OdF7nsb",
+    "_type": "image",
+    "_entry": "31P1wcfSQbNjEwyR59ABXJVw6zt"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

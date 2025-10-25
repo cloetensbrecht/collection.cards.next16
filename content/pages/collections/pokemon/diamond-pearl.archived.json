@@ -1,0 +1,47 @@
+{
+  "_id": "2zp0t61UBAxSGDEBYP8eDBJVCDH",
+  "_type": "PokemonSet",
+  "_index": "b0v",
+  "title": "Diamond & Pearl",
+  "number": 32,
+  "ptcgoCode": "DP",
+  "releaseDate": "2007-05-23",
+  "generation": "IV",
+  "serie": "diamondPearlSeries",
+  "symbol": [
+    {
+      "_id": "2zpN9rebOth2eRwiJx59iI2ztUy",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe65Ovdqy0iuSXX55dM4NtdV"
+    }
+  ],
+  "logo": {
+    "_id": "2zp0xBNpa3udc4jw4tMuncgofhP",
+    "_type": "image",
+    "_entry": "2zowiuKZhOlggRXTmtZ11LJbtfV"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

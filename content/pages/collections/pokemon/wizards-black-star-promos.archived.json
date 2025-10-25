@@ -1,0 +1,46 @@
+{
+  "_id": "2zpZnHzb4e2foG21PmksPf7KrtW",
+  "_type": "PokemonSet",
+  "_index": "aEQ",
+  "title": "Wizards Black Star Promos",
+  "ptcgoCode": "PR",
+  "releaseDate": "1999-07-01",
+  "generation": "I",
+  "serie": "promotionalSeries",
+  "symbol": [
+    {
+      "_id": "2zpait7XyJFKKwx8gJZCkolZQNd",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8bVGCQF6rikZoDKQNmAnuy"
+    }
+  ],
+  "logo": {
+    "_id": "2zvPklRXVeUV4SbxAd9xjs608I5",
+    "_type": "image",
+    "_entry": "2zpdbCA1LNv5p0fq97exSxI6bxs"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

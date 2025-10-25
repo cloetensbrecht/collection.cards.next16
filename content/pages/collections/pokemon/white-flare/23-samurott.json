@@ -1,0 +1,70 @@
+{
+  "_id": "33QnYidwQt10G4pzxNa3C7iWz6H",
+  "_type": "PokemonCard",
+  "_index": "b3n",
+  "title": "Samurott",
+  "number": "23",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 160,
+  "pokemon": "Samurott",
+  "energy": "water",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "349vq3UIWpAFemREpFdeNyhUx5s",
+    "_type": "entry",
+    "_entry": "33vag6TWH8ngzP7YNAJCfyljdju"
+  },
+  "card": {
+    "_id": "33QnaPoeLA1KX8oYOGZ7CvUFzjl",
+    "_type": "image",
+    "_entry": "33Qje0Tz8jVEeZcx42pyF10jq5S"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QnYjoXPiFivDQw56K79s1Tlch",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349vtHFfO3CzQJwDthth3hEk3Ds",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349w10T5dfQjxn6ecjUGZ9i4yYD",
+        "_type": "image",
+        "_entry": "349vzzxW7boDMgYIL6IpHXOcu03"
+      },
+      "foil": {
+        "_id": "349w1c10QQH6ji50QsNbof2PZXw",
+        "_type": "image",
+        "_entry": "349w014TWL7E3Mup0gIFhtYSDRn"
+      }
+    },
+    {
+      "_id": "349vtkMTirqv55dTnQFYYCKtmSE",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349vu3fT3GGBnTZ4y7DQBTb3gkx",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

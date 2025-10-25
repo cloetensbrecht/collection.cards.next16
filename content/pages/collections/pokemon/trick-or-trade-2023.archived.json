@@ -1,0 +1,46 @@
+{
+  "_id": "2zpO9Y4XhQBMqpyQUwD9wPllg9j",
+  "_type": "PokemonSet",
+  "_index": "b1U",
+  "title": "Trick or Trade 2023",
+  "ptcgoCode": "",
+  "releaseDate": "2023-09-01",
+  "generation": "IX",
+  "serie": "trickOrTrade",
+  "symbol": [
+    {
+      "_id": "30t2eKmpJHLbjStjSxtYnWPGhZA",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "30t2b55yOiTI4XcCHdhl3aQsBHB"
+    }
+  ],
+  "logo": {
+    "_id": "2zpOOjjrlQy4H1fQDnhDsvnJ668",
+    "_type": "image",
+    "_entry": "2zpOLmHhUGLZhnEkxJlWtaPUQtE"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

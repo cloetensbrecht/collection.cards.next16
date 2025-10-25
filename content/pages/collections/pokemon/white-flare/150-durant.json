@@ -1,0 +1,45 @@
+{
+  "_id": "33R2NUBePNkARqzEivWbgubhYuz",
+  "_type": "PokemonCard",
+  "_index": "b9c",
+  "title": "Durant",
+  "number": "150",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Durant",
+  "energy": "metal",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EEB7rRoPzPchJUcAbOfS9zQCN",
+    "_type": "entry",
+    "_entry": "34EEAfhbHESSEw0aJ95txoEMPN5"
+  },
+  "card": {
+    "_id": "33R2OaUqu4ffYHWpUpipXX1iXke",
+    "_type": "image",
+    "_entry": "33QkgeB5ElKNeKYhhw4UDqysWh5"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R2NSPHCqmrtU1WnlS1jRTsc5F",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EEDBGOe7SvyMhfROnedmveWLR",
+        "_type": "image",
+        "_entry": "34BJ5nhcduw67qgs6LbU2iWvK0M"
+      },
+      "foil": {
+        "_id": "34EEDm20DbhEIz0qkOXztw0Lvhr",
+        "_type": "image",
+        "_entry": "34BJ5j0fcgIsYbj2AWF8ij3CmNU"
+      }
+    }
+  ],
+  "isFullArt": true
+}

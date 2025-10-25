@@ -1,0 +1,69 @@
+{
+  "_id": "31wsFFe0Fry1ZCQ56VknTcsQokQ",
+  "_type": "PokemonCard",
+  "_index": "b6L",
+  "title": "Krokorok",
+  "number": "58",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Krokorok",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w0L6LQ7pNT09dqqcpU06of5QB",
+    "_type": "entry",
+    "_entry": "33vYWzmeeHJLoLa6oDJgmonBY5O"
+  },
+  "card": {
+    "_id": "31wsH8mhEJGhKDiL0bI56x4u4bu",
+    "_type": "image",
+    "_entry": "31woH5yPTwJTxg3zfB63uyQncZt"
+  },
+  "variants": [
+    {
+      "_id": "31wsFHTWcWVKQsErdWXIwMNlzcV",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wsMvKP3VXzS9wXGSPM9crFgIr",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wsU0xUAtT7LkweCavzl59ULoA",
+        "_type": "image",
+        "_entry": "31wsS1wkELWA4q4I9PNPMBtO9wm"
+      },
+      "foil": {
+        "_id": "31wsV3WxFRT5JoeUyCnj8L5peyH",
+        "_type": "image",
+        "_entry": "31wsS4PWhaP2AgqH2CzAHzsCMGa"
+      }
+    },
+    {
+      "_id": "31wsNwA0kdtHMKJPyKLjbMtH9jt",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wsOkzAWIY8LuHaisfUZM5Zs1M",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

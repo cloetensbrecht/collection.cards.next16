@@ -1,0 +1,44 @@
+{
+  "_id": "320RwHzhuYoEGcs8tGGMqED0bYi",
+  "_type": "PokemonCard",
+  "_index": "b9h",
+  "title": "Unfezant",
+  "number": "150",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Unfezant",
+  "energy": "colorless",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33vxM7LgMrdX9j4NoxtgJxY7f7e",
+    "_type": "entry",
+    "_entry": "33vcQDwMR7FqVhwX0cjYI3VW80E"
+  },
+  "card": {
+    "_id": "320Rxxti5ofzZJNxGtiizUXDqY9",
+    "_type": "image",
+    "_entry": "320FBTDxuJnyNVE4P2IPwVW3Si5"
+  },
+  "variants": [
+    {
+      "_id": "320RwHgZHvArsEH3eVl8Oivckht",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320RytxewxGjwZwGDMlmunURIcx",
+        "_type": "image",
+        "_entry": "320QeI9VYKOdDMN8PXcEoVuPSxQ"
+      },
+      "foil": {
+        "_id": "320RzfjRtrN0sseWT4DZO3Q6TKc",
+        "_type": "image",
+        "_entry": "320QeLxyXKx3L7a4XJg4stini36"
+      }
+    }
+  ],
+  "isFullArt": true
+}

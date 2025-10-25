@@ -1,0 +1,58 @@
+{
+  "_id": "33QvHDTbhSCkjfAG06AIvbXojXZ",
+  "_type": "PokemonCard",
+  "_index": "b0I",
+  "title": "Cheren",
+  "number": "81",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "subtype": "supporter",
+  "illustrator": {
+    "_id": "34BSrsW9qodbsYPYmMWmCvaeDSj",
+    "_type": "entry",
+    "_entry": "34BSqrun3Ee3eBLAUUniNB1iOMe"
+  },
+  "card": {
+    "_id": "33QvHgeatf3GJVtS6J0QNpigyab",
+    "_type": "image",
+    "_entry": "33QkPUGA4aGpQzklzbyYKW0fUlW"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QvHI6oARHAr7mpwPOj3D7kVdC",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34BSseOCo8rfg0OoLfmwXPTaVI7",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34BSuJJw37JOlK9TCmo1QZSfQlO",
+        "_type": "image",
+        "_entry": "34BIk2EcO2LCH4KSyKb4vmaCVOa"
+      },
+      "foil": {
+        "_id": "34BSumFwyPotZQN3JqB3DcE4BKU",
+        "_type": "image",
+        "_entry": "34BIjzrGRvAyOuVORMS0ZzKPCh6"
+      }
+    },
+    {
+      "_id": "34BSt0PMyn1nUqLrLHNNLUWMgiN",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

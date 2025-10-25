@@ -1,0 +1,27 @@
+{
+  "_id": "30ofcS51S6RkcjNoOy4ow4xTfiC",
+  "_type": "PokemonCard",
+  "_index": "b0C",
+  "title": "Lass",
+  "number": "75",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31CIVUu6v74ucPTxoQRyBajTlvL",
+    "_type": "image",
+    "_entry": "31A259KTySFySmxfXO5Urg980Gl"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

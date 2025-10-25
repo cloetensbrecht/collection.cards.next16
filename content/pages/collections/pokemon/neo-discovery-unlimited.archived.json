@@ -1,0 +1,47 @@
+{
+  "_id": "31QaWdhLIMSDjO0wyKoEowk2Wsx",
+  "_type": "PokemonSet",
+  "_index": "a2",
+  "title": "Neo Discovery (Unlimited)",
+  "number": 9,
+  "ptcgoCode": "N2",
+  "releaseDate": "2001-06-01",
+  "generation": "II",
+  "serie": "neoSeries",
+  "symbol": [
+    {
+      "_id": "31QaTHRCn01fmerzx3anGkwbI61",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe2V6uwtohFoB0d9jSLnBOMx"
+    }
+  ],
+  "logo": {
+    "_id": "2zoxx934JZHDym14BRduafcxxFM",
+    "_type": "image",
+    "_entry": "2zowioQjZSUB1pUi4NdE4EwpSGZ"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

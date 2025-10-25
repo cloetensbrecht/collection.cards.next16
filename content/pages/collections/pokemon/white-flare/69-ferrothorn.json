@@ -1,0 +1,70 @@
+{
+  "_id": "33QtwDW7C6mfbB7cg0Svnn7bXgO",
+  "_type": "PokemonCard",
+  "_index": "b6i",
+  "title": "Ferrothorn",
+  "number": "69",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Ferrothorn",
+  "energy": "metal",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A9SayWHMsrsPamQn8SLV4FYWQ",
+    "_type": "entry",
+    "_entry": "34A9LokSAiatevc0cEJsqK6p3za"
+  },
+  "card": {
+    "_id": "33QtxJcNvfQ2fz2JGR5jbmHZFF7",
+    "_type": "image",
+    "_entry": "33QkF6JCnMoy3Q8LrOVxhttpX8S"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qtw8tki0AFqpaJLwtCNpLa8fu",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A9TtHttZBiaGzVEwB5Gp7SpdY",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A9Wa9LCvBbW8LrPZpM8iyb0PL",
+        "_type": "image",
+        "_entry": "34A9W0yfje0UZBV4uZKfJdiHinZ"
+      },
+      "foil": {
+        "_id": "34A9XDjySg7JICYAuz3V9fh1txY",
+        "_type": "image",
+        "_entry": "34A9VubyNJrqR4qSBZME920w4WG"
+      }
+    },
+    {
+      "_id": "34A9U7fVZpIFndVMHYimtZvr9Bs",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A9UcEQm9RNbsQ5F1FvFTLGDeK",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

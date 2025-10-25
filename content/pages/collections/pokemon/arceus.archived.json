@@ -1,0 +1,47 @@
+{
+  "_id": "2zp25GSsNdlDLRfQwqQr1vbdTCS",
+  "_type": "PokemonSet",
+  "_index": "b0l",
+  "title": "Arceus",
+  "number": 42,
+  "ptcgoCode": "AR",
+  "releaseDate": "2009-11-04",
+  "generation": "IV",
+  "serie": "platinumSeries",
+  "symbol": [
+    {
+      "_id": "2zpMzMuikOkeWy0YoH13GbHf8pA",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe57izLKva5goS5hnmSAiUZ2"
+    }
+  ],
+  "logo": {
+    "_id": "2zp283STURWp1b7j2MAFqEf9t5B",
+    "_type": "image",
+    "_entry": "2zowiozyt8v3H2Wyb0FW8DH2Ff5"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

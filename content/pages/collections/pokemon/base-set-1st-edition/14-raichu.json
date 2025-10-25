@@ -1,0 +1,30 @@
+{
+  "_id": "30oYha5guist2pI9IurFa8HZVmC",
+  "_type": "PokemonCard",
+  "_index": "b2M",
+  "title": "Raichu",
+  "number": "14",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Raichu",
+  "energy": "lightning",
+  "stage": "stage1",
+  "card": {
+    "_id": "30oYigLXxEybU93UNHAPFoTl3Hb",
+    "_type": "image",
+    "_entry": "30oJl8hllFi8peD0h1hZkM6JjNx"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

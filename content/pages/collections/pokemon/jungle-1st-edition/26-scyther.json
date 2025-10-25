@@ -1,0 +1,30 @@
+{
+  "_id": "30qBdEleGB3Z2Ncj8PScPLcfoIn",
+  "_type": "PokemonCard",
+  "_index": "b44",
+  "title": "Scyther",
+  "number": "26",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Scyther",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "30qBeJPkHGyN6wAkL2YevFe3G2X",
+    "_type": "image",
+    "_entry": "30q9C2cMXbD9yx0o1sjyF1wpu4t"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

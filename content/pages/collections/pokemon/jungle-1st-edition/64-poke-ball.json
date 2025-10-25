@@ -1,0 +1,27 @@
+{
+  "_id": "30qEpY4FoOaC6DMMizwuc9gA1Mm",
+  "_type": "PokemonCard",
+  "_index": "b01",
+  "title": "Poké Ball",
+  "number": "64",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "30qErdfA320pN8PMSvaZcut34d8",
+    "_type": "image",
+    "_entry": "30q9C4VVe2wJtSQIBc4tG56sv5q"
+  },
+  "variants": [
+    {
+      "_id": "31XVurTZmiwJdUDO3R18OFEdFoJ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "_id": "31wl07HrWTgigt8nxaq3amBkkzW",
+  "_type": "PokemonCard",
+  "_index": "b5e",
+  "title": "Drilbur",
+  "number": "45",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Drilbur",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w0iwEBYjgiEdDqjqdB0Hwz8d3",
+    "_type": "entry",
+    "_entry": "33vY7s09PEgcYcePJCFGqslTjsT"
+  },
+  "card": {
+    "_id": "31wl2inb5wWGMZfZtAK78ld2tcU",
+    "_type": "image",
+    "_entry": "31wj00Yv7vV0LYSpt0c1GUVf1IM"
+  },
+  "variants": [
+    {
+      "_id": "31wl05xj0rNPggRIIJDA6S2mhqO",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wlGmvFLlmRLq5yxVnZWq4OXf9",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wlO2AtuRFFVpj2LJ8ZNtXCl1a",
+        "_type": "image",
+        "_entry": "31wlLTrI3incqUvSv8Vls4SUlA2"
+      },
+      "foil": {
+        "_id": "31wlOafq7jdEcYJsglJ7AR9PaKD",
+        "_type": "image",
+        "_entry": "31wlLT62aDoxc2gtWYAyg7mhSNv"
+      }
+    },
+    {
+      "_id": "31wlHLhZuL2UuQY8OP2lFu2UzbQ",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wlIB1qYseuywP8w0CMGJ93G2Q",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

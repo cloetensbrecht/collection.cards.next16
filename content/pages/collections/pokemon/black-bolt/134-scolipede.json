@@ -1,0 +1,44 @@
+{
+  "_id": "320OthaKlHdnzKd9tJdnT4xdrdh",
+  "_type": "PokemonCard",
+  "_index": "b91",
+  "title": "Scolipede",
+  "number": "134",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 160,
+  "pokemon": "Scolipede",
+  "energy": "darkness",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33vxxYmxE3fAqs2A6QpKvYeAuX7",
+    "_type": "entry",
+    "_entry": "33vYdQzloWTV17Bc5QfwG27zmT7"
+  },
+  "card": {
+    "_id": "320OvlNzjDl2YHc1Rzq4yT7deNZ",
+    "_type": "image",
+    "_entry": "320FBOloEJP3OBRS2ts0NrrRgSV"
+  },
+  "variants": [
+    {
+      "_id": "320OtgFVvaovhlwQfEj0z1EGRu3",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320OystqoN10nbNMYVfJho6tVkY",
+        "_type": "image",
+        "_entry": "320NiosHC8ZFWbaT6K8eS7BDrQc"
+      },
+      "foil": {
+        "_id": "320OzdagqPAXomem4P8JAr1v4f9",
+        "_type": "image",
+        "_entry": "320Nipz8wgeYVdMRsiKSfwhzKup"
+      }
+    }
+  ],
+  "isFullArt": true
+}

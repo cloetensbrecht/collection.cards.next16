@@ -1,0 +1,77 @@
+{
+  "_id": "31omAOvDPMNYtNdiDVVkWewY4O2",
+  "_type": "PokemonCard",
+  "_index": "b3x",
+  "title": "Carracosta",
+  "number": "23",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 180,
+  "pokemon": "Carracosta",
+  "energy": "water",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33w1KazjSAfUEIdkc2ZV9I2PQ2z",
+    "_type": "entry",
+    "_entry": "33vXZdai5YlKTpVz9murSbKzPZg"
+  },
+  "card": {
+    "_id": "31omFxtpwyZOiGaWsOE026IDPDp",
+    "_type": "image",
+    "_entry": "31oiF7DHwgxk2rWkPz1awDM9lvc"
+  },
+  "variants": [
+    {
+      "_id": "31omAOQGc1rfErw7eYQi5X5U1WA",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {
+        "_id": "31omdJKG94SqBjob5v7WJaQy5Kb",
+        "_type": "image",
+        "_entry": "31ombwHhLQ156esK0TysyaFjEHt"
+      },
+      "foil": {
+        "_id": "31omeI3UcNIP5wtr6Vi0H6YSdp0",
+        "_type": "image",
+        "_entry": "31omc1j5i1OWWJ9y4l8tslfrs9x"
+      }
+    },
+    {
+      "_id": "31omjybahTJY2mxOZUdNfYaZnWD",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31onDVlUy9q13Sw2S46Hb6unT3g",
+        "_type": "image",
+        "_entry": "31onBxaiXqtKWl5v6quYmSdAcNO"
+      },
+      "foil": {
+        "_id": "31onKr87c2VyNh5NuXfVWqzWOQv",
+        "_type": "image",
+        "_entry": "31onJYpDHbtS2jJrf8p3c89zNFI"
+      }
+    },
+    {
+      "_id": "31omkp6ulhHdH2znXSFwelh3pG3",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31omlg2V2FnWOSPnG6qS73TtKc1",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

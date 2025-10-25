@@ -1,0 +1,69 @@
+{
+  "_id": "31mZIgRyakRVn1f2YsesFwmh0wR",
+  "_type": "PokemonCard",
+  "_index": "b1x",
+  "title": "Lilligant",
+  "number": "7",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Lilligant",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w1seP1IhoKMjofYxv38yIT7FD",
+    "_type": "entry",
+    "_entry": "33vX8g7E93SP7mdGCul4kxGJigv"
+  },
+  "card": {
+    "_id": "31mZKrHfUrL7VlIBdoUZX1BUVJY",
+    "_type": "image",
+    "_entry": "31mZFJqOwAUBP0RvfM2nHpKrkvy"
+  },
+  "variants": [
+    {
+      "_id": "31mZIgCN3DoOmC5pgqUWMdIc0wk",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mZQKYbSvJnG8hwwwP5H3SvYPw",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31mZRhVEEgWaypisr0VKPSfApIC",
+        "_type": "image",
+        "_entry": "31mZGnvtOof4CStc9yYEcgUQBJw"
+      },
+      "foil": {
+        "_id": "31mZSsAUKOLF8IzxFQ6LDNfQonb",
+        "_type": "image",
+        "_entry": "31mZGoMsB6MbODjk8Ly6sz0SLl5"
+      }
+    },
+    {
+      "_id": "31mZXXWnDO0NeENVMqRUv5s18IQ",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mZYWmoEmRGzJqYcpceCpEZUyk",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

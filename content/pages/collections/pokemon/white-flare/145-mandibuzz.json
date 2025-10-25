@@ -1,0 +1,45 @@
+{
+  "_id": "33R1sSpVA9Cng27b9CDUqEJ0iRl",
+  "_type": "PokemonCard",
+  "_index": "b9P",
+  "title": "Mandibuzz",
+  "number": "145",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Mandibuzz",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EDqAII9tkCTf5Ypi85LSGZ4bD",
+    "_type": "entry",
+    "_entry": "34A0C6qda8oZbG90NORi5HJpKqW"
+  },
+  "card": {
+    "_id": "33R1twP23vvCMT44wPa8aTNnUpv",
+    "_type": "image",
+    "_entry": "33Qkgh8mKhFob4d5vxB9ktBPanI"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R1sUQ8T1HpxAfm1wHM8aXIvJI",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EDrciL2QIT16mKKpVcG4zLOXB",
+        "_type": "image",
+        "_entry": "34BJ5pa0jZxyFnMLR7yKOuaL5r4"
+      },
+      "foil": {
+        "_id": "34EDsP5k6ayemMOxFxeX2kh9lbz",
+        "_type": "image",
+        "_entry": "34BJ5jFMHS1GxTYXtrK05phLsVq"
+      }
+    }
+  ],
+  "isFullArt": true
+}

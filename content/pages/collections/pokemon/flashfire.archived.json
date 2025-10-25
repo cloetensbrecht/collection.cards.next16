@@ -1,0 +1,47 @@
+{
+  "_id": "2zp5ZvWQcCwcMUzLpAlRD62RQ8I",
+  "_type": "PokemonSet",
+  "_index": "b0Q",
+  "title": "Flashfire",
+  "number": 60,
+  "ptcgoCode": "FLF",
+  "releaseDate": "2014-05-07",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMbgo08IUSg94ovwImtFmQJ0r",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe2s67aGQS6cNnIJw1biQCS7"
+    }
+  ],
+  "logo": {
+    "_id": "2zp5dHElAiKu2H6GW4aNutr7IyK",
+    "_type": "image",
+    "_entry": "2zowiuJ1ZmOaFNTd9Pn4uQ5jcQC"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

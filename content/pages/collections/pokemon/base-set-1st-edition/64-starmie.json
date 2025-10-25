@@ -1,0 +1,30 @@
+{
+  "_id": "30oeQxcj1kqgf0NShUKUqrVrLkF",
+  "_type": "PokemonCard",
+  "_index": "b01",
+  "title": "Starmie",
+  "number": "64",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Starmie",
+  "energy": "water",
+  "stage": "stage1",
+  "card": {
+    "_id": "30oeSjU7PNfHNdO1zVR8tas94pd",
+    "_type": "image",
+    "_entry": "30oJlDzaW0rP1YmSVsFOQ47823Z"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

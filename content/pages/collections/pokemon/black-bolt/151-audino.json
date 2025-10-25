@@ -1,0 +1,44 @@
+{
+  "_id": "320SpmCx0Zkvie2DFxDBXOHPwcP",
+  "_type": "PokemonCard",
+  "_index": "b9k",
+  "title": "Audino",
+  "number": "151",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Audino",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vxIq3U5TgKaCPVYMwH0Th16QR",
+    "_type": "entry",
+    "_entry": "33vcWAVAul4w5ZyLHt21bf8PDkk"
+  },
+  "card": {
+    "_id": "320SrsC5px3LHheKpDAu7IWdXpU",
+    "_type": "image",
+    "_entry": "320FBPT2ZlmuRbn3A6p9hidv2XR"
+  },
+  "variants": [
+    {
+      "_id": "320SpnFo1b92Vw32hoQHsZiYydD",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320Ssy6OwaREvwfqkexvloTPsbL",
+        "_type": "image",
+        "_entry": "320SiOFVSLGPe2DM8H9O9iMiDz8"
+      },
+      "foil": {
+        "_id": "320StdFbjdwluQXN9gMxBkc8lND",
+        "_type": "image",
+        "_entry": "320SiN3PzZNndQUCF5c0iwmCeYw"
+      }
+    }
+  ],
+  "isFullArt": true
+}

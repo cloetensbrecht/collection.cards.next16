@@ -1,0 +1,44 @@
+{
+  "_id": "320G1rImN8jkI0IX7qSQM5GZ43w",
+  "_type": "PokemonCard",
+  "_index": "b8N",
+  "title": "Duosion",
+  "number": "119",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Duosion",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vyQYDSv9Q2jlm4MXdV8UYQ0Ly",
+    "_type": "entry",
+    "_entry": "33vZ43JvHsse1WVigUw7kdgrRYh"
+  },
+  "card": {
+    "_id": "320G4GNstSJDRbsSd7ix6VgYyhG",
+    "_type": "image",
+    "_entry": "320FBSdI3Q2NVzg7CyjDWlevqHu"
+  },
+  "variants": [
+    {
+      "_id": "320G1p9Z9tBLdxVV7Dp8uHLDvUj",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320JGlkOzmDBO2rcDJovcjxP0mD",
+        "_type": "image",
+        "_entry": "320FzuwMXaqcQ0VjUTleniim0Yt"
+      },
+      "foil": {
+        "_id": "320JHUHwm7J2fkMmVRhXT0sexP9",
+        "_type": "image",
+        "_entry": "320FzxmtD1NHuHqJjvuDVdJmaA2"
+      }
+    }
+  ],
+  "isFullArt": true
+}

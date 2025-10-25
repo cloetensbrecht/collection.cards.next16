@@ -1,0 +1,47 @@
+{
+  "_id": "2zp33nXFKSJxMWtVZPyr6m6rMfF",
+  "_type": "PokemonSet",
+  "_index": "b0Z",
+  "title": "Dark Explorers",
+  "number": 52,
+  "ptcgoCode": "DEX",
+  "releaseDate": "2012-05-09",
+  "generation": "V",
+  "serie": "blackWhiteSeries",
+  "symbol": [
+    {
+      "_id": "2zpModPgyzgsdNznM9SRFli6PpV",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe756wxX24oD70bz7UKxr0eC"
+    }
+  ],
+  "logo": {
+    "_id": "2zp38LoUZj8jCYQJOeze4ge966d",
+    "_type": "image",
+    "_entry": "2zowivNT5yQsta6TIJwOj3VbPif"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "_id": "31oiLksDPWmOXT54st6QA2nFLqO",
+  "_type": "PokemonCard",
+  "_index": "b3O",
+  "title": "Panpour",
+  "number": "17",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Panpour",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1VmsblrWvq3rRbVm4qbU6N9S",
+    "_type": "entry",
+    "_entry": "33vXTH9IN4Vmwr4ZJnpPTlezcXg"
+  },
+  "card": {
+    "_id": "31oiO9m6gKwbaHIkHdceRrZao1k",
+    "_type": "image",
+    "_entry": "31oiF9ohiz1bM1w7IqYOWBqt4e7"
+  },
+  "variants": [
+    {
+      "_id": "31oiLgOV7grOyk9vwzyw3nNHvtT",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31oic5hBHu6nLH8i4JfBKJGHXBi",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31oimmbZHZNS2PN0PY22pT50PD4",
+        "_type": "image",
+        "_entry": "31oikv7n1thN5Aq7GU2X37duKb0"
+      },
+      "foil": {
+        "_id": "31oinkGyMtge28lYRN3hUZ1E5dv",
+        "_type": "image",
+        "_entry": "31oikyVkMCmph2hG3mSOaO2f3Xs"
+      }
+    },
+    {
+      "_id": "31oicaLIENt6rtGBXPvm8FxmuJM",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31oidMCpJqYLz6LlMEKFTPkUike",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "320BB4acRLMQaUxXaToRaBRsWOE",
+  "_type": "PokemonCard",
+  "_index": "b82",
+  "title": "Beartic",
+  "number": "110",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Beartic",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vygiQAy44Y000TdLqHAUbShb0",
+    "_type": "entry",
+    "_entry": "33vadM7hRikreaL0xjHsdFwhQlS"
+  },
+  "card": {
+    "_id": "320BCjiwGD89a07dqdkJaLYDfhJ",
+    "_type": "image",
+    "_entry": "320Ak2ZzbFSgnvOcbv4TFOuAFVa"
+  },
+  "variants": [
+    {
+      "_id": "320BB4TxOMj8LaKhJDNGeFSZ6tP",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320BFtWVxOxb3ZO26sVSH39U0A7",
+        "_type": "image",
+        "_entry": "320AsqbUG2QeyhPKjJPT4ScQkIF"
+      },
+      "foil": {
+        "_id": "320BGSPmnscgfExH2Nc3AS68Kal",
+        "_type": "image",
+        "_entry": "320AspSrhax1RTXyMHMhhydsTkd"
+      }
+    }
+  ],
+  "isFullArt": true
+}

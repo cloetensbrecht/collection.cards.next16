@@ -1,0 +1,70 @@
+{
+  "_id": "33QsIEkuLT5CK2upBPb6KgnCrMi",
+  "_type": "PokemonCard",
+  "_index": "b6R",
+  "title": "Zoroark",
+  "number": "62",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Zoroark",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A8X5P8WdDBATLeoT7b9Sp1Tgq",
+    "_type": "entry",
+    "_entry": "33vcGVqgTM5CbQwSHRZZIA3rttd"
+  },
+  "card": {
+    "_id": "33QsKVUqgeAaWNlA1vlj58zptKT",
+    "_type": "image",
+    "_entry": "33QkFANh4HUosgFX9XI2U2S31Hg"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QsIInMvHw2X5T2dmI8CmVupOn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8YYqhG1xlTlk0hdffF2AByKb",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A8dvOHsvH8wSEXFxn3WwegbB3",
+        "_type": "image",
+        "_entry": "34A8b57lICwAWkdHOkpuq70h6y6"
+      },
+      "foil": {
+        "_id": "34A8eNXRCa7OCFq1LWIa3hv4179",
+        "_type": "image",
+        "_entry": "34A8b20k7fuIsjRuGo8Lq4NCzIC"
+      }
+    },
+    {
+      "_id": "34A8Z2ueJNt803jQywqNKXZ5C1P",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8ZXJCY1FYsiddh1QhJkciFEL",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

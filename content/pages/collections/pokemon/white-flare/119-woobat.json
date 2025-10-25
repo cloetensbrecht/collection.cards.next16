@@ -1,0 +1,45 @@
+{
+  "_id": "33QzGq9ODpupVbYE2yuhiVCJA7t",
+  "_type": "PokemonCard",
+  "_index": "b8K",
+  "title": "Woobat",
+  "number": "119",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Woobat",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EBaapRTrVxjxrIImla3Oiuw6K",
+    "_type": "entry",
+    "_entry": "34EBYgA9iyJ2RwC6yAfWZRZHL3C"
+  },
+  "card": {
+    "_id": "33QzHtJ25of7BmRjRI0vzMSvVoM",
+    "_type": "image",
+    "_entry": "33QkWhwFWNdyoKvvcKdfWovptSx"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QzGsbT0fajqlQSZtXxUUZxiYj",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EBccbq5vM2oCmeSMVtAeD6tYJ",
+        "_type": "image",
+        "_entry": "34BItBiveVkVQntfPO9ZIXIrB4Q"
+      },
+      "foil": {
+        "_id": "34EBdFszOMRK8i7m79Z8PginNKA",
+        "_type": "image",
+        "_entry": "34BItFaacaxXco4iidGKlkbPqAz"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "30sr6KKTWOnwYD8WLRSOBsBF6ri",
+  "_type": "PokemonSet",
+  "_index": "aJ",
+  "title": "EX Trainer Kit Latias",
+  "ptcgoCode": "",
+  "releaseDate": "2004-06-01",
+  "generation": "III",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "30srI2qXlI7nDW2f8jwXzynM0E4",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "30srGN5X7Qg1vltP8i7keAJZYee"
+    }
+  ],
+  "logo": {
+    "_id": "30sr9XySewrMpY6uaeFnm9zhyAK",
+    "_type": "image",
+    "_entry": "30spO0dkLw2T3O1PwjqiTjFJ6jF"
+  },
+  "rarity": {},
+  "energy": {}
+}

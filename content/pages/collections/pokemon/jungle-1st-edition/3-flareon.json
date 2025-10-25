@@ -1,0 +1,30 @@
+{
+  "_id": "30q9XlTkoM3lsyDaMjMY03t0Ygo",
+  "_type": "PokemonCard",
+  "_index": "b1b",
+  "title": "Flareon",
+  "number": "3",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Flareon",
+  "energy": "fire",
+  "stage": "stage1",
+  "card": {
+    "_id": "30q9ZLZE0cyVtucOFIu9IkgHOHg",
+    "_type": "image",
+    "_entry": "30q9C2skvyspqnKDhERVHj1NHEN"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

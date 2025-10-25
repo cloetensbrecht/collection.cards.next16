@@ -1,0 +1,69 @@
+{
+  "_id": "31meGSq3IQ8jyYXM2aLvI2bduuk",
+  "_type": "PokemonCard",
+  "_index": "b3C",
+  "title": "Larvesta",
+  "number": "15",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Larvesta",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1gqM4vMM5BkVfpypxVPVBKfh",
+    "_type": "entry",
+    "_entry": "33vXORBZFTHoxnDct1xdyH0X3Rj"
+  },
+  "card": {
+    "_id": "31meIzlhvZj4AHJ5C62TkH1Dg95",
+    "_type": "image",
+    "_entry": "31meCrmeVtwE1hDIE6fnsML80ZW"
+  },
+  "variants": [
+    {
+      "_id": "31meGOVZYRpbzXn1tgmv4zv2sqk",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31meQWifdnDUCHNqwRy7D6o9kkc",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31meS0h7pshK6pez9lyXDsRWfe3",
+        "_type": "image",
+        "_entry": "31meEfpxsUA6B4djfCPBUq7rqWd"
+      },
+      "foil": {
+        "_id": "31meT462nFydelPqZbiRIcmQqQY",
+        "_type": "image",
+        "_entry": "31meEf5eJHmxlOkwnIbFuZDVcy8"
+      }
+    },
+    {
+      "_id": "31meTQiTOKxolR5eXBJ7UWNx0Ki",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31meUgb2BpTlmyrmwhMEJiThxsT",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

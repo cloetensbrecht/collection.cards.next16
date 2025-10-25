@@ -1,0 +1,30 @@
+{
+  "_id": "30ocsYPUObiMrBFLBVK6JYxDLtD",
+  "_type": "PokemonCard",
+  "_index": "an",
+  "title": "Gastly",
+  "number": "50",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 30,
+  "pokemon": "Gastly",
+  "energy": "psychic",
+  "stage": "basic",
+  "card": {
+    "_id": "30octeSavbgdmvdDfseCnS4gS1f",
+    "_type": "image",
+    "_entry": "30oJlDeFE71Vs8KBfzeWMj7tcUK"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

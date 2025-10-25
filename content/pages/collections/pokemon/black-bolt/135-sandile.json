@@ -1,0 +1,44 @@
+{
+  "_id": "320P6N5HWxIK9Q0S0uxej9RV3NT",
+  "_type": "PokemonCard",
+  "_index": "b93",
+  "title": "Sandile",
+  "number": "135",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Sandile",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vxw8lC1ysoFS2OIKhLl0lCHqa",
+    "_type": "entry",
+    "_entry": "33vbm8UYll2966VlQ4eOazBCSui"
+  },
+  "card": {
+    "_id": "320P8G3vhAEqnIS3IROG7kZlRrA",
+    "_type": "image",
+    "_entry": "320FBNZiKvjEwYgYU7Z4YntICwi"
+  },
+  "variants": [
+    {
+      "_id": "320P6O9ofEsnjoPZWDNMsXJzLeb",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320PBF3fzXX7XfJKxwffnrEDCeS",
+        "_type": "image",
+        "_entry": "320NlzBgvLTpE4eRpi98XpH9Z2d"
+      },
+      "foil": {
+        "_id": "320PBq2uXD3KFPd9nq5wtPyqugS",
+        "_type": "image",
+        "_entry": "320Nm1v0QYnTaweOTxz97bkPYlD"
+      }
+    }
+  ],
+  "isFullArt": true
+}

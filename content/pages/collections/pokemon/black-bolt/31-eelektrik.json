@@ -1,0 +1,69 @@
+{
+  "_id": "31veBxk9bRbMi2VLVVLlua3srfW",
+  "_type": "PokemonCard",
+  "_index": "b4d",
+  "title": "Eelektrik",
+  "number": "31",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Eelektrik",
+  "energy": "lightning",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w18IUAfzi54v4AFaIC61JL1Ai",
+    "_type": "entry",
+    "_entry": "33vXqGCgzVMiaM4Y3FQRJ8n7xiD"
+  },
+  "card": {
+    "_id": "31verV611rm6V6UE7hZjgskzztT",
+    "_type": "image",
+    "_entry": "31ve9Slglg9kxipgIUmB1q5WKZB"
+  },
+  "variants": [
+    {
+      "_id": "31veBygsR1Ha0pQVsJOUNw3nVb8",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31vf71jX27stBywbPMoscoki1ia",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31vfFMGEvXRlPq5HxAG87ihMjKc",
+        "_type": "image",
+        "_entry": "31vfDcM2hru84GdcJt36ZJ3cPia"
+      },
+      "foil": {
+        "_id": "31vfG8IM0e32BR7IbV5mlsnULlg",
+        "_type": "image",
+        "_entry": "31vfDhJSGMvJg4060ywQIFerAFa"
+      }
+    },
+    {
+      "_id": "31vf7tQB2VHWi1NTb48dcKayZN5",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31vf8nnxltBQYBcuhqdcUctyTnH",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

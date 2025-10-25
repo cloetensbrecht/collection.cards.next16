@@ -1,0 +1,70 @@
+{
+  "_id": "33OGDanP31NJln2RkMUosdtxVZW",
+  "_type": "PokemonCard",
+  "_index": "b1t",
+  "title": "Sawsbuck",
+  "number": "7",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 130,
+  "pokemon": "Sawsbuck",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "349o4Di85p61NDGzCIjTjS6tdVO",
+    "_type": "entry",
+    "_entry": "349nzDJKI04h6Q5aVL2yaAj8Uzb"
+  },
+  "card": {
+    "_id": "33OGEQLxBsiLJVjZCyZYqZhGNU0",
+    "_type": "image",
+    "_entry": "33OElGLOZbAOWVB9RHlCmNBMbI1"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33OGDaTeX38BbeA4B82BysUK0G8",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "33OGK51D6l5WrJudxQuCdWVHSrm",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "33RG3WfpuB0mhwagTipMZxHOq2k",
+        "_type": "image",
+        "_entry": "33RG2NFJizGVzPk93JesNms3CZ9"
+      },
+      "foil": {
+        "_id": "33RG4NNqwwWlbVOpTLpHu7VzxaR",
+        "_type": "image",
+        "_entry": "33RG2OYBs2LVVkgXvGf42IyantF"
+      }
+    },
+    {
+      "_id": "33OGKW9842LCxjVeYxe5f61V019",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "33OGLdldz0Z6a1QUkHwwIiOJDIX",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "31YkYLpiE4DR9G55CjnCZsgEiXT",
+  "_type": "PokemonCard",
+  "_index": "az",
+  "title": "Sandshrew",
+  "number": "62",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Sandshrew",
+  "energy": "fighting",
+  "stage": "basic",
+  "card": {
+    "_id": "31YkaCZtGOdpcuJDRKugdlIJaU3",
+    "_type": "image",
+    "_entry": "31YkVYtrVziTc0s0rtg6P4oMrhp"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

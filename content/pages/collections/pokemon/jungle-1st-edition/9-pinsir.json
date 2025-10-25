@@ -1,0 +1,30 @@
+{
+  "_id": "30qA5DEhbbiVdxaLaN5GzDRQXaO",
+  "_type": "PokemonCard",
+  "_index": "a8",
+  "title": "Pinsir",
+  "number": "9",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Pinsir",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "30qA6XiEa6SVsgxGWvA91Iia8Le",
+    "_type": "image",
+    "_entry": "30q9C2LpVYqgGb2rKm6JWfYo1b4"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

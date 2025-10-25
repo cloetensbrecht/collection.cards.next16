@@ -1,0 +1,44 @@
+{
+  "_id": "320PbncdehQEM0xpzhIWxq2qHxC",
+  "_type": "PokemonCard",
+  "_index": "b9C",
+  "title": "Escavalier",
+  "number": "138",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 130,
+  "pokemon": "Escavalier",
+  "energy": "metal",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vxq5QqVVv0si3PTh3DuACZlxe",
+    "_type": "entry",
+    "_entry": "33vY4lW5LvgZz8iymCRDST4DvHG"
+  },
+  "card": {
+    "_id": "320PeAEwFk9v2TcK0RTLAwNAoJ5",
+    "_type": "image",
+    "_entry": "320FBNYMnDqdrOzKyNYX4dykWEm"
+  },
+  "variants": [
+    {
+      "_id": "320Pbsv6TpWQ2nO00lmpBcyPkuu",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320PjSe0Z3vAfT2G5jlyFIaIdjG",
+        "_type": "image",
+        "_entry": "320NuI3ELcIeuZe9ezCsE5ub3qu"
+      },
+      "foil": {
+        "_id": "320PkDQI1TEjq2DiByPZ5SYTwHX",
+        "_type": "image",
+        "_entry": "320NuK52waBjiE7FPynBQUBwUeR"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "30qAZpVmMjlMBHZmy89fA917nIF",
+  "_type": "PokemonCard",
+  "_index": "b2U",
+  "title": "Vileplume",
+  "number": "15",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Vileplume",
+  "energy": "grass",
+  "stage": "stage2",
+  "card": {
+    "_id": "30qAbHeh9BNnHoMcaAhMSVjjWXv",
+    "_type": "image",
+    "_entry": "30q9BzPvz8nFnmzWVUo417hm6vz"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

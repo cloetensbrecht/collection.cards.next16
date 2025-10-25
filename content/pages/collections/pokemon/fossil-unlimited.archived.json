@@ -1,0 +1,47 @@
+{
+  "_id": "31QZfdJTmjuDnuKnc9Zm0XSlO5n",
+  "_type": "PokemonSet",
+  "_index": "a7",
+  "title": "Fossil (Unlimited)",
+  "number": 3,
+  "ptcgoCode": "FO",
+  "releaseDate": "1999-10-10",
+  "generation": "I",
+  "serie": "originalSeries",
+  "symbol": [
+    {
+      "_id": "31QZY4DRf9ZxHyuxUZnUFG7JGx6",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe5iJD9rgOSL9OAX0dNEoUZU"
+    }
+  ],
+  "logo": {
+    "_id": "2zoxGJZq8UCpGpBbV7ceb9NZqVR",
+    "_type": "image",
+    "_entry": "2zowirfWTBZPWyCznfT4c4fT8F6"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

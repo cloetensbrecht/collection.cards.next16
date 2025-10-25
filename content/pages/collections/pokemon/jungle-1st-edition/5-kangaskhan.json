@@ -1,0 +1,30 @@
+{
+  "_id": "30q9iDn5fRJgJmoa6wuR6ZMdFTu",
+  "_type": "PokemonCard",
+  "_index": "b1m",
+  "title": "Kangaskhan",
+  "number": "5",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Kangaskhan",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "30q9jVQkDJdMzsHA7wvTBPTFm7Z",
+    "_type": "image",
+    "_entry": "30q9C1PCYN6vGjykkj8REdrbNck"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

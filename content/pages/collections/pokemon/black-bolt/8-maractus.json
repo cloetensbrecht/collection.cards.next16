@@ -1,0 +1,69 @@
+{
+  "_id": "31mZtDBytCucfEgWny03l1SMTA8",
+  "_type": "PokemonCard",
+  "_index": "b21",
+  "title": "Maractus",
+  "number": "8",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Maractus",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1rDHUmWcpkb2KiRvdEbcczH9",
+    "_type": "entry",
+    "_entry": "33vXBxUxY5WMrxi4fbLeK4KVLmp"
+  },
+  "card": {
+    "_id": "31mZvOVjP42IBQVy5ty9ys0U7G5",
+    "_type": "image",
+    "_entry": "31mZqHAHTsVQ68pH5MRAh6bKvJP"
+  },
+  "variants": [
+    {
+      "_id": "31mZt9TybKYTvoUr19lVfPHcWQA",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31ma0p6fvPYwOksO0RcPtceNVIR",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31ma2mubnbQnrc7EK3hbov6q54A",
+        "_type": "image",
+        "_entry": "31mZrnprebhsjVvaRjUf4fCAhlP"
+      },
+      "foil": {
+        "_id": "31ma3SSkEE5X6fu6T8UyfUF30GO",
+        "_type": "image",
+        "_entry": "31mZrqsLeF65dgrELcADJv5HxnJ"
+      }
+    },
+    {
+      "_id": "31ma5TxOjTMNtk2fN24mF2D0s9n",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31ma6MPajiBzcBiexQR4be7syKg",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

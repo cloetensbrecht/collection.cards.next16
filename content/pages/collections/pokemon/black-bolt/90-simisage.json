@@ -1,0 +1,44 @@
+{
+  "_id": "31zYc0QNUAV1C77E2C0smDTGjaD",
+  "_type": "PokemonCard",
+  "_index": "b7L",
+  "title": "Simisage",
+  "number": "90",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Simisage",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vzKhXpARMKObuPYNVbHUPUEtQ",
+    "_type": "entry",
+    "_entry": "33vZjSgndaiBrmLiiliXalxbgKQ"
+  },
+  "card": {
+    "_id": "31zYhidukUOCQBQ8EB3trIwhbB2",
+    "_type": "image",
+    "_entry": "31yUZ2ZG3ZLZ4Gf3N2QbT9cHucT"
+  },
+  "variants": [
+    {
+      "_id": "31zYc4AHCcD73v7QhZp0i6rvZRg",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zYmcealyXZJN1s5AJmhOmYVW9",
+        "_type": "image",
+        "_entry": "31zYfGti0MI9YfhuOa2ILYy6j8F"
+      },
+      "foil": {
+        "_id": "31zYqnEzXq3vbA3Y018g7ENOcoh",
+        "_type": "image",
+        "_entry": "31zYfImglquqCT2JcubJafD4HH5"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "33QrQzrbiJOfjUbwZ4r1ZAmxqn6",
+  "_type": "PokemonCard",
+  "_index": "b62",
+  "title": "Mienshao",
+  "number": "53",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Mienshao",
+  "energy": "fighting",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A3tYThgDZnfF22oLoj5hCOr9o",
+    "_type": "entry",
+    "_entry": "34A3mopNSFAxX2JcbutY5jJMidI"
+  },
+  "card": {
+    "_id": "33QrSM6cBgUiLUyoclb7Ze7LCKU",
+    "_type": "image",
+    "_entry": "33QkB6QrCDY94ACW6UG0SYAYkB3"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QrQw7cWjXYFVNstoY6QjJJTwM",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A3vEfamLaZ52G6pz7QkzzKtsn",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A3yoWqL5FI0NB0IGSbQLEtl7C",
+        "_type": "image",
+        "_entry": "34A3xeBTypNHcGpRD3MN2du2ajH"
+      },
+      "foil": {
+        "_id": "34A3zKXGaYOTuM3Llgebo6bH1Cc",
+        "_type": "image",
+        "_entry": "34A3xaXFIgySsj8RZS7xNA4qekT"
+      }
+    },
+    {
+      "_id": "34A3vbJRuxfG1En4rO5XimOh3lt",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A3w5KPu1kgLvc61Y2Ce4zdVJx",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "2zpKG2uD6CUIwMJwFtiDJxTovRb",
+  "_type": "PokemonSet",
+  "_index": "aQ",
+  "title": "McDonald's Collection 2024",
+  "ptcgoCode": "M24",
+  "releaseDate": "2024-12-04",
+  "generation": "IX",
+  "serie": "mcDonaldsSeries",
+  "symbol": [
+    {
+      "_id": "2zpNlWYBdvp3NTwS1xsDtLhGpG1",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpK6povy1B0Q2RXZ1lbG7zrsde"
+    }
+  ],
+  "logo": {
+    "_id": "2zpKIG6RxiJViAlEKTeV8l3MiKT",
+    "_type": "image",
+    "_entry": "2zpKENwSe8Y0NWGr256oPO2o8Cm"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

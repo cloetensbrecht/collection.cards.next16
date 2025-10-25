@@ -1,0 +1,57 @@
+{
+  "_id": "31yWOCQHbe7LmmyOpEEkhjZNQcP",
+  "_type": "PokemonCard",
+  "_index": "b7E",
+  "title": "Professor's Research",
+  "number": "85",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "subtype": "supporter",
+  "illustrator": {
+    "_id": "33vzX0n2FNau6zkpFWzVOwHRJAW",
+    "_type": "entry",
+    "_entry": "33vZQuoIjQCFfMFbFLd1dJzcIQf"
+  },
+  "card": {
+    "_id": "31yWPJJXY8xNalUNECG77whjiha",
+    "_type": "image",
+    "_entry": "31yUZ1JQEYpipzQk5zXW5q6jpwG"
+  },
+  "variants": [
+    {
+      "_id": "31yWOCIrE8RD9q4FPavFwSyb78b",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31yWURXsRuj1V4xFmmmVfJUbl9V",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31yWZzCxZGlPq9ppRkByjFXgXbP",
+        "_type": "image",
+        "_entry": "31yWTdNcwmbXuldpoaRpCLNYNpt"
+      },
+      "foil": {
+        "_id": "31yWaqIglhkyaDhMN91hKTeEQf4",
+        "_type": "image",
+        "_entry": "31yWTecxDthCOIKPJjTEFIV8X6s"
+      }
+    },
+    {
+      "_id": "31yWUTduCkUl2hthWCh7ybkvdBA",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

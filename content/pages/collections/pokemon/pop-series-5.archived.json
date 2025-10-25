@@ -1,0 +1,25 @@
+{
+  "_id": "2zvNAxVW9Oc2IPlseiqwFgO4USW",
+  "_type": "PokemonSet",
+  "_index": "b2b",
+  "title": "POP Series 5",
+  "ptcgoCode": "POP5",
+  "releaseDate": "2007-03-01",
+  "generation": "III",
+  "serie": "popSeries",
+  "symbol": [
+    {
+      "_id": "2zvNDUTycEqiNXYJ2t1gh5XnFHr",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zvK0OUcNnAxStzpLviAXtJ0xdS"
+    }
+  ],
+  "logo": {
+    "_id": "2zvNDvjbT5ubf20lbcYK06Fvp43",
+    "_type": "image",
+    "_entry": "2zvKEqF9YEjyHjHWMbj5xrLh5oP"
+  },
+  "rarity": {},
+  "energy": {}
+}

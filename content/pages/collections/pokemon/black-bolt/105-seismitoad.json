@@ -1,0 +1,44 @@
+{
+  "_id": "320A3w9qwSaSKcBWA1qyplSF5T3",
+  "_type": "PokemonCard",
+  "_index": "b7p",
+  "title": "Seismitoad",
+  "number": "105",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 170,
+  "pokemon": "Seismitoad",
+  "energy": "water",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33vyqui2ifnXA30rVEFdHixcMYR",
+    "_type": "entry",
+    "_entry": "33vaOzQ9KIBF4vjVbhIc4zsKVCl"
+  },
+  "card": {
+    "_id": "320A5syQYZGKz5Lu4tNSc6a22Gp",
+    "_type": "image",
+    "_entry": "3209zlss4bGyxJLrPz78tsxWWyv"
+  },
+  "variants": [
+    {
+      "_id": "320A3y2y0kADWmZcbthls1RlkhB",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320A97Fzn4XIOrgG635v4TeV7MI",
+        "_type": "image",
+        "_entry": "320A2Z9xBSDDDIa00S2gBHTl7oZ"
+      },
+      "foil": {
+        "_id": "320A9lx6eIum3pQXJgrg6t9mqUZ",
+        "_type": "image",
+        "_entry": "320A2blcm7AlnbgtrmGkMd83uBu"
+      }
+    }
+  ],
+  "isFullArt": true
+}

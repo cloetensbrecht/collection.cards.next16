@@ -1,0 +1,58 @@
+{
+  "_id": "31x1Lu2q4aOsBPAXUPvUL16gmFA",
+  "_type": "PokemonCard",
+  "_index": "b77",
+  "title": "Antique Cover Fossil",
+  "number": "80",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "trainer",
+  "hp": 60,
+  "subtype": "item",
+  "illustrator": {
+    "_id": "33vzg7UpHNUarcEwA5NgjCiGSUL",
+    "_type": "entry",
+    "_entry": "33vZDiCauBlUuRJ1IRKwZaoYqp8"
+  },
+  "card": {
+    "_id": "31x1MjywoYuAizoTsuqcupYWWAg",
+    "_type": "image",
+    "_entry": "31wyj9lVjOKUlG4MYjtAhto420l"
+  },
+  "variants": [
+    {
+      "_id": "31x1LojUNvgiym9cdVDU8vgucgd",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31x1Ss8DhyLjR9EkeXjvzJyoqC8",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31x1UptJysbUwSSeBzyBwGF2faM",
+        "_type": "image",
+        "_entry": "31x1HqiBe5CjAIr4lYar3th9H8V"
+      },
+      "foil": {
+        "_id": "31x1VRemww2Qjdx29jOe2oFQwJo",
+        "_type": "image",
+        "_entry": "31x1HqyRxSgz9NwAcQhSmUjFlkP"
+      }
+    },
+    {
+      "_id": "31x1VgLUSYEZsuN6igJxLTfFHHO",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

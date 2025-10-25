@@ -1,0 +1,70 @@
+{
+  "_id": "33QmKntxCoJ5xY2AFhaoaeWVWdx",
+  "_type": "PokemonCard",
+  "_index": "b39",
+  "title": "Litwick",
+  "number": "16",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Litwick",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349tXbBcvyY3RGqwXsjeFWhmg82",
+    "_type": "entry",
+    "_entry": "349tWftyxx6WEzzYt8kfs8dWWPv"
+  },
+  "card": {
+    "_id": "33QmMSmO7DJ0OvMBoHGhZ5EucDt",
+    "_type": "image",
+    "_entry": "33Qja7tjyiB7vkBf8iWnJeaQsvP"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QmKnUuYElXDg26UCh8qfzG2vc",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349tZwZIiNCi9TXxmiAcBDGeJsE",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349teDcQOTK6TfW4td42lYSkLml",
+        "_type": "image",
+        "_entry": "349tcdZTfQ6Kq8ygT0IF2kh70jW"
+      },
+      "foil": {
+        "_id": "349teph4lrizCp8FsXUsPsMlNUN",
+        "_type": "image",
+        "_entry": "349tcbjR9vkbDslnW3OgmQahChI"
+      }
+    },
+    {
+      "_id": "349taBPnvx9L5dqZZs3wSnla0wf",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349tanxkUVYAxB81dUu6Ja7JMoY",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

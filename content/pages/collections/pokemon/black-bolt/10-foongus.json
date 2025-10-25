@@ -1,0 +1,69 @@
+{
+  "_id": "31maqqYU2b9YVIbJ4gIkz80Kyaf",
+  "_type": "PokemonCard",
+  "_index": "b2C",
+  "title": "Foongus",
+  "number": "10",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Foongus",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1odJlXLypyzYitUfJNIurszV",
+    "_type": "entry",
+    "_entry": "33vXFtQdeH0f1XVOXsWkr39Jnac"
+  },
+  "card": {
+    "_id": "31matT8ros35KDW8gx0n8wWRGH4",
+    "_type": "image",
+    "_entry": "31mamO1VA16UkK3UOieQ7dwgn8T"
+  },
+  "variants": [
+    {
+      "_id": "31maquHRCwprivIX9saqsJZY05l",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mayT1ZWh1TNbrspROfdY7ROMU",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31maziFWF0xjQ6jwZEtvyXtDWSY",
+        "_type": "image",
+        "_entry": "31maoAtZDvt4d9YJKgfPo1DxIvV"
+      },
+      "foil": {
+        "_id": "31mb0idXvIecJqjnsui25n9e2eK",
+        "_type": "image",
+        "_entry": "31mao89HML8XiGs55KIDxOGAjLW"
+      }
+    },
+    {
+      "_id": "31mb0z9VZdAVUBf0rdeDckVSHzy",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mb2OVrIZmXLRBdEUEC8aDMUdZ",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

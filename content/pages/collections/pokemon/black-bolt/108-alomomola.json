@@ -1,0 +1,44 @@
+{
+  "_id": "320AvfyiymYypKW8ByB8tQ9Z7V9",
+  "_type": "PokemonCard",
+  "_index": "b7x",
+  "title": "Alomomola",
+  "number": "108",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Alomomola",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vyknzfdZ21dBX5gEUZRCkoJO9",
+    "_type": "entry",
+    "_entry": "33vaZm4OCinwyEcR3ogngafH3UQ"
+  },
+  "card": {
+    "_id": "320AxOclAbj7RdITcnIPOcTGxH9",
+    "_type": "image",
+    "_entry": "320AhiFfwchdwz3tv8kn7WBA1TO"
+  },
+  "variants": [
+    {
+      "_id": "320AvgPwUl0AxljBILao84d2WPq",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320AzT7gysSzY712tuY8JgD05NJ",
+        "_type": "image",
+        "_entry": "320AnafDGcT2PnSx0e2a3gnckyA"
+      },
+      "foil": {
+        "_id": "320B0D1tQvNX0oUSSig9P0rNbG0",
+        "_type": "image",
+        "_entry": "320Ane8z3nO25GVWS1HUvO7U6TS"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "33R2GoALxpBNfMLWqKUh8VeNGoR",
+  "_type": "PokemonCard",
+  "_index": "b9Z",
+  "title": "Ferrothorn",
+  "number": "149",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Ferrothorn",
+  "energy": "metal",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EE5lmETjBIi1aET9xg51cSC0H",
+    "_type": "entry",
+    "_entry": "349uQhvTpyFTe4TC7prfuhgEM0S"
+  },
+  "card": {
+    "_id": "33R2I5ZxTVqaODVPyrPxz7GEump",
+    "_type": "image",
+    "_entry": "33QkggIW67v4sCkxyGBMgWFvWZl"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R2GrpOqT3P89BxcxJCsRjOdKU",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EE6pf2OwQ4AxMflZGr6RfpFNO",
+        "_type": "image",
+        "_entry": "34BJ5l8wS7py90URC9g0V6sydvC"
+      },
+      "foil": {
+        "_id": "34EE7PwCKlyjhMZWHgRSqyK6DDT",
+        "_type": "image",
+        "_entry": "34BJ5m6esj5kxxcRwnZYjRHUH4w"
+      }
+    }
+  ],
+  "isFullArt": true
+}

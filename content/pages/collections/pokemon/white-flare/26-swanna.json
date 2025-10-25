@@ -1,0 +1,70 @@
+{
+  "_id": "33QoJgZO5jmxU4AU5QwY165HpEr",
+  "_type": "PokemonCard",
+  "_index": "b45",
+  "title": "Swanna",
+  "number": "26",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Swanna",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "349wnQgU4MFuQ7QDm3ih8j7Lavn",
+    "_type": "entry",
+    "_entry": "33vatyiipWTADIY1Vxjg6GCQUNF"
+  },
+  "card": {
+    "_id": "33QoKYYsIKXoTU1jQR0vjeMx7gR",
+    "_type": "image",
+    "_entry": "33Qje0P1Q2DANC0TPwHbj5T3WIS"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QoJeovLSl574SbdIm8WUl2Go8",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349wp5yqw5XKQT76Nfj5Rjv30Ys",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349wukXPrk3AsTM8XQeeToeCz3G",
+        "_type": "image",
+        "_entry": "349wtCGdSaCZLuS8N2pnh3gQMi7"
+      },
+      "foil": {
+        "_id": "349wvK8LQ3x7D0dx0bBSA6wHXmT",
+        "_type": "image",
+        "_entry": "349wt99FQZSGCqPczpoXg9Wh0wU"
+      }
+    },
+    {
+      "_id": "349wpHA1R8aqmJ2eCNv8HCetmKI",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349wpp2pMGHabX3iZoDunkgsvfX",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

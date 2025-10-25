@@ -1,0 +1,47 @@
+{
+  "_id": "2zp1DjDFaQ6bVPk1iH9augu2IdR",
+  "_type": "PokemonSet",
+  "_index": "b0s",
+  "title": "Great Encounters",
+  "number": 35,
+  "ptcgoCode": "GE",
+  "releaseDate": "2008-02-13",
+  "generation": "IV",
+  "serie": "diamondPearlSeries",
+  "symbol": [
+    {
+      "_id": "2zpN7DvjxP7Vog2jwK9zKf86cGi",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe46Bbrq0I5i5N9r3QuDNzzS"
+    }
+  ],
+  "logo": {
+    "_id": "2zp1IKOJDvdBKMsG5GNFuBd7dlX",
+    "_type": "image",
+    "_entry": "2zowirsexokEGEbulfLuIFiuzhU"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

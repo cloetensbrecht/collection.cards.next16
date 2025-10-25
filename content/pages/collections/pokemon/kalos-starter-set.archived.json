@@ -1,0 +1,47 @@
+{
+  "_id": "2zp5P9ptoFtx0q7rw6Chhrv0hCh",
+  "_type": "PokemonSet",
+  "_index": "b0R",
+  "title": "Kalos Starter Set",
+  "number": null,
+  "ptcgoCode": "KSS",
+  "releaseDate": "2013-11-08",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMeivDBRTM2n8uwueLwdsW5Za",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe5UlSuZ3MH95mbtlTbeKRi5"
+    }
+  ],
+  "logo": {
+    "_id": "2zp5SEeRBBftHSsiCo2RFuBSCn4",
+    "_type": "image",
+    "_entry": "2zowipK9Nu52RUwCpak6mhrrSgi"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

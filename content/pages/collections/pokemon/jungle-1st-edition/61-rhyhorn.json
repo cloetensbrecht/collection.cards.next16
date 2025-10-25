@@ -1,0 +1,30 @@
+{
+  "_id": "30qEaY6wIW7WJ0YBDPUztNtcvhZ",
+  "_type": "PokemonCard",
+  "_index": "ay",
+  "title": "Rhyhorn",
+  "number": "61",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Rhyhorn",
+  "energy": "fighting",
+  "stage": "basic",
+  "card": {
+    "_id": "30qEbwTMmHtmqNBXH8R0jj9wRS2",
+    "_type": "image",
+    "_entry": "30q9C3pWBBwr8xa0hDN6IWa4k2m"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

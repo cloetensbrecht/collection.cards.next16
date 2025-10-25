@@ -1,0 +1,77 @@
+{
+  "_id": "31mejEPZHX6PoPuRPMb0WDIcKJ3",
+  "_type": "PokemonCard",
+  "_index": "b3I",
+  "title": "Volcarona",
+  "number": "16",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Volcarona",
+  "energy": "fire",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w1eP4ju9YUdVwQKcMd8kgtMa5",
+    "_type": "entry",
+    "_entry": "33vXORBZFTHoxnDct1xdyH0X3Rj"
+  },
+  "card": {
+    "_id": "31melnDokWWp8AtSdOoWPrkHsx2",
+    "_type": "image",
+    "_entry": "31mea1MQKu322IBuc7AgnhURZSc"
+  },
+  "variants": [
+    {
+      "_id": "31mejADrgF4xEislm66kupuck9O",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {
+        "_id": "31mf6p3vKbPIPuNaMkmghGB7iQC",
+        "_type": "image",
+        "_entry": "31mf5Q4DKnfuHn8XZqEXJDbKRVg"
+      },
+      "foil": {
+        "_id": "31mf7xgK3ByPSnm391fObkr7O0K",
+        "_type": "image",
+        "_entry": "31mf5N66LNx4SnPdBHuYYFaJH3h"
+      }
+    },
+    {
+      "_id": "31mesc87bpCH3TlcWbJNj2PEohF",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31meueR0uZMYS5B0JDYUwSoVYq7",
+        "_type": "image",
+        "_entry": "31mebOAvmtR83d7a5GPSeQM2S7a"
+      },
+      "foil": {
+        "_id": "31mevK0Td7TCWwke46hUOhXlqOd",
+        "_type": "image",
+        "_entry": "31mebNVP0uNK45FBE6EUXbw3Uap"
+      }
+    },
+    {
+      "_id": "31mew3O3P7X7rhX0se5ids3eUqH",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mewxKkaC2S82Lz8guUrqujzNo",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

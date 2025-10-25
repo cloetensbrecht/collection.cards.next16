@@ -1,0 +1,27 @@
+{
+  "_id": "30pwCfTImZNNSA1pkHXATcpvmc5",
+  "_type": "PokemonCard",
+  "_index": "b0a",
+  "title": "Grass Energy",
+  "number": "99",
+  "edgeColor": "#ffe78f",
+  "cardtype": "energy",
+  "energy": "grass",
+  "stage": null,
+  "card": {
+    "_id": "30pwDiPIhSyLIxYpEwc2bqkJ6sf",
+    "_type": "image",
+    "_entry": "30oJl8wx8MBzFZv1Xwx0QofsAhw"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

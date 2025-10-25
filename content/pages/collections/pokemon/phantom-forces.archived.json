@@ -1,0 +1,47 @@
+{
+  "_id": "2zp5kd35QOBmraB2G2XHGVIFXBG",
+  "_type": "PokemonSet",
+  "_index": "b0O",
+  "title": "Phantom Forces",
+  "number": 62,
+  "ptcgoCode": "PHF",
+  "releaseDate": "2014-11-05",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMZ9B5h5w0CKLgAuEOnGZo58U",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe9VDE0qg3VhNLxm6SEdcKtu"
+    }
+  ],
+  "logo": {
+    "_id": "2zp5ooXSP6OuKg1Qx8TZkTE7naH",
+    "_type": "image",
+    "_entry": "2zowirojhu3cNd1jMQybzi1dnKC"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "31PAzxdfHOUAvOrhV3GhQxgko5y",
+  "_type": "PokemonCard",
+  "_index": "aH",
+  "title": "Dragonair",
+  "number": "18",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Dragonair",
+  "energy": "colorless",
+  "stage": "stage1",
+  "card": {
+    "_id": "31PB1AfdLQwt57Y2YiXcCHGympy",
+    "_type": "image",
+    "_entry": "31PAwah1KE2Yfaj4ysJzGFg1FeV"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

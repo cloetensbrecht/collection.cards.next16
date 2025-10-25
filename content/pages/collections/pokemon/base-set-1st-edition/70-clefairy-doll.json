@@ -1,0 +1,29 @@
+{
+  "_id": "30oetfYtQU3OFnUxxa6ZpwE44Xn",
+  "_type": "PokemonCard",
+  "_index": "b07",
+  "title": "Clefairy Doll",
+  "number": "70",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "trainer",
+  "hp": 10,
+  "pokemon": null,
+  "stage": null,
+  "card": {
+    "_id": "30oeuyangWkLkPMvq6wJ7kFkUWs",
+    "_type": "image",
+    "_entry": "30oJlDsPxQxfTiKbMN7hRG6GYiC"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

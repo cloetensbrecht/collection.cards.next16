@@ -1,0 +1,70 @@
+{
+  "_id": "33Qr9C8UQ3DA49z5VfjuALcaJfa",
+  "_type": "PokemonCard",
+  "_index": "b5s",
+  "title": "Archen",
+  "number": "50",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Archen",
+  "energy": "fighting",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A3PpQ0kPM6VhMbs4XJaq81mXF",
+    "_type": "entry",
+    "_entry": "34A3PQs2SDcyJ2TOLjyxI5kbkrK"
+  },
+  "card": {
+    "_id": "33QrB0Wur6dOF5BeKlMKTrOpxQx",
+    "_type": "image",
+    "_entry": "33Qk4YfeXEt702nULJG8pwFfwgK"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qr9AFjiYCcofUsWRiiRrMXwhr",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A3SIsourC1D4otNNROcGPv24u",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A3WGPcleWhXZ3ooirTA2hXnC5",
+        "_type": "image",
+        "_entry": "34A3VMMB6cqg85JeCMOG742fQJF"
+      },
+      "foil": {
+        "_id": "34A3WjUSr45Q0sf8TKiitx7JxFj",
+        "_type": "image",
+        "_entry": "34A3VNrsA274ws3nn6PaSbt5sxp"
+      }
+    },
+    {
+      "_id": "34A3SiX9RiU8vFBRUy2LbxgPSh5",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A3TCj0r9p2UOPHpvm6yvqFSEQ",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

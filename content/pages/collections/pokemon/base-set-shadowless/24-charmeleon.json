@@ -1,0 +1,30 @@
+{
+  "_id": "30oZq9oyfuw28CpYLAr6gn4aff8",
+  "_type": "PokemonCard",
+  "_index": "b3q",
+  "title": "Charmeleon",
+  "number": "24",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Charmeleon",
+  "energy": "fire",
+  "stage": "stage1",
+  "card": {
+    "_id": "31CJwBMChiXpnELQ7MvYrZpvkbN",
+    "_type": "image",
+    "_entry": "311ZfQjU1AEejZ9OmXeJ0ixFwxr"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

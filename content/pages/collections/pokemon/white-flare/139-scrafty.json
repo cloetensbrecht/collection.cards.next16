@@ -1,0 +1,45 @@
+{
+  "_id": "33R1IPYdGWEDDdjUqtYnPu6LgBZ",
+  "_type": "PokemonCard",
+  "_index": "b9A",
+  "title": "Scrafty",
+  "number": "139",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Scrafty",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EDNMfQb4WFXsTEXwitCDidoF5",
+    "_type": "entry",
+    "_entry": "33vYHybqzDsdjmH5AwoSinkDL2L"
+  },
+  "card": {
+    "_id": "33R1JlBZc3bkTuXRZkKLteIYFOl",
+    "_type": "image",
+    "_entry": "33QkcELdnwKxE3beg0D93ZSW48a"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R1INi09zvZ5XOEFgOe6HPk5WR",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EDO7ma9DyGvQKZd4VxVhjN6Oe",
+        "_type": "image",
+        "_entry": "34BJ5k43VZEJkRhDg98KzkCHFMH"
+      },
+      "foil": {
+        "_id": "34EDOeBnl0TTUGCJbovpdUbP86A",
+        "_type": "image",
+        "_entry": "34BJ5pBxRQU6zn2oLU0s3wW68qN"
+      }
+    }
+  ],
+  "isFullArt": true
+}

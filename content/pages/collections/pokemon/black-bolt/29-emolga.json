@@ -1,0 +1,69 @@
+{
+  "_id": "31oqi75qimcFtgyQekJMoC45r40",
+  "_type": "PokemonCard",
+  "_index": "b4T",
+  "title": "Emolga",
+  "number": "29",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Emolga",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1BQpLgwEhygOTFKIS9nNqmwh",
+    "_type": "entry",
+    "_entry": "33vXo0KBpEXgvziBy0udh8bE40d"
+  },
+  "card": {
+    "_id": "31oqkLpB9TvBjam96oBupUD3LqD",
+    "_type": "image",
+    "_entry": "31oiFDWBBC2AGgHglNTlCjcL5Vk"
+  },
+  "variants": [
+    {
+      "_id": "31oqi76Xy0DTNyK6q3F3GFMcA2k",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31oqpIa9oNlBRIX0SM5pNxwIo14",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31oqwlAulIHry83ACCjaqU6AaTk",
+        "_type": "image",
+        "_entry": "31oqvSqOU5WSPb0y0tWt7qGXgQE"
+      },
+      "foil": {
+        "_id": "31oqxXynA6vnm0LBmSB0jUA1cCg",
+        "_type": "image",
+        "_entry": "31oqvVZf0be5yzVeO1jswKBHM9g"
+      }
+    },
+    {
+      "_id": "31oqpwiClkSVtElBGKCG5ve4vMx",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31oqqsjPN6zVIZS4D5arlXpTkuw",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

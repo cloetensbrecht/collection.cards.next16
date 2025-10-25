@@ -1,0 +1,30 @@
+{
+  "_id": "30oZunL44sqtQIYiOC0SsE8GemB",
+  "_type": "PokemonCard",
+  "_index": "b3v",
+  "title": "Dewgong",
+  "number": "25",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Dewgong",
+  "energy": "water",
+  "stage": "stage1",
+  "card": {
+    "_id": "30oZvzVKefVOg9OEFCEQx4lr14y",
+    "_type": "image",
+    "_entry": "30oJl8c36PtVAfxOQRQRJkQjjsZ"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

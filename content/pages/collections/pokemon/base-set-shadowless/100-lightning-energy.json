@@ -1,0 +1,27 @@
+{
+  "_id": "30pwHj2Vj0wPAOCm39eB4mynenr",
+  "_type": "PokemonCard",
+  "_index": "b7T",
+  "title": "Lightning Energy",
+  "number": "100",
+  "edgeColor": "#ffe78f",
+  "cardtype": "energy",
+  "energy": "lightning",
+  "stage": null,
+  "card": {
+    "_id": "31CH2TT3faknuP2lOUsl3V8Y5Kh",
+    "_type": "image",
+    "_entry": "31A25DUL8iZwt8Rbzv3n9eObZ1B"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

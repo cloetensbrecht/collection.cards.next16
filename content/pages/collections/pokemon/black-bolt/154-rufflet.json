@@ -1,0 +1,44 @@
+{
+  "_id": "320TFfz8oof21RX8CEjMEisYLMR",
+  "_type": "PokemonCard",
+  "_index": "b9t",
+  "title": "Rufflet",
+  "number": "154",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Rufflet",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vxDnXaKdjbDzmK5NykaaMR7TS",
+    "_type": "entry",
+    "_entry": "33vcdHQQUHB3yg0bj1aLbrrUfM7"
+  },
+  "card": {
+    "_id": "320THYUtaMvTs5pKTYRv3UOez23",
+    "_type": "image",
+    "_entry": "320FBSS1R1iJbwMH0d5bftflddt"
+  },
+  "variants": [
+    {
+      "_id": "320TFeXE9Daexfj5CYhJrqyWsog",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320TJLcxQwVtNIesxSryrVX3LuY",
+        "_type": "image",
+        "_entry": "320SiLKIXG77YitPkYp4ht5uY5D"
+      },
+      "foil": {
+        "_id": "320TK39RphMKeeNQ0Gxl49c3HBx",
+        "_type": "image",
+        "_entry": "320SiL6siGmUdNEO5uyzWihzkGx"
+      }
+    }
+  ],
+  "isFullArt": true
+}

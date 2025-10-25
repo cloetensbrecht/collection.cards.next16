@@ -1,0 +1,46 @@
+{
+  "_id": "2zp3GGk0SJQequVeicbM4P80puA",
+  "_type": "PokemonSet",
+  "_index": "b0X",
+  "title": "Dragon Vault",
+  "ptcgoCode": "DRV",
+  "releaseDate": "2012-10-05",
+  "generation": "V",
+  "serie": "blackWhiteSeries",
+  "symbol": [
+    {
+      "_id": "2zpMlg0delja8If4QLaVIqEcJxj",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe9lSg8bmUomDMhryTK7o4Eh"
+    }
+  ],
+  "logo": {
+    "_id": "2zp3JrH3pk3f88yXu2PIyylw0AJ",
+    "_type": "image",
+    "_entry": "2zowiuyQViWySJsoSO3YNh13mjp"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

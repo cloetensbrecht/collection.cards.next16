@@ -1,0 +1,28 @@
+{
+  "_id": "31YuSGU6mW7WORpRfeSS8dnjL02",
+  "_type": "PokemonCard",
+  "_index": "b07",
+  "title": "Computer Search",
+  "number": "71",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "trainer",
+  "hp": null,
+  "stage": null,
+  "card": {
+    "_id": "31YuYgSUbK5QznIDQbWII3s9WV8",
+    "_type": "image",
+    "_entry": "31YuWnUiUtzMwF4QJYfoBzPE7Qa"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

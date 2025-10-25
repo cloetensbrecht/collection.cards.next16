@@ -1,0 +1,45 @@
+{
+  "_id": "33R0uFBcWTjgW9e77yxASjTDOKy",
+  "_type": "PokemonCard",
+  "_index": "b8z",
+  "title": "Terrakion",
+  "number": "135",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Terrakion",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34ED0nZJekulKYRotgX0ucSmxb6",
+    "_type": "entry",
+    "_entry": "34ECzPiNOuFTTPDHHMi7GNcczES"
+  },
+  "card": {
+    "_id": "33R0vThFpjmwGMJprgQv8XN2QYg",
+    "_type": "image",
+    "_entry": "33QkcBpW67AZHAXvCQtIpaqomd2"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R0uFVfDjcFuyzTLJc8eMR1glg",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34ED1SWgkjkp1Cnl85epmrItjRn",
+        "_type": "image",
+        "_entry": "34BJ5ngSnOfaH8uYwgJmAkENJDg"
+      },
+      "foil": {
+        "_id": "34ED26pqP57tsCQGaH0VNYZH4WJ",
+        "_type": "image",
+        "_entry": "34BJ5n42TRhzUDJJTkCDD8tUlyc"
+      }
+    }
+  ],
+  "isFullArt": true
+}

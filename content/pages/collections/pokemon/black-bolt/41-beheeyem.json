@@ -1,0 +1,69 @@
+{
+  "_id": "31wj2mw1SGs5wVnSiJINZmo1AmE",
+  "_type": "PokemonCard",
+  "_index": "b5N",
+  "title": "Beheeyem",
+  "number": "41",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Beheeyem",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w0tHlq4zIwDnSAh2XQDv3H5wC",
+    "_type": "entry",
+    "_entry": "33vY2e4FmEOUj4QLEhfQORGoMki"
+  },
+  "card": {
+    "_id": "31wj5vaksF12NaOMMvDA8LKnu16",
+    "_type": "image",
+    "_entry": "31wj009dSZK7Zi9La5yN6CWW8nN"
+  },
+  "variants": [
+    {
+      "_id": "31wj2naawyU66Ceawdmb0OVLQuR",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wjC9QmA77rQ8fvg3NJIxdipMv",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wjHulEXBX0pCbKIpgazVWSEzD",
+        "_type": "image",
+        "_entry": "31wjFFQh9z2tK7wIOz9Hskq2fER"
+      },
+      "foil": {
+        "_id": "31wjIqEaFHmRbmCsNEfBI1iThPi",
+        "_type": "image",
+        "_entry": "31wjFHUB1zB5ZuvYSa39VcHxX3B"
+      }
+    },
+    {
+      "_id": "31wjKSUy9VeFkije2RnCAEycnvn",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wjLUvzFUXY74hDFuCjH3JW5um",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

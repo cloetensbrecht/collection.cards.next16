@@ -1,0 +1,30 @@
+{
+  "_id": "30qEGzd5CKILlRsmH6Nx97QrVs2",
+  "_type": "PokemonCard",
+  "_index": "aw",
+  "title": "Paras",
+  "number": "59",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Paras",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "30qEIBoY9cKKZAdvh24jQTArvkP",
+    "_type": "image",
+    "_entry": "30q9C0XcxiLThl2RKaXm18lh9Cj"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

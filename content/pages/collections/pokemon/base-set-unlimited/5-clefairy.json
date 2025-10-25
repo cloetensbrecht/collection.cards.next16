@@ -1,0 +1,30 @@
+{
+  "_id": "311Wi7jts85NC1DRZ6hcO0B59zB",
+  "_type": "PokemonCard",
+  "_index": "a4",
+  "title": "Clefairy",
+  "number": "5",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Clefairy",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "31MI0HuQb5hj9sb7B1ehWZ4DN4g",
+    "_type": "image",
+    "_entry": "31MHy7SLyJNbHDESq8ahuVbGEfy"
+  },
+  "variants": [
+    {
+      "_id": "311L9YdGKtJr18DAiN3NNkCUlHt",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

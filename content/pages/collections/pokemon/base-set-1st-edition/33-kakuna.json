@@ -1,0 +1,30 @@
+{
+  "_id": "30ob1pdszAleAkS6hcTaGcQ9XzC",
+  "_type": "PokemonCard",
+  "_index": "aW",
+  "title": "Kakuna",
+  "number": "33",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Kakuna",
+  "energy": "grass",
+  "stage": "stage1",
+  "card": {
+    "_id": "30ob36PaksYxyvP2ztkkrYyYcWk",
+    "_type": "image",
+    "_entry": "30oJlCdpraGX67WHj84OoPyMpHw"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

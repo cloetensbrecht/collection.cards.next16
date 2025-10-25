@@ -1,0 +1,30 @@
+{
+  "_id": "30qCdUlzmQNJ5bdgYVEAcDDuXRb",
+  "_type": "PokemonCard",
+  "_index": "b52",
+  "title": "Lickitung",
+  "number": "38",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Lickitung",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "30qCexm6SFT1h1Dd6mZqMQrYZF0",
+    "_type": "image",
+    "_entry": "30q9C1l2EqjUWQrRhKa4JbKyEL9"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

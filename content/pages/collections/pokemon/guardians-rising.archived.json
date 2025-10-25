@@ -1,0 +1,47 @@
+{
+  "_id": "2zp6wAEWppP7fF4WcUhEOsnaDwL",
+  "_type": "PokemonSet",
+  "_index": "b0B",
+  "title": "Guardians Rising",
+  "number": 72,
+  "ptcgoCode": "GRI",
+  "releaseDate": "2017-05-05",
+  "generation": "VII",
+  "serie": "sunMoonSeries",
+  "symbol": [
+    {
+      "_id": "2zpMKKiiHaLxIMYWXxWFQJDpXg8",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe6cchbHuQoPehvWT6hwYimV"
+    }
+  ],
+  "logo": {
+    "_id": "2zp70LB3hweazUU2PlQmCQwncxL",
+    "_type": "image",
+    "_entry": "2zowivLsXC3t0XZyEfPxOpnZj48"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

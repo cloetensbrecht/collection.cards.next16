@@ -1,0 +1,44 @@
+{
+  "_id": "320Rg4gAtwsJ4KdYfwczm8cwSJ9",
+  "_type": "PokemonCard",
+  "_index": "b9b",
+  "title": "Pidove",
+  "number": "148",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Pidove",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vxRtp4NnGkIwXPkQeLwFhEzSn",
+    "_type": "entry",
+    "_entry": "33vcIxCAudq7EcBX0DC2P8SIxgo"
+  },
+  "card": {
+    "_id": "320RhxVUZgd3S4w1WK25ZajjrH4",
+    "_type": "image",
+    "_entry": "320FBSs2q1kAHqqwntfCbGqyp9I"
+  },
+  "variants": [
+    {
+      "_id": "320Rg2wXFk3k0v9pogXHccGzIWs",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320Riro9N0ItmENxaRf5DRT14Ok",
+        "_type": "image",
+        "_entry": "320QeJR1n0pXCsccxXyxAeYwsqV"
+      },
+      "foil": {
+        "_id": "320RjOklmspeImqNfIRN2iWjl30",
+        "_type": "image",
+        "_entry": "320QeMzpNjB3opI6QYQuV9CzBUq"
+      }
+    }
+  ],
+  "isFullArt": true
+}

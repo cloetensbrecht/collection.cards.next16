@@ -1,0 +1,45 @@
+{
+  "_id": "33QzN8oiqNQigkBz6i14R8quF1t",
+  "_type": "PokemonCard",
+  "_index": "b8M",
+  "title": "Swoobat",
+  "number": "120",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Swoobat",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EBf7a3sY8QG2i4yh24AaxqUEr",
+    "_type": "entry",
+    "_entry": "33vtSoFZ0bvONM8edNtxXPsYYMG"
+  },
+  "card": {
+    "_id": "33QzOB2ic6dkDUzjiScP1Jfx7v2",
+    "_type": "image",
+    "_entry": "33QkWh7IVtA9ApF0jiwiCx5uB7w"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QzN5xnVEcMXHOYnknKujdlFTR",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EBg8uUHLkVl9qk8CvWPxhzGKV",
+        "_type": "image",
+        "_entry": "34BItBiB4U0HeKRwkaXaF6b2tiL"
+      },
+      "foil": {
+        "_id": "34EBgclKOoHQ6erVNrHQ1QkribL",
+        "_type": "image",
+        "_entry": "34BItFM2ThLZ9pxNBATbbuUnIUN"
+      }
+    }
+  ],
+  "isFullArt": true
+}

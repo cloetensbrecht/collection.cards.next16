@@ -1,0 +1,28 @@
+{
+  "_id": "31aM11imcTO79oM1tGPxIxdztrn",
+  "_type": "PokemonCard",
+  "_index": "b0W",
+  "title": "Double Colorless Energy",
+  "number": "96",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "energy",
+  "energy": "colorless",
+  "stage": null,
+  "card": {
+    "_id": "31aM2R1MvlbpBGhF7MI5tG34ZcJ",
+    "_type": "image",
+    "_entry": "31aLyBfA3P0deWl5umjGsGIKRkZ"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

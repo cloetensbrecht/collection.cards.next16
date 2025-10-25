@@ -1,0 +1,47 @@
+{
+  "_id": "2zp1hCpqT1b38B4RILbCH3P9rEj",
+  "_type": "PokemonSet",
+  "_index": "b0p",
+  "title": "Stormfront",
+  "number": 38,
+  "ptcgoCode": "SF",
+  "releaseDate": "2008-11-05",
+  "generation": "IV",
+  "serie": "diamondPearlSeries",
+  "symbol": [
+    {
+      "_id": "2zpN3J9Y5bmT4GBF92WkxEZkNYx",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe7cZLOTZOYRPH1BINSqZYVG"
+    }
+  ],
+  "logo": {
+    "_id": "2zp1kb7CgSqeR0Wuy88sEh4yEMA",
+    "_type": "image",
+    "_entry": "2zowitXlRB0aGjqPddB0s4r9xLo"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

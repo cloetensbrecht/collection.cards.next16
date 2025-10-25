@@ -1,0 +1,70 @@
+{
+  "_id": "33QrGAA1bZ0lIv27NIrG0a1dxhq",
+  "_type": "PokemonCard",
+  "_index": "b5v",
+  "title": "Archeops",
+  "number": "51",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Archeops",
+  "energy": "fighting",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34A3bfrQ4Q8aDnneAzeGc8OjgaV",
+    "_type": "entry",
+    "_entry": "34A3PQs2SDcyJ2TOLjyxI5kbkrK"
+  },
+  "card": {
+    "_id": "33QrH5xhffaYvVKFZMzIjbQryl0",
+    "_type": "image",
+    "_entry": "33QkBA3tc38te5j67QFpVOPn5eo"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QrGACCdgkw3vmiVoN10cq0edy",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A3deJ4OEjLj3z74pQPtuULJ2Y",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A3hV42Lngm0bYUkXHGQmTRT12",
+        "_type": "image",
+        "_entry": "34A3geAwV21pYGNuXQJjry9kBIM"
+      },
+      "foil": {
+        "_id": "34A3i0D5xsRcSIUk3LIFXTgVu05",
+        "_type": "image",
+        "_entry": "34A3gehYN1GEnva6eJbdGsn4OWw"
+      }
+    },
+    {
+      "_id": "34A3dzyzyt8rHQvEOWSDJdyfro8",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A3eTlqR0UmRGwjgDnY0BuHc1k",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

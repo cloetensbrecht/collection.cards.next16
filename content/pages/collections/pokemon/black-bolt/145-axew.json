@@ -1,0 +1,44 @@
+{
+  "_id": "320RGixhhdyQqXxC67bEvSM3uL7",
+  "_type": "PokemonCard",
+  "_index": "b9S",
+  "title": "Axew",
+  "number": "145",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Axew",
+  "energy": "dragon",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vxc833F6LGMZ0TZxh7Z5BQOJQ",
+    "_type": "entry",
+    "_entry": "33vYxF4SaXgVk2ZpQSzursungBo"
+  },
+  "card": {
+    "_id": "320RIp16JdEIyK7NwirSRLrS2Jh",
+    "_type": "image",
+    "_entry": "320FBObrEqLNxjbCJJqlYrbdXJR"
+  },
+  "variants": [
+    {
+      "_id": "320RGhwv5pFHiZbbOQNdvjcXfIP",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320RJJaeLGXfKHJaVgQaGEaWHY4",
+        "_type": "image",
+        "_entry": "320QOjrR6O0nCJ7OIdP4wMERbJz"
+      },
+      "foil": {
+        "_id": "320RK4NX2ar3Ez8SuGd0HDjkfhg",
+        "_type": "image",
+        "_entry": "320QOglpbsPaZS8RGVWCeRRBlpV"
+      }
+    }
+  ],
+  "isFullArt": true
+}

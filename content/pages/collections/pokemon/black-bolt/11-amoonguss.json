@@ -1,0 +1,69 @@
+{
+  "_id": "31mbHVHKilgEDaDCFdgLmYGrmWY",
+  "_type": "PokemonCard",
+  "_index": "b2I",
+  "title": "Amoonguss",
+  "number": "11",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Amoonguss",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w1nTDmBC5fOTlyYyRcS1kbx4t",
+    "_type": "entry",
+    "_entry": "33vXFtQdeH0f1XVOXsWkr39Jnac"
+  },
+  "card": {
+    "_id": "31mbIQozEKiTycSCP2oYazu8eTb",
+    "_type": "image",
+    "_entry": "31mbB5iN0Gqhu3RR3SFk5icfuGL"
+  },
+  "variants": [
+    {
+      "_id": "31mbHWltkVgdx6B535KoPZrwRqo",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mbPUva6KOmeipZRozivYkWCDh",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31mbQqzWp9vsAwjuRQDmtGXBUwo",
+        "_type": "image",
+        "_entry": "31mbCnrgnhklpDzSph1H2LqHOQS"
+      },
+      "foil": {
+        "_id": "31mbRs3NKUVVgWfaLfk0iIPvpeH",
+        "_type": "image",
+        "_entry": "31mbCnmpuLhiXPLuyITtQaIYezO"
+      }
+    },
+    {
+      "_id": "31mbS9fgzlYlotkl2cru8f7BFj0",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31mbT7teJVOG0Q5uqFwfXa69xgF",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

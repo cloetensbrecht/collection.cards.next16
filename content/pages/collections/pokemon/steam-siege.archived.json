@@ -1,0 +1,47 @@
+{
+  "_id": "2zp6carsvZeqKucW796j6mddzOy",
+  "_type": "PokemonSet",
+  "_index": "b0F",
+  "title": "Steam Siege",
+  "number": 69,
+  "ptcgoCode": "STS",
+  "releaseDate": "2016-08-03",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMNQh5oFmD1pm9H1Rl52qVqzF",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe51LUP29IPFBtqwmXQFZ8x1"
+    }
+  ],
+  "logo": {
+    "_id": "2zp6gGrVWqAwTaKO36hEDGhuFfu",
+    "_type": "image",
+    "_entry": "2zowita9Ak92aLBOyuxu4fAH4E0"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

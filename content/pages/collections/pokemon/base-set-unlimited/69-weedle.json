@@ -1,0 +1,30 @@
+{
+  "_id": "31YmaIolk0u9p2ZgUFbBavzkoKA",
+  "_type": "PokemonCard",
+  "_index": "b05",
+  "title": "Weedle",
+  "number": "69",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Weedle",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "31YmbQOTm3Xl8muhX8EZFyISzuo",
+    "_type": "image",
+    "_entry": "31YmXr07c1lWIghK2XQy5XsZdg1"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

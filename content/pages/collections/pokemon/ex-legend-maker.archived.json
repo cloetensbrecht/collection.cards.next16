@@ -1,0 +1,47 @@
+{
+  "_id": "2zp0J03GAlngJ2wJlJ8ItTmG6yL",
+  "_type": "PokemonSet",
+  "_index": "b11",
+  "title": "EX Legend Maker",
+  "number": 27,
+  "ptcgoCode": "LM",
+  "releaseDate": "2006-02-13",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNEhbnKo6mHADRCYCWihoZ02r",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe7VuXZTa3Fbi2jdgSvPWHOC"
+    }
+  ],
+  "logo": {
+    "_id": "2zp0MBZHFv68mVxzYCOnbpSPfR0",
+    "_type": "image",
+    "_entry": "2zowioHBvGEF2RgfCKnL7HZyRRW"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

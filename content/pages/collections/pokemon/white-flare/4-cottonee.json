@@ -1,0 +1,70 @@
+{
+  "_id": "33OFHi2zbTYdaEkNRfk7OcTMzv2",
+  "_type": "PokemonCard",
+  "_index": "b1i",
+  "title": "Cottonee",
+  "number": "4",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Cottonee",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349kEuCx19hvXV9OarkKOjqrU62",
+    "_type": "entry",
+    "_entry": "349kE5tdRGEB7zwLxTdi6R1T0yA"
+  },
+  "card": {
+    "_id": "33OFJRaJCuj3fH4YvoRlocthfau",
+    "_type": "image",
+    "_entry": "33OEiNxDOD1f3IRwMEg9wvR4ZwH"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33OFHhdG2BCyijrmFAAVc11CuOU",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "33OFOKm3T1uWKpoCzy766as536f",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "33RFkUiSDseGQ0LvSCe7bw2fyEh",
+        "_type": "image",
+        "_entry": "33RFjPvhy4cXZ4KHYKddb6QWOm4"
+      },
+      "foil": {
+        "_id": "33RFlLYqoJ18uQ3uVtXnBeNvItY",
+        "_type": "image",
+        "_entry": "33RFjPk9vqoFPG602uMXfBbqFTP"
+      }
+    },
+    {
+      "_id": "33OFP3frYE31t4XcFSvkfetEFV9",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "33OFPtphcYXkc7C4APv42VHBg2k",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

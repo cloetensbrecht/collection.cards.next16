@@ -1,0 +1,45 @@
+{
+  "_id": "33QykmCBCmhEamTflQEItuo4G2l",
+  "_type": "PokemonCard",
+  "_index": "b88",
+  "title": "Blitzle",
+  "number": "114",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Blitzle",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EAvohA6sbNUnORTofSHGq6izf",
+    "_type": "entry",
+    "_entry": "34EAvBrTWEsrYJeIo2IclxGsnFL"
+  },
+  "card": {
+    "_id": "33QymAlq9zHZU3UbCkvWisHPxMO",
+    "_type": "image",
+    "_entry": "33QkWemMGpKZ9qPJdtDC4Ax3BCI"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QyknjS79teA1iHNjDLwaZdSwM",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EAwzN7DqLt1yJka5cDcn4Blz2",
+        "_type": "image",
+        "_entry": "34BItF2n4u0XHI3nb6Oc9hCDfgG"
+      },
+      "foil": {
+        "_id": "34EAxc2PpKM30tGLqHiHAkNU7lW",
+        "_type": "image",
+        "_entry": "34BItHRpf2L6I6RtQWQ99kF81r4"
+      }
+    }
+  ],
+  "isFullArt": true
+}

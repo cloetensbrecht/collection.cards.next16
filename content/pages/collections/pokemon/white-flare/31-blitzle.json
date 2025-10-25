@@ -1,0 +1,70 @@
+{
+  "_id": "33Qp6Ryuhcn2m7OSxblFDD57M37",
+  "_type": "PokemonCard",
+  "_index": "b4V",
+  "title": "Blitzle",
+  "number": "31",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Blitzle",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349y4ITuHbqwoWI84WMGfPRbCTC",
+    "_type": "entry",
+    "_entry": "349y3rMLy5zAS7W8kERMYBfmCLf"
+  },
+  "card": {
+    "_id": "33Qp7un82dxKWPQdm0tLfWkKpjX",
+    "_type": "image",
+    "_entry": "33Qjj4aEIA7ebvHWZ2xTFY3sgAs"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qp6RrCZGsinkSM5qoiIoIukOc",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349y63XbnhCObvQrvolHXrerJEi",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349y9fwQidwxND0wZRIAgjSHYxs",
+        "_type": "image",
+        "_entry": "349y8jLaATB20AyQ47856fThx0r"
+      },
+      "foil": {
+        "_id": "349yAMMBV33kbuXz23t6gvr2wqJ",
+        "_type": "image",
+        "_entry": "349y8itPxsHSlXMAyiBSMDx2iWV"
+      }
+    },
+    {
+      "_id": "349y6RnyzFK4CR1bwvg4PpK0CBM",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349y7047y4Rmsu1S1xlXVatUb3d",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

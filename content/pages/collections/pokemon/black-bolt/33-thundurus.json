@@ -1,0 +1,77 @@
+{
+  "_id": "31wdXJ0sxke14hBpQABan5TWO8r",
+  "_type": "PokemonCard",
+  "_index": "b4n",
+  "title": "Thundurus",
+  "number": "33",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Thundurus",
+  "energy": "lightning",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w15OcYAgesBj7TUDyjWw5S7yW",
+    "_type": "entry",
+    "_entry": "33vXtFEOiWjAFERRvhwRAMXm9Eq"
+  },
+  "card": {
+    "_id": "31wdZzlEUR2779OaLlRTW2gEG9N",
+    "_type": "image",
+    "_entry": "31ve9SLPEERSxmuEZvk6NtKa256"
+  },
+  "variants": [
+    {
+      "_id": "31wdXIUH4fVQc7rOfOgT9hdeIn2",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {
+        "_id": "31we2xc9u9M8iwCEvWiIZHkWNFv",
+        "_type": "image",
+        "_entry": "31wdygilzQShj3tDPjOGUVhLd9F"
+      },
+      "foil": {
+        "_id": "31we4auPdVDHdCCp0zPdK2zvPfL",
+        "_type": "image",
+        "_entry": "31wdyc8uhHavsdrVkZ7GnpXIRon"
+      }
+    },
+    {
+      "_id": "31we9VXjhigsift8l0RW6o59YXM",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31weIVEILg9idDRUN4QLaENVJdd",
+        "_type": "image",
+        "_entry": "31weGuhDLM0ddk1yxzkqpS9OHAo"
+      },
+      "foil": {
+        "_id": "31weJZYgie8zEEdOxQEv8Zn4mpR",
+        "_type": "image",
+        "_entry": "31weGtHLnbavr9YnPeGWvBXqRAS"
+      }
+    },
+    {
+      "_id": "31weA9PC27WljvcAVy899ELPQVh",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31weAk3yf0EmvwySLVEdgnQU9PK",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

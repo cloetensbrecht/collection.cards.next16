@@ -1,0 +1,70 @@
+{
+  "_id": "33QqPN6xQf2NbKKU9T4J4v8ntFg",
+  "_type": "PokemonCard",
+  "_index": "b5U",
+  "title": "Frillish",
+  "number": "44",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Frillish",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A2I3olhsyDeuCQ1Wknj7HpF1d",
+    "_type": "entry",
+    "_entry": "34A2Hi5a66y87PkLOft3qkqumbT"
+  },
+  "card": {
+    "_id": "33QqRI5DxYSD46DYS8LmgoyceA0",
+    "_type": "image",
+    "_entry": "33Qk4VMwzlmuwwt4976tn67FXLZ"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QqPM4ylSInC7GDHo0wZpR0BKH",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A2N0DlGATbj2eP4mYBCTco0OL",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A2R0oQkiqIonk0gwp7TUzr6Zq",
+        "_type": "image",
+        "_entry": "34A2LevzxeP2dW1eIGvcb56bTr7"
+      },
+      "foil": {
+        "_id": "34A2RXfXmw8XSugU4a5RkNvh7UN",
+        "_type": "image",
+        "_entry": "34A2LaDi8s8qmX6YhV49MbFus7k"
+      }
+    },
+    {
+      "_id": "34A2NLIyDlbzuOa9c0zcRc47EHQ",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A2NqUJBvWUF1FwcHxFLBlGr2Z",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "33R0nWEPy2jJAhhDLnSFsus8NZy",
+  "_type": "PokemonCard",
+  "_index": "b8w",
+  "title": "Mienshao",
+  "number": "134",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Mienshao",
+  "energy": "fighting",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34ECsQfNZqm5jXuDu6J7goMtaTR",
+    "_type": "entry",
+    "_entry": "34ECrt78YBOcacabhigsFpRWtmX"
+  },
+  "card": {
+    "_id": "33R0oq6foU5ItPwAr0lbtvRpY1e",
+    "_type": "image",
+    "_entry": "33QkcBdy86LoBZmosewLP6Svft1"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R0ncpN2y7izRpOT7sqS6wqdkY",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34ECu6A9sDcEhJg70bk0iYg590k",
+        "_type": "image",
+        "_entry": "34BJ5mFPuMEDgNnznUnT8AKFpsy"
+      },
+      "foil": {
+        "_id": "34ECuk6gky3rldMIyUsxKkqdiDd",
+        "_type": "image",
+        "_entry": "34BJ5lv3YK7kJNzmovPas8kkFqc"
+      }
+    }
+  ],
+  "isFullArt": true
+}

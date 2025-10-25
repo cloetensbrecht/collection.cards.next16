@@ -1,0 +1,27 @@
+{
+  "_id": "30puFVkLbSAI543gjFO1rUcsSzq",
+  "_type": "PokemonCard",
+  "_index": "b0Q",
+  "title": "Revive",
+  "number": "89",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31CHfIA582rmtumJMLEfcqG5PlA",
+    "_type": "image",
+    "_entry": "31A25D29tKAQdBJk0fGy7SW1onW"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

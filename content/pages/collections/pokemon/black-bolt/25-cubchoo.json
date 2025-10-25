@@ -1,0 +1,69 @@
+{
+  "_id": "31ooljuX4pbgiOyfdAFYYxoilhL",
+  "_type": "PokemonCard",
+  "_index": "b48",
+  "title": "Cubchoo",
+  "number": "25",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Cubchoo",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w1HnweAjYpmb98nCzT1Kbaisq",
+    "_type": "entry",
+    "_entry": "33vXeV6EHuY9R8IbwHOdP5FNiQy"
+  },
+  "card": {
+    "_id": "31oop9MdMcOQfHVFpVH4bj7FtPw",
+    "_type": "image",
+    "_entry": "31oiFAEffLor8Qx7C01vnUAcKHP"
+  },
+  "variants": [
+    {
+      "_id": "31ooljlYTsvcF7OSepWXvRanx8i",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31oow73CugidCRjuDLuouNVETrg",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31op5nLvciU386j3Ve4BIhvpNEq",
+        "_type": "image",
+        "_entry": "31op4DeSFd2eLC2XqCvo4dbawy9"
+      },
+      "foil": {
+        "_id": "31op6ZlJge5Eqo1E2z6GOhAl2gT",
+        "_type": "image",
+        "_entry": "31op4A4xfdIP4rte08r4nuamTNV"
+      }
+    },
+    {
+      "_id": "31oowVRq6aPNSjzwB7gdYb88oRp",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31oowj8sxjGNzSTZ5LYG9T0IPgk",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

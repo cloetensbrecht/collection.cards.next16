@@ -1,0 +1,44 @@
+{
+  "_id": "320RP3innx9BQOs90KlISLp3PH6",
+  "_type": "PokemonCard",
+  "_index": "b9V",
+  "title": "Fraxure",
+  "number": "146",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Fraxure",
+  "energy": "dragon",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vxXLV6cm1lG8LyP28vSZtZrpD",
+    "_type": "entry",
+    "_entry": "33vcE5vVaFLWyYpzIZzNxWDatWY"
+  },
+  "card": {
+    "_id": "320RRD6QrHFmRLs3yvpAaMPJqoH",
+    "_type": "image",
+    "_entry": "320FBMWm1XrOWCsWtHi1DreBenq"
+  },
+  "variants": [
+    {
+      "_id": "320RP3tYwhuXkSWGWKOyB6CSNyw",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320RRvsKlgS7Rp7KWjbtwWJh0Ff",
+        "_type": "image",
+        "_entry": "320QeGyAzSEqvL9QGb84Oj2jXQ7"
+      },
+      "foil": {
+        "_id": "320RSaYFBtjZBnR2nt9jIhL89wc",
+        "_type": "image",
+        "_entry": "320QeMn7LuUQAniatD0PO4YQsZJ"
+      }
+    }
+  ],
+  "isFullArt": true
+}

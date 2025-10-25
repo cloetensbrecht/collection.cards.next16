@@ -1,0 +1,41 @@
+{
+  "_id": "320VGO9Ejr1pLKhmpF57SjPEZBC",
+  "_type": "PokemonCard",
+  "_index": "bAF",
+  "title": "Fennel",
+  "number": "162",
+  "edgeColor": "#97999b",
+  "rarity": "ultra-rare",
+  "cardtype": "trainer",
+  "subtype": "supporter",
+  "illustrator": {
+    "_id": "33vwsZXPuPtQvArs9vtXDfhmxMc",
+    "_type": "entry",
+    "_entry": "33vZJOti7WXEFhja1ECral3WpcT"
+  },
+  "card": {
+    "_id": "320VLBXhmaSaSJ9xVuvtNrzbKPi",
+    "_type": "image",
+    "_entry": "320FBOIf5sHCJYghy9jeEUy3eqS"
+  },
+  "variants": [
+    {
+      "_id": "320VGKiBNacf7uxizv4cRchQJQv",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320VMGaruCEAqNoyLe8V36yuf2q",
+        "_type": "image",
+        "_entry": "320V5Qg2Q1FACR9NGUipnM9qbny"
+      },
+      "foil": {
+        "_id": "320VMohLcmlUj7svRE4NlkTxtmY",
+        "_type": "image",
+        "_entry": "320V5Pp5jJgORWbOq1AAXzX9xxs"
+      }
+    }
+  ],
+  "isFullArt": true
+}

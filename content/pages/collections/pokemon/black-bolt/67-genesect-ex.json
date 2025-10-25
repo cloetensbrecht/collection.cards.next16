@@ -1,0 +1,45 @@
+{
+  "_id": "31wwyzUfMt8bVvNnrSbZZR9Pm2C",
+  "_type": "PokemonCard",
+  "_index": "b6h",
+  "title": "Genesect ex",
+  "number": "67",
+  "edgeColor": "#97999b",
+  "rarity": "double-rare",
+  "cardtype": "pokemon",
+  "hp": 220,
+  "pokemon": "Genesect",
+  "energy": "metal",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w05UJU10bJGTIYOdqfgglCoy0",
+    "_type": "entry",
+    "_entry": "33vWmw98oNnKQtVa4Sd9tUkwdMW"
+  },
+  "card": {
+    "_id": "31wx13vsEFnYwZL1D0bmiNbloUI",
+    "_type": "image",
+    "_entry": "31wtY63se9yYnQQyligUtjQfdLl"
+  },
+  "variants": [
+    {
+      "_id": "31wwyvIsOxrDQwMCO0JuuIdjNgk",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31wx9f5uDFA2nrafDzfKUM3DTGB",
+        "_type": "image",
+        "_entry": "31wx4Yh9XU4fLjpKKxCDxjpLEnY"
+      },
+      "foil": {
+        "_id": "31wxAN100dSuIx26fOT27qzJAM7",
+        "_type": "image",
+        "_entry": "31wx4dJaEfUlL3UOKnUQMO2tXcw"
+      }
+    }
+  ],
+  "isEx": true,
+  "isFullArt": true
+}

@@ -1,0 +1,57 @@
+{
+  "_id": "31yUbQmJ0nuRusUgLGtT87ZT7iE",
+  "_type": "PokemonCard",
+  "_index": "b78",
+  "title": "Energy Coin",
+  "number": "81",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "subtype": "item",
+  "illustrator": {
+    "_id": "33vzeJHVz47FZRGL3b7uAyRdVEW",
+    "_type": "entry",
+    "_entry": "33vZGqAhMVeaMz9R4gLoz8dBmSI"
+  },
+  "card": {
+    "_id": "31yUdL7x4dIF1sxI1Os2PwtKyJv",
+    "_type": "image",
+    "_entry": "31yUYyFfQN68txvSMfnZDLqB3mL"
+  },
+  "variants": [
+    {
+      "_id": "31yUbRPFBJhiwCKnBEW9ji4yKnX",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31yUrE2fAMJ59K6r1x07Pz142sl",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31yV2c17lk6ArVmodCGAqyKrhyy",
+        "_type": "image",
+        "_entry": "31yUxeuyYtXOXexexCFCxnVWEeB"
+      },
+      "foil": {
+        "_id": "31yV467K2lATT9c7PgzRzCYMgo4",
+        "_type": "image",
+        "_entry": "31yUxgT2CwqBuLHcznyucETlpk8"
+      }
+    },
+    {
+      "_id": "31yUs05tTvy2MAvBZIH7i24N2oz",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

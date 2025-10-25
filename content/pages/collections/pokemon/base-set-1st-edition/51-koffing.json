@@ -1,0 +1,30 @@
+{
+  "_id": "30ocxZauvseGXufsxIvXLPLYg1M",
+  "_type": "PokemonCard",
+  "_index": "ao",
+  "title": "Koffing",
+  "number": "51",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Koffing",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "30ocyc0fRIMHtHGSQkv8vKvx9oo",
+    "_type": "image",
+    "_entry": "30oJlDzd1rltBnfGxTbq6V9i0e9"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

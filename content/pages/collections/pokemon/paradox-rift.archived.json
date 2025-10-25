@@ -1,0 +1,47 @@
+{
+  "_id": "2zpAgjyaYDE7kSlgCF9ZYgidUEH",
+  "_type": "PokemonSet",
+  "_index": "aX",
+  "title": "Paradox Rift",
+  "number": 98,
+  "ptcgoCode": "PAR",
+  "releaseDate": "2023-11-03",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zpLdmP891iijPvZd9vYHjhmEQX",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8B80nRh3LBHrvISo1Qc7pw"
+    }
+  ],
+  "logo": {
+    "_id": "2zpAk6ra6o4HITEAJhQHEoH5tpz",
+    "_type": "image",
+    "_entry": "2zowippP1fknLfGxCvYlWLTbR4t"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

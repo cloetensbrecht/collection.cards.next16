@@ -1,0 +1,30 @@
+{
+  "_id": "30odL1NcO2z91eNwpJexo0iPi0P",
+  "_type": "PokemonCard",
+  "_index": "aq",
+  "title": "Magnemite",
+  "number": "53",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Magnemite",
+  "energy": "lightning",
+  "stage": "basic",
+  "card": {
+    "_id": "30odLw0XP2pFcbV8xS3uFWz4Vyi",
+    "_type": "image",
+    "_entry": "30oJlA1IzaTByymuTNaFRX3J88k"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

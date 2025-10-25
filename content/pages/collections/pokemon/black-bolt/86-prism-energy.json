@@ -1,0 +1,42 @@
+{
+  "_id": "31yWhadH62TcDMiYNhmUgYQte8b",
+  "_type": "PokemonCard",
+  "_index": "b7F",
+  "title": "Prism Energy",
+  "number": "86",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "energy",
+  "card": {
+    "_id": "31yWjFaEDPMlnU2fJnIS0v0Nkfz",
+    "_type": "image",
+    "_entry": "31yUZ5VcMkkrnkYtAHZjZAG5Wyr"
+  },
+  "variants": [
+    {
+      "_id": "31yWhaGbEMIIY6aXDzpmpTc4WI1",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31yWkaOaHl2sWMK7sz5GFJGw0c3",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31yWpxpevaB4f4Mpk3JHpnhSntc",
+        "_type": "image",
+        "_entry": "31yWmavj5VrawSoAsXxUSgcOKoC"
+      },
+      "foil": {
+        "_id": "31yWrIi4Jq0dS0SkcMV05va7SVS",
+        "_type": "image",
+        "_entry": "31yWmaClgawsFX1GVFiT3aPgh2o"
+      }
+    }
+  ]
+}

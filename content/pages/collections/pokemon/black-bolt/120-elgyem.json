@@ -1,0 +1,44 @@
+{
+  "_id": "320JQ3J7KHJIWNitfa3uxjsbdLL",
+  "_type": "PokemonCard",
+  "_index": "b8P",
+  "title": "Elgyem",
+  "number": "120",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Elgyem",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vyP39PICoq0Mbjvx0LaATeljf",
+    "_type": "entry",
+    "_entry": "33vb2hLfd9f4qupMabCkgPuLvgJ"
+  },
+  "card": {
+    "_id": "320JTG4QfHPRczRDlriCQJUT4TT",
+    "_type": "image",
+    "_entry": "320FBQ5UUsupopah7LtwvGQNo5N"
+  },
+  "variants": [
+    {
+      "_id": "320JQ3QBn79KQFCNgHvoltYAG9B",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320JW4wW5oc20i4oNpVN02z2il4",
+        "_type": "image",
+        "_entry": "320JP84jcTD4qY2U0Wzbz4WqQhc"
+      },
+      "foil": {
+        "_id": "320JWj3apuCf052Olm2y9iNHcif",
+        "_type": "image",
+        "_entry": "320JPDJcrQmMYW8n1m7pkFO3aBT"
+      }
+    }
+  ],
+  "isFullArt": true
+}

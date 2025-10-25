@@ -1,0 +1,46 @@
+{
+  "_id": "2zpITjDrtOW9EcAvkc58TAhAry9",
+  "_type": "PokemonSet",
+  "_index": "b1K",
+  "title": "McDonald's Collection 2012",
+  "ptcgoCode": "M12",
+  "releaseDate": "2012-06-15",
+  "generation": "V",
+  "serie": "mcDonaldsSeries",
+  "symbol": [
+    {
+      "_id": "2zpNuqNRBwzisq4eiOCAfXytTlV",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpISKiOEj5yMgvnsjdAUBR8vCp"
+    }
+  ],
+  "logo": {
+    "_id": "2zpIVvN94dZMFrXO7DgP47Jm4co",
+    "_type": "image",
+    "_entry": "2zpI15QLbrLwCdoQSfSYApqqVVN"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

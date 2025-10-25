@@ -1,0 +1,30 @@
+{
+  "_id": "30oeg0fkjCc6uhUO5Z7Hp30p62L",
+  "_type": "PokemonCard",
+  "_index": "b04",
+  "title": "Voltorb",
+  "number": "67",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Voltorb",
+  "energy": "lightning",
+  "stage": "basic",
+  "card": {
+    "_id": "31CIeBCgvjZBWHPsVFx26H8KB27",
+    "_type": "image",
+    "_entry": "31A25E2raEABFBXtUtJNR8zCtLa"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "320VtSm0TMPsMu5Tz8m80sETwXw",
+  "_type": "PokemonCard",
+  "_index": "bAL",
+  "title": "Kyurem Ex",
+  "number": "165",
+  "edgeColor": "#97999b",
+  "rarity": "special-illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 230,
+  "pokemon": "Kyurem",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vwk9ZwfonOEVH5WyTYGMmyTlG",
+    "_type": "entry",
+    "_entry": "33vcsTmgZBJ0upBoYLsK7zdfjSm"
+  },
+  "card": {
+    "_id": "320VvfV0CnsT9WgvISxy444daji",
+    "_type": "image",
+    "_entry": "320FBRACJVL3IaMyXD1iYWB3W1g"
+  },
+  "variants": [
+    {
+      "_id": "320VtMp1PttXx2duyXFp6Ei7uQd",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320VwUMER1vSZAYiNLFMYOO7N25",
+        "_type": "image",
+        "_entry": "320V5MJF9cuddTq1R1Fmka29P1y"
+      },
+      "foil": {
+        "_id": "320VwuKJgQufebq8m1gKK7PgymT",
+        "_type": "image",
+        "_entry": "320V5NfChYqTrLt4R5romJ1SZqB"
+      }
+    }
+  ],
+  "isEx": true,
+  "isFullArt": true
+}

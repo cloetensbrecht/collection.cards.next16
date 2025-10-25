@@ -1,0 +1,47 @@
+{
+  "_id": "2zozTVc5bckUd9apyAVuTnc5AHD",
+  "_type": "PokemonSet",
+  "_index": "b2j",
+  "title": "EX Team Magma vs Team Aqua",
+  "number": 19,
+  "ptcgoCode": "MA",
+  "releaseDate": "2004-03-15",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNPPeAVHXVtT4IeLEIMdvAUut",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe4cOLdU1CoEL4bvQ3tsRu5R"
+    }
+  ],
+  "logo": {
+    "_id": "2zozX6qNXB07s3Nyz9sWjBC8rh3",
+    "_type": "image",
+    "_entry": "2zowit7g3pAicc8XmdY9ehfAJ0k"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "31zZRePKKLorSbpzl0eINMaBxsN",
+  "_type": "PokemonCard",
+  "_index": "b7M",
+  "title": "Petilil",
+  "number": "91",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Petilil",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vzIaqDWOtXkWPQG2fjDGqXOrP",
+    "_type": "entry",
+    "_entry": "33vXcM15PedMEYsHlvXWD9bbCSX"
+  },
+  "card": {
+    "_id": "31zZatoCOWZz9dgswPL9Rnn3o1H",
+    "_type": "image",
+    "_entry": "31zZXjlE4a9Kw1dvxykd5G9JjaY"
+  },
+  "variants": [
+    {
+      "_id": "31zZRgfLvMFuMWNd6TGursBGyYU",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zZZ6KG6EyUK6SflEbJroKBo9U",
+        "_type": "image",
+        "_entry": "31zZPEpot3P27rRpYED7gA0zwyB"
+      },
+      "foil": {
+        "_id": "31zZZp0j6T1kD4OCywv2x9EKbCi",
+        "_type": "image",
+        "_entry": "31zZPHhf4jYJKy0HK1tOoYr66gE"
+      }
+    }
+  ],
+  "isFullArt": true
+}

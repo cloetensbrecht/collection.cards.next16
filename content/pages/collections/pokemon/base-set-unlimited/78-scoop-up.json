@@ -1,0 +1,28 @@
+{
+  "_id": "31Z1ZUlAlr7d2oHBromcFXSGlb1",
+  "_type": "PokemonCard",
+  "_index": "b0E",
+  "title": "Scoop Up",
+  "number": "78",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "trainer",
+  "hp": null,
+  "stage": null,
+  "card": {
+    "_id": "31Z1bFHO9DiKlKnP4wsTkGDb66D",
+    "_type": "image",
+    "_entry": "31Z1VxmuVNBXRDTRkDl0wYccPcI"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

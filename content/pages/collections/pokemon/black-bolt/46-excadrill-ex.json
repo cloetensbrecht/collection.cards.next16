@@ -1,0 +1,44 @@
+{
+  "_id": "31wlZZgh9m5D0W3c6gr5CLYbvfx",
+  "_type": "PokemonCard",
+  "_index": "b5i",
+  "title": "Excadrill ex",
+  "number": "46",
+  "edgeColor": "#97999b",
+  "rarity": "double-rare",
+  "cardtype": "pokemon",
+  "hp": 270,
+  "pokemon": "Excadrill",
+  "energy": "fighting",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w0hGX6n2GEa5a5HMQVSvzW21l",
+    "_type": "entry",
+    "_entry": "33vXl0YjFKTZFNhit5bDLN0JKiv"
+  },
+  "card": {
+    "_id": "31wlbuH1GS0ZT2HjZrUngwdwZti",
+    "_type": "image",
+    "_entry": "31wizyOUpvLqJ0Vli5S4SPvKGpL"
+  },
+  "variants": [
+    {
+      "_id": "31wlmmtiZS3PniI8IGr3Sz68ovq",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "mask": {
+        "_id": "31wlq0xooFlQwgW4nCVnNeK8U0x",
+        "_type": "image",
+        "_entry": "31wlm8NN4q6ADDSOSIOTHMct5Uo"
+      },
+      "foil": {
+        "_id": "31wlrfbwRncfxdgu22HdWxhXf72",
+        "_type": "image",
+        "_entry": "31wlm3nDfz8ZhXcSJYk0fzopQ7f"
+      }
+    }
+  ],
+  "isEx": true,
+  "isFullArt": true
+}

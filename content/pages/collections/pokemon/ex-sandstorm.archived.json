@@ -1,0 +1,47 @@
+{
+  "_id": "2zoyhE0XIysvOBO7LOAfN4v9IOG",
+  "_type": "PokemonSet",
+  "_index": "b2l",
+  "title": "EX Sandstorm",
+  "number": 17,
+  "ptcgoCode": "SS",
+  "releaseDate": "2003-09-17",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNRkXM3jSqPSCOcweggctrc4K",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe552BNWIQlpiBfzuu2IpyK1"
+    }
+  ],
+  "logo": {
+    "_id": "2zoykZqP1J3LunuidwBD2PspqBM",
+    "_type": "image",
+    "_entry": "2zowiv7L5am2Nd6si6bQmYhhAHt"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

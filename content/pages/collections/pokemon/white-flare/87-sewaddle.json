@@ -1,0 +1,45 @@
+{
+  "_id": "33QvnQ4KqF9EQDmHVeazVdqSZpp",
+  "_type": "PokemonCard",
+  "_index": "b0O",
+  "title": "Sewaddle",
+  "number": "87",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Sewaddle",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BU93KuFHTu8wo69hczmUs9SRD",
+    "_type": "entry",
+    "_entry": "33vdMsxltAjHYhESZvJ74utVq3T"
+  },
+  "card": {
+    "_id": "33QvowpPOOzOHd3Nv92ou4q1rU5",
+    "_type": "image",
+    "_entry": "33QkPMk7erIcu39Lb0tD5A5OPcn"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QvnSsrHH1cb2kSOCwqlpvHJ0w",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BU24HUY5hLEG6IcUl8O3lINnG",
+        "_type": "image",
+        "_entry": "34BIk6Hh81Ma99obaIBLP6fL4BW"
+      },
+      "foil": {
+        "_id": "34BU2hipSnglpY8kkQDbcZUSZ6j",
+        "_type": "image",
+        "_entry": "34BIk0mMAFTrKhMtf8SUcMgiFg1"
+      }
+    }
+  ],
+  "isFullArt": true
+}

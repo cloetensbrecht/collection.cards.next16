@@ -1,0 +1,70 @@
+{
+  "_id": "33QuFQSbPmKtwrzg618BVqocVmV",
+  "_type": "PokemonCard",
+  "_index": "b6o",
+  "title": "Patrat",
+  "number": "72",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Patrat",
+  "energy": "colorless",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A9pkbj8yTZnEu9IktnJZKJ4jS",
+    "_type": "entry",
+    "_entry": "34A9pLulmB5LxkP6GP4T3NckM7t"
+  },
+  "card": {
+    "_id": "33QuGNHVisRL1zDBAEEcwZGZy2c",
+    "_type": "image",
+    "_entry": "33QkLg6YUTvY23ygJNgiGSMuWCQ"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QuFPitwBr1F4yo6VNXPg7BGoi",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A9r2RPGB42voynkUvFmmYJdif",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A9wPkLhhi4qPnPBqzaTqMy6OF",
+        "_type": "image",
+        "_entry": "34A9vC6cuyW2OaAOAqHB3BYXtyj"
+      },
+      "foil": {
+        "_id": "34A9wpVqCypxHExIAVZ23SEptd4",
+        "_type": "image",
+        "_entry": "34A9vD3u6zaQrHHKzUqVMBsAWsD"
+      }
+    },
+    {
+      "_id": "34A9rZzfWMiPTsqsdjbl2tZtbmV",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A9s3tUEVhI3ub4ZGBukZ9Zknl",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

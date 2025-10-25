@@ -1,0 +1,77 @@
+{
+  "_id": "31wvCXQQJEQDSxQkM5GKQMbLpW1",
+  "_type": "PokemonCard",
+  "_index": "b6Y",
+  "title": "Klinklang",
+  "number": "63",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Klinklang",
+  "energy": "metal",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33w0BjIKq1GN1DLc9UGREzdcJd4",
+    "_type": "entry",
+    "_entry": "33vYaU6cyAP5v9iEbxrbJvWTOw3"
+  },
+  "card": {
+    "_id": "31wvFi6UDyx6ekOp9Sn5H1mYGL2",
+    "_type": "image",
+    "_entry": "31wtXzwrgDwoSJEU7A0R7D3lV2f"
+  },
+  "variants": [
+    {
+      "_id": "31wvOmBYhPbOoYFEjZCi6hQgMYp",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {
+        "_id": "31wvb6MdQSpJLRQiYXfFzlrqhvc",
+        "_type": "image",
+        "_entry": "31wvZT2E0fKtC98MXFbpXbT8Vh1"
+      },
+      "foil": {
+        "_id": "31wvdA5cQ80pbPLo8ThM1zU6hCs",
+        "_type": "image",
+        "_entry": "31wvJpgGaucQFb9mjZ6bdfOkdkf"
+      }
+    },
+    {
+      "_id": "31wvPcRP5mjs8yYBrETjPV5x6PC",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wvSughwK60d0GMsZFwfZ83a9L",
+        "_type": "image",
+        "_entry": "31wvJu3b4qM0p8VVH9f1DwWPR3G"
+      },
+      "foil": {
+        "_id": "31wvTokpTu9Cy3L4Cf8xqC4A64N",
+        "_type": "image",
+        "_entry": "31wvJpgGaucQFb9mjZ6bdfOkdkf"
+      }
+    },
+    {
+      "_id": "31wvQRVFUbC6xPDbrI2xJ5v0UIL",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wvQxXyMtTlNjpLkOK7jNub2y0",
+      "_index": "a4",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

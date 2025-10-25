@@ -1,0 +1,45 @@
+{
+  "_id": "33QxdSQKWIpxRWRt09fcvt4bY6W",
+  "_type": "PokemonCard",
+  "_index": "b7l",
+  "title": "Oshawott",
+  "number": "105",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Oshawott",
+  "energy": "water",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BX0SXtbtbaffxR59fczDpEFb1",
+    "_type": "entry",
+    "_entry": "33vY7s09PEgcYcePJCFGqslTjsT"
+  },
+  "card": {
+    "_id": "33Qxf3d3wlq51uh1S3L9071xuVX",
+    "_type": "image",
+    "_entry": "33QkWgXdZJlCrltFmR3GsH82zuU"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QxdRAZvbfrr4Lg0IQxRGq8I7R",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BX1etvAwqCKsvPg1L4H1f6r87",
+        "_type": "image",
+        "_entry": "34BItEiwtWg8EBiiCMgdFYEBhWz"
+      },
+      "foil": {
+        "_id": "34BX29qMwuZkPq7isdfbYFv3A4R",
+        "_type": "image",
+        "_entry": "34BItC93DF1WyckqS2bnSYJAWpn"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "33Qtpm6XDgTL74bxgVhszQqQJGg",
+  "_type": "PokemonCard",
+  "_index": "b6g",
+  "title": "Ferroseed",
+  "number": "68",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Ferroseed",
+  "energy": "metal",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A9M0Fj9HJRugQG6KQB0UWK3lC",
+    "_type": "entry",
+    "_entry": "34A9LokSAiatevc0cEJsqK6p3za"
+  },
+  "card": {
+    "_id": "33QtqqvgCV2gPXeB2szuWm1V76m",
+    "_type": "image",
+    "_entry": "33QkFAq3F5DyzXAPxJthGE8q1Jl"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QtpklSd9vkySjj5aHXeqL1F5U",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A9NA7RtQ7ND9qmccsqhTPnbkz",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A9QMPuJEsNDyG1znZibK9uQao",
+        "_type": "image",
+        "_entry": "34A9PQ1SQtJ9XYSMY9P9UaGM6yX"
+      },
+      "foil": {
+        "_id": "34A9Qs55A7fBx7tedYqcTld7L4F",
+        "_type": "image",
+        "_entry": "34A9PP5fUWVFQt3AifFgrZF27qS"
+      }
+    },
+    {
+      "_id": "34A9NVBTmz0oiy3SzOVXqk54Uih",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A9NuriK7r3eSewGJJcA0JAWqt",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

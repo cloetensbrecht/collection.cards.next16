@@ -1,0 +1,30 @@
+{
+  "_id": "30qDNB1isIAgatKvZqbEPoTBIuU",
+  "_type": "PokemonCard",
+  "_index": "b5j",
+  "title": "Weepinbell",
+  "number": "48",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Weepinbell",
+  "energy": "grass",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qDOIO22GXVZu8TVp1BohaihHF",
+    "_type": "image",
+    "_entry": "30q9BzF4wB6enXgP3xuXKweHujt"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

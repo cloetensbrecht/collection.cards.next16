@@ -1,0 +1,77 @@
+{
+  "_id": "31wmss2m2qT4ouZTeErBeSk194e",
+  "_type": "PokemonCard",
+  "_index": "b5t",
+  "title": "Conkeldurr",
+  "number": "49",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Conkeldurr",
+  "energy": "fighting",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33w0cC9PoiEx5qSx0bXFVayZ0Zm",
+    "_type": "entry",
+    "_entry": "33vYCHr1eRfKbjcW34SJd26wMUg"
+  },
+  "card": {
+    "_id": "31wmukdnpdXdeEJK3LRhnwnySyG",
+    "_type": "image",
+    "_entry": "31wiztOVLfIfR7CiIVCju3J2qyT"
+  },
+  "variants": [
+    {
+      "_id": "31wmsrno9e7BooYfYGp2ilhdyB3",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {
+        "_id": "31wn9RN6sUKwcMzISeWwz3h9N0o",
+        "_type": "image",
+        "_entry": "31wn7f60TPokC8YUUqe9gSJIwOy"
+      },
+      "foil": {
+        "_id": "31wnA5J4sOEfKasYvDZ5xePiQMS",
+        "_type": "image",
+        "_entry": "31wn7kQX8jOQBPJqaz6Y8Ba0uia"
+      }
+    },
+    {
+      "_id": "31wnJ9nFPqyuxJDywAIlAZZk8rQ",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wnRe2cjOPLi6u1Td2OwIzzKWy",
+        "_type": "image",
+        "_entry": "31wnOlS0xvTE73MKLJt6YA61c2d"
+      },
+      "foil": {
+        "_id": "31wnTAWPmnBUPyFqoDrQ24l9Pjm",
+        "_type": "image",
+        "_entry": "31wnOlUMAsJOyiMkPT2abPbSgDj"
+      }
+    },
+    {
+      "_id": "31wnJjLSgfgo4Ll8i4paZ2duW5r",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wnKT8Q1BX1q96NJZcFzaMnROY",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

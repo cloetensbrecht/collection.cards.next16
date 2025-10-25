@@ -1,0 +1,44 @@
+{
+  "_id": "320PR6sRs1v8P8Z2hxWZjVCdYy6",
+  "_type": "PokemonCard",
+  "_index": "b99",
+  "title": "Krookodile",
+  "number": "137",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 170,
+  "pokemon": "Krookodile",
+  "energy": "darkness",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33vxsDXB68gEiFHP4TRkkUTRcBr",
+    "_type": "entry",
+    "_entry": "33vbs4hrhVWRVWppzfM3LlXgFNI"
+  },
+  "card": {
+    "_id": "320PTgdYZa4ZyYuWo44vkXj8XyK",
+    "_type": "image",
+    "_entry": "320FBQKAxyNphfcz2jYQnbmcdMf"
+  },
+  "variants": [
+    {
+      "_id": "320PRBLSaPDUudaNAHDkW4E9f8f",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320PWZgpf0xnLewhWusBUSKXLYw",
+        "_type": "image",
+        "_entry": "320NrUqQBUsFqJsdpUbxB4v40jp"
+      },
+      "foil": {
+        "_id": "320PXFCSAN4n8r7fwjBm0GbWwpx",
+        "_type": "image",
+        "_entry": "320NrYcsUfOtlsX8rmrAal95N8d"
+      }
+    }
+  ],
+  "isFullArt": true
+}

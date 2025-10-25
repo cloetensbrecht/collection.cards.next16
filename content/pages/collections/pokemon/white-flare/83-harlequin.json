@@ -1,0 +1,58 @@
+{
+  "_id": "33QvRZqSbxp2AldhObkKE4w2gsm",
+  "_type": "PokemonCard",
+  "_index": "b0K",
+  "title": "Harlequin",
+  "number": "83",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "subtype": "supporter",
+  "illustrator": {
+    "_id": "34BT2ih85dlLGn1Q8B3oJd8wfYy",
+    "_type": "entry",
+    "_entry": "349r15HPSoIebKPFp8gePJa02Ns"
+  },
+  "card": {
+    "_id": "33QvSdfEvJ6XIPpf4guW9AAIX2a",
+    "_type": "image",
+    "_entry": "33QkPSh30DBz8uGIy8EJpWkH0q9"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QvRc7WOaNmrshmCeC2lWJ3JFm",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34BT2vedmxWmxvo8HUt3Tfg3h7X",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34BT4t7dNWXLpPic7EucKx7dd9m",
+        "_type": "image",
+        "_entry": "34BIk5TwxJdlaelsoMIYvZQZsQ6"
+      },
+      "foil": {
+        "_id": "34BT5OjfWxwALqI269werGoCrZ4",
+        "_type": "image",
+        "_entry": "34BIk4Z3dyGOMLOmNXIQuAibbvs"
+      }
+    },
+    {
+      "_id": "34BT3OcypPkSCXc05SoE0LQU9JD",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

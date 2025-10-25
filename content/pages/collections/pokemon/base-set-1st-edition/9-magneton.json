@@ -1,0 +1,30 @@
+{
+  "_id": "30oU5uXWShQKW3WTRpWZC7VL4PP",
+  "_type": "PokemonCard",
+  "_index": "a8",
+  "title": "Magneton",
+  "number": "9",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Magneton",
+  "energy": "lightning",
+  "stage": "stage1",
+  "card": {
+    "_id": "30oU6hVv0XwdjwW8Zes4p3dpdwK",
+    "_type": "image",
+    "_entry": "30oJlDnFidVdhdoEfvflEipNckW"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

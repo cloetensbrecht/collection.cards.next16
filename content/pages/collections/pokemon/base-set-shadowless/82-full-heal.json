@@ -1,0 +1,28 @@
+{
+  "_id": "30ogKRKCbqU7pPEglpwmy6BAYsT",
+  "_type": "PokemonCard",
+  "_index": "b0J",
+  "title": "Full Heal",
+  "number": "82",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "hp": null,
+  "stage": null,
+  "card": {
+    "_id": "31CI4QiwvJ8sUGFQ7C7FqGDfuzo",
+    "_type": "image",
+    "_entry": "31A259mMu3bReqbKGdUf8mQ2AJs"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

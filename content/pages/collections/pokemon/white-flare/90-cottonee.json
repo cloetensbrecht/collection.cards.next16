@@ -1,0 +1,45 @@
+{
+  "_id": "33Qw8Ob99WoaS23FuJxXrtzgXoX",
+  "_type": "PokemonCard",
+  "_index": "b0R",
+  "title": "Cottonee",
+  "number": "90",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Cottonee",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34BUp4vdvHYobCqzveMaxxJP16e",
+    "_type": "entry",
+    "_entry": "34A3mopNSFAxX2JcbutY5jJMidI"
+  },
+  "card": {
+    "_id": "33Qw9dse8q1cZGKEU8pWKd8AF70",
+    "_type": "image",
+    "_entry": "33QkPOlPTdNHemIhAngXrE4wRdh"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qw8P3TXxJIwZTPCVcgWCKhtEd",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BUrC1Iakd8ZWph7ll0GQWDSr1",
+        "_type": "image",
+        "_entry": "34BIjzxMdlsUVUDSRbcfahIbQQC"
+      },
+      "foil": {
+        "_id": "34BUrcdsIhcxfcQGaWaVMTd5cmt",
+        "_type": "image",
+        "_entry": "34BIk5Chq64N5wPZMevOIiSmru1"
+      }
+    }
+  ],
+  "isFullArt": true
+}

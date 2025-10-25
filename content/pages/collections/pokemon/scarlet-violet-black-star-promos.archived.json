@@ -1,0 +1,42 @@
+{
+  "_id": "2zpa5FSEY9kMAdkgjQAhQTJuh5V",
+  "_type": "PokemonSet",
+  "_index": "ae",
+  "title": "Scarlet & Violet Black Star Promos",
+  "ptcgoCode": "PR-SV",
+  "releaseDate": "2023-01-01",
+  "generation": "IX",
+  "serie": "blackStarPromotionalCards",
+  "symbol": [
+    {
+      "_id": "2zpaFCbT1LD92cquXfFWu0vkrr9",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpaDtn7nDeYAWEhKdrHy8DbInP"
+    }
+  ],
+  "logo": {},
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

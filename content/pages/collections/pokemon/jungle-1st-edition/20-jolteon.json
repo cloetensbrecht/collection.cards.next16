@@ -1,0 +1,30 @@
+{
+  "_id": "30qB3FS1cqfvs8XcjLxDUC4zfB2",
+  "_type": "PokemonCard",
+  "_index": "b3V",
+  "title": "Jolteon",
+  "number": "20",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Jolteon",
+  "energy": "lightning",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qB4s2KLSvDILRz3FJ0st79Pqt",
+    "_type": "image",
+    "_entry": "30q9C4w5224Vha27RnWXgB8c19j"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

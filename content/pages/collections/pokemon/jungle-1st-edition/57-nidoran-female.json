@@ -1,0 +1,30 @@
+{
+  "_id": "30qE5rD6rNI2G4YU0BmGnchnLVO",
+  "_type": "PokemonCard",
+  "_index": "au",
+  "title": "Nidoran ♀",
+  "number": "57",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Nidoran ♀",
+  "energy": "grass",
+  "stage": "basic",
+  "card": {
+    "_id": "30qE8hZUt4Qr1USpmBRlbkTTHLX",
+    "_type": "image",
+    "_entry": "30q9C5NatDxs020gb4oTupxaJRJ"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

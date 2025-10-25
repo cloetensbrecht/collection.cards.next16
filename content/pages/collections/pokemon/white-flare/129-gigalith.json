@@ -1,0 +1,45 @@
+{
+  "_id": "33R0JN0dzelB3P8FNui5UbngTwx",
+  "_type": "PokemonCard",
+  "_index": "b8i",
+  "title": "Gigalith",
+  "number": "129",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 170,
+  "pokemon": "Gigalith",
+  "energy": "fighting",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34ECP3j2m5sXAiQxuobyJh1lPpc",
+    "_type": "entry",
+    "_entry": "34ECOs9fNhPzDwQJdjx6IEC1yrc"
+  },
+  "card": {
+    "_id": "33R0KiF37AvYTzz1vCDfJEP5QTu",
+    "_type": "image",
+    "_entry": "33QkcIq3SmESgQQeA8MvDMlnQq2"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R0JMb74qUc6AJX35uEYv9K8K0",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34ECQ21PwW1VinW3hj8tEPPlsFa",
+        "_type": "image",
+        "_entry": "34BItApa9XbePoYVbYnpVBjO3kN"
+      },
+      "foil": {
+        "_id": "34ECQtasdU8yPI2FkJrDEIr7RND",
+        "_type": "image",
+        "_entry": "34BItGDXwdVWTaTUkcGM4hbCkVl"
+      }
+    }
+  ],
+  "isFullArt": true
+}

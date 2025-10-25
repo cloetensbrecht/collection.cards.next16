@@ -1,0 +1,69 @@
+{
+  "_id": "31wjvtIZFCcWd3bWLfq3DWNrjHW",
+  "_type": "PokemonCard",
+  "_index": "b5W",
+  "title": "Golurk",
+  "number": "43",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 160,
+  "pokemon": "Golurk",
+  "energy": "psychic",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w0q1TtCZcFq63AIgIxhGE5xpK",
+    "_type": "entry",
+    "_entry": "33vY4lW5LvgZz8iymCRDST4DvHG"
+  },
+  "card": {
+    "_id": "31wk2AMopPxB9gqOiBihzYEDzXI",
+    "_type": "image",
+    "_entry": "31wj012Laixy0m5Ge5WIqA4zQCI"
+  },
+  "variants": [
+    {
+      "_id": "31wjvwiiBje1CyhuDFqztlAWJ1n",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wk8h1tJZkiW1JlskPpsUhK3ze",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wkIdLCXvzw0C3kC7sILfRNDhg",
+        "_type": "image",
+        "_entry": "31wkEuB1OJYEho63NqnI6TugJ8c"
+      },
+      "foil": {
+        "_id": "31wkJUWD1YNS8lHpw84f1Nup2SZ",
+        "_type": "image",
+        "_entry": "31wkEtauVylQI7MRyqV1LzGTxvu"
+      }
+    },
+    {
+      "_id": "31wk9TUYjNTvk8IOOhEUfnxoHHs",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wkAjgzhURLIDYbirFylqDbkkI",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "33QpDI5tLqmaKDG5AMmmoVctyT5",
+  "_type": "PokemonCard",
+  "_index": "b4a",
+  "title": "Zebstrika",
+  "number": "32",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Zebstrika",
+  "energy": "lightning",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "349yH9dtRiaRBlhoF0q1MDxveeX",
+    "_type": "entry",
+    "_entry": "349y3rMLy5zAS7W8kERMYBfmCLf"
+  },
+  "card": {
+    "_id": "33QpEDmdfztXLeBVxNzrwtRvXUt",
+    "_type": "image",
+    "_entry": "33Qjj4VNRtSEQZIp5mz3lGTN8X5"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QpDHGkWp9f5dfaSMsfQOwwUBr",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349yIj569eNxGgztsCrzlFJ1TD4",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349yOtqfNLmAHSxMdrsTeELO8tt",
+        "_type": "image",
+        "_entry": "349yNM5iGexkzOOiHRHWr9wiGnO"
+      },
+      "foil": {
+        "_id": "349yPh0eurFBg97XZkUUIrbs8gL",
+        "_type": "image",
+        "_entry": "349yNMJGPuopaWVqBTy3sgh2opC"
+      }
+    },
+    {
+      "_id": "349yJTUFepzdUfBawuCdPJT7iiP",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349yK5kW1u3BUJ6nsAMspxvfrPH",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

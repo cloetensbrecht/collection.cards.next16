@@ -1,0 +1,44 @@
+{
+  "_id": "320LXbFd4BG1Th6T3GHX01OVJRU",
+  "_type": "PokemonCard",
+  "_index": "b8m",
+  "title": "Dwebble",
+  "number": "129",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Dwebble",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vy7ShY14SJbsit5ZRIMdjQZGd",
+    "_type": "entry",
+    "_entry": "33vbVWnveXI5Hh425yZnDzGTufd"
+  },
+  "card": {
+    "_id": "320LZYsr7Qsz7mT0QvEuqlJz7eQ",
+    "_type": "image",
+    "_entry": "320FBQAXyudlYDLjsODNsheYkb4"
+  },
+  "variants": [
+    {
+      "_id": "320LXc8caEFBBeRp5cC0Cm3INCe",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320Lc9wxUpKMTt6heZHH3fGsaBo",
+        "_type": "image",
+        "_entry": "320LVjwW4U96K9cSSZW8NbekN7d"
+      },
+      "foil": {
+        "_id": "320LcasL2cFpIKFhBeG8T0tDGwU",
+        "_type": "image",
+        "_entry": "320LVlmALMpJt2lB4suGXtNeDYJ"
+      }
+    }
+  ],
+  "isFullArt": true
+}

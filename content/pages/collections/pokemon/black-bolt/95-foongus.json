@@ -1,0 +1,44 @@
+{
+  "_id": "31zak2mDNB8EKjzvWwgSgoPAcxv",
+  "_type": "PokemonCard",
+  "_index": "b0Y",
+  "title": "Foongus",
+  "number": "95",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Foongus",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vzA71bMVs9qx3yyYtpyAK3nOh",
+    "_type": "entry",
+    "_entry": "33vZvaPGKvhDf3ZMqxk3g7IfcVS"
+  },
+  "card": {
+    "_id": "31zam1D5MObzU3KHAe0t9g0hixM",
+    "_type": "image",
+    "_entry": "31zafIgWqPB8G4MrBG7jMbypqoI"
+  },
+  "variants": [
+    {
+      "_id": "31zak7ml5328WUPeSonkSt5Pbma",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zapQRS5wwRWrZQlX6MWkToyVX",
+        "_type": "image",
+        "_entry": "31zaiZWolXW3Ue6ffg5j9jVL0d0"
+      },
+      "foil": {
+        "_id": "31zaq4zl54m2v3emeSiixAJWVNO",
+        "_type": "image",
+        "_entry": "31zaiYQ9z5qqyQTVAlnS7O1dl2p"
+      }
+    }
+  ],
+  "isFullArt": true
+}

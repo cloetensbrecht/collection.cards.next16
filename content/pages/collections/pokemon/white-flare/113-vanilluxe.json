@@ -1,0 +1,45 @@
+{
+  "_id": "33QyeaiEfuQA8Ydj9eN6b32tx80",
+  "_type": "PokemonCard",
+  "_index": "b86",
+  "title": "Vanilluxe",
+  "number": "113",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Vanilluxe",
+  "energy": "water",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "34EAnhcmvEvtOMWc9yU7sbygpG7",
+    "_type": "entry",
+    "_entry": "34EAnF4ONkC1Xc64we0L1824Sew"
+  },
+  "card": {
+    "_id": "33Qyftg6SktNXcwp0FsC2N3AXJ8",
+    "_type": "image",
+    "_entry": "33QkWjAtaFLP224DuDRAVrOD2e3"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QyefaWn0GfrhsCmy6A2ptrbYr",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EAp4WHPe7geUtSwacJoBFYdTW",
+        "_type": "image",
+        "_entry": "34BItELK1uIPDh54GlL9XeSBqDC"
+      },
+      "foil": {
+        "_id": "34EApVM1UPsNocyJEUAqQGeBx7y",
+        "_type": "image",
+        "_entry": "34BItG1angilKog0ivkWKvLuQ8S"
+      }
+    }
+  ],
+  "isFullArt": true
+}

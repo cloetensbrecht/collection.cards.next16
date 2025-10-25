@@ -1,0 +1,28 @@
+{
+  "_id": "30puljwqoXCfxhqYlD5v8Zd1X4i",
+  "_type": "PokemonCard",
+  "_index": "b0W",
+  "title": "Switch",
+  "number": "95",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "trainer",
+  "subtype": null,
+  "stage": null,
+  "card": {
+    "_id": "30punDZOHqmGsQsx5pf9MVD02wO",
+    "_type": "image",
+    "_entry": "30oJlDauyycaFAahgvLZCET4Fwn"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

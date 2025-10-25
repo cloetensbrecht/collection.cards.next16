@@ -1,0 +1,30 @@
+{
+  "_id": "30obIOCy4uw6Ee3ddgjIjEIO9OE",
+  "_type": "PokemonCard",
+  "_index": "b4r",
+  "title": "Magmar",
+  "number": "36",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Magmar",
+  "energy": "fire",
+  "stage": "basic",
+  "card": {
+    "_id": "31CJLD2v0cbiE117R1IW5aPIIqv",
+    "_type": "image",
+    "_entry": "31A25BWOGUov8UZYbblPMRr9VOq"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "31zcKru7AhtTocxymgJBCvIRIeH",
+  "_type": "PokemonCard",
+  "_index": "b7b",
+  "title": "Volcarona",
+  "number": "100",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Volcarona",
+  "energy": "fire",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vz2EqJ06hVG3oYSD70zfTFuA1",
+    "_type": "entry",
+    "_entry": "33va8V9OnMaME7h0IDzzOTZ7fBe"
+  },
+  "card": {
+    "_id": "31zcNLI49AxSwIULxT5Uw3ZxXuN",
+    "_type": "image",
+    "_entry": "31zcFwBypQyZ1yDIqpGqzT9sIvE"
+  },
+  "variants": [
+    {
+      "_id": "31zcKu80Wn8xtAC7DsEZ517LZif",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zcQNtBZZ0bQGmzVut55VOay7T",
+        "_type": "image",
+        "_entry": "31zcJ9pIMywE9zBziahRe2vheSH"
+      },
+      "foil": {
+        "_id": "31zcR0OEzMdMrIul9o43EewlERQ",
+        "_type": "image",
+        "_entry": "31zcJ7DXTycGfjZD9Y8I9EemMlt"
+      }
+    }
+  ],
+  "isFullArt": true
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "2zp5fFJzqc4pepeSuhl9eEJ3DAP",
+  "_type": "PokemonSet",
+  "_index": "b0P",
+  "title": "Furious Fists",
+  "number": 61,
+  "ptcgoCode": "FFI",
+  "releaseDate": "2014-08-13",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMaQy640OvnUznhSbhF07ZeVo",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe2GNqHCxz9NXqRBm6RaSSM7"
+    }
+  ],
+  "logo": {
+    "_id": "2zp5idBtRhvQpG76Tek4oqIh2Gz",
+    "_type": "image",
+    "_entry": "2zowiulZ7bUVg31ksiYFjzLFsL2"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

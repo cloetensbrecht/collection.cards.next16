@@ -1,0 +1,25 @@
+{
+  "_id": "2zvMolh5Ph7bPZ748s3cN8T8wPR",
+  "_type": "PokemonSet",
+  "_index": "b2d",
+  "title": "POP Series 3",
+  "ptcgoCode": "POP3",
+  "releaseDate": "2006-04-01",
+  "generation": "III",
+  "serie": "popSeries",
+  "symbol": [
+    {
+      "_id": "2zvMsKoFDxZ5eZZk5Z3IwkIBJoA",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zvK0NkhFSt00luay9muL8f2Cg5"
+    }
+  ],
+  "logo": {
+    "_id": "2zvMsnwcyJDkVv0XmStPrNwNLm4",
+    "_type": "image",
+    "_entry": "2zvKEqF9YEjyHjHWMbj5xrLh5oP"
+  },
+  "rarity": {},
+  "energy": {}
+}

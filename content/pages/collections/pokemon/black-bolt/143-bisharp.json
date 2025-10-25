@@ -1,0 +1,44 @@
+{
+  "_id": "320QysW2aV5FFwXyEhZ05tVp1qe",
+  "_type": "PokemonCard",
+  "_index": "b9O",
+  "title": "Bisharp",
+  "number": "143",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Bisharp",
+  "energy": "metal",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vxfhMnP6IYkTPbXRNrbZ0csRc",
+    "_type": "entry",
+    "_entry": "33vc8fUQ3cLQQniMEPW2AF0lrxG"
+  },
+  "card": {
+    "_id": "320R1xbYP44dZLm1cVsmsDqsoue",
+    "_type": "image",
+    "_entry": "320FBOAveGqm6chsbR2KRQlIuE5"
+  },
+  "variants": [
+    {
+      "_id": "320Qywe9PEz0PLkoqvocH5OGWcD",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320R5IJzQX0xqgKfOhW9c3nGofZ",
+        "_type": "image",
+        "_entry": "320QRwnK7g4M2nVcsrsmSgWZgdW"
+      },
+      "foil": {
+        "_id": "320R67XWiBju7hpF8JnNJYzAcbG",
+        "_type": "image",
+        "_entry": "320QS32aVrCF9xwNg6Fmw7S0rIq"
+      }
+    }
+  ],
+  "isFullArt": true
+}

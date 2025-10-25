@@ -1,0 +1,69 @@
+{
+  "_id": "31wgiRlNfh0FbvRxOyQohdoyNwR",
+  "_type": "PokemonCard",
+  "_index": "b55",
+  "title": "Solosis",
+  "number": "37",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Solosis",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w0z2bmVfN6flVJCdpdxO7Zt30",
+    "_type": "entry",
+    "_entry": "33vXzoV2zrjui8c40TpxruGtopz"
+  },
+  "card": {
+    "_id": "31wgketE7XfUPKGMqNGFeiHfO7x",
+    "_type": "image",
+    "_entry": "31ve9RJoaOTekpnL8qRr70oEUwm"
+  },
+  "variants": [
+    {
+      "_id": "31wgiQmyN2zBi4lbLOb7PlXfYPD",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wgqXulltI87FVm7ET73Si6IP4",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wh1etdCJ0Tz1YemITPIhlKWt0",
+        "_type": "image",
+        "_entry": "31wgycNJZWCgBSqWaTnlI4T02En"
+      },
+      "foil": {
+        "_id": "31wh2Zf7aWWXKq6kEPe1FufcLjU",
+        "_type": "image",
+        "_entry": "31wgyc8wMPrcTymoD4l2G8Awtng"
+      }
+    },
+    {
+      "_id": "31wgrb2qT0WzbXvoiiwbcahOr29",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wgsVKjCAxlIwiofTrkaa8zTI3",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

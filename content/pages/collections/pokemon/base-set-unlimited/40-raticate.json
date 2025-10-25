@@ -1,0 +1,30 @@
+{
+  "_id": "31YGNXDBkiZTktDKEFF4NNCJ4IJ",
+  "_type": "PokemonCard",
+  "_index": "ad",
+  "title": "Raticate",
+  "number": "40",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Raticate",
+  "energy": "colorless",
+  "stage": "stage1",
+  "card": {
+    "_id": "31YGOhsdkyfmRmSRernvpGC3yZD",
+    "_type": "image",
+    "_entry": "31YGLHEjNzYzubBRaZ2b8sCTdds"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "2zpBFbzfV2XUwfUlyXax5xgUxlj",
+  "_type": "PokemonSet",
+  "_index": "aR",
+  "title": "Surging Sparks",
+  "number": 102,
+  "ptcgoCode": "SSP",
+  "releaseDate": "2024-11-08",
+  "generation": "IX",
+  "serie": "scarletVioletSeries",
+  "symbol": [
+    {
+      "_id": "2zpLVU5PK0y00smeWfiVzYejmip",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe3eM7OhFuhMeXiVLHTGwbSm"
+    }
+  ],
+  "logo": {
+    "_id": "2zpBJLc3JgkNBGBckiyC425hGf4",
+    "_type": "image",
+    "_entry": "2zowirYf9qQFSeeryZG0Ehet25M"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

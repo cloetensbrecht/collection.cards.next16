@@ -1,0 +1,70 @@
+{
+  "_id": "33QrwqktR8lk1B9RyXPQmtbAtoq",
+  "_type": "PokemonCard",
+  "_index": "b6G",
+  "title": "Scrafty",
+  "number": "58",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Scrafty",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A85HHlyU3qDz4W77HmffEZHOz",
+    "_type": "entry",
+    "_entry": "33vabllU8Ul1mQxWJnYO2UvxZiq"
+  },
+  "card": {
+    "_id": "33Qrxr828MwQAiets1Mc7uZ1B7Z",
+    "_type": "image",
+    "_entry": "33QkB7ndz1WLpEDu4NIuXACfk5A"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qrww3cVoiU1j83yqo878wVT0J",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A85waUXxCQqjh2kVb9GsRjdVb",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A89QtZjeAiEHwhrYCfEL6jeHt",
+        "_type": "image",
+        "_entry": "34A88pfxt8ID5VXxlNtSp8udSct"
+      },
+      "foil": {
+        "_id": "34A89sqt2VTWGYRteF5XfTDp9fY",
+        "_type": "image",
+        "_entry": "34A88tXYYLMSQwjO3uRf7PxuSbC"
+      }
+    },
+    {
+      "_id": "34A8A7W6ogOHkMwLZfwagxoFrhZ",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A8AnNx4Y9Qr76F6jEZdrwiihf",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

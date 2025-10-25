@@ -1,0 +1,47 @@
+{
+  "_id": "2zp5FckFe2GewuYt8SxRFYnJLUt",
+  "_type": "PokemonSet",
+  "_index": "b0S",
+  "title": "Legendary Treasures",
+  "number": 58,
+  "ptcgoCode": "LTR",
+  "releaseDate": "2013-11-06",
+  "generation": "V",
+  "serie": "blackWhiteSeries",
+  "symbol": [
+    {
+      "_id": "2zpMgiqu6cCLJoIjS2WawTEBBYE",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe4MZaLSQPXwCWZFMaIPid2g"
+    }
+  ],
+  "logo": {
+    "_id": "2zp5LODbziWdOJoGlhPIKO2hnyn",
+    "_type": "image",
+    "_entry": "2zowirUOdu7tGFZEJkQzsWiW3NQ"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

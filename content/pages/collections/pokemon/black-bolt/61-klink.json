@@ -1,0 +1,69 @@
+{
+  "_id": "31wuIMqmNjm5OO8DSl87m2woSbc",
+  "_type": "PokemonCard",
+  "_index": "b6T",
+  "title": "Klink",
+  "number": "61",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Klink",
+  "energy": "metal",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w0FfDyjl3FxNisbZ48KAA2pLP",
+    "_type": "entry",
+    "_entry": "33vYaU6cyAP5v9iEbxrbJvWTOw3"
+  },
+  "card": {
+    "_id": "31wuKesXSY8CFBjSwgHR3OMZZ7a",
+    "_type": "image",
+    "_entry": "31wtY6ijZgJ5fXt8vB0K6piZwkz"
+  },
+  "variants": [
+    {
+      "_id": "31wuIU4YYd1GsCVOWGwhQAlqQZw",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wuRLpuspoAGbt1h91IAcyFHOQ",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wuVjTYks6EmIKDaDMFzAGf2yG",
+        "_type": "image",
+        "_entry": "31wuGUT1RYjxtCzuzvQ8Pz6Q0zY"
+      },
+      "foil": {
+        "_id": "31wuWVklXk1359s5wq2f4bdUvfp",
+        "_type": "image",
+        "_entry": "31wuGVeIne5sV26ndpQPlZPWplR"
+      }
+    },
+    {
+      "_id": "31wuS0D2IZoinKnr0yidE0nOJRb",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wuSr1HqRQSRrMkS4c1hYVPhw5",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

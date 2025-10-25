@@ -1,0 +1,70 @@
+{
+  "_id": "33OErFiEC6ZgpHE4A1Tbc39Dota",
+  "_type": "PokemonCard",
+  "_index": "b1d",
+  "title": "Leavanny",
+  "number": "3",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 130,
+  "pokemon": "Leavanny",
+  "energy": "grass",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "349k8Kq9fT87jjmj4JZBC4R4MZR",
+    "_type": "entry",
+    "_entry": "349e4JeljFnnzz85BdmNSIhdzCc"
+  },
+  "card": {
+    "_id": "33OEsTT3coB2eSfinhA2vZtxwiP",
+    "_type": "image",
+    "_entry": "33OEiSDgg3fmUopTxO1smgQ93tG"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33OErDu03cf4kcfOjddId4PDqbd",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "33OF2esRulch0nJOVjWtd2eTHV5",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "33RFfnFKnF7zx6IpTnQr5q7VShn",
+        "_type": "image",
+        "_entry": "33RFeb59bANsUUvaYeCEfVcWkXg"
+      },
+      "foil": {
+        "_id": "33RFgjC2fZhACisgePN0u7UPvbN",
+        "_type": "image",
+        "_entry": "33RFea8kWjUzDt825EbpSLLQNvS"
+      }
+    },
+    {
+      "_id": "33OF3DZvdnjL4P6nDEx3WOj2ZT5",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "33OF4HiU2NDtWLS0evVpq3IwkNz",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

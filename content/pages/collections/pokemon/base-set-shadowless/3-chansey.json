@@ -1,0 +1,30 @@
+{
+  "_id": "311URwfrr1QcR5k6ePDR0oGbf4N",
+  "_type": "PokemonCard",
+  "_index": "b1Z",
+  "title": "Chansey",
+  "number": "3",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Chansey",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "311USxGn47ADNuCjRdbWic8502e",
+    "_type": "image",
+    "_entry": "311UNoGoadrlk7B1OSK9j4kTuhG"
+  },
+  "variants": [
+    {
+      "_id": "311L9YdGKtJr18DAiN3NNkCUlHt",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

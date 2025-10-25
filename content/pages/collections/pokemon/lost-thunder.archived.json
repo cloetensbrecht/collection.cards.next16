@@ -1,0 +1,47 @@
+{
+  "_id": "2zp7kYrut0gjYUZNncb43FsZjGZ",
+  "_type": "PokemonSet",
+  "_index": "b03",
+  "title": "Lost Thunder",
+  "number": 78,
+  "ptcgoCode": "LOT",
+  "releaseDate": "2018-11-02",
+  "generation": "VII",
+  "serie": "sunMoonSeries",
+  "symbol": [
+    {
+      "_id": "2zpMA4RIcDsRFLvkhcLbVvfyqz1",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8ajIsQnGrOS6h38oPZnzUx"
+    }
+  ],
+  "logo": {
+    "_id": "2zp7oaBhLpavZtMoR7fb0K0dFlB",
+    "_type": "image",
+    "_entry": "2zowisfDv1dfttI60qvvmbmPWG6"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

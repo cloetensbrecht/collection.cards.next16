@@ -1,0 +1,45 @@
+{
+  "_id": "33R0C8V8hue3VJVyOfdkPHltQwM",
+  "_type": "PokemonCard",
+  "_index": "b8f",
+  "title": "Boldore",
+  "number": "128",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Boldore",
+  "energy": "fighting",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34ECJZKUPAU2Uop8xszdBERriks",
+    "_type": "entry",
+    "_entry": "349zkO7TWuwNfwDHyzn5cCwuG9l"
+  },
+  "card": {
+    "_id": "33R0DENnMxRXPWiUa9KwktJphld",
+    "_type": "image",
+    "_entry": "33QkcEqGhU1pbQaB9Rx61uOX8e1"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R0C5KRuouddp77qaWhfr17ZQf",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34ECKhib11RKlFrgDJcDUU6FRHb",
+        "_type": "image",
+        "_entry": "34BItA3SVoZ4wJfGXsveuU5IHvL"
+      },
+      "foil": {
+        "_id": "34ECLO3BIZjIqFKS2bD4EVQM4AP",
+        "_type": "image",
+        "_entry": "34BItCWK9438AxPxrjUDrTNRLkI"
+      }
+    }
+  ],
+  "isFullArt": true
+}

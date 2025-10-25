@@ -1,0 +1,70 @@
+{
+  "_id": "33QuKojN2a7t0vkH3im6tjHUh3H",
+  "_type": "PokemonCard",
+  "_index": "b6r",
+  "title": "Watchog",
+  "number": "73",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Watchog",
+  "energy": "colorless",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34A9zEdM69pCOXrJKbGtj6lVk17",
+    "_type": "entry",
+    "_entry": "34A9pLulmB5LxkP6GP4T3NckM7t"
+  },
+  "card": {
+    "_id": "33QuLoy5woEfONxcKb8MaLCmWT6",
+    "_type": "image",
+    "_entry": "33QkLfv91UdxyngKb18hgih0PTq"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QuKlowypt4D1AZBOS4t6Fji34",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34AA1SWcPh2QMHbySPrTvTaclJd",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34AA2lJ2B7tIuLoYPXYPgJLM1qh",
+        "_type": "image",
+        "_entry": "34AA0R1DX3wfGoM9sTApWxh175Y"
+      },
+      "foil": {
+        "_id": "34AA3TB1SROPKi5QFjqRkeOAn7S",
+        "_type": "image",
+        "_entry": "34AA0M4dAQJd86q8mq5PZkv3S98"
+      }
+    },
+    {
+      "_id": "34AA3l1YTXVHGqAgegLEATWePON",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34AA4BTiK41uNOqI5OojN7fpKzR",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

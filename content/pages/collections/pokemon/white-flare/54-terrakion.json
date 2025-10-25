@@ -1,0 +1,70 @@
+{
+  "_id": "33QrXMPxhHVzTgheFjFUIHdYUvo",
+  "_type": "PokemonCard",
+  "_index": "b64",
+  "title": "Terrakion",
+  "number": "54",
+  "edgeColor": "#97999b",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Terrakion",
+  "energy": "fighting",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34A420zhlPYDB1au8cTYrBh15ql",
+    "_type": "entry",
+    "_entry": "33vbp4wRqjD61S1M56p3d5p0Jaj"
+  },
+  "card": {
+    "_id": "33QrYV0NMvaH6G6j9Mibr3HoHBj",
+    "_type": "image",
+    "_entry": "33QkB74iaQFfyn6vjnD8ITmhe42"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QrXNoIWFwbxMldzq45EMoVuil",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": "tinsel",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A44B6iK2xkvHMZ3GruuyCPLPN",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34A48DWNeAvGUtfWKHEUJKTW4Pz",
+        "_type": "image",
+        "_entry": "34A47Fm3HV2V2TCUdW78glD15Gq"
+      },
+      "foil": {
+        "_id": "34A48pq1lphzhLZDJMx790LUVXD",
+        "_type": "image",
+        "_entry": "34A47BZJktIFl6EcqcmGuvEFy1O"
+      }
+    },
+    {
+      "_id": "34A44bSOSZUPOc1eXFmA7MeAwqa",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34A44uboB6S2ByULpYSy0bJ1cvz",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

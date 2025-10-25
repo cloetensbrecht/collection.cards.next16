@@ -1,0 +1,69 @@
+{
+  "_id": "31ojiejBTpiC2eSZKKHBPTAUT9i",
+  "_type": "PokemonCard",
+  "_index": "b3U",
+  "title": "Simipour",
+  "number": "18",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Simipour",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w1UMKNS97B9uvE0nEPMcvzbmM",
+    "_type": "entry",
+    "_entry": "33vXTH9IN4Vmwr4ZJnpPTlezcXg"
+  },
+  "card": {
+    "_id": "31ojkNFtRvIdPpfkojP7Ie6lxzv",
+    "_type": "image",
+    "_entry": "31oiFC38XRyPOJjURInZng9MhLO"
+  },
+  "variants": [
+    {
+      "_id": "31ojibr5gOSFwV1g0UXAz1Lk5yW",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31ojofpIe2wb1UfpSNCfupS1Sa5",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31oju1qvVCsGMOOFYflCPK2E1Ye",
+        "_type": "image",
+        "_entry": "31ojspcxp2nCv9pDkj02OTH7L2L"
+      },
+      "foil": {
+        "_id": "31ojuqDKwYQGuuub4pNwer6BpZT",
+        "_type": "image",
+        "_entry": "31ojsmR779uos9xfLpN4pqilAfS"
+      }
+    },
+    {
+      "_id": "31ojpYrIywO59XKsao9qRUtuU07",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31ojqNtxFwdIDETsPCstvRBMQ3i",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

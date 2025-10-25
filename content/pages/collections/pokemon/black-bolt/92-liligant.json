@@ -1,0 +1,44 @@
+{
+  "_id": "31zZqk9AK2GYmvS7TbSxb1xExnC",
+  "_type": "PokemonCard",
+  "_index": "b0V",
+  "title": "Liligant",
+  "number": "92",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Lilligant",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vzGyDIi48nCWs8OiH1r9oIz08",
+    "_type": "entry",
+    "_entry": "33vZnt4vvcDqiflRwLJGDAnzW0P"
+  },
+  "card": {
+    "_id": "31zZt0zEZS0v30rSZgmYPaNkg9F",
+    "_type": "image",
+    "_entry": "31zZmTbhxAGOWgkPUKXvnaVP70E"
+  },
+  "variants": [
+    {
+      "_id": "31zZqrS4mXd0uNaFED8WUrigs0w",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zZvtTlYHexLnOGKQeZ6q1iGpl",
+        "_type": "image",
+        "_entry": "31zZpK9Kdo3IElVC3bTjKBAkCZH"
+      },
+      "foil": {
+        "_id": "31zZxEldMahzergUpQhxm94UMHu",
+        "_type": "image",
+        "_entry": "31zZpF7eDnwSnMKGChkpJhRatES"
+      }
+    }
+  ],
+  "isFullArt": true
+}

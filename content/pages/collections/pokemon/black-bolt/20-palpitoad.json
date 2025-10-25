@@ -1,0 +1,69 @@
+{
+  "_id": "31okbhR7DhR0G2p1CxEIYBEBxHg",
+  "_type": "PokemonCard",
+  "_index": "b3f",
+  "title": "Palpitoad",
+  "number": "20",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Palpitoad",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w1PYcFGEzqDzd4BKc2oA4Wh7G",
+    "_type": "entry",
+    "_entry": "33vXX4BkgLXx0jyfFy6DbsrdwFW"
+  },
+  "card": {
+    "_id": "31okeud5hxinMggOT6xPobLKZ1E",
+    "_type": "image",
+    "_entry": "31oiF6ctfY623UF27Cur1qiMOtD"
+  },
+  "variants": [
+    {
+      "_id": "31okbfTdOhSkFju6AD7w9cbPk1j",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31okktNIkZLC14i528Af1px4oug",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31okrunuhDtRDwcSxEZcAQdOpC3",
+        "_type": "image",
+        "_entry": "31okqjhts24tIjOpVk3TokKE9eL"
+      },
+      "foil": {
+        "_id": "31okslAf3dlNqU8BB0xTpBR0ccj",
+        "_type": "image",
+        "_entry": "31okqjEgJWsAn0NeC2JeWQHyTQN"
+      }
+    },
+    {
+      "_id": "31oklJmdlPB70uOMMTMvscekmmW",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31okmEp7aD1bTtIOrOevgUEfDAM",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

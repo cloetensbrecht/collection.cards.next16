@@ -1,0 +1,47 @@
+{
+  "_id": "2zoyC5A0eMMz5Wbp8s4oTwuNaH2",
+  "_type": "PokemonSet",
+  "_index": "b2r",
+  "title": "Legendary Collection",
+  "number": 12,
+  "ptcgoCode": "LC",
+  "releaseDate": "2002-05-24",
+  "generation": "II",
+  "serie": "legendaryCollectionSeries",
+  "symbol": [
+    {
+      "_id": "2zpNZ5wY6luQ2EKVDA2ffGJ4GJR",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe6HiRfTCoOW6MEVEl4IZmcW"
+    }
+  ],
+  "logo": {
+    "_id": "2zoyFsGkQsfSGBu15oLBhktZ58w",
+    "_type": "image",
+    "_entry": "2zowirSpx1RtgwmtK5PhFwVYUan"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

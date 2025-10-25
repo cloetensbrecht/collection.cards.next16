@@ -1,0 +1,58 @@
+{
+  "_id": "33QvVl2oCyeNtJR9GQD69tHA7O3",
+  "_type": "PokemonCard",
+  "_index": "b0L",
+  "title": "Hilda",
+  "number": "84",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "subtype": "supporter",
+  "illustrator": {
+    "_id": "34BT9P0hPJ6PMjeuMnkiNjXXocz",
+    "_type": "entry",
+    "_entry": "34BT8ruBUOSyjVQjt4CzHpRR8Nl"
+  },
+  "card": {
+    "_id": "33QvWshhL5zka1sEIcx7EgK8kZs",
+    "_type": "image",
+    "_entry": "33QkPO4CYoWpc27zJ2hXfHLMAAE"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QvVeJtzd0Nx4tlV4tMglUDkhI",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "34BTZabj7p2ZfG0IBFvEy0SdW48",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "34BTbMTIjFtPqepTyPLVWMHT5mw",
+        "_type": "image",
+        "_entry": "34BIk1fu7nDMiq3NVWe9oGzJ0Tv"
+      },
+      "foil": {
+        "_id": "34BTc0HtNBDWIjvVabcOh9HkdLT",
+        "_type": "image",
+        "_entry": "34BIk5akC33Ey2S477fD5RLrX7T"
+      }
+    },
+    {
+      "_id": "34BTZw64m9a5vMNU75auz4chS9m",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

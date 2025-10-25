@@ -1,0 +1,45 @@
+{
+  "_id": "33R00a7ma4xIoA3yeTBe2pUSSzu",
+  "_type": "PokemonCard",
+  "_index": "b8a",
+  "title": "Frillish",
+  "number": "126",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Frillish",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EC8lSKhxUnPys8AtCGIge6Sc5",
+    "_type": "entry",
+    "_entry": "34EC8XgH9Zxp1twqreTlLl2say3"
+  },
+  "card": {
+    "_id": "33R01dCQ5LjQurhd2JwmsEQQ6hY",
+    "_type": "image",
+    "_entry": "33QkcG2DKLOOOpcuAhHK9jZWFjV"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R00YIkJRaSMPvBgZmqo9HXiY8",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EC9h7YFjEa4ezL7opXX1caFZ2",
+        "_type": "image",
+        "_entry": "34BItDiopTV31Ol3LfmQ3l6umAZ"
+      },
+      "foil": {
+        "_id": "34ECAJQwFWjtdnKZwh9puCU44uX",
+        "_type": "image",
+        "_entry": "34BItBqnP5i5EVhVrqzMpnHG6Ni"
+      }
+    }
+  ],
+  "isFullArt": true
+}

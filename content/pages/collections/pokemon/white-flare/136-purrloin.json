@@ -1,0 +1,45 @@
+{
+  "_id": "33R10Pcij6v9VmYKgifWN8QbtqV",
+  "_type": "PokemonCard",
+  "_index": "b92",
+  "title": "Purrloin",
+  "number": "136",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Purrloin",
+  "energy": "darkness",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34ED48B2veK1wFvQgHJZIVxRBFA",
+    "_type": "entry",
+    "_entry": "349y3rMLy5zAS7W8kERMYBfmCLf"
+  },
+  "card": {
+    "_id": "33R11nIjvajo1trPoXIATBZ5qdE",
+    "_type": "image",
+    "_entry": "33QkcGCuuc8ygln0ziVSHWvqvRN"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R10PyHJPXJRGIXSUFlkRgdxWW",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34ED58pqERxTPOdwOqH3Hpptjaz",
+        "_type": "image",
+        "_entry": "34BJ5o3JUyq8NRpqgKbzRG4oMUv"
+      },
+      "foil": {
+        "_id": "34ED5jeahCkBmwWntxu7T9QfLyr",
+        "_type": "image",
+        "_entry": "34BJ5kzSdF08zfMZTmA6z8HUHhd"
+      }
+    }
+  ],
+  "isFullArt": true
+}

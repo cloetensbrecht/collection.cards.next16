@@ -1,0 +1,30 @@
+{
+  "_id": "31Yle8cRJdsylrAsYrhKiDGjLxw",
+  "_type": "PokemonCard",
+  "_index": "b02",
+  "title": "Staryu",
+  "number": "65",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 40,
+  "pokemon": "Staryu",
+  "energy": "water",
+  "stage": "basic",
+  "card": {
+    "_id": "31YlfaJz9PbxXMtsHeMnOMmIVrT",
+    "_type": "image",
+    "_entry": "31YlYnsJDKPNZs5XqwzsmTUgUwz"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

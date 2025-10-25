@@ -1,0 +1,69 @@
+{
+  "_id": "31wmScxw99dQilCSKOipu4i7zhp",
+  "_type": "PokemonCard",
+  "_index": "b5q",
+  "title": "Gurdurr",
+  "number": "48",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Gurdurr",
+  "energy": "fighting",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w0dxSgKcIluNN4N8a2jJGkk8C",
+    "_type": "entry",
+    "_entry": "33vYCHr1eRfKbjcW34SJd26wMUg"
+  },
+  "card": {
+    "_id": "31wmUgxH8IC8bmOEpiEsWiVQE4R",
+    "_type": "image",
+    "_entry": "31wizus4iXlR9LAelhAIQdQWCKZ"
+  },
+  "variants": [
+    {
+      "_id": "31wmSdAU2KpTUQu3FucKWZzfRLh",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wmYSuyVgn8QJWrhzRhFj04wVJ",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wmfDKPnabe1bhi7ntA4KHv1UC",
+        "_type": "image",
+        "_entry": "31wmdKT1s3wUlTyIfoW3wwFZPgg"
+      },
+      "foil": {
+        "_id": "31wmfulvWvqBnoOdDYvZMXNHYIr",
+        "_type": "image",
+        "_entry": "31wmdHqimydEmDwSOUxaIlS0FwX"
+      }
+    },
+    {
+      "_id": "31wmZAGjMCEVLZtIZwdcyCkXCni",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wmZxmz7joag9GrapahOYoBA6i",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

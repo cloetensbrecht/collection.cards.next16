@@ -1,0 +1,46 @@
+{
+  "_id": "2zpJAiQa1NADHEnFBw0SHJnRNbt",
+  "_type": "PokemonSet",
+  "_index": "b1G",
+  "title": "McDonald's Collection 2017",
+  "ptcgoCode": "M17",
+  "releaseDate": "2017-11-07",
+  "generation": "VII",
+  "serie": "mcDonaldsSeries",
+  "symbol": [
+    {
+      "_id": "2zpNr3Re2M7uVAbbwR7g9kl6EtQ",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpJ9RE1wiIQqOqTlUP1rhpCuAk"
+    }
+  ],
+  "logo": {
+    "_id": "2zpJC5m7UANYH54OOoWMJIS3fSt",
+    "_type": "image",
+    "_entry": "2zpI15QLbrLwCdoQSfSYApqqVVN"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

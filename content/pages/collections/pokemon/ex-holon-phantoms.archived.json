@@ -1,0 +1,47 @@
+{
+  "_id": "2zp0OSXBFTsXPXiOTwSIuLr3DvI",
+  "_type": "PokemonSet",
+  "_index": "b10",
+  "title": "EX Holon Phantoms",
+  "number": 28,
+  "ptcgoCode": "HP",
+  "releaseDate": "2006-05-03",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "2zpNDV8s4J1iov7DaATIgTvokGZ",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe61mRpoyf3RfXfMaqNd7cCE"
+    }
+  ],
+  "logo": {
+    "_id": "2zp0RhP8t14y2igkhVJNswFQLyG",
+    "_type": "image",
+    "_entry": "2zowisx0uK3IhAJSfYqqRg18RMk"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "30obUiPqFjkhZK2bPqrTqpkphLf",
+  "_type": "PokemonCard",
+  "_index": "aa",
+  "title": "Nidorino",
+  "number": "37",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Nidorino",
+  "energy": "grass",
+  "stage": "stage1",
+  "card": {
+    "_id": "30obVdL3OttQivmbtVQrOypmFeD",
+    "_type": "image",
+    "_entry": "30oJlCPQIo77Xn4yc1sAy4Tus7j"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

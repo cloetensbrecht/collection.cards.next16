@@ -1,0 +1,69 @@
+{
+  "_id": "31wiD14CyuXStRuzQ0GUs66BA9j",
+  "_type": "PokemonCard",
+  "_index": "b5J",
+  "title": "Elgyem",
+  "number": "40",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Elgyem",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w0vFRdxpqNdT5om5VBuPYEyDH",
+    "_type": "entry",
+    "_entry": "33vY2e4FmEOUj4QLEhfQORGoMki"
+  },
+  "card": {
+    "_id": "31wiF9aL6kX0XbtKnr2Po6dS8r0",
+    "_type": "image",
+    "_entry": "31ve9QubSo5nQXe83zDbtVqUtJ7"
+  },
+  "variants": [
+    {
+      "_id": "31wiD56O2VLBFgqE0iC0PkLo3vG",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wiLvJ4Z97Pc9Pg6Nzp9kQlMtP",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wiQHqFuLWZFBSIzeOQfGcg6vn",
+        "_type": "image",
+        "_entry": "31wiLQICabLuSP70HlBlWZmh6JA"
+      },
+      "foil": {
+        "_id": "31wiRPiRObirrQYqPD8UKOSBnS9",
+        "_type": "image",
+        "_entry": "31wiLN9MkT7QAmJxHQEYWRaxeds"
+      }
+    },
+    {
+      "_id": "31wiT9FraiBRQExm6bJELf7wfDo",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wiUia0reBrnuJ7llbHWVTvWKM",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

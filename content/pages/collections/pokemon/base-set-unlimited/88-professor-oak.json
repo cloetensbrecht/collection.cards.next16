@@ -1,0 +1,27 @@
+{
+  "_id": "31aIQEHgCuPJ9pzDSsbUAVOzmto",
+  "_type": "PokemonCard",
+  "_index": "b0O",
+  "title": "Professor Oak",
+  "number": "88",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31aIReQmUNEvmqtvNhk7r1b0ixQ",
+    "_type": "image",
+    "_entry": "31aIMtsWbn6lnRqOW52wguw5Lyi"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

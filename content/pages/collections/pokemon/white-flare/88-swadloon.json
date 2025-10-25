@@ -1,0 +1,45 @@
+{
+  "_id": "33QvvyJGrUhbEKKKQapHx3bGQks",
+  "_type": "PokemonCard",
+  "_index": "b0P",
+  "title": "Swadloon",
+  "number": "88",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Swadloon",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34BUIPXQIEL4nQTTqkoTMSv8wsH",
+    "_type": "entry",
+    "_entry": "34BUHfGVIKDiJS8fhSK5y9H2aM0"
+  },
+  "card": {
+    "_id": "33QvwtEqRy2GPHZhBlhicOfDOhp",
+    "_type": "image",
+    "_entry": "33QkPOaizCRuk5Sp23TB07TDa5i"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qvw14qvcR6GkIantiKv1DV6Al",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34BUbaKs76HGBQClwcCT49c6i5r",
+        "_type": "image",
+        "_entry": "34BIk6P9cHdNMZgWeGxvXium493"
+      },
+      "foil": {
+        "_id": "34BUc3jo5tVnI1yxNDDmyGI8Ws5",
+        "_type": "image",
+        "_entry": "34BIk4JTqqeRqgY8rVQxfxHjp3i"
+      }
+    }
+  ],
+  "isFullArt": true
+}

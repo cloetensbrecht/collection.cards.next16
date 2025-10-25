@@ -1,0 +1,46 @@
+{
+  "_id": "2zpHsH9sZgUdXFF7bJ1R8M5EOhD",
+  "_type": "PokemonSet",
+  "_index": "b1Q",
+  "title": "McDonald's Collection 2011",
+  "ptcgoCode": "M11",
+  "releaseDate": "2011-06-17",
+  "generation": "V",
+  "serie": "mcDonaldsSeries",
+  "symbol": [
+    {
+      "_id": "2zpNvlJQl2iIO7pdhxQwPKRTcZC",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpIGXwoTrw8t174wwkp6chDPKJ"
+    }
+  ],
+  "logo": {
+    "_id": "2zy5drZcEDC4kj0NNKnxfiQrGCx",
+    "_type": "image",
+    "_entry": "2zy5cGAEjJjFcY6GJWT0UkxLzU6"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

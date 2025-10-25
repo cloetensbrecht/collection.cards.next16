@@ -1,0 +1,44 @@
+{
+  "_id": "320AXVdDWFNRnRDDRDQiw8cNBoh",
+  "_type": "PokemonCard",
+  "_index": "b7u",
+  "title": "Carracosta",
+  "number": "107",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 180,
+  "pokemon": "Carracosta",
+  "energy": "water",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33vymgg74SRuSqMk9GHzuFUCFez",
+    "_type": "entry",
+    "_entry": "33vaWnMgheZxFmcwQVMnWgjG5Rh"
+  },
+  "card": {
+    "_id": "320AZRVTiQFPvIqlS4t6WfODmuN",
+    "_type": "image",
+    "_entry": "320AR7c36KDWVncIS8Odn1zKilI"
+  },
+  "variants": [
+    {
+      "_id": "320AXVbXueV8DZ6AQ8B8sfpXTDE",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320AcGtq0ia47qagWJAi52CSu5w",
+        "_type": "image",
+        "_entry": "320AW8Y9RIfRbx5Tj3qBbc6ssVF"
+      },
+      "foil": {
+        "_id": "320AcuidcUgue13HfV6M7nL2g5B",
+        "_type": "image",
+        "_entry": "320AWBd9LZiZy3vm6SAdgCoCS7M"
+      }
+    }
+  ],
+  "isFullArt": true
+}

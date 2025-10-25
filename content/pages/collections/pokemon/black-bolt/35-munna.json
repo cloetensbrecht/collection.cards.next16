@@ -1,0 +1,69 @@
+{
+  "_id": "31wf2X3QuvYJh1h18mzz8I33OBE",
+  "_type": "PokemonCard",
+  "_index": "b4x",
+  "title": "Munna",
+  "number": "35",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Munna",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w125kZSHHnbfJptwxqqBH0odv",
+    "_type": "entry",
+    "_entry": "33vXxaxiOer6KWGzeJiPP5iJJZe"
+  },
+  "card": {
+    "_id": "31wf4lIF4Zj31pG9gmG4kdhyQKq",
+    "_type": "image",
+    "_entry": "31ve9SJ9dMVWQRZbpI9jQ30hgAr"
+  },
+  "variants": [
+    {
+      "_id": "31wf2YDksctivJCU7qrkWf79QVG",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wfJuLQv5nfFvgXVd7Dk7iDKVF",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wfQsKTxWUdGTZ0cUwR1pwEgPq",
+        "_type": "image",
+        "_entry": "31wfPfQMfNllqULRhlDAuFXZg90"
+      },
+      "foil": {
+        "_id": "31wfRnGBwjOhoX6g3Lljku7XbtB",
+        "_type": "image",
+        "_entry": "31wfPaUXPSjEg0DZpAAZc3zO9gk"
+      }
+    },
+    {
+      "_id": "31wfKRnZ5Wtf2F3atzEwMPvp5eo",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wfLSGMwZGAScMMqynYGne8h93",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

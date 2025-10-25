@@ -1,0 +1,25 @@
+{
+  "_id": "30t7OakATiYyEeWps6hSfimU59D",
+  "_type": "PokemonSet",
+  "_index": "aC",
+  "title": "Silver Tempest Trainer Gallery",
+  "ptcgoCode": "SIT",
+  "releaseDate": "2022-11-11",
+  "generation": "VIII",
+  "serie": "swordShieldSeries",
+  "symbol": [
+    {
+      "_id": "30t7Tdf3WeQda2y2xIUdeAnTZko",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe8R9qb50N4uFc6DmI706Uto"
+    }
+  ],
+  "logo": {
+    "_id": "30t7eXjDV5f6VXItC37WFX90u3b",
+    "_type": "image",
+    "_entry": "30t7asczKJnJ0tMbxoSq8v1RbWj"
+  },
+  "rarity": {},
+  "energy": {}
+}

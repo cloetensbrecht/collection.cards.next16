@@ -1,0 +1,45 @@
+{
+  "_id": "33QyKEKSRETvBJkl1hVrLiZRHLD",
+  "_type": "PokemonCard",
+  "_index": "b7y",
+  "title": "Swanna",
+  "number": "110",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 120,
+  "pokemon": "Swanna",
+  "energy": "water",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EAWKDlA3vixr1wqnO4TugUDPb",
+    "_type": "entry",
+    "_entry": "33vXZdai5YlKTpVz9murSbKzPZg"
+  },
+  "card": {
+    "_id": "33QyLbh9peZcWhZDe68Ik8npgCk",
+    "_type": "image",
+    "_entry": "33QkWlJdxlFGmrjaftoHKpr9b6u"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QyKE19txI0EK0VEZxvJ2NSNcy",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EAXCVHPJjuuA9lVTceU4zL0gP",
+        "_type": "image",
+        "_entry": "34BItH5XDIqAQDAWnHtem9z0Ba9"
+      },
+      "foil": {
+        "_id": "34EAXiit6S9sPCoXoIy1q3ancmN",
+        "_type": "image",
+        "_entry": "34BItDfiWUJVmUWrCJ7w2Daw9aF"
+      }
+    }
+  ],
+  "isFullArt": true
+}

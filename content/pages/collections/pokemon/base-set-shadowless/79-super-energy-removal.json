@@ -1,0 +1,27 @@
+{
+  "_id": "30og6prtWOTiQBkNeMuIji0fGes",
+  "_type": "PokemonCard",
+  "_index": "b0G",
+  "title": "Super Energy Removal",
+  "number": "79",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31CIQPpJmwtfjXZpfvLzAgIEhkz",
+    "_type": "image",
+    "_entry": "31A25ESBIF38pFnSIMkpIeZUzbq"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

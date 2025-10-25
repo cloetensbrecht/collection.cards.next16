@@ -1,0 +1,70 @@
+{
+  "_id": "33QmVef2uxeTRoxI3ZDFo18Gt5n",
+  "_type": "PokemonCard",
+  "_index": "b3E",
+  "title": "Lampent",
+  "number": "17",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Lampent",
+  "energy": "fire",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "349tiTV0cHCzhotvuMsi4P0YpYv",
+    "_type": "entry",
+    "_entry": "349tWftyxx6WEzzYt8kfs8dWWPv"
+  },
+  "card": {
+    "_id": "33QmX5UQs6XLdBlkycCwGjEngJL",
+    "_type": "image",
+    "_entry": "33Qja7FwMtYaJOX5FniG3IybqCg"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QmVbxuchEOEF1wozlct2iA7UH",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349tmdDORHJB8EfO7lahPzb2Vj4",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349tw76bU2XESHfLNSdABt9hegn",
+        "_type": "image",
+        "_entry": "349tqrIJnWalQ2nc6DxhOjXVnwC"
+      },
+      "foil": {
+        "_id": "349twyuSySnqHG8tRfJ8z3T6Egi",
+        "_type": "image",
+        "_entry": "349tqlDeOIBZmvohlL8yFWLFpO3"
+      }
+    },
+    {
+      "_id": "349tn17bNLllFdlGCdmsmXPyqIy",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349tnepean2ndHCyOpUZJRDt5no",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

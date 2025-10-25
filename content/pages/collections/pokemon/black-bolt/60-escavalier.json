@@ -1,0 +1,69 @@
+{
+  "_id": "31wswcu4w5jg4HCTEe2cuARY0SS",
+  "_type": "PokemonCard",
+  "_index": "b6Q",
+  "title": "Escavalier",
+  "number": "60",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 130,
+  "pokemon": "Escavalier",
+  "energy": "metal",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33w0GzZa0nmr0r8vzxFGIHqRpwK",
+    "_type": "entry",
+    "_entry": "33vXDMRgpJW9sU8dGWUzYIzw64y"
+  },
+  "card": {
+    "_id": "31wsycACsMalN8IrsYlQgclcfDk",
+    "_type": "image",
+    "_entry": "31woH0rw2NgU6YIakd5eOhmVx3A"
+  },
+  "variants": [
+    {
+      "_id": "31wswbgJjc9Rlk258wKiNm40338",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wt6VpyMlYrDKhW7CaPBi4BB9z",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wtD4UZErJ2l47rq1EEQJVF6rN",
+        "_type": "image",
+        "_entry": "31wtAVZj4P0dNePtIlAYpIAVcia"
+      },
+      "foil": {
+        "_id": "31wtDyAeFAYNr06BRQnFGSreORQ",
+        "_type": "image",
+        "_entry": "31wtAVWzcAAnduuyNxqjDnMO4rI"
+      }
+    },
+    {
+      "_id": "31wt7D970LP7anyCLDaY034WPWK",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wt7rJNd33qsgCSW1joYr4KAbe",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

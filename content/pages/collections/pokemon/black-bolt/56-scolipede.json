@@ -1,0 +1,69 @@
+{
+  "_id": "31wqkwysLfcDJyq8ZDlvPC0bsww",
+  "_type": "PokemonCard",
+  "_index": "b6F",
+  "title": "Scolipede",
+  "number": "56",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 160,
+  "pokemon": "Scolipede",
+  "energy": "darkness",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33w0PHQQRytFjdqGLDph2WSz2CW",
+    "_type": "entry",
+    "_entry": "33vYShPn1MFdmM9hYQmk5aO5Kgp"
+  },
+  "card": {
+    "_id": "31wqm9BSs5d6KG8ZcqYPZGUxdCg",
+    "_type": "image",
+    "_entry": "31woH13yQ9FN38BGRumX3gQXaIC"
+  },
+  "variants": [
+    {
+      "_id": "31wql2R0lpqZBQK8j2ojD0IbpMN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wqsXv7nxkjQUEFtRNmLj7iMvn",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wrYbmjDS7JpRYzuhkz8c9dNgt",
+        "_type": "image",
+        "_entry": "31wrX4paHmy3gx6AizPu46rbqxN"
+      },
+      "foil": {
+        "_id": "31wrZNezRjaIpUYHRSHSS3uMEIC",
+        "_type": "image",
+        "_entry": "31wrX91k3ZlNbuixJtYxeQXeY8d"
+      }
+    },
+    {
+      "_id": "31wqtMAGSR2orkFhpkp6y8HPXmB",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wqu3wjQYhPXIhYfeu56QNjqqs",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

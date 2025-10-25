@@ -1,0 +1,69 @@
+{
+  "_id": "31whoZNcvo5lI95RDitWGpv2Lqg",
+  "_type": "PokemonCard",
+  "_index": "b5E",
+  "title": "Reuniclus",
+  "number": "39",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 140,
+  "pokemon": "Reuniclus",
+  "energy": "psychic",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33w0wSgAVwE3S5xnmzALHE3I5Rj",
+    "_type": "entry",
+    "_entry": "33vXzoV2zrjui8c40TpxruGtopz"
+  },
+  "card": {
+    "_id": "31whr07xNQUIeDAiPfMbk3QQbLR",
+    "_type": "image",
+    "_entry": "31ve9VLnNRomoqZX5DnqFcEHwo4"
+  },
+  "variants": [
+    {
+      "_id": "31whoZNFNYSdCPvTCd1qEk4o3vN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wi1qMOb6UHsAObUjTWxgvvmgq",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wi3682HctZE3Dbev9SVJAVsh3",
+        "_type": "image",
+        "_entry": "31wi1HPZbKnsq47vhpAX59J50zg"
+      },
+      "foil": {
+        "_id": "31wi4CLJSWVVx4wFiZAOv6RBo4D",
+        "_type": "image",
+        "_entry": "31wi1J8iIJb3Eh8P1N5t6o16toH"
+      }
+    },
+    {
+      "_id": "31wi51ib5ZvVUVt5wG8P0Pc2gTT",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wi622tfP5rbVC1imyFTr1NfEV",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

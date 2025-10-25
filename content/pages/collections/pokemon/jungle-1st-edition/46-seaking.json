@@ -1,0 +1,30 @@
+{
+  "_id": "30qDECFkzFqvF2rhDEmWptY4M9Y",
+  "_type": "PokemonCard",
+  "_index": "b5b",
+  "title": "Seaking",
+  "number": "46",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Seaking",
+  "energy": "water",
+  "stage": "stage1",
+  "card": {
+    "_id": "30qDFRvjrZ2ClNmA0F7ahcOEzJK",
+    "_type": "image",
+    "_entry": "30q9C6G2x2TsoVYU9m1oYyxbpEA"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "2zvNJy6T8h5NZgVLCWHhKlmBXJP",
+  "_type": "PokemonSet",
+  "_index": "b2Z",
+  "title": "POP Series 7",
+  "ptcgoCode": "POP7",
+  "releaseDate": "2008-03-01",
+  "generation": "IV",
+  "serie": "popSeries",
+  "symbol": [
+    {
+      "_id": "2zvNMCUfiYanrRcti7TsWBmTnpe",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zvK0Mr5SNV4ebj218jAoNPW1ne"
+    }
+  ],
+  "logo": {
+    "_id": "2zvNMrySOb0BVIOop5xcW3g4DJd",
+    "_type": "image",
+    "_entry": "2zvKEqF9YEjyHjHWMbj5xrLh5oP"
+  },
+  "rarity": {},
+  "energy": {}
+}

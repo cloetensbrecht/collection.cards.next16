@@ -1,0 +1,44 @@
+{
+  "_id": "31zc7OI8oFb8V0XrglruJ8Ew27Y",
+  "_type": "PokemonCard",
+  "_index": "b0c",
+  "title": "Larvesta",
+  "number": "99",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Larvesta",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vz3sepaSYd7n0ujeH5hOVYB5G",
+    "_type": "entry",
+    "_entry": "33va5PXgXGv3w9ZPLxEyKsnUSie"
+  },
+  "card": {
+    "_id": "31zc9VaVLokHRe5EGvX0GDR5sYf",
+    "_type": "image",
+    "_entry": "31zc2DZuBsrUoYTZMtYBwLZEnb2"
+  },
+  "variants": [
+    {
+      "_id": "31zc7TCEl9c4HNIlcWcBQcFackU",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31zcCDHt5UPTBSibbFlmvVIUnSl",
+        "_type": "image",
+        "_entry": "31zc6H2ZVRIYgC7zQPSb5mPHQNB"
+      },
+      "foil": {
+        "_id": "31zcCr8hi71WZhaRoEQIHGF64XZ",
+        "_type": "image",
+        "_entry": "31zc6LLmi18gZncX0TyKYmtOOGk"
+      }
+    }
+  ],
+  "isFullArt": true
+}

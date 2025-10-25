@@ -1,0 +1,44 @@
+{
+  "_id": "31mLgT65t2p8euhDvXdvMSFL8mE",
+  "_type": "PokemonCard",
+  "_index": "b1a",
+  "title": "Victini",
+  "number": "171",
+  "edgeColor": "#e50a0e",
+  "rarity": "black-white-rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Victini",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33vwPCkKbMgPh6WobwxLBwE2VIW",
+    "_type": "entry",
+    "_entry": "33vWmw98oNnKQtVa4Sd9tUkwdMW"
+  },
+  "card": {
+    "_id": "31mLiUcZXJJiwc0XDm7THJOsEfG",
+    "_type": "image",
+    "_entry": "31mLecqWlRvkanj9FiL5zZuRTYL"
+  },
+  "variants": [
+    {
+      "_id": "31mLgT7BUKyZZkypcOVzUdbpJf1",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31mLwuqnCoGpG5zyDBGMSep3Tz4",
+        "_type": "image",
+        "_entry": "31mLumbqRilTNaFwHwCD7JC2Irn"
+      },
+      "foil": {
+        "_id": "31mLy1ESwSOwgpdPkw5IAHv8ubA",
+        "_type": "image",
+        "_entry": "31mLunS3JFk31vAuV0JgZoip7lS"
+      }
+    }
+  ],
+  "isFullArt": true
+}

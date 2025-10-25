@@ -1,0 +1,69 @@
+{
+  "_id": "31okx5cyM2VnZ0dnVYr7JRGplr1",
+  "_type": "PokemonCard",
+  "_index": "b3l",
+  "title": "Seismitoad",
+  "number": "21",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "pokemon",
+  "hp": 170,
+  "pokemon": "Seismitoad",
+  "energy": "water",
+  "stage": "stage2",
+  "illustrator": {
+    "_id": "33w1O5J96C0u52z8H9hPb06qSPg",
+    "_type": "entry",
+    "_entry": "33vXX4BkgLXx0jyfFy6DbsrdwFW"
+  },
+  "card": {
+    "_id": "31okzUs2fqTjogClHvCaqcasTqZ",
+    "_type": "image",
+    "_entry": "31oiFDwoNrq7lsoNr2ZVtAIEWxn"
+  },
+  "variants": [
+    {
+      "_id": "31okx4KCwDz3q3w4EmHDDQNrgGJ",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31ol6W6X3fZF0PETFLSxz1lOS3p",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31ol7gtJ7sUFEYoVVfL9KS2pkoS",
+        "_type": "image",
+        "_entry": "31ol5wFW4wbok4uodFwxThoJuSb"
+      },
+      "foil": {
+        "_id": "31ol8c1qnjGXBgNFQySyC51p8PU",
+        "_type": "image",
+        "_entry": "31ol5vGuifruVuz7M02iaNJGk37"
+      }
+    },
+    {
+      "_id": "31ol9bQGbpxFaxlch6tQ7Mt4X0W",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31olAVJYhsWScxKjdhcvnJGIlX9",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

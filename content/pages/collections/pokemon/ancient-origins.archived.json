@@ -1,0 +1,46 @@
+{
+  "_id": "2zp69afyrc5qu6iimQlWNHkhAkF",
+  "_type": "PokemonSet",
+  "_index": "b0K",
+  "title": "Ancient Origins",
+  "number": 65,
+  "ptcgoCode": "AOR",
+  "releaseDate": "2015-08-12",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zp6CcOvlg1Uo11vDZnJACkn5Pw",
+      "_type": "image",
+      "_entry": "2zowe818IyElGLCWLMrAhVBQvPs"
+    }
+  ],
+  "logo": {
+    "_id": "2zp6D7ua75hfQ16qu4ElN9EOCyA",
+    "_type": "image",
+    "_entry": "2zowipcGO00C75WHxysUqthpqeO"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

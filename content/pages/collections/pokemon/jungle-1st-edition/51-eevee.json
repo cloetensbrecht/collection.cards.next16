@@ -1,0 +1,30 @@
+{
+  "_id": "30qDcIkyb4CSmCymixi8CKdknB6",
+  "_type": "PokemonCard",
+  "_index": "b5u",
+  "title": "Eevee",
+  "number": "51",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Eevee",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "30qDe7brsPonuk9r8QtLMfEsKVD",
+    "_type": "image",
+    "_entry": "30q9C4hcjrIEVICky9egPvfjqrR"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

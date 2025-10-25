@@ -1,0 +1,30 @@
+{
+  "_id": "30qEf9qfCGQXlfLSSSMNtlqlu8d",
+  "_type": "PokemonCard",
+  "_index": "az",
+  "title": "Spearow",
+  "number": "62",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Spearow",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "30qEgT6s09veLKv5XpBleoWyx3x",
+    "_type": "image",
+    "_entry": "30q9C0UxfE3rpYBLaNMbRs6QEI3"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

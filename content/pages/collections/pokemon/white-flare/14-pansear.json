@@ -1,0 +1,70 @@
+{
+  "_id": "33Qm1fRJteipuWU6kDVSWsuk7ZF",
+  "_type": "PokemonCard",
+  "_index": "b2Q",
+  "title": "Pansear",
+  "number": "14",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Pansear",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349smlaGYSoeV4u8ORiOZXhIWy7",
+    "_type": "entry",
+    "_entry": "349slnCqtCOtRgSHEwWf1ZdOqKy"
+  },
+  "card": {
+    "_id": "33Qm3HZFxoAw61oBTOqZOwzxxYB",
+    "_type": "image",
+    "_entry": "33QjaCsYHSSv1J0d3egBnonn6DD"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33Qm1gC2uBnIGrp95GdR4WLz6X6",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349spbowh2H9RKZHpJ6cMVjjL8f",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349suWlvKclHaGTijMVnJ37WW3F",
+        "_type": "image",
+        "_entry": "349st2csI6OLXoV79OxJB04rwmT"
+      },
+      "foil": {
+        "_id": "349svCSKiOI8JAY4NuerUrfuyHN",
+        "_type": "image",
+        "_entry": "349sszo26SyswY10co0lI9wFLnT"
+      }
+    },
+    {
+      "_id": "349spxDGYWs58bmaLlgnvo5ljps",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349sqZZnsCuNTfRL6vBx8L66OkK",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

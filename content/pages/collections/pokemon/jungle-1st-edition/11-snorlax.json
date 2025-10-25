@@ -1,0 +1,30 @@
+{
+  "_id": "30qAFONSI2Z46eeZHiY38I8oWGD",
+  "_type": "PokemonCard",
+  "_index": "b28",
+  "title": "Snorlax",
+  "number": "11",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 90,
+  "pokemon": "Snorlax",
+  "energy": "colorless",
+  "stage": "basic",
+  "card": {
+    "_id": "30qAGbUnq2EgrFSMjTkIyBs3W3P",
+    "_type": "image",
+    "_entry": "30q9C1k7Yjr28dxEcysdqvAeScS"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

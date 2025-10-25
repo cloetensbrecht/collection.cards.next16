@@ -1,0 +1,70 @@
+{
+  "_id": "33QpbkntdRlQTC2ltwfg7a3bppX",
+  "_type": "PokemonCard",
+  "_index": "b4u",
+  "title": "Woobat",
+  "number": "36",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Woobat",
+  "energy": "psychic",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "349zEGFSswgY3W1WxVaP1X3yXhZ",
+    "_type": "entry",
+    "_entry": "349zDtOmQUBu3BRb8igKhhizPWJ"
+  },
+  "card": {
+    "_id": "33QpdpM3fgR4TYSWnlbGbSMOmGL",
+    "_type": "image",
+    "_entry": "33Qjj3SWffEpj1odXSO3Ejx2Ix5"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33QpbjPxTpM92hzRxWkNgV1eTbU",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349zGkva64EGvvYMp8DTjrTTnKe",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "349zLJCLbZKxKGxMWnWPF9v5w14",
+        "_type": "image",
+        "_entry": "349zKHWC7bJXfwYDjkSpyGPl4bG"
+      },
+      "foil": {
+        "_id": "349zMBn5Um0vXDq1WHe3zPtF36C",
+        "_type": "image",
+        "_entry": "349zKFMrzr0efvc0TVaCl46RSTU"
+      }
+    },
+    {
+      "_id": "349zHqgwPHxKFRHGPdippfju2Dq",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "349zIJt2DCbTVyRqEw4tQgQcvhX",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "30suDGs6Yl0LcM5Rw4QN6ljl96G",
+  "_type": "PokemonSet",
+  "_index": "aH",
+  "title": "EX Trainer Kit 2 Plusle",
+  "ptcgoCode": "",
+  "releaseDate": "2006-03-01",
+  "generation": "III",
+  "serie": "exSeries",
+  "symbol": [
+    {
+      "_id": "30suMWT1YjBvsd3DtXCAT8c0wQX",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "30suL6fEvjGCvDnrUqGK3zkWAmF"
+    }
+  ],
+  "logo": {
+    "_id": "30suGWxvYXJOkPdesr6wKP4g1k7",
+    "_type": "image",
+    "_entry": "30spO0dkLw2T3O1PwjqiTjFJ6jF"
+  },
+  "rarity": {},
+  "energy": {}
+}

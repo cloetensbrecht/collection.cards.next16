@@ -1,0 +1,30 @@
+{
+  "_id": "30od6mSqNWZxxhyOD1Nw4ZqZcOx",
+  "_type": "PokemonCard",
+  "_index": "ap",
+  "title": "Machop",
+  "number": "52",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 50,
+  "pokemon": "Machop",
+  "energy": "fighting",
+  "stage": "basic",
+  "card": {
+    "_id": "30od85Y6e5WkayIwOijZQEf3M0t",
+    "_type": "image",
+    "_entry": "30oJlEtXW2Z9zw88SmzryGCnvuf"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

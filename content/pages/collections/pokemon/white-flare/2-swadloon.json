@@ -1,0 +1,70 @@
+{
+  "_id": "31bH0C5LYLcTwM1d8qzhcD7IvgY",
+  "_type": "PokemonCard",
+  "_index": "b1R",
+  "title": "Swadloon",
+  "number": "2",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Swadloon",
+  "energy": "grass",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "349k0XeX9dTvUsq9JohoolNUkJL",
+    "_type": "entry",
+    "_entry": "349e4JeljFnnzz85BdmNSIhdzCc"
+  },
+  "card": {
+    "_id": "31bH30wG5DJm96aMqv12k1G9ujQ",
+    "_type": "image",
+    "_entry": "31bGxyBscZsWDnCehSW8EaWiw8M"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "31bH0B8XH4leHCERiVEMUoUkk1m",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31bH5EccAEr5wYX1s042ugXwLbv",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "33RFZIbiTPn9A59X9rBwQCHN3HX",
+        "_type": "image",
+        "_entry": "33RFXNSaLWoMy7XLvFVhWEBbIhz"
+      },
+      "foil": {
+        "_id": "33RFaUqgDrAgSzKmM4k8pvVuwud",
+        "_type": "image",
+        "_entry": "33RFR3w2oulnPLOYOuqaRAdq40p"
+      }
+    },
+    {
+      "_id": "31bH5s9ZVEh1MneHPKs2DmsTidH",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31bH6lvsnD2cb609rvhuoqeRmAX",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

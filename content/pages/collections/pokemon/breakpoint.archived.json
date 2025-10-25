@@ -1,0 +1,47 @@
+{
+  "_id": "2zp6L5fcBZQRJnfUraeNGPCA7XQ",
+  "_type": "PokemonSet",
+  "_index": "b0I",
+  "title": "BREAKpoint",
+  "number": 67,
+  "ptcgoCode": "BKP",
+  "releaseDate": "2016-02-03",
+  "generation": "VI",
+  "serie": "xySeries",
+  "symbol": [
+    {
+      "_id": "2zpMR5YfaTDVAYIox8m41nEDKBN",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe3cx2VphaTKFPVv0nVOU4us"
+    }
+  ],
+  "logo": {
+    "_id": "2zp6OWSRHLbHbpvYngUOtVfzEdh",
+    "_type": "image",
+    "_entry": "2zowiraYR9oE1aeMuCwoZCScYCw"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

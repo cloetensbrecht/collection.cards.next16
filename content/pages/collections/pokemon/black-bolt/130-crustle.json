@@ -1,0 +1,44 @@
+{
+  "_id": "320LkZDg1o5RZm5ICjVTN6hHgZs",
+  "_type": "PokemonCard",
+  "_index": "b8p",
+  "title": "Crustle",
+  "number": "130",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 150,
+  "pokemon": "Crustle",
+  "energy": "fighting",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vy5GIyQhqqvzAdFGPrKKkHAAE",
+    "_type": "entry",
+    "_entry": "33vbaXWmah81VwcWXFqjGR62dew"
+  },
+  "card": {
+    "_id": "320LmrfObtAMqR3WtR9BL3imADm",
+    "_type": "image",
+    "_entry": "320FBReSbyqjoy2XxPcrnY3B9qD"
+  },
+  "variants": [
+    {
+      "_id": "320LkXOzJuOGJx5nQRXwB85o3w3",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320LpQQwy65HWTdFlrQcJaGVMuv",
+        "_type": "image",
+        "_entry": "320LikIRJ9FKh8So7vZWkBLzf7l"
+      },
+      "foil": {
+        "_id": "320LpzzHKlNqIU8JgPoZV36Oh2s",
+        "_type": "image",
+        "_entry": "320LiixuxKgcX7l095XzgololSs"
+      }
+    }
+  ],
+  "isFullArt": true
+}

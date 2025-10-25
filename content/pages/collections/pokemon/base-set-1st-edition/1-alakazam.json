@@ -1,0 +1,30 @@
+{
+  "_id": "30oJTEREAur9KGnuTrIr7X5DBDE",
+  "_type": "PokemonCard",
+  "_index": "b17",
+  "title": "Alakazam",
+  "number": "1",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Alakazam",
+  "energy": "psychic",
+  "stage": "stage2",
+  "card": {
+    "_id": "30oJpumN88oXnqn3hiCd0zesMqN",
+    "_type": "image",
+    "_entry": "30oJlDM1A95RCcgxbi2UwtttILT"
+  },
+  "variants": [
+    {
+      "_id": "311KGviQPO11LiQJ82uhFuT7LNc",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

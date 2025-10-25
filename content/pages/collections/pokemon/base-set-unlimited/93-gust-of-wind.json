@@ -1,0 +1,27 @@
+{
+  "_id": "31aKbzAtjMOPAGhHLspL70UjtkG",
+  "_type": "PokemonCard",
+  "_index": "b0T",
+  "title": "Gust of Wind",
+  "number": "93",
+  "edgeColor": "#ffe78f",
+  "rarity": "common",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31aKdX15vEHqMPZcx2NrZOCVqSU",
+    "_type": "image",
+    "_entry": "31aKYBNaMA2fi9MJO1EAyAdoKU0"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

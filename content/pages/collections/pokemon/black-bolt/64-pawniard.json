@@ -1,0 +1,69 @@
+{
+  "_id": "31wvlWYuvtYHoswrmhlENcOgnTM",
+  "_type": "PokemonCard",
+  "_index": "b6a",
+  "title": "Pawniard",
+  "number": "64",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 60,
+  "pokemon": "Pawniard",
+  "energy": "metal",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "33w09x00ihG8HAV9GaxpRkZ86n0",
+    "_type": "entry",
+    "_entry": "33vYdQzloWTV17Bc5QfwG27zmT7"
+  },
+  "card": {
+    "_id": "31wvolDqU6NeWdRz2ZY1Yok8Iqw",
+    "_type": "image",
+    "_entry": "31wtY63ePcvtkLSX3AldXCNDChr"
+  },
+  "variants": [
+    {
+      "_id": "31wvlYoAEi7ka44173jglNRkjui",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wvseH4MYYEVenFGS1Mzdmlm3A",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "31wvy13E1kVMGZtk2mtcVZLLHRb",
+        "_type": "image",
+        "_entry": "31wvwN4ZtLj7QkK3zpPSc5F2FMJ"
+      },
+      "foil": {
+        "_id": "31wvymqCzKMG5hiC49yp5XM45vg",
+        "_type": "image",
+        "_entry": "31wvwHVWDtksI7CJqsp84Erxh4S"
+      }
+    },
+    {
+      "_id": "31wvtKIWb7qNTcovfpotLgROE49",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31wvu0WMXCfxts85fi25VBfYiU4",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "masterBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

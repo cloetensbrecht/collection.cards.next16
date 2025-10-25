@@ -1,0 +1,46 @@
+{
+  "_id": "2zpJPLMadRpIYKGx411Mt8Y75A4",
+  "_type": "PokemonSet",
+  "_index": "b1E",
+  "title": "McDonald's Collection 2019",
+  "ptcgoCode": "M19",
+  "releaseDate": "2019-10-15",
+  "generation": "VII",
+  "serie": "mcDonaldsSeries",
+  "symbol": [
+    {
+      "_id": "2zpNpPh7xPu1iKqHPicwtJrIihP",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zpJOVSbFQXrOLNDQdm8W2ly3Wh"
+    }
+  ],
+  "logo": {
+    "_id": "2zpJRFNd7bKwoW5kTkAO0pJWNe7",
+    "_type": "image",
+    "_entry": "2zpI15QLbrLwCdoQSfSYApqqVVN"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

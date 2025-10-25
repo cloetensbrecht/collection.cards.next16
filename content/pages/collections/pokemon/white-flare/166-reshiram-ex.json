@@ -1,0 +1,46 @@
+{
+  "_id": "33R4YFfWpY1MHg8eePL2Cy2VJzM",
+  "_type": "PokemonCard",
+  "_index": "bAK",
+  "title": "Reshiram Ex",
+  "number": "166",
+  "edgeColor": "#97999b",
+  "rarity": "special-illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 230,
+  "pokemon": "Reshiram",
+  "energy": "fire",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "34EFTyxRUulFGXRiIJtKvoQm19T",
+    "_type": "entry",
+    "_entry": "34EFTakY2ESip6eCw3eFkDttra7"
+  },
+  "card": {
+    "_id": "33R4a9ZL4DgjZ3CvHwStNzBGPvP",
+    "_type": "image",
+    "_entry": "33QkjtRIPZwzTvulMR4K9bj9Qgi"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R4YMVRWncJegMAJ8s8flsIjMe",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EFVFqKxRQtwKsEpROtjOFaNaR",
+        "_type": "image",
+        "_entry": "34BJ5k70qbGFgv7JRRVXrNrPZ8a"
+      },
+      "foil": {
+        "_id": "34EFVmRzOuaMkHg965e9Nw3kIcv",
+        "_type": "image",
+        "_entry": "34BJ5jhMBn221VatLfwpr9xBSMX"
+      }
+    }
+  ],
+  "isEx": true,
+  "isFullArt": true
+}

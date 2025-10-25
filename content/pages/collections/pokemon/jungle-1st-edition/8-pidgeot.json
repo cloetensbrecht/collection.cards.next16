@@ -1,0 +1,30 @@
+{
+  "_id": "30qA0XQzTFlTaEFJ0ls6cml1mO4",
+  "_type": "PokemonCard",
+  "_index": "a7",
+  "title": "Pidgeot",
+  "number": "8",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Pidgeot",
+  "energy": "colorless",
+  "stage": "stage2",
+  "card": {
+    "_id": "30qA2GNTJNqZSmuL4u8EwuMuTwp",
+    "_type": "image",
+    "_entry": "30q9C51YhxfOf6tEtaQEuxcw4aE"
+  },
+  "variants": [
+    {
+      "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

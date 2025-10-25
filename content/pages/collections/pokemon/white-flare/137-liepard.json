@@ -1,0 +1,45 @@
+{
+  "_id": "33R16TqQ2yXiIf6grHstaKYlvGn",
+  "_type": "PokemonCard",
+  "_index": "b94",
+  "title": "Liepard",
+  "number": "137",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 110,
+  "pokemon": "Liepard",
+  "energy": "darkness",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "34EDAMkYpIq2Hq75SKpbBn14nNd",
+    "_type": "entry",
+    "_entry": "34ED9bKZVBHmWTtmZbEnKZT4tvt"
+  },
+  "card": {
+    "_id": "33R17aVOPk0e1ZupwfAPYdHLnnW",
+    "_type": "image",
+    "_entry": "33QkcFjgbJOltCjOD2piWx1rJbW"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "33R16PaWc2PYnHbWpWF9rVgppa2",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "34EDBQROt01MLra5tdF5j4fWnHT",
+        "_type": "image",
+        "_entry": "34BJ5pPBrBlVf23FKXuNujVUSKg"
+      },
+      "foil": {
+        "_id": "34EDCc8XmNPR8z2mlNhfJ72DHpL",
+        "_type": "image",
+        "_entry": "34BJ5lpOlo9BLZ7Ft0h6NtKxXfa"
+      }
+    }
+  ],
+  "isFullArt": true
+}

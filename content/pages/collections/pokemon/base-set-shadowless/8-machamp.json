@@ -1,0 +1,30 @@
+{
+  "_id": "30oU12lF1RnhwxjINZYru0IDc9Y",
+  "_type": "PokemonCard",
+  "_index": "a7",
+  "title": "Machamp",
+  "number": "8",
+  "edgeColor": "#ffe78f",
+  "rarity": "rare",
+  "cardtype": "pokemon",
+  "hp": 100,
+  "pokemon": "Machamp",
+  "energy": "fighting",
+  "stage": "stage2",
+  "card": {
+    "_id": "31CKBqi13V28zfSnJ5EMyGFYsBG",
+    "_type": "image",
+    "_entry": "311XiTHcPiws6aED29CXuPviMFh"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

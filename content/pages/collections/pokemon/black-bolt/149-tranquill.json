@@ -1,0 +1,44 @@
+{
+  "_id": "320RoN12p04DG7alIc3lBwuo2V9",
+  "_type": "PokemonCard",
+  "_index": "b9e",
+  "title": "Tranquill",
+  "number": "149",
+  "edgeColor": "#97999b",
+  "rarity": "illustration-rare",
+  "cardtype": "pokemon",
+  "hp": 80,
+  "pokemon": "Tranquill",
+  "energy": "colorless",
+  "stage": "stage1",
+  "illustrator": {
+    "_id": "33vxPkBnOVlo0f164c7WyOuvqtA",
+    "_type": "entry",
+    "_entry": "33vcMhz8OfYUUDaKc2nthOI5148"
+  },
+  "card": {
+    "_id": "320RqCYB9h9kPZmf45DqOPMJyD1",
+    "_type": "image",
+    "_entry": "320FBQo53C0hHCjMNVW3yGHcFsl"
+  },
+  "variants": [
+    {
+      "_id": "320RoN92gUJyyFMQCoqOzttojWi",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "320Rr1tIGdzfIDPfruvDxzlLlH5",
+        "_type": "image",
+        "_entry": "320QeN1qpeIQSvyKozuInVBZtx5"
+      },
+      "foil": {
+        "_id": "320RrlRrVB0TdbMxtJGUB62YiiC",
+        "_type": "image",
+        "_entry": "320QeIYRSAMRWD2yNm6VqSmC3MQ"
+      }
+    }
+  ],
+  "isFullArt": true
+}

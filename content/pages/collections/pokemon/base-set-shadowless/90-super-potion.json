@@ -1,0 +1,27 @@
+{
+  "_id": "30puJfC2Tipi0afaBF78ETe0H9b",
+  "_type": "PokemonCard",
+  "_index": "b0R",
+  "title": "Super Potion",
+  "number": "90",
+  "edgeColor": "#ffe78f",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "stage": null,
+  "card": {
+    "_id": "31CHeWLFk8dkR0Zw9ympuEb4hTV",
+    "_type": "image",
+    "_entry": "31A25AqeeRkwx2rJIgtQH0dKyMl"
+  },
+  "variants": [
+    {
+      "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}

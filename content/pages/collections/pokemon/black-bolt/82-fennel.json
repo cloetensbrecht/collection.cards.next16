@@ -1,0 +1,58 @@
+{
+  "_id": "31yVBmZruUvoqMFh2pDB5crqQrx",
+  "_type": "PokemonCard",
+  "_index": "b7A",
+  "title": "Fennel",
+  "number": "82",
+  "edgeColor": "#97999b",
+  "rarity": "uncommon",
+  "cardtype": "trainer",
+  "subtype": "supporter",
+  "illustrator": {
+    "_id": "33vzcSbicV3c5uz5SDDzpyWm8wU",
+    "_type": "entry",
+    "_entry": "33vZJOti7WXEFhja1ECral3WpcT"
+  },
+  "card": {
+    "_id": "31yVDR36evNsOCEMyfKUDfCF3AS",
+    "_type": "image",
+    "_entry": "31yUZ3SWg2wrZexVJ2nqbnwMLT4"
+  },
+  "variants": [
+    {
+      "_id": "31yVBmEw4EwV2qT7CIJJxctZf7i",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "31yVISlJow0AaQI2YFY9ARpfUeW",
+      "_index": "a2",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": null,
+      "mask": {
+        "_id": "31yVNMVCkNus0lwzYDzwi77EaiI",
+        "_type": "image",
+        "_entry": "31yVLAKTdViXpEhwECdj4q5ZLqK"
+      },
+      "foil": {
+        "_id": "31yVO9NZaeWe67lAN5VWyflwCzq",
+        "_type": "image",
+        "_entry": "31yVL65Cu9nySaBeILoSFNUyjrJ"
+      }
+    },
+    {
+      "_id": "31yVHtiWK9ShwfUKTmQ9sKO9CJc",
+      "_index": "a3",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "pattern": "pokeBall",
+      "mask": {},
+      "foil": {}
+    }
+  ]
+}
