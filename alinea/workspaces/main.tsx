@@ -1,3 +1,4 @@
+import { IcOutlineSettings } from "@/icons/IcOutlineSettings";
 import { Config } from "alinea";
 
 export const main = Config.workspace("collection.cards", {
@@ -6,6 +7,11 @@ export const main = Config.workspace("collection.cards", {
   roots: {
     pages: Config.root("Pages", {
       contains: ["Page", "Collections", "Illustrators"],
+    }),
+    general: Config.root("General", {
+      contains: [],
+      icon: IcOutlineSettings,
+      preview: false,
     }),
     media: Config.media(),
   },
