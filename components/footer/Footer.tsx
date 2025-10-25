@@ -24,16 +24,14 @@ const Footer: React.FC = () => (
               className="flex gap-4 justify-center lg:justify-start content-center"
               aria-label="Contribution links"
             >
-              <ComingSoon>
-                <Link
-                  href="#"
-                  target="_blank"
-                  aria-label="GitHub"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  <GitHub width={24} />
-                </Link>
-              </ComingSoon>
+              <Link
+                href="https://github.com/collection-cards/collection.cards"
+                target="_blank"
+                aria-label="GitHub"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <GitHub width={24} />
+              </Link>
             </nav>
           </div>
         </div>
