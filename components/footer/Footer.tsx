@@ -48,7 +48,11 @@ const Footer: React.FC = async () => {
             getColumnsClassName(footerData.columns.length + 1)
           )}
         >
-          <Logo width="50" className="self-end" />
+          <Logo
+            width="50"
+            className="self-end"
+            aria-label="collection.cards logo"
+          />
           {footerData.columns.map((column) => (
             <div
               className="flex flex-col gap-4 h-full justify-between"
