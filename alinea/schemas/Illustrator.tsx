@@ -1,4 +1,4 @@
-import IcRoundPalette from "@/icons/IcRoundPalette";
+import { IcOutlinePalette } from "@/icons/IcOutlinePalette";
 import { Config, Field, Infer } from "alinea";
 
 export type Illustrator = Infer<typeof Illustrator>;
@@ -9,5 +9,5 @@ export const Illustrator = Config.type("Illustrator", {
     path: Field.path("Path", { width: 0.5 }),
   },
   insertOrder: "first",
-  icon: IcRoundPalette,
+  icon: IcOutlinePalette,
 });

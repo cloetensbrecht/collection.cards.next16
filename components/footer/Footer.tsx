@@ -1,7 +1,7 @@
-import Discord from "@/icons/Discord";
-import GitHub from "@/icons/GitHub";
-import Logo from "@/icons/Logo";
-import Reddit from "@/icons/Reddit";
+import { Discord } from "@/icons/Discord";
+import { GitHub } from "@/icons/GitHub";
+import { Logo } from "@/icons/Logo";
+import { Reddit } from "@/icons/Reddit";
 import Link from "next/link";
 import ComingSoon from "../comingsoon/ComingSoon";
 import Container from "../container/Container";

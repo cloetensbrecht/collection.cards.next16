@@ -2,7 +2,7 @@ import { edge } from "@/consts/edge";
 import { energy as energyOptions } from "@/consts/energy";
 import { pokedex } from "@/consts/pokedex";
 import { rarity as rarityOptions } from "@/consts/rarity";
-import IcRoundCropPortrait from "@/icons/IcRoundCropPortrait";
+import { IcOutlineCropPortrait } from "@/icons/IcRoundCropPortrait";
 import { Config, EntryReference, Field, Infer } from "alinea";
 
 export type PokemonCard = Infer<typeof PokemonCard>;
@@ -232,5 +232,5 @@ export const PokemonCard = Config.type("Card", {
     isFullArt: Field.check("Full art"),
   },
   insertOrder: "first",
-  icon: IcRoundCropPortrait,
+  icon: IcOutlineCropPortrait,
 });

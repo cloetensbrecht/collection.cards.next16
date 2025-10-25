@@ -34,3 +34,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Icons
+
+All icons are stored in the `/icons` directory and are saved as a **`.tsx`** file.  
+Each icon is defined as a Typed React component using the following structure:
+
+```tsx
+import { SVGProps } from "react";
+
+export function Icon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...props}>
+      <path fill="currentColor" d="..." />
+    </svg>
+  );
+}
+```
+
+### Alinea
+
+Within **Alinea**, icons are sourced exclusively from the **Google Material Icons** collection on [**icones.js.org**](https://icones.js.org/collection/ic?variant=Outline).  
+We **only use the Outline variant** of these icons to ensure a consistent and cohesive visual style throughout the project.
