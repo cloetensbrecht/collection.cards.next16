@@ -6,6 +6,7 @@ import { LogInIcon } from "lucide-react";
 import Link from "next/link";
 import { Fragment } from "react/jsx-runtime";
 import ComingSoon from "../comingsoon/ComingSoon";
+import ThemeToggle from "../toggles/ThemeToggle";
 import { Button } from "../ui/button";
 
 const fetchHeaderData = async () =>
@@ -48,12 +49,15 @@ const Header: React.FC = async () => {
               })}
             </div>
           </div>
-          <ComingSoon>
-            <Button className="cursor-pointer">
-              <LogInIcon />
-              <span className="hidden md:inline">Login</span>
-            </Button>
-          </ComingSoon>
+          <div className="flex items-center gap-x-4">
+            <ThemeToggle />
+            <ComingSoon>
+              <Button className="cursor-pointer">
+                <LogInIcon />
+                <span className="hidden md:inline">Login</span>
+              </Button>
+            </ComingSoon>
+          </div>
         </div>
       </nav>
     </header>
