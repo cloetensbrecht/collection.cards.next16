@@ -2,7 +2,7 @@ import { Header as HeaderSchema } from "@/alinea/schemas/Header";
 import { cms } from "@/cms";
 import { Logo } from "@/icons/Logo";
 import { cn } from "@/lib/utils";
-import { LogIn } from "lucide-react";
+import { LogInIcon } from "lucide-react";
 import Link from "next/link";
 import { Fragment } from "react/jsx-runtime";
 import ComingSoon from "../comingsoon/ComingSoon";
@@ -50,7 +50,7 @@ const Header: React.FC = async () => {
           </div>
           <ComingSoon>
             <Button className="cursor-pointer">
-              <LogIn />
+              <LogInIcon />
               <span className="hidden md:inline">Login</span>
             </Button>
           </ComingSoon>
