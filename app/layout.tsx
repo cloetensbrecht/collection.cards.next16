@@ -34,7 +34,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          {children}
+          <div className="flex items-center justify-center font-sans py-24 bg-linear-to-b from-zinc-50 to-background dark:from-zinc-800">
+            {children}
+          </div>
           <Toaster />
           <cms.previews widget />
           <Analytics />
