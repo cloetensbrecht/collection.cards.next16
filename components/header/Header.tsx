@@ -37,7 +37,7 @@ const Header: React.FC = async () => {
                     <Link
                       key={link._id}
                       className={cn(
-                        "font-medium text-sm text-muted-foreground hover:bg-primary/5 px-3 py-2 rounded-md",
+                        "font-medium text-sm text-muted-foreground hover:bg-primary/5 hover:text-foreground px-3 py-2 rounded-md",
                         link.fields.hideOnMobile ? "hidden md:inline" : ""
                       )}
                       href={link.href}
