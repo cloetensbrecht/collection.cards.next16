@@ -33,7 +33,10 @@ const Header: React.FC = async () => {
               {headerData?.links.map((link) => {
                 const Component = link.fields.asButton ? Button : Fragment;
                 return (
-                  <Component key={link._id} asChild>
+                  <Component
+                    key={link._id}
+                    {...(link.fields.asButton ? { asChild: true } : {})}
+                  >
                     <Link
                       key={link._id}
                       className={cn(
