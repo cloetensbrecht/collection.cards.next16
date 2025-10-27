@@ -52,9 +52,11 @@ const Header: React.FC = async () => {
           <div className="flex items-center gap-x-4">
             <ThemeToggle />
             <ComingSoon>
-              <Button className="cursor-pointer">
+              <Button className="cursor-pointer" aria-labelledby="loginlabel">
                 <LogInIcon />
-                <span className="hidden md:inline">Login</span>
+                <span className="hidden md:inline" id="loginlabel">
+                  Login
+                </span>
               </Button>
             </ComingSoon>
           </div>
