@@ -5,8 +5,8 @@ export type Illustrators = Infer<typeof Illustrators>;
 
 export const Illustrators = Config.type("Illustrators", {
   fields: {
-    title: Field.text("Title", { width: 0.5 }),
-    path: Field.path("Path", { width: 0.5 }),
+    title: Field.text("Title", { width: 1 }),
+    path: Field.path("Path", { hidden: true, readOnly: true }),
   },
   contains: ["Illustrator"],
   orderChildrenBy: { asc: Illustrator.title },
