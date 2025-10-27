@@ -1,14 +1,29 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+
 export default function NotFound() {
   return (
-    <div>
-      <h1 className="inline-block text-2xl font-medium align-top pr-12 mr-12 leading-[49px] border-r border-gray-300 dark:border-gray-600">
-        404
-      </h1>
-      <div className="inline-block">
-        <h2 className="text-sm font-normal leading-[49px] m-0">
-          This page could not be found.
-        </h2>
+    <section aria-labelledby="error-title">
+      <div className="px-6 relative z-10 container mx-auto flex flex-col items-center gap-12 lg:flex-row lg:gap-16">
+        <div className="m-auto flex max-w-xl flex-1 flex-col items-center gap-6 text-center lg:gap-8">
+          <div className="gap-6 flex flex-col items-center text-center">
+            <div className="text-sm font-medium text-muted-foreground">404</div>
+            <h1
+              id="error-title"
+              className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-foreground"
+            >
+              Page not found
+            </h1>
+            <p className="text-muted-foreground text-base lg:text-lg">
+              Sorry, we couldn&apos;t find the page you&apos;re looking for.
+              Please check the URL or navigate back home.
+            </p>
+          </div>
+          <Button asChild className="cursor-pointer">
+            <Link href="/">Go to homepage</Link>
+          </Button>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
