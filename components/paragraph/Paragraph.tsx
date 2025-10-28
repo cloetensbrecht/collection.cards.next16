@@ -12,7 +12,7 @@ const Paragraph: React.FC<ParagraphProps> = ({
   return (
     <p
       className={cn(
-        "text-foreground/80 [&_b]:text-foreground/90 [&_strong]:text-foreground/90 text-base pb-2 last:pb-0",
+        "text-foreground/80 [&_b]:text-foreground/90 [&_strong]:text-foreground/90 text-base pb-3 last:pb-0",
         className
       )}
       {...props}

@@ -41,7 +41,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          <div className="flex items-center justify-center font-sans py-24 bg-linear-to-b from-zinc-50 to-background dark:from-zinc-900">
+          <div className="flex items-center justify-center font-sans py-12 md:py-18 lg:py-24 bg-linear-to-b from-zinc-50 to-background dark:from-zinc-900">
             {children}
           </div>
           <Toaster />

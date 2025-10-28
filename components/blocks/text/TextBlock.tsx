@@ -9,7 +9,7 @@ import React from "react";
 
 const TextBlock: React.FC<TextBlockSchema> = ({ text }) => {
   return (
-    <div className="[&_p:has(+h1)]:pb-6 [&_p:has(+h2)]:pb-6 [&_p:has(+h3)]:pb-6 [&_ul:has(+h1)]:pb-6 [&_ul:has(+h2)]:pb-6 [&_ul:has(+h3)]:pb-6 [&_ol:has(+h1)]:pb-6 [&_ol:has(+h2)]:pb-6 [&_ol:has(+h3)]:pb-6">
+    <div className="max-w-4xl [&_p:has(+h1)]:pb-6 [&_p:has(+h2)]:pb-6 [&_p:has(+h3)]:pb-6 [&_ul:has(+h1)]:pb-6 [&_ul:has(+h2)]:pb-6 [&_ul:has(+h3)]:pb-6 [&_ol:has(+h1)]:pb-6 [&_ol:has(+h2)]:pb-6 [&_ol:has(+h3)]:pb-6">
       <RichText
         doc={text}
         h1={Title.H1}

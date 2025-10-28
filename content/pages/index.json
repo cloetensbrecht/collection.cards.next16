@@ -25,12 +25,13 @@
             {
               "_type": "text",
               "text": "This website is currently under construction — but something exciting is on the way!"
-            }
-          ]
-        },
-        {
-          "_type": "paragraph",
-          "content": [
+            },
+            {
+              "_type": "hardBreak"
+            },
+            {
+              "_type": "hardBreak"
+            },
             {
               "_type": "text",
               "text": "Collection.cards",
@@ -135,12 +136,13 @@
             {
               "_type": "text",
               "text": ", inviting contributors from around the world to help build and expand this project together."
-            }
-          ]
-        },
-        {
-          "_type": "paragraph",
-          "content": [
+            },
+            {
+              "_type": "hardBreak"
+            },
+            {
+              "_type": "hardBreak"
+            },
             {
               "_type": "text",
               "text": "Stay tuned — more features, previews, and updates are coming soon!"
