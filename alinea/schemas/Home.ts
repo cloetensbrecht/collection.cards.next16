@@ -7,7 +7,7 @@ export const Home = Config.type("Home", {
   fields: {
     title: Field.text("Title", { hidden: true }),
     path: Field.path("Path", { hidden: true }),
-    blocks: Field.list("", {
+    blocks: Field.list("Blocks", {
       schema: defaultBlocks,
     }),
   },
