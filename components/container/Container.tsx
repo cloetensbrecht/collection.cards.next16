@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import { PropsWithChildren } from "react";
 
 type ContainerProps = {
@@ -9,7 +10,7 @@ const Container: React.FC<PropsWithChildren<ContainerProps>> = ({
   className,
 }) => {
   return (
-    <div className={`container mx-auto px-6 ${className}`}>{children}</div>
+    <div className={cn(`container mx-auto px-6`, className)}>{children}</div>
   );
 };
 
