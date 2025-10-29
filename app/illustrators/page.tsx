@@ -82,7 +82,7 @@ export default async function Illustrators() {
                   href={`/illustrators/${illustrator.path}`}
                   className="group flex flex-col items-center gap-4 text-center w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/7"
                 >
-                  <div className="flex flex-col items-center gap-4">
+                  <div className="flex flex-col items-center gap-4 z-1">
                     <span
                       data-slot="avatar"
                       className="relative flex size-8 shrink-0 overflow-hidden rounded-full h-16 w-16 border-1 transition-all"
