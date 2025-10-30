@@ -7,6 +7,8 @@ type BlocksProps = {
 };
 
 const Blocks: React.FC<BlocksProps> = ({ blocks }) => {
+  if (!blocks || blocks.length === 0) return null;
+
   return blocks.map((block) => {
     switch (block._type) {
       case "TextBlock":

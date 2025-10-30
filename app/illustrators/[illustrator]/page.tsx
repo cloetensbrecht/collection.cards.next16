@@ -1,5 +1,6 @@
 import { Illustrator as IllustratorSchema } from "@/alinea/schemas/Illustrator";
 import { cms } from "@/cms";
+import Blocks from "@/components/blocks/Blocks";
 import Container from "@/components/container/Container";
 import { Title } from "@/components/title/Title";
 import { notFound } from "next/navigation";
@@ -23,6 +24,7 @@ export default async function Illustratorr({
   return (
     <Container>
       <Title.H1>{illustratorData?.title}</Title.H1>
+      <Blocks blocks={illustratorData.blocks} />
     </Container>
   );
 }
