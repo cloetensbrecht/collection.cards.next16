@@ -21,10 +21,25 @@ export default async function Illustratorr({
   const illustratorData = await fetchIllustrator(illustrator);
   if (!illustratorData) return notFound();
 
+  const blocksWithOverview = illustratorData.blocks || [];
+  const generatedIllustratorCardsOverviewBlock = {
+    _index: "illustrator-cards-overview-block-generated",
+    _type: "IllustratorCardsOverviewBlock" as const,
+    _id: "illustrator-cards-overview-block-generated",
+  };
+  if (
+    blocksWithOverview.length === 0 ||
+    !blocksWithOverview.find(
+      (block) => block._type === "IllustratorCardsOverviewBlock"
+    )
+  ) {
+    blocksWithOverview.push(generatedIllustratorCardsOverviewBlock);
+  }
+
   return (
     <Container>
       <Title.H1>{illustratorData?.title}</Title.H1>
-      <Blocks blocks={illustratorData.blocks} />
+      <Blocks blocks={blocksWithOverview} />
     </Container>
   );
 }

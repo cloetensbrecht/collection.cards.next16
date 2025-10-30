@@ -1,5 +1,6 @@
 import { Block } from "@/alinea/blocks/Blocks.schema";
 import React from "react";
+import IllustratorCardsOverviewBlock from "./illustratorcardsoverview/IllustratorCardsOverviewBlock";
 import TextBlock from "./text/TextBlock";
 
 type BlocksProps = {
@@ -13,6 +14,8 @@ const Blocks: React.FC<BlocksProps> = ({ blocks }) => {
     switch (block._type) {
       case "TextBlock":
         return <TextBlock {...block} key={block._id} />;
+      case "IllustratorCardsOverviewBlock":
+        return <IllustratorCardsOverviewBlock {...block} key={block._id} />;
       default:
         return null;
     }
