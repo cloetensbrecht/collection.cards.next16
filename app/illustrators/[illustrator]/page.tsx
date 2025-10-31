@@ -26,14 +26,16 @@ export default async function Illustratorr({
     _index: "illustrator-cards-overview-block-generated",
     _type: "IllustratorCardsOverviewBlock" as const,
     _id: "illustrator-cards-overview-block-generated",
+    illustratorId: illustratorData._id,
   };
-  if (
-    blocksWithOverview.length === 0 ||
-    !blocksWithOverview.find(
-      (block) => block._type === "IllustratorCardsOverviewBlock"
-    )
-  ) {
+
+  const index = blocksWithOverview.findIndex(
+    (block) => block._type === "IllustratorCardsOverviewBlock"
+  );
+  if (index === -1) {
     blocksWithOverview.push(generatedIllustratorCardsOverviewBlock);
+  } else {
+    blocksWithOverview[index] = generatedIllustratorCardsOverviewBlock;
   }
 
   return (
