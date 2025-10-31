@@ -3,18 +3,6 @@
 import { useWindowVirtualizer } from "@tanstack/react-virtual";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-type ImageItem = {
-  id: number;
-  src: string;
-  alt: string;
-};
-
-const allImages: ImageItem[] = Array.from({ length: 10000 }, (_, i) => ({
-  id: i,
-  src: `https://picsum.photos/id/${i % 200}/408/555`,
-  alt: `Card ${i + 1}`,
-}));
-
 const gapSize = 16;
 const containerPadding = 48;
 
@@ -34,7 +22,12 @@ function getColumnWidth(width: number, columnCount: number): number {
   return (1488 - gapWidth) / columnCount; // desktop
 }
 
-export default function CardGrid() {
+type CardGridProps<T> = {
+  CellComponent: React.FC<T>;
+  data: T[];
+};
+
+export default function CardGrid<T>({ CellComponent, data }: CardGridProps<T>) {
   const gridRef = useRef<HTMLDivElement>(null);
   const [windowWidth, setWindowWidth] = useState(0);
 
@@ -49,7 +42,7 @@ export default function CardGrid() {
   const columnCount = useMemo(() => getColumnCount(windowWidth), [windowWidth]);
   const columnWidth = getColumnWidth(windowWidth, columnCount);
   const rowHeight = Math.floor(columnWidth * (555 / 408) + gapSize); // maintain 408:555 ratio
-  const rowCount = Math.ceil(allImages.length / columnCount);
+  const rowCount = Math.ceil(data.length / columnCount);
 
   const virtualizer = useWindowVirtualizer({
     count: rowCount,
@@ -62,6 +55,7 @@ export default function CardGrid() {
     virtualizer.measure();
   }, [rowHeight, columnCount, virtualizer]);
 
+  if (data.length === 0) return null;
   if (windowWidth === 0) return <div className="h-screen" />;
 
   return (
@@ -74,7 +68,7 @@ export default function CardGrid() {
         const rowIndex = virtualRow.index;
         const start = rowIndex * columnCount;
         const end = start + columnCount;
-        const rowItems = allImages.slice(start, end);
+        const rowItems = data.slice(start, end);
 
         return (
           <div
@@ -86,17 +80,11 @@ export default function CardGrid() {
               height: `${rowHeight - gapSize}px`,
             }}
           >
-            {rowItems.map((item) => (
-              <div key={item.id}>
-                <div className="relative w-full overflow-hidden rounded-lg bg-gray-100 flex items-center justify-center aspect-[408/555]">
-                  <img
-                    src={item.src}
-                    alt={item.alt}
-                    loading="lazy"
-                    className="absolute inset-0 w-full h-full object-contain rounded-lg"
-                  />
-                </div>
-              </div>
+            {rowItems.map((props, index) => (
+              <CellComponent
+                key={(props as { id: string }).id || index}
+                {...props}
+              />
             ))}
           </div>
         );
