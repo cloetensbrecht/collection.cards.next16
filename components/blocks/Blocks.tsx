@@ -10,16 +10,20 @@ type BlocksProps = {
 const Blocks: React.FC<BlocksProps> = ({ blocks }) => {
   if (!blocks || blocks.length === 0) return null;
 
-  return blocks.map((block) => {
-    switch (block._type) {
-      case "TextBlock":
-        return <TextBlock {...block} key={block._id} />;
-      case "IllustratorCardsOverviewBlock":
-        return <IllustratorCardsOverviewBlock {...block} key={block._id} />;
-      default:
-        return null;
-    }
-  });
+  return (
+    <div className="flex gap-12 flex-col">
+      {blocks.map((block) => {
+        switch (block._type) {
+          case "TextBlock":
+            return <TextBlock {...block} key={block._id} />;
+          case "IllustratorCardsOverviewBlock":
+            return <IllustratorCardsOverviewBlock {...block} key={block._id} />;
+          default:
+            return null;
+        }
+      })}
+    </div>
+  );
 };
 
 export default Blocks;
