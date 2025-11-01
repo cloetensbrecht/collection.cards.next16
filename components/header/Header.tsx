@@ -40,7 +40,7 @@ const Header: React.FC = async () => {
                     <Link
                       key={link._id}
                       className={cn(
-                        "font-medium text-sm text-muted-foreground hover:bg-primary/5 hover:text-foreground px-3 py-2 rounded-md",
+                        "font-medium text-sm text-muted-foreground hover:bg-primary/5 hover:text-foreground px-2 py-1 md:px-3 md:py-2 rounded-md",
                         link.fields.hideOnMobile ? "hidden md:inline" : ""
                       )}
                       href={link.href}
@@ -52,7 +52,7 @@ const Header: React.FC = async () => {
               })}
             </div>
           </div>
-          <div className="flex items-center gap-x-4">
+          <div className="flex items-center gap-x-2 md:gap-x-4">
             <ThemeToggle />
             <ComingSoon>
               <Button className="cursor-pointer" aria-labelledby="loginlabel">
