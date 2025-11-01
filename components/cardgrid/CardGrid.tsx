@@ -36,7 +36,14 @@ type ImageItem = {
   title: string;
 };
 
-const Card: React.FC<ImageItem> = ({ blurDataURL, focus, id, src, title }) => (
+const Card: React.FC<ImageItem> = ({
+  averageColor,
+  blurDataURL,
+  focus,
+  id,
+  src,
+  title,
+}) => (
   <div key={id}>
     <div className="relative w-full overflow-hidden rounded-lg bg-gray-100 flex items-center justify-center aspect-[733/1024]">
       <Image
@@ -49,6 +56,7 @@ const Card: React.FC<ImageItem> = ({ blurDataURL, focus, id, src, title }) => (
         preload={true}
         src={src}
         style={{
+          backgroundColor: averageColor,
           objectFit: "contain",
           objectPosition: focus
             ? `${focus.x * 100}% ${focus.y * 100}%`
