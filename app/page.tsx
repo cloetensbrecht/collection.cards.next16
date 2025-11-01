@@ -18,7 +18,7 @@ export default async function Home() {
   if (!homeData) return notFound();
 
   return (
-    <Container>
+    <Container className="pt-12 md:pt-18 lg:pt-24">
       <Blocks blocks={homeData.blocks} />
     </Container>
   );
