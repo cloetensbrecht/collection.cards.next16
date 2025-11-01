@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <section aria-labelledby="error-title">
+    <section aria-labelledby="error-title" className="pt-12 md:pt-18 lg:pt-24">
       <div className="px-6 relative z-10 container mx-auto flex flex-col items-center gap-12 lg:flex-row lg:gap-16">
         <div className="m-auto flex max-w-xl flex-1 flex-col items-center gap-6 text-center lg:gap-8">
           <div className="gap-6 flex flex-col items-center text-center">
