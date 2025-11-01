@@ -92,6 +92,8 @@ export default async function Illustrators() {
                         alt={illustrator.title}
                         src={`/media${illustrator.cards[0]?.card.src}`}
                         style={{
+                          backgroundColor:
+                            illustrator.cards[0]?.card.averageColor,
                           objectFit: "cover",
                           transform: "scale(2.5)",
                           transformOrigin: `${
