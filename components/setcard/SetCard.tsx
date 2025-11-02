@@ -51,6 +51,7 @@ const SetCard: React.FC<SetCardProps> = ({
           placeholder="blur"
           fetchPriority={priority ? "high" : "auto"}
           preload={priority}
+          sizes="100vw"
           style={{
             backgroundColor: image?.averageColor,
             objectFit: "cover",
@@ -75,7 +76,7 @@ const SetCard: React.FC<SetCardProps> = ({
                     alt={title}
                     src={`/media${symbol?.src}`}
                     fill={true}
-                    objectFit="contain"
+                    // objectFit="contain"
                     sizes="32px"
                     style={{
                       objectFit: "contain",
