@@ -47,7 +47,6 @@ const SetCard: React.FC<SetCardProps> = ({
           blurDataURL={blurDataURL(image?.thumbHash)}
           src={`/media${image?.src}`}
           fill={true}
-          objectFit="cover"
           placeholder="blur"
           fetchPriority={priority ? "high" : "auto"}
           preload={priority}
@@ -76,7 +75,6 @@ const SetCard: React.FC<SetCardProps> = ({
                     alt={title}
                     src={`/media${symbol?.src}`}
                     fill={true}
-                    // objectFit="contain"
                     sizes="32px"
                     style={{
                       objectFit: "contain",

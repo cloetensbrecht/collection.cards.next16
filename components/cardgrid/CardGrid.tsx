@@ -51,7 +51,6 @@ const Card: React.FC<ImageItem> = ({
         blurDataURL={blurDataURL}
         fetchPriority="high"
         layout="fill"
-        objectFit="contain"
         placeholder="blur"
         preload={true}
         src={src}
