@@ -8,6 +8,8 @@ import { Illustrators } from "./alinea/schemas/Illustrators";
 import { Page } from "./alinea/schemas/Page";
 import { PokemonCard } from "./alinea/schemas/PokemonCard";
 import { PokemonCollection } from "./alinea/schemas/PokemonCollection";
+import { PokemonSerie } from "./alinea/schemas/PokemonSerie";
+import { PokemonSeries } from "./alinea/schemas/PokemonSeries";
 import { PokemonSet } from "./alinea/schemas/PokemonSet";
 import { main } from "./alinea/workspaces/main";
 
@@ -24,6 +26,8 @@ export const cms = createCMS({
     PokemonCard,
     PokemonCollection,
     PokemonSet,
+    PokemonSerie,
+    PokemonSeries,
   },
 
   // Define the content structure of your CMS

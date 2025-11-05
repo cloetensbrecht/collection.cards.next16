@@ -1,0 +1,19 @@
+{
+  "_id": "354g9V86kluHkrJCfiRM43rZoLK",
+  "_type": "PokemonSet",
+  "_index": "ae",
+  "title": "Mega Evolution Energies",
+  "number": null,
+  "ptcgoCode": "MEE",
+  "releaseDate": "2025-09-26",
+  "serie": "basicEnergyCards",
+  "symbol": [],
+  "logo": {
+    "_id": "354gHUAMOpGBSYUT4pSSo3NDhHz",
+    "_type": "image",
+    "_entry": "30t9Z5uQd1HyJC8EvgM7j7Yttuq"
+  },
+  "heroImage": {},
+  "cta_description": [],
+  "cta_button": ""
+}

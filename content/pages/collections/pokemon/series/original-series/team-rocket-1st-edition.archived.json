@@ -1,0 +1,53 @@
+{
+  "_id": "2zoxVHTVIJSxaaFkwe8PZjEkc94",
+  "_type": "PokemonSet",
+  "_index": "a4",
+  "title": "Team Rocket (1st Edition)",
+  "number": 5,
+  "ptcgoCode": "TR",
+  "releaseDate": "2000-04-24",
+  "generation": "I",
+  "serie": "originalSeries",
+  "symbol": [
+    {
+      "_id": "31QaJUgiXE15eRRPeNiW1W7eUuI",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe83Hk7MIVVe4h8Jt0coxbK3"
+    },
+    {
+      "_id": "31QaJWyRrHRe7XiJWRwHwAckhWI",
+      "_index": "a1",
+      "_type": "image",
+      "_entry": "311Q1su8EEGY6gkVO3yThZr3e9q"
+    }
+  ],
+  "logo": {
+    "_id": "2zoxZeGJIET6eLdispVdnxrMMd5",
+    "_type": "image",
+    "_entry": "2zowiqthsPM8oOllvczjj9BI82F"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "31QaBfJTLIhM99keYfY6h8V7CMi",
+  "_type": "PokemonSet",
+  "_index": "a1",
+  "title": "Gym Heroes (Unlimited)",
+  "number": 6,
+  "ptcgoCode": "G1",
+  "releaseDate": "2000-08-14",
+  "generation": "I",
+  "serie": "originalSeries",
+  "symbol": [
+    {
+      "_id": "2zpNfuTsW3XFLbIYNDHlp7xbUQZ",
+      "_index": "a0",
+      "_type": "image",
+      "_entry": "2zowe475icaC5ngq0cKmPGYF9zp"
+    }
+  ],
+  "logo": {
+    "_id": "2zoxg74AjIK2g6AJXvJ0HP9x7rh",
+    "_type": "image",
+    "_entry": "2zowipmNFCvgclFwwp0mONugWHw"
+  },
+  "rarity": {
+    "common": null,
+    "uncommon": null,
+    "rare": null,
+    "doubleRare": null,
+    "illustrationRare": null,
+    "ultraRare": null,
+    "specialIllustrationRare": null,
+    "hyperRare": null
+  },
+  "energy": {
+    "colorless": null,
+    "darkness": null,
+    "dragon": null,
+    "fairy": null,
+    "fighting": null,
+    "fire": null,
+    "grass": null,
+    "lightning": null,
+    "metal": null,
+    "psychic": null,
+    "water": null
+  }
+}

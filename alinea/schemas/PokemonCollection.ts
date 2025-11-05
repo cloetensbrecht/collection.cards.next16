@@ -9,7 +9,7 @@ export const PokemonCollection = Config.type("Pokémon", {
     path: Field.path("Path", { hidden: true }),
     icon: Field.image("Icon"),
   },
-  contains: ["PokemonSet"],
+  contains: ["PokemonSeries"],
   insertOrder: "first",
   orderChildrenBy: { desc: PokemonSet.releaseDate },
 });

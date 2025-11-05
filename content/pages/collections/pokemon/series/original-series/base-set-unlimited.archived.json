@@ -1,0 +1,19 @@
+{
+  "_id": "311Oh1bmyk1xufAuhCkFGqMhaxB",
+  "_type": "PokemonSet",
+  "_index": "aB",
+  "title": "Base Set (Unlimited)",
+  "number": 1,
+  "ptcgoCode": "BS",
+  "releaseDate": "1999-03-01",
+  "generation": "I",
+  "serie": "originalSeries",
+  "symbol": [],
+  "logo": {
+    "_id": "311PU4hcb5g9DjZiUXxSVCZf8Gi",
+    "_type": "image",
+    "_entry": "2zowiupcvo0SzWMM2QbruGhm7NG"
+  },
+  "rarity": {},
+  "energy": {}
+}
