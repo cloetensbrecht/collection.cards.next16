@@ -32,7 +32,7 @@ const CtaTab = Field.tab("CTA", {
   },
 });
 
-export const PokemonSet = Config.type("Set", {
+export const PokemonSet = Config.type("Pokémon Set", {
   fields: {
     title: Field.text("Title", { width: 0.5 }),
     path: Field.path("Path", { hidden: false, width: 0.5 }),

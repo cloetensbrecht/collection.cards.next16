@@ -185,7 +185,7 @@ Config.track.options(illustrator, (get) => ({
   required: get(cardtype) !== "energy",
 }));
 
-export const PokemonCard = Config.type("Card", {
+export const PokemonCard = Config.type("Pokémon Card", {
   fields: {
     title: Field.text("Title", { width: 0.5, required: true }),
     path: Field.path("Path", { width: 0.5, required: true }),
