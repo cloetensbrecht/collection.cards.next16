@@ -38,6 +38,9 @@ export const Footer = Config.type("Footer", {
                         fields: {
                           link: Field.link("Link", {
                             location: { workspace: "main", root: "pages" },
+                            fields: {
+                              title: Field.text("Title"),
+                            },
                           }),
                         },
                       }),

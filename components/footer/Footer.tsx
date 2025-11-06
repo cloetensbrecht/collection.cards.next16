@@ -117,7 +117,9 @@ const Footer: React.FC = async () => {
                             }
                             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                           >
-                            {item.link?.title || "Untitled"}
+                            {item.link?.fields.title ||
+                              item.link?.title ||
+                              "Untitled"}
                           </Link>
                         );
                       case "Text":

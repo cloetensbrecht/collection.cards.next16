@@ -2,6 +2,7 @@ import { PokemonCard } from "@/alinea/schemas/PokemonCard";
 import { PokemonCollection } from "@/alinea/schemas/PokemonCollection";
 import { PokemonSet } from "@/alinea/schemas/PokemonSet";
 import { cms } from "@/cms";
+import Blocks from "@/components/blocks/Blocks";
 import Container from "@/components/container/Container";
 import SetCard from "@/components/setcard/SetCard";
 import { Title } from "@/components/title/Title";
@@ -20,6 +21,7 @@ const fetchCollectionData = async (collection: string) =>
     },
     select: {
       title: Query.title,
+      blocks: PokemonCollection.blocks,
       sets: Query.children({
         type: PokemonSet,
         select: {
@@ -52,6 +54,7 @@ export default async function Collection({
   return (
     <Container>
       <Title.H1>{collectionData.title}</Title.H1>
+      <Blocks blocks={collectionData.blocks} />
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
         {collectionData.sets.map((set, index) => {
           const numberOfTotalCards = set.cards.reduce(

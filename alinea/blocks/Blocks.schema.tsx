@@ -1,5 +1,6 @@
 import { Infer } from "alinea";
 import { ListRow } from "alinea/core/shape/ListShape";
+import { CollectionSetsOverviewBlock } from "./collectionsetsoverview/CollectionSetsOverviewBlock.schema";
 import { IllustratorCardsOverviewBlock } from "./illustratorcardsoverview/IllustratorCardsOverviewBlock.schema";
 import { TextBlock } from "./text/TextBlock.schema";
 
@@ -13,4 +14,17 @@ export const illustratorBlocks = {
   IllustratorCardsOverviewBlock,
 };
 
-export const Block = { ...defaultBlocks, ...illustratorBlocks };
+export const seriesBlocks = {
+  CollectionSetsOverviewBlock,
+};
+
+export const serieBlocks = {
+  CollectionSetsOverviewBlock,
+};
+
+export const Block = {
+  ...defaultBlocks,
+  ...illustratorBlocks,
+  ...seriesBlocks,
+  ...serieBlocks,
+};

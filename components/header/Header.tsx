@@ -45,7 +45,7 @@ const Header: React.FC = async () => {
                       )}
                       href={link.href}
                     >
-                      {link.title}
+                      {link.fields.title || link.title}
                     </Link>
                   </Component>
                 );

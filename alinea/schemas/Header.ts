@@ -9,6 +9,7 @@ export const Header = Config.type("Header", {
     links: Field.link.multiple("Links", {
       location: { workspace: "main", root: "pages" },
       fields: {
+        title: Field.text("Title"),
         asButton: Field.check("As button"),
         hideOnMobile: Field.check("Hide on mobile"),
       },

@@ -1,5 +1,6 @@
 import { Block } from "@/alinea/blocks/Blocks.schema";
 import React from "react";
+import CollectionSetsOverviewBlock from "./collectionsetsoverview/CollectionSetsOverviewBlock";
 import IllustratorCardsOverviewBlock from "./illustratorcardsoverview/IllustratorCardsOverviewBlock";
 import TextBlock from "./text/TextBlock";
 
@@ -18,6 +19,8 @@ const Blocks: React.FC<BlocksProps> = ({ blocks }) => {
             return <TextBlock {...block} key={block._id} />;
           case "IllustratorCardsOverviewBlock":
             return <IllustratorCardsOverviewBlock {...block} key={block._id} />;
+          case "CollectionSetsOverviewBlock":
+            return <CollectionSetsOverviewBlock {...block} key={block._id} />;
           default:
             return null;
         }

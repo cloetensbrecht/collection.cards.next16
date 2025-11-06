@@ -2,5 +2,23 @@
   "_id": "2zot5ZiulphWcaOxVYBNxL4gejw",
   "_type": "Collections",
   "_index": "b1W",
-  "title": "Collections"
+  "title": "Collections",
+  "blocks": [
+    {
+      "_id": "357JrRnuz1NQf5QqKajpnoccBu6",
+      "_index": "a0",
+      "_type": "TextBlock",
+      "text": [
+        {
+          "_type": "paragraph",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Coming soon"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

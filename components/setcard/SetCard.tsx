@@ -38,30 +38,38 @@ const SetCard: React.FC<SetCardProps> = ({
   text,
   title,
 }) => (
-  <Link href={href} className="group">
-    <Card className="py-0 gap-0 overflow-hidden xl:flex-row shadow-none transition-shadow duration-300 group-hover:shadow-md">
-      <CardContent className="relative min-h-55 max-xl:max-h-55 xl:w-66 overflow-hidden">
-        <Image
-          className="group-hover:scale-120 transition-transform duration-300 ease-in-out"
-          alt={title}
-          blurDataURL={blurDataURL(image?.thumbHash)}
-          src={`/media${image?.src}`}
-          fill={true}
-          placeholder="blur"
-          fetchPriority={priority ? "high" : "auto"}
-          preload={priority}
-          sizes="100vw"
-          style={{
-            backgroundColor: image?.averageColor,
-            objectFit: "cover",
-            transform: "scale(1.2)",
-            transformOrigin: `${image.focus.x * 100}% ${image.focus.y * 100}%`,
-            objectPosition: image?.focus
-              ? `${image.focus.x * 100}% ${image.focus.y * 100}%`
-              : undefined,
-          }}
-        />
-      </CardContent>
+  <Link href={href} className="group h-full">
+    <Card className="py-0 gap-0 overflow-hidden xl:flex-row shadow-none transition-shadow duration-300 h-full group-hover:shadow-md">
+      {image?.src && (
+        <CardContent className="relative min-h-55 max-xl:max-h-55 xl:w-66 overflow-hidden">
+          (
+          <Image
+            className="group-hover:scale-120 transition-transform duration-300 ease-in-out"
+            alt={title}
+            blurDataURL={
+              image?.thumbHash ? blurDataURL(image.thumbHash) : undefined
+            }
+            src={`/media${image?.src}`}
+            fill={true}
+            placeholder="blur"
+            fetchPriority={priority ? "high" : "auto"}
+            preload={priority}
+            sizes="100vw"
+            style={{
+              backgroundColor: image?.averageColor,
+              objectFit: "cover",
+              transform: "scale(1.2)",
+              transformOrigin: image?.focus
+                ? `${image.focus.x * 100}% ${image.focus.y * 100}%`
+                : undefined,
+              objectPosition: image?.focus
+                ? `${image.focus.x * 100}% ${image.focus.y * 100}%`
+                : undefined,
+            }}
+          />
+          )
+        </CardContent>
+      )}
       <div className="flex grow-1 flex-col justify-between">
         <CardHeader className="gap-5 pt-6 pb-5">
           <div>
@@ -86,7 +94,7 @@ const SetCard: React.FC<SetCardProps> = ({
                 </div>
               )}
             </div>
-            <div className="text-muted-foreground">{subTitle}</div>
+            <div className="text-muted-foreground italic">{subTitle}</div>
           </div>
           <CardDescription className="text-base">
             <RichText doc={text} />

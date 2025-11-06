@@ -7,5 +7,23 @@
     "_id": "2zvDPk9zp6pRlLn258JqZLLxHyo",
     "_type": "image",
     "_entry": "2zvDO1BMfxMKlISGYmp5RNOpJ0L"
-  }
+  },
+  "blocks": [
+    {
+      "_id": "357KJHSmdj6TTE56wAVnf7Nm434",
+      "_index": "a0",
+      "_type": "TextBlock",
+      "text": [
+        {
+          "_type": "paragraph",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Coming soon"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
