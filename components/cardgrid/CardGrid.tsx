@@ -27,7 +27,7 @@ type CardGridProps<T> = {
   data: T[];
 };
 
-type ImageItem = {
+export type ImageItem = {
   averageColor?: string;
   blurDataURL?: string;
   focus?: { x: number; y: number };

@@ -1,17 +1,70 @@
+import { PokemonCard } from "@/alinea/schemas/PokemonCard";
 import { PokemonSet } from "@/alinea/schemas/PokemonSet";
 import { cms } from "@/cms";
+import CardGrid, { ImageItem } from "@/components/cardgrid/CardGrid";
 import Container from "@/components/container/Container";
 import { Title } from "@/components/title/Title";
+import { blurDataURL } from "@/lib/blurDataURL";
+import { Query } from "alinea";
 import { notFound } from "next/navigation";
 
 const fetchSetData = async (url: string) => {
-  return await cms.first({
+  const data = await cms.first({
     type: PokemonSet,
+    select: {
+      ...PokemonSet,
+      cards: Query.children({
+        type: PokemonCard,
+        orderBy: { asc: PokemonCard.number },
+      }),
+    },
     filter: {
       _status: "published",
       _url: url,
     },
   });
+
+  return data
+    ? {
+        ...data,
+        cards: (data.cards as (PokemonCard & { _id: string })[]).reduce(
+          (acc, item) => {
+            if (!item.card?.src) return acc;
+
+            const basicInfo: ImageItem = {
+              averageColor: item.card?.averageColor,
+              blurDataURL: blurDataURL(item.card?.thumbHash),
+              focus: item.card?.focus,
+              id: item._id,
+              src: `/media${item.card.src}`,
+              title: item.title,
+            };
+
+            // there are no variants, add the normal card
+            if (!item.variants || item.variants.length === 0) {
+              acc.push(basicInfo);
+              return acc;
+            }
+
+            // add the variants
+            item.variants?.forEach((variant) => {
+              acc.push({
+                ...basicInfo,
+                id: variant._id,
+                src:
+                  variant.variant === "reverse_holofoil" &&
+                  item.reverseCard?.src
+                    ? `/media${item.reverseCard?.src}`
+                    : basicInfo.src,
+                title: `${basicInfo.title}`,
+              });
+            });
+            return acc;
+          },
+          [] as ImageItem[]
+        ),
+      }
+    : null;
 };
 
 export default async function Set({
@@ -33,6 +86,7 @@ export default async function Set({
   return (
     <Container>
       <Title.H1>{setData.title}</Title.H1>
+      <CardGrid data={setData.cards} />
     </Container>
   );
 }
