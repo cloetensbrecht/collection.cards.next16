@@ -3,6 +3,7 @@
 import { useWindowVirtualizer } from "@tanstack/react-virtual";
 import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { TiltCard } from "../tiltcard/TiltCard";
 
 const gapSize = 16;
 const containerPadding = 48;
@@ -112,7 +113,9 @@ export default function CardGrid<T>({ data }: CardGridProps<T>) {
         return (
           <div
             key={virtualRow.key}
-            className="absolute top-0 left-0 grid w-full gap-4"
+            className={
+              "absolute top-0 left-0 grid w-full gap-4 z-1 hover:z-[10]"
+            }
             style={{
               transform: `translateY(${virtualRow.start}px)`,
               gridTemplateColumns: `repeat(${columnCount}, 1fr)`,
@@ -120,10 +123,12 @@ export default function CardGrid<T>({ data }: CardGridProps<T>) {
             }}
           >
             {rowItems.map((item, index) => (
-              <Card
+              <TiltCard
                 key={(item as ImageItem).id || index}
-                {...(item as ImageItem)}
-              />
+                className="h-full"
+              >
+                <Card {...(item as ImageItem)} />
+              </TiltCard>
             ))}
           </div>
         );
