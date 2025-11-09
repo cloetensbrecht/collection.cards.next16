@@ -93,7 +93,13 @@ export function TiltCard({
       ref={cardRef}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className={cn("tilt-card relative z-1 hover:z-10", className)}
+      className={cn(
+        "tilt-card relative z-1 hover:z-10",
+        "[transform:perspective(1000px)_rotateX(var(--tilt-x))_rotateY(var(--tilt-y))_scale(var(--scale))]",
+        "[transition:transform_var(--transition-speed)_cubic-bezier(0.03,0.98,0.52,0.99)]",
+        "will-change-[transform]",
+        className
+      )}
       style={
         {
           "--pointer-x": "50%",
@@ -105,11 +111,6 @@ export function TiltCard({
           "--tilt-y": "0deg",
           "--scale": "1",
           "--transition-speed": `${transitionSpeed}ms`,
-          transform:
-            "perspective(1000px) rotateX(var(--tilt-x)) rotateY(var(--tilt-y)) scale(var(--scale))",
-          transition:
-            "transform var(--transition-speed) cubic-bezier(0.03, 0.98, 0.52, 0.99)",
-          willChange: "transform",
         } as React.CSSProperties
       }
     >
