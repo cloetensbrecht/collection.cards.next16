@@ -48,13 +48,18 @@ export function TiltCard({
       const percentX = (x - centerX) / centerX;
       const percentY = (y - centerY) / centerY;
 
+      const pointerX = percentX < 0 ? (1 + percentX) * 50 : percentX * 50 + 50;
+      const pointerY = percentY < 0 ? (1 + percentY) * 50 : percentY * 50 + 50;
+
       const tiltX = percentY * tiltMaxAngle * (tiltReverse ? -1 : 1);
       const tiltY = percentX * tiltMaxAngle * (tiltReverse ? 1 : -1);
 
       // Apply transforms using CSS variables (GPU-accelerated, no re-render)
+      card.style.setProperty("--pointer-x", `${pointerX}%`);
+      card.style.setProperty("--pointer-y", `${pointerY}%`);
+      card.style.setProperty("--scale", `${scale}`);
       card.style.setProperty("--tilt-x", `${tiltX}deg`);
       card.style.setProperty("--tilt-y", `${tiltY}deg`);
-      card.style.setProperty("--scale", `${scale}`);
     });
   };
 
@@ -73,6 +78,8 @@ export function TiltCard({
     }
 
     // Reset transform
+    card.style.setProperty("--pointer-x", `50%`);
+    card.style.setProperty("--pointer-y", `50%`);
     card.style.setProperty("--tilt-x", "0deg");
     card.style.setProperty("--tilt-y", "0deg");
     card.style.setProperty("--scale", "1");
@@ -89,6 +96,8 @@ export function TiltCard({
       className={cn("tilt-card relative z-1 hover:z-10", className)}
       style={
         {
+          "--pointer-x": "50%",
+          "--pointer-y": "50%",
           "--tilt-x": "0deg",
           "--tilt-y": "0deg",
           "--scale": "1",
