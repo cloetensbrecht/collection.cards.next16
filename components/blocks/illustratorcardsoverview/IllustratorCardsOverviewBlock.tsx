@@ -1,17 +1,18 @@
 import { IllustratorCardsOverviewBlock as IllustratorCardsOverviewBlockSchema } from "@/alinea/blocks/illustratorcardsoverview/IllustratorCardsOverviewBlock.schema";
 import { PokemonCard } from "@/alinea/schemas/PokemonCard";
 import { cms } from "@/cms";
-import CardGrid from "@/components/cardgrid/CardGrid";
+import CardGrid, { CardGridProps } from "@/components/cardgrid/CardGrid";
 import { blurDataURL } from "@/lib/blurDataURL";
 import { Query } from "alinea";
 
-const fetchIllustratorCards = async (illustratorId: string) => {
+const fetchIllustratorCards = async (
+  illustratorId: string
+): Promise<CardGridProps["cards"]> => {
   return (
     await cms.find({
       type: PokemonCard,
       select: {
-        card: PokemonCard.card,
-        title: PokemonCard.title,
+        ...PokemonCard,
         id: Query.id,
       },
       filter: {
@@ -20,14 +21,19 @@ const fetchIllustratorCards = async (illustratorId: string) => {
       orderBy: { asc: Query.id },
     })
   )
-    .filter(({ card }) => card !== undefined && card.src !== undefined)
+    .filter(({ card }) => card !== undefined && card.src)
     .map((item) => {
       return {
         averageColor: item.card?.averageColor,
         blurDataURL: blurDataURL(item.card?.thumbHash),
+        edgeColor: item.edgeColor,
         focus: item.card?.focus,
+        glowColor:
+          item.energy || item.subtype
+            ? `var(--${item.energy || item.subtype})`
+            : undefined,
         id: item.id,
-        src: item.card?.src ? `/media${item.card.src}` : undefined,
+        src: `/media${item.card.src}`,
         title: item.title,
       };
     });
@@ -41,7 +47,7 @@ const IllustratorCardsOverviewBlock: React.FC<
 
   return (
     <div>
-      <CardGrid data={cardsData} />
+      <CardGrid cards={cardsData} />
     </div>
   );
 };

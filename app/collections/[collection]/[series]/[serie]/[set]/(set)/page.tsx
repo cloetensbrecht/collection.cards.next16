@@ -1,7 +1,7 @@
 import { PokemonCard } from "@/alinea/schemas/PokemonCard";
 import { PokemonSet } from "@/alinea/schemas/PokemonSet";
 import { cms } from "@/cms";
-import CardGrid, { ImageItem } from "@/components/cardgrid/CardGrid";
+import CardGrid, { CardGridProps } from "@/components/cardgrid/CardGrid";
 import Container from "@/components/container/Container";
 import { Title } from "@/components/title/Title";
 import { blurDataURL } from "@/lib/blurDataURL";
@@ -31,10 +31,15 @@ const fetchSetData = async (url: string) => {
           (acc, item) => {
             if (!item.card?.src) return acc;
 
-            const basicInfo: ImageItem = {
+            const basicInfo: CardGridProps["cards"][number] = {
               averageColor: item.card?.averageColor,
               blurDataURL: blurDataURL(item.card?.thumbHash),
+              edgeColor: item.edgeColor,
               focus: item.card?.focus,
+              glowColor:
+                item.energy || item.subtype
+                  ? `var(--${item.energy || item.subtype})`
+                  : undefined,
               id: item._id,
               src: `/media${item.card.src}`,
               title: item.title,
@@ -61,7 +66,7 @@ const fetchSetData = async (url: string) => {
             });
             return acc;
           },
-          [] as ImageItem[]
+          [] as CardGridProps["cards"]
         ),
       }
     : null;
@@ -86,7 +91,7 @@ export default async function Set({
   return (
     <Container>
       <Title.H1>{setData.title}</Title.H1>
-      <CardGrid data={setData.cards} />
+      <CardGrid cards={setData.cards} />
     </Container>
   );
 }

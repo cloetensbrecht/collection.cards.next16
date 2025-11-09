@@ -1,8 +1,8 @@
 "use client";
 
 import { useWindowVirtualizer } from "@tanstack/react-virtual";
-import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
+import Card, { CardProps } from "../card/Card";
 import { TiltCard } from "../tiltcard/TiltCard";
 
 const gapSize = 16;
@@ -24,51 +24,11 @@ function getColumnWidth(width: number, columnCount: number): number {
   return (1488 - gapWidth) / columnCount; // desktop
 }
 
-type CardGridProps<T> = {
-  data: T[];
+export type CardGridProps = {
+  cards: Omit<CardProps, "sizes">[];
 };
 
-export type ImageItem = {
-  averageColor?: string;
-  blurDataURL?: string;
-  focus?: { x: number; y: number };
-  id: string;
-  src: string;
-  title: string;
-};
-
-const Card: React.FC<ImageItem> = ({
-  averageColor,
-  blurDataURL,
-  focus,
-  id,
-  src,
-  title,
-}) => (
-  <div key={id}>
-    <div className="relative w-full overflow-hidden rounded-lg bg-gray-100 flex items-center justify-center aspect-[733/1024]">
-      <Image
-        alt={title}
-        blurDataURL={blurDataURL}
-        fetchPriority="high"
-        layout="fill"
-        placeholder="blur"
-        preload={true}
-        src={src}
-        style={{
-          backgroundColor: averageColor,
-          objectFit: "contain",
-          objectPosition: focus
-            ? `${focus.x * 100}% ${focus.y * 100}%`
-            : undefined,
-        }}
-        sizes={`(max-width: 639px) calc(50vw - ${containerPadding}px - ${gapSize}px), (max-width: 676px) 187px, (max-width: 1023px) 230px, (max-width: 1279px) 232px,  (max-width: 1535px) 296px, 360px`}
-      />
-    </div>
-  </div>
-);
-
-export default function CardGrid<T>({ data }: CardGridProps<T>) {
+const CardGrid: React.FC<CardGridProps> = ({ cards }) => {
   const gridRef = useRef<HTMLDivElement>(null);
   const [windowWidth, setWindowWidth] = useState(0);
 
@@ -83,7 +43,7 @@ export default function CardGrid<T>({ data }: CardGridProps<T>) {
   const columnCount = useMemo(() => getColumnCount(windowWidth), [windowWidth]);
   const columnWidth = getColumnWidth(windowWidth, columnCount);
   const rowHeight = Math.floor(columnWidth * (1024 / 733) + gapSize); // maintain 408:555 ratio
-  const rowCount = Math.ceil(data.length / columnCount);
+  const rowCount = Math.ceil(cards.length / columnCount);
 
   const virtualizer = useWindowVirtualizer({
     count: rowCount,
@@ -95,7 +55,7 @@ export default function CardGrid<T>({ data }: CardGridProps<T>) {
     virtualizer.measure();
   }, [rowHeight, columnCount, virtualizer]);
 
-  if (data.length === 0) return null;
+  if (cards.length === 0) return null;
   if (windowWidth === 0) return <div className="h-screen" />;
 
   return (
@@ -108,7 +68,7 @@ export default function CardGrid<T>({ data }: CardGridProps<T>) {
         const rowIndex = virtualRow.index;
         const start = rowIndex * columnCount;
         const end = start + columnCount;
-        const rowItems = data.slice(start, end);
+        const rowItems = cards.slice(start, end);
 
         return (
           <div
@@ -124,10 +84,13 @@ export default function CardGrid<T>({ data }: CardGridProps<T>) {
           >
             {rowItems.map((item, index) => (
               <TiltCard
-                key={(item as ImageItem).id || index}
+                key={(item as CardProps).id || index}
                 className="h-full"
               >
-                <Card {...(item as ImageItem)} />
+                <Card
+                  {...(item as CardProps)}
+                  sizes={`(max-width: 639px) calc(50vw - ${containerPadding}px - ${gapSize}px), (max-width: 676px) 187px, (max-width: 1023px) 230px, (max-width: 1279px) 232px,  (max-width: 1535px) 296px, 360px`}
+                />
               </TiltCard>
             ))}
           </div>
@@ -135,4 +98,5 @@ export default function CardGrid<T>({ data }: CardGridProps<T>) {
       })}
     </div>
   );
-}
+};
+export default CardGrid;
