@@ -55,6 +55,12 @@ export function TiltCard({
       // Apply transforms using CSS variables (GPU-accelerated, no re-render)
       card.style.setProperty("--pointer-x", `${pointerX}%`);
       card.style.setProperty("--pointer-y", `${pointerY}%`);
+      card.style.setProperty(
+        "--pointer-from-center",
+        `${percentX < 0 ? -percentX : percentX}%`
+      );
+      card.style.setProperty("--pointer-from-left", `${pointerX / 100}`);
+      card.style.setProperty("--pointer-from-top", `${pointerY / 100}`);
       card.style.setProperty("--scale", `${scale}`);
       card.style.setProperty("--tilt-x", `${tiltX}deg`);
       card.style.setProperty("--tilt-y", `${tiltY}deg`);
@@ -74,6 +80,9 @@ export function TiltCard({
     // Reset transform
     card.style.setProperty("--pointer-x", `50%`);
     card.style.setProperty("--pointer-y", `50%`);
+    card.style.setProperty("--pointer-from-center", `0`);
+    card.style.setProperty("--pointer-from-left", `0.5`);
+    card.style.setProperty("--pointer-from-top", `0.5`);
     card.style.setProperty("--tilt-x", "0deg");
     card.style.setProperty("--tilt-y", "0deg");
     card.style.setProperty("--scale", "1");
@@ -89,6 +98,9 @@ export function TiltCard({
         {
           "--pointer-x": "50%",
           "--pointer-y": "50%",
+          "--pointer-from-center": "0",
+          "--pointer-from-left": "0.5",
+          "--pointer-from-top": "0.5",
           "--tilt-x": "0deg",
           "--tilt-y": "0deg",
           "--scale": "1",

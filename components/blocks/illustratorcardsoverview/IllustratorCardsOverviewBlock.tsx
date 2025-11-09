@@ -28,13 +28,16 @@ const fetchIllustratorCards = async (
         blurDataURL: blurDataURL(item.card?.thumbHash),
         edgeColor: item.edgeColor,
         focus: item.card?.focus,
+        foil: item.variants?.[0]?.foil?.src || undefined,
         glowColor:
           item.energy || item.subtype
             ? `var(--${item.energy || item.subtype})`
             : undefined,
         id: item.id,
+        mask: item.variants?.[0]?.mask?.src || undefined,
         src: `/media${item.card.src}`,
         title: item.title,
+        variant: item.variants?.[0]?.variant || "normal",
       };
     });
 };

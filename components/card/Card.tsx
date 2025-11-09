@@ -1,17 +1,22 @@
+import { variant } from "@/consts/variant";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Glare from "../glare/Glare";
+import ReverseHolofoil from "./effects/reverseholofoil";
 
 export type CardProps = {
   averageColor?: string;
   blurDataURL?: string;
   edgeColor?: string;
   focus?: { x: number; y: number };
+  foil?: string;
   glowColor?: string;
   id: string;
+  mask?: string;
   sizes: string;
   src: string;
   title: string;
+  variant: keyof typeof variant;
 };
 
 const Card: React.FC<CardProps> = ({
@@ -19,13 +24,17 @@ const Card: React.FC<CardProps> = ({
   blurDataURL,
   edgeColor,
   focus,
+  foil,
   glowColor,
+  mask,
   sizes,
   src,
   title,
+  variant,
 }) => (
   <button
     className={cn(
+      "group/card",
       "relative w-full overflow-hidden rounded-lg bg-gray-100 flex items-center justify-center aspect-[733/1024]",
       "shadow-[0_0_3px_-1px_rgba(0,0,0,0),0_0_2px_1px_rgba(0,0,0,0),0_0_5px_rgba(0,0,0,0),0_10px_20px_-5px_#000,0_2px_15px_-5px_#000,0_0_20px_rgba(0,0,0,0)]",
       glowColor
@@ -40,6 +49,8 @@ const Card: React.FC<CardProps> = ({
       {
         "--card-edge": edgeColor,
         "--card-glow": glowColor || "black",
+        "--foil": foil ? `url(/media${foil})` : undefined,
+        "--mask": mask ? `url(/media${mask})` : undefined,
         "--ring": glowColor || "black",
       } as React.CSSProperties
     }
@@ -61,6 +72,7 @@ const Card: React.FC<CardProps> = ({
       }}
       sizes={sizes}
     />
+    {variant === "reverse_holofoil" && <ReverseHolofoil />}
     <Glare />
   </button>
 );

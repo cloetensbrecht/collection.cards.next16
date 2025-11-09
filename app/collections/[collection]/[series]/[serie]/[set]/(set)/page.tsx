@@ -43,6 +43,7 @@ const fetchSetData = async (url: string) => {
               id: item._id,
               src: `/media${item.card.src}`,
               title: item.title,
+              variant: "normal",
             };
 
             // there are no variants, add the normal card
@@ -56,12 +57,15 @@ const fetchSetData = async (url: string) => {
               acc.push({
                 ...basicInfo,
                 id: variant._id,
+                foil: variant.foil?.src || undefined,
+                mask: variant.mask?.src || undefined,
                 src:
                   variant.variant === "reverse_holofoil" &&
                   item.reverseCard?.src
                     ? `/media${item.reverseCard?.src}`
                     : basicInfo.src,
                 title: `${basicInfo.title}`,
+                variant: variant.variant || "normal",
               });
             });
             return acc;

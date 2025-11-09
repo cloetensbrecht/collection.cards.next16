@@ -2,6 +2,7 @@ import { edge } from "@/consts/edge";
 import { energy as energyOptions } from "@/consts/energy";
 import { pokedex } from "@/consts/pokedex";
 import { rarity as rarityOptions } from "@/consts/rarity";
+import { variant } from "@/consts/variant";
 import { IcOutlineCropPortrait } from "@/icons/IcRoundCropPortrait";
 import { Config, EntryReference, Field, Infer } from "alinea";
 
@@ -17,11 +18,7 @@ const HoloPatterns = {
 };
 
 const VariantField = Field.select("Variant", {
-  options: {
-    normal: "Normal",
-    holofoil: "Holofoil",
-    reverse_holofoil: "Reverse Holofoil",
-  },
+  options: variant,
   required: true,
   width: 0.5,
 });
