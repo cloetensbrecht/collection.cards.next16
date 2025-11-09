@@ -12,7 +12,6 @@ interface TiltCardProps {
   tiltReverse?: boolean;
   scale?: number;
   transitionSpeed?: number;
-  onHoverChange?: (isHovered: boolean) => void;
 }
 
 export function TiltCard({
@@ -22,7 +21,6 @@ export function TiltCard({
   tiltReverse = false,
   scale = 1.05,
   transitionSpeed = 400,
-  onHoverChange,
 }: TiltCardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef<number | null>(null);
@@ -63,10 +61,6 @@ export function TiltCard({
     });
   };
 
-  const handleMouseEnter = () => {
-    onHoverChange?.(true);
-  };
-
   const handleMouseLeave = () => {
     const card = cardRef.current;
     if (!card) return;
@@ -83,14 +77,11 @@ export function TiltCard({
     card.style.setProperty("--tilt-x", "0deg");
     card.style.setProperty("--tilt-y", "0deg");
     card.style.setProperty("--scale", "1");
-
-    onHoverChange?.(false);
   };
 
   return (
     <div
       ref={cardRef}
-      onMouseEnter={handleMouseEnter}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       className={cn("tilt-card relative z-1 hover:z-10", className)}
