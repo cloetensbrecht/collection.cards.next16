@@ -1,8 +1,15 @@
+import { holofoilPatterns, reverseHolofoilPatterns } from "@/consts/effect";
 import { variant } from "@/consts/variant";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Glare from "../glare/Glare";
 import ReverseHolofoil from "./effects/reverseholofoil";
+import ReverseHolofoilMasterBall, {
+  ReverseHolofoilMasterBallAfterGlare,
+} from "./effects/reverseHolofoilMasterBall";
+import ReverseHolofoilPokeBall, {
+  ReverseHolofoilPokeBallAfterGlare,
+} from "./effects/reverseHolofoilPokeBall";
 
 export type CardProps = {
   averageColor?: string;
@@ -13,6 +20,9 @@ export type CardProps = {
   glowColor?: string;
   id: string;
   mask?: string;
+  pattern?:
+    | keyof typeof reverseHolofoilPatterns
+    | keyof typeof holofoilPatterns;
   sizes: string;
   src: string;
   title: string;
@@ -27,6 +37,7 @@ const Card: React.FC<CardProps> = ({
   foil,
   glowColor,
   mask,
+  pattern,
   sizes,
   src,
   title,
@@ -72,8 +83,20 @@ const Card: React.FC<CardProps> = ({
       }}
       sizes={sizes}
     />
-    {variant === "reverse_holofoil" && <ReverseHolofoil />}
+    {variant === "reverse_holofoil" && !pattern && <ReverseHolofoil />}
+    {variant === "reverse_holofoil" && pattern === "pokeBall" && (
+      <ReverseHolofoilPokeBall />
+    )}
+    {variant === "reverse_holofoil" && pattern === "masterBall" && (
+      <ReverseHolofoilMasterBall />
+    )}
     <Glare />
+    {variant === "reverse_holofoil" && pattern === "pokeBall" && (
+      <ReverseHolofoilPokeBallAfterGlare />
+    )}
+    {variant === "reverse_holofoil" && pattern === "masterBall" && (
+      <ReverseHolofoilMasterBallAfterGlare />
+    )}
   </button>
 );
 

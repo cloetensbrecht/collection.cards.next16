@@ -59,6 +59,7 @@ const fetchSetData = async (url: string) => {
                 id: variant._id,
                 foil: variant.foil?.src || undefined,
                 mask: variant.mask?.src || undefined,
+                pattern: variant.pattern || undefined,
                 src:
                   variant.variant === "reverse_holofoil" &&
                   item.reverseCard?.src

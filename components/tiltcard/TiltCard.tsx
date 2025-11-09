@@ -57,7 +57,7 @@ export function TiltCard({
       card.style.setProperty("--pointer-y", `${pointerY}%`);
       card.style.setProperty(
         "--pointer-from-center",
-        `${percentX < 0 ? -percentX : percentX}%`
+        `${percentX < 0 ? -percentX : percentX}`
       );
       card.style.setProperty("--pointer-from-left", `${pointerX / 100}`);
       card.style.setProperty("--pointer-from-top", `${pointerY / 100}`);

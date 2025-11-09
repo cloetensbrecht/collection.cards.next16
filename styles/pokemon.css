@@ -24,4 +24,12 @@
   --card-edge: hsl(47.14 100% 78.04%);
   --card-back: hsl(205, 100%, 25%);
   --card-glow: hsl(175, 100%, 90%);
+
+  /* Card effects */
+  --sunpillar-1: #ff7a75;
+  --sunpillar-2: #ffed61;
+  --sunpillar-3: #a8ff61;
+  --sunpillar-4: #85fff7;
+  --sunpillar-5: #7a95ff;
+  --sunpillar-6: #d875ff;
 }

@@ -35,6 +35,7 @@ const fetchIllustratorCards = async (
             : undefined,
         id: item.id,
         mask: item.variants?.[0]?.mask?.src || undefined,
+        pattern: item.variants?.[0]?.pattern || undefined,
         src: `/media${item.card.src}`,
         title: item.title,
         variant: item.variants?.[0]?.variant || "normal",
