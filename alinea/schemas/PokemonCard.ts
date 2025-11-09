@@ -1,4 +1,5 @@
 import { edge } from "@/consts/edge";
+import { holofoilPatterns, reverseHolofoilPatterns } from "@/consts/effect";
 import { energy as energyOptions } from "@/consts/energy";
 import { pokedex } from "@/consts/pokedex";
 import { rarity as rarityOptions } from "@/consts/rarity";
@@ -8,15 +9,6 @@ import { Config, EntryReference, Field, Infer } from "alinea";
 
 export type PokemonCard = Infer<typeof PokemonCard>;
 
-const ReverseHoloPatterns = {
-  pokeBall: "Poké Ball Pattern",
-  masterBall: "Master Ball Pattern",
-};
-
-const HoloPatterns = {
-  tinsel: "Tinsel Holofoil",
-};
-
 const VariantField = Field.select("Variant", {
   options: variant,
   required: true,
@@ -25,8 +17,8 @@ const VariantField = Field.select("Variant", {
 
 const VariantPattern = Field.select("Pattern", {
   options: {
-    ...ReverseHoloPatterns,
-    ...HoloPatterns,
+    ...reverseHolofoilPatterns,
+    ...holofoilPatterns,
   },
   width: 0.5,
 });
@@ -117,9 +109,9 @@ Config.track.options(Variant.pattern, (get) => ({
   hidden:
     get(Variant.variant) === undefined || get(Variant.variant) === "normal",
   options: (get(VariantField) === "holofoil"
-    ? HoloPatterns
+    ? holofoilPatterns
     : get(VariantField) === "reverse_holofoil"
-    ? ReverseHoloPatterns
+    ? reverseHolofoilPatterns
     : undefined) as undefined,
 }));
 
