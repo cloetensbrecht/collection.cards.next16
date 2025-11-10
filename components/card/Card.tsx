@@ -75,7 +75,7 @@ const Card: React.FC<CardProps> = ({
       preload={true}
       src={src}
       style={{
-        backgroundColor: averageColor,
+        backgroundColor: edgeColor,
         objectFit: "contain",
         objectPosition: focus
           ? `${focus.x * 100}% ${focus.y * 100}%`
