@@ -84,7 +84,7 @@ const CardGrid: React.FC<CardGridProps> = ({ cards }) => {
           >
             {rowItems.map((item, index) => (
               <TiltCard
-                key={(item as CardProps).id || index}
+                key={`${(item as CardProps).id}_${index}`}
                 className="h-full"
               >
                 <Card
