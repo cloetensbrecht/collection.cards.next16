@@ -1,4 +1,4 @@
-const Glare = () => (
+const Glare: React.FC = () => (
   <div
     className="glare w-full h-full mix-blend-overlay will-change-[background-image]"
     style={{
