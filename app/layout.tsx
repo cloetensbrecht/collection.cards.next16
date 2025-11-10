@@ -22,6 +22,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Collection.cards - TCG Collection Manager",
   description: "Manage your TCG collection online",
+  other: {
+    "apple-mobile-web-app-capable": "yes",
+  },
 };
 
 export default function RootLayout({
