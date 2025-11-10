@@ -46,8 +46,8 @@ const Card: React.FC<CardProps> = ({
   <button
     className={cn(
       "group/card",
-      "relative w-full overflow-hidden rounded-lg bg-gray-100 flex items-center justify-center aspect-[733/1024]",
-      "shadow-[0_0_3px_-1px_rgba(0,0,0,0),0_0_2px_1px_rgba(0,0,0,0),0_0_5px_rgba(0,0,0,0),0_10px_20px_-5px_#000,0_2px_15px_-5px_#000,0_0_20px_rgba(0,0,0,0)]",
+      "relative w-full overflow-hidden rounded-[10px] md:rounded-[15px] flex items-center justify-center aspect-[733/1024]",
+      "shadow-[0_0_3px_-1px_rgba(0,0,0,0),0_0_2px_1px_var(--card-edge),0_0_5px_var(--card-edge),0_10px_20px_-5px_#000,0_2px_15px_-5px_var(--card-edge),0_0_20px_rgba(0,0,0,0.5)]",
       glowColor
         ? "hover:shadow-[0_0_3px_-1px_rgba(0,0,0,0),0_0_2px_1px_var(--card-edge),0_0_5px_var(--card-glow),0_10px_20px_-5px_#000,0_2px_15px_-5px_var(--card-glow),0_0_20px_var(--card-glow)]"
         : undefined,
