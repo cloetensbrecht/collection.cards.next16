@@ -12,7 +12,6 @@ import ReverseHolofoilPokeBall, {
 } from "./effects/reverseHolofoilPokeBall";
 
 export type CardProps = {
-  averageColor?: string;
   blurDataURL?: string;
   edgeColor?: string;
   focus?: { x: number; y: number };
@@ -30,7 +29,6 @@ export type CardProps = {
 };
 
 const Card: React.FC<CardProps> = ({
-  averageColor,
   blurDataURL,
   edgeColor,
   focus,

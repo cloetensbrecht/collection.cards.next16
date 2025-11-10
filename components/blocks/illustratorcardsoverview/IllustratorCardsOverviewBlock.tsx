@@ -23,8 +23,7 @@ const fetchIllustratorCards = async (
   )
     .filter(({ card }) => card !== undefined && card.src)
     .map((item) => {
-      return {
-        averageColor: item.card?.averageColor,
+      const card: CardGridProps["cards"][number] = {
         blurDataURL: blurDataURL(item.card?.thumbHash),
         edgeColor: item.edgeColor,
         focus: item.card?.focus,
@@ -40,6 +39,7 @@ const fetchIllustratorCards = async (
         title: item.title,
         variant: item.variants?.[0]?.variant || "normal",
       };
+      return card;
     });
 };
 
