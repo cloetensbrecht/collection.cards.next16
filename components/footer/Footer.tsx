@@ -44,7 +44,7 @@ const Footer: React.FC = async () => {
       <Container className="flex flex-col gap-8 items-center md:items-start">
         <div
           className={cn(
-            "grid items-center gap-12 text-center lg:items-start lg:gap-6 lg:text-left w-full justify-items-center lg:justify-items-stretch",
+            "grid gap-12 text-center items-center lg:items-start lg:gap-6 lg:text-left w-full justify-items-center lg:justify-items-stretch",
             getColumnsClassName(footerData.columns.length + 1)
           )}
         >
@@ -55,7 +55,7 @@ const Footer: React.FC = async () => {
           />
           {footerData.columns.map((column) => (
             <div
-              className="flex flex-col gap-4 h-full justify-between"
+              className="flex flex-col gap-4 justify-between"
               key={column._id}
             >
               <div className="flex flex-col gap-4">
@@ -145,8 +145,8 @@ const Footer: React.FC = async () => {
           role="presentation"
           data-slot="separator"
           className="bg-border shrink-0 data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px"
-        ></div>
-        <div className="flex flex-col gap-12 text-center lg:flex-row lg:items-end lg:justify-between lg:text-left w-full">
+        />
+        <div className="flex flex-col gap-12 text-center lg:flex-row lg:items-end lg:justify-between lg:text-left w-full lg:items-start">
           <div className="text-muted-foreground text-center lg:text-left leading-relaxed order-2 lg:order-1">
             <p>{footerData.copyright}</p>
             <RichText doc={footerData.disclaimer} />
@@ -158,7 +158,7 @@ const Footer: React.FC = async () => {
             {footerData.legal_links.map((link) => (
               <Link
                 key={link._id}
-                className="text-muted-foreground hover:text-foreground text-center transition-colors md:text-left"
+                className="text-muted-foreground hover:text-foreground text-center transition-colors md:text-left whitespace-nowrap"
                 href={link.href}
               >
                 {link.title}
