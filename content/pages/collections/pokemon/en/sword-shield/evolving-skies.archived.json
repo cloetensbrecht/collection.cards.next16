@@ -7,7 +7,6 @@
   "ptcgoCode": "EVS",
   "releaseDate": "2021-08-27",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpLsTWqp32TpqiaFvZRddHsMzw",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowityeYYHsAWWKHpM3OhI8Ayh"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Evolving Skies takes your battles to new heights with the majestic power of Dragon- and Flying-type Pokémon. Featuring Eevee’s evolutions, powerful attacks, and synergy-driven mechanics, this expansion rewards Trainers who master strategy and adaptation. With stunning artwork, breathtaking Pokémon ex, and gameplay that soars above the ordinary, Evolving Skies invites you to evolve your tactics and dominate the battlefield."
+        }
+      ]
+    }
+  ]
 }

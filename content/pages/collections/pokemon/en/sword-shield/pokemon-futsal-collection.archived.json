@@ -6,7 +6,6 @@
   "ptcgoCode": "FUT20",
   "releaseDate": "2020-09-11",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "30t31mFT79XwedL3081R7JWU0kN",
@@ -23,6 +22,15 @@
   ],
   "logo": {},
   "heroImage": {},
-  "cta_description": [],
-  "cta_button": ""
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Pokémon Futsal Collection kicks excitement onto the battlefield with Pokémon ready to show off their agility, teamwork, and flair. Featuring fast-paced strategies, special Trainer cards, and Pokémon that shine in cooperative play, this collection rewards clever tactics and dynamic gameplay. With vibrant artwork capturing action and energy, Pokémon Futsal Collection invites Trainers to score big, pass with precision, and celebrate every victory in style."
+        }
+      ]
+    }
+  ]
 }

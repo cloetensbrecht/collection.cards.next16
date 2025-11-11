@@ -7,7 +7,6 @@
   "ptcgoCode": "BRS",
   "releaseDate": "2022-02-25",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpLoidvEDpuZydk2jsQw2cgJqR",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowiuCD9pszSgJvUShdX5KKS6d"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Brilliant Stars shines a spotlight on the most dazzling Pokémon and game-changing strategies. Featuring powerful Pokémon ex, dynamic abilities, and mechanics that reward precise timing and synergy, this expansion elevates battles to a new level of excitement. With stunning artwork, radiant full-art cards, and strategies that sparkle with potential, Brilliant Stars invites Trainers to harness brilliance, strike with power, and shine above the rest."
+        }
+      ]
+    }
+  ]
 }

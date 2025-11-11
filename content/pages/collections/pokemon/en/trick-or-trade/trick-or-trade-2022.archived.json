@@ -6,7 +6,6 @@
   "ptcgoCode": "",
   "releaseDate": "2022-09-01",
   "generation": "VIII",
-  "serie": "trickOrTrade",
   "symbol": [
     {
       "_id": "30t2cz2UjU55XMym9KGbCzLKepf",
@@ -20,27 +19,16 @@
     "_type": "image",
     "_entry": "2zpOLsypUu6KijaLqC0nkRe1nPP"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Trick or Trade 2022 brings spooky strategy and festive fun to the Pokémon TCG. Featuring Ghost- and Dark-type Pokémon, eerie Trainer cards, and mechanics that reward clever tactics, this set turns every match into a game of cunning and surprise. With haunting artwork, seasonal flair, and unexpected twists around every corner, Trick or Trade 2022 invites Trainers to embrace the mischief—and make every battle a treat."
+        }
+      ]
+    }
+  ]
 }

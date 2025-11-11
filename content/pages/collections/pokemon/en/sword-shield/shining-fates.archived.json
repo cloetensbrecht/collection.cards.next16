@@ -7,7 +7,6 @@
   "ptcgoCode": "SHF",
   "releaseDate": "2021-02-19",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpLwa8ICjyaMONYAguk8mbIEKU",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowivEESUYj0GtzWbL2NSX3GCq"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Shining Fates brings sparkle and excitement to every deck, celebrating rare and radiant Pokémon from across the Galar region. Featuring Shiny Pokémon, dazzling full-art cards, and powerful attacks, this expansion rewards Trainers who seek both strategy and collectibility. With glittering artwork, fan-favorite Pokémon, and gameplay that shines in every match, Shining Fates invites you to chase brilliance and capture the extraordinary."
+        }
+      ]
+    }
+  ]
 }

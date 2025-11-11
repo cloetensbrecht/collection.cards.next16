@@ -7,7 +7,6 @@
   "ptcgoCode": "PAL",
   "releaseDate": "2023-06-09",
   "generation": "IX",
-  "serie": "scarletVioletSeries",
   "symbol": [
     {
       "_id": "2zpLhCGSCvZ4mTDibA2pwJnLper",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowio3IDfAdGawjqoozWK17IwO"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Paldea Evolved showcases the growth, ambition, and power of Pokémon from across the Paldea region as they reach new heights of strength and synergy. Experience the evolution of Sprigatito, Fuecoco, and Quaxly into their dazzling final forms, alongside powerful new Pokémon ex that embody their elemental mastery. With dynamic abilities, evolving strategies, and vibrant artwork capturing Paldea’s energy, this expansion celebrates transformation at its peak. Rise to your full potential—your journey continues in Paldea Evolved."
+        }
+      ]
+    }
+  ]
 }

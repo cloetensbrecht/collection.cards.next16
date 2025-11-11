@@ -7,7 +7,6 @@
   "ptcgoCode": "CRE",
   "releaseDate": "2021-06-18",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpLtnOu5GilSiQ1RNdhOR7BsmD",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowiq9BW72NuCBKVz5F1Pumcxn"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Chilling Reign blankets the battlefield in icy power and legendary might. Featuring Ice- and Fighting-type Pokémon, dynamic abilities, and strategies that reward precision and timing, this expansion challenges Trainers to harness chilling strength and dominate with frost-forged tactics. With striking artwork, powerful Pokémon ex, and gameplay that cuts through the competition, Chilling Reign invites you to command the cold and claim victory."
+        }
+      ]
+    }
+  ]
 }

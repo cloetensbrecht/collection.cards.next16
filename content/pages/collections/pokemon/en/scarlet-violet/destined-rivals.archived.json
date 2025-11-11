@@ -7,7 +7,6 @@
   "ptcgoCode": "DRI",
   "releaseDate": "2025-05-30",
   "generation": "IX",
-  "serie": "scarletVioletSeries",
   "symbol": [
     {
       "_id": "2zpLQZI0O06lc4uQEaeyhSzFKtm",
@@ -36,6 +35,5 @@
         }
       ]
     }
-  ],
-  "cta_button": "Unleash Destined Rivals"
+  ]
 }

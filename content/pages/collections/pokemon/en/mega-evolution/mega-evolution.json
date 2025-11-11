@@ -7,7 +7,6 @@
   "ptcgoCode": "MEG",
   "releaseDate": "2025-09-26",
   "generation": null,
-  "serie": "megaEvolutionSeries",
   "symbol": [
     {
       "_id": "2zpLBGJ5FGI2cRRAyhCccKmxBAB",
@@ -36,6 +35,5 @@
         }
       ]
     }
-  ],
-  "cta_button": "Unleash Mega Evolution"
+  ]
 }

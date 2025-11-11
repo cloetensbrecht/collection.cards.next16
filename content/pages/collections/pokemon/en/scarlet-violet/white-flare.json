@@ -7,7 +7,6 @@
   "ptcgoCode": "WHT",
   "releaseDate": "2025-07-18",
   "generation": "IX",
-  "serie": "scarletVioletSeries",
   "symbol": [
     {
       "_id": "2zvQtLkdfzVWkB25CSyKtI4tHo5",
@@ -36,6 +35,5 @@
         }
       ]
     }
-  ],
-  "cta_button": "Unleash White Flare"
+  ]
 }

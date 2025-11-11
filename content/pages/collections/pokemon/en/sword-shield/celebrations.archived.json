@@ -7,7 +7,6 @@
   "ptcgoCode": "CEL",
   "releaseDate": "2021-10-08",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpLqrqJc4VeAYESCbz5XBwgp8C",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowitrLyUaHVJ22qzaqootesw0"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Celebrations honors the milestones, memories, and legendary moments of the Sword & Shield era. Featuring fan-favorite Pokémon, iconic reprints, and special collector’s cards, this expansion brings together nostalgia, powerful gameplay, and striking artwork. Whether revisiting classic battles or building new strategies, Celebrations invites Trainers to celebrate the past, cherish every victory, and make every moment unforgettable."
+        }
+      ]
+    }
+  ]
 }

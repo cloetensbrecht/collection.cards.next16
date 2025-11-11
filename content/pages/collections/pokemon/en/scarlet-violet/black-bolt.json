@@ -7,7 +7,6 @@
   "ptcgoCode": "BLK",
   "releaseDate": "2025-07-18",
   "generation": "IX",
-  "serie": "scarletVioletSeries",
   "symbol": [
     {
       "_id": "2zvQuloaGKMJRjdPax7d32SWZ2s",
@@ -36,6 +35,5 @@
         }
       ]
     }
-  ],
-  "cta_button": "Unleash Black Bolt"
+  ]
 }

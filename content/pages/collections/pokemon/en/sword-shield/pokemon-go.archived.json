@@ -7,7 +7,6 @@
   "ptcgoCode": "PGO",
   "releaseDate": "2022-07-01",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpLmrbVffDvGTYUUrsL2svNCcw",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowivmExLSoWJntNUc9dzjdFfR"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Pokémon GO brings the excitement of real-world adventure straight into your deck. Featuring Pokémon inspired by your favorite GO encounters, dynamic gameplay mechanics, and Trainer cards that capture the thrill of exploration and teamwork, this expansion rewards Trainers who embrace discovery and strategy alike. With vibrant artwork and cards that reflect the spirit of the Pokémon GO world, Pokémon GO invites you to catch, battle, and explore like never before."
+        }
+      ]
+    }
+  ]
 }

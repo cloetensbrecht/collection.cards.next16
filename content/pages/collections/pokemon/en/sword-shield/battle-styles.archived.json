@@ -7,7 +7,6 @@
   "ptcgoCode": "BST",
   "releaseDate": "2021-03-19",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpLv5FZEkiIuznCc1ojROSFPtW",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowit9poyFqKOSl6CldZ34RDiS"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Battle Styles revolutionizes the battlefield with bold new strategies and dynamic combat options. Featuring Single Strike and Rapid Strike Pokémon, this expansion introduces contrasting playstyles that reward precision, adaptability, and tactical mastery. With powerful attacks, synergistic abilities, and striking artwork, Battle Styles challenges Trainers to choose their approach, outmaneuver opponents, and seize victory with style."
+        }
+      ]
+    }
+  ]
 }

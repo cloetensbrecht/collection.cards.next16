@@ -7,7 +7,6 @@
   "ptcgoCode": "TEF",
   "releaseDate": "2024-03-22",
   "generation": "IX",
-  "serie": "scarletVioletSeries",
   "symbol": [
     {
       "_id": "2zpLZn46ws1TCv04XQmgSAQO6D9",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowivjeU9jqb8fMnhssWBvg9vZ"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Temporal Forces bends time itself, unleashing the power of Pokémon that transcend past, present, and future. Harness ancient instincts and futuristic precision with Paradox Pokémon that redefine evolution and strategy. Featuring Time Shift mechanics, chrono-based abilities, and artwork that captures moments frozen in motion, this expansion challenges players to command the flow of battle across eras. Rewrite destiny, outpace your rivals, and shape the timeline in Temporal Forces."
+        }
+      ]
+    }
+  ]
 }

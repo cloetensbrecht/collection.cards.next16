@@ -6,7 +6,6 @@
   "ptcgoCode": "SIT",
   "releaseDate": "2022-11-11",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "30t7Tdf3WeQda2y2xIUdeAnTZko",
@@ -20,6 +19,16 @@
     "_type": "image",
     "_entry": "30t7asczKJnJ0tMbxoSq8v1RbWj"
   },
-  "rarity": {},
-  "energy": {}
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Silver Tempest Trainer Gallery puts the spotlight on the heroes and strategists behind every battle. Featuring iconic Trainer cards in stunning full-art designs, this gallery set enhances your decks with tactical versatility, support mechanics, and collectible prestige. Whether you’re building competitive strategies or showcasing your favorites, Silver Tempest Trainer Gallery celebrates the power, skill, and style of Trainers at the top of their game."
+        }
+      ]
+    }
+  ]
 }

@@ -7,7 +7,6 @@
   "ptcgoCode": "RCL",
   "releaseDate": "2020-05-01",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpM1FjnKYwOaLH3fu1lYQPvL2R",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowiqb0z210Frhp238zjw4vp9f"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Rebel Clash throws the battlefield into chaos with daring Pokémon and audacious strategies. Featuring Fighting- and Darkness-type Pokémon, powerful attacks, and mechanics that reward aggressive play, this expansion challenges Trainers to defy expectations and strike with confidence. With striking artwork, game-changing Pokémon ex, and gameplay that sparks rebellion, Rebel Clash invites you to lead the charge and prove who dominates the fight."
+        }
+      ]
+    }
+  ]
 }

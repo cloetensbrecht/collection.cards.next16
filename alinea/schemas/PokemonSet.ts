@@ -1,5 +1,4 @@
 import { generation } from "@/consts/generaration";
-import { serie } from "@/consts/serie";
 import { Config, Field, Infer } from "alinea";
 import { PokemonCard } from "./PokemonCard";
 
@@ -16,9 +15,6 @@ const GeneralTab = Field.tab("General", {
       options: generation,
       width: 0.3,
     }),
-    serie: Field.select("Serie", {
-      options: serie,
-    }),
     symbol: Field.image.multiple("Symbol"),
     logo: Field.image("Logo"),
     heroImage: Field.image("Hero"),
@@ -28,7 +24,6 @@ const GeneralTab = Field.tab("General", {
 const CtaTab = Field.tab("CTA", {
   fields: {
     cta_description: Field.richText("Description", { required: true }),
-    cta_button: Field.text("Button", { required: true, width: 0.5 }),
   },
 });
 

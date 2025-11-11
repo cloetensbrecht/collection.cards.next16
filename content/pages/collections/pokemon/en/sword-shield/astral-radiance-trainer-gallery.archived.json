@@ -6,7 +6,6 @@
   "ptcgoCode": "ASR",
   "releaseDate": "2022-05-27",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "30t6Yp7oeNWedpgKZlT97lOp8Yz",
@@ -20,6 +19,16 @@
     "_type": "image",
     "_entry": "30t6ixDBimzRAtGjcqeNJkaKJ9u"
   },
-  "rarity": {},
-  "energy": {}
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Astral Radiance Trainer Gallery highlights the strategic minds behind every battle. Featuring iconic Trainer cards in stunning full-art designs, this gallery set adds tactical depth, support mechanics, and collectible prestige to your decks. Whether you’re building competitive strategies or showcasing your favorite Trainers, Astral Radiance Trainer Gallery celebrates skill, style, and the brilliance that guides every victory."
+        }
+      ]
+    }
+  ]
 }

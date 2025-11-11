@@ -6,7 +6,6 @@
   "number": null,
   "ptcgoCode": "MEE",
   "releaseDate": "2025-09-26",
-  "serie": "basicEnergyCards",
   "symbol": [],
   "logo": {
     "_id": "354gHUAMOpGBSYUT4pSSo3NDhHz",
@@ -14,6 +13,15 @@
     "_entry": "30t9Z5uQd1HyJC8EvgM7j7Yttuq"
   },
   "heroImage": {},
-  "cta_description": [],
-  "cta_button": ""
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Mega Evolution Energies supercharge your Pokémon like never before, fueling the unstoppable power of Mega Evolution Pokémon ex. These special energies don’t just provide the energy you need—they enhance attacks, reduce retreat costs, and unlock devastating effects that turn the tide of battle. Combine them with your basic energies to execute bold strategies, amplify damage, and bring your Mega-powered Pokémon to their full potential. Unleash explosive plays and dominate the battlefield with Mega Evolution Energies."
+        }
+      ]
+    }
+  ]
 }

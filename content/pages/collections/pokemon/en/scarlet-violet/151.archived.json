@@ -7,7 +7,6 @@
   "ptcgoCode": "MEW",
   "releaseDate": "2023-09-22",
   "generation": "IX",
-  "serie": "scarletVioletSeries",
   "symbol": [
     {
       "_id": "2zpAdaf6pfRUyiJLtuYGzUmvDn1",
@@ -20,27 +19,16 @@
     "_type": "image",
     "_entry": "2zowit5UogLaSSDVXoOZkGF1bQ0"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Pokémon 151 rekindles the magic of the very beginning—where every discovery felt new and every battle sparked wonder. Journey back to the Kanto region and rediscover the original 151 Pokémon, brought to life with stunning modern artwork and refreshed gameplay. Featuring nostalgic mechanics, classic evolutions, and special cards that celebrate timeless bonds, this expansion unites past and present for fans old and new. Relive the legend, capture the memories, and complete your Pokédex in Pokémon 151."
+        }
+      ]
+    }
+  ]
 }

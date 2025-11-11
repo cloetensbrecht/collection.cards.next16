@@ -6,7 +6,6 @@
   "ptcgoCode": "SFA",
   "releaseDate": "2024-08-02",
   "generation": "IX",
-  "serie": "scarletVioletSeries",
   "symbol": [
     {
       "_id": "2zpLXOKUwYrIdIkbFDSf249oDeV",
@@ -20,27 +19,16 @@
     "_type": "image",
     "_entry": "2zowipMJEqUwyGlGqKn5syjKNpp"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Shrouded Fable draws you into a world where myth and mystery intertwine. Step into the shadows to uncover elusive Pokémon cloaked in legend, each hiding powerful abilities and deceptive strategies. Featuring Dark and Psychic-type synergy, Illusion mechanics, and cards that thrive on secrecy and surprise, this expansion challenges players to master the unknown. With haunting artwork and lore-rich designs, Shrouded Fable invites you to weave your own legend—where every move reveals another secret in the dark."
+        }
+      ]
+    }
+  ]
 }

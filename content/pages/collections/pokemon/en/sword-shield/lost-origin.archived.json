@@ -7,7 +7,6 @@
   "ptcgoCode": "LOR",
   "releaseDate": "2022-09-09",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpLlbcXHMUoTDPPQ3sUe2etgJX",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowivQ9kY5Yh3odwc9wopHHsrD"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Lost Origin delves into the mysteries of the Pokémon world, where hidden power and legendary forces collide. Featuring Psychic- and Dark-type Pokémon, powerful abilities, and game-changing strategies, this expansion challenges Trainers to harness the unknown and turn secrets into victory. With striking artwork, mysterious mechanics, and cards that reward cunning plays, Lost Origin invites you to uncover the past, seize the moment, and shape your destiny."
+        }
+      ]
+    }
+  ]
 }

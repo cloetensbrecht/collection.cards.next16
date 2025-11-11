@@ -7,7 +7,6 @@
   "ptcgoCode": "JTG",
   "releaseDate": "2025-03-28",
   "generation": "IX",
-  "serie": "scarletVioletSeries",
   "symbol": [
     {
       "_id": "2zpLSBIMley05iOg05ZSRC9YqxC",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zpCGifR801DgZXbwQoLYLVoe40"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Journey Together celebrates the spirit of friendship, teamwork, and discovery across the Pokémon world. Partner with your favorite Pokémon and Trainers to unlock powerful combo abilities, dual-support mechanics, and unity-driven strategies that shine brighter when bonds grow stronger. From cooperative tag attacks to shared evolution paths, this expansion invites you to explore new horizons, forge unbreakable connections, and triumph side by side on your greatest adventure yet."
+        }
+      ]
+    }
+  ]
 }

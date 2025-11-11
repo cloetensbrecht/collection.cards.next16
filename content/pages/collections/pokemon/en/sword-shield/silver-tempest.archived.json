@@ -7,7 +7,6 @@
   "ptcgoCode": "SIT",
   "releaseDate": "2022-11-11",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpLkifm2a9oDpQ0iHJwqsTd1CS",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowis97IwpzAVxmpik6ppqVVwA"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Silver Tempest unleashes the fury of legendary Pokémon and powerful strategies in a storm of competition. Featuring awe-inspiring Pokémon ex, dynamic attacks, and game-changing abilities, this expansion challenges Trainers to master their decks and strike with precision. With striking artwork, tactical depth, and electrifying gameplay, Silver Tempest delivers a whirlwind of excitement where only the strongest emerge victorious."
+        }
+      ]
+    }
+  ]
 }

@@ -7,7 +7,6 @@
   "ptcgoCode": "FST",
   "releaseDate": "2021-11-12",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpLpp3uCG1vKFkUYZRgET66rhw",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowip7UhDN7hDgU4LKRBuUtUnP"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Fusion Strike unleashes a new level of synergy and speed in the Pokémon TCG. Featuring fast, adaptable Pokémon, dynamic abilities, and combo-driven mechanics, this expansion rewards Trainers who think ahead and strike with precision. With sleek artwork, innovative gameplay, and strategies that blend power and versatility, Fusion Strike invites you to harness teamwork, execute bold plays, and dominate the battlefield."
+        }
+      ]
+    }
+  ]
 }

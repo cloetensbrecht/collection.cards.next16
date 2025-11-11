@@ -7,7 +7,6 @@
   "ptcgoCode": "ASR",
   "releaseDate": "2022-05-27",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpLnpA8nB3sWNX2icPh6Ucb5cZ",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowipSwPtQx0wR98KgXthcwWTB"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Astral Radiance illuminates the battlefield with the dazzling power of radiant Pokémon and cosmic strategies. Featuring Psychic- and Dragon-type Pokémon, powerful abilities, and synergy-driven mechanics, this expansion challenges Trainers to harness celestial forces and strike with precision. With stunning artwork, radiant new Pokémon ex, and gameplay that rewards bold tactics, Astral Radiance invites you to ascend to new heights and shine brighter than ever in battle."
+        }
+      ]
+    }
+  ]
 }

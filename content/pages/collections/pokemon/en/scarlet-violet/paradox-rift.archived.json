@@ -7,7 +7,6 @@
   "ptcgoCode": "PAR",
   "releaseDate": "2023-11-03",
   "generation": "IX",
-  "serie": "scarletVioletSeries",
   "symbol": [
     {
       "_id": "2zpLdmP891iijPvZd9vYHjhmEQX",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowippP1fknLfGxCvYlWLTbR4t"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Paradox Rift tears open the fabric of reality, merging timelines where ancient instincts clash with futuristic technology. Step into a world split by time, where Paradox Pokémon bring primal ferocity and cybernetic precision to the battlefield. Featuring Rift mechanics, dual-era strategies, and artwork that captures the collision of past and future, this expansion challenges players to master chaos itself. Bend time, defy logic, and discover untold power within the rift—only in Paradox Rift."
+        }
+      ]
+    }
+  ]
 }

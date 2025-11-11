@@ -6,7 +6,6 @@
   "ptcgoCode": "LOR",
   "releaseDate": "2022-09-09",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "30t7B84vhGpTsI5Ksdo2YWTxBvZ",
@@ -20,6 +19,16 @@
     "_type": "image",
     "_entry": "30t7Gpcofi5kfiMDrqotR9aKKRb"
   },
-  "rarity": {},
-  "energy": {}
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Lost Origin Trainer Gallery shines a spotlight on the masters of strategy behind every battle. Featuring iconic Trainer cards in stunning full-art designs, this gallery set enhances your decks with versatile support, tactical synergy, and collectible prestige. Whether you’re building competitive strategies or showcasing your favorite Trainers, Lost Origin Trainer Gallery celebrates the skill, style, and cunning that define every great victory."
+        }
+      ]
+    }
+  ]
 }

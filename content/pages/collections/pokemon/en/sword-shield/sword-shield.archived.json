@@ -7,7 +7,6 @@
   "ptcgoCode": "SSH",
   "releaseDate": "2020-02-07",
   "generation": "VIII",
-  "serie": "swordShieldSeries",
   "symbol": [
     {
       "_id": "2zpM276gs4dhXxjZvZGbJJ2392e",
@@ -21,27 +20,16 @@
     "_type": "image",
     "_entry": "2zowirewGSC33qk3uea1F0k5BZ4"
   },
-  "rarity": {
-    "common": null,
-    "uncommon": null,
-    "rare": null,
-    "doubleRare": null,
-    "illustrationRare": null,
-    "ultraRare": null,
-    "specialIllustrationRare": null,
-    "hyperRare": null
-  },
-  "energy": {
-    "colorless": null,
-    "darkness": null,
-    "dragon": null,
-    "fairy": null,
-    "fighting": null,
-    "fire": null,
-    "grass": null,
-    "lightning": null,
-    "metal": null,
-    "psychic": null,
-    "water": null
-  }
+  "heroImage": {},
+  "cta_description": [
+    {
+      "_type": "paragraph",
+      "content": [
+        {
+          "_type": "text",
+          "text": "Sword & Shield ushers in a new era of Pokémon battles, introducing Trainers and Pokémon from the vibrant Galar region. Featuring powerful Pokémon ex, innovative Trainer cards, and mechanics that reward strategy and adaptability, this expansion invites you to explore dynamic gameplay and forge your path to victory. With striking artwork, bold new abilities, and legendary Pokémon that capture the spirit of Galar, Sword & Shield challenges you to master your deck and claim your glory."
+        }
+      ]
+    }
+  ]
 }
