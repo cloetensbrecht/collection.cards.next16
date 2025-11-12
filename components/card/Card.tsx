@@ -1,6 +1,7 @@
 import { holofoilPatterns, reverseHolofoilPatterns } from "@/consts/effect";
 import { variant } from "@/consts/variant";
 import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Glare from "../glare/Glare";
 import ReverseHolofoil from "./effects/reverseholofoil";
@@ -14,7 +15,9 @@ export type CardProps = {
   foil?: string;
   glowColor?: string;
   id: string;
+  inModal?: boolean;
   mask?: string;
+  onClick?: () => void;
   pattern?:
     | keyof typeof reverseHolofoilPatterns
     | keyof typeof holofoilPatterns;
@@ -30,7 +33,10 @@ const Card: React.FC<CardProps> = ({
   focus,
   foil,
   glowColor,
+  id,
+  inModal,
   mask,
+  onClick,
   pattern,
   sizes,
   src,
@@ -55,11 +61,14 @@ const Card: React.FC<CardProps> = ({
       Effect = Glare;
   }
 
+  const CardContainer = !inModal ? motion.button : "div";
+  const cardContainerProps = !inModal ? { layoutId: `card-${id}` } : {};
+
   return (
-    <button
+    <CardContainer
       className={cn(
         "group/card",
-        "relative w-full overflow-hidden rounded-[10px] md:rounded-[15px] flex items-center justify-center aspect-[733/1024]",
+        "relative w-full overflow-hidden rounded-[10px] md:rounded-[4.15%] flex items-center justify-center aspect-[733/1024]",
         "shadow-[0_0_3px_-1px_rgba(0,0,0,0),0_0_2px_1px_var(--card-edge),0_0_5px_var(--card-edge),0_10px_20px_-5px_#000,0_2px_15px_-5px_var(--card-edge),0_0_20px_rgba(0,0,0,0.5)]",
         glowColor
           ? "hover:shadow-[0_0_3px_-1px_rgba(0,0,0,0),0_0_2px_1px_var(--card-edge),0_0_5px_var(--card-glow),0_10px_20px_-5px_#000,0_2px_15px_-5px_var(--card-glow),0_0_20px_var(--card-glow)]"
@@ -67,8 +76,11 @@ const Card: React.FC<CardProps> = ({
         glowColor
           ? "focus:shadow-[0_0_3px_-1px_rgba(0,0,0,0),0_0_2px_1px_var(--card-edge),0_0_5px_var(--card-glow),0_10px_20px_-5px_#000,0_2px_15px_-5px_var(--card-glow),0_0_20px_var(--card-glow)]"
           : undefined,
-        "focus:outline-1 md:focus:outline-2 focus:outline-solid focus:outline-[var(--card-glow)]"
+        "focus:outline-1 md:focus:outline-2 focus:outline-solid focus:outline-[var(--card-glow)]",
+        onClick ? "cursor-pointer" : null
       )}
+      {...cardContainerProps}
+      onClick={onClick}
       style={
         {
           "--card-edge": edgeColor,
@@ -79,25 +91,31 @@ const Card: React.FC<CardProps> = ({
         } as React.CSSProperties
       }
     >
-      <Image
-        alt={title}
-        blurDataURL={blurDataURL}
-        fetchPriority="high"
-        layout="fill"
-        placeholder="blur"
-        preload={true}
-        src={src}
-        style={{
-          backgroundColor: edgeColor,
-          objectFit: "contain",
-          objectPosition: focus
-            ? `${focus.x * 100}% ${focus.y * 100}%`
-            : undefined,
-        }}
-        sizes={sizes}
-      />
-      <Effect />
-    </button>
+      <motion.div
+        className="relative w-full h-full"
+        layoutId={!inModal ? `card-image-${id}` : undefined}
+      >
+        <Image
+          alt={title}
+          blurDataURL={blurDataURL}
+          fetchPriority="high"
+          fill={true}
+          layout="fill"
+          placeholder="blur"
+          preload={true}
+          src={src}
+          style={{
+            backgroundColor: edgeColor,
+            objectFit: "contain",
+            objectPosition: focus
+              ? `${focus.x * 100}% ${focus.y * 100}%`
+              : undefined,
+          }}
+          sizes={sizes}
+        />
+        <Effect />
+      </motion.div>
+    </CardContainer>
   );
 };
 

@@ -3,6 +3,7 @@
 import { useWindowVirtualizer } from "@tanstack/react-virtual";
 import { useEffect, useMemo, useRef, useState } from "react";
 import Card, { CardProps } from "../card/Card";
+import { CardModal } from "../cardmodal/CardModal";
 import { TiltCard } from "../tiltcard/TiltCard";
 
 const gapSize = 16;
@@ -25,12 +26,13 @@ function getColumnWidth(width: number, columnCount: number): number {
 }
 
 export type CardGridProps = {
-  cards: Omit<CardProps, "sizes">[];
+  cards: Omit<CardProps, "onClick" | "sizes">[];
 };
 
 const CardGrid: React.FC<CardGridProps> = ({ cards }) => {
   const gridRef = useRef<HTMLDivElement>(null);
   const [windowWidth, setWindowWidth] = useState(0);
+  const [selectedCard, setSelectedCard] = useState<CardProps | null>(null);
 
   // Track screen width for responsiveness
   useEffect(() => {
@@ -59,44 +61,48 @@ const CardGrid: React.FC<CardGridProps> = ({ cards }) => {
   if (windowWidth === 0) return <div className="h-screen" />;
 
   return (
-    <div
-      ref={gridRef}
-      className="relative"
-      style={{ height: virtualizer.getTotalSize() - gapSize }}
-    >
-      {virtualizer.getVirtualItems().map((virtualRow) => {
-        const rowIndex = virtualRow.index;
-        const start = rowIndex * columnCount;
-        const end = start + columnCount;
-        const rowItems = cards.slice(start, end);
+    <>
+      <div
+        ref={gridRef}
+        className="relative"
+        style={{ height: virtualizer.getTotalSize() - gapSize }}
+      >
+        {virtualizer.getVirtualItems().map((virtualRow) => {
+          const rowIndex = virtualRow.index;
+          const start = rowIndex * columnCount;
+          const end = start + columnCount;
+          const rowItems = cards.slice(start, end);
 
-        return (
-          <div
-            key={virtualRow.key}
-            className={
-              "absolute top-0 left-0 grid w-full gap-4 z-1 hover:z-[10]"
-            }
-            style={{
-              transform: `translateY(${virtualRow.start}px)`,
-              gridTemplateColumns: `repeat(${columnCount}, 1fr)`,
-              height: `${rowHeight - gapSize}px`,
-            }}
-          >
-            {rowItems.map((item, index) => (
-              <TiltCard
-                key={`${(item as CardProps).id}_${index}`}
-                className="h-full"
-              >
-                <Card
-                  {...(item as CardProps)}
-                  sizes={`(max-width: 639px) calc(50vw - ${containerPadding}px - ${gapSize}px), (max-width: 676px) 187px, (max-width: 1023px) 230px, (max-width: 1279px) 232px,  (max-width: 1535px) 296px, 360px`}
-                />
-              </TiltCard>
-            ))}
-          </div>
-        );
-      })}
-    </div>
+          return (
+            <div
+              key={virtualRow.key}
+              className={
+                "absolute top-0 left-0 grid w-full gap-4 z-1 hover:z-[10]"
+              }
+              style={{
+                transform: `translateY(${virtualRow.start}px)`,
+                gridTemplateColumns: `repeat(${columnCount}, 1fr)`,
+                height: `${rowHeight - gapSize}px`,
+              }}
+            >
+              {rowItems.map((item, index) => (
+                <TiltCard
+                  key={`${(item as CardProps).id}_${index}`}
+                  className="h-full"
+                >
+                  <Card
+                    {...(item as CardProps)}
+                    onClick={() => setSelectedCard(item as CardProps)}
+                    sizes={`(max-width: 639px) calc(50vw - ${containerPadding}px - ${gapSize}px), (max-width: 676px) 187px, (max-width: 1023px) 230px, (max-width: 1279px) 232px,  (max-width: 1535px) 296px, 360px`}
+                  />
+                </TiltCard>
+              ))}
+            </div>
+          );
+        })}
+      </div>
+      <CardModal card={selectedCard} onClose={() => setSelectedCard(null)} />
+    </>
   );
 };
 export default CardGrid;
