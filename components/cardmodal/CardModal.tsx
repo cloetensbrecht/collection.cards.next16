@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
+import { useEffect } from "react";
 import Card, { CardProps } from "../card/Card";
 import { TiltCard } from "../tiltcard/TiltCard";
 import { Title } from "../title/Title";
@@ -27,6 +28,16 @@ function CloseButton({ onClose }: { onClose: () => void }) {
 }
 
 export function CardModal({ card, onClose }: ImageModalProps) {
+  useEffect(() => {
+    if (card) {
+      const originalStyle = window.getComputedStyle(document.body).overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = originalStyle;
+      };
+    }
+  }, [card]);
+
   return (
     <AnimatePresence>
       {card && (
@@ -69,8 +80,6 @@ export function CardModal({ card, onClose }: ImageModalProps) {
                     ToDo:
                     <br />
                     - Remove border from card when switching to modal view
-                    <br />
-                    - Prevent scrolling of background when modal is open
                     <br />
                     - Optimize for mobile
                     <br />- Add more details about the card
