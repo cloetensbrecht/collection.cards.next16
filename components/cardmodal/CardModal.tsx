@@ -100,8 +100,6 @@ export function CardModal({ card, onClose }: ImageModalProps) {
                   <p>
                     ToDo:
                     <br />
-                    - Remove border from card when switching to modal view
-                    <br />
                     - Optimize for mobile
                     <br />- Add more details about the card
                     <br />- Add Prev/Next buttons to navigate between cards
