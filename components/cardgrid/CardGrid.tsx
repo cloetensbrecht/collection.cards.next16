@@ -3,8 +3,9 @@
 import { useWindowVirtualizer } from "@tanstack/react-virtual";
 import { useEffect, useMemo, useRef, useState } from "react";
 import Card, { CardProps } from "../card/Card";
-import { CardModal } from "../cardmodal/CardModal";
+import CardModal from "../cardmodal/CardModal";
 import { TiltCard } from "../tiltcard/TiltCard";
+import { Title } from "../title/Title";
 
 const gapSize = 16;
 const containerPadding = 48;
@@ -101,7 +102,26 @@ const CardGrid: React.FC<CardGridProps> = ({ cards }) => {
           );
         })}
       </div>
-      <CardModal card={selectedCard} onClose={() => setSelectedCard(null)} />
+      <CardModal card={selectedCard} onClose={() => setSelectedCard(null)}>
+        <Title.H2>{selectedCard?.title}</Title.H2>
+        <p>
+          ToDo:
+          <br />- Add more details about the card
+          <br />- Add Prev/Next buttons to navigate between cards
+        </p>
+        <p>
+          This area can contain details, descriptions, buttons, etc. It scrolls
+          if the content overflows the modal height.
+        </p>
+        <p>
+          This area can contain details, descriptions, buttons, etc. It scrolls
+          if the content overflows the modal height.
+        </p>
+        <p>
+          This area can contain details, descriptions, buttons, etc. It scrolls
+          if the content overflows the modal height.
+        </p>
+      </CardModal>
     </>
   );
 };
