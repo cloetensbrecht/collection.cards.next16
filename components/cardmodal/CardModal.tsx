@@ -1,12 +1,14 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { Pattern as PatternIcon } from "@/icons/Pattern";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import { useEffect } from "react";
 import Card, { CardProps } from "../card/Card";
 import { TiltCard } from "../tiltcard/TiltCard";
 import { Title } from "../title/Title";
+const { renderToString } = await import("react-dom/server");
 
 interface ImageModalProps {
   card: CardProps | null;
@@ -38,6 +40,10 @@ export function CardModal({ card, onClose }: ImageModalProps) {
     }
   }, [card]);
 
+  const maskImage = `url(\'data:image/svg+xml;utf8,${renderToString(
+    <PatternIcon />
+  )}\')`;
+
   return (
     <AnimatePresence>
       {card && (
@@ -47,9 +53,16 @@ export function CardModal({ card, onClose }: ImageModalProps) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm"
+            className="fixed inset-0 z-50 bg-foreground/3 backdrop-blur-sm"
             onClick={onClose}
-          />
+          >
+            <div
+              className="absolute inset-0 bg-foreground/3 mask-size-[30px_auto] mask-center mask-repeat"
+              style={{
+                maskImage: maskImage,
+              }}
+            ></div>
+          </motion.div>
           <motion.div
             layoutId={`card-${card.id}`}
             className="fixed left-1/2 top-1/2 z-50 w-full max-w-5xl max-h-[90vh] -translate-x-1/2 -translate-y-1/2 rounded-lg bg-card shadow-lg overflow-hidden flex flex-col"
