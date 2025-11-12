@@ -121,3 +121,16 @@
     @apply bg-background text-foreground;
   }
 }
+
+html {
+  scrollbar-gutter: stable;
+}
+
+html.modal-open {
+  scrollbar-gutter: auto;
+}
+
+body.modal-open {
+  overflow: hidden;
+  padding-right: var(--sbw, 0px);
+}

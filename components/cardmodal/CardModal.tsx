@@ -31,13 +31,21 @@ function CloseButton({ onClose }: { onClose: () => void }) {
 
 export function CardModal({ card, onClose }: ImageModalProps) {
   useEffect(() => {
-    if (card) {
-      const originalStyle = window.getComputedStyle(document.body).overflow;
-      document.body.style.overflow = "hidden";
-      return () => {
-        document.body.style.overflow = originalStyle;
-      };
-    }
+    if (!card) return;
+
+    const docEl = document.documentElement;
+    const body = document.body;
+    const sbw = window.innerWidth - docEl.clientWidth;
+
+    docEl.style.setProperty("--sbw", `${sbw}px`);
+    docEl.classList.add("modal-open");
+    body.classList.add("modal-open");
+
+    return () => {
+      docEl.classList.remove("modal-open");
+      body.classList.remove("modal-open");
+      docEl.style.removeProperty("--sbw");
+    };
   }, [card]);
 
   const maskImage = `url(\'data:image/svg+xml;utf8,${renderToString(
