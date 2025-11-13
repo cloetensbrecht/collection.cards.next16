@@ -4,11 +4,14 @@ import { useWindowVirtualizer } from "@tanstack/react-virtual";
 import { useEffect, useMemo, useRef, useState } from "react";
 import Card, { CardProps } from "../card/Card";
 import CardModal from "../cardmodal/CardModal";
+import PokemonCardDetails, {
+  PokemonCardDetailsProps,
+} from "../pokemoncarddetails/PokemonCardDetails";
 import { TiltCard } from "../tiltcard/TiltCard";
-import { Title } from "../title/Title";
 
 const gapSize = 16;
 const containerPadding = 48;
+const sizes = `(max-width: 639px) calc(50vw - ${containerPadding}px - ${gapSize}px), (max-width: 676px) 187px, (max-width: 1023px) 230px, (max-width: 1279px) 232px,  (max-width: 1535px) 296px, 360px`;
 
 function getColumnCount(width: number): number {
   if (width < 640) return 2; // mobile
@@ -27,13 +30,30 @@ function getColumnWidth(width: number, columnCount: number): number {
 }
 
 export type CardGridProps = {
-  cards: Omit<CardProps, "onClick" | "sizes">[];
+  cards: (PokemonCardDetailsProps & Omit<CardProps, "onClick" | "sizes">)[];
 };
 
 const CardGrid: React.FC<CardGridProps> = ({ cards }) => {
   const gridRef = useRef<HTMLDivElement>(null);
   const [windowWidth, setWindowWidth] = useState(0);
-  const [selectedCard, setSelectedCard] = useState<CardProps | null>(null);
+  const [selectedCardIndex, setSelectedCardIndex] = useState<number | null>(
+    null
+  );
+  const selectedCard =
+    selectedCardIndex !== null ? cards[selectedCardIndex] : null;
+  const hasNextButton =
+    selectedCard &&
+    selectedCardIndex !== null &&
+    selectedCardIndex < cards.length - 1;
+  const hasPrevButton =
+    selectedCard && selectedCardIndex !== null && selectedCardIndex > 0;
+  const nextHandler = hasNextButton
+    ? () => setSelectedCardIndex((prev) => (prev !== null ? prev + 1 : 0))
+    : undefined;
+  const prevHandler = hasPrevButton
+    ? () => setSelectedCardIndex((prev) => (prev !== null ? prev - 1 : 0))
+    : undefined;
+  const closeModalHandler = () => setSelectedCardIndex(null);
 
   // Track screen width for responsiveness
   useEffect(() => {
@@ -87,14 +107,11 @@ const CardGrid: React.FC<CardGridProps> = ({ cards }) => {
               }}
             >
               {rowItems.map((item, index) => (
-                <TiltCard
-                  key={`${(item as CardProps).id}_${index}`}
-                  className="h-full"
-                >
+                <TiltCard key={`${item.id}_${index}`} className="h-full">
                   <Card
-                    {...(item as CardProps)}
-                    onClick={() => setSelectedCard(item as CardProps)}
-                    sizes={`(max-width: 639px) calc(50vw - ${containerPadding}px - ${gapSize}px), (max-width: 676px) 187px, (max-width: 1023px) 230px, (max-width: 1279px) 232px,  (max-width: 1535px) 296px, 360px`}
+                    {...item}
+                    onClick={() => setSelectedCardIndex(start + index)}
+                    sizes={sizes}
                   />
                 </TiltCard>
               ))}
@@ -102,25 +119,17 @@ const CardGrid: React.FC<CardGridProps> = ({ cards }) => {
           );
         })}
       </div>
-      <CardModal card={selectedCard} onClose={() => setSelectedCard(null)}>
-        <Title.H2>{selectedCard?.title}</Title.H2>
-        <p>
-          ToDo:
-          <br />- Add more details about the card
-          <br />- Add Prev/Next buttons to navigate between cards
-        </p>
-        <p>
-          This area can contain details, descriptions, buttons, etc. It scrolls
-          if the content overflows the modal height.
-        </p>
-        <p>
-          This area can contain details, descriptions, buttons, etc. It scrolls
-          if the content overflows the modal height.
-        </p>
-        <p>
-          This area can contain details, descriptions, buttons, etc. It scrolls
-          if the content overflows the modal height.
-        </p>
+      <CardModal
+        card={selectedCard ? { ...selectedCard, sizes } : null}
+        onClose={closeModalHandler}
+      >
+        {selectedCard && (
+          <PokemonCardDetails
+            {...selectedCard}
+            nextHandler={nextHandler}
+            prevHandler={prevHandler}
+          />
+        )}
       </CardModal>
     </>
   );

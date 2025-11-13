@@ -38,6 +38,8 @@ const fetchIllustratorCards = async (
         src: `/media${item.card.src}`,
         title: item.title,
         variant: item.variants?.[0]?.variant || "normal",
+        // details for PokemonCardDetailsProps:
+        number: item.number,
       };
       return card;
     });

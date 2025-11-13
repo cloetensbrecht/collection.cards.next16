@@ -82,7 +82,7 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
             <div className="relative rounded-lg bg-card shadow-lg overflow-hidden flex flex-col max-h-[90vh]">
               <CloseButton onClose={onClose} />
               <div className="flex flex-col sm:flex-row flex-1 h-full gap-6 overflow-auto sm:overflow-hidden p-8 items-center sm:[align-items:unset]">
-                <div className="flex w-full max-w-[50%] sm:w-1/3 items-center justify-center aspect-[733/1024] max-h-[100%]">
+                <div className="flex w-full max-w-[50%] sm:w-1/3 items-center justify-center aspect-[733/1024] max-h-[100%] z-10">
                   <div className="aspect-[733/1024] w-auto h-full max-w-[100%] max-h-[100%] flex items-center justify-center">
                     <motion.div
                       layoutId={`card-image-${card.id}`}
@@ -94,7 +94,7 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
                     </motion.div>
                   </div>
                 </div>
-                <div className="w-full sm:w-2/3 sm:overflow-auto">
+                <div className="w-full sm:w-2/3 sm:overflow-auto z-0">
                   <div className="p-4 space-y-4">{children}</div>
                 </div>
               </div>
