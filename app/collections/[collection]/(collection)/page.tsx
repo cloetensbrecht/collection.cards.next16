@@ -6,7 +6,6 @@ import Blocks from "@/components/blocks/Blocks";
 import Container from "@/components/container/Container";
 import SetCard from "@/components/setcard/SetCard";
 import { Title } from "@/components/title/Title";
-import { serie } from "@/consts/serie";
 import { formatDate } from "@/lib/formatDate";
 import { Query } from "alinea";
 import { Entry } from "alinea/core";
@@ -23,9 +22,16 @@ const fetchCollectionData = async (collection: string) =>
       title: Query.title,
       blocks: PokemonCollection.blocks,
       sets: Query.children({
+        depth: 3,
         type: PokemonSet,
         select: {
           ...PokemonSet,
+          parents: Query.parents({
+            select: {
+              _type: Query.type,
+              title: Query.title,
+            },
+          }),
           url: Entry.url,
           cards: Query.children({
             type: PokemonCard,
@@ -69,7 +75,9 @@ export default async function Collection({
               image={set.heroImage}
               numberOfTotalCards={numberOfTotalCards}
               priority={index < 5}
-              subTitle={set.serie ? serie[set.serie] : ""}
+              subTitle={
+                set.parents.find((p) => p._type === "PokemonSerie")?.title || ""
+              }
               symbol={set.symbol?.[0] || undefined}
               text={set.cta_description}
               title={set.title}
