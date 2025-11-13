@@ -31,6 +31,8 @@ const fetchCardData = async (url: string) => {
     src: `/media${data.card.src}`,
     title: data.title,
     variant: "normal",
+    // details for PokemonCardDetailsProps:
+    number: data.number,
   };
 
   // there are no variants, add the normal card
