@@ -80,6 +80,9 @@ export default function PokemonCardDetails({
           </p>
           <p>ToDo:</p>
           <ul>
+            <li>Fix reverse holo on mobile in card detail</li>
+            <li>Check full art holofoil effect</li>
+            <li>Add holofoil EX effect</li>
             <li>Add holofoil tilt effect</li>
             <li>Add more details about the card</li>
           </ul>
