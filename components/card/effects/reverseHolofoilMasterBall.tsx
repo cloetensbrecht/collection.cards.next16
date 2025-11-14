@@ -36,7 +36,9 @@ const ReverseHolofoilMasterBall: React.FC = () => {
       <Glare />
       <div
         className={cn(
-          "absolute inset-0 backface-hidden [background-image:radial-gradient(farthest-corner_circle_at_var(--pointer-x)_var(--pointer-y),hsla(0,0%,80%,.8)_10%,hsla(0,0%,80%,.65)_20%,hsla(0,0%,60%,.5)_90%)] [contain:paint] mix-blend-multiply opacity-95 group-hover/card:opacity-100 outline-[1px] outline-transparent will-change-[background-image,opacity,transform]"
+          "absolute inset-0 backface-hidden [background-image:radial-gradient(farthest-corner_circle_at_var(--pointer-x)_var(--pointer-y),hsla(0,0%,80%,.8)_10%,hsla(0,0%,80%,.65)_20%,hsla(0,0%,60%,.5)_90%)]",
+          "[contain:paint]",
+          "mix-blend-multiply opacity-95 group-hover/card:opacity-100 outline-[1px] outline-transparent will-change-[background-image,opacity,transform]"
         )}
       />
     </>

@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Glare from "../glare/Glare";
+import Holofoil from "./effects/holofoil";
 import ReverseHolofoil from "./effects/reverseholofoil";
 import ReverseHolofoilMasterBall from "./effects/reverseHolofoilMasterBall";
 import ReverseHolofoilPokeBall from "./effects/reverseHolofoilPokeBall";
@@ -45,6 +46,15 @@ const Card: React.FC<CardProps> = ({
 }) => {
   let Effect = Glare;
   switch (variant) {
+    case "holofoil":
+      switch (pattern) {
+        case "tinsel":
+          console.log("ToDo: implement tinsel holofoil effect");
+          break;
+        default:
+          Effect = Holofoil;
+      }
+      break;
     case "reverse_holofoil":
       switch (pattern) {
         case "masterBall":

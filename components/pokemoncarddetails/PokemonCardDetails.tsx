@@ -78,23 +78,11 @@ export default function PokemonCardDetails({
           <p>
             Variant: {cardProps.variant} {cardProps.pattern}
           </p>
-          <p>
-            ToDo:
-            <br />- Add more details about the card
-            <br />- Add Prev/Next buttons to navigate between cards
-          </p>
-          <p>
-            This area can contain details, descriptions, buttons, etc. It
-            scrolls if the content overflows the modal height.
-          </p>
-          <p>
-            This area can contain details, descriptions, buttons, etc. It
-            scrolls if the content overflows the modal height.
-          </p>
-          <p>
-            This area can contain details, descriptions, buttons, etc. It
-            scrolls if the content overflows the modal height.
-          </p>
+          <p>ToDo:</p>
+          <ul>
+            <li>Add holofoil tilt effect</li>
+            <li>Add more details about the card</li>
+          </ul>
         </motion.div>
       </AnimatePresence>
 

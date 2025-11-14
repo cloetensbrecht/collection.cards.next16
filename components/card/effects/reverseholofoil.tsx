@@ -6,7 +6,8 @@ const ReverseHolofoil: React.FC = () => {
     <>
       <div
         className={cn(
-          "reverse-holofoil absolute w-full h-full",
+          "reverse-holofoil absolute w-full h-full z-1",
+          "[contain:paint]",
           "mask-[var(--mask)] mask-luminance mask-center mask-cover",
           "mix-blend-color-dodge",
           "[background-blend-mode:soft-light,difference] bg-size-[120%_120%,200%_200%,cover] [background-position:50%,calc((100%_*_var(--pointer-from-left)))_calc((100%_*_var(--pointer-from-top))),50%] [background-image:radial-gradient(circle_at_var(--pointer-x)_var(--pointer-y),#fff_5%,#000_50%,#fff_80%),linear-gradient(-45deg,#000_15%,#fff,#000_85%),var(--foil)]",

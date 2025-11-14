@@ -2,6 +2,7 @@
 
 import type React from "react";
 
+import { adjust } from "@/lib/math";
 import { cn } from "@/lib/utils";
 import { useRef, type ReactNode } from "react";
 
@@ -56,6 +57,14 @@ export function TiltCard({
       card.style.setProperty("--pointer-x", `${pointerX}%`);
       card.style.setProperty("--pointer-y", `${pointerY}%`);
       card.style.setProperty(
+        "--background-x",
+        `${adjust(pointerX, 0, 100, 37, 63)}%`
+      );
+      card.style.setProperty(
+        "--background-y",
+        `${adjust(pointerY, 0, 100, 33, 67)}%`
+      );
+      card.style.setProperty(
         "--pointer-from-center",
         `${percentX < 0 ? -percentX : percentX}`
       );
@@ -80,6 +89,8 @@ export function TiltCard({
     // Reset transform
     card.style.setProperty("--pointer-x", `50%`);
     card.style.setProperty("--pointer-y", `50%`);
+    card.style.setProperty("--background-x", `50%`);
+    card.style.setProperty("--background-y", `50%`);
     card.style.setProperty("--pointer-from-center", `0`);
     card.style.setProperty("--pointer-from-left", `0.5`);
     card.style.setProperty("--pointer-from-top", `0.5`);
@@ -104,6 +115,8 @@ export function TiltCard({
         {
           "--pointer-x": "50%",
           "--pointer-y": "50%",
+          "--background-x": "50%",
+          "--background-y": "50%",
           "--pointer-from-center": "0",
           "--pointer-from-left": "0.5",
           "--pointer-from-top": "0.5",
