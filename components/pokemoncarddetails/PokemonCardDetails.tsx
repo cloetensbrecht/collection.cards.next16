@@ -25,7 +25,7 @@ export default function PokemonCardDetails({
   nextHandler?: () => void;
   prevHandler?: () => void;
 }) {
-  const [direction, setDirection] = useState(0);
+  const [direction, setDirection] = useState<number>(0);
 
   const handleNext = () => {
     setDirection(1);
