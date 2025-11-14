@@ -4,10 +4,10 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Glare from "../glare/Glare";
-import Holofoil from "./effects/holofoil";
-import ReverseHolofoil from "./effects/reverseholofoil";
-import ReverseHolofoilMasterBall from "./effects/reverseHolofoilMasterBall";
-import ReverseHolofoilPokeBall from "./effects/reverseHolofoilPokeBall";
+import Holofoil from "./effects/Holofoil";
+import ReverseHolofoil from "./effects/Reverseholofoil";
+import ReverseHolofoilMasterBall from "./effects/ReverseHolofoilMasterBall";
+import ReverseHolofoilPokeBall from "./effects/ReverseHolofoilPokeBall";
 
 export type CardProps = {
   blurDataURL?: string;
@@ -110,7 +110,6 @@ const Card: React.FC<CardProps> = ({
           blurDataURL={blurDataURL}
           fetchPriority="high"
           fill={true}
-          layout="fill"
           placeholder="blur"
           preload={true}
           src={src}
