@@ -40,6 +40,9 @@ const fetchIllustratorCards = async (
         variant: item.variants?.[0]?.variant || "normal",
         // details for PokemonCardDetailsProps:
         number: item.number,
+        isEx: item.isEx,
+        isFullArt: item.isFullArt,
+        isTrainerGallery: item.isTrainerGallery,
       };
       return card;
     });

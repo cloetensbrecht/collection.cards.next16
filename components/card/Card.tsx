@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Glare from "../glare/Glare";
 import Holofoil from "./effects/Holofoil";
+import HolofoilEx from "./effects/HolofoilEx";
 import ReverseHolofoil from "./effects/Reverseholofoil";
 import ReverseHolofoilMasterBall from "./effects/ReverseHolofoilMasterBall";
 import ReverseHolofoilPokeBall from "./effects/ReverseHolofoilPokeBall";
@@ -17,6 +18,9 @@ export type CardProps = {
   glowColor?: string;
   id: string;
   inModal?: boolean;
+  isEx: boolean;
+  isFullArt: boolean;
+  isTrainerGallery: boolean;
   mask?: string;
   onClick?: () => void;
   pattern?:
@@ -36,6 +40,9 @@ const Card: React.FC<CardProps> = ({
   glowColor,
   id,
   inModal,
+  isEx,
+  isFullArt,
+  isTrainerGallery,
   mask,
   onClick,
   pattern,
@@ -52,7 +59,7 @@ const Card: React.FC<CardProps> = ({
           console.log("ToDo: implement tinsel holofoil effect");
           break;
         default:
-          Effect = Holofoil;
+          Effect = isEx ? HolofoilEx : Holofoil;
       }
       break;
     case "reverse_holofoil":

@@ -32,6 +32,8 @@
   --sunpillar-4: #85fff7;
   --sunpillar-5: #7a95ff;
   --sunpillar-6: #d875ff;
+  --sunpillar: var(--sunpillar-1) 25%, var(--sunpillar-2), var(--sunpillar-3),
+    var(--sunpillar-4), var(--sunpillar-5), var(--sunpillar-6) 75%;
 
   /* Holofoil */
   --holo: var(--sunpillar-1), var(--sunpillar-2), var(--sunpillar-3),
