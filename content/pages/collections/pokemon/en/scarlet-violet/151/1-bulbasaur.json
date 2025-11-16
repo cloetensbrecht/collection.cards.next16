@@ -1,0 +1,52 @@
+{
+  "_id": "35YHOMU3Xkom3h8I0kzyPvxs1RN",
+  "_type": "PokemonCard",
+  "_index": "a0",
+  "title": "Bulbasaur",
+  "number": "1",
+  "edgeColor": "#97999b",
+  "rarity": "common",
+  "cardtype": "pokemon",
+  "hp": 70,
+  "pokemon": "Bulbasaur",
+  "energy": "grass",
+  "stage": "basic",
+  "illustrator": {
+    "_id": "35YIqF31Ue4RPlWJUkKrycUP9Iq",
+    "_type": "entry",
+    "_entry": "33vZJOti7WXEFhja1ECral3WpcT"
+  },
+  "card": {
+    "_id": "35YId3Wr1NXyc2b0f96hgTknOGB",
+    "_type": "image",
+    "_entry": "35YFL2EdghIdmonH04HSyo1VUQh"
+  },
+  "reverseCard": {},
+  "variants": [
+    {
+      "_id": "35YHOMVFPBNIeanrHoIpVelDxib",
+      "_index": "a0",
+      "_type": "Variant",
+      "variant": "normal",
+      "pattern": null,
+      "mask": {},
+      "foil": {}
+    },
+    {
+      "_id": "35YJh6eKRvb8iXoC2sANIBsaXBF",
+      "_index": "a1",
+      "_type": "Variant",
+      "variant": "reverse_holofoil",
+      "mask": {
+        "_id": "35YJq3CvDwxb6x0XRmWpK3DAK52",
+        "_type": "image",
+        "_entry": "35YJoVuPQ6ldRqJV7c7sBcXkRX2"
+      },
+      "foil": {
+        "_id": "35YJqqHYnGn51ROqyzyDd7BOyJc",
+        "_type": "image",
+        "_entry": "35YJoV55YGj14W5BKt4oU8vyMGS"
+      }
+    }
+  ]
+}
