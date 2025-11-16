@@ -28,14 +28,15 @@ const fetchCardData = async (url: string) => {
         ? `var(--${data.energy || data.subtype})`
         : undefined,
     id: data._id,
-    src: `/media${data.card.src}`,
+    src: data.card ? `/media${data.card?.src}` : undefined,
     title: data.title,
     variant: "normal",
     // details for PokemonCardDetailsProps:
-    number: data.number,
     isEx: data.isEx,
     isFullArt: data.isFullArt,
     isTrainerGallery: data.isTrainerGallery,
+    number: data.number,
+    rarity: data.rarity,
   };
 
   // there are no variants, add the normal card

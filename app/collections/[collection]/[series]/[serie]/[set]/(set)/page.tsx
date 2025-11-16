@@ -44,10 +44,11 @@ const fetchSetData = async (url: string) => {
               title: item.title,
               variant: "normal",
               // details for PokemonCardDetailsProps:
-              number: item.number,
               isEx: item.isEx,
               isFullArt: item.isFullArt,
               isTrainerGallery: item.isTrainerGallery,
+              number: item.number,
+              rarity: item.rarity,
             };
 
             // there are no variants, add the normal card

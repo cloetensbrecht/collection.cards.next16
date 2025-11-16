@@ -1,11 +1,13 @@
 import { holofoilPatterns, reverseHolofoilPatterns } from "@/consts/effect";
+import { Rarity } from "@/consts/rarity";
 import { variant } from "@/consts/variant";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Glare from "../glare/Glare";
 import Holofoil from "./effects/Holofoil";
-import HolofoilEx from "./effects/HolofoilEx";
+import HolofoilDoubleRare from "./effects/HolofoilDoubleRare";
+import HolofoilIllustrationRare from "./effects/HolofoilIllustrationRare";
 import ReverseHolofoil from "./effects/Reverseholofoil";
 import ReverseHolofoilMasterBall from "./effects/ReverseHolofoilMasterBall";
 import ReverseHolofoilPokeBall from "./effects/ReverseHolofoilPokeBall";
@@ -26,8 +28,9 @@ export type CardProps = {
   pattern?:
     | keyof typeof reverseHolofoilPatterns
     | keyof typeof holofoilPatterns;
+  rarity: keyof Rarity | null;
   sizes: string;
-  src: string;
+  src?: string;
   title: string;
   variant: keyof typeof variant;
 };
@@ -46,6 +49,7 @@ const Card: React.FC<CardProps> = ({
   mask,
   onClick,
   pattern,
+  rarity,
   sizes,
   src,
   title,
@@ -59,7 +63,23 @@ const Card: React.FC<CardProps> = ({
           console.log("ToDo: implement tinsel holofoil effect");
           break;
         default:
-          Effect = isEx ? HolofoilEx : Holofoil;
+          switch (rarity) {
+            case "illustration-rare":
+              Effect = HolofoilIllustrationRare;
+              break;
+            case "special-illustration-rare":
+              console.log("ToDo: implement special-illustration-rare effect");
+              break;
+            case "ultra-rare":
+              console.log("ToDo: implement ultra-rare effect");
+              break;
+            case "double-rare":
+              Effect = HolofoilDoubleRare;
+              break;
+            default:
+              Effect = Holofoil;
+              break;
+          }
       }
       break;
     case "reverse_holofoil":
@@ -112,23 +132,25 @@ const Card: React.FC<CardProps> = ({
         className="relative w-full h-full"
         layoutId={!inModal ? `card-image-${id}` : undefined}
       >
-        <Image
-          alt={title}
-          blurDataURL={blurDataURL}
-          fetchPriority="high"
-          fill={true}
-          placeholder="blur"
-          preload={true}
-          src={src}
-          style={{
-            backgroundColor: edgeColor,
-            objectFit: "contain",
-            objectPosition: focus
-              ? `${focus.x * 100}% ${focus.y * 100}%`
-              : undefined,
-          }}
-          sizes={sizes}
-        />
+        {src && (
+          <Image
+            alt={title}
+            blurDataURL={blurDataURL}
+            fetchPriority="high"
+            fill={true}
+            placeholder="blur"
+            preload={true}
+            src={src}
+            style={{
+              backgroundColor: edgeColor,
+              objectFit: "contain",
+              objectPosition: focus
+                ? `${focus.x * 100}% ${focus.y * 100}%`
+                : undefined,
+            }}
+            sizes={sizes}
+          />
+        )}
         <Effect />
       </motion.div>
     </CardContainer>

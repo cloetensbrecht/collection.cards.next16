@@ -218,7 +218,9 @@ export const PokemonCard = Config.type("Pokémon Card", {
     isTrainerGallery: Field.check("Trainer Gallery", {
       help: "Trainer & Pokémon together on one card",
     }),
-    isFullArt: Field.check("Full art"),
+    isFullArt: Field.check("Full art", {
+      help: "The art covers the whole card frame, Character on a simple/abstract background, no real setting",
+    }),
   },
   insertOrder: "first",
   icon: IcOutlineCropPortrait,
