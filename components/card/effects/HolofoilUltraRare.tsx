@@ -36,7 +36,8 @@ const HolofoilUltraRare: React.FC = () => {
           "after:mix-blend-exclusion",
           "after:filter-[brightness(calc((var(--pointer-from-center)*.4)_+_.5))_contrast(1.66)_saturate(1)]",
           "after:bg-size-[var(--imgsize),var(--imgsize),200%_400%,195%_100%,200%_100%]",
-          "after:bg-position-[center_center,center_center,0%_var(--background-y),calc((var(--background-x)_+_(var(--background-y)*0.2))_*_-1)_calc(var(--background-y)_*_-1),var(--background-x)_var(--background-y)]"
+          "after:bg-position-[center_center,center_center,0%_var(--background-y),calc((var(--background-x)_+_(var(--background-y)*0.2))_*_-1)_calc(var(--background-y)_*_-1),var(--background-x)_var(--background-y)]",
+          "after:will-change-[background-position,filter]"
         )}
       ></div>
       <Glare />
