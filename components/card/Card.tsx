@@ -8,6 +8,7 @@ import Glare from "../glare/Glare";
 import Holofoil from "./effects/Holofoil";
 import HolofoilDoubleRare from "./effects/HolofoilDoubleRare";
 import HolofoilIllustrationRare from "./effects/HolofoilIllustrationRare";
+import HolofoilUltraRare from "./effects/HolofoilUltraRare";
 import ReverseHolofoil from "./effects/Reverseholofoil";
 import ReverseHolofoilMasterBall from "./effects/ReverseHolofoilMasterBall";
 import ReverseHolofoilPokeBall from "./effects/ReverseHolofoilPokeBall";
@@ -71,7 +72,7 @@ const Card: React.FC<CardProps> = ({
               console.log("ToDo: implement special-illustration-rare effect");
               break;
             case "ultra-rare":
-              console.log("ToDo: implement ultra-rare effect");
+              Effect = HolofoilUltraRare;
               break;
             case "double-rare":
               Effect = HolofoilDoubleRare;
