@@ -1,10 +1,16 @@
-const Glare: React.FC = () => (
+import { cn } from "@/lib/utils";
+
+type GlareProps = {
+  className?: string;
+};
+
+const Glare: React.FC<GlareProps> = ({ className }) => (
   <div
-    className="glare w-full h-full mix-blend-overlay will-change-[background-image]"
-    style={{
-      backgroundImage:
-        "radial-gradient(farthest-corner circle at var(--pointer-x) var(--pointer-y), hsla(0, 0%, 100%, .8) 10%, hsla(0, 0%, 100%, .65) 20%, hsla(0, 0%, 0%, .5) 90%)",
-    }}
+    className={cn(
+      "glare w-full h-full mix-blend-overlay will-change-[background-image]",
+      "[background-image:radial-gradient(farthest-corner_circle_at_var(--pointer-x)_var(--pointer-y),hsla(0,0%,100%,.8)_10%,hsla(0,0%,100%,.65)_20%,hsla(0,0%,0%,.5)_90%)]",
+      className
+    )}
   />
 );
 
