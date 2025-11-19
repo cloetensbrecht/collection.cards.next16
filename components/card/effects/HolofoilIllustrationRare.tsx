@@ -15,7 +15,7 @@ const HolofoilIllustrationRare: React.FC = () => {
           } as React.CSSProperties
         }
         className={cn(
-          "absolute w-full h-full z-1",
+          "holofoil-illustration-rare absolute w-full h-full z-1",
           "[contain:paint] backface-hidden",
           "mix-blend-color-dodge",
           "will-change-[background-position]",
