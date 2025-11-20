@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Glare from "../glare/Glare";
 import Holofoil from "./effects/Holofoil";
+import HolofoilBlackWhiteRare from "./effects/HolofoilBlackWhiteRare";
 import HolofoilDoubleRare from "./effects/HolofoilDoubleRare";
 import HolofoilIllustrationRare from "./effects/HolofoilIllustrationRare";
 import HolofoilSpecialIllustrationRare from "./effects/HolofoilSpecialIllustrationRare";
@@ -57,7 +58,9 @@ const Card: React.FC<CardProps> = ({
   title,
   variant,
 }) => {
-  let Effect = Glare;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let Effect: React.FC<any> = Glare;
+  let effectProps = {};
   switch (variant) {
     case "holofoil":
       switch (pattern) {
@@ -77,6 +80,10 @@ const Card: React.FC<CardProps> = ({
               break;
             case "double-rare":
               Effect = HolofoilDoubleRare;
+              break;
+            case "black-white-rare":
+              Effect = HolofoilBlackWhiteRare;
+              effectProps = { radial: !isEx };
               break;
             default:
               Effect = Holofoil;
@@ -153,7 +160,7 @@ const Card: React.FC<CardProps> = ({
             sizes={sizes}
           />
         )}
-        <Effect />
+        <Effect {...effectProps} />
       </motion.div>
     </CardContainer>
   );
