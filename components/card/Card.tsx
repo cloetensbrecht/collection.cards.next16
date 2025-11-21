@@ -10,6 +10,7 @@ import HolofoilBlackWhiteRare from './effects/HolofoilBlackWhiteRare'
 import HolofoilDoubleRare from './effects/HolofoilDoubleRare'
 import HolofoilIllustrationRare from './effects/HolofoilIllustrationRare'
 import HolofoilSpecialIllustrationRare from './effects/HolofoilSpecialIllustrationRare'
+import HolofoilTinsel from './effects/HolofoilTinsel'
 import HolofoilUltraRare from './effects/HolofoilUltraRare'
 import ReverseHolofoil from './effects/Reverseholofoil'
 import ReverseHolofoilMasterBall from './effects/ReverseHolofoilMasterBall'
@@ -63,7 +64,7 @@ const Card: React.FC<CardProps> = ({
     case 'holofoil':
       switch (pattern) {
         case 'tinsel':
-          console.log('ToDo: implement tinsel holofoil effect')
+          Effect = HolofoilTinsel
           break
         default:
           switch (rarity) {
