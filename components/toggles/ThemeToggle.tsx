@@ -33,7 +33,7 @@ const ThemeToggle = () => {
         <span className="pointer-events-none relative ms-0.5 flex min-w-4 md:min-w-8 items-center justify-center text-center peer-data-[state=checked]:text-primary-foreground peer-data-[state=checked]:hidden md:peer-data-[state=checked]:flex">
           <MoonIcon size={16} aria-hidden="true" />
         </span>
-        <span className="pointer-events-none relative me-0.5 flex min-w-4 md:min-w-8 items-center justify-center text-center peer-data-[state=unchecked]:text-primary-foreground peer-data-[state=unchecked]:hidden md:peer-data-[state=unchecked]:flex">
+        <span className="pointer-events-none relative md:me-0.5 flex min-w-4 md:min-w-8 items-center justify-center text-center peer-data-[state=unchecked]:text-primary-foreground peer-data-[state=unchecked]:hidden md:peer-data-[state=unchecked]:flex">
           <SunIcon size={16} aria-hidden="true" />
         </span>
       </div>
