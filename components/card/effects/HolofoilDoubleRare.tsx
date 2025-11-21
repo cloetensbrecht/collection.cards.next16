@@ -14,7 +14,7 @@ const HolofoilDoubleRare: React.FC = () => {
           } as React.CSSProperties
         }
         className={cn(
-          "absolute w-full h-full z-1",
+          "holofoil-double-rare absolute w-full h-full z-1",
           "[contain:paint] backface-hidden",
           "mix-blend-color-dodge",
           "filter-[brightness(.45)_contrast(1.5)_saturate(1.2)]",
