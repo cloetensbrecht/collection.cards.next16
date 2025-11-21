@@ -1,4 +1,4 @@
-import { SVGProps } from "react";
+import {SVGProps} from 'react'
 
 export function Logo(props: SVGProps<SVGSVGElement>) {
   return (
@@ -18,5 +18,5 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
         d="M52.63,51.12c0,1.15-.38,2.09-1.12,2.81-.75.73-1.7,1.09-2.85,1.09h-14.17c-1.15,0-2.09-.36-2.81-1.09-.73-.73-1.09-1.66-1.09-2.81V3.9c0-1.15.36-2.09,1.09-2.81s1.66-1.09,2.81-1.09h14.17c1.15,0,2.1.36,2.85,1.09.75.73,1.12,1.66,1.12,2.81v12.8h-4.92V4.32h-12.23v46.37h12.23v-13.54h4.92v13.96Z"
       />
     </svg>
-  );
+  )
 }

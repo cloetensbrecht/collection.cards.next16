@@ -1,25 +1,25 @@
-import { PokemonCard } from "@/alinea/schemas/PokemonCard";
-import { cms } from "@/cms";
-import CardGrid, { CardGridProps } from "@/components/cardgrid/CardGrid";
-import Container from "@/components/container/Container";
-import { Title } from "@/components/title/Title";
-import { blurDataURL } from "@/lib/blurDataURL";
-import { notFound } from "next/navigation";
+import {PokemonCard} from '@/alinea/schemas/PokemonCard'
+import {cms} from '@/cms'
+import CardGrid, {CardGridProps} from '@/components/cardgrid/CardGrid'
+import Container from '@/components/container/Container'
+import {Title} from '@/components/title/Title'
+import {blurDataURL} from '@/lib/blurDataURL'
+import {notFound} from 'next/navigation'
 
 const fetchCardData = async (url: string) => {
   const data = await cms.first({
     type: PokemonCard,
     filter: {
-      _status: "published",
-      _url: url,
-    },
-  });
+      _status: 'published',
+      _url: url
+    }
+  })
 
-  if (!data) return null;
+  if (!data) return null
 
-  const cards = [] as CardGridProps["cards"];
+  const cards = [] as CardGridProps['cards']
 
-  const basicInfo: CardGridProps["cards"][number] = {
+  const basicInfo: CardGridProps['cards'][number] = {
     blurDataURL: blurDataURL(data.card?.thumbHash),
     edgeColor: data.edgeColor,
     focus: data.card?.focus,
@@ -30,22 +30,22 @@ const fetchCardData = async (url: string) => {
     id: data._id,
     src: data.card ? `/media${data.card?.src}` : undefined,
     title: data.title,
-    variant: "normal",
+    variant: 'normal',
     // details for PokemonCardDetailsProps:
     isEx: data.isEx,
     isFullArt: data.isFullArt,
     isTrainerGallery: data.isTrainerGallery,
     number: data.number,
-    rarity: data.rarity,
-  };
+    rarity: data.rarity
+  }
 
   // there are no variants, add the normal card
   if (!data.variants || data.variants.length === 0) {
-    cards.push(basicInfo);
+    cards.push(basicInfo)
   }
 
   // add the variants
-  data.variants?.forEach((variant) => {
+  data.variants?.forEach(variant => {
     cards.push({
       ...basicInfo,
       id: variant._id,
@@ -53,36 +53,36 @@ const fetchCardData = async (url: string) => {
       mask: variant.mask?.src || undefined,
       pattern: variant.pattern || undefined,
       src:
-        variant.variant === "reverse_holofoil" && data.reverseCard?.src
+        variant.variant === 'reverse_holofoil' && data.reverseCard?.src
           ? `/media${data.reverseCard?.src}`
           : basicInfo.src,
       title: `${basicInfo.title}`,
-      variant: variant.variant || "normal",
-    });
-  });
+      variant: variant.variant || 'normal'
+    })
+  })
 
   return {
     ...data,
-    cards,
-  };
-};
+    cards
+  }
+}
 
 export default async function Card({
-  params,
+  params
 }: {
   params: Promise<{
-    collection: string;
-    series: string;
-    serie: string;
-    set: string;
-    card: string;
-  }>;
+    collection: string
+    series: string
+    serie: string
+    set: string
+    card: string
+  }>
 }) {
-  const { collection, series, serie, set, card } = await params;
+  const {collection, series, serie, set, card} = await params
   const cardData = await fetchCardData(
     `/collections/${collection}/${series}/${serie}/${set}/${card}`
-  );
-  if (!cardData) return notFound();
+  )
+  if (!cardData) return notFound()
 
   return (
     <Container>
@@ -91,5 +91,5 @@ export default async function Card({
       </Title.H1>
       <CardGrid cards={cardData.cards} />
     </Container>
-  );
+  )
 }

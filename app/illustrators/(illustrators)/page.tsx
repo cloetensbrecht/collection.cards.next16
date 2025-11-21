@@ -1,17 +1,17 @@
-import { Illustrator } from "@/alinea/schemas/Illustrator";
-import { Illustrators as IllustratorsSchema } from "@/alinea/schemas/Illustrators";
-import { PokemonCard } from "@/alinea/schemas/PokemonCard";
-import { cms } from "@/cms";
-import Blocks from "@/components/blocks/Blocks";
-import Container from "@/components/container/Container";
-import Pattern from "@/components/pattern/Pattern";
-import { Title } from "@/components/title/Title";
-import { blurDataURL } from "@/lib/blurDataURL";
-import { Query } from "alinea";
-import { Entry } from "alinea/core";
-import Image from "next/image";
-import Link from "next/link";
-import { notFound } from "next/navigation";
+import {Illustrator} from '@/alinea/schemas/Illustrator'
+import {Illustrators as IllustratorsSchema} from '@/alinea/schemas/Illustrators'
+import {PokemonCard} from '@/alinea/schemas/PokemonCard'
+import {cms} from '@/cms'
+import Blocks from '@/components/blocks/Blocks'
+import Container from '@/components/container/Container'
+import Pattern from '@/components/pattern/Pattern'
+import {Title} from '@/components/title/Title'
+import {blurDataURL} from '@/lib/blurDataURL'
+import {Query} from 'alinea'
+import {Entry} from 'alinea/core'
+import Image from 'next/image'
+import Link from 'next/link'
+import {notFound} from 'next/navigation'
 
 const fetchIllustrators = async () => {
   const illustratorsData = await cms.first({
@@ -21,15 +21,15 @@ const fetchIllustrators = async () => {
       ...IllustratorsSchema,
       illustrators: Query.children({
         type: Illustrator,
-        orderBy: { asc: Illustrator.title },
-      }),
-    },
-  });
-  if (!illustratorsData) return null;
+        orderBy: {asc: Illustrator.title}
+      })
+    }
+  })
+  if (!illustratorsData) return null
 
   const illustratorsIds = (
-    illustratorsData.illustrators as ({ _id: string } & Illustrator)[]
-  ).map(({ _id }) => _id);
+    illustratorsData.illustrators as ({_id: string} & Illustrator)[]
+  ).map(({_id}) => _id)
 
   const cardsWithIllustrators = await cms.find({
     type: PokemonCard,
@@ -37,34 +37,34 @@ const fetchIllustrators = async () => {
       id: Query.id,
       card: PokemonCard.card,
       title: PokemonCard.title,
-      illustrator: PokemonCard.illustrator,
+      illustrator: PokemonCard.illustrator
     },
     filter: {
-      illustrator: { has: { _entry: { in: illustratorsIds } } },
+      illustrator: {has: {_entry: {in: illustratorsIds}}}
     },
-    orderBy: { asc: Query.id },
-  });
+    orderBy: {asc: Query.id}
+  })
 
   return {
     ...illustratorsData,
     illustrators: (
-      illustratorsData.illustrators as ({ _id: string } & Illustrator)[]
+      illustratorsData.illustrators as ({_id: string} & Illustrator)[]
     )
-      .map((illustrator) => {
+      .map(illustrator => {
         return {
           ...illustrator,
           cards: cardsWithIllustrators.filter(
-            (card) => card.illustrator?._entry === illustrator._id
-          ),
-        };
+            card => card.illustrator?._entry === illustrator._id
+          )
+        }
       })
-      .filter((illustrator) => illustrator.cards.length > 0),
-  };
-};
+      .filter(illustrator => illustrator.cards.length > 0)
+  }
+}
 
 export default async function Illustrators() {
-  const illustratorsData = await fetchIllustrators();
-  if (!illustratorsData) return notFound();
+  const illustratorsData = await fetchIllustrators()
+  if (!illustratorsData) return notFound()
 
   return (
     <>
@@ -75,7 +75,7 @@ export default async function Illustrators() {
       <Pattern className="pt-24">
         <Container>
           <div className="flex w-full flex-wrap justify-center gap-12 lg:gap-x-6 lg:gap-y-12">
-            {illustratorsData.illustrators.map((illustrator) => {
+            {illustratorsData.illustrators.map(illustrator => {
               return (
                 <Link
                   key={illustrator._id}
@@ -94,14 +94,14 @@ export default async function Illustrators() {
                         style={{
                           backgroundColor:
                             illustrator.cards[0]?.card.averageColor,
-                          objectFit: "cover",
-                          transform: "scale(2.5)",
+                          objectFit: 'cover',
+                          transform: 'scale(2.5)',
                           transformOrigin: `${
                             illustrator.cards[0]?.card.focus.x * 100
                           }% ${illustrator.cards[0]?.card.focus.y * 100}%`,
                           objectPosition: `${
                             illustrator.cards[0]?.card.focus.x * 100
-                          }% ${illustrator.cards[0]?.card.focus.y * 100}%`,
+                          }% ${illustrator.cards[0]?.card.focus.y * 100}%`
                         }}
                         fill={true}
                         sizes="256px"
@@ -118,16 +118,16 @@ export default async function Illustrators() {
                       </p>
                       <p className="text-muted-foreground text-sm">
                         {illustrator.cards.length} card
-                        {illustrator.cards.length !== 1 ? "s" : ""}
+                        {illustrator.cards.length !== 1 ? 's' : ''}
                       </p>
                     </div>
                   </div>
                 </Link>
-              );
+              )
             })}
           </div>
         </Container>
       </Pattern>
     </>
-  );
+  )
 }

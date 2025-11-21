@@ -1,39 +1,39 @@
-import { Footer as FooterSchema } from "@/alinea/schemas/Footer";
-import { cms } from "@/cms";
-import { Discord } from "@/icons/Discord";
-import { GitHub } from "@/icons/GitHub";
-import { Logo } from "@/icons/Logo";
-import { Reddit } from "@/icons/Reddit";
-import { cn } from "@/lib/utils";
-import { RichText } from "alinea/ui";
-import Link from "next/link";
-import Container from "../container/Container";
+import {Footer as FooterSchema} from '@/alinea/schemas/Footer'
+import {cms} from '@/cms'
+import {Discord} from '@/icons/Discord'
+import {GitHub} from '@/icons/GitHub'
+import {Logo} from '@/icons/Logo'
+import {Reddit} from '@/icons/Reddit'
+import {cn} from '@/lib/utils'
+import {RichText} from 'alinea/ui'
+import Link from 'next/link'
+import Container from '../container/Container'
 
 const fetchFooterData = async () =>
   await cms.first({
-    workspace: "main",
-    root: "general",
-    type: FooterSchema,
-  });
+    workspace: 'main',
+    root: 'general',
+    type: FooterSchema
+  })
 
 const getColumnsClassName = (numColumns: number) => {
   switch (numColumns) {
     case 1:
-      return "grid-cols-1";
+      return 'grid-cols-1'
     case 2:
-      return "grid-cols-1 md:grid-cols-2";
+      return 'grid-cols-1 md:grid-cols-2'
     case 3:
-      return "grid-cols-1 md:grid-cols-3";
+      return 'grid-cols-1 md:grid-cols-3'
     case 4:
-      return "grid-cols-1 sm:grid-cols-2 md:grid-cols-4";
+      return 'grid-cols-1 sm:grid-cols-2 md:grid-cols-4'
     default:
-      return "grid-cols-1 md:grid-cols-3";
+      return 'grid-cols-1 md:grid-cols-3'
   }
-};
+}
 
 const Footer: React.FC = async () => {
-  const footerData = await fetchFooterData();
-  if (!footerData) return null;
+  const footerData = await fetchFooterData()
+  if (!footerData) return null
 
   return (
     <footer
@@ -44,7 +44,7 @@ const Footer: React.FC = async () => {
       <Container className="flex flex-col gap-8 items-center md:items-start">
         <div
           className={cn(
-            "grid gap-12 text-center items-center lg:items-start lg:gap-6 lg:text-left w-full justify-items-center lg:justify-items-stretch",
+            'grid gap-12 text-center items-center lg:items-start lg:gap-6 lg:text-left w-full justify-items-center lg:justify-items-stretch',
             getColumnsClassName(footerData.columns.length + 1)
           )}
         >
@@ -53,7 +53,7 @@ const Footer: React.FC = async () => {
             className="self-end"
             aria-label="collection.cards logo"
           />
-          {footerData.columns.map((column) => (
+          {footerData.columns.map(column => (
             <div
               className="flex flex-col gap-4 justify-between"
               key={column._id}
@@ -66,30 +66,30 @@ const Footer: React.FC = async () => {
                   className="flex gap-4 justify-center lg:justify-start content-center flex-col"
                   aria-label={`${column.title} links`}
                 >
-                  {column.items.map((item) => {
+                  {column.items.map(item => {
                     switch (item._type) {
-                      case "Icons":
+                      case 'Icons':
                         return (
                           <div
                             key={item._id}
                             className="flex gap-4 justify-center lg:justify-start content-center w-full flex-row"
                           >
-                            {item.links.map((iconLink) => {
-                              const href = iconLink.href || "#";
-                              const iconType = iconLink.fields.icon;
-                              let IconComponent;
+                            {item.links.map(iconLink => {
+                              const href = iconLink.href || '#'
+                              const iconType = iconLink.fields.icon
+                              let IconComponent
                               switch (iconType) {
-                                case "discord":
-                                  IconComponent = Discord;
-                                  break;
-                                case "github":
-                                  IconComponent = GitHub;
-                                  break;
-                                case "reddit":
-                                  IconComponent = Reddit;
-                                  break;
+                                case 'discord':
+                                  IconComponent = Discord
+                                  break
+                                case 'github':
+                                  IconComponent = GitHub
+                                  break
+                                case 'reddit':
+                                  IconComponent = Reddit
+                                  break
                                 default:
-                                  return null;
+                                  return null
                               }
                               return (
                                 <Link
@@ -101,17 +101,17 @@ const Footer: React.FC = async () => {
                                 >
                                   <IconComponent width={24} />
                                 </Link>
-                              );
+                              )
                             })}
                           </div>
-                        );
-                      case "Link":
+                        )
+                      case 'Link':
                         return (
                           <Link
                             key={item._id}
-                            href={item.link?.href || "#"}
+                            href={item.link?.href || '#'}
                             target={
-                              item.link?._type === "url"
+                              item.link?._type === 'url'
                                 ? item.link.target
                                 : undefined
                             }
@@ -119,10 +119,10 @@ const Footer: React.FC = async () => {
                           >
                             {item.link?.fields.title ||
                               item.link?.title ||
-                              "Untitled"}
+                              'Untitled'}
                           </Link>
-                        );
-                      case "Text":
+                        )
+                      case 'Text':
                         return (
                           <div
                             key={item._id}
@@ -130,9 +130,9 @@ const Footer: React.FC = async () => {
                           >
                             <RichText doc={item.text} />
                           </div>
-                        );
+                        )
                       default:
-                        return null;
+                        return null
                     }
                   })}
                 </nav>
@@ -155,7 +155,7 @@ const Footer: React.FC = async () => {
             className="order-1 flex flex-col items-center gap-2 text-center lg:order-2 lg:flex-row lg:items-start lg:gap-8 lg:text-left"
             aria-label="Legal links"
           >
-            {footerData.legal_links.map((link) => (
+            {footerData.legal_links.map(link => (
               <Link
                 key={link._id}
                 className="text-muted-foreground hover:text-foreground text-center transition-colors md:text-left whitespace-nowrap"
@@ -168,7 +168,7 @@ const Footer: React.FC = async () => {
         </div>
       </Container>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

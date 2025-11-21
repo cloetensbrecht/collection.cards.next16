@@ -1,4104 +1,4104 @@
-export type Pokedex = typeof pokedex;
+export type Pokedex = typeof pokedex
 
 export const pokedex = [
   {
     id: 460,
-    name: "Abomasnow",
+    name: 'Abomasnow'
   },
   {
     id: 63,
-    name: "Abra",
+    name: 'Abra'
   },
   {
     id: 359,
-    name: "Absol",
+    name: 'Absol'
   },
   {
     id: 617,
-    name: "Accelgor",
+    name: 'Accelgor'
   },
   {
     id: 681,
-    name: "Aegislash",
+    name: 'Aegislash'
   },
   {
     id: 142,
-    name: "Aerodactyl",
+    name: 'Aerodactyl'
   },
   {
     id: 306,
-    name: "Aggron",
+    name: 'Aggron'
   },
   {
     id: 190,
-    name: "Aipom",
+    name: 'Aipom'
   },
   {
     id: 65,
-    name: "Alakazam",
+    name: 'Alakazam'
   },
   {
     id: 869,
-    name: "Alcremie",
+    name: 'Alcremie'
   },
   {
     id: 594,
-    name: "Alomomola",
+    name: 'Alomomola'
   },
   {
     id: 334,
-    name: "Altaria",
+    name: 'Altaria'
   },
   {
     id: 698,
-    name: "Amaura",
+    name: 'Amaura'
   },
   {
     id: 424,
-    name: "Ambipom",
+    name: 'Ambipom'
   },
   {
     id: 591,
-    name: "Amoonguss",
+    name: 'Amoonguss'
   },
   {
     id: 181,
-    name: "Ampharos",
+    name: 'Ampharos'
   },
   {
     id: 979,
-    name: "Annihilape",
+    name: 'Annihilape'
   },
   {
     id: 347,
-    name: "Anorith",
+    name: 'Anorith'
   },
   {
     id: 842,
-    name: "Appletun",
+    name: 'Appletun'
   },
   {
     id: 840,
-    name: "Applin",
+    name: 'Applin'
   },
   {
     id: 752,
-    name: "Araquanid",
+    name: 'Araquanid'
   },
   {
     id: 24,
-    name: "Arbok",
+    name: 'Arbok'
   },
   {
     id: 930,
-    name: "Arboliva",
+    name: 'Arboliva'
   },
   {
     id: 59,
-    name: "Arcanine",
+    name: 'Arcanine'
   },
   {
     id: 493,
-    name: "Arceus",
+    name: 'Arceus'
   },
   {
     id: 1018,
-    name: "Archaludon",
+    name: 'Archaludon'
   },
   {
     id: 566,
-    name: "Archen",
+    name: 'Archen'
   },
   {
     id: 567,
-    name: "Archeops",
+    name: 'Archeops'
   },
   {
     id: 997,
-    name: "Arctibax",
+    name: 'Arctibax'
   },
   {
     id: 883,
-    name: "Arctovish",
+    name: 'Arctovish'
   },
   {
     id: 881,
-    name: "Arctozolt",
+    name: 'Arctozolt'
   },
   {
     id: 168,
-    name: "Ariados",
+    name: 'Ariados'
   },
   {
     id: 348,
-    name: "Armaldo",
+    name: 'Armaldo'
   },
   {
     id: 936,
-    name: "Armarouge",
+    name: 'Armarouge'
   },
   {
     id: 683,
-    name: "Aromatisse",
+    name: 'Aromatisse'
   },
   {
     id: 304,
-    name: "Aron",
+    name: 'Aron'
   },
   {
     id: 846,
-    name: "Arrokuda",
+    name: 'Arrokuda'
   },
   {
     id: 144,
-    name: "Articuno",
+    name: 'Articuno'
   },
   {
     id: 531,
-    name: "Audino",
+    name: 'Audino'
   },
   {
     id: 699,
-    name: "Aurorus",
+    name: 'Aurorus'
   },
   {
     id: 713,
-    name: "Avalugg",
+    name: 'Avalugg'
   },
   {
     id: 610,
-    name: "Axew",
+    name: 'Axew'
   },
   {
     id: 482,
-    name: "Azelf",
+    name: 'Azelf'
   },
   {
     id: 184,
-    name: "Azumarill",
+    name: 'Azumarill'
   },
   {
     id: 298,
-    name: "Azurill",
+    name: 'Azurill'
   },
   {
     id: 371,
-    name: "Bagon",
+    name: 'Bagon'
   },
   {
     id: 343,
-    name: "Baltoy",
+    name: 'Baltoy'
   },
   {
     id: 354,
-    name: "Banette",
+    name: 'Banette'
   },
   {
     id: 689,
-    name: "Barbaracle",
+    name: 'Barbaracle'
   },
   {
     id: 339,
-    name: "Barboach",
+    name: 'Barboach'
   },
   {
     id: 847,
-    name: "Barraskewda",
+    name: 'Barraskewda'
   },
   {
     id: 902,
-    name: "Basculegion",
+    name: 'Basculegion'
   },
   {
     id: 550,
-    name: "Basculin",
+    name: 'Basculin'
   },
   {
     id: 411,
-    name: "Bastiodon",
+    name: 'Bastiodon'
   },
   {
     id: 998,
-    name: "Baxcalibur",
+    name: 'Baxcalibur'
   },
   {
     id: 153,
-    name: "Bayleef",
+    name: 'Bayleef'
   },
   {
     id: 614,
-    name: "Beartic",
+    name: 'Beartic'
   },
   {
     id: 267,
-    name: "Beautifly",
+    name: 'Beautifly'
   },
   {
     id: 15,
-    name: "Beedrill",
+    name: 'Beedrill'
   },
   {
     id: 606,
-    name: "Beheeyem",
+    name: 'Beheeyem'
   },
   {
     id: 374,
-    name: "Beldum",
+    name: 'Beldum'
   },
   {
     id: 939,
-    name: "Bellibolt",
+    name: 'Bellibolt'
   },
   {
     id: 182,
-    name: "Bellossom",
+    name: 'Bellossom'
   },
   {
     id: 69,
-    name: "Bellsprout",
+    name: 'Bellsprout'
   },
   {
     id: 712,
-    name: "Bergmite",
+    name: 'Bergmite'
   },
   {
     id: 760,
-    name: "Bewear",
+    name: 'Bewear'
   },
   {
     id: 400,
-    name: "Bibarel",
+    name: 'Bibarel'
   },
   {
     id: 399,
-    name: "Bidoof",
+    name: 'Bidoof'
   },
   {
     id: 688,
-    name: "Binacle",
+    name: 'Binacle'
   },
   {
     id: 625,
-    name: "Bisharp",
+    name: 'Bisharp'
   },
   {
     id: 806,
-    name: "Blacephalon",
+    name: 'Blacephalon'
   },
   {
     id: 9,
-    name: "Blastoise",
+    name: 'Blastoise'
   },
   {
     id: 257,
-    name: "Blaziken",
+    name: 'Blaziken'
   },
   {
     id: 824,
-    name: "Blipbug",
+    name: 'Blipbug'
   },
   {
     id: 242,
-    name: "Blissey",
+    name: 'Blissey'
   },
   {
     id: 522,
-    name: "Blitzle",
+    name: 'Blitzle'
   },
   {
     id: 525,
-    name: "Boldore",
+    name: 'Boldore'
   },
   {
     id: 836,
-    name: "Boltund",
+    name: 'Boltund'
   },
   {
     id: 962,
-    name: "Bombirdier",
+    name: 'Bombirdier'
   },
   {
     id: 438,
-    name: "Bonsly",
+    name: 'Bonsly'
   },
   {
     id: 626,
-    name: "Bouffalant",
+    name: 'Bouffalant'
   },
   {
     id: 761,
-    name: "Bounsweet",
+    name: 'Bounsweet'
   },
   {
     id: 654,
-    name: "Braixen",
+    name: 'Braixen'
   },
   {
     id: 947,
-    name: "Brambleghast",
+    name: 'Brambleghast'
   },
   {
     id: 946,
-    name: "Bramblin",
+    name: 'Bramblin'
   },
   {
     id: 628,
-    name: "Braviary",
+    name: 'Braviary'
   },
   {
     id: 286,
-    name: "Breloom",
+    name: 'Breloom'
   },
   {
     id: 729,
-    name: "Brionne",
+    name: 'Brionne'
   },
   {
     id: 437,
-    name: "Bronzong",
+    name: 'Bronzong'
   },
   {
     id: 436,
-    name: "Bronzor",
+    name: 'Bronzor'
   },
   {
     id: 986,
-    name: "Brute Bonnet",
+    name: 'Brute Bonnet'
   },
   {
     id: 779,
-    name: "Bruxish",
+    name: 'Bruxish'
   },
   {
     id: 406,
-    name: "Budew",
+    name: 'Budew'
   },
   {
     id: 418,
-    name: "Buizel",
+    name: 'Buizel'
   },
   {
     id: 1,
-    name: "Bulbasaur",
+    name: 'Bulbasaur'
   },
   {
     id: 427,
-    name: "Buneary",
+    name: 'Buneary'
   },
   {
     id: 659,
-    name: "Bunnelby",
+    name: 'Bunnelby'
   },
   {
     id: 412,
-    name: "Burmy",
+    name: 'Burmy'
   },
   {
     id: 12,
-    name: "Butterfree",
+    name: 'Butterfree'
   },
   {
     id: 794,
-    name: "Buzzwole",
+    name: 'Buzzwole'
   },
   {
     id: 331,
-    name: "Cacnea",
+    name: 'Cacnea'
   },
   {
     id: 332,
-    name: "Cacturne",
+    name: 'Cacturne'
   },
   {
     id: 898,
-    name: "Calyrex",
+    name: 'Calyrex'
   },
   {
     id: 323,
-    name: "Camerupt",
+    name: 'Camerupt'
   },
   {
     id: 951,
-    name: "Capsakid",
+    name: 'Capsakid'
   },
   {
     id: 703,
-    name: "Carbink",
+    name: 'Carbink'
   },
   {
     id: 838,
-    name: "Carkol",
+    name: 'Carkol'
   },
   {
     id: 455,
-    name: "Carnivine",
+    name: 'Carnivine'
   },
   {
     id: 565,
-    name: "Carracosta",
+    name: 'Carracosta'
   },
   {
     id: 318,
-    name: "Carvanha",
+    name: 'Carvanha'
   },
   {
     id: 268,
-    name: "Cascoon",
+    name: 'Cascoon'
   },
   {
     id: 351,
-    name: "Castform",
+    name: 'Castform'
   },
   {
     id: 10,
-    name: "Caterpie",
+    name: 'Caterpie'
   },
   {
     id: 251,
-    name: "Celebi",
+    name: 'Celebi'
   },
   {
     id: 797,
-    name: "Celesteela",
+    name: 'Celesteela'
   },
   {
     id: 851,
-    name: "Centiskorch",
+    name: 'Centiskorch'
   },
   {
     id: 937,
-    name: "Ceruledge",
+    name: 'Ceruledge'
   },
   {
     id: 975,
-    name: "Cetitan",
+    name: 'Cetitan'
   },
   {
     id: 974,
-    name: "Cetoddle",
+    name: 'Cetoddle'
   },
   {
     id: 609,
-    name: "Chandelure",
+    name: 'Chandelure'
   },
   {
     id: 113,
-    name: "Chansey",
+    name: 'Chansey'
   },
   {
     id: 935,
-    name: "Charcadet",
+    name: 'Charcadet'
   },
   {
     id: 6,
-    name: "Charizard",
+    name: 'Charizard'
   },
   {
     id: 737,
-    name: "Charjabug",
+    name: 'Charjabug'
   },
   {
     id: 4,
-    name: "Charmander",
+    name: 'Charmander'
   },
   {
     id: 5,
-    name: "Charmeleon",
+    name: 'Charmeleon'
   },
   {
     id: 441,
-    name: "Chatot",
+    name: 'Chatot'
   },
   {
     id: 421,
-    name: "Cherrim",
+    name: 'Cherrim'
   },
   {
     id: 420,
-    name: "Cherubi",
+    name: 'Cherubi'
   },
   {
     id: 652,
-    name: "Chesnaught",
+    name: 'Chesnaught'
   },
   {
     id: 650,
-    name: "Chespin",
+    name: 'Chespin'
   },
   {
     id: 833,
-    name: "Chewtle",
+    name: 'Chewtle'
   },
   {
     id: 1004,
-    name: "Chi-Yu",
+    name: 'Chi-Yu'
   },
   {
     id: 1002,
-    name: "Chien-Pao",
+    name: 'Chien-Pao'
   },
   {
     id: 152,
-    name: "Chikorita",
+    name: 'Chikorita'
   },
   {
     id: 390,
-    name: "Chimchar",
+    name: 'Chimchar'
   },
   {
     id: 358,
-    name: "Chimecho",
+    name: 'Chimecho'
   },
   {
     id: 170,
-    name: "Chinchou",
+    name: 'Chinchou'
   },
   {
     id: 433,
-    name: "Chingling",
+    name: 'Chingling'
   },
   {
     id: 573,
-    name: "Cinccino",
+    name: 'Cinccino'
   },
   {
     id: 815,
-    name: "Cinderace",
+    name: 'Cinderace'
   },
   {
     id: 366,
-    name: "Clamperl",
+    name: 'Clamperl'
   },
   {
     id: 692,
-    name: "Clauncher",
+    name: 'Clauncher'
   },
   {
     id: 693,
-    name: "Clawitzer",
+    name: 'Clawitzer'
   },
   {
     id: 344,
-    name: "Claydol",
+    name: 'Claydol'
   },
   {
     id: 36,
-    name: "Clefable",
+    name: 'Clefable'
   },
   {
     id: 35,
-    name: "Clefairy",
+    name: 'Clefairy'
   },
   {
     id: 173,
-    name: "Cleffa",
+    name: 'Cleffa'
   },
   {
     id: 852,
-    name: "Clobbopus",
+    name: 'Clobbopus'
   },
   {
     id: 980,
-    name: "Clodsire",
+    name: 'Clodsire'
   },
   {
     id: 91,
-    name: "Cloyster",
+    name: 'Cloyster'
   },
   {
     id: 839,
-    name: "Coalossal",
+    name: 'Coalossal'
   },
   {
     id: 638,
-    name: "Cobalion",
+    name: 'Cobalion'
   },
   {
     id: 563,
-    name: "Cofagrigus",
+    name: 'Cofagrigus'
   },
   {
     id: 415,
-    name: "Combee",
+    name: 'Combee'
   },
   {
     id: 256,
-    name: "Combusken",
+    name: 'Combusken'
   },
   {
     id: 764,
-    name: "Comfey",
+    name: 'Comfey'
   },
   {
     id: 534,
-    name: "Conkeldurr",
+    name: 'Conkeldurr'
   },
   {
     id: 879,
-    name: "Copperajah",
+    name: 'Copperajah'
   },
   {
     id: 341,
-    name: "Corphish",
+    name: 'Corphish'
   },
   {
     id: 222,
-    name: "Corsola",
+    name: 'Corsola'
   },
   {
     id: 823,
-    name: "Corviknight",
+    name: 'Corviknight'
   },
   {
     id: 822,
-    name: "Corvisquire",
+    name: 'Corvisquire'
   },
   {
     id: 790,
-    name: "Cosmoem",
+    name: 'Cosmoem'
   },
   {
     id: 789,
-    name: "Cosmog",
+    name: 'Cosmog'
   },
   {
     id: 546,
-    name: "Cottonee",
+    name: 'Cottonee'
   },
   {
     id: 740,
-    name: "Crabominable",
+    name: 'Crabominable'
   },
   {
     id: 739,
-    name: "Crabrawler",
+    name: 'Crabrawler'
   },
   {
     id: 346,
-    name: "Cradily",
+    name: 'Cradily'
   },
   {
     id: 845,
-    name: "Cramorant",
+    name: 'Cramorant'
   },
   {
     id: 408,
-    name: "Cranidos",
+    name: 'Cranidos'
   },
   {
     id: 342,
-    name: "Crawdaunt",
+    name: 'Crawdaunt'
   },
   {
     id: 488,
-    name: "Cresselia",
+    name: 'Cresselia'
   },
   {
     id: 453,
-    name: "Croagunk",
+    name: 'Croagunk'
   },
   {
     id: 169,
-    name: "Crobat",
+    name: 'Crobat'
   },
   {
     id: 910,
-    name: "Crocalor",
+    name: 'Crocalor'
   },
   {
     id: 159,
-    name: "Croconaw",
+    name: 'Croconaw'
   },
   {
     id: 558,
-    name: "Crustle",
+    name: 'Crustle'
   },
   {
     id: 615,
-    name: "Cryogonal",
+    name: 'Cryogonal'
   },
   {
     id: 613,
-    name: "Cubchoo",
+    name: 'Cubchoo'
   },
   {
     id: 104,
-    name: "Cubone",
+    name: 'Cubone'
   },
   {
     id: 878,
-    name: "Cufant",
+    name: 'Cufant'
   },
   {
     id: 864,
-    name: "Cursola",
+    name: 'Cursola'
   },
   {
     id: 742,
-    name: "Cutiefly",
+    name: 'Cutiefly'
   },
   {
     id: 967,
-    name: "Cyclizar",
+    name: 'Cyclizar'
   },
   {
     id: 155,
-    name: "Cyndaquil",
+    name: 'Cyndaquil'
   },
   {
     id: 927,
-    name: "Dachsbun",
+    name: 'Dachsbun'
   },
   {
     id: 491,
-    name: "Darkrai",
+    name: 'Darkrai'
   },
   {
     id: 555,
-    name: "Darmanitan",
+    name: 'Darmanitan'
   },
   {
     id: 723,
-    name: "Dartrix",
+    name: 'Dartrix'
   },
   {
     id: 554,
-    name: "Darumaka",
+    name: 'Darumaka'
   },
   {
     id: 724,
-    name: "Decidueye",
+    name: 'Decidueye'
   },
   {
     id: 702,
-    name: "Dedenne",
+    name: 'Dedenne'
   },
   {
     id: 585,
-    name: "Deerling",
+    name: 'Deerling'
   },
   {
     id: 633,
-    name: "Deino",
+    name: 'Deino'
   },
   {
     id: 301,
-    name: "Delcatty",
+    name: 'Delcatty'
   },
   {
     id: 225,
-    name: "Delibird",
+    name: 'Delibird'
   },
   {
     id: 655,
-    name: "Delphox",
+    name: 'Delphox'
   },
   {
     id: 386,
-    name: "Deoxys",
+    name: 'Deoxys'
   },
   {
     id: 87,
-    name: "Dewgong",
+    name: 'Dewgong'
   },
   {
     id: 502,
-    name: "Dewott",
+    name: 'Dewott'
   },
   {
     id: 751,
-    name: "Dewpider",
+    name: 'Dewpider'
   },
   {
     id: 781,
-    name: "Dhelmise",
+    name: 'Dhelmise'
   },
   {
     id: 483,
-    name: "Dialga",
+    name: 'Dialga'
   },
   {
     id: 719,
-    name: "Diancie",
+    name: 'Diancie'
   },
   {
     id: 660,
-    name: "Diggersby",
+    name: 'Diggersby'
   },
   {
     id: 50,
-    name: "Diglett",
+    name: 'Diglett'
   },
   {
     id: 1011,
-    name: "Dipplin",
+    name: 'Dipplin'
   },
   {
     id: 132,
-    name: "Ditto",
+    name: 'Ditto'
   },
   {
     id: 85,
-    name: "Dodrio",
+    name: 'Dodrio'
   },
   {
     id: 84,
-    name: "Doduo",
+    name: 'Doduo'
   },
   {
     id: 929,
-    name: "Dolliv",
+    name: 'Dolliv'
   },
   {
     id: 977,
-    name: "Dondozo",
+    name: 'Dondozo'
   },
   {
     id: 232,
-    name: "Donphan",
+    name: 'Donphan'
   },
   {
     id: 825,
-    name: "Dottler",
+    name: 'Dottler'
   },
   {
     id: 680,
-    name: "Doublade",
+    name: 'Doublade'
   },
   {
     id: 882,
-    name: "Dracovish",
+    name: 'Dracovish'
   },
   {
     id: 880,
-    name: "Dracozolt",
+    name: 'Dracozolt'
   },
   {
     id: 691,
-    name: "Dragalge",
+    name: 'Dragalge'
   },
   {
     id: 887,
-    name: "Dragapult",
+    name: 'Dragapult'
   },
   {
     id: 148,
-    name: "Dragonair",
+    name: 'Dragonair'
   },
   {
     id: 149,
-    name: "Dragonite",
+    name: 'Dragonite'
   },
   {
     id: 886,
-    name: "Drakloak",
+    name: 'Drakloak'
   },
   {
     id: 780,
-    name: "Drampa",
+    name: 'Drampa'
   },
   {
     id: 452,
-    name: "Drapion",
+    name: 'Drapion'
   },
   {
     id: 147,
-    name: "Dratini",
+    name: 'Dratini'
   },
   {
     id: 834,
-    name: "Drednaw",
+    name: 'Drednaw'
   },
   {
     id: 885,
-    name: "Dreepy",
+    name: 'Dreepy'
   },
   {
     id: 426,
-    name: "Drifblim",
+    name: 'Drifblim'
   },
   {
     id: 425,
-    name: "Drifloon",
+    name: 'Drifloon'
   },
   {
     id: 529,
-    name: "Drilbur",
+    name: 'Drilbur'
   },
   {
     id: 817,
-    name: "Drizzile",
+    name: 'Drizzile'
   },
   {
     id: 96,
-    name: "Drowzee",
+    name: 'Drowzee'
   },
   {
     id: 621,
-    name: "Druddigon",
+    name: 'Druddigon'
   },
   {
     id: 832,
-    name: "Dubwool",
+    name: 'Dubwool'
   },
   {
     id: 580,
-    name: "Ducklett",
+    name: 'Ducklett'
   },
   {
     id: 982,
-    name: "Dudunsparce",
+    name: 'Dudunsparce'
   },
   {
     id: 51,
-    name: "Dugtrio",
+    name: 'Dugtrio'
   },
   {
     id: 206,
-    name: "Dunsparce",
+    name: 'Dunsparce'
   },
   {
     id: 578,
-    name: "Duosion",
+    name: 'Duosion'
   },
   {
     id: 884,
-    name: "Duraludon",
+    name: 'Duraludon'
   },
   {
     id: 632,
-    name: "Durant",
+    name: 'Durant'
   },
   {
     id: 356,
-    name: "Dusclops",
+    name: 'Dusclops'
   },
   {
     id: 477,
-    name: "Dusknoir",
+    name: 'Dusknoir'
   },
   {
     id: 355,
-    name: "Duskull",
+    name: 'Duskull'
   },
   {
     id: 269,
-    name: "Dustox",
+    name: 'Dustox'
   },
   {
     id: 557,
-    name: "Dwebble",
+    name: 'Dwebble'
   },
   {
     id: 603,
-    name: "Eelektrik",
+    name: 'Eelektrik'
   },
   {
     id: 604,
-    name: "Eelektross",
+    name: 'Eelektross'
   },
   {
     id: 133,
-    name: "Eevee",
+    name: 'Eevee'
   },
   {
     id: 875,
-    name: "Eiscue",
+    name: 'Eiscue'
   },
   {
     id: 23,
-    name: "Ekans",
+    name: 'Ekans'
   },
   {
     id: 830,
-    name: "Eldegoss",
+    name: 'Eldegoss'
   },
   {
     id: 125,
-    name: "Electabuzz",
+    name: 'Electabuzz'
   },
   {
     id: 466,
-    name: "Electivire",
+    name: 'Electivire'
   },
   {
     id: 309,
-    name: "Electrike",
+    name: 'Electrike'
   },
   {
     id: 101,
-    name: "Electrode",
+    name: 'Electrode'
   },
   {
     id: 239,
-    name: "Elekid",
+    name: 'Elekid'
   },
   {
     id: 605,
-    name: "Elgyem",
+    name: 'Elgyem'
   },
   {
     id: 500,
-    name: "Emboar",
+    name: 'Emboar'
   },
   {
     id: 587,
-    name: "Emolga",
+    name: 'Emolga'
   },
   {
     id: 395,
-    name: "Empoleon",
+    name: 'Empoleon'
   },
   {
     id: 905,
-    name: "Enamorus",
+    name: 'Enamorus'
   },
   {
     id: 244,
-    name: "Entei",
+    name: 'Entei'
   },
   {
     id: 589,
-    name: "Escavalier",
+    name: 'Escavalier'
   },
   {
     id: 956,
-    name: "Espathra",
+    name: 'Espathra'
   },
   {
     id: 196,
-    name: "Espeon",
+    name: 'Espeon'
   },
   {
     id: 677,
-    name: "Espurr",
+    name: 'Espurr'
   },
   {
     id: 890,
-    name: "Eternatus",
+    name: 'Eternatus'
   },
   {
     id: 530,
-    name: "Excadrill",
+    name: 'Excadrill'
   },
   {
     id: 102,
-    name: "Exeggcute",
+    name: 'Exeggcute'
   },
   {
     id: 103,
-    name: "Exeggutor",
+    name: 'Exeggutor'
   },
   {
     id: 295,
-    name: "Exploud",
+    name: 'Exploud'
   },
   {
     id: 870,
-    name: "Falinks",
+    name: 'Falinks'
   },
   {
     id: 83,
-    name: "Farfetch’d",
+    name: 'Farfetch’d'
   },
   {
     id: 981,
-    name: "Farigiraf",
+    name: 'Farigiraf'
   },
   {
     id: 22,
-    name: "Fearow",
+    name: 'Fearow'
   },
   {
     id: 349,
-    name: "Feebas",
+    name: 'Feebas'
   },
   {
     id: 653,
-    name: "Fennekin",
+    name: 'Fennekin'
   },
   {
     id: 160,
-    name: "Feraligatr",
+    name: 'Feraligatr'
   },
   {
     id: 597,
-    name: "Ferroseed",
+    name: 'Ferroseed'
   },
   {
     id: 598,
-    name: "Ferrothorn",
+    name: 'Ferrothorn'
   },
   {
     id: 1016,
-    name: "Fezandipiti",
+    name: 'Fezandipiti'
   },
   {
     id: 926,
-    name: "Fidough",
+    name: 'Fidough'
   },
   {
     id: 963,
-    name: "Finizen",
+    name: 'Finizen'
   },
   {
     id: 456,
-    name: "Finneon",
+    name: 'Finneon'
   },
   {
     id: 180,
-    name: "Flaaffy",
+    name: 'Flaaffy'
   },
   {
     id: 669,
-    name: "Flabébé",
+    name: 'Flabébé'
   },
   {
     id: 973,
-    name: "Flamigo",
+    name: 'Flamigo'
   },
   {
     id: 841,
-    name: "Flapple",
+    name: 'Flapple'
   },
   {
     id: 136,
-    name: "Flareon",
+    name: 'Flareon'
   },
   {
     id: 662,
-    name: "Fletchinder",
+    name: 'Fletchinder'
   },
   {
     id: 661,
-    name: "Fletchling",
+    name: 'Fletchling'
   },
   {
     id: 955,
-    name: "Flittle",
+    name: 'Flittle'
   },
   {
     id: 419,
-    name: "Floatzel",
+    name: 'Floatzel'
   },
   {
     id: 670,
-    name: "Floette",
+    name: 'Floette'
   },
   {
     id: 907,
-    name: "Floragato",
+    name: 'Floragato'
   },
   {
     id: 671,
-    name: "Florges",
+    name: 'Florges'
   },
   {
     id: 987,
-    name: "Flutter Mane",
+    name: 'Flutter Mane'
   },
   {
     id: 330,
-    name: "Flygon",
+    name: 'Flygon'
   },
   {
     id: 753,
-    name: "Fomantis",
+    name: 'Fomantis'
   },
   {
     id: 590,
-    name: "Foongus",
+    name: 'Foongus'
   },
   {
     id: 205,
-    name: "Forretress",
+    name: 'Forretress'
   },
   {
     id: 611,
-    name: "Fraxure",
+    name: 'Fraxure'
   },
   {
     id: 996,
-    name: "Frigibax",
+    name: 'Frigibax'
   },
   {
     id: 592,
-    name: "Frillish",
+    name: 'Frillish'
   },
   {
     id: 656,
-    name: "Froakie",
+    name: 'Froakie'
   },
   {
     id: 657,
-    name: "Frogadier",
+    name: 'Frogadier'
   },
   {
     id: 478,
-    name: "Froslass",
+    name: 'Froslass'
   },
   {
     id: 873,
-    name: "Frosmoth",
+    name: 'Frosmoth'
   },
   {
     id: 909,
-    name: "Fuecoco",
+    name: 'Fuecoco'
   },
   {
     id: 676,
-    name: "Furfrou",
+    name: 'Furfrou'
   },
   {
     id: 162,
-    name: "Furret",
+    name: 'Furret'
   },
   {
     id: 444,
-    name: "Gabite",
+    name: 'Gabite'
   },
   {
     id: 475,
-    name: "Gallade",
+    name: 'Gallade'
   },
   {
     id: 596,
-    name: "Galvantula",
+    name: 'Galvantula'
   },
   {
     id: 569,
-    name: "Garbodor",
+    name: 'Garbodor'
   },
   {
     id: 445,
-    name: "Garchomp",
+    name: 'Garchomp'
   },
   {
     id: 282,
-    name: "Gardevoir",
+    name: 'Gardevoir'
   },
   {
     id: 934,
-    name: "Garganacl",
+    name: 'Garganacl'
   },
   {
     id: 92,
-    name: "Gastly",
+    name: 'Gastly'
   },
   {
     id: 423,
-    name: "Gastrodon",
+    name: 'Gastrodon'
   },
   {
     id: 649,
-    name: "Genesect",
+    name: 'Genesect'
   },
   {
     id: 94,
-    name: "Gengar",
+    name: 'Gengar'
   },
   {
     id: 74,
-    name: "Geodude",
+    name: 'Geodude'
   },
   {
     id: 1000,
-    name: "Gholdengo",
+    name: 'Gholdengo'
   },
   {
     id: 443,
-    name: "Gible",
+    name: 'Gible'
   },
   {
     id: 526,
-    name: "Gigalith",
+    name: 'Gigalith'
   },
   {
     id: 999,
-    name: "Gimmighoul",
+    name: 'Gimmighoul'
   },
   {
     id: 203,
-    name: "Girafarig",
+    name: 'Girafarig'
   },
   {
     id: 487,
-    name: "Giratina",
+    name: 'Giratina'
   },
   {
     id: 471,
-    name: "Glaceon",
+    name: 'Glaceon'
   },
   {
     id: 362,
-    name: "Glalie",
+    name: 'Glalie'
   },
   {
     id: 431,
-    name: "Glameow",
+    name: 'Glameow'
   },
   {
     id: 896,
-    name: "Glastrier",
+    name: 'Glastrier'
   },
   {
     id: 207,
-    name: "Gligar",
+    name: 'Gligar'
   },
   {
     id: 969,
-    name: "Glimmet",
+    name: 'Glimmet'
   },
   {
     id: 970,
-    name: "Glimmora",
+    name: 'Glimmora'
   },
   {
     id: 472,
-    name: "Gliscor",
+    name: 'Gliscor'
   },
   {
     id: 44,
-    name: "Gloom",
+    name: 'Gloom'
   },
   {
     id: 673,
-    name: "Gogoat",
+    name: 'Gogoat'
   },
   {
     id: 42,
-    name: "Golbat",
+    name: 'Golbat'
   },
   {
     id: 118,
-    name: "Goldeen",
+    name: 'Goldeen'
   },
   {
     id: 55,
-    name: "Golduck",
+    name: 'Golduck'
   },
   {
     id: 76,
-    name: "Golem",
+    name: 'Golem'
   },
   {
     id: 622,
-    name: "Golett",
+    name: 'Golett'
   },
   {
     id: 768,
-    name: "Golisopod",
+    name: 'Golisopod'
   },
   {
     id: 623,
-    name: "Golurk",
+    name: 'Golurk'
   },
   {
     id: 706,
-    name: "Goodra",
+    name: 'Goodra'
   },
   {
     id: 704,
-    name: "Goomy",
+    name: 'Goomy'
   },
   {
     id: 368,
-    name: "Gorebyss",
+    name: 'Gorebyss'
   },
   {
     id: 829,
-    name: "Gossifleur",
+    name: 'Gossifleur'
   },
   {
     id: 574,
-    name: "Gothita",
+    name: 'Gothita'
   },
   {
     id: 576,
-    name: "Gothitelle",
+    name: 'Gothitelle'
   },
   {
     id: 575,
-    name: "Gothorita",
+    name: 'Gothorita'
   },
   {
     id: 1020,
-    name: "Gouging Fire",
+    name: 'Gouging Fire'
   },
   {
     id: 711,
-    name: "Gourgeist",
+    name: 'Gourgeist'
   },
   {
     id: 945,
-    name: "Grafaiai",
+    name: 'Grafaiai'
   },
   {
     id: 210,
-    name: "Granbull",
+    name: 'Granbull'
   },
   {
     id: 853,
-    name: "Grapploct",
+    name: 'Grapploct'
   },
   {
     id: 75,
-    name: "Graveler",
+    name: 'Graveler'
   },
   {
     id: 984,
-    name: "Great Tusk",
+    name: 'Great Tusk'
   },
   {
     id: 971,
-    name: "Greavard",
+    name: 'Greavard'
   },
   {
     id: 820,
-    name: "Greedent",
+    name: 'Greedent'
   },
   {
     id: 658,
-    name: "Greninja",
+    name: 'Greninja'
   },
   {
     id: 88,
-    name: "Grimer",
+    name: 'Grimer'
   },
   {
     id: 861,
-    name: "Grimmsnarl",
+    name: 'Grimmsnarl'
   },
   {
     id: 810,
-    name: "Grookey",
+    name: 'Grookey'
   },
   {
     id: 388,
-    name: "Grotle",
+    name: 'Grotle'
   },
   {
     id: 383,
-    name: "Groudon",
+    name: 'Groudon'
   },
   {
     id: 253,
-    name: "Grovyle",
+    name: 'Grovyle'
   },
   {
     id: 58,
-    name: "Growlithe",
+    name: 'Growlithe'
   },
   {
     id: 736,
-    name: "Grubbin",
+    name: 'Grubbin'
   },
   {
     id: 326,
-    name: "Grumpig",
+    name: 'Grumpig'
   },
   {
     id: 316,
-    name: "Gulpin",
+    name: 'Gulpin'
   },
   {
     id: 735,
-    name: "Gumshoos",
+    name: 'Gumshoos'
   },
   {
     id: 533,
-    name: "Gurdurr",
+    name: 'Gurdurr'
   },
   {
     id: 799,
-    name: "Guzzlord",
+    name: 'Guzzlord'
   },
   {
     id: 130,
-    name: "Gyarados",
+    name: 'Gyarados'
   },
   {
     id: 783,
-    name: "Hakamo-o",
+    name: 'Hakamo-o'
   },
   {
     id: 440,
-    name: "Happiny",
+    name: 'Happiny'
   },
   {
     id: 297,
-    name: "Hariyama",
+    name: 'Hariyama'
   },
   {
     id: 856,
-    name: "Hatenna",
+    name: 'Hatenna'
   },
   {
     id: 858,
-    name: "Hatterene",
+    name: 'Hatterene'
   },
   {
     id: 857,
-    name: "Hattrem",
+    name: 'Hattrem'
   },
   {
     id: 93,
-    name: "Haunter",
+    name: 'Haunter'
   },
   {
     id: 701,
-    name: "Hawlucha",
+    name: 'Hawlucha'
   },
   {
     id: 612,
-    name: "Haxorus",
+    name: 'Haxorus'
   },
   {
     id: 631,
-    name: "Heatmor",
+    name: 'Heatmor'
   },
   {
     id: 485,
-    name: "Heatran",
+    name: 'Heatran'
   },
   {
     id: 695,
-    name: "Heliolisk",
+    name: 'Heliolisk'
   },
   {
     id: 694,
-    name: "Helioptile",
+    name: 'Helioptile'
   },
   {
     id: 214,
-    name: "Heracross",
+    name: 'Heracross'
   },
   {
     id: 507,
-    name: "Herdier",
+    name: 'Herdier'
   },
   {
     id: 449,
-    name: "Hippopotas",
+    name: 'Hippopotas'
   },
   {
     id: 450,
-    name: "Hippowdon",
+    name: 'Hippowdon'
   },
   {
     id: 107,
-    name: "Hitmonchan",
+    name: 'Hitmonchan'
   },
   {
     id: 106,
-    name: "Hitmonlee",
+    name: 'Hitmonlee'
   },
   {
     id: 237,
-    name: "Hitmontop",
+    name: 'Hitmontop'
   },
   {
     id: 250,
-    name: "Ho-Oh",
+    name: 'Ho-Oh'
   },
   {
     id: 430,
-    name: "Honchkrow",
+    name: 'Honchkrow'
   },
   {
     id: 679,
-    name: "Honedge",
+    name: 'Honedge'
   },
   {
     id: 720,
-    name: "Hoopa",
+    name: 'Hoopa'
   },
   {
     id: 163,
-    name: "Hoothoot",
+    name: 'Hoothoot'
   },
   {
     id: 187,
-    name: "Hoppip",
+    name: 'Hoppip'
   },
   {
     id: 116,
-    name: "Horsea",
+    name: 'Horsea'
   },
   {
     id: 229,
-    name: "Houndoom",
+    name: 'Houndoom'
   },
   {
     id: 228,
-    name: "Houndour",
+    name: 'Houndour'
   },
   {
     id: 972,
-    name: "Houndstone",
+    name: 'Houndstone'
   },
   {
     id: 367,
-    name: "Huntail",
+    name: 'Huntail'
   },
   {
     id: 1019,
-    name: "Hydrapple",
+    name: 'Hydrapple'
   },
   {
     id: 635,
-    name: "Hydreigon",
+    name: 'Hydreigon'
   },
   {
     id: 97,
-    name: "Hypno",
+    name: 'Hypno'
   },
   {
     id: 174,
-    name: "Igglybuff",
+    name: 'Igglybuff'
   },
   {
     id: 314,
-    name: "Illumise",
+    name: 'Illumise'
   },
   {
     id: 859,
-    name: "Impidimp",
+    name: 'Impidimp'
   },
   {
     id: 727,
-    name: "Incineroar",
+    name: 'Incineroar'
   },
   {
     id: 876,
-    name: "Indeedee",
+    name: 'Indeedee'
   },
   {
     id: 392,
-    name: "Infernape",
+    name: 'Infernape'
   },
   {
     id: 686,
-    name: "Inkay",
+    name: 'Inkay'
   },
   {
     id: 818,
-    name: "Inteleon",
+    name: 'Inteleon'
   },
   {
     id: 1022,
-    name: "Iron Boulder",
+    name: 'Iron Boulder'
   },
   {
     id: 991,
-    name: "Iron Bundle",
+    name: 'Iron Bundle'
   },
   {
     id: 1023,
-    name: "Iron Crown",
+    name: 'Iron Crown'
   },
   {
     id: 992,
-    name: "Iron Hands",
+    name: 'Iron Hands'
   },
   {
     id: 993,
-    name: "Iron Jugulis",
+    name: 'Iron Jugulis'
   },
   {
     id: 1010,
-    name: "Iron Leaves",
+    name: 'Iron Leaves'
   },
   {
     id: 994,
-    name: "Iron Moth",
+    name: 'Iron Moth'
   },
   {
     id: 995,
-    name: "Iron Thorns",
+    name: 'Iron Thorns'
   },
   {
     id: 990,
-    name: "Iron Treads",
+    name: 'Iron Treads'
   },
   {
     id: 1006,
-    name: "Iron Valiant",
+    name: 'Iron Valiant'
   },
   {
     id: 2,
-    name: "Ivysaur",
+    name: 'Ivysaur'
   },
   {
     id: 782,
-    name: "Jangmo-o",
+    name: 'Jangmo-o'
   },
   {
     id: 593,
-    name: "Jellicent",
+    name: 'Jellicent'
   },
   {
     id: 39,
-    name: "Jigglypuff",
+    name: 'Jigglypuff'
   },
   {
     id: 385,
-    name: "Jirachi",
+    name: 'Jirachi'
   },
   {
     id: 135,
-    name: "Jolteon",
+    name: 'Jolteon'
   },
   {
     id: 595,
-    name: "Joltik",
+    name: 'Joltik'
   },
   {
     id: 189,
-    name: "Jumpluff",
+    name: 'Jumpluff'
   },
   {
     id: 124,
-    name: "Jynx",
+    name: 'Jynx'
   },
   {
     id: 140,
-    name: "Kabuto",
+    name: 'Kabuto'
   },
   {
     id: 141,
-    name: "Kabutops",
+    name: 'Kabutops'
   },
   {
     id: 64,
-    name: "Kadabra",
+    name: 'Kadabra'
   },
   {
     id: 14,
-    name: "Kakuna",
+    name: 'Kakuna'
   },
   {
     id: 115,
-    name: "Kangaskhan",
+    name: 'Kangaskhan'
   },
   {
     id: 588,
-    name: "Karrablast",
+    name: 'Karrablast'
   },
   {
     id: 798,
-    name: "Kartana",
+    name: 'Kartana'
   },
   {
     id: 352,
-    name: "Kecleon",
+    name: 'Kecleon'
   },
   {
     id: 647,
-    name: "Keldeo",
+    name: 'Keldeo'
   },
   {
     id: 941,
-    name: "Kilowattrel",
+    name: 'Kilowattrel'
   },
   {
     id: 983,
-    name: "Kingambit",
+    name: 'Kingambit'
   },
   {
     id: 230,
-    name: "Kingdra",
+    name: 'Kingdra'
   },
   {
     id: 99,
-    name: "Kingler",
+    name: 'Kingler'
   },
   {
     id: 281,
-    name: "Kirlia",
+    name: 'Kirlia'
   },
   {
     id: 600,
-    name: "Klang",
+    name: 'Klang'
   },
   {
     id: 950,
-    name: "Klawf",
+    name: 'Klawf'
   },
   {
     id: 900,
-    name: "Kleavor",
+    name: 'Kleavor'
   },
   {
     id: 707,
-    name: "Klefki",
+    name: 'Klefki'
   },
   {
     id: 599,
-    name: "Klink",
+    name: 'Klink'
   },
   {
     id: 601,
-    name: "Klinklang",
+    name: 'Klinklang'
   },
   {
     id: 109,
-    name: "Koffing",
+    name: 'Koffing'
   },
   {
     id: 775,
-    name: "Komala",
+    name: 'Komala'
   },
   {
     id: 784,
-    name: "Kommo-o",
+    name: 'Kommo-o'
   },
   {
     id: 1007,
-    name: "Koraidon",
+    name: 'Koraidon'
   },
   {
     id: 98,
-    name: "Krabby",
+    name: 'Krabby'
   },
   {
     id: 401,
-    name: "Kricketot",
+    name: 'Kricketot'
   },
   {
     id: 402,
-    name: "Kricketune",
+    name: 'Kricketune'
   },
   {
     id: 552,
-    name: "Krokorok",
+    name: 'Krokorok'
   },
   {
     id: 553,
-    name: "Krookodile",
+    name: 'Krookodile'
   },
   {
     id: 891,
-    name: "Kubfu",
+    name: 'Kubfu'
   },
   {
     id: 382,
-    name: "Kyogre",
+    name: 'Kyogre'
   },
   {
     id: 646,
-    name: "Kyurem",
+    name: 'Kyurem'
   },
   {
     id: 305,
-    name: "Lairon",
+    name: 'Lairon'
   },
   {
     id: 608,
-    name: "Lampent",
+    name: 'Lampent'
   },
   {
     id: 645,
-    name: "Landorus",
+    name: 'Landorus'
   },
   {
     id: 171,
-    name: "Lanturn",
+    name: 'Lanturn'
   },
   {
     id: 131,
-    name: "Lapras",
+    name: 'Lapras'
   },
   {
     id: 636,
-    name: "Larvesta",
+    name: 'Larvesta'
   },
   {
     id: 246,
-    name: "Larvitar",
+    name: 'Larvitar'
   },
   {
     id: 380,
-    name: "Latias",
+    name: 'Latias'
   },
   {
     id: 381,
-    name: "Latios",
+    name: 'Latios'
   },
   {
     id: 470,
-    name: "Leafeon",
+    name: 'Leafeon'
   },
   {
     id: 542,
-    name: "Leavanny",
+    name: 'Leavanny'
   },
   {
     id: 915,
-    name: "Lechonk",
+    name: 'Lechonk'
   },
   {
     id: 166,
-    name: "Ledian",
+    name: 'Ledian'
   },
   {
     id: 165,
-    name: "Ledyba",
+    name: 'Ledyba'
   },
   {
     id: 463,
-    name: "Lickilicky",
+    name: 'Lickilicky'
   },
   {
     id: 108,
-    name: "Lickitung",
+    name: 'Lickitung'
   },
   {
     id: 510,
-    name: "Liepard",
+    name: 'Liepard'
   },
   {
     id: 345,
-    name: "Lileep",
+    name: 'Lileep'
   },
   {
     id: 549,
-    name: "Lilligant",
+    name: 'Lilligant'
   },
   {
     id: 506,
-    name: "Lillipup",
+    name: 'Lillipup'
   },
   {
     id: 264,
-    name: "Linoone",
+    name: 'Linoone'
   },
   {
     id: 667,
-    name: "Litleo",
+    name: 'Litleo'
   },
   {
     id: 725,
-    name: "Litten",
+    name: 'Litten'
   },
   {
     id: 607,
-    name: "Litwick",
+    name: 'Litwick'
   },
   {
     id: 920,
-    name: "Lokix",
+    name: 'Lokix'
   },
   {
     id: 271,
-    name: "Lombre",
+    name: 'Lombre'
   },
   {
     id: 428,
-    name: "Lopunny",
+    name: 'Lopunny'
   },
   {
     id: 270,
-    name: "Lotad",
+    name: 'Lotad'
   },
   {
     id: 294,
-    name: "Loudred",
+    name: 'Loudred'
   },
   {
     id: 448,
-    name: "Lucario",
+    name: 'Lucario'
   },
   {
     id: 272,
-    name: "Ludicolo",
+    name: 'Ludicolo'
   },
   {
     id: 249,
-    name: "Lugia",
+    name: 'Lugia'
   },
   {
     id: 457,
-    name: "Lumineon",
+    name: 'Lumineon'
   },
   {
     id: 792,
-    name: "Lunala",
+    name: 'Lunala'
   },
   {
     id: 337,
-    name: "Lunatone",
+    name: 'Lunatone'
   },
   {
     id: 754,
-    name: "Lurantis",
+    name: 'Lurantis'
   },
   {
     id: 370,
-    name: "Luvdisc",
+    name: 'Luvdisc'
   },
   {
     id: 404,
-    name: "Luxio",
+    name: 'Luxio'
   },
   {
     id: 405,
-    name: "Luxray",
+    name: 'Luxray'
   },
   {
     id: 745,
-    name: "Lycanroc",
+    name: 'Lycanroc'
   },
   {
     id: 943,
-    name: "Mabosstiff",
+    name: 'Mabosstiff'
   },
   {
     id: 68,
-    name: "Machamp",
+    name: 'Machamp'
   },
   {
     id: 67,
-    name: "Machoke",
+    name: 'Machoke'
   },
   {
     id: 66,
-    name: "Machop",
+    name: 'Machop'
   },
   {
     id: 240,
-    name: "Magby",
+    name: 'Magby'
   },
   {
     id: 219,
-    name: "Magcargo",
+    name: 'Magcargo'
   },
   {
     id: 801,
-    name: "Magearna",
+    name: 'Magearna'
   },
   {
     id: 129,
-    name: "Magikarp",
+    name: 'Magikarp'
   },
   {
     id: 126,
-    name: "Magmar",
+    name: 'Magmar'
   },
   {
     id: 467,
-    name: "Magmortar",
+    name: 'Magmortar'
   },
   {
     id: 81,
-    name: "Magnemite",
+    name: 'Magnemite'
   },
   {
     id: 82,
-    name: "Magneton",
+    name: 'Magneton'
   },
   {
     id: 462,
-    name: "Magnezone",
+    name: 'Magnezone'
   },
   {
     id: 296,
-    name: "Makuhita",
+    name: 'Makuhita'
   },
   {
     id: 687,
-    name: "Malamar",
+    name: 'Malamar'
   },
   {
     id: 473,
-    name: "Mamoswine",
+    name: 'Mamoswine'
   },
   {
     id: 490,
-    name: "Manaphy",
+    name: 'Manaphy'
   },
   {
     id: 630,
-    name: "Mandibuzz",
+    name: 'Mandibuzz'
   },
   {
     id: 310,
-    name: "Manectric",
+    name: 'Manectric'
   },
   {
     id: 56,
-    name: "Mankey",
+    name: 'Mankey'
   },
   {
     id: 226,
-    name: "Mantine",
+    name: 'Mantine'
   },
   {
     id: 458,
-    name: "Mantyke",
+    name: 'Mantyke'
   },
   {
     id: 556,
-    name: "Maractus",
+    name: 'Maractus'
   },
   {
     id: 747,
-    name: "Mareanie",
+    name: 'Mareanie'
   },
   {
     id: 179,
-    name: "Mareep",
+    name: 'Mareep'
   },
   {
     id: 183,
-    name: "Marill",
+    name: 'Marill'
   },
   {
     id: 105,
-    name: "Marowak",
+    name: 'Marowak'
   },
   {
     id: 802,
-    name: "Marshadow",
+    name: 'Marshadow'
   },
   {
     id: 259,
-    name: "Marshtomp",
+    name: 'Marshtomp'
   },
   {
     id: 942,
-    name: "Maschiff",
+    name: 'Maschiff'
   },
   {
     id: 284,
-    name: "Masquerain",
+    name: 'Masquerain'
   },
   {
     id: 925,
-    name: "Maushold",
+    name: 'Maushold'
   },
   {
     id: 303,
-    name: "Mawile",
+    name: 'Mawile'
   },
   {
     id: 308,
-    name: "Medicham",
+    name: 'Medicham'
   },
   {
     id: 307,
-    name: "Meditite",
+    name: 'Meditite'
   },
   {
     id: 154,
-    name: "Meganium",
+    name: 'Meganium'
   },
   {
     id: 809,
-    name: "Melmetal",
+    name: 'Melmetal'
   },
   {
     id: 648,
-    name: "Meloetta",
+    name: 'Meloetta'
   },
   {
     id: 808,
-    name: "Meltan",
+    name: 'Meltan'
   },
   {
     id: 908,
-    name: "Meowscarada",
+    name: 'Meowscarada'
   },
   {
     id: 678,
-    name: "Meowstic",
+    name: 'Meowstic'
   },
   {
     id: 52,
-    name: "Meowth",
+    name: 'Meowth'
   },
   {
     id: 481,
-    name: "Mesprit",
+    name: 'Mesprit'
   },
   {
     id: 376,
-    name: "Metagross",
+    name: 'Metagross'
   },
   {
     id: 375,
-    name: "Metang",
+    name: 'Metang'
   },
   {
     id: 11,
-    name: "Metapod",
+    name: 'Metapod'
   },
   {
     id: 151,
-    name: "Mew",
+    name: 'Mew'
   },
   {
     id: 150,
-    name: "Mewtwo",
+    name: 'Mewtwo'
   },
   {
     id: 619,
-    name: "Mienfoo",
+    name: 'Mienfoo'
   },
   {
     id: 620,
-    name: "Mienshao",
+    name: 'Mienshao'
   },
   {
     id: 262,
-    name: "Mightyena",
+    name: 'Mightyena'
   },
   {
     id: 868,
-    name: "Milcery",
+    name: 'Milcery'
   },
   {
     id: 350,
-    name: "Milotic",
+    name: 'Milotic'
   },
   {
     id: 241,
-    name: "Miltank",
+    name: 'Miltank'
   },
   {
     id: 439,
-    name: "Mime Jr.",
+    name: 'Mime Jr.'
   },
   {
     id: 778,
-    name: "Mimikyu",
+    name: 'Mimikyu'
   },
   {
     id: 572,
-    name: "Minccino",
+    name: 'Minccino'
   },
   {
     id: 774,
-    name: "Minior",
+    name: 'Minior'
   },
   {
     id: 312,
-    name: "Minun",
+    name: 'Minun'
   },
   {
     id: 1008,
-    name: "Miraidon",
+    name: 'Miraidon'
   },
   {
     id: 200,
-    name: "Misdreavus",
+    name: 'Misdreavus'
   },
   {
     id: 429,
-    name: "Mismagius",
+    name: 'Mismagius'
   },
   {
     id: 146,
-    name: "Moltres",
+    name: 'Moltres'
   },
   {
     id: 391,
-    name: "Monferno",
+    name: 'Monferno'
   },
   {
     id: 755,
-    name: "Morelull",
+    name: 'Morelull'
   },
   {
     id: 860,
-    name: "Morgrem",
+    name: 'Morgrem'
   },
   {
     id: 877,
-    name: "Morpeko",
+    name: 'Morpeko'
   },
   {
     id: 414,
-    name: "Mothim",
+    name: 'Mothim'
   },
   {
     id: 122,
-    name: "Mr. Mime",
+    name: 'Mr. Mime'
   },
   {
     id: 866,
-    name: "Mr. Rime",
+    name: 'Mr. Rime'
   },
   {
     id: 749,
-    name: "Mudbray",
+    name: 'Mudbray'
   },
   {
     id: 258,
-    name: "Mudkip",
+    name: 'Mudkip'
   },
   {
     id: 750,
-    name: "Mudsdale",
+    name: 'Mudsdale'
   },
   {
     id: 89,
-    name: "Muk",
+    name: 'Muk'
   },
   {
     id: 446,
-    name: "Munchlax",
+    name: 'Munchlax'
   },
   {
     id: 1015,
-    name: "Munkidori",
+    name: 'Munkidori'
   },
   {
     id: 517,
-    name: "Munna",
+    name: 'Munna'
   },
   {
     id: 198,
-    name: "Murkrow",
+    name: 'Murkrow'
   },
   {
     id: 518,
-    name: "Musharna",
+    name: 'Musharna'
   },
   {
     id: 932,
-    name: "Nacli",
+    name: 'Nacli'
   },
   {
     id: 933,
-    name: "Naclstack",
+    name: 'Naclstack'
   },
   {
     id: 804,
-    name: "Naganadel",
+    name: 'Naganadel'
   },
   {
     id: 177,
-    name: "Natu",
+    name: 'Natu'
   },
   {
     id: 800,
-    name: "Necrozma",
+    name: 'Necrozma'
   },
   {
     id: 827,
-    name: "Nickit",
+    name: 'Nickit'
   },
   {
     id: 34,
-    name: "Nidoking",
+    name: 'Nidoking'
   },
   {
     id: 31,
-    name: "Nidoqueen",
+    name: 'Nidoqueen'
   },
   {
     id: 29,
-    name: "Nidoran♀",
+    name: 'Nidoran♀'
   },
   {
     id: 32,
-    name: "Nidoran♂",
+    name: 'Nidoran♂'
   },
   {
     id: 30,
-    name: "Nidorina",
+    name: 'Nidorina'
   },
   {
     id: 33,
-    name: "Nidorino",
+    name: 'Nidorino'
   },
   {
     id: 793,
-    name: "Nihilego",
+    name: 'Nihilego'
   },
   {
     id: 290,
-    name: "Nincada",
+    name: 'Nincada'
   },
   {
     id: 38,
-    name: "Ninetales",
+    name: 'Ninetales'
   },
   {
     id: 291,
-    name: "Ninjask",
+    name: 'Ninjask'
   },
   {
     id: 164,
-    name: "Noctowl",
+    name: 'Noctowl'
   },
   {
     id: 714,
-    name: "Noibat",
+    name: 'Noibat'
   },
   {
     id: 715,
-    name: "Noivern",
+    name: 'Noivern'
   },
   {
     id: 299,
-    name: "Nosepass",
+    name: 'Nosepass'
   },
   {
     id: 322,
-    name: "Numel",
+    name: 'Numel'
   },
   {
     id: 274,
-    name: "Nuzleaf",
+    name: 'Nuzleaf'
   },
   {
     id: 919,
-    name: "Nymble",
+    name: 'Nymble'
   },
   {
     id: 862,
-    name: "Obstagoon",
+    name: 'Obstagoon'
   },
   {
     id: 224,
-    name: "Octillery",
+    name: 'Octillery'
   },
   {
     id: 43,
-    name: "Oddish",
+    name: 'Oddish'
   },
   {
     id: 1017,
-    name: "Ogerpon",
+    name: 'Ogerpon'
   },
   {
     id: 916,
-    name: "Oinkologne",
+    name: 'Oinkologne'
   },
   {
     id: 1014,
-    name: "Okidogi",
+    name: 'Okidogi'
   },
   {
     id: 138,
-    name: "Omanyte",
+    name: 'Omanyte'
   },
   {
     id: 139,
-    name: "Omastar",
+    name: 'Omastar'
   },
   {
     id: 95,
-    name: "Onix",
+    name: 'Onix'
   },
   {
     id: 765,
-    name: "Oranguru",
+    name: 'Oranguru'
   },
   {
     id: 826,
-    name: "Orbeetle",
+    name: 'Orbeetle'
   },
   {
     id: 741,
-    name: "Oricorio",
+    name: 'Oricorio'
   },
   {
     id: 968,
-    name: "Orthworm",
+    name: 'Orthworm'
   },
   {
     id: 501,
-    name: "Oshawott",
+    name: 'Oshawott'
   },
   {
     id: 904,
-    name: "Overqwil",
+    name: 'Overqwil'
   },
   {
     id: 417,
-    name: "Pachirisu",
+    name: 'Pachirisu'
   },
   {
     id: 964,
-    name: "Palafin",
+    name: 'Palafin'
   },
   {
     id: 484,
-    name: "Palkia",
+    name: 'Palkia'
   },
   {
     id: 770,
-    name: "Palossand",
+    name: 'Palossand'
   },
   {
     id: 536,
-    name: "Palpitoad",
+    name: 'Palpitoad'
   },
   {
     id: 674,
-    name: "Pancham",
+    name: 'Pancham'
   },
   {
     id: 675,
-    name: "Pangoro",
+    name: 'Pangoro'
   },
   {
     id: 515,
-    name: "Panpour",
+    name: 'Panpour'
   },
   {
     id: 511,
-    name: "Pansage",
+    name: 'Pansage'
   },
   {
     id: 513,
-    name: "Pansear",
+    name: 'Pansear'
   },
   {
     id: 46,
-    name: "Paras",
+    name: 'Paras'
   },
   {
     id: 47,
-    name: "Parasect",
+    name: 'Parasect'
   },
   {
     id: 766,
-    name: "Passimian",
+    name: 'Passimian'
   },
   {
     id: 504,
-    name: "Patrat",
+    name: 'Patrat'
   },
   {
     id: 921,
-    name: "Pawmi",
+    name: 'Pawmi'
   },
   {
     id: 922,
-    name: "Pawmo",
+    name: 'Pawmo'
   },
   {
     id: 923,
-    name: "Pawmot",
+    name: 'Pawmot'
   },
   {
     id: 624,
-    name: "Pawniard",
+    name: 'Pawniard'
   },
   {
     id: 1025,
-    name: "Pecharunt",
+    name: 'Pecharunt'
   },
   {
     id: 279,
-    name: "Pelipper",
+    name: 'Pelipper'
   },
   {
     id: 863,
-    name: "Perrserker",
+    name: 'Perrserker'
   },
   {
     id: 53,
-    name: "Persian",
+    name: 'Persian'
   },
   {
     id: 548,
-    name: "Petilil",
+    name: 'Petilil'
   },
   {
     id: 231,
-    name: "Phanpy",
+    name: 'Phanpy'
   },
   {
     id: 708,
-    name: "Phantump",
+    name: 'Phantump'
   },
   {
     id: 795,
-    name: "Pheromosa",
+    name: 'Pheromosa'
   },
   {
     id: 489,
-    name: "Phione",
+    name: 'Phione'
   },
   {
     id: 172,
-    name: "Pichu",
+    name: 'Pichu'
   },
   {
     id: 18,
-    name: "Pidgeot",
+    name: 'Pidgeot'
   },
   {
     id: 17,
-    name: "Pidgeotto",
+    name: 'Pidgeotto'
   },
   {
     id: 16,
-    name: "Pidgey",
+    name: 'Pidgey'
   },
   {
     id: 519,
-    name: "Pidove",
+    name: 'Pidove'
   },
   {
     id: 499,
-    name: "Pignite",
+    name: 'Pignite'
   },
   {
     id: 25,
-    name: "Pikachu",
+    name: 'Pikachu'
   },
   {
     id: 731,
-    name: "Pikipek",
+    name: 'Pikipek'
   },
   {
     id: 221,
-    name: "Piloswine",
+    name: 'Piloswine'
   },
   {
     id: 871,
-    name: "Pincurchin",
+    name: 'Pincurchin'
   },
   {
     id: 204,
-    name: "Pineco",
+    name: 'Pineco'
   },
   {
     id: 127,
-    name: "Pinsir",
+    name: 'Pinsir'
   },
   {
     id: 393,
-    name: "Piplup",
+    name: 'Piplup'
   },
   {
     id: 311,
-    name: "Plusle",
+    name: 'Plusle'
   },
   {
     id: 803,
-    name: "Poipole",
+    name: 'Poipole'
   },
   {
     id: 186,
-    name: "Politoed",
+    name: 'Politoed'
   },
   {
     id: 60,
-    name: "Poliwag",
+    name: 'Poliwag'
   },
   {
     id: 61,
-    name: "Poliwhirl",
+    name: 'Poliwhirl'
   },
   {
     id: 62,
-    name: "Poliwrath",
+    name: 'Poliwrath'
   },
   {
     id: 1012,
-    name: "Poltchageist",
+    name: 'Poltchageist'
   },
   {
     id: 855,
-    name: "Polteageist",
+    name: 'Polteageist'
   },
   {
     id: 77,
-    name: "Ponyta",
+    name: 'Ponyta'
   },
   {
     id: 261,
-    name: "Poochyena",
+    name: 'Poochyena'
   },
   {
     id: 728,
-    name: "Popplio",
+    name: 'Popplio'
   },
   {
     id: 137,
-    name: "Porygon",
+    name: 'Porygon'
   },
   {
     id: 474,
-    name: "Porygon-Z",
+    name: 'Porygon-Z'
   },
   {
     id: 233,
-    name: "Porygon2",
+    name: 'Porygon2'
   },
   {
     id: 730,
-    name: "Primarina",
+    name: 'Primarina'
   },
   {
     id: 57,
-    name: "Primeape",
+    name: 'Primeape'
   },
   {
     id: 394,
-    name: "Prinplup",
+    name: 'Prinplup'
   },
   {
     id: 476,
-    name: "Probopass",
+    name: 'Probopass'
   },
   {
     id: 54,
-    name: "Psyduck",
+    name: 'Psyduck'
   },
   {
     id: 710,
-    name: "Pumpkaboo",
+    name: 'Pumpkaboo'
   },
   {
     id: 247,
-    name: "Pupitar",
+    name: 'Pupitar'
   },
   {
     id: 509,
-    name: "Purrloin",
+    name: 'Purrloin'
   },
   {
     id: 432,
-    name: "Purugly",
+    name: 'Purugly'
   },
   {
     id: 668,
-    name: "Pyroar",
+    name: 'Pyroar'
   },
   {
     id: 771,
-    name: "Pyukumuku",
+    name: 'Pyukumuku'
   },
   {
     id: 195,
-    name: "Quagsire",
+    name: 'Quagsire'
   },
   {
     id: 914,
-    name: "Quaquaval",
+    name: 'Quaquaval'
   },
   {
     id: 912,
-    name: "Quaxly",
+    name: 'Quaxly'
   },
   {
     id: 913,
-    name: "Quaxwell",
+    name: 'Quaxwell'
   },
   {
     id: 156,
-    name: "Quilava",
+    name: 'Quilava'
   },
   {
     id: 651,
-    name: "Quilladin",
+    name: 'Quilladin'
   },
   {
     id: 211,
-    name: "Qwilfish",
+    name: 'Qwilfish'
   },
   {
     id: 814,
-    name: "Raboot",
+    name: 'Raboot'
   },
   {
     id: 954,
-    name: "Rabsca",
+    name: 'Rabsca'
   },
   {
     id: 1021,
-    name: "Raging Bolt",
+    name: 'Raging Bolt'
   },
   {
     id: 26,
-    name: "Raichu",
+    name: 'Raichu'
   },
   {
     id: 243,
-    name: "Raikou",
+    name: 'Raikou'
   },
   {
     id: 280,
-    name: "Ralts",
+    name: 'Ralts'
   },
   {
     id: 409,
-    name: "Rampardos",
+    name: 'Rampardos'
   },
   {
     id: 78,
-    name: "Rapidash",
+    name: 'Rapidash'
   },
   {
     id: 20,
-    name: "Raticate",
+    name: 'Raticate'
   },
   {
     id: 19,
-    name: "Rattata",
+    name: 'Rattata'
   },
   {
     id: 384,
-    name: "Rayquaza",
+    name: 'Rayquaza'
   },
   {
     id: 378,
-    name: "Regice",
+    name: 'Regice'
   },
   {
     id: 895,
-    name: "Regidrago",
+    name: 'Regidrago'
   },
   {
     id: 894,
-    name: "Regieleki",
+    name: 'Regieleki'
   },
   {
     id: 486,
-    name: "Regigigas",
+    name: 'Regigigas'
   },
   {
     id: 377,
-    name: "Regirock",
+    name: 'Regirock'
   },
   {
     id: 379,
-    name: "Registeel",
+    name: 'Registeel'
   },
   {
     id: 369,
-    name: "Relicanth",
+    name: 'Relicanth'
   },
   {
     id: 953,
-    name: "Rellor",
+    name: 'Rellor'
   },
   {
     id: 223,
-    name: "Remoraid",
+    name: 'Remoraid'
   },
   {
     id: 643,
-    name: "Reshiram",
+    name: 'Reshiram'
   },
   {
     id: 579,
-    name: "Reuniclus",
+    name: 'Reuniclus'
   },
   {
     id: 966,
-    name: "Revavroom",
+    name: 'Revavroom'
   },
   {
     id: 112,
-    name: "Rhydon",
+    name: 'Rhydon'
   },
   {
     id: 111,
-    name: "Rhyhorn",
+    name: 'Rhyhorn'
   },
   {
     id: 464,
-    name: "Rhyperior",
+    name: 'Rhyperior'
   },
   {
     id: 743,
-    name: "Ribombee",
+    name: 'Ribombee'
   },
   {
     id: 812,
-    name: "Rillaboom",
+    name: 'Rillaboom'
   },
   {
     id: 447,
-    name: "Riolu",
+    name: 'Riolu'
   },
   {
     id: 1005,
-    name: "Roaring Moon",
+    name: 'Roaring Moon'
   },
   {
     id: 744,
-    name: "Rockruff",
+    name: 'Rockruff'
   },
   {
     id: 524,
-    name: "Roggenrola",
+    name: 'Roggenrola'
   },
   {
     id: 837,
-    name: "Rolycoly",
+    name: 'Rolycoly'
   },
   {
     id: 821,
-    name: "Rookidee",
+    name: 'Rookidee'
   },
   {
     id: 315,
-    name: "Roselia",
+    name: 'Roselia'
   },
   {
     id: 407,
-    name: "Roserade",
+    name: 'Roserade'
   },
   {
     id: 479,
-    name: "Rotom",
+    name: 'Rotom'
   },
   {
     id: 722,
-    name: "Rowlet",
+    name: 'Rowlet'
   },
   {
     id: 627,
-    name: "Rufflet",
+    name: 'Rufflet'
   },
   {
     id: 867,
-    name: "Runerigus",
+    name: 'Runerigus'
   },
   {
     id: 302,
-    name: "Sableye",
+    name: 'Sableye'
   },
   {
     id: 373,
-    name: "Salamence",
+    name: 'Salamence'
   },
   {
     id: 757,
-    name: "Salandit",
+    name: 'Salandit'
   },
   {
     id: 758,
-    name: "Salazzle",
+    name: 'Salazzle'
   },
   {
     id: 503,
-    name: "Samurott",
+    name: 'Samurott'
   },
   {
     id: 844,
-    name: "Sandaconda",
+    name: 'Sandaconda'
   },
   {
     id: 551,
-    name: "Sandile",
+    name: 'Sandile'
   },
   {
     id: 27,
-    name: "Sandshrew",
+    name: 'Sandshrew'
   },
   {
     id: 28,
-    name: "Sandslash",
+    name: 'Sandslash'
   },
   {
     id: 989,
-    name: "Sandy Shocks",
+    name: 'Sandy Shocks'
   },
   {
     id: 769,
-    name: "Sandygast",
+    name: 'Sandygast'
   },
   {
     id: 539,
-    name: "Sawk",
+    name: 'Sawk'
   },
   {
     id: 586,
-    name: "Sawsbuck",
+    name: 'Sawsbuck'
   },
   {
     id: 664,
-    name: "Scatterbug",
+    name: 'Scatterbug'
   },
   {
     id: 254,
-    name: "Sceptile",
+    name: 'Sceptile'
   },
   {
     id: 212,
-    name: "Scizor",
+    name: 'Scizor'
   },
   {
     id: 545,
-    name: "Scolipede",
+    name: 'Scolipede'
   },
   {
     id: 813,
-    name: "Scorbunny",
+    name: 'Scorbunny'
   },
   {
     id: 952,
-    name: "Scovillain",
+    name: 'Scovillain'
   },
   {
     id: 560,
-    name: "Scrafty",
+    name: 'Scrafty'
   },
   {
     id: 559,
-    name: "Scraggy",
+    name: 'Scraggy'
   },
   {
     id: 985,
-    name: "Scream Tail",
+    name: 'Scream Tail'
   },
   {
     id: 123,
-    name: "Scyther",
+    name: 'Scyther'
   },
   {
     id: 117,
-    name: "Seadra",
+    name: 'Seadra'
   },
   {
     id: 119,
-    name: "Seaking",
+    name: 'Seaking'
   },
   {
     id: 364,
-    name: "Sealeo",
+    name: 'Sealeo'
   },
   {
     id: 273,
-    name: "Seedot",
+    name: 'Seedot'
   },
   {
     id: 86,
-    name: "Seel",
+    name: 'Seel'
   },
   {
     id: 537,
-    name: "Seismitoad",
+    name: 'Seismitoad'
   },
   {
     id: 161,
-    name: "Sentret",
+    name: 'Sentret'
   },
   {
     id: 497,
-    name: "Serperior",
+    name: 'Serperior'
   },
   {
     id: 496,
-    name: "Servine",
+    name: 'Servine'
   },
   {
     id: 336,
-    name: "Seviper",
+    name: 'Seviper'
   },
   {
     id: 540,
-    name: "Sewaddle",
+    name: 'Sewaddle'
   },
   {
     id: 319,
-    name: "Sharpedo",
+    name: 'Sharpedo'
   },
   {
     id: 492,
-    name: "Shaymin",
+    name: 'Shaymin'
   },
   {
     id: 292,
-    name: "Shedinja",
+    name: 'Shedinja'
   },
   {
     id: 372,
-    name: "Shelgon",
+    name: 'Shelgon'
   },
   {
     id: 90,
-    name: "Shellder",
+    name: 'Shellder'
   },
   {
     id: 422,
-    name: "Shellos",
+    name: 'Shellos'
   },
   {
     id: 616,
-    name: "Shelmet",
+    name: 'Shelmet'
   },
   {
     id: 410,
-    name: "Shieldon",
+    name: 'Shieldon'
   },
   {
     id: 275,
-    name: "Shiftry",
+    name: 'Shiftry'
   },
   {
     id: 756,
-    name: "Shiinotic",
+    name: 'Shiinotic'
   },
   {
     id: 403,
-    name: "Shinx",
+    name: 'Shinx'
   },
   {
     id: 944,
-    name: "Shroodle",
+    name: 'Shroodle'
   },
   {
     id: 285,
-    name: "Shroomish",
+    name: 'Shroomish'
   },
   {
     id: 213,
-    name: "Shuckle",
+    name: 'Shuckle'
   },
   {
     id: 353,
-    name: "Shuppet",
+    name: 'Shuppet'
   },
   {
     id: 561,
-    name: "Sigilyph",
+    name: 'Sigilyph'
   },
   {
     id: 266,
-    name: "Silcoon",
+    name: 'Silcoon'
   },
   {
     id: 843,
-    name: "Silicobra",
+    name: 'Silicobra'
   },
   {
     id: 773,
-    name: "Silvally",
+    name: 'Silvally'
   },
   {
     id: 516,
-    name: "Simipour",
+    name: 'Simipour'
   },
   {
     id: 512,
-    name: "Simisage",
+    name: 'Simisage'
   },
   {
     id: 514,
-    name: "Simisear",
+    name: 'Simisear'
   },
   {
     id: 1013,
-    name: "Sinistcha",
+    name: 'Sinistcha'
   },
   {
     id: 854,
-    name: "Sinistea",
+    name: 'Sinistea'
   },
   {
     id: 865,
-    name: "Sirfetch’d",
+    name: 'Sirfetch’d'
   },
   {
     id: 850,
-    name: "Sizzlipede",
+    name: 'Sizzlipede'
   },
   {
     id: 227,
-    name: "Skarmory",
+    name: 'Skarmory'
   },
   {
     id: 911,
-    name: "Skeledirge",
+    name: 'Skeledirge'
   },
   {
     id: 672,
-    name: "Skiddo",
+    name: 'Skiddo'
   },
   {
     id: 188,
-    name: "Skiploom",
+    name: 'Skiploom'
   },
   {
     id: 300,
-    name: "Skitty",
+    name: 'Skitty'
   },
   {
     id: 451,
-    name: "Skorupi",
+    name: 'Skorupi'
   },
   {
     id: 690,
-    name: "Skrelp",
+    name: 'Skrelp'
   },
   {
     id: 435,
-    name: "Skuntank",
+    name: 'Skuntank'
   },
   {
     id: 819,
-    name: "Skwovet",
+    name: 'Skwovet'
   },
   {
     id: 289,
-    name: "Slaking",
+    name: 'Slaking'
   },
   {
     id: 287,
-    name: "Slakoth",
+    name: 'Slakoth'
   },
   {
     id: 705,
-    name: "Sliggoo",
+    name: 'Sliggoo'
   },
   {
     id: 988,
-    name: "Slither Wing",
+    name: 'Slither Wing'
   },
   {
     id: 80,
-    name: "Slowbro",
+    name: 'Slowbro'
   },
   {
     id: 199,
-    name: "Slowking",
+    name: 'Slowking'
   },
   {
     id: 79,
-    name: "Slowpoke",
+    name: 'Slowpoke'
   },
   {
     id: 218,
-    name: "Slugma",
+    name: 'Slugma'
   },
   {
     id: 685,
-    name: "Slurpuff",
+    name: 'Slurpuff'
   },
   {
     id: 235,
-    name: "Smeargle",
+    name: 'Smeargle'
   },
   {
     id: 928,
-    name: "Smoliv",
+    name: 'Smoliv'
   },
   {
     id: 238,
-    name: "Smoochum",
+    name: 'Smoochum'
   },
   {
     id: 215,
-    name: "Sneasel",
+    name: 'Sneasel'
   },
   {
     id: 903,
-    name: "Sneasler",
+    name: 'Sneasler'
   },
   {
     id: 495,
-    name: "Snivy",
+    name: 'Snivy'
   },
   {
     id: 872,
-    name: "Snom",
+    name: 'Snom'
   },
   {
     id: 143,
-    name: "Snorlax",
+    name: 'Snorlax'
   },
   {
     id: 361,
-    name: "Snorunt",
+    name: 'Snorunt'
   },
   {
     id: 459,
-    name: "Snover",
+    name: 'Snover'
   },
   {
     id: 209,
-    name: "Snubbull",
+    name: 'Snubbull'
   },
   {
     id: 816,
-    name: "Sobble",
+    name: 'Sobble'
   },
   {
     id: 791,
-    name: "Solgaleo",
+    name: 'Solgaleo'
   },
   {
     id: 577,
-    name: "Solosis",
+    name: 'Solosis'
   },
   {
     id: 338,
-    name: "Solrock",
+    name: 'Solrock'
   },
   {
     id: 21,
-    name: "Spearow",
+    name: 'Spearow'
   },
   {
     id: 897,
-    name: "Spectrier",
+    name: 'Spectrier'
   },
   {
     id: 665,
-    name: "Spewpa",
+    name: 'Spewpa'
   },
   {
     id: 363,
-    name: "Spheal",
+    name: 'Spheal'
   },
   {
     id: 918,
-    name: "Spidops",
+    name: 'Spidops'
   },
   {
     id: 167,
-    name: "Spinarak",
+    name: 'Spinarak'
   },
   {
     id: 327,
-    name: "Spinda",
+    name: 'Spinda'
   },
   {
     id: 442,
-    name: "Spiritomb",
+    name: 'Spiritomb'
   },
   {
     id: 325,
-    name: "Spoink",
+    name: 'Spoink'
   },
   {
     id: 906,
-    name: "Sprigatito",
+    name: 'Sprigatito'
   },
   {
     id: 682,
-    name: "Spritzee",
+    name: 'Spritzee'
   },
   {
     id: 931,
-    name: "Squawkabilly",
+    name: 'Squawkabilly'
   },
   {
     id: 7,
-    name: "Squirtle",
+    name: 'Squirtle'
   },
   {
     id: 805,
-    name: "Stakataka",
+    name: 'Stakataka'
   },
   {
     id: 234,
-    name: "Stantler",
+    name: 'Stantler'
   },
   {
     id: 398,
-    name: "Staraptor",
+    name: 'Staraptor'
   },
   {
     id: 397,
-    name: "Staravia",
+    name: 'Staravia'
   },
   {
     id: 396,
-    name: "Starly",
+    name: 'Starly'
   },
   {
     id: 121,
-    name: "Starmie",
+    name: 'Starmie'
   },
   {
     id: 120,
-    name: "Staryu",
+    name: 'Staryu'
   },
   {
     id: 208,
-    name: "Steelix",
+    name: 'Steelix'
   },
   {
     id: 762,
-    name: "Steenee",
+    name: 'Steenee'
   },
   {
     id: 874,
-    name: "Stonjourner",
+    name: 'Stonjourner'
   },
   {
     id: 508,
-    name: "Stoutland",
+    name: 'Stoutland'
   },
   {
     id: 759,
-    name: "Stufful",
+    name: 'Stufful'
   },
   {
     id: 618,
-    name: "Stunfisk",
+    name: 'Stunfisk'
   },
   {
     id: 434,
-    name: "Stunky",
+    name: 'Stunky'
   },
   {
     id: 185,
-    name: "Sudowoodo",
+    name: 'Sudowoodo'
   },
   {
     id: 245,
-    name: "Suicune",
+    name: 'Suicune'
   },
   {
     id: 192,
-    name: "Sunflora",
+    name: 'Sunflora'
   },
   {
     id: 191,
-    name: "Sunkern",
+    name: 'Sunkern'
   },
   {
     id: 283,
-    name: "Surskit",
+    name: 'Surskit'
   },
   {
     id: 333,
-    name: "Swablu",
+    name: 'Swablu'
   },
   {
     id: 541,
-    name: "Swadloon",
+    name: 'Swadloon'
   },
   {
     id: 317,
-    name: "Swalot",
+    name: 'Swalot'
   },
   {
     id: 260,
-    name: "Swampert",
+    name: 'Swampert'
   },
   {
     id: 581,
-    name: "Swanna",
+    name: 'Swanna'
   },
   {
     id: 277,
-    name: "Swellow",
+    name: 'Swellow'
   },
   {
     id: 220,
-    name: "Swinub",
+    name: 'Swinub'
   },
   {
     id: 684,
-    name: "Swirlix",
+    name: 'Swirlix'
   },
   {
     id: 528,
-    name: "Swoobat",
+    name: 'Swoobat'
   },
   {
     id: 700,
-    name: "Sylveon",
+    name: 'Sylveon'
   },
   {
     id: 938,
-    name: "Tadbulb",
+    name: 'Tadbulb'
   },
   {
     id: 276,
-    name: "Taillow",
+    name: 'Taillow'
   },
   {
     id: 663,
-    name: "Talonflame",
+    name: 'Talonflame'
   },
   {
     id: 924,
-    name: "Tandemaus",
+    name: 'Tandemaus'
   },
   {
     id: 114,
-    name: "Tangela",
+    name: 'Tangela'
   },
   {
     id: 465,
-    name: "Tangrowth",
+    name: 'Tangrowth'
   },
   {
     id: 787,
-    name: "Tapu Bulu",
+    name: 'Tapu Bulu'
   },
   {
     id: 788,
-    name: "Tapu Fini",
+    name: 'Tapu Fini'
   },
   {
     id: 785,
-    name: "Tapu Koko",
+    name: 'Tapu Koko'
   },
   {
     id: 786,
-    name: "Tapu Lele",
+    name: 'Tapu Lele'
   },
   {
     id: 917,
-    name: "Tarountula",
+    name: 'Tarountula'
   },
   {
     id: 978,
-    name: "Tatsugiri",
+    name: 'Tatsugiri'
   },
   {
     id: 128,
-    name: "Tauros",
+    name: 'Tauros'
   },
   {
     id: 216,
-    name: "Teddiursa",
+    name: 'Teddiursa'
   },
   {
     id: 72,
-    name: "Tentacool",
+    name: 'Tentacool'
   },
   {
     id: 73,
-    name: "Tentacruel",
+    name: 'Tentacruel'
   },
   {
     id: 498,
-    name: "Tepig",
+    name: 'Tepig'
   },
   {
     id: 1024,
-    name: "Terapagos",
+    name: 'Terapagos'
   },
   {
     id: 639,
-    name: "Terrakion",
+    name: 'Terrakion'
   },
   {
     id: 828,
-    name: "Thievul",
+    name: 'Thievul'
   },
   {
     id: 538,
-    name: "Throh",
+    name: 'Throh'
   },
   {
     id: 642,
-    name: "Thundurus",
+    name: 'Thundurus'
   },
   {
     id: 811,
-    name: "Thwackey",
+    name: 'Thwackey'
   },
   {
     id: 532,
-    name: "Timburr",
+    name: 'Timburr'
   },
   {
     id: 1003,
-    name: "Ting-Lu",
+    name: 'Ting-Lu'
   },
   {
     id: 957,
-    name: "Tinkatink",
+    name: 'Tinkatink'
   },
   {
     id: 959,
-    name: "Tinkaton",
+    name: 'Tinkaton'
   },
   {
     id: 958,
-    name: "Tinkatuff",
+    name: 'Tinkatuff'
   },
   {
     id: 564,
-    name: "Tirtouga",
+    name: 'Tirtouga'
   },
   {
     id: 948,
-    name: "Toedscool",
+    name: 'Toedscool'
   },
   {
     id: 949,
-    name: "Toedscruel",
+    name: 'Toedscruel'
   },
   {
     id: 777,
-    name: "Togedemaru",
+    name: 'Togedemaru'
   },
   {
     id: 468,
-    name: "Togekiss",
+    name: 'Togekiss'
   },
   {
     id: 175,
-    name: "Togepi",
+    name: 'Togepi'
   },
   {
     id: 176,
-    name: "Togetic",
+    name: 'Togetic'
   },
   {
     id: 255,
-    name: "Torchic",
+    name: 'Torchic'
   },
   {
     id: 324,
-    name: "Torkoal",
+    name: 'Torkoal'
   },
   {
     id: 641,
-    name: "Tornadus",
+    name: 'Tornadus'
   },
   {
     id: 726,
-    name: "Torracat",
+    name: 'Torracat'
   },
   {
     id: 389,
-    name: "Torterra",
+    name: 'Torterra'
   },
   {
     id: 158,
-    name: "Totodile",
+    name: 'Totodile'
   },
   {
     id: 733,
-    name: "Toucannon",
+    name: 'Toucannon'
   },
   {
     id: 748,
-    name: "Toxapex",
+    name: 'Toxapex'
   },
   {
     id: 848,
-    name: "Toxel",
+    name: 'Toxel'
   },
   {
     id: 454,
-    name: "Toxicroak",
+    name: 'Toxicroak'
   },
   {
     id: 849,
-    name: "Toxtricity",
+    name: 'Toxtricity'
   },
   {
     id: 520,
-    name: "Tranquill",
+    name: 'Tranquill'
   },
   {
     id: 328,
-    name: "Trapinch",
+    name: 'Trapinch'
   },
   {
     id: 252,
-    name: "Treecko",
+    name: 'Treecko'
   },
   {
     id: 709,
-    name: "Trevenant",
+    name: 'Trevenant'
   },
   {
     id: 357,
-    name: "Tropius",
+    name: 'Tropius'
   },
   {
     id: 568,
-    name: "Trubbish",
+    name: 'Trubbish'
   },
   {
     id: 732,
-    name: "Trumbeak",
+    name: 'Trumbeak'
   },
   {
     id: 763,
-    name: "Tsareena",
+    name: 'Tsareena'
   },
   {
     id: 776,
-    name: "Turtonator",
+    name: 'Turtonator'
   },
   {
     id: 387,
-    name: "Turtwig",
+    name: 'Turtwig'
   },
   {
     id: 535,
-    name: "Tympole",
+    name: 'Tympole'
   },
   {
     id: 602,
-    name: "Tynamo",
+    name: 'Tynamo'
   },
   {
     id: 772,
-    name: "Type: Null",
+    name: 'Type: Null'
   },
   {
     id: 157,
-    name: "Typhlosion",
+    name: 'Typhlosion'
   },
   {
     id: 248,
-    name: "Tyranitar",
+    name: 'Tyranitar'
   },
   {
     id: 697,
-    name: "Tyrantrum",
+    name: 'Tyrantrum'
   },
   {
     id: 236,
-    name: "Tyrogue",
+    name: 'Tyrogue'
   },
   {
     id: 696,
-    name: "Tyrunt",
+    name: 'Tyrunt'
   },
   {
     id: 197,
-    name: "Umbreon",
+    name: 'Umbreon'
   },
   {
     id: 521,
-    name: "Unfezant",
+    name: 'Unfezant'
   },
   {
     id: 201,
-    name: "Unown",
+    name: 'Unown'
   },
   {
     id: 901,
-    name: "Ursaluna",
+    name: 'Ursaluna'
   },
   {
     id: 217,
-    name: "Ursaring",
+    name: 'Ursaring'
   },
   {
     id: 892,
-    name: "Urshifu",
+    name: 'Urshifu'
   },
   {
     id: 480,
-    name: "Uxie",
+    name: 'Uxie'
   },
   {
     id: 583,
-    name: "Vanillish",
+    name: 'Vanillish'
   },
   {
     id: 582,
-    name: "Vanillite",
+    name: 'Vanillite'
   },
   {
     id: 584,
-    name: "Vanilluxe",
+    name: 'Vanilluxe'
   },
   {
     id: 134,
-    name: "Vaporeon",
+    name: 'Vaporeon'
   },
   {
     id: 965,
-    name: "Varoom",
+    name: 'Varoom'
   },
   {
     id: 976,
-    name: "Veluza",
+    name: 'Veluza'
   },
   {
     id: 543,
-    name: "Venipede",
+    name: 'Venipede'
   },
   {
     id: 49,
-    name: "Venomoth",
+    name: 'Venomoth'
   },
   {
     id: 48,
-    name: "Venonat",
+    name: 'Venonat'
   },
   {
     id: 3,
-    name: "Venusaur",
+    name: 'Venusaur'
   },
   {
     id: 416,
-    name: "Vespiquen",
+    name: 'Vespiquen'
   },
   {
     id: 329,
-    name: "Vibrava",
+    name: 'Vibrava'
   },
   {
     id: 494,
-    name: "Victini",
+    name: 'Victini'
   },
   {
     id: 71,
-    name: "Victreebel",
+    name: 'Victreebel'
   },
   {
     id: 288,
-    name: "Vigoroth",
+    name: 'Vigoroth'
   },
   {
     id: 738,
-    name: "Vikavolt",
+    name: 'Vikavolt'
   },
   {
     id: 45,
-    name: "Vileplume",
+    name: 'Vileplume'
   },
   {
     id: 640,
-    name: "Virizion",
+    name: 'Virizion'
   },
   {
     id: 666,
-    name: "Vivillon",
+    name: 'Vivillon'
   },
   {
     id: 313,
-    name: "Volbeat",
+    name: 'Volbeat'
   },
   {
     id: 721,
-    name: "Volcanion",
+    name: 'Volcanion'
   },
   {
     id: 637,
-    name: "Volcarona",
+    name: 'Volcarona'
   },
   {
     id: 100,
-    name: "Voltorb",
+    name: 'Voltorb'
   },
   {
     id: 629,
-    name: "Vullaby",
+    name: 'Vullaby'
   },
   {
     id: 37,
-    name: "Vulpix",
+    name: 'Vulpix'
   },
   {
     id: 320,
-    name: "Wailmer",
+    name: 'Wailmer'
   },
   {
     id: 321,
-    name: "Wailord",
+    name: 'Wailord'
   },
   {
     id: 1009,
-    name: "Walking Wake",
+    name: 'Walking Wake'
   },
   {
     id: 365,
-    name: "Walrein",
+    name: 'Walrein'
   },
   {
     id: 8,
-    name: "Wartortle",
+    name: 'Wartortle'
   },
   {
     id: 505,
-    name: "Watchog",
+    name: 'Watchog'
   },
   {
     id: 940,
-    name: "Wattrel",
+    name: 'Wattrel'
   },
   {
     id: 461,
-    name: "Weavile",
+    name: 'Weavile'
   },
   {
     id: 13,
-    name: "Weedle",
+    name: 'Weedle'
   },
   {
     id: 70,
-    name: "Weepinbell",
+    name: 'Weepinbell'
   },
   {
     id: 110,
-    name: "Weezing",
+    name: 'Weezing'
   },
   {
     id: 547,
-    name: "Whimsicott",
+    name: 'Whimsicott'
   },
   {
     id: 544,
-    name: "Whirlipede",
+    name: 'Whirlipede'
   },
   {
     id: 340,
-    name: "Whiscash",
+    name: 'Whiscash'
   },
   {
     id: 293,
-    name: "Whismur",
+    name: 'Whismur'
   },
   {
     id: 40,
-    name: "Wigglytuff",
+    name: 'Wigglytuff'
   },
   {
     id: 960,
-    name: "Wiglett",
+    name: 'Wiglett'
   },
   {
     id: 767,
-    name: "Wimpod",
+    name: 'Wimpod'
   },
   {
     id: 278,
-    name: "Wingull",
+    name: 'Wingull'
   },
   {
     id: 746,
-    name: "Wishiwashi",
+    name: 'Wishiwashi'
   },
   {
     id: 1001,
-    name: "Wo-Chien",
+    name: 'Wo-Chien'
   },
   {
     id: 202,
-    name: "Wobbuffet",
+    name: 'Wobbuffet'
   },
   {
     id: 527,
-    name: "Woobat",
+    name: 'Woobat'
   },
   {
     id: 831,
-    name: "Wooloo",
+    name: 'Wooloo'
   },
   {
     id: 194,
-    name: "Wooper",
+    name: 'Wooper'
   },
   {
     id: 413,
-    name: "Wormadam",
+    name: 'Wormadam'
   },
   {
     id: 961,
-    name: "Wugtrio",
+    name: 'Wugtrio'
   },
   {
     id: 265,
-    name: "Wurmple",
+    name: 'Wurmple'
   },
   {
     id: 360,
-    name: "Wynaut",
+    name: 'Wynaut'
   },
   {
     id: 899,
-    name: "Wyrdeer",
+    name: 'Wyrdeer'
   },
   {
     id: 178,
-    name: "Xatu",
+    name: 'Xatu'
   },
   {
     id: 716,
-    name: "Xerneas",
+    name: 'Xerneas'
   },
   {
     id: 796,
-    name: "Xurkitree",
+    name: 'Xurkitree'
   },
   {
     id: 562,
-    name: "Yamask",
+    name: 'Yamask'
   },
   {
     id: 835,
-    name: "Yamper",
+    name: 'Yamper'
   },
   {
     id: 193,
-    name: "Yanma",
+    name: 'Yanma'
   },
   {
     id: 469,
-    name: "Yanmega",
+    name: 'Yanmega'
   },
   {
     id: 734,
-    name: "Yungoos",
+    name: 'Yungoos'
   },
   {
     id: 717,
-    name: "Yveltal",
+    name: 'Yveltal'
   },
   {
     id: 888,
-    name: "Zacian",
+    name: 'Zacian'
   },
   {
     id: 889,
-    name: "Zamazenta",
+    name: 'Zamazenta'
   },
   {
     id: 335,
-    name: "Zangoose",
+    name: 'Zangoose'
   },
   {
     id: 145,
-    name: "Zapdos",
+    name: 'Zapdos'
   },
   {
     id: 893,
-    name: "Zarude",
+    name: 'Zarude'
   },
   {
     id: 523,
-    name: "Zebstrika",
+    name: 'Zebstrika'
   },
   {
     id: 644,
-    name: "Zekrom",
+    name: 'Zekrom'
   },
   {
     id: 807,
-    name: "Zeraora",
+    name: 'Zeraora'
   },
   {
     id: 263,
-    name: "Zigzagoon",
+    name: 'Zigzagoon'
   },
   {
     id: 571,
-    name: "Zoroark",
+    name: 'Zoroark'
   },
   {
     id: 570,
-    name: "Zorua",
+    name: 'Zorua'
   },
   {
     id: 41,
-    name: "Zubat",
+    name: 'Zubat'
   },
   {
     id: 634,
-    name: "Zweilous",
+    name: 'Zweilous'
   },
   {
     id: 718,
-    name: "Zygarde",
-  },
-];
+    name: 'Zygarde'
+  }
+]

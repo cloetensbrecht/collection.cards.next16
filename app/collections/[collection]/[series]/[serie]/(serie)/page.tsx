@@ -1,18 +1,18 @@
-import { PokemonSerie } from "@/alinea/schemas/PokemonSerie";
-import { PokemonSet } from "@/alinea/schemas/PokemonSet";
-import { cms } from "@/cms";
-import Blocks from "@/components/blocks/Blocks";
-import Container from "@/components/container/Container";
-import { Title } from "@/components/title/Title";
-import { Query } from "alinea";
-import { notFound } from "next/navigation";
+import {PokemonSerie} from '@/alinea/schemas/PokemonSerie'
+import {PokemonSet} from '@/alinea/schemas/PokemonSet'
+import {cms} from '@/cms'
+import Blocks from '@/components/blocks/Blocks'
+import Container from '@/components/container/Container'
+import {Title} from '@/components/title/Title'
+import {Query} from 'alinea'
+import {notFound} from 'next/navigation'
 
 const fetchSerieData = async (url: string) => {
   return await cms.first({
     type: PokemonSerie,
     filter: {
-      _status: "published",
-      _url: url,
+      _status: 'published',
+      _url: url
     },
     select: {
       title: Query.title,
@@ -20,49 +20,49 @@ const fetchSerieData = async (url: string) => {
       sets: Query.children({
         type: PokemonSet,
         select: {
-          id: Query.id,
+          id: Query.id
         },
         filter: {
-          _status: "published",
+          _status: 'published'
         },
-        orderBy: { desc: PokemonSet.releaseDate },
-      }),
-    },
-  });
-};
+        orderBy: {desc: PokemonSet.releaseDate}
+      })
+    }
+  })
+}
 
 export default async function Serie({
-  params,
+  params
 }: {
-  params: Promise<{ collection: string; series: string; serie: string }>;
+  params: Promise<{collection: string; series: string; serie: string}>
 }) {
-  const { collection, series, serie } = await params;
+  const {collection, series, serie} = await params
   const serieData = await fetchSerieData(
     `/collections/${collection}/${series}/${serie}`
-  );
-  if (!serieData) return notFound();
+  )
+  if (!serieData) return notFound()
 
-  const blocksWithOverview = serieData.blocks || [];
+  const blocksWithOverview = serieData.blocks || []
   const generatedCollectionSetsOverviewBlock = {
-    _index: "collection-sets-overview-block-generated",
-    _type: "CollectionSetsOverviewBlock" as const,
-    _id: "collection-sets-overview-block-generated",
+    _index: 'collection-sets-overview-block-generated',
+    _type: 'CollectionSetsOverviewBlock' as const,
+    _id: 'collection-sets-overview-block-generated',
     setIds: serieData.sets.map((set, index) => ({
       _id: `set-${index}`,
       _index: `a${index}`,
-      _type: "entry" as const,
-      _entry: set.id,
+      _type: 'entry' as const,
+      _entry: set.id
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    })) as any[],
-  };
+    })) as any[]
+  }
 
   const index = blocksWithOverview.findIndex(
-    (block) => block._type === "CollectionSetsOverviewBlock"
-  );
+    block => block._type === 'CollectionSetsOverviewBlock'
+  )
   if (index === -1) {
-    blocksWithOverview.push(generatedCollectionSetsOverviewBlock);
+    blocksWithOverview.push(generatedCollectionSetsOverviewBlock)
   } else {
-    blocksWithOverview[index] = generatedCollectionSetsOverviewBlock;
+    blocksWithOverview[index] = generatedCollectionSetsOverviewBlock
   }
 
   return (
@@ -70,5 +70,5 @@ export default async function Serie({
       <Title.H1>{serieData.title}</Title.H1>
       <Blocks blocks={blocksWithOverview} />
     </Container>
-  );
+  )
 }

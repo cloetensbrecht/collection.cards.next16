@@ -1,13 +1,13 @@
-import BreadCrumbs from "@/components/breadcrumbs/BreadCrumbs";
+import BreadCrumbs from '@/components/breadcrumbs/BreadCrumbs'
 
 export default async function CollectionLayout({
   children,
-  params,
+  params
 }: {
-  children: React.ReactNode;
-  params: Promise<{ collection: string; series: string; serie: string }>;
+  children: React.ReactNode
+  params: Promise<{collection: string; series: string; serie: string}>
 }) {
-  const { collection, series, serie } = await params;
+  const {collection, series, serie} = await params
 
   return (
     <>
@@ -17,5 +17,5 @@ export default async function CollectionLayout({
       />
       {children}
     </>
-  );
+  )
 }

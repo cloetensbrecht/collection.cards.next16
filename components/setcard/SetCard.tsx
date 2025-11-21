@@ -1,31 +1,31 @@
-import { Badge } from "@/components/ui/badge";
+import {Badge} from '@/components/ui/badge'
 import {
   Card,
   CardContent,
   CardDescription,
   CardFooter,
-  CardHeader,
-} from "@/components/ui/card";
-import IcOutlineCalendarMonth from "@/icons/IcOutlineCalendarMonth";
-import IcOutlineNumbers from "@/icons/IcOutlineNumbers";
-import { blurDataURL } from "@/lib/blurDataURL";
-import { ImageLink, TextDoc } from "alinea";
-import { RichText } from "alinea/ui";
-import Image from "next/image";
-import Link from "next/link";
-import { Title } from "../title/Title";
+  CardHeader
+} from '@/components/ui/card'
+import IcOutlineCalendarMonth from '@/icons/IcOutlineCalendarMonth'
+import IcOutlineNumbers from '@/icons/IcOutlineNumbers'
+import {blurDataURL} from '@/lib/blurDataURL'
+import {ImageLink, TextDoc} from 'alinea'
+import {RichText} from 'alinea/ui'
+import Image from 'next/image'
+import Link from 'next/link'
+import {Title} from '../title/Title'
 
 type SetCardProps = {
-  date: string;
-  href: string;
-  image: ImageLink<undefined>;
-  numberOfTotalCards: number;
-  priority: boolean;
-  subTitle: string;
-  symbol?: ImageLink<undefined>;
-  text: TextDoc;
-  title: string;
-};
+  date: string
+  href: string
+  image: ImageLink<undefined>
+  numberOfTotalCards: number
+  priority: boolean
+  subTitle: string
+  symbol?: ImageLink<undefined>
+  text: TextDoc
+  title: string
+}
 
 const SetCard: React.FC<SetCardProps> = ({
   date,
@@ -36,7 +36,7 @@ const SetCard: React.FC<SetCardProps> = ({
   subTitle,
   symbol,
   text,
-  title,
+  title
 }) => (
   <Link href={href} className="group h-full">
     <Card className="py-0 gap-0 overflow-hidden xl:flex-row shadow-none transition-shadow duration-300 h-full group-hover:shadow-md">
@@ -52,19 +52,19 @@ const SetCard: React.FC<SetCardProps> = ({
             src={`/media${image?.src}`}
             fill={true}
             placeholder="blur"
-            fetchPriority={priority ? "high" : "auto"}
+            fetchPriority={priority ? 'high' : 'auto'}
             preload={priority}
             sizes="100vw"
             style={{
               backgroundColor: image?.averageColor,
-              objectFit: "cover",
-              transform: "scale(1.2)",
+              objectFit: 'cover',
+              transform: 'scale(1.2)',
               transformOrigin: image?.focus
                 ? `${image.focus.x * 100}% ${image.focus.y * 100}%`
                 : undefined,
               objectPosition: image?.focus
                 ? `${image.focus.x * 100}% ${image.focus.y * 100}%`
-                : undefined,
+                : undefined
             }}
           />
           )
@@ -85,10 +85,10 @@ const SetCard: React.FC<SetCardProps> = ({
                     fill={true}
                     sizes="32px"
                     style={{
-                      objectFit: "contain",
+                      objectFit: 'contain',
                       objectPosition: symbol?.focus
                         ? `${symbol.focus.x * 100}% ${symbol.focus.y * 100}%`
-                        : undefined,
+                        : undefined
                     }}
                   />
                 </div>
@@ -117,12 +117,12 @@ const SetCard: React.FC<SetCardProps> = ({
             <div className="size-6 rounded-full flex items-center justify-center text-muted-foreground bg-primary/10 mr-1">
               <IcOutlineNumbers />
             </div>
-            {`${numberOfTotalCards} card${numberOfTotalCards !== 1 ? "s" : ""}`}
+            {`${numberOfTotalCards} card${numberOfTotalCards !== 1 ? 's' : ''}`}
           </Badge>
         </CardFooter>
       </div>
     </Card>
   </Link>
-);
+)
 
-export default SetCard;
+export default SetCard

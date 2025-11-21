@@ -1,23 +1,23 @@
-"use client";
+'use client'
 
-import { MoonIcon, SunIcon } from "lucide-react";
-import { useEffect, useId, useState } from "react";
+import {MoonIcon, SunIcon} from 'lucide-react'
+import {useEffect, useId, useState} from 'react'
 
-import { Label } from "@/components/ui/label";
-import { Switch } from "@/components/ui/switch";
-import { useTheme } from "next-themes";
+import {Label} from '@/components/ui/label'
+import {Switch} from '@/components/ui/switch'
+import {useTheme} from 'next-themes'
 
 const ThemeToggle = () => {
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-  const id = useId();
+  const {theme, setTheme} = useTheme()
+  const [mounted, setMounted] = useState(false)
+  const id = useId()
 
   useEffect(
     () =>
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setMounted(true),
     []
-  );
+  )
 
   return (
     <div>
@@ -25,8 +25,8 @@ const ThemeToggle = () => {
         {mounted && (
           <Switch
             id={id}
-            checked={theme === "light"}
-            onCheckedChange={(checked) => setTheme(checked ? "light" : "dark")}
+            checked={theme === 'light'}
+            onCheckedChange={checked => setTheme(checked ? 'light' : 'dark')}
             className="peer absolute inset-0 h-[inherit] cursor-pointer w-auto data-[state=checked]:bg-primary data-[state=unchecked]:bg-primary hover:data-[state=checked]:bg-primary/90 hover:data-[state=unchecked]:bg-primary/90 [&_span]:h-full [&_span]:w-full md:[&_span]:w-1/2 [&_span]:transition-transform [&_span]:duration-300 [&_span]:ease-[cubic-bezier(0.16,1,0.3,1)] [&_span]:data-[state=checked]:translate-x-0 [&_span]:data-[state=checked]:rtl:-translate-x-0 md:[&_span]:data-[state=checked]:translate-x-full md:[&_span]:data-[state=checked]:rtl:-translate-x-full"
           />
         )}
@@ -41,7 +41,7 @@ const ThemeToggle = () => {
         Theme switch
       </Label>
     </div>
-  );
-};
+  )
+}
 
-export default ThemeToggle;
+export default ThemeToggle

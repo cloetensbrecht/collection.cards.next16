@@ -1,4 +1,4 @@
-import { SVGProps } from "react";
+import {SVGProps} from 'react'
 
 export function IcOutlinePalette(props: SVGProps<SVGSVGElement>) {
   return (
@@ -19,5 +19,5 @@ export function IcOutlinePalette(props: SVGProps<SVGSVGElement>) {
       <circle cx="14.5" cy="7.5" r="1.5" fill="currentColor" />
       <circle cx="17.5" cy="11.5" r="1.5" fill="currentColor" />
     </svg>
-  );
+  )
 }

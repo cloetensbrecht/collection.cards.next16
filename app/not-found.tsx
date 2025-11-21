@@ -1,6 +1,6 @@
-import { Title } from "@/components/title/Title";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import {Title} from '@/components/title/Title'
+import {Button} from '@/components/ui/button'
+import Link from 'next/link'
 
 export default function NotFound() {
   return (
@@ -21,5 +21,5 @@ export default function NotFound() {
         </div>
       </div>
     </section>
-  );
+  )
 }

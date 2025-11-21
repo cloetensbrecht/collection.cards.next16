@@ -1,13 +1,13 @@
-import { TextBlock as TextBlockSchema } from "@/alinea/blocks/text/TextBlock.schema";
-import Ol from "@/components/ol/Ol";
-import Paragraph from "@/components/paragraph/Paragraph";
-import { Title } from "@/components/title/Title";
-import Ul from "@/components/ul/Ul";
-import { RichText } from "alinea/ui";
-import Link from "next/link";
-import React from "react";
+import {TextBlock as TextBlockSchema} from '@/alinea/blocks/text/TextBlock.schema'
+import Ol from '@/components/ol/Ol'
+import Paragraph from '@/components/paragraph/Paragraph'
+import {Title} from '@/components/title/Title'
+import Ul from '@/components/ul/Ul'
+import {RichText} from 'alinea/ui'
+import Link from 'next/link'
+import React from 'react'
 
-const TextBlock: React.FC<TextBlockSchema> = ({ text }) => {
+const TextBlock: React.FC<TextBlockSchema> = ({text}) => {
   return (
     <div className="max-w-4xl [&_p:has(+h1)]:pb-6 [&_p:has(+h2)]:pb-6 [&_p:has(+h3)]:pb-6 [&_ul:has(+h1)]:pb-6 [&_ul:has(+h2)]:pb-6 [&_ul:has(+h3)]:pb-6 [&_ol:has(+h1)]:pb-6 [&_ol:has(+h2)]:pb-6 [&_ol:has(+h3)]:pb-6">
       <RichText
@@ -21,7 +21,7 @@ const TextBlock: React.FC<TextBlockSchema> = ({ text }) => {
         a={Link}
       />
     </div>
-  );
-};
+  )
+}
 
-export default TextBlock;
+export default TextBlock

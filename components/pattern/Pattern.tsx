@@ -1,17 +1,17 @@
-import { Pattern as PatternIcon } from "@/icons/Pattern";
-import { cn } from "@/lib/utils";
-import { PropsWithChildren } from "react";
-const { renderToString } = await import("react-dom/server");
+import {Pattern as PatternIcon} from '@/icons/Pattern'
+import {cn} from '@/lib/utils'
+import {PropsWithChildren} from 'react'
+const {renderToString} = await import('react-dom/server')
 
-type PatternProps = { className?: string };
+type PatternProps = {className?: string}
 
 const Pattern: React.FC<PropsWithChildren<PatternProps>> = ({
   className,
-  children,
+  children
 }) => {
   const maskImage = `url(\'data:image/svg+xml;utf8,${renderToString(
     <PatternIcon />
-  )}\')`;
+  )}\')`
 
   return (
     <div className="relative w-full py-24 mt-24">
@@ -21,12 +21,12 @@ const Pattern: React.FC<PropsWithChildren<PatternProps>> = ({
           className
         )}
         style={{
-          maskImage: maskImage,
+          maskImage: maskImage
         }}
       />
       {children}
     </div>
-  );
-};
+  )
+}
 
-export default Pattern;
+export default Pattern

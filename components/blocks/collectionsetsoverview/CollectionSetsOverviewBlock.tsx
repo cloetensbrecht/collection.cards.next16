@@ -1,15 +1,15 @@
-import { CollectionSetsOverviewBlock as CollectionSetsOverviewBlockSchema } from "@/alinea/blocks/collectionsetsoverview/CollectionSetsOverviewBlock.schema";
-import { PokemonCard } from "@/alinea/schemas/PokemonCard";
-import { PokemonSet } from "@/alinea/schemas/PokemonSet";
-import { cms } from "@/cms";
-import SetCard from "@/components/setcard/SetCard";
-import { formatDate } from "@/lib/formatDate";
-import { Query } from "alinea";
-import { Entry } from "alinea/core";
+import {CollectionSetsOverviewBlock as CollectionSetsOverviewBlockSchema} from '@/alinea/blocks/collectionsetsoverview/CollectionSetsOverviewBlock.schema'
+import {PokemonCard} from '@/alinea/schemas/PokemonCard'
+import {PokemonSet} from '@/alinea/schemas/PokemonSet'
+import {cms} from '@/cms'
+import SetCard from '@/components/setcard/SetCard'
+import {formatDate} from '@/lib/formatDate'
+import {Query} from 'alinea'
+import {Entry} from 'alinea/core'
 
 const fetchSetsData = async (setIds: string[]) => {
   return await cms.find({
-    id: { in: setIds },
+    id: {in: setIds},
     type: PokemonSet,
     select: {
       ...PokemonSet,
@@ -18,29 +18,29 @@ const fetchSetsData = async (setIds: string[]) => {
       cards: Query.children({
         type: PokemonCard,
         select: {
-          variants: PokemonCard.variants,
-        },
+          variants: PokemonCard.variants
+        }
       }),
       parents: Query.parents({
         select: {
-          title: Query.title,
-        },
-      }),
+          title: Query.title
+        }
+      })
     },
     filter: {
-      _status: "published",
+      _status: 'published'
     },
-    orderBy: { desc: PokemonSet.releaseDate },
-  });
-};
+    orderBy: {desc: PokemonSet.releaseDate}
+  })
+}
 
 const CollectionSetsOverviewBlock: React.FC<
   CollectionSetsOverviewBlockSchema
-> = async ({ setIds }) => {
+> = async ({setIds}) => {
   const setsData = await fetchSetsData(
-    (setIds as { _entry: string }[]).map((set) => set._entry)
-  );
-  if (!setsData || setsData.length === 0) return null;
+    (setIds as {_entry: string}[]).map(set => set._entry)
+  )
+  if (!setsData || setsData.length === 0) return null
 
   return (
     <div>
@@ -49,7 +49,7 @@ const CollectionSetsOverviewBlock: React.FC<
           const numberOfTotalCards = set.cards.reduce(
             (total, card) => total + (card.variants?.length || 1),
             0
-          );
+          )
           return (
             <SetCard
               date={formatDate(set.releaseDate)}
@@ -58,16 +58,16 @@ const CollectionSetsOverviewBlock: React.FC<
               image={set.heroImage}
               numberOfTotalCards={numberOfTotalCards}
               priority={index < 5}
-              subTitle={set.parents[set.parents.length - 1]?.title || ""}
+              subTitle={set.parents[set.parents.length - 1]?.title || ''}
               symbol={set.symbol?.[0] || undefined}
               text={set.cta_description}
               title={set.title}
             />
-          );
+          )
         })}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CollectionSetsOverviewBlock;
+export default CollectionSetsOverviewBlock

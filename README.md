@@ -41,14 +41,14 @@ All icons are stored in the `/icons` directory and are saved as a **`.tsx`** fil
 Each icon is defined as a Typed React component using the following structure:
 
 ```tsx
-import { SVGProps } from "react";
+import {SVGProps} from 'react'
 
 export function Icon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg {...props}>
       <path fill="currentColor" d="..." />
     </svg>
-  );
+  )
 }
 ```
 

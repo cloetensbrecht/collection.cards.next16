@@ -1,20 +1,20 @@
-import { HomeIcon } from "lucide-react";
+import {HomeIcon} from 'lucide-react'
 
-import { cms } from "@/cms";
+import {cms} from '@/cms'
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
-import { Query } from "alinea";
-import Link from "next/link";
-import { Fragment } from "react/jsx-runtime";
-import Container from "../container/Container";
+  BreadcrumbSeparator
+} from '@/components/ui/breadcrumb'
+import {Query} from 'alinea'
+import Link from 'next/link'
+import {Fragment} from 'react/jsx-runtime'
+import Container from '../container/Container'
 
-type breadcrumbsProps = { className?: string; path: string };
+type breadcrumbsProps = {className?: string; path: string}
 
 const fetchBreadCrumbsData = async (url: string) =>
   await cms.first({
@@ -23,18 +23,18 @@ const fetchBreadCrumbsData = async (url: string) =>
       breadcrumbs: Query.parents({
         select: {
           url: Query.url,
-          title: Query.title,
-        },
-      }),
+          title: Query.title
+        }
+      })
     },
     filter: {
-      _url: url,
-    },
-  });
+      _url: url
+    }
+  })
 
-const BreadCrumbs: React.FC<breadcrumbsProps> = async ({ className, path }) => {
-  const data = await fetchBreadCrumbsData(path);
-  if (!data || !data.breadcrumbs) return null;
+const BreadCrumbs: React.FC<breadcrumbsProps> = async ({className, path}) => {
+  const data = await fetchBreadCrumbsData(path)
+  if (!data || !data.breadcrumbs) return null
 
   return (
     <Container className={className}>
@@ -49,7 +49,7 @@ const BreadCrumbs: React.FC<breadcrumbsProps> = async ({ className, path }) => {
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
-          {data.breadcrumbs.map((crumb) => (
+          {data.breadcrumbs.map(crumb => (
             <Fragment key={crumb.url}>
               <BreadcrumbItem>
                 <BreadcrumbLink asChild={true}>
@@ -65,7 +65,7 @@ const BreadCrumbs: React.FC<breadcrumbsProps> = async ({ className, path }) => {
         </BreadcrumbList>
       </Breadcrumb>
     </Container>
-  );
-};
+  )
+}
 
-export default BreadCrumbs;
+export default BreadCrumbs

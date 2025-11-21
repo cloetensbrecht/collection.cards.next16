@@ -1,12 +1,12 @@
-import { PropsWithChildren } from "react";
+import {PropsWithChildren} from 'react'
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
-  TooltipTrigger,
-} from "../ui/tooltip";
+  TooltipTrigger
+} from '../ui/tooltip'
 
-const ComingSoon: React.FC<PropsWithChildren> = ({ children }) => {
+const ComingSoon: React.FC<PropsWithChildren> = ({children}) => {
   return (
     <TooltipProvider>
       <Tooltip delayDuration={0}>
@@ -16,6 +16,6 @@ const ComingSoon: React.FC<PropsWithChildren> = ({ children }) => {
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>
-  );
-};
-export default ComingSoon;
+  )
+}
+export default ComingSoon

@@ -1,13 +1,13 @@
-import BreadCrumbs from "@/components/breadcrumbs/BreadCrumbs";
+import BreadCrumbs from '@/components/breadcrumbs/BreadCrumbs'
 
 export default async function IllustratorLayout({
   children,
-  params,
+  params
 }: {
-  children: React.ReactNode;
-  params: Promise<{ illustrator: string }>;
+  children: React.ReactNode
+  params: Promise<{illustrator: string}>
 }) {
-  const { illustrator } = await params;
+  const {illustrator} = await params
 
   return (
     <>
@@ -17,5 +17,5 @@ export default async function IllustratorLayout({
       />
       {children}
     </>
-  );
+  )
 }

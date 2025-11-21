@@ -1,4 +1,4 @@
-import { SVGProps } from "react";
+import {SVGProps} from 'react'
 
 export function IcOutlineViewColumn(props: SVGProps<SVGSVGElement>) {
   return (
@@ -15,6 +15,6 @@ export function IcOutlineViewColumn(props: SVGProps<SVGSVGElement>) {
         d="M3 5v14h18V5zm5.33 12H5V7h3.33zm5.34 0h-3.33V7h3.33zM19 17h-3.33V7H19z"
       />
     </svg>
-  );
+  )
 }
-export default IcOutlineViewColumn;
+export default IcOutlineViewColumn

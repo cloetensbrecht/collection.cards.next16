@@ -1,8 +1,8 @@
 export const round = (value: number, precision: number = 3) =>
-  parseFloat(value.toFixed(precision));
+  parseFloat(value.toFixed(precision))
 
 export const clamp = (value: number, min: number = 0, max: number = 100) =>
-  Math.min(Math.max(value, min), max);
+  Math.min(Math.max(value, min), max)
 
 export const adjust = (
   value: number,
@@ -10,4 +10,4 @@ export const adjust = (
   fromMax: number,
   toMin: number,
   toMax: number
-) => round(toMin + ((toMax - toMin) * (value - fromMin)) / (fromMax - fromMin));
+) => round(toMin + ((toMax - toMin) * (value - fromMin)) / (fromMax - fromMin))
