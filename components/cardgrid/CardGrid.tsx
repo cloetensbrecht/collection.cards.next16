@@ -71,7 +71,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   const virtualizer = useWindowVirtualizer({
     count: rowCount,
     estimateSize: () => rowHeight,
-    overscan: 3
+    overscan: 1
   })
 
   useEffect(() => {
