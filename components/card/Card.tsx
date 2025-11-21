@@ -130,8 +130,12 @@ const Card: React.FC<CardProps> = ({
         {
           '--card-edge': edgeColor,
           '--card-glow': glowColor || 'black',
-          '--foil': foil ? `url(/media${foil})` : undefined,
-          '--mask': mask ? `url(/media${mask})` : undefined,
+          '--foil': foil
+            ? `url(/_next/image?url=%2Fmedia${foil}&w=750&q=75)`
+            : undefined,
+          '--mask': mask
+            ? `url(/_next/image?url=%2Fmedia${mask}&w=750&q=75)`
+            : undefined,
           '--ring': glowColor || 'black'
         } as React.CSSProperties
       }
