@@ -1,14 +1,27 @@
-import {Illustrator as IllustratorSchema} from '@/alinea/schemas/Illustrator'
+import {
+  Illustrator,
+  Illustrator as IllustratorSchema
+} from '@/alinea/schemas/Illustrator'
 import {cms} from '@/cms'
 import Blocks from '@/components/blocks/Blocks'
 import Container from '@/components/container/Container'
 import {Title} from '@/components/title/Title'
+import {Query} from 'alinea'
 import {notFound} from 'next/navigation'
 
 const fetchIllustrator = async (illustrator: string) => {
   return await cms.first({
     type: IllustratorSchema,
     path: illustrator
+  })
+}
+
+export async function generateStaticParams() {
+  return await cms.find({
+    type: Illustrator,
+    select: {
+      illustrator: Query.path
+    }
   })
 }
 

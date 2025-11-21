@@ -1,4 +1,6 @@
+import {PokemonCollection} from '@/alinea/schemas/PokemonCollection'
 import {PokemonSerie} from '@/alinea/schemas/PokemonSerie'
+import {PokemonSeries} from '@/alinea/schemas/PokemonSeries'
 import {PokemonSet} from '@/alinea/schemas/PokemonSet'
 import {cms} from '@/cms'
 import Blocks from '@/components/blocks/Blocks'
@@ -29,6 +31,37 @@ const fetchSerieData = async (url: string) => {
       })
     }
   })
+}
+
+export async function generateStaticParams() {
+  const data = await cms.find({
+    type: PokemonCollection,
+    select: {
+      collection: Query.path,
+      series: Query.children({
+        type: PokemonSeries,
+        select: {
+          series: Query.path,
+          serie: Query.children({
+            type: PokemonSerie,
+            select: {
+              serie: Query.path
+            }
+          })
+        }
+      })
+    }
+  })
+
+  return data.flatMap(col =>
+    col.series.flatMap(ser =>
+      ser.serie.map(seri => ({
+        collection: col.collection,
+        series: ser.series,
+        serie: seri.serie
+      }))
+    )
+  )
 }
 
 export default async function Serie({

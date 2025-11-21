@@ -1,4 +1,7 @@
 import {PokemonCard} from '@/alinea/schemas/PokemonCard'
+import {PokemonCollection} from '@/alinea/schemas/PokemonCollection'
+import {PokemonSerie} from '@/alinea/schemas/PokemonSerie'
+import {PokemonSeries} from '@/alinea/schemas/PokemonSeries'
 import {PokemonSet} from '@/alinea/schemas/PokemonSet'
 import {cms} from '@/cms'
 import CardGrid, {CardGridProps} from '@/components/cardgrid/CardGrid'
@@ -80,6 +83,46 @@ const fetchSetData = async (url: string) => {
         )
       }
     : null
+}
+
+export async function generateStaticParams() {
+  const data = await cms.find({
+    type: PokemonCollection,
+    select: {
+      collection: Query.path,
+      series: Query.children({
+        type: PokemonSeries,
+        select: {
+          series: Query.path,
+          serie: Query.children({
+            type: PokemonSerie,
+            select: {
+              serie: Query.path,
+              set: Query.children({
+                type: PokemonSet,
+                select: {
+                  set: Query.path
+                }
+              })
+            }
+          })
+        }
+      })
+    }
+  })
+
+  return data.flatMap(col =>
+    col.series.flatMap(ser =>
+      ser.serie.flatMap(seri =>
+        seri.set.map(set => ({
+          collection: col.collection,
+          series: ser.series,
+          serie: seri.serie,
+          set: set.set
+        }))
+      )
+    )
+  )
 }
 
 export default async function Set({

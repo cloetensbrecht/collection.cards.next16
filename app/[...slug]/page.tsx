@@ -3,6 +3,7 @@ import {cms} from '@/cms'
 import Blocks from '@/components/blocks/Blocks'
 import Container from '@/components/container/Container'
 import {Title} from '@/components/title/Title'
+import {Query} from 'alinea'
 import {notFound} from 'next/navigation'
 
 const fetchPage = async (slug: string) => {
@@ -13,6 +14,18 @@ const fetchPage = async (slug: string) => {
       path: slug
     }
   })
+}
+
+export async function generateStaticParams() {
+  const data = await cms.find({
+    type: PageSchema,
+    select: {
+      slug: Query.path
+    }
+  })
+  return data.map(({slug}) => ({
+    slug: [slug]
+  }))
 }
 
 export default async function Page({

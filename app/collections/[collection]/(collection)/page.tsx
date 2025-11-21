@@ -48,6 +48,15 @@ const fetchCollectionData = async (collection: string) =>
     }
   })
 
+export async function generateStaticParams() {
+  return await cms.find({
+    type: PokemonCollection,
+    select: {
+      collection: Query.path
+    }
+  })
+}
+
 export default async function Collection({
   params
 }: {
