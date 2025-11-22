@@ -47,11 +47,16 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     selectedCardIndex < cards.length - 1
   const hasPrevButton =
     selectedCard && selectedCardIndex !== null && selectedCardIndex > 0
+
   const nextHandler = hasNextButton
-    ? () => setSelectedCardIndex(prev => (prev !== null ? prev + 1 : 0))
+    ? () => {
+        setSelectedCardIndex(prev => (prev !== null ? prev + 1 : 0))
+      }
     : undefined
   const prevHandler = hasPrevButton
-    ? () => setSelectedCardIndex(prev => (prev !== null ? prev - 1 : 0))
+    ? () => {
+        setSelectedCardIndex(prev => (prev !== null ? prev - 1 : 0))
+      }
     : undefined
   const closeModalHandler = () => setSelectedCardIndex(null)
 
@@ -73,6 +78,16 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     estimateSize: () => rowHeight,
     overscan: 1
   })
+
+  useEffect(() => {
+    if (selectedCardIndex !== null) {
+      const rowIndex = Math.floor(selectedCardIndex / columnCount)
+      virtualizer.scrollToIndex(rowIndex, {
+        align: 'start',
+        behavior: 'smooth'
+      })
+    }
+  }, [selectedCardIndex, columnCount, virtualizer])
 
   useEffect(() => {
     virtualizer.measure()
