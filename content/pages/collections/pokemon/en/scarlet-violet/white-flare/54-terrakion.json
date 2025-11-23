@@ -29,8 +29,16 @@
       "_type": "Variant",
       "variant": "holofoil",
       "pattern": "tinsel",
-      "mask": {},
-      "foil": {}
+      "mask": {
+        "_id": "35t25NCwsjghhudWGNcaZ9opHMT",
+        "_type": "image",
+        "_entry": "35t2484WYIba7yFaOPJOcQ7bcIc"
+      },
+      "foil": {
+        "_id": "35t26dHP9N7wow9TdYvyUQ74AlI",
+        "_type": "image",
+        "_entry": "35t244OZ9NVUR7akvA3722NJLQI"
+      }
     },
     {
       "_id": "34A44B6iK2xkvHMZ3GruuyCPLPN",
