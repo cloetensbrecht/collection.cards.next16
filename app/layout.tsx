@@ -1,6 +1,7 @@
 import {cms} from '@/cms'
 import Footer from '@/components/footer/Footer'
 import Header from '@/components/header/Header'
+import ScrollToTop from '@/components/scrolltotop/ScrollToTop'
 import ThemeProvider from '@/components/themeprovider/ThemeProvider'
 import {Analytics} from '@vercel/analytics/next'
 import {SpeedInsights} from '@vercel/speed-insights/next'
@@ -47,6 +48,7 @@ export default function RootLayout({
           <div className="flex flex-col items-center justify-center font-sans pb-12 md:pb-18 lg:pb-24 bg-linear-to-b from-zinc-50 to-background dark:from-zinc-900">
             {children}
           </div>
+          <ScrollToTop />
           <Toaster />
           <cms.previews widget />
           <Analytics />
