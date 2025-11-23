@@ -1,31 +1,16 @@
 'use client'
 
-import {Button} from '@/components/ui/button'
 import {Pattern as PatternIcon} from '@/icons/Pattern'
 import {AnimatePresence, motion} from 'framer-motion'
-import {X} from 'lucide-react'
 import {PropsWithChildren, useEffect} from 'react'
 import Card, {CardProps} from '../card/Card'
+import CloseButton from '../closebutton/CloseButton'
 import {TiltCard} from '../tiltcard/TiltCard'
 const {renderToString} = await import('react-dom/server')
 
 interface ImageModalProps {
   card: CardProps | null
   onClose: () => void
-}
-
-function CloseButton({onClose}: {onClose: () => void}) {
-  return (
-    <Button
-      variant="ghost"
-      size="icon"
-      className="absolute right-4 top-4 z-10 rounded-full bg-background/80 backdrop-blur-sm hover:bg-background cursor-pointer hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50"
-      onClick={onClose}
-    >
-      <X className="h-4 w-4" />
-      <span className="sr-only">Close</span>
-    </Button>
-  )
 }
 
 const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
@@ -80,7 +65,10 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
             onClick={e => e.stopPropagation()}
           >
             <div className="relative rounded-lg bg-card shadow-lg overflow-hidden flex flex-col max-h-[90vh]">
-              <CloseButton onClose={onClose} />
+              <CloseButton
+                className="absolute right-4 top-4 z-10"
+                onClose={onClose}
+              />
               <div className="flex flex-col sm:flex-row flex-1 h-full gap-6 overflow-auto sm:overflow-hidden p-8 items-center sm:[align-items:unset]">
                 <div className="flex w-full max-w-[50%] sm:w-1/3 items-center justify-center aspect-[733/1024] max-h-[100%] z-10">
                   <div className="aspect-[733/1024] w-auto h-full max-w-[100%] max-h-[100%] flex items-center justify-center">
