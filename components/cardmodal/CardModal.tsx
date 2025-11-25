@@ -11,6 +11,7 @@ const {renderToString} = await import('react-dom/server')
 interface ImageModalProps {
   card: CardProps | null
   onClose: () => void
+  onExitComplete: () => void
 }
 
 const BackgroundPattern: React.FC<Pick<ImageModalProps, 'onClose'>> = ({
@@ -38,6 +39,7 @@ const BackgroundPattern: React.FC<Pick<ImageModalProps, 'onClose'>> = ({
 const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
   card,
   onClose,
+  onExitComplete,
   children
 }) => {
   // prevent scrolling the body when modal is open
@@ -60,14 +62,12 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
   }, [card])
 
   return (
-    <AnimatePresence>
+    <AnimatePresence onExitComplete={onExitComplete}>
       {card && (
         <>
           <BackgroundPattern onClose={onClose} />
           <motion.div
-            // layoutId="selected-card"
-            // layoutId={`card-${card.id}`}
-            layoutId={card ? 'selected-card' : undefined}
+            layoutId="selected-card"
             className="fixed left-1/2 top-1/2 z-50 w-full max-w-5xl -translate-x-1/2 -translate-y-1/2 px-6"
             onClick={e => e.stopPropagation()}
           >
@@ -80,15 +80,11 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
                 <div className="flex w-full max-w-[50%] sm:w-1/3 items-center justify-center aspect-[733/1024] max-h-[100%] z-10">
                   <div className="aspect-[733/1024] w-auto h-full max-w-[100%] max-h-[100%] flex items-center justify-center">
                     <motion.div
-                      layoutId={`card-image-${card.id}`}
+                      layoutId="selected-card-image"
                       className="relative w-full h-full content-center"
                     >
                       <TiltCard>
-                        <Card
-                          {...card}
-                          inModal={true}
-                          enableLayoutIds={false}
-                        />
+                        <Card {...card} inModal={true} />
                       </TiltCard>
                     </motion.div>
                   </div>

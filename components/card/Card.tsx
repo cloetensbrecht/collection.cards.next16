@@ -2,7 +2,6 @@ import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/effect'
 import {Rarity} from '@/consts/rarity'
 import {variant} from '@/consts/variant'
 import {cn} from '@/lib/utils'
-import {motion} from 'framer-motion'
 import Image from 'next/image'
 import Glare from '../glare/Glare'
 import Holofoil from './effects/Holofoil'
@@ -17,9 +16,9 @@ import ReverseHolofoilMasterBall from './effects/ReverseHolofoilMasterBall'
 import ReverseHolofoilPokeBall from './effects/ReverseHolofoilPokeBall'
 
 export type CardProps = {
+  asButton?: boolean
   blurDataURL?: string
   edgeColor?: string
-  enableLayoutIds?: boolean
   focus?: {x: number; y: number}
   foil?: string
   glowColor?: string
@@ -31,7 +30,7 @@ export type CardProps = {
   mask?: string
   onClick?: () => void
   pattern?: keyof typeof reverseHolofoilPatterns | keyof typeof holofoilPatterns
-  rarity: keyof Rarity | null
+  rarity: keyof Rarity | OnErrorEventHandlerNonNull
   sizes: string
   src?: string
   title: string
@@ -39,9 +38,9 @@ export type CardProps = {
 }
 
 const Card: React.FC<CardProps> = ({
+  asButton,
   blurDataURL,
   edgeColor,
-  enableLayoutIds = true,
   focus,
   foil,
   glowColor,
@@ -108,12 +107,10 @@ const Card: React.FC<CardProps> = ({
       Effect = Glare
   }
 
-  const CardContainer = !inModal ? motion.button : 'div'
-  const cardContainerProps =
-    !inModal && enableLayoutIds ? {layoutId: `card-${id}`} : {}
+  const Container = asButton ? 'button' : 'div'
 
   return (
-    <CardContainer
+    <Container
       className={cn(
         'group/card',
         'relative w-full overflow-hidden rounded-[10px] md:rounded-[4.15%/2.98%] flex items-center justify-center aspect-[733/1024]',
@@ -127,7 +124,6 @@ const Card: React.FC<CardProps> = ({
         'focus:outline-1 md:focus:outline-2 focus:outline-solid focus:outline-[var(--card-glow)]',
         onClick ? 'cursor-pointer' : null
       )}
-      {...cardContainerProps}
       onClick={onClick}
       style={
         {
@@ -143,10 +139,7 @@ const Card: React.FC<CardProps> = ({
         } as React.CSSProperties
       }
     >
-      <motion.div
-        className="relative w-full h-full"
-        layoutId={!inModal && enableLayoutIds ? `card-image-${id}` : undefined}
-      >
+      <div className="relative w-full h-full">
         {src && (
           <Image
             alt={title}
@@ -167,8 +160,8 @@ const Card: React.FC<CardProps> = ({
           />
         )}
         <Effect {...effectProps} />
-      </motion.div>
-    </CardContainer>
+      </div>
+    </Container>
   )
 }
 

@@ -39,13 +39,15 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   const [windowWidth, setWindowWidth] = useState(0)
   const [highlightFinished, setHighlightFinished] = useState(true)
   const [modalIsOpening, setModalIsOpening] = useState(false)
+  const [modalIsClosing, setModalIsClosing] = useState<string | null>(null)
+  const [modalLayoutId, setModalLayoutId] = useState<string | undefined>(
+    'selected-card'
+  )
   const [selection, setSelection] = useState<{
     col: number
     row: number
     index: number | null
   }>({col: 0, row: 0, index: null})
-
-  const enableSharedImageLayout = modalIsOpening
 
   const selectedCard = selection.index !== null ? cards[selection.index] : null
   const hasNextButton =
@@ -76,6 +78,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
 
   const nextHandler = hasNextButton
     ? () => {
+        setModalLayoutId(undefined)
         setModalIsOpening(false)
         const newSelectedIndex =
           selection.index !== null ? selection.index + 1 : 0
@@ -89,6 +92,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     : undefined
   const prevHandler = hasPrevButton
     ? () => {
+        setModalLayoutId(undefined)
         setModalIsOpening(false)
         const newSelectedIndex =
           selection.index !== null ? selection.index - 1 : 0
@@ -101,7 +105,13 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
       }
     : undefined
   const closeModalHandler = () => {
+    setModalIsClosing(selectedCard?.id || null)
     setSelection(sel => ({...sel, index: null}))
+  }
+
+  const onExitComplete = () => {
+    setSelection(sel => ({...sel, index: null}))
+    setModalIsClosing(null)
   }
 
   // Scroll to selected card row
@@ -145,38 +155,49 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
                 height: `${rowHeight - gapSize}px`
               }}
             >
-              {rowItems.map((item, index) => (
-                <TiltCard key={`${item.id}_${index}`} className="h-full">
-                  <Card
-                    {...item}
-                    enableLayoutIds={enableSharedImageLayout}
-                    onClick={() => {
-                      setModalIsOpening(true)
-                      setSelection({
-                        col: index,
-                        row: virtualRow.index,
-                        index: start + index
-                      })
-                      if (
-                        selection.row !== virtualRow.index ||
-                        selection.col !== index
-                      ) {
-                        setHighlightFinished(false)
-                      }
-                    }}
-                    sizes={sizes}
-                  />
-                </TiltCard>
-              ))}
+              {rowItems.map((item, index) => {
+                const cardLayoutId =
+                  (modalIsOpening && item.id === selectedCard?.id) ||
+                  (modalIsClosing !== null && item.id === modalIsClosing)
+                    ? 'selected-card-image'
+                    : undefined
+
+                return (
+                  <motion.div
+                    key={`${item.id}_${index}`}
+                    layoutId={cardLayoutId}
+                  >
+                    <TiltCard className="h-full">
+                      <Card
+                        {...item}
+                        asButton={true}
+                        onClick={() => {
+                          setModalLayoutId('selected-card')
+                          setModalIsOpening(true)
+                          setModalIsClosing(null)
+                          setSelection({
+                            col: index,
+                            row: virtualRow.index,
+                            index: start + index
+                          })
+                          if (
+                            selection.row !== virtualRow.index ||
+                            selection.col !== index
+                          ) {
+                            setHighlightFinished(false)
+                          }
+                        }}
+                        sizes={sizes}
+                      />
+                    </TiltCard>
+                  </motion.div>
+                )
+              })}
             </div>
           )
         })}
         <motion.div
-          layoutId={
-            !modalIsOpening && highlightFinished && selectedCard
-              ? undefined
-              : 'selected-card'
-          }
+          layoutId={modalLayoutId}
           className="absolute bg-card rounded-[10px] md:rounded-[4.15%/2.98%] pointer-events-none z-0"
           onAnimationComplete={() => setHighlightFinished(true)}
           transition={{
@@ -199,6 +220,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
           highlightFinished && selectedCard ? {...selectedCard, sizes} : null
         }
         onClose={closeModalHandler}
+        onExitComplete={onExitComplete}
       >
         {highlightFinished && selectedCard && (
           <PokemonCardDetails
