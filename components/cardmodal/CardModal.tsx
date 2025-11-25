@@ -13,11 +13,34 @@ interface ImageModalProps {
   onClose: () => void
 }
 
+const BackgroundPattern: React.FC<Pick<ImageModalProps, 'onClose'>> = ({
+  onClose
+}) => (
+  <motion.div
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    transition={{duration: 0.3}}
+    className="fixed inset-0 z-50 bg-foreground/3 backdrop-blur-sm"
+    onClick={onClose}
+  >
+    <div
+      className="absolute inset-0 bg-foreground/3 mask-size-[30px_auto] mask-center mask-repeat"
+      style={{
+        maskImage: `url(\'data:image/svg+xml;utf8,${renderToString(
+          <PatternIcon />
+        )}\')`
+      }}
+    ></div>
+  </motion.div>
+)
+
 const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
   card,
   onClose,
   children
 }) => {
+  // prevent scrolling the body when modal is open
   useEffect(() => {
     if (!card) return
 
@@ -36,31 +59,15 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
     }
   }, [card])
 
-  const maskImage = `url(\'data:image/svg+xml;utf8,${renderToString(
-    <PatternIcon />
-  )}\')`
-
   return (
     <AnimatePresence>
       {card && (
         <>
+          <BackgroundPattern onClose={onClose} />
           <motion.div
-            initial={{opacity: 0}}
-            animate={{opacity: 1}}
-            exit={{opacity: 0}}
-            transition={{duration: 0.3}}
-            className="fixed inset-0 z-50 bg-foreground/3 backdrop-blur-sm"
-            onClick={onClose}
-          >
-            <div
-              className="absolute inset-0 bg-foreground/3 mask-size-[30px_auto] mask-center mask-repeat"
-              style={{
-                maskImage: maskImage
-              }}
-            ></div>
-          </motion.div>
-          <motion.div
-            layoutId={`card-${card.id}`}
+            // layoutId="selected-card"
+            // layoutId={`card-${card.id}`}
+            layoutId={card ? 'selected-card' : undefined}
             className="fixed left-1/2 top-1/2 z-50 w-full max-w-5xl -translate-x-1/2 -translate-y-1/2 px-6"
             onClick={e => e.stopPropagation()}
           >
@@ -77,7 +84,11 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
                       className="relative w-full h-full content-center"
                     >
                       <TiltCard>
-                        <Card {...card} inModal={true} />
+                        <Card
+                          {...card}
+                          inModal={true}
+                          enableLayoutIds={false}
+                        />
                       </TiltCard>
                     </motion.div>
                   </div>

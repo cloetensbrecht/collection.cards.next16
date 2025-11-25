@@ -19,6 +19,7 @@ import ReverseHolofoilPokeBall from './effects/ReverseHolofoilPokeBall'
 export type CardProps = {
   blurDataURL?: string
   edgeColor?: string
+  enableLayoutIds?: boolean
   focus?: {x: number; y: number}
   foil?: string
   glowColor?: string
@@ -40,6 +41,7 @@ export type CardProps = {
 const Card: React.FC<CardProps> = ({
   blurDataURL,
   edgeColor,
+  enableLayoutIds = true,
   focus,
   foil,
   glowColor,
@@ -107,7 +109,8 @@ const Card: React.FC<CardProps> = ({
   }
 
   const CardContainer = !inModal ? motion.button : 'div'
-  const cardContainerProps = !inModal ? {layoutId: `card-${id}`} : {}
+  const cardContainerProps =
+    !inModal && enableLayoutIds ? {layoutId: `card-${id}`} : {}
 
   return (
     <CardContainer
@@ -142,7 +145,7 @@ const Card: React.FC<CardProps> = ({
     >
       <motion.div
         className="relative w-full h-full"
-        layoutId={!inModal ? `card-image-${id}` : undefined}
+        layoutId={!inModal && enableLayoutIds ? `card-image-${id}` : undefined}
       >
         {src && (
           <Image

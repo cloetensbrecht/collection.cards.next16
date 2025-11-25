@@ -1,6 +1,7 @@
 'use client'
 
 import {useWindowVirtualizer} from '@tanstack/react-virtual'
+import {motion} from 'framer-motion'
 import {useEffect, useMemo, useRef, useState} from 'react'
 import Card, {CardProps} from '../card/Card'
 import CardModal from '../cardmodal/CardModal'
@@ -36,29 +37,23 @@ export type CardGridProps = {
 const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   const gridRef = useRef<HTMLDivElement>(null)
   const [windowWidth, setWindowWidth] = useState(0)
-  const [selectedCardIndex, setSelectedCardIndex] = useState<number | null>(
-    null
-  )
-  const selectedCard =
-    selectedCardIndex !== null ? cards[selectedCardIndex] : null
+  const [highlightFinished, setHighlightFinished] = useState(true)
+  const [modalIsOpening, setModalIsOpening] = useState(false)
+  const [selection, setSelection] = useState<{
+    col: number
+    row: number
+    index: number | null
+  }>({col: 0, row: 0, index: null})
+
+  const enableSharedImageLayout = modalIsOpening
+
+  const selectedCard = selection.index !== null ? cards[selection.index] : null
   const hasNextButton =
     selectedCard &&
-    selectedCardIndex !== null &&
-    selectedCardIndex < cards.length - 1
+    selection.index !== null &&
+    selection.index < cards.length - 1
   const hasPrevButton =
-    selectedCard && selectedCardIndex !== null && selectedCardIndex > 0
-
-  const nextHandler = hasNextButton
-    ? () => {
-        setSelectedCardIndex(prev => (prev !== null ? prev + 1 : 0))
-      }
-    : undefined
-  const prevHandler = hasPrevButton
-    ? () => {
-        setSelectedCardIndex(prev => (prev !== null ? prev - 1 : 0))
-      }
-    : undefined
-  const closeModalHandler = () => setSelectedCardIndex(null)
+    selectedCard && selection.index !== null && selection.index > 0
 
   // Track screen width for responsiveness
   useEffect(() => {
@@ -79,15 +74,45 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     overscan: 1
   })
 
+  const nextHandler = hasNextButton
+    ? () => {
+        setModalIsOpening(false)
+        const newSelectedIndex =
+          selection.index !== null ? selection.index + 1 : 0
+        setHighlightFinished(false)
+        setSelection({
+          col: newSelectedIndex % columnCount,
+          row: Math.floor(newSelectedIndex / columnCount),
+          index: newSelectedIndex
+        })
+      }
+    : undefined
+  const prevHandler = hasPrevButton
+    ? () => {
+        setModalIsOpening(false)
+        const newSelectedIndex =
+          selection.index !== null ? selection.index - 1 : 0
+        setHighlightFinished(false)
+        setSelection({
+          col: newSelectedIndex % columnCount,
+          row: Math.floor(newSelectedIndex / columnCount),
+          index: newSelectedIndex
+        })
+      }
+    : undefined
+  const closeModalHandler = () => {
+    setSelection(sel => ({...sel, index: null}))
+  }
+
+  // Scroll to selected card row
   useEffect(() => {
-    if (selectedCardIndex !== null) {
-      const rowIndex = Math.floor(selectedCardIndex / columnCount)
-      virtualizer.scrollToIndex(rowIndex, {
+    if (selection.index !== null && selection.row !== null) {
+      virtualizer.scrollToIndex(selection.row, {
         align: 'start',
         behavior: 'smooth'
       })
     }
-  }, [selectedCardIndex, columnCount, virtualizer])
+  }, [selection.row, selection.index, virtualizer])
 
   useEffect(() => {
     virtualizer.measure()
@@ -104,8 +129,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
         style={{height: virtualizer.getTotalSize() - gapSize}}
       >
         {virtualizer.getVirtualItems().map(virtualRow => {
-          const rowIndex = virtualRow.index
-          const start = rowIndex * columnCount
+          const start = virtualRow.index * columnCount
           const end = start + columnCount
           const rowItems = cards.slice(start, end)
 
@@ -125,7 +149,21 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
                 <TiltCard key={`${item.id}_${index}`} className="h-full">
                   <Card
                     {...item}
-                    onClick={() => setSelectedCardIndex(start + index)}
+                    enableLayoutIds={enableSharedImageLayout}
+                    onClick={() => {
+                      setModalIsOpening(true)
+                      setSelection({
+                        col: index,
+                        row: virtualRow.index,
+                        index: start + index
+                      })
+                      if (
+                        selection.row !== virtualRow.index ||
+                        selection.col !== index
+                      ) {
+                        setHighlightFinished(false)
+                      }
+                    }}
                     sizes={sizes}
                   />
                 </TiltCard>
@@ -133,12 +171,36 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
             </div>
           )
         })}
+        <motion.div
+          layoutId={
+            !modalIsOpening && highlightFinished && selectedCard
+              ? undefined
+              : 'selected-card'
+          }
+          className="absolute bg-card rounded-[10px] md:rounded-[4.15%/2.98%] pointer-events-none z-0"
+          onAnimationComplete={() => setHighlightFinished(true)}
+          transition={{
+            duration: selectedCard ? 0 : 0.3
+          }}
+          animate={{
+            top: (selection.row || 0) * rowHeight,
+            left:
+              (selection.col || 0) * columnWidth +
+              (selection.col || 0) * gapSize
+          }}
+          style={{
+            height: `${rowHeight - gapSize}px`,
+            width: columnWidth
+          }}
+        />
       </div>
       <CardModal
-        card={selectedCard ? {...selectedCard, sizes} : null}
+        card={
+          highlightFinished && selectedCard ? {...selectedCard, sizes} : null
+        }
         onClose={closeModalHandler}
       >
-        {selectedCard && (
+        {highlightFinished && selectedCard && (
           <PokemonCardDetails
             {...selectedCard}
             nextHandler={nextHandler}
