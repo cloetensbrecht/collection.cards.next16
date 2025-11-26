@@ -10,6 +10,10 @@ import PokemonCardDetails, {
 } from '../pokemoncarddetails/PokemonCardDetails'
 import {TiltCard} from '../tiltcard/TiltCard'
 
+const modalOpenDuration = 0.3 as const
+const modalPositioningDuration = 0 as const
+const modalCloseDuration = 0.3 as const
+
 const gapSize = 16
 const containerPadding = 48
 const sizes = `(max-width: 639px) calc(50vw - ${containerPadding}px - ${gapSize}px), (max-width: 676px) 187px, (max-width: 1023px) 230px, (max-width: 1279px) 232px,  (max-width: 1535px) 296px, 360px`
@@ -42,9 +46,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   >('closed')
   const [modalIsOpening, setModalIsOpening] = useState(false)
   const [modalIsClosing, setModalIsClosing] = useState<string | null>(null)
-  const [modalLayoutId, setModalLayoutId] = useState<string | undefined>(
-    'selected-card'
-  )
   const [selection, setSelection] = useState<{
     col: number
     row: number
@@ -57,8 +58,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   }>({col: 0, row: 0, index: null})
 
   const selectedCard = selection.index !== null ? cards[selection.index] : null
-  const nextSelectedCard =
-    nextSelection.index !== null ? cards[nextSelection.index] : null
   const hasNextButton =
     selectedCard &&
     selection.index !== null &&
@@ -87,32 +86,31 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
 
   const nextHandler = hasNextButton
     ? () => {
-        setModalLayoutId(undefined)
         setModalIsOpening(false)
-        const newSelectedIndex =
+        const newNextSelectedIndex =
           selection.index !== null ? selection.index + 1 : 0
         setNextSelection({
-          col: newSelectedIndex % columnCount,
-          row: Math.floor(newSelectedIndex / columnCount),
-          index: newSelectedIndex
+          col: newNextSelectedIndex % columnCount,
+          row: Math.floor(newNextSelectedIndex / columnCount),
+          index: newNextSelectedIndex
         })
       }
     : undefined
+
   const prevHandler = hasPrevButton
     ? () => {
-        setModalLayoutId(undefined)
         setModalIsOpening(false)
-        const newSelectedIndex =
+        const newNextSelectedIndex =
           selection.index !== null ? selection.index - 1 : 0
         setNextSelection({
-          col: newSelectedIndex % columnCount,
-          row: Math.floor(newSelectedIndex / columnCount),
-          index: newSelectedIndex
+          col: newNextSelectedIndex % columnCount,
+          row: Math.floor(newNextSelectedIndex / columnCount),
+          index: newNextSelectedIndex
         })
       }
     : undefined
+
   const closeModalHandler = () => {
-    setModalLayoutId('selected-card')
     setModalState('closing')
     setModalIsClosing(selectedCard?.id || null)
     setSelection(sel => ({...sel, index: null}))
@@ -185,7 +183,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
                         {...item}
                         asButton={true}
                         onClick={() => {
-                          setModalLayoutId('selected-card')
                           setModalIsOpening(true)
                           setModalIsClosing(null)
                           if (
@@ -218,23 +215,19 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
         })}
         {/** Position the modal to its start position */}
         <motion.div
-          layoutId={
-            'selected-card'
-            // ['closed', 'opening', 'closing', 'positioning'].includes(modalState)
-            //   ? 'selected-card'
-            //   : undefined
-          }
-          className="absolute bg-card rounded-[10px] md:rounded-[4.15%/2.98%] pointer-events-none z-50 bg-red-500"
+          layoutId="selected-card"
+          className="absolute bg-card rounded-[10px] md:rounded-[4.15%/2.98%] pointer-events-none z-0"
           onAnimationComplete={() => {
             // positioning finished, now open the modal
             if (modalState === 'positioning') setModalState('opening')
             setSelection(nextSelection)
           }}
-          onLayoutAnimationComplete={() => {
-            console.log('onLayoutAnimationComplete')
-          }}
           transition={{
-            duration: nextSelectedCard ? 0 : 0.3
+            duration: ['positioning', 'open'].includes(modalState)
+              ? modalPositioningDuration
+              : ['closing'].includes(modalState)
+              ? modalCloseDuration
+              : modalOpenDuration
           }}
           animate={{
             top: (nextSelection.row || 0) * rowHeight,
