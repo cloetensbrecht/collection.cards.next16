@@ -41,8 +41,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   const [modalState, setModalState] = useState<
     'positioning' | 'opening' | 'open' | 'closing' | 'closed'
   >('closed')
-  const [modalIsOpening, setModalIsOpening] = useState(false)
-  const [modalIsClosing, setModalIsClosing] = useState<string | null>(null)
   const [selection, setSelection] = useState<{
     col: number
     row: number
@@ -55,6 +53,8 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   }>({col: 0, row: 0, index: null})
 
   const selectedCard = selection.index !== null ? cards[selection.index] : null
+  const nextSelectedCard =
+    nextSelection.index !== null ? cards[nextSelection.index] : null
   const hasNextButton =
     selectedCard &&
     selection.index !== null &&
@@ -83,7 +83,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
 
   const nextHandler = hasNextButton
     ? () => {
-        setModalIsOpening(false)
         const newNextSelectedIndex =
           selection.index !== null ? selection.index + 1 : 0
         setNextSelection({
@@ -96,7 +95,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
 
   const prevHandler = hasPrevButton
     ? () => {
-        setModalIsOpening(false)
         const newNextSelectedIndex =
           selection.index !== null ? selection.index - 1 : 0
         setNextSelection({
@@ -109,15 +107,16 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
 
   const closeModalHandler = () => {
     setModalState('closing')
-    setModalIsClosing(selectedCard?.id || null)
     setSelection(sel => ({...sel, index: null}))
   }
 
   const onExitComplete = () => {
     setModalState('closed')
-    setSelection(sel => ({...sel, index: null}))
     setNextSelection(sel => ({...sel, index: null}))
-    setModalIsClosing(null)
+  }
+
+  const openModalHandler = () => {
+    if (modalState === 'opening') setModalState('open')
   }
 
   // Scroll to selected card row
@@ -170,8 +169,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
             >
               {rowItems.map((item, index) => {
                 const cardLayoutId =
-                  (modalIsOpening && item.id === selectedCard?.id) ||
-                  (modalIsClosing !== null && item.id === modalIsClosing)
+                  item.id === nextSelectedCard?.id
                     ? 'selected-card-image'
                     : undefined
 
@@ -185,8 +183,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
                         {...item}
                         asButton={true}
                         onClick={() => {
-                          setModalIsOpening(true)
-                          setModalIsClosing(null)
                           if (
                             selection.row !== virtualRow.index ||
                             selection.col !== index
@@ -229,10 +225,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
         card={selectedCard ? {...selectedCard, sizes} : null}
         onClose={closeModalHandler}
         onExitComplete={onExitComplete}
-        onOpen={() => {
-          console.log('onLayoutAnimationComplete onOpen')
-          if (modalState === 'opening') setModalState('open')
-        }}
+        onOpen={openModalHandler}
       >
         {selectedCard && (
           <PokemonCardDetails
