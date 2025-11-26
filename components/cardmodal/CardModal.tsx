@@ -46,9 +46,12 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
         <>
           <CardModalBackground onClose={onClose} />
           <motion.div
-            layoutId="selected-card"
+            layoutId="card-modal-placeholder"
             className="fixed left-1/2 top-1/2 z-50 w-full max-w-5xl -translate-x-1/2 -translate-y-1/2 px-6"
             onClick={e => e.stopPropagation()}
+            // onAnimationComplete={() => {
+            //   console.log('animation complete; open?')
+            // }}
             onLayoutAnimationComplete={onOpen}
           >
             <div className="relative rounded-lg bg-card shadow-lg overflow-hidden flex flex-col max-h-[90vh]">

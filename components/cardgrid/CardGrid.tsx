@@ -5,14 +5,11 @@ import {motion} from 'framer-motion'
 import {useEffect, useMemo, useRef, useState} from 'react'
 import Card, {CardProps} from '../card/Card'
 import CardModal from '../cardmodal/CardModal'
+import CardModalPlaceholder from '../cardmodal/CardModalPlaceholder'
 import PokemonCardDetails, {
   PokemonCardDetailsProps
 } from '../pokemoncarddetails/PokemonCardDetails'
 import {TiltCard} from '../tiltcard/TiltCard'
-
-const modalOpenDuration = 0.3
-const modalPositioningDuration = 0
-const modalCloseDuration = 0.3
 
 const gapSize = 16
 const containerPadding = 48
@@ -137,11 +134,16 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     virtualizer.measure()
   }, [rowHeight, columnCount, virtualizer])
 
-  console.log(modalState)
-
   if (cards.length === 0) return null
   if (windowWidth === 0) return <div className="h-screen" />
 
+  const onPlaceholderAnimationComplete = () => {
+    // positioning finished, now open the modal
+    if (modalState === 'positioning') setModalState('opening')
+    setSelection(nextSelection)
+  }
+
+  console.log(modalState)
   return (
     <>
       <div
@@ -213,32 +215,14 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
             </div>
           )
         })}
-        {/** Position the modal to its start position */}
-        <motion.div
-          layoutId="selected-card"
-          className="absolute bg-card rounded-[10px] md:rounded-[4.15%/2.98%] pointer-events-none z-0"
-          onAnimationComplete={() => {
-            // positioning finished, now open the modal
-            if (modalState === 'positioning') setModalState('opening')
-            setSelection(nextSelection)
-          }}
-          transition={{
-            duration: ['positioning', 'open'].includes(modalState)
-              ? modalPositioningDuration
-              : ['closing'].includes(modalState)
-              ? modalCloseDuration
-              : modalOpenDuration
-          }}
-          animate={{
-            top: (nextSelection.row || 0) * rowHeight,
-            left:
-              (nextSelection.col || 0) * columnWidth +
-              (nextSelection.col || 0) * gapSize
-          }}
-          style={{
-            height: `${rowHeight - gapSize}px`,
-            width: columnWidth
-          }}
+        <CardModalPlaceholder
+          columnWidth={columnWidth}
+          gapSize={gapSize}
+          modalState={modalState}
+          nextSelectionCol={nextSelection.col}
+          nextSelectionRow={nextSelection.row}
+          onAnimationComplete={onPlaceholderAnimationComplete}
+          rowHeight={rowHeight}
         />
       </div>
       <CardModal
@@ -246,6 +230,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
         onClose={closeModalHandler}
         onExitComplete={onExitComplete}
         onOpen={() => {
+          console.log('onLayoutAnimationComplete onOpen')
           if (modalState === 'opening') setModalState('open')
         }}
       >
