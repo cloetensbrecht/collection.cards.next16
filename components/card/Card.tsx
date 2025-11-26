@@ -23,7 +23,6 @@ export type CardProps = {
   foil?: string
   glowColor?: string
   id: string
-  inModal?: boolean
   isEx: boolean
   isFullArt: boolean
   isTrainerGallery: boolean
@@ -45,7 +44,6 @@ const Card: React.FC<CardProps> = ({
   foil,
   glowColor,
   id,
-  inModal,
   isEx,
   isFullArt,
   isTrainerGallery,

@@ -37,7 +37,9 @@ export type CardGridProps = {
 const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   const gridRef = useRef<HTMLDivElement>(null)
   const [windowWidth, setWindowWidth] = useState(0)
-  const [highlightFinished, setHighlightFinished] = useState(true)
+  const [modalState, setModalState] = useState<
+    'positioning' | 'opening' | 'open' | 'closing' | 'closed'
+  >('closed')
   const [modalIsOpening, setModalIsOpening] = useState(false)
   const [modalIsClosing, setModalIsClosing] = useState<string | null>(null)
   const [modalLayoutId, setModalLayoutId] = useState<string | undefined>(
@@ -48,8 +50,15 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     row: number
     index: number | null
   }>({col: 0, row: 0, index: null})
+  const [nextSelection, setNextSelection] = useState<{
+    col: number
+    row: number
+    index: number | null
+  }>({col: 0, row: 0, index: null})
 
   const selectedCard = selection.index !== null ? cards[selection.index] : null
+  const nextSelectedCard =
+    nextSelection.index !== null ? cards[nextSelection.index] : null
   const hasNextButton =
     selectedCard &&
     selection.index !== null &&
@@ -82,8 +91,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
         setModalIsOpening(false)
         const newSelectedIndex =
           selection.index !== null ? selection.index + 1 : 0
-        setHighlightFinished(false)
-        setSelection({
+        setNextSelection({
           col: newSelectedIndex % columnCount,
           row: Math.floor(newSelectedIndex / columnCount),
           index: newSelectedIndex
@@ -96,8 +104,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
         setModalIsOpening(false)
         const newSelectedIndex =
           selection.index !== null ? selection.index - 1 : 0
-        setHighlightFinished(false)
-        setSelection({
+        setNextSelection({
           col: newSelectedIndex % columnCount,
           row: Math.floor(newSelectedIndex / columnCount),
           index: newSelectedIndex
@@ -105,12 +112,16 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
       }
     : undefined
   const closeModalHandler = () => {
+    setModalLayoutId('selected-card')
+    setModalState('closing')
     setModalIsClosing(selectedCard?.id || null)
     setSelection(sel => ({...sel, index: null}))
   }
 
   const onExitComplete = () => {
+    setModalState('closed')
     setSelection(sel => ({...sel, index: null}))
+    setNextSelection(sel => ({...sel, index: null}))
     setModalIsClosing(null)
   }
 
@@ -127,6 +138,8 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   useEffect(() => {
     virtualizer.measure()
   }, [rowHeight, columnCount, virtualizer])
+
+  console.log(modalState)
 
   if (cards.length === 0) return null
   if (windowWidth === 0) return <div className="h-screen" />
@@ -175,17 +188,24 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
                           setModalLayoutId('selected-card')
                           setModalIsOpening(true)
                           setModalIsClosing(null)
-                          setSelection({
-                            col: index,
-                            row: virtualRow.index,
-                            index: start + index
-                          })
                           if (
                             selection.row !== virtualRow.index ||
                             selection.col !== index
                           ) {
-                            setHighlightFinished(false)
+                            setModalState('positioning')
+                          } else {
+                            setModalState('opening')
+                            setSelection({
+                              col: index,
+                              row: virtualRow.index,
+                              index: start + index
+                            })
                           }
+                          setNextSelection({
+                            col: index,
+                            row: virtualRow.index,
+                            index: start + index
+                          })
                         }}
                         sizes={sizes}
                       />
@@ -196,18 +216,31 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
             </div>
           )
         })}
+        {/** Position the modal to its start position */}
         <motion.div
-          layoutId={modalLayoutId}
-          className="absolute bg-card rounded-[10px] md:rounded-[4.15%/2.98%] pointer-events-none z-0"
-          onAnimationComplete={() => setHighlightFinished(true)}
+          layoutId={
+            'selected-card'
+            // ['closed', 'opening', 'closing', 'positioning'].includes(modalState)
+            //   ? 'selected-card'
+            //   : undefined
+          }
+          className="absolute bg-card rounded-[10px] md:rounded-[4.15%/2.98%] pointer-events-none z-50 bg-red-500"
+          onAnimationComplete={() => {
+            // positioning finished, now open the modal
+            if (modalState === 'positioning') setModalState('opening')
+            setSelection(nextSelection)
+          }}
+          onLayoutAnimationComplete={() => {
+            console.log('onLayoutAnimationComplete')
+          }}
           transition={{
-            duration: selectedCard ? 0 : 0.3
+            duration: nextSelectedCard ? 0 : 0.3
           }}
           animate={{
-            top: (selection.row || 0) * rowHeight,
+            top: (nextSelection.row || 0) * rowHeight,
             left:
-              (selection.col || 0) * columnWidth +
-              (selection.col || 0) * gapSize
+              (nextSelection.col || 0) * columnWidth +
+              (nextSelection.col || 0) * gapSize
           }}
           style={{
             height: `${rowHeight - gapSize}px`,
@@ -216,13 +249,14 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
         />
       </div>
       <CardModal
-        card={
-          highlightFinished && selectedCard ? {...selectedCard, sizes} : null
-        }
+        card={selectedCard ? {...selectedCard, sizes} : null}
         onClose={closeModalHandler}
         onExitComplete={onExitComplete}
+        onOpen={() => {
+          if (modalState === 'opening') setModalState('open')
+        }}
       >
-        {highlightFinished && selectedCard && (
+        {selectedCard && (
           <PokemonCardDetails
             {...selectedCard}
             nextHandler={nextHandler}
@@ -230,6 +264,9 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
           />
         )}
       </CardModal>
+      <div className="fixed bottom-4 right-4 text-sm z-50 bg-card">
+        {modalState}
+      </div>
     </>
   )
 }

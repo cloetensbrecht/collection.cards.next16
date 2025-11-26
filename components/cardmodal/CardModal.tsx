@@ -1,45 +1,24 @@
 'use client'
 
-import {Pattern as PatternIcon} from '@/icons/Pattern'
 import {AnimatePresence, motion} from 'framer-motion'
 import {PropsWithChildren, useEffect} from 'react'
 import Card, {CardProps} from '../card/Card'
 import CloseButton from '../closebutton/CloseButton'
 import {TiltCard} from '../tiltcard/TiltCard'
-const {renderToString} = await import('react-dom/server')
+import CardModalBackground from './CardModalBackground'
 
 interface ImageModalProps {
   card: CardProps | null
   onClose: () => void
   onExitComplete: () => void
+  onOpen: () => void
 }
-
-const BackgroundPattern: React.FC<Pick<ImageModalProps, 'onClose'>> = ({
-  onClose
-}) => (
-  <motion.div
-    initial={{opacity: 0}}
-    animate={{opacity: 1}}
-    exit={{opacity: 0}}
-    transition={{duration: 0.3}}
-    className="fixed inset-0 z-50 bg-foreground/3 backdrop-blur-sm"
-    onClick={onClose}
-  >
-    <div
-      className="absolute inset-0 bg-foreground/3 mask-size-[30px_auto] mask-center mask-repeat"
-      style={{
-        maskImage: `url(\'data:image/svg+xml;utf8,${renderToString(
-          <PatternIcon />
-        )}\')`
-      }}
-    ></div>
-  </motion.div>
-)
 
 const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
   card,
   onClose,
   onExitComplete,
+  onOpen,
   children
 }) => {
   // prevent scrolling the body when modal is open
@@ -65,11 +44,12 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
     <AnimatePresence onExitComplete={onExitComplete}>
       {card && (
         <>
-          <BackgroundPattern onClose={onClose} />
+          <CardModalBackground onClose={onClose} />
           <motion.div
             layoutId="selected-card"
             className="fixed left-1/2 top-1/2 z-50 w-full max-w-5xl -translate-x-1/2 -translate-y-1/2 px-6"
             onClick={e => e.stopPropagation()}
+            onLayoutAnimationComplete={onOpen}
           >
             <div className="relative rounded-lg bg-card shadow-lg overflow-hidden flex flex-col max-h-[90vh]">
               <CloseButton
@@ -84,7 +64,7 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
                       className="relative w-full h-full content-center"
                     >
                       <TiltCard>
-                        <Card {...card} inModal={true} />
+                        <Card {...card} />
                       </TiltCard>
                     </motion.div>
                   </div>
