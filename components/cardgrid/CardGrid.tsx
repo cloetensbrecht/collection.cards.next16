@@ -10,9 +10,9 @@ import PokemonCardDetails, {
 } from '../pokemoncarddetails/PokemonCardDetails'
 import {TiltCard} from '../tiltcard/TiltCard'
 
-const modalOpenDuration = 0.3 as const
-const modalPositioningDuration = 0 as const
-const modalCloseDuration = 0.3 as const
+const modalOpenDuration = 0.3
+const modalPositioningDuration = 0
+const modalCloseDuration = 0.3
 
 const gapSize = 16
 const containerPadding = 48
