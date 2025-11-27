@@ -1,7 +1,6 @@
 'use client'
 
 import {useWindowVirtualizer} from '@tanstack/react-virtual'
-import {motion} from 'framer-motion'
 import {useEffect, useMemo, useRef, useState} from 'react'
 import Card, {CardProps} from '../card/Card'
 import CardModal from '../cardmodal/CardModal'
@@ -31,8 +30,10 @@ function getColumnWidth(width: number, columnCount: number): number {
   return (1488 - gapWidth) / columnCount // desktop
 }
 
+type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
+
 export type CardGridProps = {
-  cards: (PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>)[]
+  cards: Card[]
 }
 
 const CardGrid: React.FC<CardGridProps> = ({cards}) => {
@@ -41,6 +42,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   const [modalState, setModalState] = useState<
     'positioning' | 'opening' | 'open' | 'closing' | 'closed'
   >('closed')
+  const [activeCard, setActiveCard] = useState<Card>(cards[0])
   const [selection, setSelection] = useState<{
     col: number
     row: number
@@ -53,14 +55,9 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   }>({col: 0, row: 0, index: null})
 
   const selectedCard = selection.index !== null ? cards[selection.index] : null
-  const nextSelectedCard =
-    nextSelection.index !== null ? cards[nextSelection.index] : null
-  const hasNextButton =
-    selectedCard &&
-    selection.index !== null &&
-    selection.index < cards.length - 1
-  const hasPrevButton =
-    selectedCard && selection.index !== null && selection.index > 0
+  const activeCardIndex = cards.findIndex(c => c.id === activeCard?.id)
+  const hasNextButton = activeCardIndex < cards.length - 1
+  const hasPrevButton = activeCardIndex > 0
 
   // Track screen width for responsiveness
   useEffect(() => {
@@ -85,6 +82,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     ? () => {
         const newNextSelectedIndex =
           selection.index !== null ? selection.index + 1 : 0
+        setActiveCard(cards[newNextSelectedIndex])
         setNextSelection({
           col: newNextSelectedIndex % columnCount,
           row: Math.floor(newNextSelectedIndex / columnCount),
@@ -97,6 +95,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     ? () => {
         const newNextSelectedIndex =
           selection.index !== null ? selection.index - 1 : 0
+        setActiveCard(cards[newNextSelectedIndex])
         setNextSelection({
           col: newNextSelectedIndex % columnCount,
           row: Math.floor(newNextSelectedIndex / columnCount),
@@ -142,7 +141,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     setSelection(nextSelection)
   }
 
-  console.log(modalState)
   return (
     <>
       <div
@@ -167,47 +165,39 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
                 height: `${rowHeight - gapSize}px`
               }}
             >
-              {rowItems.map((item, index) => {
-                const cardLayoutId =
-                  item.id === nextSelectedCard?.id
-                    ? 'selected-card-image'
-                    : undefined
-
-                return (
-                  <motion.div
-                    key={`${item.id}_${index}`}
-                    layoutId={cardLayoutId}
-                  >
-                    <TiltCard className="h-full">
-                      <Card
-                        {...item}
-                        asButton={true}
-                        onClick={() => {
-                          if (
-                            selection.row !== virtualRow.index ||
-                            selection.col !== index
-                          ) {
-                            setModalState('positioning')
-                          } else {
-                            setModalState('opening')
-                            setSelection({
-                              col: index,
-                              row: virtualRow.index,
-                              index: start + index
-                            })
-                          }
-                          setNextSelection({
-                            col: index,
-                            row: virtualRow.index,
-                            index: start + index
-                          })
-                        }}
-                        sizes={sizes}
-                      />
-                    </TiltCard>
-                  </motion.div>
-                )
-              })}
+              {rowItems.map((item, index) => (
+                <TiltCard className="h-full" key={`${item.id}_${index}`}>
+                  <Card
+                    {...item}
+                    isActive={
+                      modalState === 'open' && activeCard.id === item.id
+                    }
+                    asButton={true}
+                    onClick={() => {
+                      if (
+                        selection.row !== virtualRow.index ||
+                        selection.col !== index
+                      ) {
+                        setModalState('positioning')
+                      } else {
+                        setModalState('opening')
+                        setSelection({
+                          col: index,
+                          row: virtualRow.index,
+                          index: start + index
+                        })
+                      }
+                      setNextSelection({
+                        col: index,
+                        row: virtualRow.index,
+                        index: start + index
+                      })
+                      setActiveCard(item)
+                    }}
+                    sizes={sizes}
+                  />
+                </TiltCard>
+              ))}
             </div>
           )
         })}
@@ -219,6 +209,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
           nextSelectionRow={nextSelection.row}
           onAnimationComplete={onPlaceholderAnimationComplete}
           rowHeight={rowHeight}
+          card={{...activeCard, sizes}}
         />
       </div>
       <CardModal
@@ -235,9 +226,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
           />
         )}
       </CardModal>
-      <div className="fixed bottom-4 right-4 text-sm z-50 bg-card">
-        {modalState}
-      </div>
     </>
   )
 }

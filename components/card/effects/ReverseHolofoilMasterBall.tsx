@@ -1,21 +1,14 @@
-'use client'
-
 import Glare from '@/components/glare/Glare'
 import {cn} from '@/lib/utils'
-import {useState} from 'react'
 
 const ReverseHolofoilMasterBall: React.FC = () => {
-  const [seed] = useState<{x: number; y: number}>(() => ({
-    x: Math.random(),
-    y: Math.random()
-  }))
   return (
     <>
       <div
         style={
           {
-            '--seedx': seed.x,
-            '--seedy': seed.y
+            '--seedx': 0.1245729588912865,
+            '--seedy': 0.1245729588912865
           } as React.CSSProperties
         }
         className={cn(

@@ -18,18 +18,20 @@ import ReverseHolofoilPokeBall from './effects/ReverseHolofoilPokeBall'
 export type CardProps = {
   asButton?: boolean
   blurDataURL?: string
+  className?: string
   edgeColor?: string
   focus?: {x: number; y: number}
   foil?: string
   glowColor?: string
   id: string
+  isActive?: boolean
   isEx: boolean
   isFullArt: boolean
   isTrainerGallery: boolean
   mask?: string
   onClick?: () => void
   pattern?: keyof typeof reverseHolofoilPatterns | keyof typeof holofoilPatterns
-  rarity: keyof Rarity | OnErrorEventHandlerNonNull
+  rarity: keyof Rarity | null
   sizes: string
   src?: string
   title: string
@@ -39,11 +41,13 @@ export type CardProps = {
 const Card: React.FC<CardProps> = ({
   asButton,
   blurDataURL,
+  className,
   edgeColor,
   focus,
   foil,
   glowColor,
   id,
+  isActive,
   isEx,
   isFullArt,
   isTrainerGallery,
@@ -119,8 +123,15 @@ const Card: React.FC<CardProps> = ({
         glowColor
           ? 'focus:shadow-[0_0_3px_-1px_rgba(0,0,0,0),0_0_2px_1px_var(--card-edge),0_0_5px_var(--card-glow),0_10px_20px_-5px_#000,0_2px_15px_-5px_var(--card-glow),0_0_20px_var(--card-glow)]'
           : undefined,
+        isActive && glowColor
+          ? 'shadow-[0_0_3px_-1px_rgba(0,0,0,0),0_0_2px_1px_var(--card-edge),0_0_5px_var(--card-glow),0_10px_20px_-5px_#000,0_2px_15px_-5px_var(--card-glow),0_0_20px_var(--card-glow)]'
+          : undefined,
         'focus:outline-1 md:focus:outline-2 focus:outline-solid focus:outline-[var(--card-glow)]',
-        onClick ? 'cursor-pointer' : null
+        isActive && glowColor
+          ? 'outline-1 md:outline-2 outline-solid outline-[var(--card-glow)]'
+          : undefined,
+        onClick ? 'cursor-pointer' : null,
+        className
       )}
       onClick={onClick}
       style={
