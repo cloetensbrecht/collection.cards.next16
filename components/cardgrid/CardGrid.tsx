@@ -58,6 +58,10 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   const activeCardIndex = cards.findIndex(c => c.id === activeCard?.id)
   const hasNextButton = activeCardIndex < cards.length - 1
   const hasPrevButton = activeCardIndex > 0
+  const columnCount = useMemo(() => getColumnCount(windowWidth), [windowWidth])
+  const columnWidth = getColumnWidth(windowWidth, columnCount)
+  const rowHeight = Math.floor(columnWidth * (1024 / 733) + gapSize) // maintain 408:555 ratio
+  const rowCount = Math.ceil(cards.length / columnCount)
 
   // Track screen width for responsiveness
   useEffect(() => {
@@ -67,16 +71,28 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  const columnCount = useMemo(() => getColumnCount(windowWidth), [windowWidth])
-  const columnWidth = getColumnWidth(windowWidth, columnCount)
-  const rowHeight = Math.floor(columnWidth * (1024 / 733) + gapSize) // maintain 408:555 ratio
-  const rowCount = Math.ceil(cards.length / columnCount)
-
   const virtualizer = useWindowVirtualizer({
     count: rowCount,
     estimateSize: () => rowHeight,
     overscan: 1
   })
+
+  // Scroll to selected card row
+  useEffect(() => {
+    if (selection.index !== null && selection.row !== null) {
+      virtualizer.scrollToIndex(selection.row, {
+        align: 'start',
+        behavior: 'smooth'
+      })
+    }
+  }, [selection.row, selection.index, virtualizer])
+
+  useEffect(() => {
+    virtualizer.measure()
+  }, [rowHeight, columnCount, virtualizer])
+
+  if (cards.length === 0) return null
+  if (windowWidth === 0) return <div className="h-screen" />
 
   const nextHandler = hasNextButton
     ? () => {
@@ -117,23 +133,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   const openModalHandler = () => {
     if (modalState === 'opening') setModalState('open')
   }
-
-  // Scroll to selected card row
-  useEffect(() => {
-    if (selection.index !== null && selection.row !== null) {
-      virtualizer.scrollToIndex(selection.row, {
-        align: 'start',
-        behavior: 'smooth'
-      })
-    }
-  }, [selection.row, selection.index, virtualizer])
-
-  useEffect(() => {
-    virtualizer.measure()
-  }, [rowHeight, columnCount, virtualizer])
-
-  if (cards.length === 0) return null
-  if (windowWidth === 0) return <div className="h-screen" />
 
   const onPlaceholderAnimationComplete = () => {
     // positioning finished, now open the modal
