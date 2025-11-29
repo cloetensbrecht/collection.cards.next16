@@ -1,7 +1,7 @@
 'use client'
 
 import {useWindowVirtualizer} from '@tanstack/react-virtual'
-import {useEffect, useMemo, useRef, useState} from 'react'
+import {useCallback, useEffect, useMemo, useRef, useState} from 'react'
 import Card, {CardProps} from '../card/Card'
 import CardModal from '../cardmodal/CardModal'
 import CardModalPlaceholder from '../cardmodal/CardModalPlaceholder'
@@ -97,54 +97,52 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     virtualizer.measure()
   }, [rowHeight, columnCount, virtualizer])
 
-  if (cards.length === 0) return null
-  if (windowWidth === 0) return <div className="h-screen" />
+  const nextHandler = useCallback(() => {
+    if (!hasNextButton) return
+    const newNextSelectedIndex =
+      selection.index !== null ? selection.index + 1 : 0
+    setActiveCard(cards[newNextSelectedIndex])
+    setNextSelection({
+      col: newNextSelectedIndex % columnCount,
+      row: Math.floor(newNextSelectedIndex / columnCount),
+      index: newNextSelectedIndex
+    })
+  }, [hasNextButton, selection.index, cards, columnCount])
 
-  const nextHandler = hasNextButton
-    ? () => {
-        const newNextSelectedIndex =
-          selection.index !== null ? selection.index + 1 : 0
-        setActiveCard(cards[newNextSelectedIndex])
-        setNextSelection({
-          col: newNextSelectedIndex % columnCount,
-          row: Math.floor(newNextSelectedIndex / columnCount),
-          index: newNextSelectedIndex
-        })
-      }
-    : undefined
+  const prevHandler = useCallback(() => {
+    if (!hasPrevButton) return
+    const newNextSelectedIndex =
+      selection.index !== null ? selection.index - 1 : 0
+    setActiveCard(cards[newNextSelectedIndex])
+    setNextSelection({
+      col: newNextSelectedIndex % columnCount,
+      row: Math.floor(newNextSelectedIndex / columnCount),
+      index: newNextSelectedIndex
+    })
+  }, [hasPrevButton, selection.index, cards, columnCount])
 
-  const prevHandler = hasPrevButton
-    ? () => {
-        const newNextSelectedIndex =
-          selection.index !== null ? selection.index - 1 : 0
-        setActiveCard(cards[newNextSelectedIndex])
-        setNextSelection({
-          col: newNextSelectedIndex % columnCount,
-          row: Math.floor(newNextSelectedIndex / columnCount),
-          index: newNextSelectedIndex
-        })
-      }
-    : undefined
-
-  const onCloseModalHandler = () => {
+  const onCloseModalHandler = useCallback(() => {
     setModalState('closing')
     setSelection(sel => ({...sel, index: null}))
-  }
+  }, [])
 
-  const onExitCompleteHandler = () => {
+  const onExitCompleteHandler = useCallback(() => {
     setModalState('closed')
     setNextSelection(sel => ({...sel, index: null}))
-  }
+  }, [])
 
-  const onOpenModalHandler = () => {
+  const onOpenModalHandler = useCallback(() => {
     if (modalState === 'opening') setModalState('open')
-  }
+  }, [modalState])
 
-  const onPlaceholderAnimationCompleteHandler = () => {
+  const onPlaceholderAnimationCompleteHandler = useCallback(() => {
     // positioning the placeholder finished, open the modal
     if (modalState === 'positioning') setModalState('opening')
     setSelection(nextSelection)
-  }
+  }, [modalState, nextSelection])
+
+  if (cards.length === 0) return null
+  if (windowWidth === 0) return <div className="h-screen" />
 
   return (
     <>
