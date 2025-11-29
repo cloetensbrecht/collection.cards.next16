@@ -1,7 +1,14 @@
 'use client'
 
 import {useWindowVirtualizer} from '@tanstack/react-virtual'
-import {useCallback, useEffect, useMemo, useRef, useState} from 'react'
+import {
+  useCallback,
+  useEffect,
+  useEffectEvent,
+  useMemo,
+  useRef,
+  useState
+} from 'react'
 import Card, {CardProps} from '../card/Card'
 import CardModal from '../cardmodal/CardModal'
 import CardModalPlaceholder from '../cardmodal/CardModalPlaceholder'
@@ -36,44 +43,79 @@ export type CardGridProps = {
   cards: Card[]
 }
 
+type State = {
+  currentColumn: number
+  currentRow: number
+  currentIndex: number
+  nextColumn: number | null
+  nextRow: number | null
+  nextIndex: number | null
+  status:
+    | 'scrolling'
+    | 'positioning'
+    | 'opening'
+    | 'open'
+    | 'closing'
+    | 'closed'
+}
+
 const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   const gridRef = useRef<HTMLDivElement>(null)
   const [windowWidth, setWindowWidth] = useState(0)
-  const [modalState, setModalState] = useState<
-    'positioning' | 'opening' | 'open' | 'closing' | 'closed'
-  >('closed')
-  const [activeCard, setActiveCard] = useState<Card>(cards[0])
-  const [selection, setSelection] = useState<{
-    col: number
-    row: number
-    index: number | null
-  }>({col: 0, row: 0, index: null})
-  const [nextSelection, setNextSelection] = useState<{
-    col: number
-    row: number
-    index: number | null
-  }>({col: 0, row: 0, index: null})
+  const [state, setState] = useState<State>({
+    currentColumn: 0,
+    currentRow: 0,
+    currentIndex: 0,
+    nextColumn: null,
+    nextRow: null,
+    nextIndex: null,
+    status: 'closed'
+  })
 
-  const selectedCard = useMemo(
-    () => (selection.index !== null ? cards[selection.index] : null),
-    [selection.index, cards]
-  )
-  const activeCardIndex = useMemo(
-    () => cards.findIndex(c => c.id === activeCard?.id),
-    [activeCard, cards]
-  )
+  const currentCard = cards[state.currentIndex]
+  const extendedCard = useMemo(() => ({...currentCard, sizes}), [currentCard])
   const columnCount = useMemo(() => getColumnCount(windowWidth), [windowWidth])
   const columnWidth = getColumnWidth(windowWidth, columnCount)
   const rowHeight = Math.floor(columnWidth * (1024 / 733) + gapSize) // maintain 408:555 ratio
   const rowCount = Math.ceil(cards.length / columnCount)
-  const hasNextButton = activeCardIndex < cards.length - 1
-  const hasPrevButton = activeCardIndex > 0
+  const hasNextButton = state.currentIndex < cards.length - 1
+  const hasPrevButton = state.currentIndex > 0
 
   const virtualizer = useWindowVirtualizer({
     count: rowCount,
     estimateSize: () => rowHeight,
     overscan: 1
   })
+
+  const scrollToRow = useCallback(
+    (rowIndex: number) => {
+      virtualizer.scrollToIndex(rowIndex, {
+        align: 'start',
+        behavior: 'smooth'
+      })
+    },
+    [virtualizer]
+  )
+
+  const handleScrolling = useEffectEvent(() => {
+    // scroll to the correct row if not there already
+    if (state.nextRow && state.currentRow !== state.nextRow) {
+      scrollToRow(state.nextRow)
+    }
+    setState(s => ({...s, status: 'positioning'}))
+  })
+
+  useEffect(() => {
+    switch (state.status) {
+      case 'scrolling':
+        handleScrolling()
+        break
+      case 'open':
+        if (state.nextRow !== null && state.currentRow !== state.nextRow)
+          scrollToRow(state.nextRow)
+        break
+    }
+  }, [state, scrollToRow])
 
   // Track screen width for responsiveness
   useEffect(() => {
@@ -83,63 +125,68 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  // Scroll to selected card row
-  useEffect(() => {
-    if (selection.index !== null && selection.row !== null) {
-      virtualizer.scrollToIndex(selection.row, {
-        align: 'start',
-        behavior: 'smooth'
-      })
-    }
-  }, [selection.row, selection.index, virtualizer])
-
   useEffect(() => {
     virtualizer.measure()
   }, [rowHeight, columnCount, virtualizer])
 
   const nextHandler = useCallback(() => {
-    if (!hasNextButton) return
     const newNextSelectedIndex =
-      selection.index !== null ? selection.index + 1 : 0
-    setActiveCard(cards[newNextSelectedIndex])
-    setNextSelection({
-      col: newNextSelectedIndex % columnCount,
-      row: Math.floor(newNextSelectedIndex / columnCount),
-      index: newNextSelectedIndex
-    })
-  }, [hasNextButton, selection.index, cards, columnCount])
+      state.currentIndex !== null ? state.currentIndex + 1 : 0
+    setState(s => ({
+      ...s,
+      nextColumn: newNextSelectedIndex % columnCount,
+      nextRow: Math.floor(newNextSelectedIndex / columnCount),
+      nextIndex: newNextSelectedIndex,
+      status: 'open'
+    }))
+  }, [state.currentIndex, columnCount])
 
   const prevHandler = useCallback(() => {
-    if (!hasPrevButton) return
     const newNextSelectedIndex =
-      selection.index !== null ? selection.index - 1 : 0
-    setActiveCard(cards[newNextSelectedIndex])
-    setNextSelection({
-      col: newNextSelectedIndex % columnCount,
-      row: Math.floor(newNextSelectedIndex / columnCount),
-      index: newNextSelectedIndex
-    })
-  }, [hasPrevButton, selection.index, cards, columnCount])
+      state.currentIndex !== null ? state.currentIndex - 1 : 0
+    setState(s => ({
+      ...s,
+      nextColumn: newNextSelectedIndex % columnCount,
+      nextRow: Math.floor(newNextSelectedIndex / columnCount),
+      nextIndex: newNextSelectedIndex,
+      status: 'open'
+    }))
+  }, [state.currentIndex, columnCount])
 
   const onCloseModalHandler = useCallback(() => {
-    setModalState('closing')
-    setSelection(sel => ({...sel, index: null}))
+    setState(s => ({
+      ...s,
+      status: 'closing'
+    }))
   }, [])
 
   const onExitCompleteHandler = useCallback(() => {
-    setModalState('closed')
-    setNextSelection(sel => ({...sel, index: null}))
+    setState(s => ({
+      ...s,
+      status: 'closed'
+    }))
   }, [])
 
   const onOpenModalHandler = useCallback(() => {
-    if (modalState === 'opening') setModalState('open')
-  }, [modalState])
+    setState(s => ({
+      ...s,
+      status: s.status === 'opening' ? 'open' : s.status
+    }))
+  }, [])
 
   const onPlaceholderAnimationCompleteHandler = useCallback(() => {
-    // positioning the placeholder finished, open the modal
-    if (modalState === 'positioning') setModalState('opening')
-    setSelection(nextSelection)
-  }, [modalState, nextSelection])
+    console.log('onPlaceholderAnimationCompleteHandler', state.status)
+    if (state.status !== 'closed') {
+      // positioning the placeholder finished, open the modal
+      setState(s => ({
+        ...s,
+        currentColumn: s.nextColumn!,
+        currentRow: s.nextRow!,
+        currentIndex: s.nextIndex!,
+        status: s.status === 'positioning' ? 'opening' : s.status
+      }))
+    }
+  }, [state.status])
 
   if (cards.length === 0) return null
   if (windowWidth === 0) return <div className="h-screen" />
@@ -156,30 +203,20 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
           const end = start + columnCount
           const rowItems = cards.slice(start, end)
           const onClickHandler = (column: number) => {
-            if (
-              selection.row !== virtualRow.index ||
-              selection.col !== column
-            ) {
-              setModalState('positioning')
-            } else {
-              setModalState('opening')
-              setSelection({
-                col: column,
-                row: virtualRow.index,
-                index: start + column
-              })
-            }
-            setNextSelection({
-              col: column,
-              row: virtualRow.index,
-              index: start + column
-            })
-            setActiveCard(rowItems[column])
+            setState(s => ({
+              ...s,
+              nextColumn: column,
+              nextRow: virtualRow.index,
+              nextIndex: start + column,
+              status: 'scrolling'
+            }))
           }
 
           return (
             <CardGridRow
-              activeCardId={modalState === 'open' ? activeCard.id : undefined}
+              activeCardId={
+                state.status === 'open' ? currentCard.id : undefined
+              }
               cards={rowItems}
               cardSizes={sizes}
               columns={columnCount}
@@ -193,25 +230,33 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
         <CardModalPlaceholder
           columnWidth={columnWidth}
           gapSize={gapSize}
-          modalState={modalState}
-          nextSelectionCol={nextSelection.col}
-          nextSelectionRow={nextSelection.row}
+          modalState={state.status}
+          nextSelectionCol={
+            state.nextColumn !== null ? state.nextColumn : state.currentColumn
+          }
+          nextSelectionRow={
+            state.nextRow !== null ? state.nextRow : state.currentRow
+          }
           onAnimationComplete={onPlaceholderAnimationCompleteHandler}
           rowHeight={rowHeight}
-          card={{...activeCard, sizes}}
+          card={extendedCard}
         />
       </div>
       <CardModal
-        card={selectedCard ? {...selectedCard, sizes} : null}
+        card={
+          ['opening', 'open'].includes(state.status) && currentCard
+            ? extendedCard
+            : null
+        }
         onClose={onCloseModalHandler}
         onExitComplete={onExitCompleteHandler}
         onOpen={onOpenModalHandler}
       >
-        {selectedCard && (
+        {currentCard && (
           <PokemonCardDetails
-            {...selectedCard}
-            nextHandler={nextHandler}
-            prevHandler={prevHandler}
+            {...currentCard}
+            nextHandler={hasNextButton ? nextHandler : undefined}
+            prevHandler={hasPrevButton ? prevHandler : undefined}
           />
         )}
       </CardModal>
