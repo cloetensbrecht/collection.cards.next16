@@ -164,39 +164,43 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
                 height: `${rowHeight - gapSize}px`
               }}
             >
-              {rowItems.map((item, index) => (
-                <TiltCard className="h-full" key={`${item.id}_${index}`}>
-                  <Card
-                    {...item}
-                    isActive={
-                      modalState === 'open' && activeCard.id === item.id
-                    }
-                    asButton={true}
-                    onClick={() => {
-                      if (
-                        selection.row !== virtualRow.index ||
-                        selection.col !== index
-                      ) {
-                        setModalState('positioning')
-                      } else {
-                        setModalState('opening')
-                        setSelection({
-                          col: index,
-                          row: virtualRow.index,
-                          index: start + index
-                        })
-                      }
-                      setNextSelection({
-                        col: index,
-                        row: virtualRow.index,
-                        index: start + index
-                      })
-                      setActiveCard(item)
-                    }}
-                    sizes={sizes}
-                  />
-                </TiltCard>
-              ))}
+              {rowItems.map((item, column) => {
+                const isActiveCard =
+                  modalState === 'open' && activeCard.id === item.id
+                const onClickHandler = () => {
+                  if (
+                    selection.row !== virtualRow.index ||
+                    selection.col !== column
+                  ) {
+                    setModalState('positioning')
+                  } else {
+                    setModalState('opening')
+                    setSelection({
+                      col: column,
+                      row: virtualRow.index,
+                      index: start + column
+                    })
+                  }
+                  setNextSelection({
+                    col: column,
+                    row: virtualRow.index,
+                    index: start + column
+                  })
+                  setActiveCard(item)
+                }
+
+                return (
+                  <TiltCard className="h-full" key={`${item.id}_${column}`}>
+                    <Card
+                      {...item}
+                      isActive={isActiveCard}
+                      asButton={true}
+                      onClick={onClickHandler}
+                      sizes={sizes}
+                    />
+                  </TiltCard>
+                )
+              })}
             </div>
           )
         })}
