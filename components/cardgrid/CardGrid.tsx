@@ -54,14 +54,26 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     index: number | null
   }>({col: 0, row: 0, index: null})
 
-  const selectedCard = selection.index !== null ? cards[selection.index] : null
-  const activeCardIndex = cards.findIndex(c => c.id === activeCard?.id)
-  const hasNextButton = activeCardIndex < cards.length - 1
-  const hasPrevButton = activeCardIndex > 0
+  const selectedCard = useMemo(
+    () => (selection.index !== null ? cards[selection.index] : null),
+    [selection.index, cards]
+  )
+  const activeCardIndex = useMemo(
+    () => cards.findIndex(c => c.id === activeCard?.id),
+    [activeCard, cards]
+  )
   const columnCount = useMemo(() => getColumnCount(windowWidth), [windowWidth])
   const columnWidth = getColumnWidth(windowWidth, columnCount)
   const rowHeight = Math.floor(columnWidth * (1024 / 733) + gapSize) // maintain 408:555 ratio
   const rowCount = Math.ceil(cards.length / columnCount)
+  const hasNextButton = activeCardIndex < cards.length - 1
+  const hasPrevButton = activeCardIndex > 0
+
+  const virtualizer = useWindowVirtualizer({
+    count: rowCount,
+    estimateSize: () => rowHeight,
+    overscan: 1
+  })
 
   // Track screen width for responsiveness
   useEffect(() => {
@@ -70,12 +82,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
   }, [])
-
-  const virtualizer = useWindowVirtualizer({
-    count: rowCount,
-    estimateSize: () => rowHeight,
-    overscan: 1
-  })
 
   // Scroll to selected card row
   useEffect(() => {
