@@ -4,7 +4,7 @@ import {AnimatePresence, motion} from 'framer-motion'
 import {PropsWithChildren, useEffect} from 'react'
 import Card, {CardProps} from '../card/Card'
 import CloseButton from '../closebutton/CloseButton'
-import {TiltCard} from '../tiltcard/TiltCard'
+import TiltCard from '../tiltcard/TiltCard'
 import CardModalBackground from './CardModalBackground'
 
 interface ImageModalProps {

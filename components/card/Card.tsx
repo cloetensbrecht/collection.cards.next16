@@ -3,6 +3,7 @@ import {Rarity} from '@/consts/rarity'
 import {variant} from '@/consts/variant'
 import {cn} from '@/lib/utils'
 import Image from 'next/image'
+import {memo} from 'react'
 import Glare from '../glare/Glare'
 import Holofoil from './effects/Holofoil'
 import HolofoilBlackWhiteRare from './effects/HolofoilBlackWhiteRare'
@@ -174,4 +175,4 @@ const Card: React.FC<CardProps> = ({
   )
 }
 
-export default Card
+export default memo(Card)

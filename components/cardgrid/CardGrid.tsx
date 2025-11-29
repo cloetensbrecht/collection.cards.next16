@@ -8,7 +8,7 @@ import CardModalPlaceholder from '../cardmodal/CardModalPlaceholder'
 import PokemonCardDetails, {
   PokemonCardDetailsProps
 } from '../pokemoncarddetails/PokemonCardDetails'
-import {TiltCard} from '../tiltcard/TiltCard'
+import CardGridRow from './CardGridRow'
 
 const gapSize = 16
 const containerPadding = 48
@@ -157,57 +157,39 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
           const start = virtualRow.index * columnCount
           const end = start + columnCount
           const rowItems = cards.slice(start, end)
+          const onClickHandler = (column: number) => {
+            if (
+              selection.row !== virtualRow.index ||
+              selection.col !== column
+            ) {
+              setModalState('positioning')
+            } else {
+              setModalState('opening')
+              setSelection({
+                col: column,
+                row: virtualRow.index,
+                index: start + column
+              })
+            }
+            setNextSelection({
+              col: column,
+              row: virtualRow.index,
+              index: start + column
+            })
+            setActiveCard(rowItems[column])
+          }
 
           return (
-            <div
+            <CardGridRow
+              activeCardId={modalState === 'open' ? activeCard.id : undefined}
+              cards={rowItems}
+              cardSizes={sizes}
+              columns={columnCount}
+              height={rowHeight - gapSize}
               key={virtualRow.key}
-              className={
-                'absolute top-0 left-0 grid w-full gap-4 z-1 hover:z-[10]'
-              }
-              style={{
-                transform: `translateY(${virtualRow.start}px)`,
-                gridTemplateColumns: `repeat(${columnCount}, 1fr)`,
-                height: `${rowHeight - gapSize}px`
-              }}
-            >
-              {rowItems.map((item, column) => {
-                const isActiveCard =
-                  modalState === 'open' && activeCard.id === item.id
-                const onClickHandler = () => {
-                  if (
-                    selection.row !== virtualRow.index ||
-                    selection.col !== column
-                  ) {
-                    setModalState('positioning')
-                  } else {
-                    setModalState('opening')
-                    setSelection({
-                      col: column,
-                      row: virtualRow.index,
-                      index: start + column
-                    })
-                  }
-                  setNextSelection({
-                    col: column,
-                    row: virtualRow.index,
-                    index: start + column
-                  })
-                  setActiveCard(item)
-                }
-
-                return (
-                  <TiltCard className="h-full" key={`${item.id}_${column}`}>
-                    <Card
-                      {...item}
-                      isActive={isActiveCard}
-                      asButton={true}
-                      onClick={onClickHandler}
-                      sizes={sizes}
-                    />
-                  </TiltCard>
-                )
-              })}
-            </div>
+              onClickHandler={onClickHandler}
+              virtualRow={virtualRow}
+            />
           )
         })}
         <CardModalPlaceholder

@@ -1,7 +1,7 @@
 import {motion} from 'framer-motion'
 import {memo} from 'react'
 import Card, {CardProps} from '../card/Card'
-import {TiltCard} from '../tiltcard/TiltCard'
+import TiltCard from '../tiltcard/TiltCard'
 
 const modalOpenDuration = 0.3
 const modalPositioningDuration = 0

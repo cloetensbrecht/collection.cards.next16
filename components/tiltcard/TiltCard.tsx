@@ -4,7 +4,7 @@ import type React from 'react'
 
 import {adjust} from '@/lib/math'
 import {cn} from '@/lib/utils'
-import {useRef, type ReactNode} from 'react'
+import {memo, useRef, type ReactNode} from 'react'
 
 interface TiltCardProps {
   children: ReactNode
@@ -15,14 +15,14 @@ interface TiltCardProps {
   transitionSpeed?: number
 }
 
-export function TiltCard({
+const TiltCard: React.FC<TiltCardProps> = ({
   children,
   className,
   tiltMaxAngle = 15,
   tiltReverse = false,
   scale = 1.05,
   transitionSpeed = 400
-}: TiltCardProps) {
+}) => {
   const cardRef = useRef<HTMLDivElement>(null)
   const rafRef = useRef<number | null>(null)
 
@@ -31,9 +31,7 @@ export function TiltCard({
     if (!card) return
 
     // Cancel any pending RAF to prevent multiple updates per frame
-    if (rafRef.current) {
-      cancelAnimationFrame(rafRef.current)
-    }
+    if (rafRef.current) cancelAnimationFrame(rafRef.current)
 
     rafRef.current = requestAnimationFrame(() => {
       const rect = card.getBoundingClientRect()
@@ -131,3 +129,5 @@ export function TiltCard({
     </div>
   )
 }
+
+export default memo(TiltCard)
