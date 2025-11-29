@@ -120,22 +120,22 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
       }
     : undefined
 
-  const closeModalHandler = () => {
+  const onCloseModalHandler = () => {
     setModalState('closing')
     setSelection(sel => ({...sel, index: null}))
   }
 
-  const onExitComplete = () => {
+  const onExitCompleteHandler = () => {
     setModalState('closed')
     setNextSelection(sel => ({...sel, index: null}))
   }
 
-  const openModalHandler = () => {
+  const onOpenModalHandler = () => {
     if (modalState === 'opening') setModalState('open')
   }
 
-  const onPlaceholderAnimationComplete = () => {
-    // positioning finished, now open the modal
+  const onPlaceholderAnimationCompleteHandler = () => {
+    // positioning the placeholder finished, open the modal
     if (modalState === 'positioning') setModalState('opening')
     setSelection(nextSelection)
   }
@@ -210,16 +210,16 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
           modalState={modalState}
           nextSelectionCol={nextSelection.col}
           nextSelectionRow={nextSelection.row}
-          onAnimationComplete={onPlaceholderAnimationComplete}
+          onAnimationComplete={onPlaceholderAnimationCompleteHandler}
           rowHeight={rowHeight}
           card={{...activeCard, sizes}}
         />
       </div>
       <CardModal
         card={selectedCard ? {...selectedCard, sizes} : null}
-        onClose={closeModalHandler}
-        onExitComplete={onExitComplete}
-        onOpen={openModalHandler}
+        onClose={onCloseModalHandler}
+        onExitComplete={onExitCompleteHandler}
+        onOpen={onOpenModalHandler}
       >
         {selectedCard && (
           <PokemonCardDetails
