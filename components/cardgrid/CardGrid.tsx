@@ -105,10 +105,26 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     setState(s => ({...s, status: 'positioning'}))
   })
 
+  const handlePositioning = useEffectEvent(() => {
+    if (
+      state.currentRow === state.nextRow &&
+      state.currentColumn === state.nextColumn
+    ) {
+      // already in position, skip to opening
+      setState(s => ({
+        ...s,
+        status: 'opening'
+      }))
+    }
+  })
+
   useEffect(() => {
     switch (state.status) {
       case 'scrolling':
         handleScrolling()
+        break
+      case 'positioning':
+        handlePositioning()
         break
       case 'open':
         if (state.nextRow !== null && state.currentRow !== state.nextRow)
