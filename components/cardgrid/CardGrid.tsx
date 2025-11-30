@@ -50,13 +50,7 @@ type State = {
   nextColumn: number | null
   nextRow: number | null
   nextIndex: number | null
-  status:
-    | 'scrolling'
-    | 'positioning'
-    | 'opening'
-    | 'open'
-    | 'closing'
-    | 'closed'
+  status: 'positioning' | 'opening' | 'open' | 'closing' | 'closed'
 }
 
 const CardGrid: React.FC<CardGridProps> = ({cards}) => {
@@ -97,14 +91,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     [virtualizer]
   )
 
-  const handleScrolling = useEffectEvent(() => {
-    // scroll to the correct row if not there already
-    if (state.nextRow && state.currentRow !== state.nextRow) {
-      scrollToRow(state.nextRow)
-    }
-    setState(s => ({...s, status: 'positioning'}))
-  })
-
   const handlePositioning = useEffectEvent(() => {
     if (
       state.currentRow === state.nextRow &&
@@ -120,9 +106,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
 
   useEffect(() => {
     switch (state.status) {
-      case 'scrolling':
-        handleScrolling()
-        break
       case 'positioning':
         handlePositioning()
         break
@@ -224,7 +207,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
               nextColumn: column,
               nextRow: virtualRow.index,
               nextIndex: start + column,
-              status: 'scrolling'
+              status: 'positioning'
             }))
           }
 

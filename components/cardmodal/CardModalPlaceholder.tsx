@@ -7,13 +7,7 @@ const modalOpenDuration = 0.3
 const modalPositioningDuration = 0
 const modalCloseDuration = 0.3
 
-type ModalState =
-  | 'scrolling'
-  | 'positioning'
-  | 'opening'
-  | 'open'
-  | 'closing'
-  | 'closed'
+type ModalState = 'positioning' | 'opening' | 'open' | 'closing' | 'closed'
 
 type CardModalPlaceholderProps = {
   card: CardProps | null
@@ -41,7 +35,7 @@ const CardModalPlaceholder: React.FC<CardModalPlaceholderProps> = ({
     className="absolute bg-card rounded-[10px] md:rounded-[4.15%/2.98%] pointer-events-none z-0"
     onAnimationComplete={onAnimationComplete}
     transition={{
-      duration: ['scrolling', 'positioning', 'open'].includes(modalState)
+      duration: ['positioning', 'open'].includes(modalState)
         ? modalPositioningDuration
         : ['closing'].includes(modalState)
         ? modalCloseDuration
