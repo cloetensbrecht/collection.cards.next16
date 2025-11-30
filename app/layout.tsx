@@ -7,6 +7,7 @@ import {Analytics} from '@vercel/analytics/next'
 import {SpeedInsights} from '@vercel/speed-insights/next'
 import type {Metadata} from 'next'
 import {Geist, Geist_Mono} from 'next/font/google'
+import {NuqsAdapter} from 'nuqs/adapters/next/app'
 import {Toaster} from 'sonner'
 import './globals.css'
 
@@ -46,7 +47,7 @@ export default function RootLayout({
         >
           <Header />
           <div className="flex flex-col items-center justify-center font-sans pb-12 md:pb-18 lg:pb-24 bg-linear-to-b from-zinc-50 to-background dark:from-zinc-900">
-            {children}
+            <NuqsAdapter>{children}</NuqsAdapter>
           </div>
           <ScrollToTop />
           <Toaster />

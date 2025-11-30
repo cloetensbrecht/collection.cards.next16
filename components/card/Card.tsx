@@ -1,4 +1,5 @@
 import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/effect'
+import {energy} from '@/consts/energy'
 import {Rarity} from '@/consts/rarity'
 import {variant} from '@/consts/variant'
 import {cn} from '@/lib/utils'
@@ -20,6 +21,7 @@ export type CardProps = {
   asButton?: boolean
   blurDataURL?: string
   className?: string
+  energy: keyof typeof energy | null
   edgeColor?: string
   focus?: {x: number; y: number}
   foil?: string

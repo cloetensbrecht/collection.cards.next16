@@ -6,6 +6,7 @@ import {PokemonSet} from '@/alinea/schemas/PokemonSet'
 import {cms} from '@/cms'
 import CardGrid, {CardGridProps} from '@/components/cardgrid/CardGrid'
 import Container from '@/components/container/Container'
+import PokemonSetOverview from '@/components/pokemonsetoverview/PokemonSetOverview'
 import {Title} from '@/components/title/Title'
 import {blurDataURL} from '@/lib/blurDataURL'
 import {Query} from 'alinea'
@@ -37,6 +38,7 @@ const fetchSetData = async (url: string) => {
             const basicInfo: CardGridProps['cards'][number] = {
               blurDataURL: blurDataURL(item.card?.thumbHash),
               edgeColor: item.edgeColor,
+              energy: item.energy,
               focus: item.card?.focus,
               glowColor:
                 item.energy || item.subtype
@@ -144,7 +146,12 @@ export default async function Set({
   return (
     <Container>
       <Title.H1>{setData.title}</Title.H1>
-      <CardGrid cards={setData.cards} />
+
+      {collection === 'pokemon' ? (
+        <PokemonSetOverview cards={setData.cards} />
+      ) : (
+        <CardGrid cards={setData.cards} />
+      )}
     </Container>
   )
 }
