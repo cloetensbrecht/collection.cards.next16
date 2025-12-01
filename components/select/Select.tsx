@@ -11,6 +11,7 @@ import React, {cloneElement, createElement, isValidElement} from 'react'
 
 type SelectProps = {
   label?: string
+  innerLabel?: string
   onSelect: (options: {label: string; value: string}) => void
   options: {
     icon?: React.FC<React.SVGProps<SVGSVGElement>>
@@ -23,6 +24,7 @@ type SelectProps = {
 
 export default function Select({
   label,
+  innerLabel,
   onSelect,
   options,
   placeholder,
@@ -35,9 +37,17 @@ export default function Select({
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <div className="inline-flex flex-col gap-1 items-start">
-          <label className="font-medium text-foreground text-sm">{label}</label>
-          <Button variant="outline" className="rounded-[8px]">
+        <div
+          className="inline-flex flex-col gap-1 items-start"
+          style={{'--radius': '8px'} as React.CSSProperties}
+        >
+          <span className="hidden text-xs whitespace-nowrap text-muted-foreground xl:inline-block">
+            {label}
+          </span>
+          <Button
+            variant="outline"
+            className="font-normal text-sm p-1.5 px-2.5 h-8"
+          >
             {selectedIcon
               ? createElement(selectedIcon, {
                   'aria-hidden': 'true',
@@ -60,8 +70,16 @@ export default function Select({
       <DropdownMenuContent
         side="bottom"
         align="start"
-        className="rounded-[8px]"
+        style={{'--radius': '8px'} as React.CSSProperties}
       >
+        {innerLabel && (
+          <div
+            data-slot="select-label"
+            className="text-muted-foreground px-2 py-1.5 text-xs"
+          >
+            {innerLabel}
+          </div>
+        )}
         {options.map(option => (
           <DropdownMenuItem
             key={option.value}
@@ -71,7 +89,7 @@ export default function Select({
                 value: option.value
               })
             }
-            className="rounded-[8px] group/item"
+            className="group/item"
           >
             {option.icon && isValidElement(<option.icon />)
               ? cloneElement(<option.icon />, {

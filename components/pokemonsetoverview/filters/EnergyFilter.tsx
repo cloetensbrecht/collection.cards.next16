@@ -22,6 +22,7 @@ const EnergyFilter: React.FC<EnergyFilterProps> = ({
   return (
     <Select
       label="Energy"
+      innerLabel="Filter by Energy"
       onSelect={({label, value}) =>
         onChange({
           label,

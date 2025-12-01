@@ -26,6 +26,7 @@ export type CardProps = {
   focus?: {x: number; y: number}
   foil?: string
   glowColor?: string
+  hp: number | null
   id: string
   isActive?: boolean
   isEx: boolean

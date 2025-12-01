@@ -44,6 +44,7 @@ const fetchSetData = async (url: string) => {
                 item.energy || item.subtype
                   ? `var(--${item.energy || item.subtype})`
                   : undefined,
+              hp: item.hp,
               id: item._id,
               src: `/media${item.card.src}`,
               title: item.title,
