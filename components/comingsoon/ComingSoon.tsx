@@ -1,21 +1,8 @@
 import {PropsWithChildren} from 'react'
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger
-} from '../ui/tooltip'
+import Tooltip from '../tooltip/Tooltip'
 
-const ComingSoon: React.FC<PropsWithChildren> = ({children}) => {
-  return (
-    <TooltipProvider>
-      <Tooltip delayDuration={0}>
-        <TooltipTrigger asChild>{children}</TooltipTrigger>
-        <TooltipContent>
-          <p>Coming soon</p>
-        </TooltipContent>
-      </Tooltip>
-    </TooltipProvider>
-  )
-}
+const ComingSoon: React.FC<PropsWithChildren> = ({children}) => (
+  <Tooltip text="Coming soon">{children}</Tooltip>
+)
+
 export default ComingSoon
