@@ -25,8 +25,8 @@ type PokemonSetOverviewProps = {
 }
 
 const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
-  const energyParser = parseAsStringEnum<keyof Energy>(
-    Object.keys(energy) as (keyof Energy)[]
+  const energyParser = parseAsStringEnum<Energy>(
+    Object.keys(energy) as Energy[]
   )
   const rarityParser = parseAsStringEnum<Rarity>(
     Object.keys(rarity) as Rarity[]
@@ -53,7 +53,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
     new Set(cards.map(card => card.energy).filter(Boolean))
   )
     .filter(Boolean)
-    .sort((a, b) => a!.localeCompare(b!)) as (keyof Energy)[]
+    .sort((a, b) => a!.localeCompare(b!)) as Energy[]
 
   const availableHitPoints = Array.from(
     new Set(
