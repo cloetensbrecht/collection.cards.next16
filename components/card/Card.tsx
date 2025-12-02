@@ -35,7 +35,7 @@ export type CardProps = {
   mask?: string
   onClick?: () => void
   pattern?: keyof typeof reverseHolofoilPatterns | keyof typeof holofoilPatterns
-  rarity: keyof Rarity | null
+  rarity: Rarity | null
   sizes: string
   src?: string
   title: string

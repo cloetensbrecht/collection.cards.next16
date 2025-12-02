@@ -1,6 +1,7 @@
 'use client'
 
 import {energy, Energy} from '@/consts/energy'
+import {rarity, Rarity} from '@/consts/rarity'
 import {BookOpen, Grid} from 'lucide-react'
 import {
   parseAsInteger,
@@ -15,6 +16,7 @@ import Tooltip from '../tooltip/Tooltip'
 import {ToggleGroup, ToggleGroupItem} from '../ui/toggle-group'
 import EnergyFilter from './filters/EnergyFilter'
 import HitPointsFilter from './filters/HitPointsFilter'
+import RarityFilter from './filters/RarityFilter'
 
 type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
@@ -26,9 +28,13 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
   const energyParser = parseAsStringEnum<keyof Energy>(
     Object.keys(energy) as (keyof Energy)[]
   )
+  const rarityParser = parseAsStringEnum<Rarity>(
+    Object.keys(rarity) as Rarity[]
+  )
   const [filters, setFilters] = useQueryStates({
     energy: energyParser,
-    hp: parseAsInteger
+    hp: parseAsInteger,
+    rarity: rarityParser
   })
   const [viewMode, setViewMode] = useQueryState(
     'view',
@@ -41,6 +47,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
 
   const selectedEnergy = filters.energy
   const selectedHitPoints = filters.hp
+  const selectedRarity = filters.rarity
 
   const availableEnergies = Array.from(
     new Set(cards.map(card => card.energy).filter(Boolean))
@@ -57,6 +64,10 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
   )
     .filter(Boolean)
     .sort((a, b) => a! - b!) as number[]
+
+  const availableRarities = Array.from(
+    new Set(cards.map(card => card.rarity).filter(Boolean))
+  ).filter(Boolean) as Rarity[]
 
   return (
     <>
@@ -75,6 +86,13 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
               setFilters({hp: value})
             }}
             selected={selectedHitPoints}
+          />
+          <RarityFilter
+            options={availableRarities}
+            onChange={({value}) => {
+              setFilters({rarity: value})
+            }}
+            selected={selectedRarity}
           />
         </div>
         <div className="flex items-center gap-2 lg:gap-4">
@@ -151,6 +169,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
         cards={cards.filter(card => {
           if (selectedEnergy && card.energy !== selectedEnergy) return false
           if (selectedHitPoints && card.hp !== selectedHitPoints) return false
+          if (selectedRarity && card.rarity !== selectedRarity) return false
           return true
         })}
       />
