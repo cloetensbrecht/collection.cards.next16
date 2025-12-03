@@ -16,10 +16,14 @@ const RarityFilter: React.FC<RarityFilterProps> = ({
     <Select
       label="Rarity"
       innerLabel="Filter by Rarity"
-      onSelect={({label, value}) =>
+      onSelect={selectedOption =>
         onChange({
-          label,
-          value: value === selected ? null : (value as Rarity)
+          label: selectedOption?.label || 'Any rarity',
+          value: selectedOption?.value
+            ? selectedOption.value === selected
+              ? null
+              : (selectedOption.value as Rarity)
+            : null
         })
       }
       options={options.map(option => ({

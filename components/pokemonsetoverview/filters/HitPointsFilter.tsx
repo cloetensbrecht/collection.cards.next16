@@ -15,10 +15,14 @@ const HitPointsFilter: React.FC<HitPointsFilterProps> = ({
     <Select
       label="Hit Points"
       innerLabel="Filter by Hit Points"
-      onSelect={({label, value}) =>
+      onSelect={selectedOption =>
         onChange({
-          label,
-          value: Number(value) === selected ? null : Number(value)
+          label: selectedOption?.label || 'Any Hit Points',
+          value: selectedOption?.value
+            ? Number(selectedOption.value) === selected
+              ? null
+              : Number(selectedOption.value)
+            : null
         })
       }
       options={options.map(option => ({
