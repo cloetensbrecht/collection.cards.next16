@@ -12,7 +12,8 @@ import React, {cloneElement, createElement, isValidElement} from 'react'
 type SelectProps = {
   label?: string
   innerLabel?: string
-  onSelect: (options: {label: string; value: string}) => void
+  nullable?: boolean
+  onSelect: (option: {label: string; value: string} | null) => void
   options: {
     icon?: React.FC<React.SVGProps<SVGSVGElement>>
     label: string
@@ -25,6 +26,7 @@ type SelectProps = {
 export default function Select({
   label,
   innerLabel,
+  nullable,
   onSelect,
   options,
   placeholder,
@@ -67,6 +69,16 @@ export default function Select({
           </Button>
         </div>
       </DropdownMenuTrigger>
+      {nullable && selected && (
+        <X
+          aria-hidden="true"
+          className="-me-1 opacity-60"
+          size={16}
+          onClick={() => {
+            onSelect(null)
+          }}
+        />
+      )}
       <DropdownMenuContent
         side="bottom"
         align="start"

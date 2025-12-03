@@ -16,12 +16,17 @@ const EnergyFilter: React.FC<EnergyFilterProps> = ({
     <Select
       label="Energy"
       innerLabel="Filter by Energy"
-      onSelect={({label, value}) =>
+      nullable={true}
+      onSelect={selectedOption => {
+        if (!selectedOption) {
+          return onChange({label: 'All energies', value: null})
+        }
+        const {label, value} = selectedOption
         onChange({
           label,
           value: value === selected ? null : (value as Energy)
         })
-      }
+      }}
       options={options.map(option => ({
         icon: getEnergyIcon(option),
         label: energy[option],
