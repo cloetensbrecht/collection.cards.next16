@@ -3247,16 +3247,16 @@ __metadata:
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     eslint: "npm:^9.38.0"
-    eslint-config-next: "npm:^16.0.5"
+    eslint-config-next: "npm:^16.0.7"
     eslint-config-prettier: "npm:^10.1.8"
     framer-motion: "npm:^12.23.24"
     lucide-react: "npm:^0.547.0"
-    next: "npm:^16.0.5"
+    next: "npm:^16.0.7"
     next-themes: "npm:^0.4.6"
     nuqs: "npm:^2.8.1"
     radix-ui: "npm:^1.4.3"
-    react: "npm:^19.2.0"
-    react-dom: "npm:^19.2.0"
+    react: "npm:^19.2.1"
+    react-dom: "npm:^19.2.1"
     sonner: "npm:^2.0.7"
     tailwind-merge: "npm:^3.3.1"
     tailwindcss: "npm:^4"
@@ -3706,7 +3706,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:^16.0.5":
+"eslint-config-next@npm:^16.0.7":
   version: 16.0.7
   resolution: "eslint-config-next@npm:16.0.7"
   dependencies:
@@ -5084,7 +5084,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^16.0.5":
+"next@npm:^16.0.7":
   version: 16.0.7
   resolution: "next@npm:16.0.7"
   dependencies:
@@ -5487,7 +5487,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^19.2.0":
+"react-dom@npm:^19.2.1":
   version: 19.2.1
   resolution: "react-dom@npm:19.2.1"
   dependencies:
@@ -5556,7 +5556,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^19.2.0":
+"react@npm:^19.2.1":
   version: 19.2.1
   resolution: "react@npm:19.2.1"
   checksum: 10c0/2b5eaf407abb3db84090434c20d6c5a8e447ab7abcd8fe9eaf1ddc299babcf31284ee9db7ea5671d21c85ac5298bd632fa1a7da1ed78d5b368a537f5e1cd5d62
