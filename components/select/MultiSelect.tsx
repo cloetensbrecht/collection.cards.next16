@@ -59,6 +59,10 @@ const MultiSelect = ({
         value={options.filter(option => selected?.includes(option.value))}
         defaultOptions={options}
         placeholder={placeholder}
+        inputProps={{
+          className:
+            'border border-input bg-background shadow-xs hover:bg-accent hover:text-accent-foreground font-normal text-sm p-1.5 px-2.5 h-8'
+        }}
         hideClearAllButton
         hidePlaceholderWhenSelected
         emptyIndicator={<p className="text-center text-sm">No results found</p>}
