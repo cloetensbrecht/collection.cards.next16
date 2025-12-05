@@ -1,3 +1,5 @@
+export type Variant = keyof typeof variant
+
 export const variant = {
   normal: 'Normal',
   holofoil: 'Holofoil',

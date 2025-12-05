@@ -1,8 +1,8 @@
-import {cardType} from '@/consts/cardtype'
-import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/effect'
-import {energy} from '@/consts/energy'
+import {CardType} from '@/consts/cardtype'
+import {HolofoilPattern, ReverseHolofoilPattern} from '@/consts/effect'
+import {Energy} from '@/consts/energy'
 import {Rarity} from '@/consts/rarity'
-import {variant} from '@/consts/variant'
+import {Variant} from '@/consts/variant'
 import {cn} from '@/lib/utils'
 import Image from 'next/image'
 import {memo} from 'react'
@@ -21,9 +21,9 @@ import ReverseHolofoilPokeBall from './effects/ReverseHolofoilPokeBall'
 export type CardProps = {
   asButton?: boolean
   blurDataURL?: string
-  cardtype: keyof typeof cardType | null
+  cardtype: CardType | null
   className?: string
-  energy: keyof typeof energy | null
+  energy: Energy | null
   edgeColor?: string
   focus?: {x: number; y: number}
   foil?: string
@@ -36,12 +36,12 @@ export type CardProps = {
   isTrainerGallery: boolean
   mask?: string
   onClick?: () => void
-  pattern?: keyof typeof reverseHolofoilPatterns | keyof typeof holofoilPatterns
+  pattern?: ReverseHolofoilPattern | HolofoilPattern
   rarity: Rarity | null
   sizes: string
   src?: string
   title: string
-  variant: keyof typeof variant
+  variant: Variant
 }
 
 const Card: React.FC<CardProps> = ({
