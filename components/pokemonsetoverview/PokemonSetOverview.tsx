@@ -2,7 +2,7 @@
 
 import {cardType, CardType} from '@/consts/cardtype'
 import {energy, Energy} from '@/consts/energy'
-import {rarity, Rarity} from '@/consts/rarity'
+import {rarity, Rarity, rarityOrder} from '@/consts/rarity'
 import {BookOpen, Grid} from 'lucide-react'
 import {
   parseAsInteger,
@@ -72,9 +72,11 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
     .filter(Boolean)
     .sort((a, b) => a! - b!) as number[]
 
-  const availableRarities = Array.from(
-    new Set(cards.map(card => card.rarity).filter(Boolean))
-  ).filter(Boolean) as Rarity[]
+  const availableRarities = (
+    Array.from(new Set(cards.map(card => card.rarity).filter(Boolean))).filter(
+      Boolean
+    ) as Rarity[]
+  ).sort((a, b) => rarityOrder.indexOf(a) - rarityOrder.indexOf(b))
 
   const availableTypes = Array.from(
     new Set(cards.map(card => card.cardtype).filter(Boolean))

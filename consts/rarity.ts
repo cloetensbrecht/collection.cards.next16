@@ -24,6 +24,8 @@ export const rarity = {
   'black-white-rare': 'Black White Rare'
 }
 
+export const rarityOrder = Object.keys(rarity) as Rarity[]
+
 export const getRarityIcon = (rarity: Rarity) => {
   switch (rarity) {
     case 'common':
