@@ -72,7 +72,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
   return (
     <>
       <div className="pb-10 flex gap-4 flex-wrap items-end justify-between">
-        <div className="flex items-center gap-2 lg:gap-4">
+        <div className="flex items-center gap-2 lg:gap-4 flex-wrap">
           <EnergyFilter
             options={availableEnergies}
             onChange={({value}) => {

@@ -25,29 +25,22 @@ const MultiSelect = ({
       style={{'--radius': '8px'} as React.CSSProperties}
     >
       {label && (
-        <Label
-          id="energy-label"
-          htmlFor="energy"
-          className="hidden mb-0 font-normal text-xs whitespace-nowrap text-muted-foreground xl:inline-block"
-        >
+        <Label className="hidden mb-0 font-normal text-xs whitespace-nowrap text-muted-foreground xl:inline-block">
           {label}
         </Label>
       )}
       <MultipleSelector
         commandProps={{
-          label: 'All energies'
+          label: placeholder || 'Select...'
         }}
         value={options.filter(option => selected?.includes(option.value))}
         defaultOptions={options}
         placeholder={placeholder}
         inputProps={{
           className:
-            'pl-1 pr-2 py-0 placeholder:text-(--foreground) focus:bg-background rounded-md relative z-[70] pointer-events-auto'
+            'pl-1 pr-2 py-0 placeholder:text-(--foreground) focus:bg-background rounded-md relative pointer-events-auto'
         }}
         maxSelected={1}
-        hideClearAllButton
-        hidePlaceholderWhenSelected
-        emptyIndicator={<p className="text-center text-sm">No results found</p>}
         className="pointer-events-auto flex min-h-[32px] bg-background shadow-xs hover:text-accent-foreground overflow-hidden rounded-md border border-input p-0.5"
         innerLabel={innerLabel}
         onChange={onChange}

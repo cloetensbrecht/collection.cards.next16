@@ -1,4 +1,4 @@
-import Select from '@/components/select/Select'
+import MultiSelect from '@/components/select/MultiSelect'
 
 type HitPointsFilterProps = {
   options: number[]
@@ -12,10 +12,12 @@ const HitPointsFilter: React.FC<HitPointsFilterProps> = ({
   selected
 }) => {
   return (
-    <Select
+    <MultiSelect
       label="Hit Points"
       innerLabel="Filter by Hit Points"
-      onSelect={selectedOption =>
+      onChange={selectedOptions => {
+        const selectedOption =
+          selectedOptions.filter(o => o.value !== `${selected}`)[0] || null
         onChange({
           label: selectedOption?.label || 'Any Hit Points',
           value: selectedOption?.value
@@ -24,13 +26,13 @@ const HitPointsFilter: React.FC<HitPointsFilterProps> = ({
               : Number(selectedOption.value)
             : null
         })
-      }
+      }}
       options={options.map(option => ({
         label: `${option} HP`,
         value: `${option}`
       }))}
       placeholder="Any Hit Points"
-      selected={selected !== null ? `${selected}` : undefined}
+      selected={selected !== null ? [`${selected}`] : undefined}
     />
   )
 }

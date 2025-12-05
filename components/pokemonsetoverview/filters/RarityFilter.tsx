@@ -1,4 +1,4 @@
-import Select from '@/components/select/Select'
+import MultiSelect from '@/components/select/MultiSelect'
 import {getRarityIcon, Rarity, rarity} from '@/consts/rarity'
 
 type RarityFilterProps = {
@@ -13,10 +13,12 @@ const RarityFilter: React.FC<RarityFilterProps> = ({
   selected
 }) => {
   return (
-    <Select
+    <MultiSelect
       label="Rarity"
       innerLabel="Filter by Rarity"
-      onSelect={selectedOption =>
+      onChange={selectedOptions => {
+        const selectedOption =
+          selectedOptions.filter(o => o.value !== selected)[0] || null
         onChange({
           label: selectedOption?.label || 'Any rarity',
           value: selectedOption?.value
@@ -25,14 +27,14 @@ const RarityFilter: React.FC<RarityFilterProps> = ({
               : (selectedOption.value as Rarity)
             : null
         })
-      }
+      }}
       options={options.map(option => ({
         icon: getRarityIcon(option),
         label: `${rarity[option]}`,
         value: `${option}`
       }))}
       placeholder="Any Rarity"
-      selected={selected !== null ? `${selected}` : undefined}
+      selected={selected !== null ? [selected] : undefined}
     />
   )
 }
