@@ -2,7 +2,13 @@
 
 import {cardType, CardType} from '@/consts/cardtype'
 import {energy, Energy} from '@/consts/energy'
+import {
+  holofoilPatterns,
+  Pattern,
+  reverseHolofoilPatterns
+} from '@/consts/pattern'
 import {rarity, Rarity, rarityOrder} from '@/consts/rarity'
+import {variant, Variant, variantPattern} from '@/consts/variant'
 import {BookOpen, Grid} from 'lucide-react'
 import {
   parseAsInteger,
@@ -19,6 +25,7 @@ import EnergyFilter from './filters/EnergyFilter'
 import HitPointsFilter from './filters/HitPointsFilter'
 import RarityFilter from './filters/RarityFilter'
 import TypeFilter from './filters/TypeFilter'
+import VariantFilter from './filters/VariantFilter'
 
 type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
@@ -36,11 +43,17 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
   const cardTypeParser = parseAsStringEnum<CardType>(
     Object.keys(cardType) as CardType[]
   )
+  const variantParser = parseAsStringEnum<Variant | Pattern>([
+    ...(Object.keys(variant) as Variant[]),
+    ...(Object.keys(holofoilPatterns) as Pattern[]),
+    ...(Object.keys(reverseHolofoilPatterns) as Pattern[])
+  ])
   const [filters, setFilters] = useQueryStates({
     energy: energyParser,
     hp: parseAsInteger,
     rarity: rarityParser,
-    cardtype: cardTypeParser
+    cardtype: cardTypeParser,
+    variant: variantParser
   })
   const [viewMode, setViewMode] = useQueryState(
     'view',
@@ -55,6 +68,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
   const selectedHitPoints = filters.hp
   const selectedRarity = filters.rarity
   const selectedCardType = filters.cardtype
+  const selectedVariant = filters.variant
 
   const availableEnergies = Array.from(
     new Set(cards.map(card => card.energy).filter(Boolean))
@@ -81,6 +95,27 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
   const availableTypes = Array.from(
     new Set(cards.map(card => card.cardtype).filter(Boolean))
   ).filter(Boolean) as CardType[]
+
+  const variantPatterns = Object.keys(variantPattern) as (Variant | Pattern)[]
+  const availableVariants = (
+    Array.from(
+      new Set(
+        cards
+          .map(card => card.pattern || card.variant)
+          .filter(
+            v =>
+              v &&
+              (v in variant ||
+                v in holofoilPatterns ||
+                v in reverseHolofoilPatterns)
+          )
+      )
+    ) as (Variant | Pattern)[]
+  ).sort((a, b) => {
+    const indexA = variantPatterns.indexOf(a)
+    const indexB = variantPatterns.indexOf(b)
+    return indexA - indexB
+  })
 
   return (
     <>
@@ -113,6 +148,13 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
               setFilters({cardtype: value})
             }}
             selected={selectedCardType}
+          />
+          <VariantFilter
+            options={availableVariants}
+            onChange={({value}) => {
+              setFilters({variant: value})
+            }}
+            selected={selectedVariant}
           />
         </div>
         <div className="flex items-center gap-2 lg:gap-4">
@@ -192,6 +234,10 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
           if (selectedRarity && card.rarity !== selectedRarity) return false
           if (selectedCardType && card.cardtype !== selectedCardType)
             return false
+          if (selectedVariant) {
+            const cardVariant = card.pattern || card.variant
+            if (cardVariant !== selectedVariant) return false
+          }
           return true
         })}
       />

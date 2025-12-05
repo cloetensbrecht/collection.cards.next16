@@ -1,6 +1,6 @@
 'use client'
 
-import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/effect'
+import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/pattern'
 import {variant} from '@/consts/variant'
 import {AnimatePresence, motion} from 'framer-motion'
 import {useState} from 'react'

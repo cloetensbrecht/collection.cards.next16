@@ -1,6 +1,6 @@
 import {CardType} from '@/consts/cardtype'
-import {HolofoilPattern, ReverseHolofoilPattern} from '@/consts/effect'
 import {Energy} from '@/consts/energy'
+import {Pattern} from '@/consts/pattern'
 import {Rarity} from '@/consts/rarity'
 import {Variant} from '@/consts/variant'
 import {cn} from '@/lib/utils'
@@ -36,7 +36,7 @@ export type CardProps = {
   isTrainerGallery: boolean
   mask?: string
   onClick?: () => void
-  pattern?: ReverseHolofoilPattern | HolofoilPattern
+  pattern?: Pattern
   rarity: Rarity | null
   sizes: string
   src?: string

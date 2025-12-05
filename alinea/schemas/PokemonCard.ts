@@ -1,7 +1,7 @@
 import {cardType} from '@/consts/cardtype'
 import {edge} from '@/consts/edge'
-import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/effect'
 import {energy as energyOptions} from '@/consts/energy'
+import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/pattern'
 import {pokedex} from '@/consts/pokedex'
 import {rarity as rarityOptions} from '@/consts/rarity'
 import {variant} from '@/consts/variant'
