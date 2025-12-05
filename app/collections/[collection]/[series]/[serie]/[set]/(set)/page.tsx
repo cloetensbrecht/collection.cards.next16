@@ -37,6 +37,7 @@ const fetchSetData = async (url: string) => {
 
             const basicInfo: CardGridProps['cards'][number] = {
               blurDataURL: blurDataURL(item.card?.thumbHash),
+              cardtype: item.cardtype,
               edgeColor: item.edgeColor,
               energy: item.energy,
               focus: item.card?.focus,

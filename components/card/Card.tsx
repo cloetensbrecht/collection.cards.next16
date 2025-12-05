@@ -1,3 +1,4 @@
+import {cardType} from '@/consts/cardtype'
 import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/effect'
 import {energy} from '@/consts/energy'
 import {Rarity} from '@/consts/rarity'
@@ -20,6 +21,7 @@ import ReverseHolofoilPokeBall from './effects/ReverseHolofoilPokeBall'
 export type CardProps = {
   asButton?: boolean
   blurDataURL?: string
+  cardtype: keyof typeof cardType | null
   className?: string
   energy: keyof typeof energy | null
   edgeColor?: string
