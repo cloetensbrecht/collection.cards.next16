@@ -372,7 +372,6 @@ const MultipleSelector = ({
                           e.stopPropagation()
                         }}
                         onMouseLeave={e => {
-                          // force CMDK to drop selected state
                           e.currentTarget.removeAttribute('data-selected')
                         }}
                         onMouseEnter={e => {
