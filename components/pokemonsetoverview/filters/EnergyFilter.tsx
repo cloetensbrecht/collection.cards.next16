@@ -1,5 +1,4 @@
 import MultiSelect from '@/components/select/MultiSelect'
-import Select from '@/components/select/Select'
 import {Energy, energy, getEnergyIcon} from '@/consts/energy'
 
 type EnergyFilterProps = {
@@ -15,7 +14,7 @@ const EnergyFilter: React.FC<EnergyFilterProps> = ({
 }) => {
   return (
     <>
-      <Select
+      {/* <Select
         label="Energy"
         innerLabel="Filter by Energy"
         nullable={true}
@@ -36,7 +35,7 @@ const EnergyFilter: React.FC<EnergyFilterProps> = ({
         }))}
         placeholder="All energies"
         selected={selected ?? undefined}
-      />
+      /> */}
       <MultiSelect
         innerLabel="Filter by Energy"
         label="Energy"
@@ -52,7 +51,8 @@ const EnergyFilter: React.FC<EnergyFilterProps> = ({
         // }}
         onChange={selectedOptions => {
           // For simplicity, just take the first selected option or null
-          const firstOption = selectedOptions[0] || null
+          const firstOption =
+            selectedOptions.filter(o => o.value !== selected)[0] || null
           onChange({
             label: firstOption?.label || 'All energies',
             value: firstOption?.value

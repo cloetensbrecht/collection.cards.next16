@@ -5,7 +5,7 @@ import * as React from 'react'
 import {useEffect} from 'react'
 
 import {Command as CommandPrimitive, useCommandState} from 'cmdk'
-import {XIcon} from 'lucide-react'
+import {ChevronDown, XIcon} from 'lucide-react'
 
 import {
   Command,
@@ -14,6 +14,7 @@ import {
   CommandList
 } from '@/components/ui/command'
 import {cn} from '@/lib/utils'
+import {Dialog} from 'radix-ui'
 
 export interface Option {
   icon?: React.FC<React.SVGProps<SVGSVGElement>>
@@ -225,7 +226,6 @@ const MultipleSelector = ({
 }: MultipleSelectorProps) => {
   const inputRef = React.useRef<HTMLInputElement>(null)
   const [open, setOpen] = React.useState(false)
-  const [onScrollbar, setOnScrollbar] = React.useState(false)
   const [isLoading, setIsLoading] = React.useState(false)
   const dropdownRef = React.useRef<HTMLDivElement>(null) // Added this
 
@@ -253,7 +253,6 @@ const MultipleSelector = ({
   const handleUnselect = React.useCallback(
     (option: Option) => {
       const newOptions = selected.filter(s => s.value !== option.value)
-
       setSelected(newOptions)
       onChange?.(newOptions)
     },
@@ -390,9 +389,15 @@ const MultipleSelector = ({
           e.stopPropagation()
         }}
         onSelect={(value: string) => {
-          if (selected.length >= maxSelected) {
+          console.log('onSelect', maxSelected, selected.length)
+          if (maxSelected !== 1 && selected.length >= maxSelected) {
             onMaxSelected?.(selected.length)
 
+            return
+          } else if (maxSelected === 1) {
+            const newOption = [{value, label: value}]
+            setSelected(newOption)
+            onChange?.(newOption)
             return
           }
 
@@ -456,6 +461,25 @@ const MultipleSelector = ({
     return undefined
   }, [creatable, commandProps?.filter])
 
+  useEffect(() => {
+    if (!open || !dropdownRef.current) return
+
+    const rect = dropdownRef.current.getBoundingClientRect()
+
+    document.documentElement.style.setProperty(
+      '--trigger-left',
+      `${rect.left}px`
+    )
+    document.documentElement.style.setProperty(
+      '--trigger-top',
+      `${rect.bottom}px`
+    )
+    document.documentElement.style.setProperty(
+      '--trigger-width',
+      `${rect.width}px`
+    )
+  }, [open])
+
   return (
     <Command
       ref={dropdownRef}
@@ -475,124 +499,274 @@ const MultipleSelector = ({
       } // When onSearch is provided, we don&lsquo;t want to filter the options. You can still override it.
       filter={commandFilter()}
     >
-      <div
-        className={cn(
-          'border-input focus-within:border-ring focus-within:ring-ring/50 has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40 has-aria-invalid:border-destructive relative min-h-[38px] rounded-md border text-sm transition-[color,box-shadow] outline-none focus-within:ring-[3px] has-disabled:pointer-events-none has-disabled:cursor-not-allowed has-disabled:opacity-50',
-          {
-            'p-1': selected.length !== 0,
-            'cursor-text': !disabled && selected.length !== 0
-          },
-          !hideClearAllButton && 'pr-9',
-          className
-        )}
-        onClick={() => {
-          if (disabled) return
-          inputRef?.current?.focus()
-        }}
-      >
-        <div className="flex flex-wrap gap-1">
-          {selected.map(option => {
-            return (
-              <div
-                key={option.value}
-                className={cn(
-                  'animate-fadeIn bg-background text-secondary-foreground hover:bg-background relative inline-flex h-7 cursor-default items-center rounded-md border pr-7 pl-2 text-xs font-medium transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 data-fixed:pr-2 gap-2',
-                  badgeClassName
-                )}
-                data-fixed={option.fixed}
-                data-disabled={disabled || undefined}
-              >
-                {option.icon && React.isValidElement(<option.icon />)
-                  ? React.cloneElement(<option.icon />, {
-                      'aria-hidden': 'true',
-                      className: 'opacity-60',
-                      size: 16,
-                      width: 16,
-                      height: 16
-                    })
-                  : null}
-                {option.label}
-                <button
-                  className="text-muted-foreground/80 hover:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 absolute -inset-y-px -right-px flex size-7 items-center justify-center rounded-r-md border border-transparent p-0 outline-hidden transition-[color,box-shadow] outline-none focus-visible:ring-[3px]"
-                  onKeyDown={e => {
-                    if (e.key === 'Enter') {
-                      handleUnselect(option)
-                    }
-                  }}
-                  onMouseDown={e => {
-                    e.preventDefault()
-                    e.stopPropagation()
-                  }}
-                  onClick={() => handleUnselect(option)}
-                  aria-label="Remove"
+      <Dialog.Root open={open} onOpenChange={setOpen}>
+        <div
+          className={cn(
+            'relative z-[20] pointer-events-auto border-input has-aria-invalid:ring-destructive/20 dark:has-aria-invalid:ring-destructive/40 has-aria-invalid:border-destructive relative min-h-[38px] rounded-md border text-sm transition-[color,box-shadow] outline-none has-disabled:pointer-events-none has-disabled:cursor-not-allowed has-disabled:opacity-50',
+            {
+              'p-1': selected.length !== 0,
+              'cursor-text': !disabled && selected.length !== 0
+            },
+            !hideClearAllButton && 'pr-9',
+            className,
+            open ? 'hover:bg-background' : 'hover:bg-accent'
+          )}
+          onClick={() => {
+            if (disabled) return
+            inputRef?.current?.focus()
+          }}
+        >
+          <div className="flex flex-wrap gap-1">
+            {selected.map(option => {
+              return (
+                <div
+                  key={option.value}
+                  className={cn(
+                    'animate-fadeIn bg-background text-secondary-foreground hover:bg-background relative inline-flex h-6.5 cursor-default items-center rounded-md border pr-7 pl-2 text-xs font-medium transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 data-fixed:pr-2 gap-2',
+                    badgeClassName
+                  )}
+                  data-fixed={option.fixed}
+                  data-disabled={disabled || undefined}
                 >
-                  <XIcon size={14} aria-hidden="true" />
-                </button>
-              </div>
-            )
-          })}
-          {/* Avoid having the "Search" Icon */}
-          <CommandPrimitive.Input
-            {...inputProps}
-            ref={inputRef}
-            value={inputValue}
-            disabled={disabled}
-            onValueChange={value => {
-              setInputValue(value)
-              inputProps?.onValueChange?.(value)
-            }}
-            onBlur={event => {
-              if (!onScrollbar) {
-                setOpen(false)
+                  {option.icon && React.isValidElement(<option.icon />)
+                    ? React.cloneElement(<option.icon />, {
+                        'aria-hidden': 'true',
+                        className: 'opacity-60',
+                        size: 16,
+                        width: 16,
+                        height: 16
+                      })
+                    : null}
+                  {option.label}
+                  <button
+                    className="text-muted-foreground/80 hover:text-foreground absolute -inset-y-px -right-px flex size-6.5 items-center justify-center rounded-r-md border border-transparent p-0 outline-hidden transition-[color,box-shadow] outline-none cursor-pointer"
+                    onKeyDown={e => {
+                      if (e.key === 'Enter') {
+                        handleUnselect(option)
+                        setOpen(false)
+                      }
+                    }}
+                    onMouseDown={e => {
+                      e.preventDefault()
+                      e.stopPropagation()
+                    }}
+                    onClick={() => {
+                      handleUnselect(option)
+                      setOpen(false)
+                    }}
+                    aria-label="Remove"
+                  >
+                    <XIcon size={14} aria-hidden="true" />
+                  </button>
+                </div>
+              )
+            })}
+            <div
+              className={cn(
+                'flex items-center content-center gap-2 cursor-default placeholder:text-muted-foreground/70 flex-1 bg-transparent outline-hidden disabled:cursor-not-allowed',
+                {
+                  'w-full': hidePlaceholderWhenSelected,
+                  'px-3 py-2': selected.length === 0
+                },
+                inputProps?.className,
+                open ? 'bg-background hover:bg-background' : 'hover:bg-accent',
+                {
+                  'pl-2': selected.length === 0
+                }
+              )}
+              onClick={() => {
+                setOpen(o => !o)
+
+                if (triggerSearchOnFocus) {
+                  onSearch?.(debouncedSearchTerm)
+                }
+              }}
+            >
+              {selected.length !== 0 ? '' : placeholder}
+              <button
+                type="button"
+                className={cn(
+                  'text-foreground/60 rounded-md transition-[color,box-shadow] outline-none'
+                )}
+                aria-label="Clear all"
+              >
+                <ChevronDown size={16} aria-hidden="true" className="-me-1" />
+              </button>
+            </div>
+            {/* Avoid having the "Search" Icon */}
+            {/* <CommandPrimitive.Input
+              {...inputProps}
+              ref={inputRef}
+              value={inputValue}
+              disabled={disabled}
+              onValueChange={value => {
+                setInputValue(value)
+                inputProps?.onValueChange?.(value)
+              }}
+              onBlur={event => {
+                // if (!onScrollbar) {
+                //   setOpen(false)
+                // }
+
+                inputProps?.onBlur?.(event)
+              }}
+              onFocus={event => {
+                setOpen(true)
+
+                if (triggerSearchOnFocus) {
+                  onSearch?.(debouncedSearchTerm)
+                }
+
+                inputProps?.onFocus?.(event)
+              }}
+              placeholder={
+                hidePlaceholderWhenSelected && selected.length !== 0
+                  ? ''
+                  : placeholder
               }
-
-              inputProps?.onBlur?.(event)
-            }}
-            onFocus={event => {
-              setOpen(true)
-
-              if (triggerSearchOnFocus) {
-                onSearch?.(debouncedSearchTerm)
-              }
-
-              inputProps?.onFocus?.(event)
-            }}
-            placeholder={
-              hidePlaceholderWhenSelected && selected.length !== 0
-                ? ''
-                : placeholder
-            }
-            className={cn(
-              'placeholder:text-muted-foreground/70 flex-1 bg-transparent outline-hidden disabled:cursor-not-allowed',
-              {
-                'w-full': hidePlaceholderWhenSelected,
-                'px-3 py-2': selected.length === 0,
-                'ml-1': selected.length !== 0
-              },
-              inputProps?.className
+              className={cn(
+                'min-w-[100px] placeholder:text-muted-foreground/70 flex-1 bg-transparent outline-hidden disabled:cursor-not-allowed',
+                {
+                  'w-full': hidePlaceholderWhenSelected,
+                  'px-3 py-2': selected.length === 0,
+                  'ml-1': selected.length !== 0
+                },
+                inputProps?.className
+              )}
+            /> */}
+            {!hideClearAllButton && (
+              <button
+                type="button"
+                onClick={() => {
+                  setSelected(selected.filter(s => s.fixed))
+                  onChange?.(selected.filter(s => s.fixed))
+                }}
+                className={cn(
+                  'text-muted-foreground/80 hover:text-foreground absolute top-0 right-0 flex size-9 items-center justify-center rounded-md border border-transparent transition-[color,box-shadow] outline-none',
+                  (hideClearAllButton ||
+                    disabled ||
+                    selected.length < 1 ||
+                    selected.filter(s => s.fixed).length === selected.length) &&
+                    'hidden'
+                )}
+                aria-label="Clear all"
+              >
+                <XIcon size={16} aria-hidden="true" />
+              </button>
             )}
-          />
-          <button
-            type="button"
-            onClick={() => {
-              setSelected(selected.filter(s => s.fixed))
-              onChange?.(selected.filter(s => s.fixed))
-            }}
-            className={cn(
-              'text-muted-foreground/80 hover:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 absolute top-0 right-0 flex size-9 items-center justify-center rounded-md border border-transparent transition-[color,box-shadow] outline-none focus-visible:ring-[3px]',
-              (hideClearAllButton ||
-                disabled ||
-                selected.length < 1 ||
-                selected.filter(s => s.fixed).length === selected.length) &&
-                'hidden'
-            )}
-            aria-label="Clear all"
-          >
-            <XIcon size={16} aria-hidden="true" />
-          </button>
+          </div>
         </div>
-      </div>
-      <div className="relative">
+        <Dialog.Portal>
+          {/* BACKDROP (blocks scroll + clicking behind) */}
+          <Dialog.Overlay className="fixed inset-0 z-10 pointer-events-none bg-transparent" />
+
+          {/* FLOATING PANEL (position it below the input) */}
+          <Dialog.Content
+            className="
+        fixed z-20 pointer-events-auto
+        mt-1 
+        left-[var(--trigger-left)] 
+        top-[var(--trigger-top)]
+        w-auto
+        min-w-[min(250px,calc(var(--trigger-width)+30px))]
+        overflow-hidden 
+        rounded-md 
+        border 
+        bg-popover 
+        shadow-lg
+        animate-in fade-in zoom-in-95
+        max-h-[calc(100vh-var(--trigger-top)-10px)]
+      "
+            aria-label="Select items"
+            onInteractOutside={e => {
+              // Prevent dialog from closing when clicking inside the input or trigger
+              if (dropdownRef.current?.contains(e.target as Node)) {
+                e.preventDefault()
+              }
+            }}
+            style={{'--radius': '8px'} as React.CSSProperties}
+          >
+            <Dialog.Title className="sr-only">Select items</Dialog.Title>
+            <CommandList
+              className="bg-popover text-popover-foreground outline-hidden overflow-y-auto
+    max-h-[inherit]"
+              onMouseUp={() => inputRef?.current?.focus()}
+            >
+              {isLoading ? (
+                <>{loadingIndicator}</>
+              ) : (
+                <>
+                  {EmptyItem()}
+                  {CreatableItem()}
+                  {!selectFirstItem && (
+                    <CommandItem value="-" className="hidden" />
+                  )}
+                  {Object.entries(selectables).map(([key, dropdowns]) => (
+                    <CommandGroup key={key} heading={key}>
+                      {innerLabel && dropdowns.length > 0 && (
+                        <div
+                          data-slot="select-label"
+                          className="text-muted-foreground px-2 py-1.5 text-xs whitespace-nowrap"
+                        >
+                          {innerLabel}
+                        </div>
+                      )}
+
+                      {dropdowns.map(option => (
+                        <CommandItem
+                          key={option.value}
+                          value={option.value}
+                          disabled={option.disable}
+                          onMouseDown={e => {
+                            e.preventDefault()
+                            e.stopPropagation()
+                          }}
+                          onSelect={() => {
+                            if (
+                              maxSelected !== 1 &&
+                              selected.length >= maxSelected
+                            ) {
+                              onMaxSelected?.(selected.length)
+                              return
+                            } else if (maxSelected === 1) {
+                              setInputValue('')
+                              setSelected([option])
+                              onChange?.([option])
+                              setOpen(false)
+                              return
+                            }
+                            setInputValue('')
+                            const newOptions = [...selected, option]
+                            setSelected(newOptions)
+                            onChange?.(newOptions)
+                          }}
+                          // onInteractOutside={e => e.preventDefault()}
+                          className={cn(
+                            'cursor-pointer',
+                            option.disable &&
+                              'pointer-events-none cursor-not-allowed opacity-50'
+                          )}
+                        >
+                          {option.icon && React.isValidElement(<option.icon />)
+                            ? React.cloneElement(<option.icon />, {
+                                'aria-hidden': 'true',
+                                className: 'opacity-60',
+                                size: 16
+                              })
+                            : null}
+                          {option.label}
+                        </CommandItem>
+                      ))}
+                    </CommandGroup>
+                  ))}
+                </>
+              )}
+            </CommandList>
+          </Dialog.Content>
+        </Dialog.Portal>
+      </Dialog.Root>
+
+      {/* <div className="relative">
         <div
           className={cn(
             'border-input absolute top-2 z-10 w-full overflow-hidden rounded-md border',
@@ -689,7 +863,7 @@ const MultipleSelector = ({
             </CommandList>
           )}
         </div>
-      </div>
+      </div> */}
     </Command>
   )
 }

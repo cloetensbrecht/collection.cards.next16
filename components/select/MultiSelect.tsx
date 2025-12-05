@@ -1,25 +1,6 @@
 import {Label} from '@/components/ui/label'
 import type {Option} from '@/components/ui/multi-select'
 import MultipleSelector from '@/components/ui/multi-select'
-import Grass from '@/icons/pokemon/energies/Grass'
-
-const categories: Option[] = [
-  {
-    icon: Grass,
-    value: 'grass',
-    label: 'Grass'
-  },
-  {
-    icon: Grass,
-    value: 'footwear',
-    label: 'Footwear'
-  },
-  {
-    icon: Grass,
-    value: 'accessories',
-    label: 'Accessories'
-  }
-]
 
 type MultiSelectProps = {
   innerLabel?: string
@@ -40,7 +21,7 @@ const MultiSelect = ({
 }: MultiSelectProps) => {
   return (
     <div
-      className="w-full max-w-xs space-y-2"
+      className="inline-flex flex-col gap-1 items-start"
       style={{'--radius': '8px'} as React.CSSProperties}
     >
       {label && (
@@ -61,14 +42,16 @@ const MultiSelect = ({
         placeholder={placeholder}
         inputProps={{
           className:
-            'border border-input bg-background shadow-xs hover:bg-accent hover:text-accent-foreground font-normal text-sm p-1.5 px-2.5 h-8'
+            'pl-1 pr-2 py-0 placeholder:text-(--foreground) focus:bg-background rounded-md relative z-[70] pointer-events-auto'
         }}
+        maxSelected={1}
         hideClearAllButton
         hidePlaceholderWhenSelected
         emptyIndicator={<p className="text-center text-sm">No results found</p>}
-        className="w-full"
+        className="pointer-events-auto flex min-h-[32px] bg-background shadow-xs hover:text-accent-foreground overflow-hidden rounded-md border border-input p-0.5"
         innerLabel={innerLabel}
         onChange={onChange}
+        badgeClassName="h-6.5"
       />
     </div>
   )
