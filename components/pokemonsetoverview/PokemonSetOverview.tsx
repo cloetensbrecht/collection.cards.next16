@@ -17,6 +17,7 @@ import {
   useQueryState,
   useQueryStates
 } from 'nuqs'
+import {useMemo} from 'react'
 import {CardProps} from '../card/Card'
 import CardGrid from '../cardgrid/CardGrid'
 import {PokemonCardDetailsProps} from '../pokemoncarddetails/PokemonCardDetails'
@@ -121,6 +122,29 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
     const indexB = variantPatterns.indexOf(b)
     return indexA - indexB
   })
+
+  const filteredCards = useMemo(
+    () =>
+      cards.filter(card => {
+        if (selectedEnergy && card.energy !== selectedEnergy) return false
+        if (selectedHitPoints && card.hp !== selectedHitPoints) return false
+        if (selectedRarity && card.rarity !== selectedRarity) return false
+        if (selectedCardType && card.cardtype !== selectedCardType) return false
+        if (selectedVariant) {
+          const cardVariant = card.pattern || card.variant
+          if (cardVariant !== selectedVariant) return false
+        }
+        return true
+      }),
+    [
+      cards,
+      selectedEnergy,
+      selectedHitPoints,
+      selectedRarity,
+      selectedCardType,
+      selectedVariant
+    ]
+  )
 
   return (
     <>
@@ -253,20 +277,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
           </ToggleGroup>
         </div>
       </div>
-      <CardGrid
-        cards={cards.filter(card => {
-          if (selectedEnergy && card.energy !== selectedEnergy) return false
-          if (selectedHitPoints && card.hp !== selectedHitPoints) return false
-          if (selectedRarity && card.rarity !== selectedRarity) return false
-          if (selectedCardType && card.cardtype !== selectedCardType)
-            return false
-          if (selectedVariant) {
-            const cardVariant = card.pattern || card.variant
-            if (cardVariant !== selectedVariant) return false
-          }
-          return true
-        })}
-      />
+      <CardGrid cards={filteredCards} />
     </>
   )
 }
