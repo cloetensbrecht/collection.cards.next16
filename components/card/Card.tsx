@@ -40,6 +40,7 @@ export type CardProps = {
   rarity: Rarity | null
   sizes: string
   src?: string
+  style?: React.CSSProperties
   title: string
   variant: Variant
 }
@@ -63,6 +64,7 @@ const Card: React.FC<CardProps> = ({
   rarity,
   sizes,
   src,
+  style,
   title,
   variant
 }) => {
@@ -150,7 +152,8 @@ const Card: React.FC<CardProps> = ({
           '--mask': mask
             ? `url(/_next/image?url=%2Fmedia${mask}&w=750&q=75)`
             : undefined,
-          '--ring': glowColor || 'black'
+          '--ring': glowColor || 'black',
+          ...style
         } as React.CSSProperties
       }
     >

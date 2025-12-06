@@ -35,6 +35,27 @@ type PokemonSetOverviewProps = {
   cards: Card[]
 }
 
+const stackCards = (
+  cards: Card[],
+  stack: boolean
+): Card[] | (Card & {variants: Card[]})[] => {
+  if (!stack) return cards
+
+  const cardMap: Record<string, Card & {variants: Card[]}> = {}
+
+  return cards.reduce((acc, card) => {
+    const existingCard = cardMap[card.number]
+    if (existingCard) {
+      if (!existingCard.variants) existingCard.variants = []
+      existingCard.variants.push({...card})
+    } else {
+      cardMap[card.number] = {...card, variants: []}
+      acc.push(cardMap[card.number])
+    }
+    return acc
+  }, [] as (Card & {variants: Card[]})[])
+}
+
 const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
   const energyParser = parseAsStringEnum<Energy>(
     Object.keys(energy) as Energy[]
@@ -125,26 +146,33 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
 
   const filteredCards = useMemo(
     () =>
-      cards.filter(card => {
-        if (selectedEnergy && card.energy !== selectedEnergy) return false
-        if (selectedHitPoints && card.hp !== selectedHitPoints) return false
-        if (selectedRarity && card.rarity !== selectedRarity) return false
-        if (selectedCardType && card.cardtype !== selectedCardType) return false
-        if (selectedVariant) {
-          const cardVariant = card.pattern || card.variant
-          if (cardVariant !== selectedVariant) return false
-        }
-        return true
-      }),
+      stackCards(
+        cards.filter(card => {
+          if (selectedEnergy && card.energy !== selectedEnergy) return false
+          if (selectedHitPoints && card.hp !== selectedHitPoints) return false
+          if (selectedRarity && card.rarity !== selectedRarity) return false
+          if (selectedCardType && card.cardtype !== selectedCardType)
+            return false
+          if (selectedVariant) {
+            const cardVariant = card.pattern || card.variant
+            if (cardVariant !== selectedVariant) return false
+          }
+          return true
+        }),
+        stack
+      ),
     [
       cards,
       selectedEnergy,
       selectedHitPoints,
       selectedRarity,
       selectedCardType,
-      selectedVariant
+      selectedVariant,
+      stack
     ]
   )
+
+  console.log(filteredCards)
 
   return (
     <>

@@ -41,7 +41,7 @@ function getColumnWidth(width: number, columnCount: number): number {
 type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
 export type CardGridProps = {
-  cards: Card[]
+  cards: (Card | (Card & {variants: Card[]}))[]
 }
 
 type State = {
