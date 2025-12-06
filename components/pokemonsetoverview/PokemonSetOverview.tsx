@@ -9,8 +9,9 @@ import {
 } from '@/consts/pattern'
 import {rarity, Rarity, rarityOrder} from '@/consts/rarity'
 import {variant, Variant, variantPattern} from '@/consts/variant'
-import {BookOpen, Grid} from 'lucide-react'
+import {BookOpen, GalleryHorizontal, Grid, Layers} from 'lucide-react'
 import {
+  parseAsBoolean,
   parseAsInteger,
   parseAsStringEnum,
   useQueryState,
@@ -62,6 +63,10 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
   const [pockets, setPockets] = useQueryState(
     'pockets',
     parseAsStringEnum(['4', '9', '12', '16']).withDefault('9')
+  )
+  const [stack, setStack] = useQueryState(
+    'stack',
+    parseAsBoolean.withDefault(false)
   )
 
   const selectedEnergy = filters.energy
@@ -225,6 +230,27 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
               </ToggleGroup>
             </div>
           )}
+          <ToggleGroup
+            size="sm"
+            type="single"
+            variant="outline"
+            style={{'--radius': '8px'} as React.CSSProperties}
+          >
+            <Tooltip text={stack ? 'Unstack variants' : 'Stack variants'}>
+              <ToggleGroupItem
+                aria-checked={stack}
+                aria-label={stack ? 'Unstack variants' : 'Stack variants'}
+                className="px-1.75 cursor-pointer "
+                onClick={() => {
+                  setStack(s => !s)
+                }}
+                tabIndex={undefined}
+                value="stack"
+              >
+                {stack ? <GalleryHorizontal /> : <Layers />}
+              </ToggleGroupItem>
+            </Tooltip>
+          </ToggleGroup>
         </div>
       </div>
       <CardGrid
