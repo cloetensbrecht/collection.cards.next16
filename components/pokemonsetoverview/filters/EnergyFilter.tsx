@@ -11,30 +11,31 @@ const EnergyFilter: React.FC<EnergyFilterProps> = ({
   options,
   onChange,
   selected
-}) => (
-  <MultiSelect
-    innerLabel="Filter by Energy"
-    label="Energy"
-    onChange={selectedOptions => {
-      const selectedOption =
-        selectedOptions.filter(o => o.value !== selected)[0] || null
-      onChange({
-        label: selectedOption?.label || 'All energies',
-        value: selectedOption?.value
-          ? selectedOption.value === selected
-            ? null
-            : (selectedOption.value as Energy)
-          : null
-      })
-    }}
-    options={options.map(option => ({
-      icon: getEnergyIcon(option),
-      label: energy[option],
-      value: option
-    }))}
-    placeholder="All energies"
-    selected={selected ? [selected] : undefined}
-  />
-)
+}) =>
+  options.length ? (
+    <MultiSelect
+      innerLabel="Filter by Energy"
+      label="Energy"
+      onChange={selectedOptions => {
+        const selectedOption =
+          selectedOptions.filter(o => o.value !== selected)[0] || null
+        onChange({
+          label: selectedOption?.label || 'All energies',
+          value: selectedOption?.value
+            ? selectedOption.value === selected
+              ? null
+              : (selectedOption.value as Energy)
+            : null
+        })
+      }}
+      options={options.map(option => ({
+        icon: getEnergyIcon(option),
+        label: energy[option],
+        value: option
+      }))}
+      placeholder="All energies"
+      selected={selected ? [selected] : undefined}
+    />
+  ) : null
 
 export default EnergyFilter

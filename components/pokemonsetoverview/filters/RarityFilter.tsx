@@ -11,8 +11,8 @@ const RarityFilter: React.FC<RarityFilterProps> = ({
   options,
   onChange,
   selected
-}) => {
-  return (
+}) =>
+  options.length > 0 ? (
     <MultiSelect
       label="Rarity"
       innerLabel="Filter by Rarity"
@@ -36,7 +36,6 @@ const RarityFilter: React.FC<RarityFilterProps> = ({
       placeholder="Any Rarity"
       selected={selected !== null ? [selected] : undefined}
     />
-  )
-}
+  ) : null
 
 export default RarityFilter

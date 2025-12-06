@@ -7,33 +7,30 @@ type TypeFilterProps = {
   selected: CardType | null
 }
 
-const TypeFilter: React.FC<TypeFilterProps> = ({
-  options,
-  onChange,
-  selected
-}) => (
-  <MultiSelect
-    innerLabel="Filter by Type"
-    label="Type"
-    onChange={selectedOptions => {
-      const selectedOption =
-        selectedOptions.filter(o => o.value !== selected)[0] || null
-      onChange({
-        label: selectedOption?.label || 'All types',
-        value: selectedOption?.value
-          ? selectedOption.value === selected
-            ? null
-            : (selectedOption.value as CardType)
-          : null
-      })
-    }}
-    options={options.map(option => ({
-      label: cardType[option],
-      value: option
-    }))}
-    placeholder="All types"
-    selected={selected ? [selected] : undefined}
-  />
-)
+const TypeFilter: React.FC<TypeFilterProps> = ({options, onChange, selected}) =>
+  options.length > 0 ? (
+    <MultiSelect
+      innerLabel="Filter by Type"
+      label="Type"
+      onChange={selectedOptions => {
+        const selectedOption =
+          selectedOptions.filter(o => o.value !== selected)[0] || null
+        onChange({
+          label: selectedOption?.label || 'All types',
+          value: selectedOption?.value
+            ? selectedOption.value === selected
+              ? null
+              : (selectedOption.value as CardType)
+            : null
+        })
+      }}
+      options={options.map(option => ({
+        label: cardType[option],
+        value: option
+      }))}
+      placeholder="All types"
+      selected={selected ? [selected] : undefined}
+    />
+  ) : null
 
 export default TypeFilter
