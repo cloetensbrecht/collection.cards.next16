@@ -12,6 +12,7 @@ import {
 import Card, {CardProps} from '../card/Card'
 import CardModal from '../cardmodal/CardModal'
 import CardModalPlaceholder from '../cardmodal/CardModalPlaceholder'
+import NoResults from '../noresults/NoResults'
 import PokemonCardDetails, {
   PokemonCardDetailsProps
 } from '../pokemoncarddetails/PokemonCardDetails'
@@ -186,7 +187,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
     }
   }, [state.status])
 
-  if (cards.length === 0) return null
+  if (cards.length === 0) return <NoResults />
   if (windowWidth === 0) return <div className="h-screen" />
 
   return (
