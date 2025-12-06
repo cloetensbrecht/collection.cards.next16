@@ -174,7 +174,6 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   }, [])
 
   const onPlaceholderAnimationCompleteHandler = useCallback(() => {
-    console.log('onPlaceholderAnimationCompleteHandler', state.status)
     if (state.status !== 'closed') {
       // positioning the placeholder finished, open the modal
       setState(s => ({
