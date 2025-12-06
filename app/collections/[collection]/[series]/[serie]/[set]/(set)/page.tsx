@@ -10,6 +10,7 @@ import PokemonSetOverview from '@/components/pokemonsetoverview/PokemonSetOvervi
 import {Title} from '@/components/title/Title'
 import {blurDataURL} from '@/lib/blurDataURL'
 import {Query} from 'alinea'
+import Image from 'next/image'
 import {notFound} from 'next/navigation'
 
 const fetchSetData = async (url: string) => {
@@ -145,10 +146,29 @@ export default async function Set({
   )
   if (!setData) return notFound()
 
+  const symbol = setData.symbol?.[0] || undefined
+
   return (
     <Container>
-      <Title.H1>{setData.title}</Title.H1>
-
+      <div className="flex gap-4 pb-5 items-start justify-between">
+        <Title.H1>{setData.title}</Title.H1>
+        {symbol && (
+          <div className="relative w-8 h-8">
+            <Image
+              alt={setData.title}
+              src={`/media${symbol?.src}`}
+              fill={true}
+              sizes="32px"
+              style={{
+                objectFit: 'contain',
+                objectPosition: symbol?.focus
+                  ? `${symbol.focus.x * 100}% ${symbol.focus.y * 100}%`
+                  : undefined
+              }}
+            />
+          </div>
+        )}
+      </div>
       {collection === 'pokemon' ? (
         <PokemonSetOverview cards={setData.cards} />
       ) : (
