@@ -104,7 +104,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards, isStacked}) => {
       if (!isStacked) return rowHeight
       return rowHeights[rowIndex]
     },
-    overscan: 1
+    overscan: 2
   })
 
   const scrollToRow = useCallback(
