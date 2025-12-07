@@ -9,6 +9,7 @@ import {
 } from '@/consts/pattern'
 import {rarity, Rarity, rarityOrder} from '@/consts/rarity'
 import {variant, Variant, variantPattern} from '@/consts/variant'
+import {ImageLink} from 'alinea'
 import {BookOpen, GalleryHorizontal, Grid, Layers} from 'lucide-react'
 import {
   parseAsBoolean,
@@ -18,6 +19,7 @@ import {
   useQueryStates
 } from 'nuqs'
 import {useMemo} from 'react'
+import Binder from '../binder/Binder'
 import {CardProps} from '../card/Card'
 import CardGrid from '../cardgrid/CardGrid'
 import {PokemonCardDetailsProps} from '../pokemoncarddetails/PokemonCardDetails'
@@ -33,6 +35,13 @@ type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
 type PokemonSetOverviewProps = {
   cards: Card[]
+  logo: ImageLink<undefined>
+}
+
+function chunkArray<T>(arr: T[], size = 9): T[][] {
+  const chunks: T[][] = []
+  for (let i = 0; i < arr.length; i += size) chunks.push(arr.slice(i, i + size))
+  return chunks
 }
 
 const stackCards = (
@@ -56,7 +65,10 @@ const stackCards = (
   }, [] as (Card & {variants: Card[]})[])
 }
 
-const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
+const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
+  cards,
+  logo
+}) => {
   const energyParser = parseAsStringEnum<Energy>(
     Object.keys(energy) as Energy[]
   )
@@ -90,6 +102,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
     'stack',
     parseAsBoolean.withDefault(false)
   )
+  const [page, setPage] = useQueryState('page', parseAsInteger.withDefault(1))
 
   const selectedEnergy = filters.energy
   const selectedHitPoints = filters.hp
@@ -171,6 +184,12 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
       stack
     ]
   )
+
+  const binderPages = useMemo(() => {
+    return viewMode === 'binder'
+      ? chunkArray(filteredCards, parseInt(pockets || '9', 10))
+      : []
+  }, [filteredCards, pockets, viewMode])
 
   return (
     <>
@@ -303,7 +322,18 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
           </ToggleGroup>
         </div>
       </div>
-      <CardGrid cards={filteredCards} isStacked={stack} />
+      {viewMode === 'binder' ? (
+        <Binder
+          isStacked={stack}
+          logo={logo}
+          pages={binderPages}
+          page={page}
+          pockets={Number(pockets)}
+          setPage={(newPage: number) => setPage(newPage)}
+        />
+      ) : (
+        <CardGrid cards={filteredCards} isStacked={stack} />
+      )}
     </>
   )
 }

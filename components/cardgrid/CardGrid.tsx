@@ -42,7 +42,9 @@ function getColumnWidth(width: number, columnCount: number): number {
 type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
 export type CardGridProps = {
+  asBinderPage?: boolean
   cards: (Card | (Card & {variants: Card[]}))[]
+  columns?: number
   isStacked?: boolean
 }
 
@@ -56,7 +58,12 @@ type State = {
   status: 'positioning' | 'opening' | 'open' | 'closing' | 'closed'
 }
 
-const CardGrid: React.FC<CardGridProps> = ({cards, isStacked}) => {
+const CardGrid: React.FC<CardGridProps> = ({
+  asBinderPage,
+  cards,
+  columns,
+  isStacked
+}) => {
   const gridRef = useRef<HTMLDivElement>(null)
   const [windowWidth, setWindowWidth] = useState(0)
   const [state, setState] = useState<State>({
@@ -71,8 +78,14 @@ const CardGrid: React.FC<CardGridProps> = ({cards, isStacked}) => {
 
   const currentCard = cards[state.currentIndex]
   const extendedCard = useMemo(() => ({...currentCard, sizes}), [currentCard])
-  const columnCount = useMemo(() => getColumnCount(windowWidth), [windowWidth])
-  const columnWidth = getColumnWidth(windowWidth, columnCount)
+  const columnCount = useMemo(
+    () => columns || getColumnCount(windowWidth),
+    [windowWidth, columns]
+  )
+  const columnWidth = getColumnWidth(
+    windowWidth / (asBinderPage ? 2 : 1),
+    columnCount
+  )
   const rowHeight = Math.floor(columnWidth * (1024 / 733) + gapSize) // maintain 408:555 ratio
   const rowCount = Math.ceil(cards.length / columnCount)
   const hasNextButton = state.currentIndex < cards.length - 1

@@ -170,7 +170,7 @@ export default async function Set({
         )}
       </div>
       {collection === 'pokemon' ? (
-        <PokemonSetOverview cards={setData.cards} />
+        <PokemonSetOverview cards={setData.cards} logo={setData.logo} />
       ) : (
         <CardGrid cards={setData.cards} />
       )}
