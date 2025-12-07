@@ -25,13 +25,16 @@ const fetchIllustratorCards = async (
     .map(item => {
       const card: CardGridProps['cards'][number] = {
         blurDataURL: blurDataURL(item.card?.thumbHash),
+        cardtype: item.cardtype,
         edgeColor: item.edgeColor,
+        energy: item.energy,
         focus: item.card?.focus,
         foil: item.variants?.[0]?.foil?.src || undefined,
         glowColor:
           item.energy || item.subtype
             ? `var(--${item.energy || item.subtype})`
             : undefined,
+        hp: item.hp,
         id: item.id,
         mask: item.variants?.[0]?.mask?.src || undefined,
         pattern: item.variants?.[0]?.pattern || undefined,
