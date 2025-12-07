@@ -13,22 +13,22 @@ type CardModalPlaceholderProps = {
   card: CardProps | null
   columnWidth: number
   gapSize: number
+  height: number
   modalState: ModalState
   nextSelectionCol: number
-  nextSelectionRow: number
   onAnimationComplete: () => void
-  rowHeight: number
+  top: number
 }
 
 const CardModalPlaceholder: React.FC<CardModalPlaceholderProps> = ({
   card,
   columnWidth,
   gapSize,
+  height,
   modalState,
   nextSelectionCol,
-  nextSelectionRow,
   onAnimationComplete,
-  rowHeight
+  top
 }) => (
   <motion.div
     layoutId="card-modal-placeholder"
@@ -44,13 +44,13 @@ const CardModalPlaceholder: React.FC<CardModalPlaceholderProps> = ({
     animate={{
       zIndex: ['opening', 'open', 'closing'].includes(modalState) ? 10 : 0,
       opacity: ['closed'].includes(modalState) ? 0 : 1,
-      top: (nextSelectionRow || 0) * rowHeight,
+      top,
       left:
         (nextSelectionCol || 0) * columnWidth +
         (nextSelectionCol || 0) * gapSize
     }}
     style={{
-      height: `${rowHeight - gapSize}px`,
+      height: `${height}px`,
       width: columnWidth
     }}
   >

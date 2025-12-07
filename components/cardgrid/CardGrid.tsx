@@ -1,5 +1,6 @@
 'use client'
 
+import {stackedCardOffset} from '@/consts/stack'
 import {useWindowVirtualizer} from '@tanstack/react-virtual'
 import {
   useCallback,
@@ -42,6 +43,7 @@ type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
 export type CardGridProps = {
   cards: (Card | (Card & {variants: Card[]}))[]
+  isStacked?: boolean
 }
 
 type State = {
@@ -54,7 +56,7 @@ type State = {
   status: 'positioning' | 'opening' | 'open' | 'closing' | 'closed'
 }
 
-const CardGrid: React.FC<CardGridProps> = ({cards}) => {
+const CardGrid: React.FC<CardGridProps> = ({cards, isStacked}) => {
   const gridRef = useRef<HTMLDivElement>(null)
   const [windowWidth, setWindowWidth] = useState(0)
   const [state, setState] = useState<State>({
@@ -76,9 +78,32 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
   const hasNextButton = state.currentIndex < cards.length - 1
   const hasPrevButton = state.currentIndex > 0
 
+  const rowHeights = useMemo(() => {
+    const heights: number[] = []
+    for (let rowIndex = 0; rowIndex < rowCount; rowIndex++) {
+      const start = rowIndex * columnCount
+      const end = start + columnCount
+      const rowItems = cards.slice(start, end)
+      const maxVariantsInRow = Math.max(
+        0,
+        ...rowItems.map(card =>
+          (card as Card & {variants: Card[]}).variants
+            ? (card as Card & {variants: Card[]}).variants.length
+            : 0
+        )
+      )
+
+      heights[rowIndex] = rowHeight + stackedCardOffset * maxVariantsInRow
+    }
+    return heights
+  }, [cards, columnCount, rowCount, rowHeight])
+
   const virtualizer = useWindowVirtualizer({
     count: rowCount,
-    estimateSize: () => rowHeight,
+    estimateSize: rowIndex => {
+      if (!isStacked) return rowHeight
+      return rowHeights[rowIndex]
+    },
     overscan: 1
   })
 
@@ -228,17 +253,28 @@ const CardGrid: React.FC<CardGridProps> = ({cards}) => {
         })}
         <CardModalPlaceholder
           columnWidth={columnWidth}
+          height={rowHeight - gapSize}
           gapSize={gapSize}
           modalState={state.status}
           nextSelectionCol={
             state.nextColumn !== null ? state.nextColumn : state.currentColumn
           }
-          nextSelectionRow={
-            state.nextRow !== null ? state.nextRow : state.currentRow
-          }
           onAnimationComplete={onPlaceholderAnimationCompleteHandler}
-          rowHeight={rowHeight}
           card={extendedCard}
+          top={
+            rowHeights.reduce(
+              (acc, height, index) =>
+                index <
+                (state.nextRow !== null ? state.nextRow : state.currentRow)
+                  ? acc + height
+                  : acc,
+              0
+            ) +
+            rowHeights[
+              state.nextRow !== null ? state.nextRow : state.currentRow
+            ] -
+            rowHeight
+          }
         />
       </div>
       <CardModal

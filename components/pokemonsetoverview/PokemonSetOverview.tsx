@@ -305,7 +305,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
           </ToggleGroup>
         </div>
       </div>
-      <CardGrid cards={filteredCards} />
+      <CardGrid cards={filteredCards} isStacked={stack} />
     </>
   )
 }
