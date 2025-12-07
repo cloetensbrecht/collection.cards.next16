@@ -26,12 +26,15 @@ const fetchCardData = async (url: string) => {
 
   const basicInfo: CardGridProps['cards'][number] = {
     blurDataURL: blurDataURL(data.card?.thumbHash),
+    cardtype: data.cardtype,
     edgeColor: data.edgeColor,
+    energy: data.energy,
     focus: data.card?.focus,
     glowColor:
       data.energy || data.subtype
         ? `var(--${data.energy || data.subtype})`
         : undefined,
+    hp: data.hp,
     id: data._id,
     src: data.card ? `/media${data.card?.src}` : undefined,
     title: data.title,
