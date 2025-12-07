@@ -172,8 +172,6 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({cards}) => {
     ]
   )
 
-  console.log(filteredCards)
-
   return (
     <>
       <div className="pb-10 flex gap-4 flex-wrap items-end justify-between">
