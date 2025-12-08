@@ -250,6 +250,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
                   onClick={() => {
                     setViewMode('grid')
                     setPockets(null)
+                    setPage(1)
                   }}
                   tabIndex={undefined}
                   value="grid"

@@ -44,16 +44,12 @@ const Binder: React.FC<BinderProps> = ({
         />
       )}
       <div className="flex w-full flex-row">
-        <div
-          className="basis-1/2 p-6 pr-12 bg-gradient-to-r from-95% from-foreground/0 dark:from-background/0 to-foreground/10 dark:to-background/50 to-100%"
-          onClick={() => setPage(page - 2)}
-        >
+        <div className="basis-1/2 p-6 pr-12 bg-gradient-to-r from-95% from-foreground/0 dark:from-background/0 to-foreground/10 dark:to-background/50 to-100%">
           {!leftPageIsCoverPage ? (
             <CardGrid
               cards={leftPageCards}
               columns={columns}
               isStacked={isStacked}
-              asBinderPage={true}
             />
           ) : (
             <div className="w-full h-full flex items-center justify-center">
@@ -67,15 +63,11 @@ const Binder: React.FC<BinderProps> = ({
             </div>
           )}
         </div>
-        <div
-          className="basis-1/2 p-6 pl-12 bg-gradient-to-l from-95% from-foreground/0 dark:from-background/0 to-foreground/10 dark:to-background/50 to-100%"
-          onClick={() => setPage(page + 2)}
-        >
+        <div className="basis-1/2 p-6 pl-12 bg-gradient-to-l from-95% from-foreground/0 dark:from-background/0 to-foreground/10 dark:to-background/50 to-100%">
           <CardGrid
             cards={rightPageCards}
             columns={columns}
             isStacked={isStacked}
-            asBinderPage={true}
           />
         </div>
       </div>

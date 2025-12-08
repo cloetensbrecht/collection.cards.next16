@@ -42,7 +42,6 @@ function getColumnWidth(width: number, columnCount: number): number {
 type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
 export type CardGridProps = {
-  asBinderPage?: boolean
   cards: (Card | (Card & {variants: Card[]}))[]
   columns?: number
   isStacked?: boolean
@@ -58,14 +57,9 @@ type State = {
   status: 'positioning' | 'opening' | 'open' | 'closing' | 'closed'
 }
 
-const CardGrid: React.FC<CardGridProps> = ({
-  asBinderPage,
-  cards,
-  columns,
-  isStacked
-}) => {
+const CardGrid: React.FC<CardGridProps> = ({cards, columns, isStacked}) => {
   const gridRef = useRef<HTMLDivElement>(null)
-  const [windowWidth, setWindowWidth] = useState(0)
+  const [gridWidth, setGridWidth] = useState(0)
   const [state, setState] = useState<State>({
     currentColumn: 0,
     currentRow: 0,
@@ -76,16 +70,30 @@ const CardGrid: React.FC<CardGridProps> = ({
     status: 'closed'
   })
 
+  useEffect(() => {
+    const observer = new ResizeObserver(entries => {
+      setGridWidth(entries[0].contentRect.width)
+    })
+
+    const currentGrid = gridRef.current
+    if (currentGrid) {
+      observer.observe(currentGrid)
+    }
+
+    return () => {
+      if (currentGrid) {
+        observer.unobserve(currentGrid)
+      }
+    }
+  }, [])
+
   const currentCard = cards[state.currentIndex]
   const extendedCard = useMemo(() => ({...currentCard, sizes}), [currentCard])
   const columnCount = useMemo(
-    () => columns || getColumnCount(windowWidth),
-    [windowWidth, columns]
+    () => columns || getColumnCount(gridWidth),
+    [gridWidth, columns]
   )
-  const columnWidth = getColumnWidth(
-    windowWidth / (asBinderPage ? 2 : 1),
-    columnCount
-  )
+  const columnWidth = (gridWidth - (columnCount - 1) * gapSize) / columnCount
   const rowHeight = Math.floor(columnWidth * (1024 / 733) + gapSize) // maintain 408:555 ratio
   const rowCount = Math.ceil(cards.length / columnCount)
   const hasNextButton = state.currentIndex < cards.length - 1
@@ -155,14 +163,6 @@ const CardGrid: React.FC<CardGridProps> = ({
     }
   }, [state, scrollToRow])
 
-  // Track screen width for responsiveness
-  useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth)
-    handleResize()
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
-
   useEffect(() => {
     virtualizer.measure()
   }, [rowHeight, columnCount, virtualizer])
@@ -226,7 +226,6 @@ const CardGrid: React.FC<CardGridProps> = ({
   }, [state.status])
 
   if (cards.length === 0) return <NoResults />
-  if (windowWidth === 0) return <div className="h-screen" />
 
   return (
     <>
@@ -235,60 +234,66 @@ const CardGrid: React.FC<CardGridProps> = ({
         className="relative"
         style={{height: virtualizer.getTotalSize() - gapSize}}
       >
-        {virtualizer.getVirtualItems().map(virtualRow => {
-          const start = virtualRow.index * columnCount
-          const end = start + columnCount
-          const rowItems = cards.slice(start, end)
-          const onClickHandler = (column: number) => {
-            setState(s => ({
-              ...s,
-              nextColumn: column,
-              nextRow: virtualRow.index,
-              nextIndex: start + column,
-              status: 'positioning'
-            }))
-          }
-
-          return (
-            <CardGridRow
-              activeCardId={
-                state.status === 'open' ? currentCard.id : undefined
+        {gridWidth > 0 && (
+          <>
+            {virtualizer.getVirtualItems().map(virtualRow => {
+              const start = virtualRow.index * columnCount
+              const end = start + columnCount
+              const rowItems = cards.slice(start, end)
+              const onClickHandler = (column: number) => {
+                setState(s => ({
+                  ...s,
+                  nextColumn: column,
+                  nextRow: virtualRow.index,
+                  nextIndex: start + column,
+                  status: 'positioning'
+                }))
               }
-              cards={rowItems}
-              cardSizes={sizes}
-              columns={columnCount}
+
+              return (
+                <CardGridRow
+                  activeCardId={
+                    state.status === 'open' ? currentCard.id : undefined
+                  }
+                  cards={rowItems}
+                  cardSizes={sizes}
+                  columns={columnCount}
+                  height={rowHeight - gapSize}
+                  key={virtualRow.key}
+                  onClickHandler={onClickHandler}
+                  virtualRow={virtualRow}
+                />
+              )
+            })}
+            <CardModalPlaceholder
+              columnWidth={columnWidth}
               height={rowHeight - gapSize}
-              key={virtualRow.key}
-              onClickHandler={onClickHandler}
-              virtualRow={virtualRow}
+              gapSize={gapSize}
+              modalState={state.status}
+              nextSelectionCol={
+                state.nextColumn !== null
+                  ? state.nextColumn
+                  : state.currentColumn
+              }
+              onAnimationComplete={onPlaceholderAnimationCompleteHandler}
+              card={extendedCard}
+              top={
+                rowHeights.reduce(
+                  (acc, height, index) =>
+                    index <
+                    (state.nextRow !== null ? state.nextRow : state.currentRow)
+                      ? acc + height
+                      : acc,
+                  0
+                ) +
+                rowHeights[
+                  state.nextRow !== null ? state.nextRow : state.currentRow
+                ] -
+                rowHeight
+              }
             />
-          )
-        })}
-        <CardModalPlaceholder
-          columnWidth={columnWidth}
-          height={rowHeight - gapSize}
-          gapSize={gapSize}
-          modalState={state.status}
-          nextSelectionCol={
-            state.nextColumn !== null ? state.nextColumn : state.currentColumn
-          }
-          onAnimationComplete={onPlaceholderAnimationCompleteHandler}
-          card={extendedCard}
-          top={
-            rowHeights.reduce(
-              (acc, height, index) =>
-                index <
-                (state.nextRow !== null ? state.nextRow : state.currentRow)
-                  ? acc + height
-                  : acc,
-              0
-            ) +
-            rowHeights[
-              state.nextRow !== null ? state.nextRow : state.currentRow
-            ] -
-            rowHeight
-          }
-        />
+          </>
+        )}
       </div>
       <CardModal
         card={
