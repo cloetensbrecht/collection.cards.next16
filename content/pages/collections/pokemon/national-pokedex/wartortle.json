@@ -1,0 +1,19 @@
+{
+  "_id": "36cn0NuZL7T0oR0pfPAad11wh2K",
+  "_type": "Pokemon",
+  "_index": "Zt",
+  "title": "Wartortle",
+  "number": 8,
+  "icon": {},
+  "evolvesFrom": {
+    "_id": "36cn3XcZdwgRzg0VNBACkooilSl",
+    "_type": "entry",
+    "_entry": "36cmxaBUfrFtcl8il0F9cHAQWdh"
+  },
+  "evolvesTo": {
+    "_id": "36cn966198dMPpBax5COvDjgXC8",
+    "_type": "entry",
+    "_entry": "36cn7Pk1FjU3McyT82DhnErmfCY"
+  },
+  "blocks": []
+}

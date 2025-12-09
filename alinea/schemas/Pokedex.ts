@@ -1,17 +1,16 @@
 import {Config, Field, Infer} from 'alinea'
 import {defaultBlocks} from '../blocks/Blocks.schema'
 
-export type PokemonCollection = Infer<typeof PokemonCollection>
+export type Pokedex = Infer<typeof Pokedex>
 
-export const PokemonCollection = Config.type('Pokémon', {
+export const Pokedex = Config.type('Pokédex', {
   fields: {
     title: Field.text('Title'),
     path: Field.path('Path', {hidden: true}),
-    icon: Field.image('Icon'),
     blocks: Field.list('Blocks', {
       schema: defaultBlocks
     })
   },
-  contains: ['PokemonSeries', 'Pokedex'],
+  contains: ['Pokemon'],
   insertOrder: 'first'
 })

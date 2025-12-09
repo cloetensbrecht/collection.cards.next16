@@ -1,0 +1,15 @@
+{
+  "_id": "36cmUphjXvVkw8AKdDv2meiPmva",
+  "_type": "Pokemon",
+  "_index": "Zv",
+  "title": "Charizard",
+  "number": 6,
+  "icon": {},
+  "evolvesFrom": {
+    "_id": "36cmVmeLzJ15NnnvbRx3MRF3vBn",
+    "_type": "entry",
+    "_entry": "36cmFd57jzIwIutmsQzQswpmFHt"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

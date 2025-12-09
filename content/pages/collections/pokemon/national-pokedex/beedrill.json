@@ -1,0 +1,15 @@
+{
+  "_id": "36cniZxFO4If6iR541RbRswsAWV",
+  "_type": "Pokemon",
+  "_index": "Zm",
+  "title": "Beedrill",
+  "number": 15,
+  "icon": {},
+  "evolvesFrom": {
+    "_id": "36cnjMe2zbls389hUAAs0RajcGZ",
+    "_type": "entry",
+    "_entry": "36cnctpgE44Ie6hG4HN2UVK7xRX"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

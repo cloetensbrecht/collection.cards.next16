@@ -1,0 +1,19 @@
+{
+  "_id": "36cnctpgE44Ie6hG4HN2UVK7xRX",
+  "_type": "Pokemon",
+  "_index": "Zn",
+  "title": "Kakuna",
+  "number": 14,
+  "icon": {},
+  "evolvesFrom": {
+    "_id": "36cnfFDOTXjtC9QGM947INF1vN1",
+    "_type": "entry",
+    "_entry": "36cnbVO3C68vKHD4WnACg7HBtTR"
+  },
+  "evolvesTo": {
+    "_id": "36cnjrrmUgLllXTG59vaKb2QWfP",
+    "_type": "entry",
+    "_entry": "36cniZxFO4If6iR541RbRswsAWV"
+  },
+  "blocks": []
+}

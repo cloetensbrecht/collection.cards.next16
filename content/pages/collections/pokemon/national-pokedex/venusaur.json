@@ -1,0 +1,15 @@
+{
+  "_id": "36clp1ivmugQfh9hwOwAuEXXx22",
+  "_type": "Pokemon",
+  "_index": "Zy",
+  "title": "Venusaur",
+  "number": 3,
+  "icon": {},
+  "evolvesFrom": {
+    "_id": "36clu1IOxeP3TboArrT1U3WrTuy",
+    "_type": "entry",
+    "_entry": "36clk0lG04VhYRkB9R4CIya4MjJ"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

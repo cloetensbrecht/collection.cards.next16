@@ -1,0 +1,19 @@
+{
+  "_id": "36cmFd57jzIwIutmsQzQswpmFHt",
+  "_type": "Pokemon",
+  "_index": "Zw",
+  "title": "Charmeleon",
+  "number": 5,
+  "icon": {},
+  "evolvesFrom": {
+    "_id": "36cmQg79j3BiG6rzc8rb8M1ZIUt",
+    "_type": "entry",
+    "_entry": "36cmBcRWiJ6ldPPstPi13KkL3uO"
+  },
+  "evolvesTo": {
+    "_id": "36cmXENcDQphqERP95Lpg9H8QJr",
+    "_type": "entry",
+    "_entry": "36cmUphjXvVkw8AKdDv2meiPmva"
+  },
+  "blocks": []
+}

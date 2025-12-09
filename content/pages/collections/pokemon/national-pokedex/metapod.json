@@ -1,0 +1,19 @@
+{
+  "_id": "36cnJcQOdswGqkxr3DXIru2vqWe",
+  "_type": "Pokemon",
+  "_index": "Zq",
+  "title": "Metapod",
+  "number": 11,
+  "icon": {},
+  "evolvesFrom": {
+    "_id": "36cnKo7yesYrDHc0DdA6nUGYRva",
+    "_type": "entry",
+    "_entry": "36cnFV3qi1Q0XPMkR9ifWPnSjJM"
+  },
+  "evolvesTo": {
+    "_id": "36cnOJgZSvlSWcgQQa9pSon2pbz",
+    "_type": "entry",
+    "_entry": "36cnMpViVxYxey6L6dCaMulXuLz"
+  },
+  "blocks": []
+}

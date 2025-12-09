@@ -1,0 +1,15 @@
+{
+  "_id": "36cn7Pk1FjU3McyT82DhnErmfCY",
+  "_type": "Pokemon",
+  "_index": "Zs",
+  "title": "Blastoise",
+  "number": 9,
+  "icon": {},
+  "evolvesFrom": {
+    "_id": "36cn8MHNVMyHtFPdIlga0OstII8",
+    "_type": "entry",
+    "_entry": "36cn0NuZL7T0oR0pfPAad11wh2K"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

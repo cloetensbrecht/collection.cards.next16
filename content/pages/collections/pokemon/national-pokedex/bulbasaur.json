@@ -1,0 +1,15 @@
+{
+  "_id": "36cjnqN8WLzaMhLAGPIwZnPeI04",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Bulbasaur",
+  "number": 1,
+  "icon": {},
+  "evolvesFrom": {},
+  "evolvesTo": {
+    "_id": "36clyhgcDBGJyciiNzyqLjAR074",
+    "_type": "entry",
+    "_entry": "36clk0lG04VhYRkB9R4CIya4MjJ"
+  },
+  "blocks": []
+}

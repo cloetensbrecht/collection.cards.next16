@@ -6,6 +6,8 @@ import {Home} from './alinea/schemas/Home'
 import {Illustrator} from './alinea/schemas/Illustrator'
 import {Illustrators} from './alinea/schemas/Illustrators'
 import {Page} from './alinea/schemas/Page'
+import {Pokedex} from './alinea/schemas/Pokedex'
+import {Pokemon} from './alinea/schemas/Pokemon'
 import {PokemonCard} from './alinea/schemas/PokemonCard'
 import {PokemonCollection} from './alinea/schemas/PokemonCollection'
 import {PokemonSerie} from './alinea/schemas/PokemonSerie'
@@ -25,6 +27,8 @@ export const cms = createCMS({
     Page,
     PokemonCard,
     PokemonCollection,
+    Pokedex,
+    Pokemon,
     PokemonSet,
     PokemonSerie,
     PokemonSeries
@@ -39,7 +43,7 @@ export const cms = createCMS({
     // Point to your local website
     development: 'http://localhost:3000',
     // The production URL of your website
-    production: process.env.PUBLIC_SITE_URL ?? 'https://example.com'
+    production: process.env.PUBLIC_SITE_URL ?? 'https://collection.cards'
   },
 
   // Enable live previews after adding <cms.previews widget /> to your layout
