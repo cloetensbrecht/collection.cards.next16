@@ -250,7 +250,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
                   onClick={() => {
                     setViewMode('grid')
                     setPockets(null)
-                    setPage(1)
+                    setPage(null)
                   }}
                   tabIndex={undefined}
                   value="grid"
@@ -289,7 +289,10 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
                       aria-checked={pockets === p ? 'true' : 'false'}
                       aria-label={`${p}-pocket`}
                       className="p-1.5 px-2.5 cursor-pointer font-normal aria-[checked=true]:bg-accent aria-[checked=true]:text-accent-foreground"
-                      onClick={() => setPockets(p)}
+                      onClick={() => {
+                        setPockets(p)
+                        setPage(null)
+                      }}
                       tabIndex={undefined}
                       value={p}
                     >
@@ -313,6 +316,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
                 className="px-1.75 cursor-pointer "
                 onClick={() => {
                   setStack(s => !s)
+                  setPage(null)
                 }}
                 tabIndex={undefined}
                 value="stack"
