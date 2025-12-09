@@ -1,13 +1,17 @@
 'use client'
 
+import {Energy, energy as energyList, getEnergyIcon} from '@/consts/energy'
 import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/pattern'
-import {variant} from '@/consts/variant'
+import {variant, variantPattern} from '@/consts/variant'
 import {AnimatePresence, motion} from 'framer-motion'
-import {useState} from 'react'
+import {Sparkles} from 'lucide-react'
+import {createElement, useState} from 'react'
 import {Title} from '../title/Title'
 import {Button} from '../ui/button'
+import {Label} from '../ui/label'
 
 export type PokemonCardDetailsProps = {
+  energy: Energy | null
   id: string
   number: string
   pattern?: keyof typeof reverseHolofoilPatterns | keyof typeof holofoilPatterns
@@ -18,7 +22,12 @@ export type PokemonCardDetailsProps = {
 export default function PokemonCardDetails({
   nextHandler,
   prevHandler,
-  ...cardProps
+  energy,
+  id,
+  number,
+  pattern,
+  title,
+  variant
 }: PokemonCardDetailsProps & {
   nextHandler?: () => void
   prevHandler?: () => void
@@ -54,7 +63,7 @@ export default function PokemonCardDetails({
     <div className="relative overflow-hidden">
       <AnimatePresence initial={false} custom={direction} mode="wait">
         <motion.div
-          key={cardProps.id}
+          key={id}
           custom={direction}
           variants={variants}
           initial="enter"
@@ -68,19 +77,30 @@ export default function PokemonCardDetails({
           }}
         >
           <Title.H2>
-            {cardProps.title}{' '}
+            {title}{' '}
             <span className="ml-2 text-gray-400 dark:text-gray-300/75 font-normal text-sm">
-              # {cardProps.number}
+              # {number}
             </span>
           </Title.H2>
           <p>
-            Variant: {cardProps.variant} {cardProps.pattern}
+            <Label>
+              <Sparkles className="inline-block mr-2 mb-1" size={16} />
+              {variantPattern[variant]}
+              {pattern && (
+                <span className="ml-1.5 text-gray-400 dark:text-gray-300/75 font-normal text-sm italic">
+                  {variantPattern[pattern]}
+                </span>
+              )}
+            </Label>
           </p>
-          <p>ToDo:</p>
-          <ul>
-            <li>Fix reverse holo on mobile in card detail</li>
-            <li>Add more details about the card</li>
-          </ul>
+          {energy && (
+            <p>
+              <Label>
+                <EnergyIcon energy={energy} />
+                {energyList[energy]}
+              </Label>
+            </p>
+          )}
         </motion.div>
       </AnimatePresence>
 
@@ -98,4 +118,11 @@ export default function PokemonCardDetails({
       </div>
     </div>
   )
+}
+
+const EnergyIcon = ({energy}: {energy: Energy}) => {
+  const Icon = getEnergyIcon(energy)
+  return createElement(Icon, {
+    className: 'inline-block mr-2 mb-1 w-[16px] h-[16px]'
+  })
 }
