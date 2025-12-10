@@ -1,0 +1,27 @@
+{
+  "_id": "36dmGRdGX12wXHz1vhoSLsAmweM",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Poliwhirl",
+  "number": 61,
+  "evolvesFrom": {
+    "_id": "36drgme4wUvsNW2NLqN06HOGwvG",
+    "_type": "entry",
+    "_entry": "36dmGXNzAtTfy7bZo1WhdPPJJnb"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36drjARDa6tXOTKBGk5yWZnqZRK",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGR96RZGMM9ZAm2w9TI5wl3n"
+    },
+    {
+      "_id": "36drj6Ksm83hW6A72pLg9kUIVbQ",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGXEamVaAtI7eSaeqxBZvQu1"
+    }
+  ],
+  "blocks": []
+}

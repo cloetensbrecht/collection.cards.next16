@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGQxq2e49KfjlIWKevgJVzVg",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Clefable",
+  "number": 36,
+  "evolvesFrom": {
+    "_id": "36doW8ui5OYKPM29p0ukbbzSkUm",
+    "_type": "entry",
+    "_entry": "36dmGQAZBp7XJ9bDKLNgyyjSiSR"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

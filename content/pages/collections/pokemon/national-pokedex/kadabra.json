@@ -1,0 +1,21 @@
+{
+  "_id": "36dmGQ1YWiH5cLnGFG92tWfNOuV",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Kadabra",
+  "number": 64,
+  "evolvesFrom": {
+    "_id": "36drq1WihOClv0vbZ9faBpqbzip",
+    "_type": "entry",
+    "_entry": "36dmGVPERn3o427v7oYpqGPbwSc"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36drrbynZXqCJfFKJZD82Kj05CA",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUDXTAYYTN1mxzxYRWvCnry"
+    }
+  ],
+  "blocks": []
+}

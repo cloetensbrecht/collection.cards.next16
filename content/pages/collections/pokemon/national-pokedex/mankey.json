@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGQlCl38T25c89i593sQL3UK",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Mankey",
+  "number": 56,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36drRpwPRF7KNdRsjlbwKqcIG4l",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQUkwNjV3v0XXzbejNfYo88"
+    }
+  ],
+  "blocks": []
+}

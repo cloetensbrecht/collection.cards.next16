@@ -1,0 +1,21 @@
+{
+  "_id": "36dmGQUkwNjV3v0XXzbejNfYo88",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Primeape",
+  "number": 57,
+  "evolvesFrom": {
+    "_id": "36drSqv43K7lMajrF11Tm3C0l3f",
+    "_type": "entry",
+    "_entry": "36dmGQlCl38T25c89i593sQL3UK"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36drVKuHW8Hq0GQpa4HRylzMEo7",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXeCPFSGcjpK70jqwuleAGx"
+    }
+  ],
+  "blocks": []
+}

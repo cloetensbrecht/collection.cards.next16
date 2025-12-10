@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGUDXTAYYTN1mxzxYRWvCnry",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Alakazam",
+  "number": 65,
+  "evolvesFrom": {
+    "_id": "36drscv4lyoWye2keitNiTJdI7U",
+    "_type": "entry",
+    "_entry": "36dmGQ1YWiH5cLnGFG92tWfNOuV"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

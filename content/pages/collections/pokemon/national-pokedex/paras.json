@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGQJ4tajejFgNNOKcxe9vePP",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Paras",
+  "number": 46,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dr0mFiqqqHtqboCZIGd4QekJu",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQ5nCrWaGoQkkYiDZMB0f1f"
+    }
+  ],
+  "blocks": []
+}

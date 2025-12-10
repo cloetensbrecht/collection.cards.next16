@@ -1,0 +1,21 @@
+{
+  "_id": "36dmGWK5XEWhqxmeR5E81EcPpeZ",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Nidorino",
+  "number": 33,
+  "evolvesFrom": {
+    "_id": "36doLh5NH5JkXv0TmTY3wYrhtZm",
+    "_type": "entry",
+    "_entry": "36dmGWx2EOxkcYQ8MmofddYa0aL"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36dqZuXNkHXPngGwl7bJtBoFHSp",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUEOdaZbjjaq6Jqei8IofKB"
+    }
+  ],
+  "blocks": []
+}

@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGW1iWip4I9D351H9HN4lzEG",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Cleffa",
+  "number": 173,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dqcrh4BNfaBXhJhLexCgbcD7i",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQAZBp7XJ9bDKLNgyyjSiSR"
+    }
+  ],
+  "blocks": []
+}

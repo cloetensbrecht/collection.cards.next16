@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGQ72oklJMikuDRHk15khwOY",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Sandshrew",
+  "number": 27,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dqRoFufmrOA9N79tt62BqWFSN",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSSkDNjbxnBtl2IbqiaaRoi"
+    }
+  ],
+  "blocks": []
+}

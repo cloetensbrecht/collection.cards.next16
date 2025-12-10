@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGXTO1JCk3s3akl1woKEhrtV",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Ninetales",
+  "number": 38,
+  "evolvesFrom": {
+    "_id": "36dobJIvWp9CivSCdF8ZqWlh0vR",
+    "_type": "entry",
+    "_entry": "36dmGSRiMYXbtLcHZO9smP415Kh"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

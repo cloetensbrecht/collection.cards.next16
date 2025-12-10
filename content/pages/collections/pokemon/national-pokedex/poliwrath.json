@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGR96RZGMM9ZAm2w9TI5wl3n",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Poliwrath",
+  "number": 62,
+  "evolvesFrom": {
+    "_id": "36drkDg7chAqsMLcYEnqIt41Yxt",
+    "_type": "entry",
+    "_entry": "36dmGRdGX12wXHz1vhoSLsAmweM"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

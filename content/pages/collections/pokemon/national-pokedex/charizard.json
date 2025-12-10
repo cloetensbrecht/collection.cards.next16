@@ -1,14 +1,13 @@
 {
-  "_id": "36cmUphjXvVkw8AKdDv2meiPmva",
+  "_id": "36dmGQx3jiE96hbvAi5wIsyck5G",
   "_type": "Pokemon",
-  "_index": "Zv",
+  "_index": "a0",
   "title": "Charizard",
   "number": 6,
-  "icon": {},
   "evolvesFrom": {
-    "_id": "36cmVmeLzJ15NnnvbRx3MRF3vBn",
+    "_id": "36dmsx0qnOG4QznN1nzUV7xSbns",
     "_type": "entry",
-    "_entry": "36cmFd57jzIwIutmsQzQswpmFHt"
+    "_entry": "36dmGTrspOMj4c0Rd6TrcfWmpKK"
   },
   "evolvesTo": {},
   "blocks": []

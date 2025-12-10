@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGRZuMFo84sh31nmTeZJmG67",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Arcanine",
+  "number": 59,
+  "evolvesFrom": {
+    "_id": "36drdBFhSS032pW6zbA7GiGZ5yq",
+    "_type": "entry",
+    "_entry": "36dmGQWrnIGtkvjFMD0m5ufwu0M"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

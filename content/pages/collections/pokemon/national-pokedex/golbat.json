@@ -1,0 +1,21 @@
+{
+  "_id": "36dmGSm5s51J7ouXww4dLgEI5AN",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Golbat",
+  "number": 42,
+  "evolvesFrom": {
+    "_id": "36donnMNyttiOVXUd8PiOoPFwG9",
+    "_type": "entry",
+    "_entry": "36dmGS51RtektJqbQCcfcq7VMsG"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36dqoPrXMxK45FiDOzvXgBd4blt",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWXYKsIMmKtz3TLjLIYdRRn"
+    }
+  ],
+  "blocks": []
+}

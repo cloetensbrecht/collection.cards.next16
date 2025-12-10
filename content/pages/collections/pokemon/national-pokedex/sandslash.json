@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGSSkDNjbxnBtl2IbqiaaRoi",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Sandslash",
+  "number": 28,
+  "evolvesFrom": {
+    "_id": "36dnokDlqylvCL0bloA7YqmO29P",
+    "_type": "entry",
+    "_entry": "36dmGQ72oklJMikuDRHk15khwOY"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

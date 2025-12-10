@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGXNzAtTfy7bZo1WhdPPJJnb",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Poliwag",
+  "number": 60,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36drfryWK9qwlci1XyUHGN6UWkK",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRdGX12wXHz1vhoSLsAmweM"
+    }
+  ],
+  "blocks": []
+}

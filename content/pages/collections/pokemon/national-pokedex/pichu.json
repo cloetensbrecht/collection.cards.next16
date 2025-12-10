@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGXdQKXREcvDXJIcW0vzeYKd",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Pichu",
+  "number": 172,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dqKnDhsVYzGsFFsnYIn0OiRfR",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVW8NzGuMRXGpENvaWWbwlZ"
+    }
+  ],
+  "blocks": []
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "36dmGU16qvJVsJtMYuqA6uf7fYW",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Nidorina",
+  "number": 30,
+  "evolvesFrom": {
+    "_id": "36doFGS8jQiqY1qr51QDEMk7Stc",
+    "_type": "entry",
+    "_entry": "36dmGVEJCRoOC5rweHioxe9lZVp"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36dqWKm4canisOZUcaoDCwo5RA0",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGT2kc5gsNix8fMsjMrf9u0a"
+    }
+  ],
+  "blocks": []
+}

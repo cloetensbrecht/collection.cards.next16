@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGUFtQdWi3dKS8qiCosV86fw",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Venonat",
+  "number": 48,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dr6ECsVzRV9krtldcM2PfUiJr",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUAaTxORRSKs7lOZDrjgRPf"
+    }
+  ],
+  "blocks": []
+}

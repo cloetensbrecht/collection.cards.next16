@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGSgI692CruU3DQzUzGk0Rr6",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Machamp",
+  "number": 68,
+  "evolvesFrom": {
+    "_id": "36ds2kwO14igVe1YAByt3QeBXiV",
+    "_type": "entry",
+    "_entry": "36dmGU9oMOeDOx9QnP8yfKN7NU2"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "36dmGS40b7LG6suJQlQ5theAPkP",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Weepinbell",
+  "number": 70,
+  "evolvesFrom": {
+    "_id": "36ds72nlVnaRahTY5fja0Y07BpJ",
+    "_type": "entry",
+    "_entry": "36dmGXfkBUmmQA0Af61QJkCezza"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36ds8EBZbQSeFknnCjUDt20e7kZ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXVdeDyGWKHEaP4l1SFH22h"
+    }
+  ],
+  "blocks": []
+}

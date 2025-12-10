@@ -1,5 +1,6 @@
 import {Config, Field, Infer} from 'alinea'
 import {defaultBlocks} from '../blocks/Blocks.schema'
+import {Pokemon} from './Pokemon'
 
 export type Pokedex = Infer<typeof Pokedex>
 
@@ -12,5 +13,5 @@ export const Pokedex = Config.type('Pokédex', {
     })
   },
   contains: ['Pokemon'],
-  insertOrder: 'first'
+  orderChildrenBy: {desc: Pokemon.number}
 })

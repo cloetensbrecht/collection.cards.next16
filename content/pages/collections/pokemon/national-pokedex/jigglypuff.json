@@ -1,0 +1,21 @@
+{
+  "_id": "36dmGVdFAUMDiVhBWXG5WXt23pc",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Jigglypuff",
+  "number": 39,
+  "evolvesFrom": {
+    "_id": "36doeOnJ1dOHYp5Tu5jk2lyZdAv",
+    "_type": "entry",
+    "_entry": "36dmGS8IoV9HXWfUgSBbHhwS2dw"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36dqj5dvIGHrSSLqk2hjtgQ2Xzy",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGU8p8IzEILVtIzhFnb5FvLw"
+    }
+  ],
+  "blocks": []
+}

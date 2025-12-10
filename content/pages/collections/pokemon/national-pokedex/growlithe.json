@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGQWrnIGtkvjFMD0m5ufwu0M",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Growlithe",
+  "number": 58,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36drbmmcMJMoPE157kV461JRHY7",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRZuMFo84sh31nmTeZJmG67"
+    }
+  ],
+  "blocks": []
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGT2kc5gsNix8fMsjMrf9u0a",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Nidoqueen",
+  "number": 31,
+  "evolvesFrom": {
+    "_id": "36doHpoiYH63N0vuLNx31I1oMFs",
+    "_type": "entry",
+    "_entry": "36dmGU16qvJVsJtMYuqA6uf7fYW"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

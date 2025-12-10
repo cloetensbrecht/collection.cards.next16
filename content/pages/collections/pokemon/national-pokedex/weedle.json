@@ -1,15 +1,17 @@
 {
-  "_id": "36cnbVO3C68vKHD4WnACg7HBtTR",
+  "_id": "36dmGRe758wj6Obf3frHPC4FkPP",
   "_type": "Pokemon",
-  "_index": "Zo",
+  "_index": "a0",
   "title": "Weedle",
   "number": 13,
-  "icon": {},
   "evolvesFrom": {},
-  "evolvesTo": {
-    "_id": "36cneoH7S3r0LTRWtE9Mk82q7cv",
-    "_type": "entry",
-    "_entry": "36cnctpgE44Ie6hG4HN2UVK7xRX"
-  },
+  "evolvesTo": [
+    {
+      "_id": "36dq28Fp07qRWof2SJ0B3pMJRPK",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTBwrCMTHK14iAbutQ60n0c"
+    }
+  ],
   "blocks": []
 }

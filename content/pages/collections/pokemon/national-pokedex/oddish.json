@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGR3H9EWN9os8c2eaFoHRTFa",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Oddish",
+  "number": 43,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dqrR2blCugm4eeIEuFWIrXV0Z",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTLOZRmGHWFR2foDopjVCyy"
+    }
+  ],
+  "blocks": []
+}

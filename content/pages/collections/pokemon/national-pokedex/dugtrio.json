@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGR42WfD0BSSAknO8H9CWr8Q",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Dugtrio",
+  "number": 51,
+  "evolvesFrom": {
+    "_id": "36drCGOKZRm5nmsGZENCglM3WeH",
+    "_type": "entry",
+    "_entry": "36dmGW8Gh9xIH2TdKkiFsLIdKCl"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

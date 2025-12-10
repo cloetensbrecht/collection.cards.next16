@@ -1,15 +1,17 @@
 {
-  "_id": "36cmBcRWiJ6ldPPstPi13KkL3uO",
+  "_id": "36dmGTk0jy6djNXF2sh4C1SMjx5",
   "_type": "Pokemon",
-  "_index": "Zx",
+  "_index": "a0",
   "title": "Charmander",
   "number": 4,
-  "icon": {},
   "evolvesFrom": {},
-  "evolvesTo": {
-    "_id": "36cmRUllX3YPAb15g0xi6HDxkw9",
-    "_type": "entry",
-    "_entry": "36cmFd57jzIwIutmsQzQswpmFHt"
-  },
+  "evolvesTo": [
+    {
+      "_id": "36dpnKV9qsYfmBUCNWGJDc7gUZv",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTrspOMj4c0Rd6TrcfWmpKK"
+    }
+  ],
   "blocks": []
 }

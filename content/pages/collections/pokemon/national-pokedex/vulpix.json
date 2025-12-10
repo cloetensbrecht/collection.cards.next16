@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGSRiMYXbtLcHZO9smP415Kh",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Vulpix",
+  "number": 37,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dqhSxEooTxDW1uZibZNMb1bEV",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXTO1JCk3s3akl1woKEhrtV"
+    }
+  ],
+  "blocks": []
+}

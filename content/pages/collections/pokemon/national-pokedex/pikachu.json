@@ -1,0 +1,21 @@
+{
+  "_id": "36dmGVW8NzGuMRXGpENvaWWbwlZ",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Pikachu",
+  "number": 25,
+  "evolvesFrom": {
+    "_id": "36dndFG65dZx7HlTfqQMCdT7iJ2",
+    "_type": "entry",
+    "_entry": "36dmGXdQKXREcvDXJIcW0vzeYKd"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36dqMOeQyq1XrIYBgmlOJRtP9I3",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWk9MIcQEgz4paCSCeW8ulu"
+    }
+  ],
+  "blocks": []
+}

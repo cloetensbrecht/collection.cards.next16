@@ -5,10 +5,9 @@ export type Pokemon = Infer<typeof Pokemon>
 
 export const Pokemon = Config.type('Pokémon', {
   fields: {
-    title: Field.text('Title'),
-    path: Field.path('Path', {hidden: true}),
     number: Field.number('Number', {width: 0.2, required: true}),
-    icon: Field.image('Icon', {width: 0.8}),
+    title: Field.text('Title', {width: 0.8, required: true}),
+    path: Field.path('Path', {hidden: true}),
     evolvesFrom: Field.entry('Evolves from', {
       location: {
         workspace: 'main',
@@ -20,7 +19,7 @@ export const Pokemon = Config.type('Pokémon', {
       pickChildren: false,
       width: 0.5
     }),
-    evolvesTo: Field.entry('Evolves to', {
+    evolvesTo: Field.entry.multiple('Evolves to', {
       location: {
         workspace: 'main',
         root: 'pages',

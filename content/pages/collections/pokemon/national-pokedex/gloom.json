@@ -1,0 +1,27 @@
+{
+  "_id": "36dmGTLOZRmGHWFR2foDopjVCyy",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Gloom",
+  "number": 44,
+  "evolvesFrom": {
+    "_id": "36dozL14XsF4o4Pdewwvkc7aYFr",
+    "_type": "entry",
+    "_entry": "36dmGR3H9EWN9os8c2eaFoHRTFa"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36dpI9yTGdC3MqOH7EIQJxLrSEY",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWRoxFCvceU8CXrfBkqnvGG"
+    },
+    {
+      "_id": "36dpI7ljnSUR3mGjBwCP0VGPp9B",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGSfS8i5BThtzAwQ9Px9ntPO"
+    }
+  ],
+  "blocks": []
+}

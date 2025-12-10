@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGS51RtektJqbQCcfcq7VMsG",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Zubat",
+  "number": 41,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dqnLJPTarGlG9nDbSvY2Q6P0W",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSm5s51J7ouXww4dLgEI5AN"
+    }
+  ],
+  "blocks": []
+}

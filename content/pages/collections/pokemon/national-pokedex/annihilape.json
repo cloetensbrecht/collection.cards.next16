@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGXeCPFSGcjpK70jqwuleAGx",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Annihilape",
+  "number": 979,
+  "evolvesFrom": {
+    "_id": "36drWez9NJVFtXI2mcKN28qjoCL",
+    "_type": "entry",
+    "_entry": "36dmGQUkwNjV3v0XXzbejNfYo88"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

@@ -1,19 +1,21 @@
 {
-  "_id": "36clk0lG04VhYRkB9R4CIya4MjJ",
+  "_id": "36dmGVF10vcAVKJlLDkYPxErvfs",
   "_type": "Pokemon",
-  "_index": "Zz",
+  "_index": "a0",
   "title": "Ivysaur",
   "number": 2,
-  "icon": {},
   "evolvesFrom": {
-    "_id": "36cly6PUIgRngyT9xlf6Q7j3PLe",
+    "_id": "36dmlPHFAasaO39wARCbXzbpcGV",
     "_type": "entry",
-    "_entry": "36cjnqN8WLzaMhLAGPIwZnPeI04"
+    "_entry": "36dmGTtxW7600GckSwIKeAFghxM"
   },
-  "evolvesTo": {
-    "_id": "36cluwXX4n6irhdOYf30MYSLfc7",
-    "_type": "entry",
-    "_entry": "36clp1ivmugQfh9hwOwAuEXXx22"
-  },
+  "evolvesTo": [
+    {
+      "_id": "36dpjtfwECgeC1CcVj32wNluUzW",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRAIwdBiUk3ZHkrejyQXXaY"
+    }
+  ],
   "blocks": []
 }

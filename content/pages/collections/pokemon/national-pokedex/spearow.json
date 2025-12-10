@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGSF0aMHw36KOb48kGOupB80",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Spearow",
+  "number": 21,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dqEOXIQ5vWrPRgNpYNnFTNVSj",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGU7b4ArlxhsOqcYkA6b5765"
+    }
+  ],
+  "blocks": []
+}

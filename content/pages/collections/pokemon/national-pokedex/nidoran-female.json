@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGVEJCRoOC5rweHioxe9lZVp",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Nidoran♀",
+  "number": 29,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dqUzZL1Od4MxYRtnnxfRRE52l",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGU16qvJVsJtMYuqA6uf7fYW"
+    }
+  ],
+  "blocks": []
+}

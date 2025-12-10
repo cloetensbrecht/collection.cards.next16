@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGW0N4zOYTT1FNscnGyudWbJ",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Psyduck",
+  "number": 54,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36drOKUttvwSKeuR7MbvA5gdSQQ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRZrj7782XhjJSmlpgFSSmL"
+    }
+  ],
+  "blocks": []
+}

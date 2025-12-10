@@ -1,0 +1,21 @@
+{
+  "_id": "36dmGQAZBp7XJ9bDKLNgyyjSiSR",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Clefairy",
+  "number": 35,
+  "evolvesFrom": {
+    "_id": "36doPteMRJKvjMjeJrDvx7Xou09",
+    "_type": "entry",
+    "_entry": "36dmGW1iWip4I9D351H9HN4lzEG"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36dqevSThgQazq3sGFhWF0jcidy",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQxq2e49KfjlIWKevgJVzVg"
+    }
+  ],
+  "blocks": []
+}

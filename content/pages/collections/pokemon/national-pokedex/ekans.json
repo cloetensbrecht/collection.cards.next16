@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGSj9vnwLUmjyHVUQ3NletiH",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Ekans",
+  "number": 23,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dqHwnJunneNNXkHOVY6TQS245",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXHb0LuGKWkxP6RuVq0RjHr"
+    }
+  ],
+  "blocks": []
+}

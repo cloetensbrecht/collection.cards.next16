@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGR2Hf1x7srXUDAA9FRBzTK0",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Machop",
+  "number": 66,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36drvkt8q4jVMkvnYDDvtBrOEab",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGU9oMOeDOx9QnP8yfKN7NU2"
+    }
+  ],
+  "blocks": []
+}

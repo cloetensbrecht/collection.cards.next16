@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGRF1GIPCxDK1uJcgpQdyokW",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Raticate",
+  "number": 20,
+  "evolvesFrom": {
+    "_id": "36dnSyGHjKxdIaK0fAhNoAKiq3l",
+    "_type": "entry",
+    "_entry": "36dmGUUmG7Rntx4Xhr3lBoaWgeI"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

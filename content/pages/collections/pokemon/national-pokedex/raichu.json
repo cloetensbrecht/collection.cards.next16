@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGWk9MIcQEgz4paCSCeW8ulu",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Raichu",
+  "number": 26,
+  "evolvesFrom": {
+    "_id": "36dnik1AsIrjKOV7Wh6wjlu6rQi",
+    "_type": "entry",
+    "_entry": "36dmGVW8NzGuMRXGpENvaWWbwlZ"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

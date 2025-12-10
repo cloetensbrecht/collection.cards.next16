@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGQ5nCrWaGoQkkYiDZMB0f1f",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Parasect",
+  "number": 47,
+  "evolvesFrom": {
+    "_id": "36dr1oi57Ber45z4U9hb54Xng3c",
+    "_type": "entry",
+    "_entry": "36dmGQJ4tajejFgNNOKcxe9vePP"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

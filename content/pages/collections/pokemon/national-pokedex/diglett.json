@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGW8Gh9xIH2TdKkiFsLIdKCl",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Diglett",
+  "number": 50,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36drAxrirbHztOl4NVj9WofSz9g",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGR42WfD0BSSAknO8H9CWr8Q"
+    }
+  ],
+  "blocks": []
+}

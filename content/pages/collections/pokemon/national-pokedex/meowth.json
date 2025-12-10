@@ -1,0 +1,23 @@
+{
+  "_id": "36dmGSgVrf0WhzKtuQOQ7WugLot",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Meowth",
+  "number": 52,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36drGaNpO8LtugHGHlGGkVMltnu",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVYCX53kneHlLYstW1cPUFJ"
+    },
+    {
+      "_id": "36drGfZB34YoaZQKEbGdorx7Kms",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGVlRuDklUyMulT5QTCp09BD"
+    }
+  ],
+  "blocks": []
+}

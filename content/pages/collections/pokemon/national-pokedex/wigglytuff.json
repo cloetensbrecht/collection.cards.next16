@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGU8p8IzEILVtIzhFnb5FvLw",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Wigglytuff",
+  "number": 40,
+  "evolvesFrom": {
+    "_id": "36doh6ZQ5633XowrXkU9laZ3BJw",
+    "_type": "entry",
+    "_entry": "36dmGVdFAUMDiVhBWXG5WXt23pc"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

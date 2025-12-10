@@ -1,19 +1,21 @@
 {
-  "_id": "36cn0NuZL7T0oR0pfPAad11wh2K",
+  "_id": "36dmGTXIK1QnJJNR6EyNhlMfSlq",
   "_type": "Pokemon",
-  "_index": "Zt",
+  "_index": "a0",
   "title": "Wartortle",
   "number": 8,
-  "icon": {},
   "evolvesFrom": {
-    "_id": "36cn3XcZdwgRzg0VNBACkooilSl",
+    "_id": "36dmvnTp6O3rtwLYRhLZCL4lTH0",
     "_type": "entry",
-    "_entry": "36cmxaBUfrFtcl8il0F9cHAQWdh"
+    "_entry": "36dmGTaad3VFWGtyc2KYOvGCyBg"
   },
-  "evolvesTo": {
-    "_id": "36cn966198dMPpBax5COvDjgXC8",
-    "_type": "entry",
-    "_entry": "36cn7Pk1FjU3McyT82DhnErmfCY"
-  },
+  "evolvesTo": [
+    {
+      "_id": "36dptWTGSk09goPOso7AV34oVAx",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVtPChuFQJrxtD4ZxalwMSY"
+    }
+  ],
   "blocks": []
 }

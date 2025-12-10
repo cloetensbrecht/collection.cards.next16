@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGUAaTxORRSKs7lOZDrjgRPf",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Venomoth",
+  "number": 49,
+  "evolvesFrom": {
+    "_id": "36dr70EZy3aC4KjlGdd3TfvggAn",
+    "_type": "entry",
+    "_entry": "36dmGUFtQdWi3dKS8qiCosV86fw"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

@@ -1,19 +1,21 @@
 {
-  "_id": "36cmFd57jzIwIutmsQzQswpmFHt",
+  "_id": "36dmGTrspOMj4c0Rd6TrcfWmpKK",
   "_type": "Pokemon",
-  "_index": "Zw",
+  "_index": "a0",
   "title": "Charmeleon",
   "number": 5,
-  "icon": {},
   "evolvesFrom": {
-    "_id": "36cmQg79j3BiG6rzc8rb8M1ZIUt",
+    "_id": "36dmqhDtrLpW582GwHCB5uIXMba",
     "_type": "entry",
-    "_entry": "36cmBcRWiJ6ldPPstPi13KkL3uO"
+    "_entry": "36dmGTk0jy6djNXF2sh4C1SMjx5"
   },
-  "evolvesTo": {
-    "_id": "36cmXENcDQphqERP95Lpg9H8QJr",
-    "_type": "entry",
-    "_entry": "36cmUphjXvVkw8AKdDv2meiPmva"
-  },
+  "evolvesTo": [
+    {
+      "_id": "36dpoxkFzyHb0TGSrKi1CRIpCat",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQx3jiE96hbvAi5wIsyck5G"
+    }
+  ],
   "blocks": []
 }

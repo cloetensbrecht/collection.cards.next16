@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGUEOdaZbjjaq6Jqei8IofKB",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Nidoking",
+  "number": 34,
+  "evolvesFrom": {
+    "_id": "36doNcuzSb71niNi6SUS1hWgOVs",
+    "_type": "entry",
+    "_entry": "36dmGWK5XEWhqxmeR5E81EcPpeZ"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

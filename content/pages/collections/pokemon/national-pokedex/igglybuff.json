@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGS8IoV9HXWfUgSBbHhwS2dw",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Igglybuff",
+  "number": 174,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dqkSprJcmgOYlIItPpxirDaQP",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVdFAUMDiVhBWXG5WXt23pc"
+    }
+  ],
+  "blocks": []
+}

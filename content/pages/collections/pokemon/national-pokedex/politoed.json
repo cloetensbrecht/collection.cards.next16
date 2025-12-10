@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGXEamVaAtI7eSaeqxBZvQu1",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Politoed",
+  "number": 186,
+  "evolvesFrom": {
+    "_id": "36drlKcusrFLjDH1orX62wxzaZc",
+    "_type": "entry",
+    "_entry": "36dmGRdGX12wXHz1vhoSLsAmweM"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGXfkBUmmQA0Af61QJkCezza",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Bellsprout",
+  "number": 69,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36ds5lTyaMotcmuCWVwvSWRr6dr",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGS40b7LG6suJQlQ5theAPkP"
+    }
+  ],
+  "blocks": []
+}

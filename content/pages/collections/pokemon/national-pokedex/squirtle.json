@@ -1,15 +1,17 @@
 {
-  "_id": "36cmxaBUfrFtcl8il0F9cHAQWdh",
+  "_id": "36dmGTaad3VFWGtyc2KYOvGCyBg",
   "_type": "Pokemon",
-  "_index": "Zu",
+  "_index": "a0",
   "title": "Squirtle",
   "number": 7,
-  "icon": {},
   "evolvesFrom": {},
-  "evolvesTo": {
-    "_id": "36cn30ZRmJZ0WM40VjtXEVWQtz8",
-    "_type": "entry",
-    "_entry": "36cn0NuZL7T0oR0pfPAad11wh2K"
-  },
+  "evolvesTo": [
+    {
+      "_id": "36dprf89HPmqswfvKmV2YhGCcLa",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTXIK1QnJJNR6EyNhlMfSlq"
+    }
+  ],
   "blocks": []
 }

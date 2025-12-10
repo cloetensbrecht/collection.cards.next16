@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGRZrj7782XhjJSmlpgFSSmL",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Golduck",
+  "number": 55,
+  "evolvesFrom": {
+    "_id": "36drP6wCWLvKiL5LOnbKpQFsE2C",
+    "_type": "entry",
+    "_entry": "36dmGW0N4zOYTT1FNscnGyudWbJ"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

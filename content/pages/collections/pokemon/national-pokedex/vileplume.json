@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGWRoxFCvceU8CXrfBkqnvGG",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Vileplume",
+  "number": 45,
+  "evolvesFrom": {
+    "_id": "36dqt9oRHI094vnqNlQIwpqy2Ou",
+    "_type": "entry",
+    "_entry": "36dmGTLOZRmGHWFR2foDopjVCyy"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

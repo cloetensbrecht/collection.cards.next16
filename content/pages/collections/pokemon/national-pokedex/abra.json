@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGVPERn3o427v7oYpqGPbwSc",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Abra",
+  "number": 63,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36drpMcj3JSZUhMm8B4e1J92Xic",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQ1YWiH5cLnGFG92tWfNOuV"
+    }
+  ],
+  "blocks": []
+}

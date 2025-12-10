@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGU7b4ArlxhsOqcYkA6b5765",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Fearow",
+  "number": 22,
+  "evolvesFrom": {
+    "_id": "36dnWKk9EOJvUqYJGQea55EsLIM",
+    "_type": "entry",
+    "_entry": "36dmGSF0aMHw36KOb48kGOupB80"
+  },
+  "evolvesTo": {},
+  "blocks": []
+}

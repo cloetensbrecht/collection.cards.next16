@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGUUmG7Rntx4Xhr3lBoaWgeI",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Rattata",
+  "number": 19,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36dqBCrgzoGuxPitRg2ntcnzt8V",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRF1GIPCxDK1uJcgpQdyokW"
+    }
+  ],
+  "blocks": []
+}

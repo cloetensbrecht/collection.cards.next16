@@ -1,0 +1,14 @@
+{
+  "_id": "36dmGVlRuDklUyMulT5QTCp09BD",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Perrserker",
+  "number": 863,
+  "evolvesFrom": {
+    "_id": "36drJWqv9Cr6vFiwxsMlNtXyNlj",
+    "_type": "entry",
+    "_entry": "36dmGSgVrf0WhzKtuQOQ7WugLot"
+  },
+  "evolvesTo": [],
+  "blocks": []
+}

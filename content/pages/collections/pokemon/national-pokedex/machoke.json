@@ -1,0 +1,21 @@
+{
+  "_id": "36dmGU9oMOeDOx9QnP8yfKN7NU2",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Machoke",
+  "number": 67,
+  "evolvesFrom": {
+    "_id": "36ds0eJSbn3P1RXv2QysiCLl3Ch",
+    "_type": "entry",
+    "_entry": "36dmGR2Hf1x7srXUDAA9FRBzTK0"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36ds1pR6PK7cRXewPmtB3e9soyr",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSgI692CruU3DQzUzGk0Rr6"
+    }
+  ],
+  "blocks": []
+}
