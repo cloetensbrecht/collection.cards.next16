@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wormadam",
-  "number": 413
+  "number": 413,
+  "evolvesFrom": {
+    "_id": "36fV8HW0xkuCEsqRA3Ssa2t2VzD",
+    "_type": "entry",
+    "_entry": "36dmGRfxDW0rAzmRzoGrsHyf2FQ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

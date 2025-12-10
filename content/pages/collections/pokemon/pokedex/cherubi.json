@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cherubi",
-  "number": 420
+  "number": 420,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fVJJwFtvmIij2YGmN9PgRcIYB",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSKTcGu7f1abo74oHdK9AU5"
+    }
+  ],
+  "blocks": []
 }

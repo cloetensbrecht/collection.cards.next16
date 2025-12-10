@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cherrim",
-  "number": 421
+  "number": 421,
+  "evolvesFrom": {
+    "_id": "36fVKFGYtp9ehsqchFh0nv83Qvj",
+    "_type": "entry",
+    "_entry": "36dmGTHlS9JkjoCAilWLnLkmjV4"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

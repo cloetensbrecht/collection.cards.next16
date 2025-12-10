@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lopunny",
-  "number": 428
+  "number": 428,
+  "evolvesFrom": {
+    "_id": "36fVUEZgrulQkFjWGtmEBwxDH2y",
+    "_type": "entry",
+    "_entry": "36dmGTamdcOoc7nzndCrTu5feNe"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

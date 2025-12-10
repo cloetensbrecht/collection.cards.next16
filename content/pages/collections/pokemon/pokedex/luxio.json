@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Luxio",
-  "number": 404
+  "number": 404,
+  "evolvesFrom": {
+    "_id": "36fUliI9qHegOq5fV5VYQULKf3z",
+    "_type": "entry",
+    "_entry": "36dmGTG2psFfXoUMaUQUK2Grebx"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fUmrivwv5oBlj8I2jHFiHbxPM",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVq6UYj4hEyV99ZwJ8QwnbP"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Buizel",
-  "number": 418
+  "number": 418,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fVGj4BISjJZwsWWjjC1ozvuYq",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSNhGgmYzezRRFPSyT83BSE"
+    }
+  ],
+  "blocks": []
 }

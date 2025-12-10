@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Bronzor",
-  "number": 436
+  "number": 436,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fVe0oish90OBdB8KW4ztNfEBR",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWkzURDRJkku7XNTlDinvxF"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Rampardos",
-  "number": 409
+  "number": 409,
+  "evolvesFrom": {
+    "_id": "36fUxxlYqebAN6M5rcIj92zsblZ",
+    "_type": "entry",
+    "_entry": "36dmGURKrun4Xn7QtALkD1gPlj0"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

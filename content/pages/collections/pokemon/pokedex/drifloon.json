@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Drifloon",
-  "number": 425
+  "number": 425,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fVPxYSbQ9FgHmPeXmV68Vlq1S",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWI4BECVd3jK0GK6msWlZB5"
+    }
+  ],
+  "blocks": []
 }

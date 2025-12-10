@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Floatzel",
-  "number": 419
+  "number": 419,
+  "evolvesFrom": {
+    "_id": "36fVHR4xvsNc338qjpkvvl2pP9Y",
+    "_type": "entry",
+    "_entry": "36dmGRKrWWnZVML6sPRg93oeh6b"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Shieldon",
-  "number": 410
+  "number": 410,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fV11pSUT1QU2YNOE8J523iScW",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRMTonTPTF6slA3NcjnXvDr"
+    }
+  ],
+  "blocks": []
 }

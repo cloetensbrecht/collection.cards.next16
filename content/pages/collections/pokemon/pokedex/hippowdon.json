@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hippowdon",
-  "number": 450
+  "number": 450,
+  "evolvesFrom": {
+    "_id": "36fVyAxlLD4edwHrX1HzgQEIbGX",
+    "_type": "entry",
+    "_entry": "36dmGQWyZkyxKa90kPLh49ctAQc"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Riolu",
-  "number": 447
+  "number": 447,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fVrkrcjVQ5J2MyyiZlRmA8SOq",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVjZ0vDv6AYahPO4QVuko6b"
+    }
+  ],
+  "blocks": []
 }

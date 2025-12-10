@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Luxray",
-  "number": 405
+  "number": 405,
+  "evolvesFrom": {
+    "_id": "36fUo6Ay94OILjWPk07N3KnVRaJ",
+    "_type": "entry",
+    "_entry": "36dmGQSq4x4RXYwIj1KBIlFKt55"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

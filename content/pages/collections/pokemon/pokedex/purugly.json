@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Purugly",
-  "number": 432
+  "number": 432,
+  "evolvesFrom": {
+    "_id": "36fVXzhaZiqH4CjlByogtWJ6Yks",
+    "_type": "entry",
+    "_entry": "36dmGQF4NXqfvfUGl5IkXpN5I6P"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

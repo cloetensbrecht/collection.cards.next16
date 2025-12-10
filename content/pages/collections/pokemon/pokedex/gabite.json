@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gabite",
-  "number": 444
+  "number": 444,
+  "evolvesFrom": {
+    "_id": "36fVm7KcZyFBoq9MoZVrvECFHXF",
+    "_type": "entry",
+    "_entry": "36dmGReE0MEtgAzKFHOCarbbplw"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fVnBFewXmGFjktL1xekGbxsF3",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSidyuvkvrSZhbzA8tiSf7w"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,21 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Burmy",
-  "number": 412
+  "number": 412,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fV6aeic0WzllhLxTT5p7cfQDS",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTvWMSPYVtBrV4TxlNN5vec"
+    },
+    {
+      "_id": "36fV6VxPzUgelXGfsKBl342Fywp",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGQqQjDFYFMdtF1ijZKxifsd"
+    }
+  ],
+  "blocks": []
 }

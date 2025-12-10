@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Skuntank",
-  "number": 435
+  "number": 435,
+  "evolvesFrom": {
+    "_id": "36fVbch5PArxl15rdVrfROo9mcN",
+    "_type": "entry",
+    "_entry": "36dmGTpKiVMQQGYmL2B6HVtjvK1"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

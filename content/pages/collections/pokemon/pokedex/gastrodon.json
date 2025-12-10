@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gastrodon",
-  "number": 423
+  "number": 423,
+  "evolvesFrom": {
+    "_id": "36fVNQrUduDgUgbnLyivsNCeeS4",
+    "_type": "entry",
+    "_entry": "36dmGTTEDyk3ubbQgmREXKUIkrQ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lucario",
-  "number": 448
+  "number": 448,
+  "evolvesFrom": {
+    "_id": "36fVsqqcHobNFF13zFCMJk0Lg9t",
+    "_type": "entry",
+    "_entry": "36dmGXVYf84eNuyurPdZiJ95x7Z"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

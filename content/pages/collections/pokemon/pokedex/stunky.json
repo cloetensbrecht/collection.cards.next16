@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Stunky",
-  "number": 434
+  "number": 434,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fVaitmni5dQZvY7m3ZFdVMELa",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGS4aDA5LXFb20XAqU19Av1t"
+    }
+  ],
+  "blocks": []
 }

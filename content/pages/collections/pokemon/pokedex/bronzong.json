@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Bronzong",
-  "number": 437
+  "number": 437,
+  "evolvesFrom": {
+    "_id": "36fVes5JgE2ZUR4bz7ansclwct8",
+    "_type": "entry",
+    "_entry": "36dmGVke4zt7UpSNbzkHZBAepKE"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

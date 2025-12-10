@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Combee",
-  "number": 415
+  "number": 415,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fVC68uUPOILpVSA3NpqcveUUy",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUccW5RzdWMknZRtdlsCAmn"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Drifblim",
-  "number": 426
+  "number": 426,
+  "evolvesFrom": {
+    "_id": "36fVQwX62pFxj19e8wEMJZbGjkC",
+    "_type": "entry",
+    "_entry": "36dmGWRtMzQxH2Fuj61o7zBMpxV"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

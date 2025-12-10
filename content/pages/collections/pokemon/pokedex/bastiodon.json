@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Bastiodon",
-  "number": 411
+  "number": 411,
+  "evolvesFrom": {
+    "_id": "36fV2176KZyhtPvEtfvvdxiNqCj",
+    "_type": "entry",
+    "_entry": "36dmGSaJPAcqDejeJPAV55MXjDr"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

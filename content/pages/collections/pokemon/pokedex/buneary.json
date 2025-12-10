@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Buneary",
-  "number": 427
+  "number": 427,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fVTNmb355Fat40Hp5ZNrL70ow",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGT4Em1he98J1IpzMLJaGynp"
+    }
+  ],
+  "blocks": []
 }

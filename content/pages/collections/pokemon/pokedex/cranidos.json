@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cranidos",
-  "number": 408
+  "number": 408,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fUx0LubeSdnJf9tNOpDfrBu5W",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSAGtD9tUMzekRoGqbQ5n4F"
+    }
+  ],
+  "blocks": []
 }
