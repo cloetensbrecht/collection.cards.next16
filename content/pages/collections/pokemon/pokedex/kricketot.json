@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Kricketot",
-  "number": 401
+  "number": 401,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fUUEICwzkq26n3woiVSjUtWuC",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQYLS2HqikoC7vit2aH8jvL"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gulpin",
-  "number": 316
+  "number": 316,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fRmMd8s0bMIYflVMI1MrrD1Ld",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTr4jUjX7JK2GgSde2oCVeA"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Zigzagoon",
-  "number": 263
+  "number": 263,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fPSIhCbR0gXboeGSjrOVeasvL",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVCN819BIyw8YWCxwlvuVLp"
+    }
+  ],
+  "blocks": []
 }

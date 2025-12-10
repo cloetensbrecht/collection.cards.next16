@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Slaking",
-  "number": 289
+  "number": 289,
+  "evolvesFrom": {
+    "_id": "36fQnZiimG0NARQhqhMI2pY8zlm",
+    "_type": "entry",
+    "_entry": "36dmGQdM6kspiTKVffNtjfUE8XC"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

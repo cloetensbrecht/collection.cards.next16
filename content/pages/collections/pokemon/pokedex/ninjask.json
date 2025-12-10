@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ninjask",
-  "number": 291
+  "number": 291,
+  "evolvesFrom": {
+    "_id": "36fR03fV2f2Kh5Q9CgtdITQZd0H",
+    "_type": "entry",
+    "_entry": "36dmGRctYiszUyTjPgynaJJ8tSP"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

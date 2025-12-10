@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wingull",
-  "number": 278
+  "number": 278,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fQDKNi4ljMjb0KkTabkyugIMD",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVinVH744YLicEU6JjG4YgW"
+    }
+  ],
+  "blocks": []
 }

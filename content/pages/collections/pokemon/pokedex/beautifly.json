@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Beautifly",
-  "number": 267
+  "number": 267,
+  "evolvesFrom": {
+    "_id": "36fPfilAAIRcvShzw9x4cdgEV1H",
+    "_type": "entry",
+    "_entry": "36dmGVJPB2i5eK1aW404edCmi5T"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Roserade",
-  "number": 407
+  "number": 407,
+  "evolvesFrom": {
+    "_id": "36fRk11jyUyroqErxi7Vw6S2xDl",
+    "_type": "entry",
+    "_entry": "36dmGQ5ObFgSAcQZtH5JcVfKont"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

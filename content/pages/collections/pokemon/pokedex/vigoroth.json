@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Vigoroth",
-  "number": 288
+  "number": 288,
+  "evolvesFrom": {
+    "_id": "36fQlKdgBDchJa817gtCV1D3dXs",
+    "_type": "entry",
+    "_entry": "36dmGVwqIu4D4ON4J7thuivPXHu"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fQmfMKoR8YEsJyk480RV82eiR",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGT54T6h01NUCnjc3jS7jcQR"
+    }
+  ],
+  "blocks": []
 }

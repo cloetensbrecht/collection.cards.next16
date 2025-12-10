@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Chimchar",
-  "number": 390
+  "number": 390,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fU2X09OfBZoECPJLDQbUsU8Wi",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVVWsqqsfLrhG3ik7DpKXgm"
+    }
+  ],
+  "blocks": []
 }

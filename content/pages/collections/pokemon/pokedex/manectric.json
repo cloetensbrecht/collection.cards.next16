@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Manectric",
-  "number": 310
+  "number": 310,
+  "evolvesFrom": {
+    "_id": "36fRYeJwcgu7Y0U8k1mtLmz8xpS",
+    "_type": "entry",
+    "_entry": "36dmGTDBwd9eqmxHIwG2rqo7feK"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

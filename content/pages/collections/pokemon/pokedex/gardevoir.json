@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gardevoir",
-  "number": 282
+  "number": 282,
+  "evolvesFrom": {
+    "_id": "36fQWIP0UlDApyot5fNBITyBjjw",
+    "_type": "entry",
+    "_entry": "36dmGSbg6mfYwVZEqOQhi5ofkfe"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

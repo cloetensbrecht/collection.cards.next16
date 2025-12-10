@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gorebyss",
-  "number": 368
+  "number": 368,
+  "evolvesFrom": {
+    "_id": "36fTVXqDcVRJ976xhuP9sLRpkc8",
+    "_type": "entry",
+    "_entry": "36dmGVERzfgnyHFrBM1PIklbHYd"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

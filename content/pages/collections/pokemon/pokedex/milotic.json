@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Milotic",
-  "number": 350
+  "number": 350,
+  "evolvesFrom": {
+    "_id": "36fSu3XJNf6e1oYYyXscmeCkoPO",
+    "_type": "entry",
+    "_entry": "36dmGWQI3d8BMrClHUbCzdISrxA"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

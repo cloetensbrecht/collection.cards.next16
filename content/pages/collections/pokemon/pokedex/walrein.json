@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Walrein",
-  "number": 365
+  "number": 365,
+  "evolvesFrom": {
+    "_id": "36fTPG8CDzEGCIIZlFLQJhzJHj1",
+    "_type": "entry",
+    "_entry": "36dmGVVjurglh0G4QIn6VzpAIo7"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

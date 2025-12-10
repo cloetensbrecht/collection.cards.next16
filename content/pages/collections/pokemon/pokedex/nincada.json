@@ -3,5 +3,21 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Nincada",
-  "number": 290
+  "number": 290,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fQxFGnXLQw1uEnNBL590oaKGg",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTGkRxIrBWjy5EV88YeYV22"
+    },
+    {
+      "_id": "36fQxLfbA6qI6G66NFy1C9Su2nA",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGXJFRSe4yjZCZmt4sZcUrLN"
+    }
+  ],
+  "blocks": []
 }

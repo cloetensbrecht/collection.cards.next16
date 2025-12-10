@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Empoleon",
-  "number": 395
+  "number": 395,
+  "evolvesFrom": {
+    "_id": "36fUDWT3h4T70nRXx3bH1kpvV2Q",
+    "_type": "entry",
+    "_entry": "36dmGWBXQtv82zB3j6JoPzS371f"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Starly",
-  "number": 396
+  "number": 396,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fUJz7GObyMiIAgUIXH2MgO3xS",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQHeO8V91kIuUDZSTq2AMmH"
+    }
+  ],
+  "blocks": []
 }

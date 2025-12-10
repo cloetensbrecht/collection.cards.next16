@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Obstagoon",
-  "number": 862
+  "number": 862,
+  "evolvesFrom": {
+    "_id": "36fPVWF0fyX0LTShSpTSQFF32OZ",
+    "_type": "entry",
+    "_entry": "36dmGVCN819BIyw8YWCxwlvuVLp"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

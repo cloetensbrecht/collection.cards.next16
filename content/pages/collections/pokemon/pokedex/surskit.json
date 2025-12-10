@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Surskit",
-  "number": 283
+  "number": 283,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fQd4YQy6YeI7v7lfscwFczcJ7",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVzeasN3CTOk73YVTUGbtQx"
+    }
+  ],
+  "blocks": []
 }

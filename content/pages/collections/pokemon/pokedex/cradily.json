@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cradily",
-  "number": 346
+  "number": 346,
+  "evolvesFrom": {
+    "_id": "36fSnPnek5sA5k0A4NwY25oagZp",
+    "_type": "entry",
+    "_entry": "36dmGTvnzCeDEgwuDqW2PHDwp5Y"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Meditite",
-  "number": 307
+  "number": 307,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fRTMeKobngk356cNPYZoOfy2i",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRU6CkjPAtSn4IDCEuOMjwp"
+    }
+  ],
+  "blocks": []
 }

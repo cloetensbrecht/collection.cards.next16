@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Loudred",
-  "number": 294
+  "number": 294,
+  "evolvesFrom": {
+    "_id": "36fR471F7OzrgiTrFvgFz4DTbLh",
+    "_type": "entry",
+    "_entry": "36dmGQSjIUQwsEBVhcCwWBvLeKb"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fR53R0whEHnJcWDTQdD8rHvfL",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRxpTK37LcFR55qUMwssg6q"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Anorith",
-  "number": 347
+  "number": 347,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fSpuWCyFZzxbmVFpgMV9bPX44",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUUruIQDKyjNvbRsVQnhW4r"
+    }
+  ],
+  "blocks": []
 }

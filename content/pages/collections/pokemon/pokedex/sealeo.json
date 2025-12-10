@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sealeo",
-  "number": 364
+  "number": 364,
+  "evolvesFrom": {
+    "_id": "36fTNXkqQboLf1xEUqLQDXFjOrY",
+    "_type": "entry",
+    "_entry": "36dmGQCrxv7r9NoMwrs8FVf56Vn"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fTOKyVIPKrJy0C4rZZ875eOoA",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQ6uigDEkHokBobgyhRJRo2"
+    }
+  ],
+  "blocks": []
 }

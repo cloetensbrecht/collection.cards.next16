@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Torterra",
-  "number": 389
+  "number": 389,
+  "evolvesFrom": {
+    "_id": "36fTzYv0Z4OfNUc9TtQrAkADnox",
+    "_type": "entry",
+    "_entry": "36dmGWAa51gfQWDGIYUywG6JLus"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

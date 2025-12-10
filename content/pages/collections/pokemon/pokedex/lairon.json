@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lairon",
-  "number": 305
+  "number": 305,
+  "evolvesFrom": {
+    "_id": "36fRMpdlRDKRTKhsTpmFvrqu251",
+    "_type": "entry",
+    "_entry": "36dmGRAddfnyl88Hs5iT3ANcFr5"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fRNpyf9p1oGBCW3mhpMiug40y",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXOof6ymJVZdgioSALctV69"
+    }
+  ],
+  "blocks": []
 }

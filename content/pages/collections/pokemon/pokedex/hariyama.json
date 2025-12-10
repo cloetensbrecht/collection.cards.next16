@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hariyama",
-  "number": 297
+  "number": 297,
+  "evolvesFrom": {
+    "_id": "36fR9lO0kt4ZssHYmXMHgtjhvo2",
+    "_type": "entry",
+    "_entry": "36dmGVKumgCIL5JCDd5vkIDY5fk"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

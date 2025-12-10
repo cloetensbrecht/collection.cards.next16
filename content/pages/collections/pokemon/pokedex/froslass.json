@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Froslass",
-  "number": 478
+  "number": 478,
+  "evolvesFrom": {
+    "_id": "36fTKF8OF9cN639iy0UplAd1N0W",
+    "_type": "entry",
+    "_entry": "36dmGQVroODheuBHB8AB7DVQ6a8"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

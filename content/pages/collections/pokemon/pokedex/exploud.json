@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Exploud",
-  "number": 295
+  "number": 295,
+  "evolvesFrom": {
+    "_id": "36fR647NzfdQo1fMVW5HN6f0oAv",
+    "_type": "entry",
+    "_entry": "36dmGTARvztOdIhJpIpEmzpolqR"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

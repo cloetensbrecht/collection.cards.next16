@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mightyena",
-  "number": 262
+  "number": 262,
+  "evolvesFrom": {
+    "_id": "36fPKU2ISL8TeIb3MhMzRy7ryav",
+    "_type": "entry",
+    "_entry": "36dmGXeCPUjY7zg5Ec9tbkmMk81"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

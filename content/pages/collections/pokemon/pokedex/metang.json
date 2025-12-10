@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Metang",
-  "number": 375
+  "number": 375,
+  "evolvesFrom": {
+    "_id": "36fThJAbLmZMmuK242SGPSFL3we",
+    "_type": "entry",
+    "_entry": "36dmGT3PUXelgKgikgIs6zXumJZ"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fTiG2KfMmZNh1e0xkNm7eND3Z",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWPDMQCAlYfigsThZWgsL4P"
+    }
+  ],
+  "blocks": []
 }

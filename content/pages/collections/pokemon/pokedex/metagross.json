@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Metagross",
-  "number": 376
+  "number": 376,
+  "evolvesFrom": {
+    "_id": "36fTitxAJhI002LNlCjJd3takf9",
+    "_type": "entry",
+    "_entry": "36dmGSy8bmeXW1cwndIP6PRQlJA"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

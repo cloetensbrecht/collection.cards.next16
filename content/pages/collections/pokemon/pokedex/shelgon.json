@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Shelgon",
-  "number": 372
+  "number": 372,
+  "evolvesFrom": {
+    "_id": "36fTb79RgH5W1HFa4p5eVUhMTpK",
+    "_type": "entry",
+    "_entry": "36dmGRuCYS6Q1cW7IENPr5VBrvn"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fTbqfCpQ9zHfE35rEBUlD10Hn",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVXwbPf9qis9jEaOq1v4v9X"
+    }
+  ],
+  "blocks": []
 }

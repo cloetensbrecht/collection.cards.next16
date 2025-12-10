@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Huntail",
-  "number": 367
+  "number": 367,
+  "evolvesFrom": {
+    "_id": "36fTUH5ackEDSOxiNW6Myw4w6Oe",
+    "_type": "entry",
+    "_entry": "36dmGVERzfgnyHFrBM1PIklbHYd"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

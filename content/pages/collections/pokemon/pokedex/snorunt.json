@@ -3,5 +3,21 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Snorunt",
-  "number": 361
+  "number": 361,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fTIFWumBDZWATZ6QyW7Li9Jde",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUQk9dip6iqZCBO0zWLhjBF"
+    },
+    {
+      "_id": "36fTIN0UG99OIFOPBTQVh3Djpco",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGQJEKgcAx5JG2yfI0j6UMKc"
+    }
+  ],
+  "blocks": []
 }

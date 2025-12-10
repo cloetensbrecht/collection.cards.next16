@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Glalie",
-  "number": 362
+  "number": 362,
+  "evolvesFrom": {
+    "_id": "36fTJCZejzzg4sE7ekzMWnMHdpz",
+    "_type": "entry",
+    "_entry": "36dmGQVroODheuBHB8AB7DVQ6a8"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

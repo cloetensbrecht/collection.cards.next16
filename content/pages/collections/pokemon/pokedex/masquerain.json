@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Masquerain",
-  "number": 284
+  "number": 284,
+  "evolvesFrom": {
+    "_id": "36fQe6sNp7QECHy8MgNWjCpQYiG",
+    "_type": "entry",
+    "_entry": "36dmGT23PF0EYc8ihPsZ0C6nhOm"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

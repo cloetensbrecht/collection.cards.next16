@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Whismur",
-  "number": 293
+  "number": 293,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fR3DBlTV3OmEq9cEbkrronRus",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTARvztOdIhJpIpEmzpolqR"
+    }
+  ],
+  "blocks": []
 }

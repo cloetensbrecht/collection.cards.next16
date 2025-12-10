@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sharpedo",
-  "number": 319
+  "number": 319,
+  "evolvesFrom": {
+    "_id": "36fRrUKzu0WKEKrH2Nz9HiJbHMa",
+    "_type": "entry",
+    "_entry": "36dmGR3slQF2PoHfJdiVKdXa5nR"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

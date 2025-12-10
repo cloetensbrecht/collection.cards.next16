@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Carvanha",
-  "number": 318
+  "number": 318,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fRqaYjL822HKAwW2TTXUP8yUe",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGPwPusf2qZfk0qv3zvz1CB6"
+    }
+  ],
+  "blocks": []
 }

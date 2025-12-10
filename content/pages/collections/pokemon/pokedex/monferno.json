@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Monferno",
-  "number": 391
+  "number": 391,
+  "evolvesFrom": {
+    "_id": "36fU3gDp7iZLlUcFyHOjSAL3d5e",
+    "_type": "entry",
+    "_entry": "36dmGXh4d1nWGpdBVVexf56Q26z"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fU4frqsHwgRiKoCSSPtVKEidK",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUJgmTnk0VaKCTHcxtvYwke"
+    }
+  ],
+  "blocks": []
 }

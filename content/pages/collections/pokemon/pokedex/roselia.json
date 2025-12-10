@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Roselia",
-  "number": 315
+  "number": 315,
+  "evolvesFrom": {
+    "_id": "36fRg2Zsuv25KCKqKCZgfJoUtqM",
+    "_type": "entry",
+    "_entry": "36dmGTlblCXJntrezor1A20kE6M"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fRj0lambM22FqLXydm7fBvRfN",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWaCSl1noa0sw6zufzExDV9"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Shroomish",
-  "number": 285
+  "number": 285,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fQgqvVd4jg64DzRTcdRbHkOdl",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGW5udG9iCAM9QJMNKKnZ8op"
+    }
+  ],
+  "blocks": []
 }

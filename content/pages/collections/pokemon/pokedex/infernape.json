@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Infernape",
-  "number": 392
+  "number": 392,
+  "evolvesFrom": {
+    "_id": "36fU5dCRtxfwKiir2nHDWACWStN",
+    "_type": "entry",
+    "_entry": "36dmGVVWsqqsfLrhG3ik7DpKXgm"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

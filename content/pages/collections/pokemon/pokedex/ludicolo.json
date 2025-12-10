@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ludicolo",
-  "number": 272
+  "number": 272,
+  "evolvesFrom": {
+    "_id": "36fPrb3S7ecegZpIMyf99GJYGjM",
+    "_type": "entry",
+    "_entry": "36dmGQCxUMrYtAPEep4zWkd5qv3"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

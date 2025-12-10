@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Delcatty",
-  "number": 301
+  "number": 301,
+  "evolvesFrom": {
+    "_id": "36fRGU2Jsm8Ka341tXkZJqO5GC7",
+    "_type": "entry",
+    "_entry": "36dmGWYI3atLup0PJ1cuRC1low0"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

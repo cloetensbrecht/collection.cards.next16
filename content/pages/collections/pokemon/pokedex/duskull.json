@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Duskull",
-  "number": 355
+  "number": 355,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fT39gXEmLggB8hz63TD6EGK3A",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWHZbWSHs2D6XxBS8RKuDjz"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Staraptor",
-  "number": 398
+  "number": 398,
+  "evolvesFrom": {
+    "_id": "36fUMxgs9u9hDC7KZ6FqySZ7FYW",
+    "_type": "entry",
+    "_entry": "36dmGQHeO8V91kIuUDZSTq2AMmH"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

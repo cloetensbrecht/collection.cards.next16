@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gallade",
-  "number": 475
+  "number": 475,
+  "evolvesFrom": {
+    "_id": "36fQXYYgwnzqG3kqXBCVqu45RyO",
+    "_type": "entry",
+    "_entry": "36dmGSbg6mfYwVZEqOQhi5ofkfe"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Medicham",
-  "number": 308
+  "number": 308,
+  "evolvesFrom": {
+    "_id": "36fRULcl5SLJdsTRG0CMQQUuZqC",
+    "_type": "entry",
+    "_entry": "36dmGX1S8szlyKavfE69WoQI200"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

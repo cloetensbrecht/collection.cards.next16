@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ralts",
-  "number": 280
+  "number": 280,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fQRVd3UItEth4zGPLwhmVT1su",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSbg6mfYwVZEqOQhi5ofkfe"
+    }
+  ],
+  "blocks": []
 }

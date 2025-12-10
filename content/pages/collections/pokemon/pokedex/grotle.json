@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Grotle",
-  "number": 388
+  "number": 388,
+  "evolvesFrom": {
+    "_id": "36fTxUHLotAbHKp90cqD7VqsLN3",
+    "_type": "entry",
+    "_entry": "36dmGQhtZK7iwPQ1RV97gCrcxWX"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fTyYV7vEIilTiVxpsAFGkhjle",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRl83imZYzMqrYxQyXqZNJC"
+    }
+  ],
+  "blocks": []
 }

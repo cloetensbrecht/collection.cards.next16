@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Barboach",
-  "number": 339
+  "number": 339,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fSaxYFl8qGfNF6CjmJYS2W12L",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTFdSxCJ4Y5XevqfBCyP4UH"
+    }
+  ],
+  "blocks": []
 }

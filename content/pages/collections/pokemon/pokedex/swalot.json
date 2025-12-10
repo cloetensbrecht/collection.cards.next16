@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Swalot",
-  "number": 317
+  "number": 317,
+  "evolvesFrom": {
+    "_id": "36fRnEJVkqfntlT245HN7mKjSvI",
+    "_type": "entry",
+    "_entry": "36dmGUxgPYolbpQFhloEr60skCO"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

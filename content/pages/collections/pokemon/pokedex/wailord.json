@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wailord",
-  "number": 321
+  "number": 321,
+  "evolvesFrom": {
+    "_id": "36fRvOwbEd5Rrkb0CNv0J6RyqXU",
+    "_type": "entry",
+    "_entry": "36dmGWWt5nb4whFbMvziDl9F7h1"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

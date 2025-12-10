@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Breloom",
-  "number": 286
+  "number": 286,
+  "evolvesFrom": {
+    "_id": "36fQhkKn9H7TPaglJ4tx3J7kGxW",
+    "_type": "entry",
+    "_entry": "36dmGVxzyHiGu72fSpH2AGtJjnl"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cascoon",
-  "number": 268
+  "number": 268,
+  "evolvesFrom": {
+    "_id": "36fPdA8sFmNi7AJLGyE9wodxOYf",
+    "_type": "entry",
+    "_entry": "36dmGQbuSSAxn1mdlf8YEUHIobj"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fPhYNYISpxb5xhSFmqPEd2QbT",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGS33Ap494fMzWbKrXco0ipC"
+    }
+  ],
+  "blocks": []
 }

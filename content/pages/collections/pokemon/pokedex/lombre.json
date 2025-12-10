@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lombre",
-  "number": 271
+  "number": 271,
+  "evolvesFrom": {
+    "_id": "36fPo6zBf6Qa7bd57OL1HpK2gG3",
+    "_type": "entry",
+    "_entry": "36dmGUnt61PkGDYqOWijQFqBHCR"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fPqV0zc8MqSoanZZEFBxZzcZE",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUpIbKqNajorLelexd5d1jL"
+    }
+  ],
+  "blocks": []
 }

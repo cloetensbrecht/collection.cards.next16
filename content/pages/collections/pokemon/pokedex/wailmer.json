@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wailmer",
-  "number": 320
+  "number": 320,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fRuWSEKvjmvqOHLdus9K7XXWZ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTIzawkdcD5LDvGoxH9NC6w"
+    }
+  ],
+  "blocks": []
 }

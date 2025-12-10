@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Turtwig",
-  "number": 387
+  "number": 387,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fTwZng0NUZ8VaQMl9SmsFNY9q",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWAa51gfQWDGIYUywG6JLus"
+    }
+  ],
+  "blocks": []
 }

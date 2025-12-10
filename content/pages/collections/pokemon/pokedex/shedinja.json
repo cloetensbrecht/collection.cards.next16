@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Shedinja",
-  "number": 292
+  "number": 292,
+  "evolvesFrom": {
+    "_id": "36fQypZbkcYpjtI7rh5R5PAHsay",
+    "_type": "entry",
+    "_entry": "36dmGRctYiszUyTjPgynaJJ8tSP"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

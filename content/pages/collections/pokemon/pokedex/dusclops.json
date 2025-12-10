@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dusclops",
-  "number": 356
+  "number": 356,
+  "evolvesFrom": {
+    "_id": "36fT3yFxtdlzu6nd38xta7FE4Gy",
+    "_type": "entry",
+    "_entry": "36dmGV6EOsK6W9t7Y0ZFpjWgfxB"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fT4pUtuZoyZPqDspy1bs9KZEz",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUJ2uuk58NJR7twmAm5SmbX"
+    }
+  ],
+  "blocks": []
 }

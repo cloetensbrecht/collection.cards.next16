@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Nuzleaf",
-  "number": 274
+  "number": 274,
+  "evolvesFrom": {
+    "_id": "36fQ0WyD4QHYItLqa4YQOcz15WS",
+    "_type": "entry",
+    "_entry": "36dmGT2yYRSHqtfEftf62IIxFpT"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fQ2JQWJzxIM99Q5mEmFPtR7r9",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWhJ7zco0cppjGuuTxFYuk7"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Chimecho",
-  "number": 358
+  "number": 358,
+  "evolvesFrom": {
+    "_id": "36fTAHnD7OYV1ZSq3YSjl0GwiXr",
+    "_type": "entry",
+    "_entry": "36dmGViPvAKRoW0zEXTNb3uFZCA"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

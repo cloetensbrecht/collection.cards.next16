@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lileep",
-  "number": 345
+  "number": 345,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fSmRmYC01S6MemIiXpGTb3Xkx",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTnLGHaOMMSeUbk0dlK4nsy"
+    }
+  ],
+  "blocks": []
 }

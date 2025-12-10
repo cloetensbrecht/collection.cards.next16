@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Grumpig",
-  "number": 326
+  "number": 326,
+  "evolvesFrom": {
+    "_id": "36fS3WBdGPhkIYIekvH41eDc6Ia",
+    "_type": "entry",
+    "_entry": "36dmGSBJXiZsbJMHYSZdpAWuxFe"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Whiscash",
-  "number": 340
+  "number": 340,
+  "evolvesFrom": {
+    "_id": "36fSbtMoMAW4v5rNlemFAwXvcrP",
+    "_type": "entry",
+    "_entry": "36dmGXC6nM4vg9Q6XMyCm8B5FE9"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

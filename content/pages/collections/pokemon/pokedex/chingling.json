@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Chingling",
-  "number": 433
+  "number": 433,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fTBNxjiRu3p1Ovk0PeDqZ0ZgP",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRWb3s1sr9VsHesCMWLPPks"
+    }
+  ],
+  "blocks": []
 }

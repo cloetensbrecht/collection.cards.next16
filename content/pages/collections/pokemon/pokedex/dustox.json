@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dustox",
-  "number": 269
+  "number": 269,
+  "evolvesFrom": {
+    "_id": "36fPieoVmntT83ec3V0fkJHNXNY",
+    "_type": "entry",
+    "_entry": "36dmGTWFPisnWePt1ArwLvXVD6T"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

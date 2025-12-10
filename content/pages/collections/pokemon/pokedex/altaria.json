@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Altaria",
-  "number": 334
+  "number": 334,
+  "evolvesFrom": {
+    "_id": "36fSU1zo2IKpI6xQchmgLoGMlKO",
+    "_type": "entry",
+    "_entry": "36dmGTLejiQzBz6PBNCQSHiJlbi"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

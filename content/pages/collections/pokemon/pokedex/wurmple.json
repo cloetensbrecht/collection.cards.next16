@@ -3,5 +3,21 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wurmple",
-  "number": 265
+  "number": 265,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fPah2offnqDVcDK4QCLzPJKAZ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVJPB2i5eK1aW404edCmi5T"
+    },
+    {
+      "_id": "36fPahx9k4MBj1hXFvkG5jMRs0f",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGTWFPisnWePt1ArwLvXVD6T"
+    }
+  ],
+  "blocks": []
 }

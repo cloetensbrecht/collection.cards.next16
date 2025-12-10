@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Skitty",
-  "number": 300
+  "number": 300,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fRFgXTZqskH7ZuRf5p8c1O2ml",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXYT0rmVLjOBQLqMDQdLtrm"
+    }
+  ],
+  "blocks": []
 }

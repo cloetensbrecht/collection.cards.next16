@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Armaldo",
-  "number": 348
+  "number": 348,
+  "evolvesFrom": {
+    "_id": "36fSqrfHQBF5S9VBQodD7C7xkuc",
+    "_type": "entry",
+    "_entry": "36dmGSyhu1C95V897WSXOfed4io"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

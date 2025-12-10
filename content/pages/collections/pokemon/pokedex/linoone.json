@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Linoone",
-  "number": 264
+  "number": 264,
+  "evolvesFrom": {
+    "_id": "36fPTI3cdTY0pP9mYHqbAlKK9MB",
+    "_type": "entry",
+    "_entry": "36dmGU6tfyndy56B8euhry5lnGl"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fPUfeaAVvHuIdjkyOrYMabRdI",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRvk6XaSxh6cxLctMJQ6p2F"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Flygon",
-  "number": 330
+  "number": 330,
+  "evolvesFrom": {
+    "_id": "36fS9VnYRQMxn1rWEHnuIT0chOC",
+    "_type": "entry",
+    "_entry": "36dmGRXOsHvHjmjwXzaWNIUoVZr"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

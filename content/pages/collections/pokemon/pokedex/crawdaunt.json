@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Crawdaunt",
-  "number": 342
+  "number": 342,
+  "evolvesFrom": {
+    "_id": "36fSfA0MfhpZWiRlC1qYBEpSo2k",
+    "_type": "entry",
+    "_entry": "36dmGSCj8JE6VeUj9vgPuBQwuIS"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

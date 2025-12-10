@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Prinplup",
-  "number": 394
+  "number": 394,
+  "evolvesFrom": {
+    "_id": "36fUCPrfkjXV2zK8dZSyFxG2kNC",
+    "_type": "entry",
+    "_entry": "36dmGVnI4lNmHkgdR7YIFpBUorD"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fUAiozC9oYT8SgrLlsrh2PAXP",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGULQe6noKR9E7WxEOHMCSKR"
+    }
+  ],
+  "blocks": []
 }

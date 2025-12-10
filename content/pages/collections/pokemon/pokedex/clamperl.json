@@ -3,5 +3,21 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Clamperl",
-  "number": 366
+  "number": 366,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fTT9BkoDjHUQq5d65ByUqUk9j",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWSwgha7lMVrANH4Wy4NsGz"
+    },
+    {
+      "_id": "36fTT9v542uUYMDZfH2a4Am5qRG",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGXQW2HZ8Dwc12Q9oc5To1nK"
+    }
+  ],
+  "blocks": []
 }

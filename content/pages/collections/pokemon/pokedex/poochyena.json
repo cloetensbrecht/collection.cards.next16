@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Poochyena",
-  "number": 261
+  "number": 261,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fPJe80Paawh4T4FUebLqjyEpo",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVbCzIuvYzAZMbqdS2bXMuF"
+    }
+  ],
+  "blocks": []
 }

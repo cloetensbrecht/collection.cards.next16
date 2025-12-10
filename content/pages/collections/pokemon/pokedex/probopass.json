@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Probopass",
-  "number": 476
+  "number": 476,
+  "evolvesFrom": {
+    "_id": "36fRDMFPby6CXGHqLQuRN5vBGhW",
+    "_type": "entry",
+    "_entry": "36dmGSCJ2JDzEeTOa42RQaa2ejs"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

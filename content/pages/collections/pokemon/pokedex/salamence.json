@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Salamence",
-  "number": 373
+  "number": 373,
+  "evolvesFrom": {
+    "_id": "36fTcgYPxpxW2DoVpjCh6NQIhzb",
+    "_type": "entry",
+    "_entry": "36dmGVpOgtKudHttR8N98kRlgNF"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

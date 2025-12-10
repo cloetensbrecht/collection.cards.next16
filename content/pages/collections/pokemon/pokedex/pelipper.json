@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pelipper",
-  "number": 279
+  "number": 279,
+  "evolvesFrom": {
+    "_id": "36fQFsrAvLkjIam1P1JglKRpj2a",
+    "_type": "entry",
+    "_entry": "36dmGVyvDsFgQ1zicOhWvfWFZu5"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

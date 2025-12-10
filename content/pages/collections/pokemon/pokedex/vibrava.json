@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Vibrava",
-  "number": 329
+  "number": 329,
+  "evolvesFrom": {
+    "_id": "36fS7ozIushcJXnFmOsENFxdiDP",
+    "_type": "entry",
+    "_entry": "36dmGTlivkz7znVF9yMY2KC5Q3Y"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fS8iFC2WpToTe9RohjP50FPUO",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWBsMOCyaTLAaPmhxoitoF9"
+    }
+  ],
+  "blocks": []
 }

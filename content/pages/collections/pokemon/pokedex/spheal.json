@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Spheal",
-  "number": 363
+  "number": 363,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fTMlYn6NpGCpmybqvu8LdoWui",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVVjurglh0G4QIn6VzpAIo7"
+    }
+  ],
+  "blocks": []
 }

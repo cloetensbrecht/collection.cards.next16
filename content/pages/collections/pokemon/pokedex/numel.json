@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Numel",
-  "number": 322
+  "number": 322,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fRyJX0BH1TeXQMIlRGX9cl8mZ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWcJmB24vqtR6xykEKXvSmn"
+    }
+  ],
+  "blocks": []
 }

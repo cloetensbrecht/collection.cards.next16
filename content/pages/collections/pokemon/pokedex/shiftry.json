@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Shiftry",
-  "number": 275
+  "number": 275,
+  "evolvesFrom": {
+    "_id": "36fQ3J06eeHr5y1Swtl9dOW6VYM",
+    "_type": "entry",
+    "_entry": "36dmGQawD2j2fhgWDoOVOuLGjOG"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

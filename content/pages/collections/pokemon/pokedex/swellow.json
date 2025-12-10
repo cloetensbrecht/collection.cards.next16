@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Swellow",
-  "number": 277
+  "number": 277,
+  "evolvesFrom": {
+    "_id": "36fQ7WsbkYyp7OOMxMiwyNlTBfW",
+    "_type": "entry",
+    "_entry": "36dmGQfFeUTbbsnF8DCsU0NBOsN"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Corphish",
-  "number": 341
+  "number": 341,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fSeGvmLOaOYMe4xG7XEz6Q8Ip",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUqcfzXIbUOfsyMoGd3e3Y1"
+    }
+  ],
+  "blocks": []
 }

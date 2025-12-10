@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Taillow",
-  "number": 276
+  "number": 276,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fQ6UoxyiELAK4igP4WrQdDPVy",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSVQsa3XZ9aFTsyxO5D0pDK"
+    }
+  ],
+  "blocks": []
 }

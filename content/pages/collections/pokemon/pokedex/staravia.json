@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Staravia",
-  "number": 397
+  "number": 397,
+  "evolvesFrom": {
+    "_id": "36fUL1sIz5EKqowIkZVSkeW3cyw",
+    "_type": "entry",
+    "_entry": "36dmGRztbVUY8rVf7EzcRQd0nQn"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fULsQZcDqW5IfZbrx2vFij1WR",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVKXpi9SmjtJ7keOEBCMPM4"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Banette",
-  "number": 354
+  "number": 354,
+  "evolvesFrom": {
+    "_id": "36fT0EChjMmljoTOsDkNmx7GJLy",
+    "_type": "entry",
+    "_entry": "36dmGSJ72PdGaXaVx4UriplGVcY"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

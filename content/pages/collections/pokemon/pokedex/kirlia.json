@@ -3,5 +3,25 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Kirlia",
-  "number": 281
+  "number": 281,
+  "evolvesFrom": {
+    "_id": "36fQSq58d1KOqTKKt3WkD01CLRO",
+    "_type": "entry",
+    "_entry": "36dmGSpbyxRiw0M7wfTAopOhiCA"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fQUbLdVLcAkeQxN37wJOUujxL",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGT9xTqFaJzles63VCJMLnIQ"
+    },
+    {
+      "_id": "36fQUeRTh19fr95kqwL9w9zMRXq",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGVWz8rTosmxQD2CHxy39FS0"
+    }
+  ],
+  "blocks": []
 }

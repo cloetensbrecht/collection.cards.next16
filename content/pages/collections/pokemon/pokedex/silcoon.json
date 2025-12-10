@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Silcoon",
-  "number": 266
+  "number": 266,
+  "evolvesFrom": {
+    "_id": "36fPcNSJIE3J8nvrgOkzUOMG8ht",
+    "_type": "entry",
+    "_entry": "36dmGQbuSSAxn1mdlf8YEUHIobj"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fPefqkK1GlNpLV5B7nVEkMeXY",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGPwCXXcu6mGrDrDojjaELP7"
+    }
+  ],
+  "blocks": []
 }

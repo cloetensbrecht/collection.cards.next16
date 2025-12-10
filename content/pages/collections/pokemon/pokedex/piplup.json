@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Piplup",
-  "number": 393
+  "number": 393,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fU95QXv9VAobGQ0X50BO1dTEX",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWBXQtv82zB3j6JoPzS371f"
+    }
+  ],
+  "blocks": []
 }

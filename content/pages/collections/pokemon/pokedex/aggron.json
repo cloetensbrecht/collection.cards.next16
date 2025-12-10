@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Aggron",
-  "number": 306
+  "number": 306,
+  "evolvesFrom": {
+    "_id": "36fRObDYVJSZrwRnVHEOZfGesHv",
+    "_type": "entry",
+    "_entry": "36dmGXFXbgPsuiT9NQm0dHQAuDc"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }
