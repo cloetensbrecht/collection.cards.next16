@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Espeon",
-  "number": 196
+  "number": 196,
+  "evolvesFrom": {
+    "_id": "36fJTmzyMPGrb2HQp9SnMPLyf0l",
+    "_type": "entry",
+    "_entry": "36dmGWceOHkNLbBySnEgkN3dbRA"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

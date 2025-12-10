@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Piloswine",
-  "number": 221
+  "number": 221,
+  "evolvesFrom": {
+    "_id": "36fNqeNGCE6tZ5ZdIckSBQYDUIv",
+    "_type": "entry",
+    "_entry": "36dmGWNBOUQpihfoX4dj6rCoYZt"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fNrNCF1V3sH2fa5GAUCfWcTc6",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTyA7m80X3oFw0rIym6QXOo"
+    }
+  ],
+  "blocks": []
 }

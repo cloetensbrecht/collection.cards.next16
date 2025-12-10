@@ -3,5 +3,57 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Eevee",
-  "number": 133
+  "number": 133,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fJMedfrJiKWRvTc6zY0xbKoJA",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVuHoVu6fD1s01Hofj33ocz"
+    },
+    {
+      "_id": "36fJMiPhnh0O9Pqe5VCWxTFLc9C",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGWOPyLp9cSryoRxU0onHt7P"
+    },
+    {
+      "_id": "36fJMiqIVGC5bBGiNCSaFggjgcw",
+      "_index": "a2",
+      "_type": "entry",
+      "_entry": "36dmGUaWW91KdsBfqC6me7YhSee"
+    },
+    {
+      "_id": "36fJMiSsUHMJZKvdw7BpcK4rnVK",
+      "_index": "a3",
+      "_type": "entry",
+      "_entry": "36dmGT8gyHzcFJcKnVYKVt8ponb"
+    },
+    {
+      "_id": "36fJMfC7OvvuE04UUgTswlLmfQC",
+      "_index": "a4",
+      "_type": "entry",
+      "_entry": "36dmGVpxkJBGfxvuGaZZWdjKLLL"
+    },
+    {
+      "_id": "36fJMcGZg5FwiyYd0pjX9ZvyOCa",
+      "_index": "a5",
+      "_type": "entry",
+      "_entry": "36dmGVLizALnAfKu1J1bcWOKchC"
+    },
+    {
+      "_id": "36fJMgaielfA2JahTR8gvveZ5lE",
+      "_index": "a6",
+      "_type": "entry",
+      "_entry": "36dmGTXZxasCJhPMx5jkELNawGc"
+    },
+    {
+      "_id": "36fJMg45dVNWG9obzMD4r4pBYwR",
+      "_index": "a7",
+      "_type": "entry",
+      "_entry": "36dmGSJ8so2pREpwkb7i3j68C0o"
+    }
+  ],
+  "blocks": []
 }

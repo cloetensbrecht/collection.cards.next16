@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Quagsire",
-  "number": 195
+  "number": 195,
+  "evolvesFrom": {
+    "_id": "36fMQl2vKF1KZbwGXt6KjrxPVar",
+    "_type": "entry",
+    "_entry": "36dmGQcYomLBxprtbBKN5f1cZZ7"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

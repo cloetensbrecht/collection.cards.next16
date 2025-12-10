@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Jolteon",
-  "number": 135
+  "number": 135,
+  "evolvesFrom": {
+    "_id": "36fJRyeShP8j6aXBQRE2vpdFG4S",
+    "_type": "entry",
+    "_entry": "36dmGWceOHkNLbBySnEgkN3dbRA"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sunkern",
-  "number": 191
+  "number": 191,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fMGBFnkqGFvPN78h99LLodhuN",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGT5PueMc136u1nM3X6hAC4q"
+    }
+  ],
+  "blocks": []
 }

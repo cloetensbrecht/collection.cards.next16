@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Marshtomp",
-  "number": 259
+  "number": 259,
+  "evolvesFrom": {
+    "_id": "36fP4OuUfllNq2qABQmrjE3oohU",
+    "_type": "entry",
+    "_entry": "36dmGUQ4gOEGvMqw1uBBs7V2IdS"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fP5M98jtQffVdeINg5BQ2W7zW",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGV6klwyIZbeFqKrCGD8p6yX"
+    }
+  ],
+  "blocks": []
 }

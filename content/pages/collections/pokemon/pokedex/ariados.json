@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ariados",
-  "number": 168
+  "number": 168,
+  "evolvesFrom": {
+    "_id": "36fLCihJckEnKJjF0EteWDhoc1H",
+    "_type": "entry",
+    "_entry": "36dmGU3AtJdI8jSXRRSOQ57rLIH"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

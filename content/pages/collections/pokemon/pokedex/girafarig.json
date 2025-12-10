@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Girafarig",
-  "number": 203
+  "number": 203,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fMmchInr311coUyIuJxbEIDhJ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRo48IEXh6mbFEjmKsjOsXy"
+    }
+  ],
+  "blocks": []
 }

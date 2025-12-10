@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Blaziken",
-  "number": 257
+  "number": 257,
+  "evolvesFrom": {
+    "_id": "36fOxaMEIJkdcwqP1ga5w2Xgnn5",
+    "_type": "entry",
+    "_entry": "36dmGXYRbWHzAmbmWF8vQZWsuSI"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

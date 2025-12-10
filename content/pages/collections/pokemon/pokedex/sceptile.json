@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sceptile",
-  "number": 254
+  "number": 254,
+  "evolvesFrom": {
+    "_id": "36fOpJqC1sK5HtFqWnEDPSz8pxc",
+    "_type": "entry",
+    "_entry": "36dmGWEUEg13VLJliwwB8wqalnT"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

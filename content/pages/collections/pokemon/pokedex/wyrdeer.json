@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wyrdeer",
-  "number": 899
+  "number": 899,
+  "evolvesFrom": {
+    "_id": "36fOMOPTivTwc9ict3P9Dxvfgth",
+    "_type": "entry",
+    "_entry": "36dmGRFLkxb91QqYzlASV9E9Txd"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

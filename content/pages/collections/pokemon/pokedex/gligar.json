@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gligar",
-  "number": 207
+  "number": 207,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fMyV3bGdLgbWxAugVWQC2wVkK",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUCYacSu0nK7VGbKOIoJGjK"
+    }
+  ],
+  "blocks": []
 }

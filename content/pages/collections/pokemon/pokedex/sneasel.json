@@ -3,5 +3,21 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sneasel",
-  "number": 215
+  "number": 215,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fNcNUWDNCGJDwqKN5qjc46v3Y",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWbOncCUo1vS8b2vpTCNpcD"
+    },
+    {
+      "_id": "36fNcRgV9dmf1QduVIAMiDzsVyR",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGXQHusSgpq05pf3GS4XzEqV"
+    }
+  ],
+  "blocks": []
 }

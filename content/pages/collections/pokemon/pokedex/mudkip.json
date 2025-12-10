@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mudkip",
-  "number": 258
+  "number": 258,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fP3LjzVXcwAoBBRKVy7SgOkf8",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGU01TqPDvw8hbr3NjOpI0LJ"
+    }
+  ],
+  "blocks": []
 }

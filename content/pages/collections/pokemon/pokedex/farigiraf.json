@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Farigiraf",
-  "number": 981
+  "number": 981,
+  "evolvesFrom": {
+    "_id": "36fMngw7pXzJJ8OuEkdpwX4o1aR",
+    "_type": "entry",
+    "_entry": "36dmGVz4XGaN0ACohux6D7aiFD7"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

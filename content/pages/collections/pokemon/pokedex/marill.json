@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Marill",
-  "number": 183
+  "number": 183,
+  "evolvesFrom": {
+    "_id": "36fLsR5WSrLCulOVV41iRr1tdRX",
+    "_type": "entry",
+    "_entry": "36dmGQk8K7CgEXYkYmybA4QOs6E"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fLtWLHOBacH5TsZOTyrETZ91U",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTjxtohRWQiKpWMbHwmXEh3"
+    }
+  ],
+  "blocks": []
 }

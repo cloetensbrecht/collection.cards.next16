@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Treecko",
-  "number": 252
+  "number": 252,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fOlUtQka0te1pJao7C1rYeDCE",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWEUEg13VLJliwwB8wqalnT"
+    }
+  ],
+  "blocks": []
 }

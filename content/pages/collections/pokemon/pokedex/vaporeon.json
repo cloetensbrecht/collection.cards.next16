@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Vaporeon",
-  "number": 134
+  "number": 134,
+  "evolvesFrom": {
+    "_id": "36fJQqiIT2oIyu3MkNYwocbIsfQ",
+    "_type": "entry",
+    "_entry": "36dmGWceOHkNLbBySnEgkN3dbRA"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

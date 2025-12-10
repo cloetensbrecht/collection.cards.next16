@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cursola",
-  "number": 864
+  "number": 864,
+  "evolvesFrom": {
+    "_id": "36fNzN4qs1RE6HaWQl6psfTHauX",
+    "_type": "entry",
+    "_entry": "36dmGUv6QF1H6aNx2T90CJQJSGw"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

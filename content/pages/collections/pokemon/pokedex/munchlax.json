@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Munchlax",
-  "number": 446
+  "number": 446,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fK2lHrMpZHxTbm1AEpVnEmbrF",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTIxwqHPHwqRRDTT8I7l1NV"
+    }
+  ],
+  "blocks": []
 }

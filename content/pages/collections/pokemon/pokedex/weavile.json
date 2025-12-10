@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Weavile",
-  "number": 461
+  "number": 461,
+  "evolvesFrom": {
+    "_id": "36fNdIKu3bmnG8L8E4ZWYJXUPAz",
+    "_type": "entry",
+    "_entry": "36dmGRB30fBXHUgc34PibKt0Mmj"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

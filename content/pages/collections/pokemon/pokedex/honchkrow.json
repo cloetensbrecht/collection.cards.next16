@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Honchkrow",
-  "number": 430
+  "number": 430,
+  "evolvesFrom": {
+    "_id": "36fMYwgpYgqxY7V72bNxWjSymx4",
+    "_type": "entry",
+    "_entry": "36dmGVKGmPYIlMdGwE2EcMGOupt"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

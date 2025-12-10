@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Croconaw",
-  "number": 159
+  "number": 159,
+  "evolvesFrom": {
+    "_id": "36fKqZDulwPpzDD5pLLZ5sj5NXo",
+    "_type": "entry",
+    "_entry": "36dmGW61qsC20Ind4E86bZVk0UA"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fKrUpxtke4Zfb7ZDeaKrvmGQG",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTxUEk93A4TAQoPGmdHZwgo"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Feraligatr",
-  "number": 160
+  "number": 160,
+  "evolvesFrom": {
+    "_id": "36fKseY1Sn5Wt4H05pXQvwFO0v5",
+    "_type": "entry",
+    "_entry": "36dmGQZBEbpBQqPdjN5n81KUjba"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

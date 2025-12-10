@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Kabutops",
-  "number": 141
+  "number": 141,
+  "evolvesFrom": {
+    "_id": "36fJw9TaHX3EZj9iofVMuaCsTM5",
+    "_type": "entry",
+    "_entry": "36dmGQWMxo4V5HNtMqmlvMfZeYH"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

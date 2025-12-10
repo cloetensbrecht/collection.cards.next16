@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Octillery",
-  "number": 224
+  "number": 224,
+  "evolvesFrom": {
+    "_id": "36fO2oTr5EOH2JDJEYi68imRKd4",
+    "_type": "entry",
+    "_entry": "36dmGSBP0nBh6xV4T9vd1QrtYfU"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

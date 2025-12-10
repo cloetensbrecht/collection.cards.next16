@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Jumpluff",
-  "number": 189
+  "number": 189,
+  "evolvesFrom": {
+    "_id": "36fM9Fdpqfu89E4dUFdARqprnvA",
+    "_type": "entry",
+    "_entry": "36dmGSGtqDtPYsvlT1uOFwQkDKP"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

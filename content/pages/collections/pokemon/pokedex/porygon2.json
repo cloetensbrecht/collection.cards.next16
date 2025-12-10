@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Porygon2",
-  "number": 233
+  "number": 233,
+  "evolvesFrom": {
+    "_id": "36fJlM3nC1G6deL4Q0m6adXEIiL",
+    "_type": "entry",
+    "_entry": "36dmGRCOguDafPR93bufJ8bDzVF"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fJmTI2LhxgkonzXdxa6osvTOE",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVTfK0ewPMsQfoUkmly4mzO"
+    }
+  ],
+  "blocks": []
 }

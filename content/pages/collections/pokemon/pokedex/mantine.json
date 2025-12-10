@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mantine",
-  "number": 226
+  "number": 226,
+  "evolvesFrom": {
+    "_id": "36fO7mfg50jaZaLyKkamqGQplz0",
+    "_type": "entry",
+    "_entry": "36dmGSDGUO9IUiJ3LOaml8FlSBM"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

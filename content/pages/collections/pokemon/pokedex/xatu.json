@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Xatu",
-  "number": 178
+  "number": 178,
+  "evolvesFrom": {
+    "_id": "36fLgIhBM5pI5QmOrtsF3ES5Vsk",
+    "_type": "entry",
+    "_entry": "36dmGSYgZtlfz71Gu4zbTVVJjhi"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Noctowl",
-  "number": 164
+  "number": 164,
+  "evolvesFrom": {
+    "_id": "36fL3THU9WdEg0H18hmGMXhXIj4",
+    "_type": "entry",
+    "_entry": "36dmGPzxwtaf3c68SqFznG1kj1h"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

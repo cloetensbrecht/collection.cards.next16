@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Yanmega",
-  "number": 469
+  "number": 469,
+  "evolvesFrom": {
+    "_id": "36fMM54VjRveyVu7TfFjFK2LjV8",
+    "_type": "entry",
+    "_entry": "36dmGUDmdvY2ULP2M8PPgNNhoiz"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

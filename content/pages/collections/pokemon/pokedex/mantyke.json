@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mantyke",
-  "number": 458
+  "number": 458,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fO95nStQ7F2vQbgoLiLJKKM35",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVucAKBrRTcZxOSOhYpWzd4"
+    }
+  ],
+  "blocks": []
 }

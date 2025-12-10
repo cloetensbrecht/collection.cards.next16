@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Forretress",
-  "number": 205
+  "number": 205,
+  "evolvesFrom": {
+    "_id": "36fMr1vLJ4w87FcIZ9SJm0v51c6",
+    "_type": "entry",
+    "_entry": "36dmGTV6LIP2z74foMrHxQqrhwb"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

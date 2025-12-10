@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Phanpy",
-  "number": 231
+  "number": 231,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fOHbPDt6nbtsdqcCP9oJADz2M",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTtcWYGazKREGgBDkzhfZNj"
+    }
+  ],
+  "blocks": []
 }

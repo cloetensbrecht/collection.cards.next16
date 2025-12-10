@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Flaaffy",
-  "number": 180
+  "number": 180,
+  "evolvesFrom": {
+    "_id": "36fLjoju2Rd28SoJecY420T4WPp",
+    "_type": "entry",
+    "_entry": "36dmGUHcXpGWYfuAouPYuT1myn9"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fLkfXwhLshMJirYWSUKUrimlF",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRSGYpQXAXSBasfrNTLYmw0"
+    }
+  ],
+  "blocks": []
 }

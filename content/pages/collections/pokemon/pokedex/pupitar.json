@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pupitar",
-  "number": 247
+  "number": 247,
+  "evolvesFrom": {
+    "_id": "36fOdZRQ4OmJqHCUFJpK0WqOBa5",
+    "_type": "entry",
+    "_entry": "36dmGSPiYX4W6ZczT7MIhMKm0dM"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fOeOznfS1glAZ1pi9uPPq5Zcf",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRuJhx5tkc9eJyMGtbyouoH"
+    }
+  ],
+  "blocks": []
 }

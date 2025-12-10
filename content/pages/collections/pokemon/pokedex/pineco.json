@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pineco",
-  "number": 204
+  "number": 204,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fMq5giWmh7xlS6yMaZ268RNda",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGPyztteWNIuFruaaAqmYs9S"
+    }
+  ],
+  "blocks": []
 }

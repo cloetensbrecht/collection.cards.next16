@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Magcargo",
-  "number": 219
+  "number": 219,
+  "evolvesFrom": {
+    "_id": "36fNnCqBfVOfEY8llORibZgii1s",
+    "_type": "entry",
+    "_entry": "36dmGTTu4z6PCeSAd4SJq5EV8Ge"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

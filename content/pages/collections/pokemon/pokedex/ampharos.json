@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ampharos",
-  "number": 181
+  "number": 181,
+  "evolvesFrom": {
+    "_id": "36fLlrRYST9zId1G1jgiDmnL5qL",
+    "_type": "entry",
+    "_entry": "36dmGWlFMs18RSWoBWYgeGgwi7R"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

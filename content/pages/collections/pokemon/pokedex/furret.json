@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Furret",
-  "number": 162
+  "number": 162,
+  "evolvesFrom": {
+    "_id": "36fKz4BSstt8AlbnfJvzgaNDuC2",
+    "_type": "entry",
+    "_entry": "36dmGScI18HIOBD0NDSVXaiUmsx"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Chinchou",
-  "number": 170
+  "number": 170,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fLHuX5F9TJXItENVLuYGWh4p2",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRCIHDBOf6sN5lls8FLXY2A"
+    }
+  ],
+  "blocks": []
 }

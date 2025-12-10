@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Totodile",
-  "number": 158
+  "number": 158,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fKp0qFFGXTFgeZzmoS6pqSQoU",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQZBEbpBQqPdjN5n81KUjba"
+    }
+  ],
+  "blocks": []
 }

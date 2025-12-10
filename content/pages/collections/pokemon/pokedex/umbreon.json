@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Umbreon",
-  "number": 197
+  "number": 197,
+  "evolvesFrom": {
+    "_id": "36fJUf46oWDTQsXHyVw7PJWR0Kk",
+    "_type": "entry",
+    "_entry": "36dmGWceOHkNLbBySnEgkN3dbRA"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

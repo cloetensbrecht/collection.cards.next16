@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Skiploom",
-  "number": 188
+  "number": 188,
+  "evolvesFrom": {
+    "_id": "36fM6wJDq1yJNrTw3Cumuf5jWwZ",
+    "_type": "entry",
+    "_entry": "36dmGR3JxB7VEDrVwALlxQ0Cnu8"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fM8F0cuXhiwuuUSjCVdyQotYM",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTn0mI29kiXGAIs05XmO94f"
+    }
+  ],
+  "blocks": []
 }

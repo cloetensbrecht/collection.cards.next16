@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Yanma",
-  "number": 193
+  "number": 193,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fMKyYhHuU41BHod8UQO09hdLq",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGT7GRX8gBC5iRNo1mF2WHs2"
+    }
+  ],
+  "blocks": []
 }

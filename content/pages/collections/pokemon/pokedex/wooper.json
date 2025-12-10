@@ -3,5 +3,21 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wooper",
-  "number": 194
+  "number": 194,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fMPmsDrI4AIxm6HHrg05mJPfW",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTMsXncg3QtrfVrzIbpmupu"
+    },
+    {
+      "_id": "36fMPorGmSVg3k0RTgCBkUYZGat",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGUqbZhhSQoTdr2dpm90XcDS"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Bayleef",
-  "number": 153
+  "number": 153,
+  "evolvesFrom": {
+    "_id": "36fKRmunldNzEiZdOY0SOPWAQyn",
+    "_type": "entry",
+    "_entry": "36dmGWR1uEozg6NJkMrBtpzz9gJ"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fKTQkUY7cgwIF2ouxHFiZ3kJv",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGS69uJ8r5F0C1escL4aEv62"
+    }
+  ],
+  "blocks": []
 }

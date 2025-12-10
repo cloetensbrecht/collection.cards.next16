@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ledian",
-  "number": 166
+  "number": 166,
+  "evolvesFrom": {
+    "_id": "36fL8TeCHytl3iqdO3tU7FTj29p",
+    "_type": "entry",
+    "_entry": "36dmGWdgsPBlqGyDHKNZyHg8jvz"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

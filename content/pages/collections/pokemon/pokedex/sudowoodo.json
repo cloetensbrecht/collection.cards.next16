@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sudowoodo",
-  "number": 185
+  "number": 185,
+  "evolvesFrom": {
+    "_id": "36fLzgCmNohz2pRYU0q9GClGRFR",
+    "_type": "entry",
+    "_entry": "36dmGSbGrMmxdr9W8zjCt9hwxf5"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

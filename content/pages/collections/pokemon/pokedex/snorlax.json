@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Snorlax",
-  "number": 143
+  "number": 143,
+  "evolvesFrom": {
+    "_id": "36fK1WagTDTfsyrIi6GDkKxuGOj",
+    "_type": "entry",
+    "_entry": "36dmGTsjqXb1ATzpdqj6Ha2qoY0"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

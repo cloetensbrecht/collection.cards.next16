@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Leafeon",
-  "number": 470
+  "number": 470,
+  "evolvesFrom": {
+    "_id": "36fJVWXlS5M86sceRbOaorZQpUe",
+    "_type": "entry",
+    "_entry": "36dmGWceOHkNLbBySnEgkN3dbRA"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

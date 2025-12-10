@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ambipom",
-  "number": 424
+  "number": 424,
+  "evolvesFrom": {
+    "_id": "36fMDT6XsxbZ2K7FgOM6zT7CW1B",
+    "_type": "entry",
+    "_entry": "36dmGU4w4BtQbJhr3sQeS4uvOck"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

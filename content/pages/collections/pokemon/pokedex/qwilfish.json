@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Qwilfish",
-  "number": 211
+  "number": 211,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fNTd8RkIBO1DCtVwtfpqJQisM",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGW1Wq5KBL9pr64oDz9ONzxr"
+    }
+  ],
+  "blocks": []
 }

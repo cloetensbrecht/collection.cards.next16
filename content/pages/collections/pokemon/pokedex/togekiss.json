@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Togekiss",
-  "number": 468
+  "number": 468,
+  "evolvesFrom": {
+    "_id": "36fLVYe7BrCwxwh0FbV0m4DqYPX",
+    "_type": "entry",
+    "_entry": "36dmGRL91ZJIOZeqn5ogxByXRxc"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

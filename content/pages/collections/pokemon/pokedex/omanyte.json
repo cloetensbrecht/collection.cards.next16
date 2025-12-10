@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Omanyte",
-  "number": 138
+  "number": 138,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fJrBd3WMyCpCHxCOXk3LiBDgS",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQzyH4Jycnw9R5D8oGmWi1z"
+    }
+  ],
+  "blocks": []
 }

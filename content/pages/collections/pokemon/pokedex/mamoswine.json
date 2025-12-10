@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mamoswine",
-  "number": 473
+  "number": 473,
+  "evolvesFrom": {
+    "_id": "36fNtBLJGvfDHiH3gM59DVJnvsm",
+    "_type": "entry",
+    "_entry": "36dmGT2nsW9fwlbeqzWOOvmUb1v"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

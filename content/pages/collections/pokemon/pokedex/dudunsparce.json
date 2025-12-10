@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dudunsparce",
-  "number": 982
+  "number": 982,
+  "evolvesFrom": {
+    "_id": "36fMwEqSXdiyKATuXS2hxzgt4hU",
+    "_type": "entry",
+    "_entry": "36dmGRPLg9HEfrdA93mcmrU0sqx"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

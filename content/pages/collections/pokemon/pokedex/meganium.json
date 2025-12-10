@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Meganium",
-  "number": 154
+  "number": 154,
+  "evolvesFrom": {
+    "_id": "36fKUa8gRS5jWofvnN4eNZGTGIN",
+    "_type": "entry",
+    "_entry": "36dmGR5NDTQUcRhBMOfsaUoaSbt"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

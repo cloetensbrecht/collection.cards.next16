@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Donphan",
-  "number": 232
+  "number": 232,
+  "evolvesFrom": {
+    "_id": "36fOIXLCLLERviCiNtg3aE2vg0l",
+    "_type": "entry",
+    "_entry": "36dmGXfAa4vtNijJfu2P89x7r5t"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

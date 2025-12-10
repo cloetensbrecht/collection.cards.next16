@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Flareon",
-  "number": 136
+  "number": 136,
+  "evolvesFrom": {
+    "_id": "36fJT0emsqCeiPVnktQANZyuagh",
+    "_type": "entry",
+    "_entry": "36dmGWceOHkNLbBySnEgkN3dbRA"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Omastar",
-  "number": 139
+  "number": 139,
+  "evolvesFrom": {
+    "_id": "36fJsO98JGm6hcUIDn8FUNNoYBs",
+    "_type": "entry",
+    "_entry": "36dmGX6R0Uo3CZ0OYB7gLuXJ8Co"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

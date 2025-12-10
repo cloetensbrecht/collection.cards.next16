@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Overqwil",
-  "number": 904
+  "number": 904,
+  "evolvesFrom": {
+    "_id": "36fNUkPfruqHNvASNv6IhEVD7qU",
+    "_type": "entry",
+    "_entry": "36dmGUvSeSHqR4ucKgBL93aMLBJ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

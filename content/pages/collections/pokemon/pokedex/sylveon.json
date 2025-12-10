@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sylveon",
-  "number": 700
+  "number": 700,
+  "evolvesFrom": {
+    "_id": "36fJXV8HR4QluVvdkwGbnSUJ00i",
+    "_type": "entry",
+    "_entry": "36dmGWceOHkNLbBySnEgkN3dbRA"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

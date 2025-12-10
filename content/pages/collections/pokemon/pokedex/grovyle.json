@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Grovyle",
-  "number": 253
+  "number": 253,
+  "evolvesFrom": {
+    "_id": "36fOoPazrEX3Bv6PECBz5AwwkYP",
+    "_type": "entry",
+    "_entry": "36dmGTKqpK8B48OUM4xn4M03kxH"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fOnP3xihKiY88s7apBcKdnvVZ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRY9CR1jTiAnJ9PgsaMcs3g"
+    }
+  ],
+  "blocks": []
 }

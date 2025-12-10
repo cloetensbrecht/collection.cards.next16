@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Corsola",
-  "number": 222
+  "number": 222,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fNy0jvKAXAlzn3moYNpUjJBZO",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUB37BcYLjIAGOJdv9lN99t"
+    }
+  ],
+  "blocks": []
 }

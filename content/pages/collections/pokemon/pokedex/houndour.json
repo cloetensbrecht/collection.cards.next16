@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Houndour",
-  "number": 228
+  "number": 228,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fOCeE0KtXt0fTxLMJBWa5hjqG",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRC9yolDMSzUhmFXOIy6LBH"
+    }
+  ],
+  "blocks": []
 }

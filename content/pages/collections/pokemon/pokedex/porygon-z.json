@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Porygon-Z",
-  "number": 474
+  "number": 474,
+  "evolvesFrom": {
+    "_id": "36fJnr6VcEz5wGLfGIuvkJaijTo",
+    "_type": "entry",
+    "_entry": "36dmGT2o691aZW4K9k2xfsM3bTr"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

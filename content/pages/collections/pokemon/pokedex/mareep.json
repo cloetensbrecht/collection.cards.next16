@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mareep",
-  "number": 179
+  "number": 179,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fLilOHX6HPgBlCfDAfrSzPx95",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWlFMs18RSWoBWYgeGgwi7R"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Larvitar",
-  "number": 246
+  "number": 246,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fOcYQtTDgVyzdMSye3X23Ue68",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWn9hjcUCJQU2OV7JbRSM4P"
+    }
+  ],
+  "blocks": []
 }

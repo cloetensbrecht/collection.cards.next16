@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mismagius",
-  "number": 429
+  "number": 429,
+  "evolvesFrom": {
+    "_id": "36fMeNiHl3oYVSouI7czURxDb4E",
+    "_type": "entry",
+    "_entry": "36dmGT2fzJQ120NtcqIWgyagofe"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

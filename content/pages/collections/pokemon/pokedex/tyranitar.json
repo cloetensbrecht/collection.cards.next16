@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tyranitar",
-  "number": 248
+  "number": 248,
+  "evolvesFrom": {
+    "_id": "36fOfSrTgtf05IWJtxBvK59ZCkz",
+    "_type": "entry",
+    "_entry": "36dmGWn9hjcUCJQU2OV7JbRSM4P"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

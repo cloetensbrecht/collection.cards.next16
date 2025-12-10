@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Murkrow",
-  "number": 198
+  "number": 198,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fMXzol0TbUs0wWuecT5j6IXdb",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWrHkCSgiCgXiAqXJNHuWWc"
+    }
+  ],
+  "blocks": []
 }

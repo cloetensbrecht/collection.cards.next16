@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wynaut",
-  "number": 360
+  "number": 360,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fMkQzE65BNaeHvXcZeH4cbvVD",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTr9KSgvZHd9F2wv75ijmpe"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sneasler",
-  "number": 903
+  "number": 903,
+  "evolvesFrom": {
+    "_id": "36fNeIoFZkgAlKNI4Fr2kovIDWw",
+    "_type": "entry",
+    "_entry": "36dmGRB30fBXHUgc34PibKt0Mmj"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

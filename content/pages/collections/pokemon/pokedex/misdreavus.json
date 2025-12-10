@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Misdreavus",
-  "number": 200
+  "number": 200,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fMdNjP9kwc3SLqkJItudC4nSL",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSRlF5OTH47SCJTynSEhaIl"
+    }
+  ],
+  "blocks": []
 }

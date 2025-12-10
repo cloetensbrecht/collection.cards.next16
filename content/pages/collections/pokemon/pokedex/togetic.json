@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Togetic",
-  "number": 176
+  "number": 176,
+  "evolvesFrom": {
+    "_id": "36fLTeSdpsG5lHwsIOgcKKsuj2x",
+    "_type": "entry",
+    "_entry": "36dmGR1NbCbsKxiNCUKuj0JfFWT"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fLUl42Na38PGsUg5kGgDjn4qA",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQcDlcdoKXq5ETgkOcWaGwH"
+    }
+  ],
+  "blocks": []
 }

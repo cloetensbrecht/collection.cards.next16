@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Aipom",
-  "number": 190
+  "number": 190,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fMCRuxJkLSr0kiKTz9CXcIoLP",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXiEJx3b6SdOOMgGP2lZCHv"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Quilava",
-  "number": 156
+  "number": 156,
+  "evolvesFrom": {
+    "_id": "36fKhWDrq28rLlAHhU9ShJbHNQx",
+    "_type": "entry",
+    "_entry": "36dmGVV2XseL6tZDp1Io89vqlf3"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fKjGQHqigPcnIANE3P4LOw3nc",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVWdTWat0PPnnVNyqtL0A2P"
+    }
+  ],
+  "blocks": []
 }

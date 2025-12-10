@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Torchic",
-  "number": 255
+  "number": 255,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fOuqULnyDYF9cdXvEzl2LNTCO",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXYRbWHzAmbmWF8vQZWsuSI"
+    }
+  ],
+  "blocks": []
 }

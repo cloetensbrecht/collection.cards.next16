@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ursaluna",
-  "number": 901
+  "number": 901,
+  "evolvesFrom": {
+    "_id": "36fNjgCtdFgoqpzT156Bwd1dJMv",
+    "_type": "entry",
+    "_entry": "36dmGTodVC0mRSSwhT0yAOKhAHt"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

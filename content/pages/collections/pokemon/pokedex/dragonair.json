@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dragonair",
-  "number": 148
+  "number": 148,
+  "evolvesFrom": {
+    "_id": "36fKFZopshM6KMwb4JbSHl4LVQI",
+    "_type": "entry",
+    "_entry": "36dmGSVmVzqCKelGJToC6ObfEnw"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fKInDSTYZzVwLp9UCsQJ2yDAp",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUFWO2NmusAJUCf0oPRHPrt"
+    }
+  ],
+  "blocks": []
 }

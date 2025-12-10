@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dragonite",
-  "number": 149
+  "number": 149,
+  "evolvesFrom": {
+    "_id": "36fKJnfNObMyBODuI85KoZ24jnU",
+    "_type": "entry",
+    "_entry": "36dmGXQM1SYayYIby0qQXMDd30a"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

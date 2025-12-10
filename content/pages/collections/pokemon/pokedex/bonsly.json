@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Bonsly",
-  "number": 438
+  "number": 438,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fM0mcSJHVCDcjmNnKNXU40eEk",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUNzXeUaxOsmL08SMEkjpw7"
+    }
+  ],
+  "blocks": []
 }

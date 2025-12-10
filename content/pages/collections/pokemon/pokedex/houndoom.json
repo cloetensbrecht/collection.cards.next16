@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Houndoom",
-  "number": 229
+  "number": 229,
+  "evolvesFrom": {
+    "_id": "36fODZYkfX9JMcYW0E1FWMKby9J",
+    "_type": "entry",
+    "_entry": "36dmGRkuzf908KoNd5vGTzT0p9w"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

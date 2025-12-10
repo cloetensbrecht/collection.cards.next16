@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ursaring",
-  "number": 217
+  "number": 217,
+  "evolvesFrom": {
+    "_id": "36fNht9fHapVDCJ78KRfw9iK1Kn",
+    "_type": "entry",
+    "_entry": "36dmGQdPoIfKG3699UjIwcbMxhp"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fNigYmf1aQWj633Y1UGs5LTsC",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQzjqSCeIQDFHDY7sW74bP7"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Swampert",
-  "number": 260
+  "number": 260,
+  "evolvesFrom": {
+    "_id": "36fP6Fwpa2y3NzccYeONnqeKjUh",
+    "_type": "entry",
+    "_entry": "36dmGU01TqPDvw8hbr3NjOpI0LJ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

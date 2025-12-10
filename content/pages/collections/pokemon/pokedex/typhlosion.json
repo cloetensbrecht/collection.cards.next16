@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Typhlosion",
-  "number": 157
+  "number": 157,
+  "evolvesFrom": {
+    "_id": "36fKkVcDl04irvl6h6zTJqvl0y5",
+    "_type": "entry",
+    "_entry": "36dmGPyF41SDXxuNKlPiS30mJbO"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

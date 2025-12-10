@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wobbuffet",
-  "number": 202
+  "number": 202,
+  "evolvesFrom": {
+    "_id": "36fMjJwoZ8Y0vP53ZaPHX2bAuVH",
+    "_type": "entry",
+    "_entry": "36dmGQvwnhlLtqXiDJYtnyiF754"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

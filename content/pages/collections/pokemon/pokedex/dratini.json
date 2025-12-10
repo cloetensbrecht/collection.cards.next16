@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dratini",
-  "number": 147
+  "number": 147,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36fKEOLGEckfuxMA31dtG1tZHJe",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXQM1SYayYIby0qQXMDd30a"
+    }
+  ],
+  "blocks": []
 }

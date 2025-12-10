@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Azumarill",
-  "number": 184
+  "number": 184,
+  "evolvesFrom": {
+    "_id": "36fLw83FGSDsFSm2OjmM8ZGiVaV",
+    "_type": "entry",
+    "_entry": "36dmGSodVjLXQrTOEhaa8puH08V"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

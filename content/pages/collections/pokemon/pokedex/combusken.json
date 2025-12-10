@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Combusken",
-  "number": 256
+  "number": 256,
+  "evolvesFrom": {
+    "_id": "36fOvpfjc8JdK1qDQ7gMJXBxG2n",
+    "_type": "entry",
+    "_entry": "36dmGW6G6CEh6u2rfyxpvWkgsxN"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36fOwliPlLdBEdQ0kMjELfrIhES",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTQTLltSUpfOJ49CMg63jfx"
+    }
+  ],
+  "blocks": []
 }
