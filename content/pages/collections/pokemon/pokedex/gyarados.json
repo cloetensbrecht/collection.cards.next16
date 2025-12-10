@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gyarados",
-  "number": 130
+  "number": 130,
+  "evolvesFrom": {
+    "_id": "36e4ka5RLC3Tp1Fm8fTgIO9TtIw",
+    "_type": "entry",
+    "_entry": "36dmGTt1i9pOAJMFSd05ix58bdm"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

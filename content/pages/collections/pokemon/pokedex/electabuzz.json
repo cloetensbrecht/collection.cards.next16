@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Electabuzz",
-  "number": 125
+  "number": 125,
+  "evolvesFrom": {
+    "_id": "36e4UshL74enUg75yEGobefKmXJ",
+    "_type": "entry",
+    "_entry": "36dmGXBlXqRYFqquIdZ1CQ9Z9zh"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36e4XZtBAeGeXrhO9B5Gv8ymlBe",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRRJjpDSxwWv70anW22t0Sn"
+    }
+  ],
+  "blocks": []
 }

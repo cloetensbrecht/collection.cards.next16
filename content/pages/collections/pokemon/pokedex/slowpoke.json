@@ -3,5 +3,21 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Slowpoke",
-  "number": 79
+  "number": 79,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e26I6pTQhaIE80YdAYjs8ybqB",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRvUfEQvM2GZJ2ccemBaJPe"
+    },
+    {
+      "_id": "36e26NAMT3dCOSIicmjhcu9oH0k",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGTaHXkp4kChembZ8TO1pIIq"
+    }
+  ],
+  "blocks": []
 }

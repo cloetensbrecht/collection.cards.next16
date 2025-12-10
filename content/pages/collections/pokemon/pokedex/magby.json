@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Magby",
-  "number": 240
+  "number": 240,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e4buE9epakdtq8LfJpJqsnh5a",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGX2CsKbcXvJqYPEK2lbD2pO"
+    }
+  ],
+  "blocks": []
 }

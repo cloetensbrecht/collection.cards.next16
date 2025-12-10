@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lickitung",
-  "number": 108
+  "number": 108,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e3NALCLirALolDdji4ksiMId6",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTpYe5DLg3JBHNGWkAPzMDf"
+    }
+  ],
+  "blocks": []
 }

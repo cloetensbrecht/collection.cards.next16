@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Magmortar",
-  "number": 467
+  "number": 467,
+  "evolvesFrom": {
+    "_id": "36e4e6fR7AxDhHCYDVYhyl83DGI",
+    "_type": "entry",
+    "_entry": "36dmGX2CsKbcXvJqYPEK2lbD2pO"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

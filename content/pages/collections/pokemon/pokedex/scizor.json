@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Scizor",
-  "number": 212
+  "number": 212,
+  "evolvesFrom": {
+    "_id": "36e4M2kh75IU027AkmnxZ2WuvxX",
+    "_type": "entry",
+    "_entry": "36dmGRjy9ugY1Hxi4TNXMKaLOEy"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

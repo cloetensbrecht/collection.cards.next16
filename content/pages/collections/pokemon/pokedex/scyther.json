@@ -3,5 +3,21 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Scyther",
-  "number": 123
+  "number": 123,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e4LDQpFHwHIn19hu8i94jgPWT",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWfbqIXdS8CE4gLDebWH3rX"
+    },
+    {
+      "_id": "36e4LDmFRaqVb50RyyVJWzcwqaB",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGQMyfJRbHtCRERtLmcIR0Tm"
+    }
+  ],
+  "blocks": []
 }

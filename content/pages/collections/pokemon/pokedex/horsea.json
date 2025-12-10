@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Horsea",
-  "number": 116
+  "number": 116,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e3tz13wIs3LJ1sbf5nbjv4jrh",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVClM8GD6A7ofQcmIbD98Sq"
+    }
+  ],
+  "blocks": []
 }

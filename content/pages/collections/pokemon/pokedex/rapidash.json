@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Rapidash",
-  "number": 78
+  "number": 78,
+  "evolvesFrom": {
+    "_id": "36e224Ib0e4bl1NVs3UwVnIbXwc",
+    "_type": "entry",
+    "_entry": "36dmGQnmFaVAd5sYsYZ3Vp5MbyC"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

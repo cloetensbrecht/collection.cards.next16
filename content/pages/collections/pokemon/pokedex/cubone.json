@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cubone",
-  "number": 104
+  "number": 104,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e35gf65HaHsLk8sn2WmLRfXjD",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSPX5J7LJyJdE5kWU2vrJCk"
+    }
+  ],
+  "blocks": []
 }

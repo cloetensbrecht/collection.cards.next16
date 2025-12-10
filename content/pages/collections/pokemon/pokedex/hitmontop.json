@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hitmontop",
-  "number": 237
+  "number": 237,
+  "evolvesFrom": {
+    "_id": "36e3Gjk9uyvV3ksq3CAugdtUuvb",
+    "_type": "entry",
+    "_entry": "36dmGWLMn9dOQDq1QyMs9LMUqWH"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

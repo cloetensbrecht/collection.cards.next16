@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Krabby",
-  "number": 98
+  "number": 98,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e2vSmN9UzyAeFWiiEMKSBv2AY",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWvhlQ54stCGuZlpZvwWNpk"
+    }
+  ],
+  "blocks": []
 }

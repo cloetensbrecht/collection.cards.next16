@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Exeggcute",
-  "number": 102
+  "number": 102,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e32BpCXCiDqR55GHyqhqiMc5H",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXUwP3l9hfAOpgKFKG8kdmW"
+    }
+  ],
+  "blocks": []
 }

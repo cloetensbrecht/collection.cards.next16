@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hitmonlee",
-  "number": 106
+  "number": 106,
+  "evolvesFrom": {
+    "_id": "36e3AGfsUsv6QwXf7bT6Fg2mu4J",
+    "_type": "entry",
+    "_entry": "36dmGWLMn9dOQDq1QyMs9LMUqWH"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

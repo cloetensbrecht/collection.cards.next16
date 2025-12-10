@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tentacool",
-  "number": 72
+  "number": 72,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e1meuWsjS6CbnvimLrMYgGQo5",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSg0M00psyjUkaKtrm1gHUb"
+    }
+  ],
+  "blocks": []
 }

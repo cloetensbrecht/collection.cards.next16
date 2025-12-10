@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cloyster",
-  "number": 91
+  "number": 91,
+  "evolvesFrom": {
+    "_id": "36e2h8o688iUjd1qhxJbA67GLTh",
+    "_type": "entry",
+    "_entry": "36dmGVX7BgRgYAbemQZFjGn1dBJ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

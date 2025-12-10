@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gengar",
-  "number": 94
+  "number": 94,
+  "evolvesFrom": {
+    "_id": "36e2mPoOtM9x3uqJBZCQpBNKpMe",
+    "_type": "entry",
+    "_entry": "36dmGWJyQsyMmmKH8jMpGkueBIm"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hypno",
-  "number": 97
+  "number": 97,
+  "evolvesFrom": {
+    "_id": "36e2shzQ6TxmcAdWbc4oNGxEV55",
+    "_type": "entry",
+    "_entry": "36dmGTv6NOs1w9DQ3QCjbLpxLW3"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

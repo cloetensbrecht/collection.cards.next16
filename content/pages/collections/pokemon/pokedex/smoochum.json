@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Smoochum",
-  "number": 238
+  "number": 238,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e4RoNgmfBwblr8waqurw4KFoy",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVoAmGat7d8Jy8fnKMIm7tR"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Marowak",
-  "number": 105
+  "number": 105,
+  "evolvesFrom": {
+    "_id": "36e36ncdPj85QydglhPHJHt8jXh",
+    "_type": "entry",
+    "_entry": "36dmGQmDUo07cJLUladptdIK0Gc"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tangela",
-  "number": 114
+  "number": 114,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e3mIStxb96MhfepTOadHKsT95",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGV4eobnxnu2DaKAT1c6NmtD"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dodrio",
-  "number": 85
+  "number": 85,
+  "evolvesFrom": {
+    "_id": "36e2WZ6rlHz0wop3Qr2z2gjjUkr",
+    "_type": "entry",
+    "_entry": "36dmGQYGkWfaZFhNG5BmXDWMcej"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

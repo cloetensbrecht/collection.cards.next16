@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Koffing",
-  "number": 109
+  "number": 109,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e3VRQRGdRz97xfCrPyXbSrFic",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSPviZEE6zoPwDxYbDpds26"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Magneton",
-  "number": 82
+  "number": 82,
+  "evolvesFrom": {
+    "_id": "36e2G8r2SNGnDCufSJjFW0L4CWF",
+    "_type": "entry",
+    "_entry": "36dmGWp5au5r2JJK3qWfJE8aGjJ"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36e2H4Pl4yprlMic8fUiMFFZ9IQ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGW0nUD6Nmibn0tOYzVQ3iQy"
+    }
+  ],
+  "blocks": []
 }

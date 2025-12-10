@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Kingdra",
-  "number": 230
+  "number": 230,
+  "evolvesFrom": {
+    "_id": "36e3xtGEoawjDJziANQzCjTYlz9",
+    "_type": "entry",
+    "_entry": "36dmGVClM8GD6A7ofQcmIbD98Sq"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

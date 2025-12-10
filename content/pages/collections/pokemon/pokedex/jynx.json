@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Jynx",
-  "number": 124
+  "number": 124,
+  "evolvesFrom": {
+    "_id": "36e4QIVwh94YjPxZ8mgpUX55NBH",
+    "_type": "entry",
+    "_entry": "36dmGVzexyG1aiFrt1ENevYm1xu"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

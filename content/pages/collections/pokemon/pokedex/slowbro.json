@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Slowbro",
-  "number": 80
+  "number": 80,
+  "evolvesFrom": {
+    "_id": "36e28kY11WilMpDEx0mrtqABaHW",
+    "_type": "entry",
+    "_entry": "36dmGWkdUMiDpZOoyeoRvz4GJDP"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mime Jr.",
-  "number": 439
+  "number": 439,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e4CQui12x8VX1BFy2bkRRkUht",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQHUNlvTafdYxU5SSTQslSh"
+    }
+  ],
+  "blocks": []
 }

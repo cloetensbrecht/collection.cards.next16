@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sirfetch’d",
-  "number": 865
+  "number": 865,
+  "evolvesFrom": {
+    "_id": "36e2R1MkXZKGMOs1e6n9WOFHfdv",
+    "_type": "entry",
+    "_entry": "36dmGRhg0tCixKpmKdXO59u2nT0"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

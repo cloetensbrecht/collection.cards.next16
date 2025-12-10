@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Magmar",
-  "number": 126
+  "number": 126,
+  "evolvesFrom": {
+    "_id": "36e4at6LwhtchnCSGTYfUnFKFBn",
+    "_type": "entry",
+    "_entry": "36dmGTCD97YeItAGbRf8v2OFMWX"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36e4d96AlnGyUfPO92YBpL5Hvuf",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWOktjXPhNLMwJBhoTNR1iV"
+    }
+  ],
+  "blocks": []
 }

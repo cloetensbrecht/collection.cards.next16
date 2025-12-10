@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dewgong",
-  "number": 87
+  "number": 87,
+  "evolvesFrom": {
+    "_id": "36e2aa3AOVuE4oQwNgdwygK245D",
+    "_type": "entry",
+    "_entry": "36dmGRCsYtmvxdHEPmWi6wmwS1w"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

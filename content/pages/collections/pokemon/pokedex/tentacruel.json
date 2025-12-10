@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tentacruel",
-  "number": 73
+  "number": 73,
+  "evolvesFrom": {
+    "_id": "36e1najuTMzLSx8iQ4PBbjomISy",
+    "_type": "entry",
+    "_entry": "36dmGUvAxibWUTJYZbTZ1bYnYRW"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

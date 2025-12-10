@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Magnemite",
-  "number": 81
+  "number": 81,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e2F7UQQguns597hlYu4Ny8JP0",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGV2D7X6TjspVOoGKpwDwIpH"
+    }
+  ],
+  "blocks": []
 }

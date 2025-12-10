@@ -3,5 +3,27 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tyrogue",
-  "number": 236
+  "number": 236,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e3DnwQDR63bdAlRVlcsxe3OZD",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGW0VJkMTkH7gznCrocb3Jm4"
+    },
+    {
+      "_id": "36e3DkzoEOegDo0NvbjQI5RtgJY",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGVWusKITqkPBPcK2frqO23O"
+    },
+    {
+      "_id": "36e3DlyOXpLWsZOuyWLfavsTd0W",
+      "_index": "a2",
+      "_type": "entry",
+      "_entry": "36dmGQvc2vUYT1457e8VhCCdb8C"
+    }
+  ],
+  "blocks": []
 }

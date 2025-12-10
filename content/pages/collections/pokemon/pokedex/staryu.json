@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Staryu",
-  "number": 120
+  "number": 120,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e46j743tZBkc1bfiHGwb8Hlmp",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUmOMQU5oZEc6JHehDCbBET"
+    }
+  ],
+  "blocks": []
 }

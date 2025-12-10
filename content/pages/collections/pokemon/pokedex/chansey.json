@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Chansey",
-  "number": 113
+  "number": 113,
+  "evolvesFrom": {
+    "_id": "36e3g1BS8MTNpLWJdkt4UHOfL0j",
+    "_type": "entry",
+    "_entry": "36dmGXiQdqbW6626xiM6vZBq6Fa"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36e3ilxMbVpKW8wEvsbcw1OzxPr",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGU6owt6zdyuxD4LbVtMjtMw"
+    }
+  ],
+  "blocks": []
 }

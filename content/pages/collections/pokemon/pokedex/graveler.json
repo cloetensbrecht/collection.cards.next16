@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Graveler",
-  "number": 75
+  "number": 75,
+  "evolvesFrom": {
+    "_id": "36e1wMuepb7Py59Cc1WBGMwU1sx",
+    "_type": "entry",
+    "_entry": "36dmGXHcZhNqr9bPr4HRIf3mIQ4"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36e1xIgGDD3a7WL9TTlvZWFvCBS",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTmWcZb09kOh06jyz2W6vIe"
+    }
+  ],
+  "blocks": []
 }

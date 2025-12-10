@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gastly",
-  "number": 92
+  "number": 92,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e2jBdAUvF7rDUdkkP4gu8dWev",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWJyQsyMmmKH8jMpGkueBIm"
+    }
+  ],
+  "blocks": []
 }

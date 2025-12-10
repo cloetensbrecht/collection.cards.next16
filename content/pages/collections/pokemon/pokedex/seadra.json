@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Seadra",
-  "number": 117
+  "number": 117,
+  "evolvesFrom": {
+    "_id": "36e3uvoqdUtuUAPXaf2z97H1Iov",
+    "_type": "entry",
+    "_entry": "36dmGTo8voe5frWwdrmQQE0GjG7"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36e3x0vYSjANn108CzEGlNCNNpn",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGPxzgt7Q4rXCA9Xt9ZA8Fro"
+    }
+  ],
+  "blocks": []
 }

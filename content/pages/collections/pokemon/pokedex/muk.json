@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Muk",
-  "number": 89
+  "number": 89,
+  "evolvesFrom": {
+    "_id": "36e2e6IxehlHK2eAEUWY7ngroTx",
+    "_type": "entry",
+    "_entry": "36dmGX288BfYHutIF5LnBay0nCM"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

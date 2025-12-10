@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Haunter",
-  "number": 93
+  "number": 93,
+  "evolvesFrom": {
+    "_id": "36e2kDq4GbS47CJ8iXD4kGx5IRL",
+    "_type": "entry",
+    "_entry": "36dmGRGATne4iongN02YAPZlK1J"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36e2lPRvbAVzm4VBB0UAHG6iFEL",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWFatxKSEStaMSyue8X3Wk9"
+    }
+  ],
+  "blocks": []
 }

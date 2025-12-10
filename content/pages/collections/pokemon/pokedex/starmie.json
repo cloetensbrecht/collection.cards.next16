@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Starmie",
-  "number": 121
+  "number": 121,
+  "evolvesFrom": {
+    "_id": "36e47qyviar7gTdpNfBIhJkbbU5",
+    "_type": "entry",
+    "_entry": "36dmGWyQi5sWZeES6UwcemkK6Pg"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

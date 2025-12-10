@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ponyta",
-  "number": 77
+  "number": 77,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e21EO2q8nbHBAM7xph4x0mySK",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTeHg3ctrwck5jw2Eedr9uj"
+    }
+  ],
+  "blocks": []
 }

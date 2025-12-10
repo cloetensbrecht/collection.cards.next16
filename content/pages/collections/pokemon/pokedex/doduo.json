@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Doduo",
-  "number": 84
+  "number": 84,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e2VVvl6nLFfhf52ydzwXABSoH",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVFTNYjH3mQo99Xv8XXXB2V"
+    }
+  ],
+  "blocks": []
 }

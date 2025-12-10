@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Magnezone",
-  "number": 462
+  "number": 462,
+  "evolvesFrom": {
+    "_id": "36e2IIsiIRmuSpgTUmxWtGGHDbA",
+    "_type": "entry",
+    "_entry": "36dmGV2D7X6TjspVOoGKpwDwIpH"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

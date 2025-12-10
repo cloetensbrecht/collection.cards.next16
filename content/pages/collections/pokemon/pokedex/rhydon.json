@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Rhydon",
-  "number": 112
+  "number": 112,
+  "evolvesFrom": {
+    "_id": "36e3aRkuzZFueF3pcbEaWIk3agw",
+    "_type": "entry",
+    "_entry": "36dmGQPfitYFt1jrbPOSxIz8Xpl"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36e3cW990VpWWhZ5WsV45MjNg4X",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSjKHFn0VVXUlQKTZ9QtUni"
+    }
+  ],
+  "blocks": []
 }

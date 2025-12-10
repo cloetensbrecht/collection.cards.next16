@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Blissey",
-  "number": 242
+  "number": 242,
+  "evolvesFrom": {
+    "_id": "36e3jYXfSL24IxYvVq1cFF8VyyT",
+    "_type": "entry",
+    "_entry": "36dmGQjOU4dD9IkNLnKlfPp06Od"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

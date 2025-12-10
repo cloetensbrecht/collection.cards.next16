@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tangrowth",
-  "number": 465
+  "number": 465,
+  "evolvesFrom": {
+    "_id": "36e3nInwY3LJOt4luHeAi2uKGqm",
+    "_type": "entry",
+    "_entry": "36dmGVTbxbaEbanjOBz3nymMUXC"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

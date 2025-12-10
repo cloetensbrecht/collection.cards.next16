@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Magikarp",
-  "number": 129
+  "number": 129,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e4jdpwZxiXUuRd3Ad7TlPZYC0",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQJC5DSUskfgFIQbmUiNVld"
+    }
+  ],
+  "blocks": []
 }

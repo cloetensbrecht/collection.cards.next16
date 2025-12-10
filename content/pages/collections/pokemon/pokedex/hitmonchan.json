@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hitmonchan",
-  "number": 107
+  "number": 107,
+  "evolvesFrom": {
+    "_id": "36e3FeIX91kfEMrqjyByMX8U5nl",
+    "_type": "entry",
+    "_entry": "36dmGWLMn9dOQDq1QyMs9LMUqWH"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

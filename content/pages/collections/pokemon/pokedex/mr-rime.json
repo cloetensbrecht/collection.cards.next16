@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mr. Rime",
-  "number": 866
+  "number": 866,
+  "evolvesFrom": {
+    "_id": "36e4GPgqxTDLSE3xQ1JkBlVW2qH",
+    "_type": "entry",
+    "_entry": "36dmGQHUNlvTafdYxU5SSTQslSh"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

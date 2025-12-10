@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Weezing",
-  "number": 110
+  "number": 110,
+  "evolvesFrom": {
+    "_id": "36e3WgIw3uWJVYllYUA8W8Jh97G",
+    "_type": "entry",
+    "_entry": "36dmGQ08ntynb7WTGJIUuCZnVUU"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

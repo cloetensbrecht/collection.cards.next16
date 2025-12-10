@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Rhyperior",
-  "number": 464
+  "number": 464,
+  "evolvesFrom": {
+    "_id": "36e3deAzgZCK8EjI82GkUb7s3Ku",
+    "_type": "entry",
+    "_entry": "36dmGQfsN2lP5A7r05oBaaBB3ta"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

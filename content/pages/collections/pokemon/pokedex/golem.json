@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Golem",
-  "number": 76
+  "number": 76,
+  "evolvesFrom": {
+    "_id": "36e1y9nFeZ8u4qeRZ4V0YiKhnnO",
+    "_type": "entry",
+    "_entry": "36dmGS72W1q1Lzb3iCuYi9KBMyl"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

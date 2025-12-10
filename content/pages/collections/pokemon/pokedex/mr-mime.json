@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mr. Mime",
-  "number": 122
+  "number": 122,
+  "evolvesFrom": {
+    "_id": "36e4BB5mUwEnKWMkJN2sV2GK7zJ",
+    "_type": "entry",
+    "_entry": "36dmGX7oojK8vjFka7GBX81XNTg"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36e4FK5GrgDwEIcXEa6ccl9yqmf",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSfYy4uDDJSnVVaQdW6t0zZ"
+    }
+  ],
+  "blocks": []
 }

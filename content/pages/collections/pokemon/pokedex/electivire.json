@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Electivire",
-  "number": 466
+  "number": 466,
+  "evolvesFrom": {
+    "_id": "36e4Yn2rDFDC6Aid6Uw9hnohWZS",
+    "_type": "entry",
+    "_entry": "36dmGR3wIpXYSYV2WJf5ZSkhApC"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

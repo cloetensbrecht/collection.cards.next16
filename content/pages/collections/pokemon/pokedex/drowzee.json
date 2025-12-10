@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Drowzee",
-  "number": 96
+  "number": 96,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e2rmUo9KOrkZRLDYMlVXwIdBC",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUdQU9FSnJPWPSh6v0hdevG"
+    }
+  ],
+  "blocks": []
 }

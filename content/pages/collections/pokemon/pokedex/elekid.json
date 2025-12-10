@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Elekid",
-  "number": 239
+  "number": 239,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e4VwVTv01Xg2PWskcafFb1bGc",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGR3wIpXYSYV2WJf5ZSkhApC"
+    }
+  ],
+  "blocks": []
 }

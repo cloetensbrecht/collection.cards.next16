@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Kleavor",
-  "number": 900
+  "number": 900,
+  "evolvesFrom": {
+    "_id": "36e4MxPAvw2hm4vItbzLkLt9DHv",
+    "_type": "entry",
+    "_entry": "36dmGRjy9ugY1Hxi4TNXMKaLOEy"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

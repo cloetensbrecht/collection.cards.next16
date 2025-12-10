@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Geodude",
-  "number": 74
+  "number": 74,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36e1vF5JpmHVDFNDmLBjoTRLgPw",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGS72W1q1Lzb3iCuYi9KBMyl"
+    }
+  ],
+  "blocks": []
 }

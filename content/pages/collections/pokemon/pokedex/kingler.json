@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Kingler",
-  "number": 99
+  "number": 99,
+  "evolvesFrom": {
+    "_id": "36e2wNMyf6ANFjELtFCNpJHXQHL",
+    "_type": "entry",
+    "_entry": "36dmGRgIbPHSS53da7NHt7wCjCg"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }
