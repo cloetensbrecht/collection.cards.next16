@@ -1,13 +1,18 @@
 import {Pokemon} from '@/alinea/schemas/Pokemon'
 import {cms} from '@/cms'
 import {Query} from 'alinea'
+import Link from 'next/link'
 
 export default async function PokedexPage() {
   const pokemon = await cms.find({
     type: Pokemon,
     select: {
+      number: Pokemon.number,
       title: Query.title,
-      number: Pokemon.number
+      url: Query.url
+    },
+    orderBy: {
+      asc: Pokemon.number
     }
   })
   return (
@@ -23,7 +28,9 @@ export default async function PokedexPage() {
           {pokemon.map(p => (
             <tr key={p.number}>
               <td>#{p.number}</td>
-              <td>{p.title}</td>
+              <td>
+                <Link href={p.url}>{p.title}</Link>
+              </td>
             </tr>
           ))}
         </tbody>

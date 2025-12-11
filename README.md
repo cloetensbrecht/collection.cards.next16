@@ -52,6 +52,11 @@ export function Icon(props: SVGProps<SVGSVGElement>) {
 }
 ```
 
+**Credits:**
+
+- Pokémon Pokedex icons:  
+  A mix of svg-icons, coming from [repositorio.sbrauble.com](https://repositorio.sbrauble.com/arquivos/up/pokedex/*.svg), [Google Drive of dreamworld.svg](https://drive.google.com/drive/folders/1DD84zq6yiQI90CtPU60F-mlI-qiFJI3U) and [Veekum - Dream World Art](https://veekun.com/dex/downloads)
+
 ### Alinea
 
 Within **Alinea**, icons are sourced exclusively from the **Google Material Icons** collection on [**icones.js.org**](https://icones.js.org/collection/ic?variant=Outline).  
