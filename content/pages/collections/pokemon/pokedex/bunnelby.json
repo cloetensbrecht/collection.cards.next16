@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Bunnelby",
-  "number": 659
+  "number": 659,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iJuD2kzmNn81VZvg4Ud4mNndh",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQcQP6XzvqlijvIazXlhIqO"
+    }
+  ],
+  "blocks": []
 }

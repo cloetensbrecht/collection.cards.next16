@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Jellicent",
-  "number": 593
+  "number": 593,
+  "evolvesFrom": {
+    "_id": "36iI7AWkFPwUGdK1EEC7J9y9P8O",
+    "_type": "entry",
+    "_entry": "36dmGTQsznbRYR1Ouepeg3MA7sQ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

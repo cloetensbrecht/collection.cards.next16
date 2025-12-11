@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Klang",
-  "number": 600
+  "number": 600,
+  "evolvesFrom": {
+    "_id": "36iIIkzBZNFTW44D6jprgdyLfVZ",
+    "_type": "entry",
+    "_entry": "36dmGPzbeU7xOAsfYaxYVcr0Abo"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iIKLLRsfloQmjJY62kDsZHqog",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUw1gG0KnsMw0dSWNdECcer"
+    }
+  ],
+  "blocks": []
 }

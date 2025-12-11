@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Reuniclus",
-  "number": 579
+  "number": 579,
+  "evolvesFrom": {
+    "_id": "36iHgbeAHvLJar0BOvz4DB7LE43",
+    "_type": "entry",
+    "_entry": "36dmGXZcYiBrL7AiU48xX7p74Ge"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

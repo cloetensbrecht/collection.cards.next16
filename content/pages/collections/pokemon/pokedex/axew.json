@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Axew",
-  "number": 610
+  "number": 610,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iIes5Y7smNbos4HgocUshn1VB",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVxSQdT5sOsww1bbJyKPACj"
+    }
+  ],
+  "blocks": []
 }

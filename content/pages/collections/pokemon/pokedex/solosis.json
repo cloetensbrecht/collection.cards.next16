@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Solosis",
-  "number": 577
+  "number": 577,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iHe08H7IU6x2cTThXuIXPxZPl",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXZcYiBrL7AiU48xX7p74Ge"
+    }
+  ],
+  "blocks": []
 }

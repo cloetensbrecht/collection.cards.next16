@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gothorita",
-  "number": 575
+  "number": 575,
+  "evolvesFrom": {
+    "_id": "36iHZR1iUMDfZv1HYA4P4wezcpN",
+    "_type": "entry",
+    "_entry": "36dmGVqQVq76BhDFDlmFq3BydZ1"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iHaNCdWPynhFm40yH8Nt0uBDp",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGV7H2MeUBE2AITmkHec6aEE"
+    }
+  ],
+  "blocks": []
 }

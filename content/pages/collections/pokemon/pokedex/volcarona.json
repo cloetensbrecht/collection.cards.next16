@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Volcarona",
-  "number": 637
+  "number": 637,
+  "evolvesFrom": {
+    "_id": "36iJNOgHqAUMd2wnLnql3Q092c4",
+    "_type": "entry",
+    "_entry": "36dmGQFPdtoPmLC87ampgQ5kFGP"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

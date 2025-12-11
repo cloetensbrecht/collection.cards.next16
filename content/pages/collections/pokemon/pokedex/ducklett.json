@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ducklett",
-  "number": 580
+  "number": 580,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iHjJBJWiHCtUZRhVyXvq1sD4G",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWRYPhYvWgNqYqOPVaFeM0v"
+    }
+  ],
+  "blocks": []
 }

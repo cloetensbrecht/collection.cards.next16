@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Swanna",
-  "number": 581
+  "number": 581,
+  "evolvesFrom": {
+    "_id": "36iHkDhRoy3atGMganwl50v7mOx",
+    "_type": "entry",
+    "_entry": "36dmGX8SDYEG8qpk1kJh25h6MV8"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

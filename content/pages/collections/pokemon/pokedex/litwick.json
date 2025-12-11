@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Litwick",
-  "number": 607
+  "number": 607,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iIYK2euEnFJPcMAIVi2iTozdc",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUU379znZQ7cEhsbr5Gu6uN"
+    }
+  ],
+  "blocks": []
 }

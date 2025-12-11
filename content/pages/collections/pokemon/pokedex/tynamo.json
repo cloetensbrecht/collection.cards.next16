@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tynamo",
-  "number": 602
+  "number": 602,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iIOjjTsdbjJw0aSvVon22x5Zg",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQ3s5v8LKYxIXW4Q86RNM24"
+    }
+  ],
+  "blocks": []
 }

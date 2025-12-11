@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Shelmet",
-  "number": 616
+  "number": 616,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iIouQeXUPPcu2X8NUNCxfIWkA",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVE4rniGPgrOBUjnsZbp0x5"
+    }
+  ],
+  "blocks": []
 }

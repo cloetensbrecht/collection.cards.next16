@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Chesnaught",
-  "number": 652
+  "number": 652,
+  "evolvesFrom": {
+    "_id": "36iJeI4n0BxVd9v6NXINlDwNYUC",
+    "_type": "entry",
+    "_entry": "36dmGSl6q3WkLcTgMY53uGy4EeG"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

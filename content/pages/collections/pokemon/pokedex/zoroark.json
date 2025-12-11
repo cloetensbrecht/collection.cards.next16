@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Zoroark",
-  "number": 571
+  "number": 571,
+  "evolvesFrom": {
+    "_id": "36iHR6UxmxV3sIZRVRytgB2WU8y",
+    "_type": "entry",
+    "_entry": "36dmGVSa68uILI9Xt2QrsYxTKyR"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

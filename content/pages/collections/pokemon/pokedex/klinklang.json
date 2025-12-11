@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Klinklang",
-  "number": 601
+  "number": 601,
+  "evolvesFrom": {
+    "_id": "36iILJxTqkALSnHM38wiyS5eGfS",
+    "_type": "entry",
+    "_entry": "36dmGXdfxgkdD1CCRCm8plpBPvJ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

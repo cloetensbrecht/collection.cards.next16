@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Duosion",
-  "number": 578
+  "number": 578,
+  "evolvesFrom": {
+    "_id": "36iHet2INYTVfPSIDbkbqowSMbA",
+    "_type": "entry",
+    "_entry": "36dmGW8viBHArCMnqoftDt9G7NS"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iHfhyUiHOgNtZv0EBdDdGWpFf",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUgwjBQbokZhF8lPqtKHgwC"
+    }
+  ],
+  "blocks": []
 }

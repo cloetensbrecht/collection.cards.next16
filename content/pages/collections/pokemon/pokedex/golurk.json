@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Golurk",
-  "number": 623
+  "number": 623,
+  "evolvesFrom": {
+    "_id": "36iIyXmV73aRMFUu1oPxOX0Sfcl",
+    "_type": "entry",
+    "_entry": "36dmGSEwZLxsRMRGtFPMZsLSbGw"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

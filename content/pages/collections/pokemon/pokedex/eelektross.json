@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Eelektross",
-  "number": 604
+  "number": 604,
+  "evolvesFrom": {
+    "_id": "36iIRQmjRaBOourAMt9xKpkmDri",
+    "_type": "entry",
+    "_entry": "36dmGQ3s5v8LKYxIXW4Q86RNM24"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

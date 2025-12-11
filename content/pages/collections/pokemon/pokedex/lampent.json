@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lampent",
-  "number": 608
+  "number": 608,
+  "evolvesFrom": {
+    "_id": "36iIZFw8cwz2Nakvx7OILgFUdtg",
+    "_type": "entry",
+    "_entry": "36dmGWQVHNRPDz11UJZNcg8lqnt"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iIa7TLfFuogJuUeDpcWM0NsJi",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUTNby63Vi5yKyfntsp3SmT"
+    }
+  ],
+  "blocks": []
 }

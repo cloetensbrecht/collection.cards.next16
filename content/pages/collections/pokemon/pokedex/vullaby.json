@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Vullaby",
-  "number": 629
+  "number": 629,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iJBGWAlhsRX59sgce1n5ANLCj",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTzF3o6F92h36uCYmt5HUBh"
+    }
+  ],
+  "blocks": []
 }

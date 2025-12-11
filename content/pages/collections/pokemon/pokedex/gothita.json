@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gothita",
-  "number": 574
+  "number": 574,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iHYa3u6teMJt8w4XWDP3eUlLd",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRfs7C0bEG9hySyuxfmH7ty"
+    }
+  ],
+  "blocks": []
 }

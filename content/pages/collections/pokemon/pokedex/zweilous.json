@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Zweilous",
-  "number": 634
+  "number": 634,
+  "evolvesFrom": {
+    "_id": "36iJH8HjZhRHgWfVNWC7MsbKvW7",
+    "_type": "entry",
+    "_entry": "36dmGQU2A7YO1AI0qFpWXXZCRLF"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iJHwt1UhVdFMgx0KeKz9eodli",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGS0bGIPnSFzC9Py6T6yqfdt"
+    }
+  ],
+  "blocks": []
 }

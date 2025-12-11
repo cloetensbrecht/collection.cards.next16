@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Amoonguss",
-  "number": 591
+  "number": 591,
+  "evolvesFrom": {
+    "_id": "36iI3IbmIP3Uv1VkEdPamHwbSG9",
+    "_type": "entry",
+    "_entry": "36dmGWellYIf21ds8htaq33s6El"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

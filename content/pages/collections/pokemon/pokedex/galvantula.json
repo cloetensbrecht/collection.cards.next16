@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Galvantula",
-  "number": 596
+  "number": 596,
+  "evolvesFrom": {
+    "_id": "36iIBXSKEYKoopDYYbmS4lmh1br",
+    "_type": "entry",
+    "_entry": "36dmGXMcHzVPmNo1ogaWTLGaGkx"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

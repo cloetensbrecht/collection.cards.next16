@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mandibuzz",
-  "number": 630
+  "number": 630,
+  "evolvesFrom": {
+    "_id": "36iJBw7aQKwe45w8PINQT0A1qiV",
+    "_type": "entry",
+    "_entry": "36dmGWWzunGEJurgOWMREOL2KPq"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

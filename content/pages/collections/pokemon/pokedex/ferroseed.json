@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ferroseed",
-  "number": 597
+  "number": 597,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iIDzvk4SbrUhDvWhszUuFFG8u",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRxKAquu2ucg0ZaUBK4jcxp"
+    }
+  ],
+  "blocks": []
 }

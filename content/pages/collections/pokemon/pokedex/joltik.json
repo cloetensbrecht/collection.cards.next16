@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Joltik",
-  "number": 595
+  "number": 595,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iIAlGU0F2hqyRSnYoQu9a8T2t",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSV7mLEwaVx44i5ID3XQpww"
+    }
+  ],
+  "blocks": []
 }

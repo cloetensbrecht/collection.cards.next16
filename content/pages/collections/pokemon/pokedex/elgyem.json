@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Elgyem",
-  "number": 605
+  "number": 605,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iIVEZcCQdAP11xr8M4UzqpVcm",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRVLxL6626OMEirswW8fozP"
+    }
+  ],
+  "blocks": []
 }

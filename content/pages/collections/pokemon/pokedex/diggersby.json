@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Diggersby",
-  "number": 660
+  "number": 660,
+  "evolvesFrom": {
+    "_id": "36iJvAmI8KA6rVWS7leL2TImUtn",
+    "_type": "entry",
+    "_entry": "36dmGTqQ6OVs84Uun2s9Rxdb5cu"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

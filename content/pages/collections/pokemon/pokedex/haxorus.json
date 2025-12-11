@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Haxorus",
-  "number": 612
+  "number": 612,
+  "evolvesFrom": {
+    "_id": "36iIi1mteGY76A9ngxh3VkDDQjq",
+    "_type": "entry",
+    "_entry": "36dmGVxSQdT5sOsww1bbJyKPACj"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

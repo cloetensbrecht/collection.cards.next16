@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hydreigon",
-  "number": 635
+  "number": 635,
+  "evolvesFrom": {
+    "_id": "36iJIuFzaOrERcUPIVS1Szym4Ee",
+    "_type": "entry",
+    "_entry": "36dmGSsCQ1KE5n8bqZW86xsPtyQ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

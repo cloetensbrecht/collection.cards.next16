@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Delphox",
-  "number": 655
+  "number": 655,
+  "evolvesFrom": {
+    "_id": "36iJkozw4AEAWtGaXTjXm5i31NK",
+    "_type": "entry",
+    "_entry": "36dmGWvqdSfGREvIiN98V1UEbVy"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

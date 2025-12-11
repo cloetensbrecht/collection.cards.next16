@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mienfoo",
-  "number": 619
+  "number": 619,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iItKeDal3qKmCGUID2fvKpqkT",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTXx4IahqxhtjxzlGrLALZW"
+    }
+  ],
+  "blocks": []
 }

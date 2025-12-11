@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Golett",
-  "number": 622
+  "number": 622,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iIxcV3gzdO6KYtQgicQdy2VYK",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGU61refsv045OOnto9xmt5g"
+    }
+  ],
+  "blocks": []
 }

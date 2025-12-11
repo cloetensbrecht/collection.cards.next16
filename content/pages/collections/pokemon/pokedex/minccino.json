@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Minccino",
-  "number": 572
+  "number": 572,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iHTw7rKxSEeSjAft87YhfXrMZ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVqT19vfQgBWp8S7osuwavr"
+    }
+  ],
+  "blocks": []
 }

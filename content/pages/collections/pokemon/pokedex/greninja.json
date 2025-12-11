@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Greninja",
-  "number": 658
+  "number": 658,
+  "evolvesFrom": {
+    "_id": "36iJqVm6jh37f14Oaubrc1bwRVp",
+    "_type": "entry",
+    "_entry": "36dmGXAWy7OJmMZZrc89wgeef4j"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

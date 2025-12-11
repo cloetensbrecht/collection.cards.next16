@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Fraxure",
-  "number": 611
+  "number": 611,
+  "evolvesFrom": {
+    "_id": "36iIfjbDF5MgJFw8VH38vP0agO0",
+    "_type": "entry",
+    "_entry": "36dmGXRhIRYYJHHsGYJ0ZBlRlxO"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iIglnePhV2EtoNcTBCWbmYcwo",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTdVejk9A864GfMgXbgv7G6"
+    }
+  ],
+  "blocks": []
 }

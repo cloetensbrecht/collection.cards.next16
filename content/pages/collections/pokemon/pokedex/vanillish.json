@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Vanillish",
-  "number": 583
+  "number": 583,
+  "evolvesFrom": {
+    "_id": "36iHo8XJ9Ae5f1yYzAET0Eli7Qq",
+    "_type": "entry",
+    "_entry": "36dmGU63Fxy45K5uQpct0LAKDQM"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iHotl3Ew9MxABr3pg19noW3oJ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUUfx7zM7d4FiqgtuTtJoPI"
+    }
+  ],
+  "blocks": []
 }

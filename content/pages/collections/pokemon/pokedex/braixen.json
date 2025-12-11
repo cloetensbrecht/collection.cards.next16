@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Braixen",
-  "number": 654
+  "number": 654,
+  "evolvesFrom": {
+    "_id": "36iJj3XU0c98wRsuGfqsl4gc4Rn",
+    "_type": "entry",
+    "_entry": "36dmGT1lje0jtjkx8RBpnYWi6gW"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iJk4mowHyNHUnYfsOniELmZVK",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGR85rHqCSFGmlfZqQwJV8pq"
+    }
+  ],
+  "blocks": []
 }

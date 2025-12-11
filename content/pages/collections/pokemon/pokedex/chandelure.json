@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Chandelure",
-  "number": 609
+  "number": 609,
+  "evolvesFrom": {
+    "_id": "36iIbnN2ufelkI7l1WJDywW7LSf",
+    "_type": "entry",
+    "_entry": "36dmGUU379znZQ7cEhsbr5Gu6uN"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sawsbuck",
-  "number": 586
+  "number": 586,
+  "evolvesFrom": {
+    "_id": "36iHuAAKhRW9wI0SCPfkbOy1oeL",
+    "_type": "entry",
+    "_entry": "36dmGQnJ7n8dxNZ0MN1QOfOHkQj"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

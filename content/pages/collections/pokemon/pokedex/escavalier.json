@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Escavalier",
-  "number": 589
+  "number": 589,
+  "evolvesFrom": {
+    "_id": "36iHzQT7TO2XhB5zM6jSV2zzegA",
+    "_type": "entry",
+    "_entry": "36dmGQ4NuQy7s9NpcDs4uZygQ4w"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

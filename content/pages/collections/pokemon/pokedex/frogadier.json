@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Frogadier",
-  "number": 657
+  "number": 657,
+  "evolvesFrom": {
+    "_id": "36iJotBKotsSlEmqNe3orqHt4sU",
+    "_type": "entry",
+    "_entry": "36dmGQhUpAJFtrXoQyM99j2PyY2"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iJpqum5dCVQeNr305Mhpb3HK5",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSXnbkO5jyPq1ICzwA3aHex"
+    }
+  ],
+  "blocks": []
 }

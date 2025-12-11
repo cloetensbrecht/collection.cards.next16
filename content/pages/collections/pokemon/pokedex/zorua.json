@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Zorua",
-  "number": 570
+  "number": 570,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iHQHkCr3Q0o0rYIGonCt09gmy",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWMQ9l5WZ9cBdTKAh2yPgI9"
+    }
+  ],
+  "blocks": []
 }

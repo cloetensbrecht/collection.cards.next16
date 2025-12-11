@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Deerling",
-  "number": 585
+  "number": 585,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iHtKeTrvpFeWkHdIexXeujKJy",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGROCBXXwYQwRhrVN89HJoP3"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Vanilluxe",
-  "number": 584
+  "number": 584,
+  "evolvesFrom": {
+    "_id": "36iHpmdZIZgnJRmBKNLtT8KDbZm",
+    "_type": "entry",
+    "_entry": "36dmGTR5eiwlVh0fWR0lbCX6OHu"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

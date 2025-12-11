@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Braviary",
-  "number": 628
+  "number": 628,
+  "evolvesFrom": {
+    "_id": "36iJ8XByQAnMGdmnr35DLGzDtJm",
+    "_type": "entry",
+    "_entry": "36dmGTDlaRV0bjA7pUrtqtIQP4v"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

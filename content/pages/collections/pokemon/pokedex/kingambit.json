@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Kingambit",
-  "number": 983
+  "number": 983,
+  "evolvesFrom": {
+    "_id": "36iJ3saglOA807uSmLHDonzTdoI",
+    "_type": "entry",
+    "_entry": "36dmGUFfdsx3KoGZcWvUw4v7hAJ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

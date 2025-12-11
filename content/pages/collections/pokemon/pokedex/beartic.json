@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Beartic",
-  "number": 614
+  "number": 614,
+  "evolvesFrom": {
+    "_id": "36iIlWP97Xuoy78NnAFpKIJISfB",
+    "_type": "entry",
+    "_entry": "36dmGSJwlUsXt1rYgNeXAwEPtGp"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

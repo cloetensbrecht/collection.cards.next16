@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Deino",
-  "number": 633
+  "number": 633,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iJGCryeDZMkqs4D08ROhdQAvr",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSsCQ1KE5n8bqZW86xsPtyQ"
+    }
+  ],
+  "blocks": []
 }

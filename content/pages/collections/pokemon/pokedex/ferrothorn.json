@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ferrothorn",
-  "number": 598
+  "number": 598,
+  "evolvesFrom": {
+    "_id": "36iIErvRXcQpYoUVfaM32BLDooG",
+    "_type": "entry",
+    "_entry": "36dmGSzcJNkMYotPqKJ2SB14fat"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

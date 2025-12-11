@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Foongus",
-  "number": 590
+  "number": 590,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iI23MvG0MwP23w5FgNVGtCHQy",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUjdjBHThfJyYNuVipkEBkT"
+    }
+  ],
+  "blocks": []
 }

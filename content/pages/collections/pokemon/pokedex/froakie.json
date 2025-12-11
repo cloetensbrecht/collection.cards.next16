@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Froakie",
-  "number": 656
+  "number": 656,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iJnmzIoK8l3jl1q0d1TFQnIgh",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXAWy7OJmMZZrc89wgeef4j"
+    }
+  ],
+  "blocks": []
 }

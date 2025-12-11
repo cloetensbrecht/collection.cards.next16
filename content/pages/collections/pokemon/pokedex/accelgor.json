@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Accelgor",
-  "number": 617
+  "number": 617,
+  "evolvesFrom": {
+    "_id": "36iIpuPqMFQz3iugoQjD5tevt2M",
+    "_type": "entry",
+    "_entry": "36dmGUoQH9KNtnHpSKfHMVtlYVN"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Chespin",
-  "number": 650
+  "number": 650,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iJbSfHNsELq2sGWqE1Wbyrk8b",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSl6q3WkLcTgMY53uGy4EeG"
+    }
+  ],
+  "blocks": []
 }
