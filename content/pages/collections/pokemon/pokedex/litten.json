@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Litten",
-  "number": 725
+  "number": 725,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iLs4124LrbvQJqR3TzVlbk8R8",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRMMogKfiY3TBAPe8REVOxg"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cutiefly",
-  "number": 742
+  "number": 742,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iMKkpz0sN5Erb2QCnQvv76hJw",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVomDFF4eZAhYzWlTmAly8h"
+    }
+  ],
+  "blocks": []
 }

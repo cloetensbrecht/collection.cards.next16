@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Incineroar",
-  "number": 727
+  "number": 727,
+  "evolvesFrom": {
+    "_id": "36iLubGD0ldznmwaynfi36sKTTd",
+    "_type": "entry",
+    "_entry": "36dmGRMMogKfiY3TBAPe8REVOxg"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

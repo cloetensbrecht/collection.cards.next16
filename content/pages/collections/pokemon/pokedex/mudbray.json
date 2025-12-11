@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mudbray",
-  "number": 749
+  "number": 749,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iMWPoaOVVc1GZ8Z8OzaLYLfpb",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRsUjBZY8gPKWTTfNlNfP2p"
+    }
+  ],
+  "blocks": []
 }

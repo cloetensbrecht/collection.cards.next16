@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Charjabug",
-  "number": 737
+  "number": 737,
+  "evolvesFrom": {
+    "_id": "36iMCJ412H7pLpxzYdFpW9CNd8P",
+    "_type": "entry",
+    "_entry": "36dmGSfWBISUOB6v8Rz2Q6KYWdQ"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iMD6W0JLdpC735LiYloPWoUbi",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWz67WoLgXfPNT5TyEV4B8H"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mareanie",
-  "number": 747
+  "number": 747,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iMT3aBCmFbmcXXxAXqnfXkGEN",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSsTOJpLtP9nOScgmJj7pea"
+    }
+  ],
+  "blocks": []
 }

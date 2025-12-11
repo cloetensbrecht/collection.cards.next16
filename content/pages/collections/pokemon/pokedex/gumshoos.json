@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gumshoos",
-  "number": 735
+  "number": 735,
+  "evolvesFrom": {
+    "_id": "36iM9LSrYXYs7LqJ70lXuUP7dCX",
+    "_type": "entry",
+    "_entry": "36dmGTNLmNFQP8DzeRAjpudF2TW"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

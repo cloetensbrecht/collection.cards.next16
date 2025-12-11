@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Rowlet",
-  "number": 722
+  "number": 722,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iLlr8IyA9DRqVTSoFuABmOmgI",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRAhY7T6vOyBZtFpSG5nCmx"
+    }
+  ],
+  "blocks": []
 }

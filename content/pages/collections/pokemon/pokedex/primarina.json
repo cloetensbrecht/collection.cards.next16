@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Primarina",
-  "number": 730
+  "number": 730,
+  "evolvesFrom": {
+    "_id": "36iM0Ci6AiAAggzB1Jhp3iu92Vr",
+    "_type": "entry",
+    "_entry": "36dmGSoqcx4yqWCqRaQr4echdre"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

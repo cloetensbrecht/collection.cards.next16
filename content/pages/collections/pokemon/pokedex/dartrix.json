@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dartrix",
-  "number": 723
+  "number": 723,
+  "evolvesFrom": {
+    "_id": "36iLmc8tn5Kiv0H8TaICB0nxqEg",
+    "_type": "entry",
+    "_entry": "36dmGS5uk4AE8BmJ6YhLXduNe4Q"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iLnmyGiHw4wmz6yL7IY0C2Tdg",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVnz9Nu1EK20xxGuToAbuEk"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Rockruff",
-  "number": 744
+  "number": 744,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iMOgzJzYOAEssLiAUy4Hi94Vw",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTBaOatOQjXgRxuu7GcFn03"
+    }
+  ],
+  "blocks": []
 }

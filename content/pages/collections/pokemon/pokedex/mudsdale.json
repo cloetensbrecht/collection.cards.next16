@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Mudsdale",
-  "number": 750
+  "number": 750,
+  "evolvesFrom": {
+    "_id": "36iMX9IpIK4RpQtxvkRxWs4RmrV",
+    "_type": "entry",
+    "_entry": "36dmGXcGV6LndAdtXMObfFd7Ozq"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

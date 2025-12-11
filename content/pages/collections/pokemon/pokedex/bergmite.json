@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Bergmite",
-  "number": 712
+  "number": 712,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iLYk41eSdySaKTSic7Y2cBZI1",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWWKTda16LjXXnBcrXhm2AW"
+    }
+  ],
+  "blocks": []
 }

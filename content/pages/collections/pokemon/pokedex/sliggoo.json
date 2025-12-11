@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sliggoo",
-  "number": 705
+  "number": 705,
+  "evolvesFrom": {
+    "_id": "36iLLKvJHLWCKy2BS587NKknR7V",
+    "_type": "entry",
+    "_entry": "36dmGTOzd0j1syk6O7b1hv137um"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iLM92Ku6VrlOteHoO1W4ak5WT",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRx6tapcXUgkmDOVHFeSIqA"
+    }
+  ],
+  "blocks": []
 }

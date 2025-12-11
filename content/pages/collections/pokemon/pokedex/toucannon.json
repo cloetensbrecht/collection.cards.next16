@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Toucannon",
-  "number": 733
+  "number": 733,
+  "evolvesFrom": {
+    "_id": "36iM5oSsAR7cbvP4eQsJUTptJOk",
+    "_type": "entry",
+    "_entry": "36dmGTmfII2sM7aZkafcAK8OIX1"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

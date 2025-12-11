@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Crabominable",
-  "number": 740
+  "number": 740,
+  "evolvesFrom": {
+    "_id": "36iMHG39Vu72VekxZCnK0JEH2O9",
+    "_type": "entry",
+    "_entry": "36dmGTnkpG4oxDxRbYkhV0eM3T9"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

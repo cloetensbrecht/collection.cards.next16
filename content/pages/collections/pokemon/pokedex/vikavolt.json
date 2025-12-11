@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Vikavolt",
-  "number": 738
+  "number": 738,
+  "evolvesFrom": {
+    "_id": "36iMDwEb8dRJKJeeObDpC38pj4L",
+    "_type": "entry",
+    "_entry": "36dmGVYIVVtMvQlCWAxnIH2JWGe"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

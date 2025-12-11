@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Noibat",
-  "number": 714
+  "number": 714,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iLcHS9HgnZ2h3gZpr9x9iVhYr",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRkpS7kqMGgD2hmbKmaze4P"
+    }
+  ],
+  "blocks": []
 }

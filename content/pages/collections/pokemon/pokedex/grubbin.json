@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Grubbin",
-  "number": 736
+  "number": 736,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iMBacYGL7p1ZtZ93r0vy38csY",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVYIVVtMvQlCWAxnIH2JWGe"
+    }
+  ],
+  "blocks": []
 }

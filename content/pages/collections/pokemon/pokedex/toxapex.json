@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Toxapex",
-  "number": 748
+  "number": 748,
+  "evolvesFrom": {
+    "_id": "36iMTtrDgrgSwGt0gStdqdZ3z6e",
+    "_type": "entry",
+    "_entry": "36dmGWUA9GbNl7U5MTWmYd19qtk"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

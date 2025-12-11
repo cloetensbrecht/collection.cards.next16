@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Trevenant",
-  "number": 709
+  "number": 709,
+  "evolvesFrom": {
+    "_id": "36iLSbJfKY7Q0GTcskHKPTuf7b0",
+    "_type": "entry",
+    "_entry": "36dmGSOTt4GgUgnvvGwXIvqPiHh"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Decidueye",
-  "number": 724
+  "number": 724,
+  "evolvesFrom": {
+    "_id": "36iLoXy1wWZ1djvYrIRUN6FplRf",
+    "_type": "entry",
+    "_entry": "36dmGRAhY7T6vOyBZtFpSG5nCmx"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

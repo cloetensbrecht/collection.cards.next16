@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Avalugg",
-  "number": 713
+  "number": 713,
+  "evolvesFrom": {
+    "_id": "36iLZaGGKffI0i4iMXRPhyFjfgO",
+    "_type": "entry",
+    "_entry": "36dmGRcs4yeGTItIjqEkDfRkmw6"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

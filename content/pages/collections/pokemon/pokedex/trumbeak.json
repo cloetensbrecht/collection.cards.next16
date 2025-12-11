@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Trumbeak",
-  "number": 732
+  "number": 732,
+  "evolvesFrom": {
+    "_id": "36iM3zEtVId8hKjcsnUnS1kLUxR",
+    "_type": "entry",
+    "_entry": "36dmGQlvkwUEcUAnXlZEcseIiXE"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iM51bHyLy7VgvZUvxQnRvkEvz",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGPzdUp0BifXQkPuXHdDpkyb"
+    }
+  ],
+  "blocks": []
 }

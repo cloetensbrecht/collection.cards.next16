@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Brionne",
-  "number": 729
+  "number": 729,
+  "evolvesFrom": {
+    "_id": "36iLyQenGofXIjfB04OrCsZLEaM",
+    "_type": "entry",
+    "_entry": "36dmGW09RmOplaV4FcCUfRPyu0r"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iLzIPryIxg0QGbAWc1cnk4OVB",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGR3fQcanFCFGsgXDhyJd5GK"
+    }
+  ],
+  "blocks": []
 }

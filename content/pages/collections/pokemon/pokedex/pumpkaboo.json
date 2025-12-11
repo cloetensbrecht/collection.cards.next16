@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pumpkaboo",
-  "number": 710
+  "number": 710,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iLVI9ZQsnzbKqKHumVuqAMmYf",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSb0bxSm5alQaV1J6Y4Z1qm"
+    }
+  ],
+  "blocks": []
 }

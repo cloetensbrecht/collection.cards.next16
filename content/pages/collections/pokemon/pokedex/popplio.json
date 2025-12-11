@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Popplio",
-  "number": 728
+  "number": 728,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iLxgOvEUl5080vFsZCMdNBzvo",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSoqcx4yqWCqRaQr4echdre"
+    }
+  ],
+  "blocks": []
 }

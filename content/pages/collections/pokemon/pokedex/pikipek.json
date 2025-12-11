@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pikipek",
-  "number": 731
+  "number": 731,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iM3HoSmbE69jM1yFuBKkRqIal",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTmfII2sM7aZkafcAK8OIX1"
+    }
+  ],
+  "blocks": []
 }

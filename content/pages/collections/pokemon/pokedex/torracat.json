@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Torracat",
-  "number": 726
+  "number": 726,
+  "evolvesFrom": {
+    "_id": "36iLszRv76rriQAaPhoEMaGFzhW",
+    "_type": "entry",
+    "_entry": "36dmGSwFNS2mEuiRML6znXP5Wbe"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iLtjnkONkQ9aRUe6svol9ZEPJ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQO24EN5OIykBeuKPmZmYxl"
+    }
+  ],
+  "blocks": []
 }

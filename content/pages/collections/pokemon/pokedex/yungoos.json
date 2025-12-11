@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Yungoos",
-  "number": 734
+  "number": 734,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iM8WaegZH9X8ECT9ZbtRHdMm5",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUu8zMhcLxKE2KHtPL4Ljq9"
+    }
+  ],
+  "blocks": []
 }
