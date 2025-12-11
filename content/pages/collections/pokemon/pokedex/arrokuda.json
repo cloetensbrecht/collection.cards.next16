@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Arrokuda",
-  "number": 846
+  "number": 846,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iPhTA6XouQ3w3AdqzKG7oNNtP",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSJIFYJQYfpXEkqz56PgZLT"
+    }
+  ],
+  "blocks": []
 }

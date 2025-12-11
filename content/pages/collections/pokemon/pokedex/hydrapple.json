@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hydrapple",
-  "number": 1019
+  "number": 1019,
+  "evolvesFrom": {
+    "_id": "36iPa2bn6QA5EqlRbhlTLOFOzCH",
+    "_type": "entry",
+    "_entry": "36dmGSekqlJ5Q7CJFIjHeu9rgWx"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

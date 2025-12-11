@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Skwovet",
-  "number": 819
+  "number": 819,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iOm0dwjwGOhDfSGPbVklBnGE8",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGPzF9kWP5sNW9Df0WnhaJ36"
+    }
+  ],
+  "blocks": []
 }

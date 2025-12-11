@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Meltan",
-  "number": 808
+  "number": 808,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iOSOoDL6oYwuwrRYhesPDHS5Y",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQHANCHh8fHBLT5a1d45wVM"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Poipole",
-  "number": 803
+  "number": 803,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iOM4Qto3c3Euq6IF7BLj1kyJ7",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGW0s2tcLQjxkCS4nlIfRFLl"
+    }
+  ],
+  "blocks": []
 }

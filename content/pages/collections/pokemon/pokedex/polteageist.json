@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Polteageist",
-  "number": 855
+  "number": 855,
+  "evolvesFrom": {
+    "_id": "36iPy18XcpO46nGvvNEPkABFa6H",
+    "_type": "entry",
+    "_entry": "36dmGQkFR2B1Dc49byjgJEE0ac1"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Blipbug",
-  "number": 824
+  "number": 824,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iOv6NWJsmq5iIFks9RlaG6HWC",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQgFgYD11MPvrJxhWFO385s"
+    }
+  ],
+  "blocks": []
 }

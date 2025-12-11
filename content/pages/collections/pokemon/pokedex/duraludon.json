@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Duraludon",
-  "number": 884
+  "number": 884,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iQWYM7Ej5YapJ9hvdhcyfFIJd",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGW3ss9cLKtk5hM0Ilc8yeGv"
+    }
+  ],
+  "blocks": []
 }

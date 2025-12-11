@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Eldegoss",
-  "number": 830
+  "number": 830,
+  "evolvesFrom": {
+    "_id": "36iP6C2O0WGYUQlnD1UzzcmzMuF",
+    "_type": "entry",
+    "_entry": "36dmGSkOPyy90L2595cQyqQ7x11"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

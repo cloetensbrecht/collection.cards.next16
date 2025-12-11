@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sobble",
-  "number": 816
+  "number": 816,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iOgLH5Zk8iB7FCmPQvSdNNr7a",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUMMw0oXrnoqTEKO1daiyNa"
+    }
+  ],
+  "blocks": []
 }

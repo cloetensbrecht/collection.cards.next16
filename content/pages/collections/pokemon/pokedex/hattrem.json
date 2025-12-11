@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hattrem",
-  "number": 857
+  "number": 857,
+  "evolvesFrom": {
+    "_id": "36iQ1bWSk570rdjRpyV6qIyg4Aw",
+    "_type": "entry",
+    "_entry": "36dmGWdbZCQhnoxCI3KXM9Pycgz"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iQ2tUZqhcvH9QT1wcqJpKx6XB",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQPSvLUGbafmP3kAiL81ide"
+    }
+  ],
+  "blocks": []
 }

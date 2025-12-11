@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Thwackey",
-  "number": 811
+  "number": 811,
+  "evolvesFrom": {
+    "_id": "36iOWbpevyJlUPVcIp0uY55WRCx",
+    "_type": "entry",
+    "_entry": "36dmGTiZcuktszJXzMMZ4Hg2C8f"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iOXXTl1qiJNwPoEtCZQgTA2mP",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRxkVgMwkBe76UabZ3lBUCf"
+    }
+  ],
+  "blocks": []
 }

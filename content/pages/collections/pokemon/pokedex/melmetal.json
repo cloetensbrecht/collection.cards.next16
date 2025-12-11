@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Melmetal",
-  "number": 809
+  "number": 809,
+  "evolvesFrom": {
+    "_id": "36iOTK7tjSJvULmxl0PiVfsfjAB",
+    "_type": "entry",
+    "_entry": "36dmGVY5U4CkRzdfgU5KAdpay8R"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Scorbunny",
-  "number": 813
+  "number": 813,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iOb33s7HSNoQZMuUBXXTshB7y",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXGE9QI4cZT77fsmzwRrtTI"
+    }
+  ],
+  "blocks": []
 }

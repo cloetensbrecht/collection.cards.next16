@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hatenna",
-  "number": 856
+  "number": 856,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iQ0fxYhMVzXCKRJboLAuGZIL6",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRN0JzLlVFRyUgVCDH5lC2p"
+    }
+  ],
+  "blocks": []
 }

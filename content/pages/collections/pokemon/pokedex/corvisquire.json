@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Corvisquire",
-  "number": 822
+  "number": 822,
+  "evolvesFrom": {
+    "_id": "36iOpvNuMDObC7qopqsJJffkTJK",
+    "_type": "entry",
+    "_entry": "36dmGV7YsVwK1PjoOhpK2zKbayN"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iOqnuf4zZsZ5iFWzwHIHpaNON",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRD0A7fkGeKPMobygMfmqWz"
+    }
+  ],
+  "blocks": []
 }

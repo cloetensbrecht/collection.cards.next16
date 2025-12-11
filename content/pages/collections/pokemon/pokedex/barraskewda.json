@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Barraskewda",
-  "number": 847
+  "number": 847,
+  "evolvesFrom": {
+    "_id": "36iPiT4kBXEIgD2FYxcIx7Thalv",
+    "_type": "entry",
+    "_entry": "36dmGVf4Ni6h8HYeVtY7ELOl54f"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Orbeetle",
-  "number": 826
+  "number": 826,
+  "evolvesFrom": {
+    "_id": "36iOy27SovudWrfps2Oz3pD06VM",
+    "_type": "entry",
+    "_entry": "36dmGQgFgYD11MPvrJxhWFO385s"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Grookey",
-  "number": 810
+  "number": 810,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iOVfmFbI6nS5lSAIhG9eWaQy0",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGPyeLl9u0qQoijTICj9HYAN"
+    }
+  ],
+  "blocks": []
 }

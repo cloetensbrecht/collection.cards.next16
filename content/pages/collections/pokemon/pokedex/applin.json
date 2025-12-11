@@ -3,5 +3,27 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Applin",
-  "number": 840
+  "number": 840,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iPX4YDoOB3MPABPxyUWFbOoHm",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRudyt3VgMLrLrFbPmgVqWd"
+    },
+    {
+      "_id": "36iPX2BAP0ETx5lbZGciND7EClB",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGQysKqv85QKDhWD5zjtPDLY"
+    },
+    {
+      "_id": "36iPX6tW1ZAYljuEb5jEufdFMW7",
+      "_index": "a2",
+      "_type": "entry",
+      "_entry": "36dmGSekqlJ5Q7CJFIjHeu9rgWx"
+    }
+  ],
+  "blocks": []
 }

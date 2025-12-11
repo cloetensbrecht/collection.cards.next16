@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Rookidee",
-  "number": 821
+  "number": 821,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iOpAycVH3hI0wpoEoCaJ4cKrH",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRF6TjRRazVlbiWimpP4mFd"
+    }
+  ],
+  "blocks": []
 }

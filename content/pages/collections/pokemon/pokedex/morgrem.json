@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Morgrem",
-  "number": 860
+  "number": 860,
+  "evolvesFrom": {
+    "_id": "36iQ82SIQoUI70AlMXoazJWseKw",
+    "_type": "entry",
+    "_entry": "36dmGUL0jNVfONukypDWIlj8eRe"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iQ91dfkJolfW7Qm5cW2DaJevC",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGX7kR7DI0BeyGcesXxVETGD"
+    }
+  ],
+  "blocks": []
 }

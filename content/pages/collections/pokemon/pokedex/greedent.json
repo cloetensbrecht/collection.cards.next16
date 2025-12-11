@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Greedent",
-  "number": 820
+  "number": 820,
+  "evolvesFrom": {
+    "_id": "36iOmqqNmklQpgkAnNsgMIZTwL9",
+    "_type": "entry",
+    "_entry": "36dmGRfv9AC9BcGoAieZx8JyBEM"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

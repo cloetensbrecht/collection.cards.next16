@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Milcery",
-  "number": 868
+  "number": 868,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iQDpZ2wbykM6BJRJoMpWlRDjG",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVtAdAQxhGI1VUJfdMrXJk5"
+    }
+  ],
+  "blocks": []
 }

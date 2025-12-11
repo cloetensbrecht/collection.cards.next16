@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cinderace",
-  "number": 815
+  "number": 815,
+  "evolvesFrom": {
+    "_id": "36iOdUmowaW4KnoxoA2ktiXeyQk",
+    "_type": "entry",
+    "_entry": "36dmGXGE9QI4cZT77fsmzwRrtTI"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

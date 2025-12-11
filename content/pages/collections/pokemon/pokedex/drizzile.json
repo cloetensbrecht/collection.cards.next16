@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Drizzile",
-  "number": 817
+  "number": 817,
+  "evolvesFrom": {
+    "_id": "36iOhNjIBjRZC7NtHV8cwkbr3Ne",
+    "_type": "entry",
+    "_entry": "36dmGVzqV2yhuhG3CdLV9vbQRUw"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iOi9HY2ZK9KqEDmW2NkxwW1Sa",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGV4yGsyCFZFGmVpu6coW2aB"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dottler",
-  "number": 825
+  "number": 825,
+  "evolvesFrom": {
+    "_id": "36iOw88mhZ77renQmIYaCpT5Zla",
+    "_type": "entry",
+    "_entry": "36dmGWCnBFdO7xmP2ffWSv24oUX"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iOx12G8Kb9eVhUpHppXrtr1I4",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVoq358LzHzXG8niyvUbzVx"
+    }
+  ],
+  "blocks": []
 }

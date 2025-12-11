@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Rillaboom",
-  "number": 812
+  "number": 812,
+  "evolvesFrom": {
+    "_id": "36iOYD0FY3EH1L6EB5VGTsFF80P",
+    "_type": "entry",
+    "_entry": "36dmGPyeLl9u0qQoijTICj9HYAN"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

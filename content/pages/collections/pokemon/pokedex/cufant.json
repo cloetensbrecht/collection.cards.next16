@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cufant",
-  "number": 878
+  "number": 878,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iQPAP7giOmxsCPUd5kUVaUylQ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQExHFJc3iIO2IdNFfzfPOE"
+    }
+  ],
+  "blocks": []
 }

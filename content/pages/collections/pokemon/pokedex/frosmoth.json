@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Frosmoth",
-  "number": 873
+  "number": 873,
+  "evolvesFrom": {
+    "_id": "36iQJPLm3NWRVlDdroE0AmN0ZoX",
+    "_type": "entry",
+    "_entry": "36dmGUjclKEh8XrqDR5iOpjbXru"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

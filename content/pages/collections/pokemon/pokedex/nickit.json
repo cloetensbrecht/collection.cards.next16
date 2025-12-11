@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Nickit",
-  "number": 827
+  "number": 827,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iP1BkrSjt697p6Cf1bfNYGPIh",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTTt8gtYS3P1C3itXKunD75"
+    }
+  ],
+  "blocks": []
 }

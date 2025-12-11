@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sizzlipede",
-  "number": 850
+  "number": 850,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iPqxKc6nWK3w6Wa0qDLpqQAM1",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVNs3JCQvBL738yr3j1hr70"
+    }
+  ],
+  "blocks": []
 }

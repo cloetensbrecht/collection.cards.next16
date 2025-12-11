@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Thievul",
-  "number": 828
+  "number": 828,
+  "evolvesFrom": {
+    "_id": "36iP2dcS9Qml2whaJ5W2OTlH5Cu",
+    "_type": "entry",
+    "_entry": "36dmGRCm54jKnoeSOY8hswEJZXJ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

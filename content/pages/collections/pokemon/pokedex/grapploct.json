@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Grapploct",
-  "number": 853
+  "number": 853,
+  "evolvesFrom": {
+    "_id": "36iPvDsOTQV0y9rFc4xx5D335ZY",
+    "_type": "entry",
+    "_entry": "36dmGXQaWjLQlmlByV0lswqwkky"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

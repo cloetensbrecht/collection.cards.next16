@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Corviknight",
-  "number": 823
+  "number": 823,
+  "evolvesFrom": {
+    "_id": "36iOrj5zBUWafBh3b7uRAY3fQmg",
+    "_type": "entry",
+    "_entry": "36dmGRF6TjRRazVlbiWimpP4mFd"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Coalossal",
-  "number": 839
+  "number": 839,
+  "evolvesFrom": {
+    "_id": "36iPMi4WwwdFgnPKWZ04kZwqGed",
+    "_type": "entry",
+    "_entry": "36dmGXUt3fBfnwFGPG4bH6tCiDr"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

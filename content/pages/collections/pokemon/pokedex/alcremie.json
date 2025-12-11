@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Alcremie",
-  "number": 869
+  "number": 869,
+  "evolvesFrom": {
+    "_id": "36iQEYbC8HKv0kllxZOhWL4wSoA",
+    "_type": "entry",
+    "_entry": "36dmGXNur1p2F6ZiO98WNkKqVII"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

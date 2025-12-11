@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Copperajah",
-  "number": 879
+  "number": 879,
+  "evolvesFrom": {
+    "_id": "36iQQ5kmln5NjV21PTxcRu2ytQl",
+    "_type": "entry",
+    "_entry": "36dmGU0Fj8ihDjHQugZWAo4AcdV"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

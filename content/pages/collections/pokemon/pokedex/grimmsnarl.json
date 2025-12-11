@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Grimmsnarl",
-  "number": 861
+  "number": 861,
+  "evolvesFrom": {
+    "_id": "36iQ9tkhlSvr1ZdXnndIk8WOnAn",
+    "_type": "entry",
+    "_entry": "36dmGTiYy4TfEoLkPBuK9RpbZEY"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

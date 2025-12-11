@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Toxel",
-  "number": 848
+  "number": 848,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iPlcOOOMoMaSVWI5fRQqUdbci",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUkq81RsGq1R0sxhdn5rMwK"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Drakloak",
-  "number": 886
+  "number": 886,
+  "evolvesFrom": {
+    "_id": "36iQaVslPNk3bMezljVXBsomax0",
+    "_type": "entry",
+    "_entry": "36dmGXUsHweZVSW0esvZae14tt9"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iQbFbbM8dOL4on3T9V44w0m41",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRJ7FURFNKIrJCt405npwSI"
+    }
+  ],
+  "blocks": []
 }

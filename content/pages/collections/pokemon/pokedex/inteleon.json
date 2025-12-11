@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Inteleon",
-  "number": 818
+  "number": 818,
+  "evolvesFrom": {
+    "_id": "36iOjLezXaYjE2F9Jsr6uTHaiKp",
+    "_type": "entry",
+    "_entry": "36dmGUMMw0oXrnoqTEKO1daiyNa"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

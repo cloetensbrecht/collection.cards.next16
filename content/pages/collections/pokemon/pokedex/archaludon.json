@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Archaludon",
-  "number": 1018
+  "number": 1018,
+  "evolvesFrom": {
+    "_id": "36iQXJVUoiBu4FJmP89ow3gnWUL",
+    "_type": "entry",
+    "_entry": "36dmGRqwxV9MdpTxd8GNZjMd42D"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

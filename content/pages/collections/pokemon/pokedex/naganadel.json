@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Naganadel",
-  "number": 804
+  "number": 804,
+  "evolvesFrom": {
+    "_id": "36iOMkb2mijHa8Dul24SFOMwqdj",
+    "_type": "entry",
+    "_entry": "36dmGQcMiG5c5YJ1bKWv04a7saC"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

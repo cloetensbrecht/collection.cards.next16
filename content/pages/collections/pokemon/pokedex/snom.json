@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Snom",
-  "number": 872
+  "number": 872,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iQIc7zJTLaV8GGt7Zc3V15no7",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVW99ofoZasSsFEcFz57d8s"
+    }
+  ],
+  "blocks": []
 }

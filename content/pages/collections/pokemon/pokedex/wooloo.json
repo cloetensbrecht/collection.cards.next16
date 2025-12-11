@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wooloo",
-  "number": 831
+  "number": 831,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iP9yWh744DJFvfk13mm5gF1Rj",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQjo75JcEJtDK8kBBzd04pl"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Toxtricity",
-  "number": 849
+  "number": 849,
+  "evolvesFrom": {
+    "_id": "36iPmQv2Rk0znKLYfGIs3D5ZChP",
+    "_type": "entry",
+    "_entry": "36dmGXXfFUSrt5ceM7K1LvuKmOj"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

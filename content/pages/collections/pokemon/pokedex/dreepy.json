@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dreepy",
-  "number": 885
+  "number": 885,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iQZilWGs9VoQTXgfJ7bwFzs3e",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQnBAFlJX2bdnNEHJQKrkVr"
+    }
+  ],
+  "blocks": []
 }

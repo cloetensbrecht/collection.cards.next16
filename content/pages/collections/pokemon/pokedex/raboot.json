@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Raboot",
-  "number": 814
+  "number": 814,
+  "evolvesFrom": {
+    "_id": "36iObqm7D4nyDhCXqiDSTbRdc3w",
+    "_type": "entry",
+    "_entry": "36dmGTIdlBrQueRX5F7WbuheAwY"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iOch7Qz0h9zLf9vk5n92rFFnS",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQynisoiRYOWwRL12S6XW7D"
+    }
+  ],
+  "blocks": []
 }

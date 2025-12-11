@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Carkol",
-  "number": 838
+  "number": 838,
+  "evolvesFrom": {
+    "_id": "36iPKx0YgSKgBiurC4Jm91oAW6E",
+    "_type": "entry",
+    "_entry": "36dmGS73FwnUgbgnNLb1uycuWjQ"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iPLu5fW6Rtw94DS2Lk290oge4",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRbyDsakaq2fMQpAxjzrOdM"
+    }
+  ],
+  "blocks": []
 }

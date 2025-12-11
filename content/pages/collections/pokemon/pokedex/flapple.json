@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Flapple",
-  "number": 841
+  "number": 841,
+  "evolvesFrom": {
+    "_id": "36iPTJX1M1iF0nhmwHEoUQERUAg",
+    "_type": "entry",
+    "_entry": "36dmGVHK6OMe1eSr39ro0SP155Y"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

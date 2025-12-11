@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hatterene",
-  "number": 858
+  "number": 858,
+  "evolvesFrom": {
+    "_id": "36iQ3eKIbVxUdYTLwlH2tupKFIH",
+    "_type": "entry",
+    "_entry": "36dmGRN0JzLlVFRyUgVCDH5lC2p"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

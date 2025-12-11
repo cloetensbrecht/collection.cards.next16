@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Centiskorch",
-  "number": 851
+  "number": 851,
+  "evolvesFrom": {
+    "_id": "36iPrrIvPo1Szz4dLhQ8gFBpbh6",
+    "_type": "entry",
+    "_entry": "36dmGRWGkBwPn2UuaHI2LpBjHxM"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

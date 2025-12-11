@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sinistea",
-  "number": 854
+  "number": 854,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iPxGFnlCUg1Ahzyd0A2yODp9i",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRmFDytiuKIEozdW2uDLugy"
+    }
+  ],
+  "blocks": []
 }

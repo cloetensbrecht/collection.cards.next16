@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Urshifu",
-  "number": 892
+  "number": 892,
+  "evolvesFrom": {
+    "_id": "36iQj5stJpJCITgXTnzSz1Prg3v",
+    "_type": "entry",
+    "_entry": "36dmGTABfrlgWmaEfCAFPo6qDub"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }
