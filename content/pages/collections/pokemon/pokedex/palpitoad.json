@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Palpitoad",
-  "number": 536
+  "number": 536,
+  "evolvesFrom": {
+    "_id": "36iG5XHf89ZkyQhjVCebT68bMIh",
+    "_type": "entry",
+    "_entry": "36dmGXYlAxJY1uwbkJcdL3lxN5s"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iG6db6YSmSrr7ViT2oZ7lPOpI",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTo333eB06wqFknNAzACa7N"
+    }
+  ],
+  "blocks": []
 }

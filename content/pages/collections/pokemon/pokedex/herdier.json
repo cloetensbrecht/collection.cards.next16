@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Herdier",
-  "number": 507
+  "number": 507,
+  "evolvesFrom": {
+    "_id": "36iFCAnpkoQYFhxaZekWGIO5S0z",
+    "_type": "entry",
+    "_entry": "36dmGTC5FxHyEO0QggJsMjjMQ8Y"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iFD3QVPmSxdGMQ3kdVumel9Ok",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRmc14rELHiWtlGSoE6wW0l"
+    }
+  ],
+  "blocks": []
 }

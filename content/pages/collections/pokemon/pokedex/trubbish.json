@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Trubbish",
-  "number": 568
+  "number": 568,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iHCL6zVKpUQg4HGu3cwmoNmPQ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSeV8i5DBTVuoeuwsPgBQJO"
+    }
+  ],
+  "blocks": []
 }

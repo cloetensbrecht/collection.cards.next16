@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Stoutland",
-  "number": 508
+  "number": 508,
+  "evolvesFrom": {
+    "_id": "36iFDvsdmnb6SCRsmzzNzh8kpVu",
+    "_type": "entry",
+    "_entry": "36dmGSmhOEoYnqcc7JbEs8GMSpq"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Swadloon",
-  "number": 541
+  "number": 541,
+  "evolvesFrom": {
+    "_id": "36iGE8Jn2WiCd0NYx208vWUsDmB",
+    "_type": "entry",
+    "_entry": "36dmGXahwe3u2QxURNDbqMgCG1u"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iGEpBIE0ZSYW6Dq86UjQQN4XO",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSI2kW9brevSV2P8rb7m32O"
+    }
+  ],
+  "blocks": []
 }

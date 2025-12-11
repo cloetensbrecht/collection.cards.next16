@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Scrafty",
-  "number": 560
+  "number": 560,
+  "evolvesFrom": {
+    "_id": "36iGsluhR3NuyTSbPXXC53UiN97",
+    "_type": "entry",
+    "_entry": "36dmGX9HC2SXN7Pc0yTwfEagqet"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

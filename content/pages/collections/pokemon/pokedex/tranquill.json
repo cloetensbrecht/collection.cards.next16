@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tranquill",
-  "number": 520
+  "number": 520,
+  "evolvesFrom": {
+    "_id": "36iFaMMeQMxJGKoGuuyA4k8Jx4a",
+    "_type": "entry",
+    "_entry": "36dmGTDOLtiGQ4bAPpJym7lLlEV"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iFbiz5tcdxz1Zs34uzNAXI7yK",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUEpyIa6X0ZWtvPv7yXYEK9"
+    }
+  ],
+  "blocks": []
 }

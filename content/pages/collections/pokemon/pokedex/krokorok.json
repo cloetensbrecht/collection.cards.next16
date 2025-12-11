@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Krokorok",
-  "number": 552
+  "number": 552,
+  "evolvesFrom": {
+    "_id": "36iGee3aIFX6hyHrBGhCyg0llYo",
+    "_type": "entry",
+    "_entry": "36dmGXiBnJoqDLSpTT0nbTFLgZf"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iGfahsgvaFzC0xI6u823Ax235",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSglZJx8GGfHqKngOrpm3D2"
+    }
+  ],
+  "blocks": []
 }

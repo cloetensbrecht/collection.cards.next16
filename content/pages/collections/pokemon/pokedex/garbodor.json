@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Garbodor",
-  "number": 569
+  "number": 569,
+  "evolvesFrom": {
+    "_id": "36iHDWhak4t1hEjrkr44TVetnri",
+    "_type": "entry",
+    "_entry": "36dmGQqFq1BrvyUGLRSceIJBvs2"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Liepard",
-  "number": 510
+  "number": 510,
+  "evolvesFrom": {
+    "_id": "36iFIQFkY8RruoE3tZwHNH6jvkI",
+    "_type": "entry",
+    "_entry": "36dmGWVZezJYEwwoJqoY7wgPN0u"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

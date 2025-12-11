@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Darmanitan",
-  "number": 555
+  "number": 555,
+  "evolvesFrom": {
+    "_id": "36iGkuCwWRI479jEsdyGekG6Nxa",
+    "_type": "entry",
+    "_entry": "36dmGRbLkVtD0VkDJIJO7RVRURS"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

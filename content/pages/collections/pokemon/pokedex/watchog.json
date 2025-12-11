@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Watchog",
-  "number": 505
+  "number": 505,
+  "evolvesFrom": {
+    "_id": "36iF8O78FvGRtkdCRSQZMGdpz67",
+    "_type": "entry",
+    "_entry": "36dmGUH95vxwc7iPZZKxooBf62z"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

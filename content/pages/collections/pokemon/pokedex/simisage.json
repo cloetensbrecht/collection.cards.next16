@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Simisage",
-  "number": 512
+  "number": 512,
+  "evolvesFrom": {
+    "_id": "36iFMcmhKpJb61NklHnKBpcj7Pr",
+    "_type": "entry",
+    "_entry": "36dmGX9pIvubIDMyylX6wVP64ur"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

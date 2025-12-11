@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Leavanny",
-  "number": 542
+  "number": 542,
+  "evolvesFrom": {
+    "_id": "36iGFrdM3CXUZyRbS2no0WRSoyI",
+    "_type": "entry",
+    "_entry": "36dmGQQ4PzVylKwkbwxKjHA1wbt"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

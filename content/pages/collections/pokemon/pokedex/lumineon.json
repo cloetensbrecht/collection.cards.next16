@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lumineon",
-  "number": 457
+  "number": 457,
+  "evolvesFrom": {
+    "_id": "36iEKwXRiT6yHWEpbuOeRl7Wi4A",
+    "_type": "entry",
+    "_entry": "36dmGRqBZsHWY2Api8gX8epjVsR"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

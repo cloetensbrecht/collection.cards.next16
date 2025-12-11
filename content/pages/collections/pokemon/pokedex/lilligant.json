@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lilligant",
-  "number": 549
+  "number": 549,
+  "evolvesFrom": {
+    "_id": "36iGXF5sFTr94HSUnFtadNVouOl",
+    "_type": "entry",
+    "_entry": "36dmGRgQw8eOqn0g4zg98NcmkZ2"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

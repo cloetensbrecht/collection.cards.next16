@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Skorupi",
-  "number": 451
+  "number": 451,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iEB2NSa7CN4NEDXOusRw5bGWU",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTpdvVpWuTszt3iJqzrv6ah"
+    }
+  ],
+  "blocks": []
 }

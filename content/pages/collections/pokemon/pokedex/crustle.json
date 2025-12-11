@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Crustle",
-  "number": 558
+  "number": 558,
+  "evolvesFrom": {
+    "_id": "36iGpcX0qQja8rmMCFoMBaagHZG",
+    "_type": "entry",
+    "_entry": "36dmGVPQrJjWFXM2Y9chtzZ7V5q"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

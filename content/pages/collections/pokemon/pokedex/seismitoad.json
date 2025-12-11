@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Seismitoad",
-  "number": 537
+  "number": 537,
+  "evolvesFrom": {
+    "_id": "36iG7uoIeNHZOCnuf8ty7EqHfgs",
+    "_type": "entry",
+    "_entry": "36dmGQC1h5FAK83r5WQjYgkYO16"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

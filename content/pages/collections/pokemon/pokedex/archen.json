@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Archen",
-  "number": 566
+  "number": 566,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iH9IyY3wqm1Q306BKS2FYyOLq",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTX52zkhraftgOmxG6o48L5"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Croagunk",
-  "number": 453
+  "number": 453,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iEF0TUgb8EDLSoIiupFFL7iPb",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGV0V6ePLYbui4AJi9LsLtPq"
+    }
+  ],
+  "blocks": []
 }

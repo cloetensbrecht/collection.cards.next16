@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Timburr",
-  "number": 532
+  "number": 532,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iFyMo4Hv2YKz4lcGhJ26BZFx7",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUwVlnFRXgQTQy6MWx3i1J5"
+    }
+  ],
+  "blocks": []
 }

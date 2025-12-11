@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Excadrill",
-  "number": 530
+  "number": 530,
+  "evolvesFrom": {
+    "_id": "36iFuv6pjoZWJACcz1SaB0ma65v",
+    "_type": "entry",
+    "_entry": "36dmGRz6BOpHZ2wZLm9sUoBRbEj"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

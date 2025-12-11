@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Scolipede",
-  "number": 545
+  "number": 545,
+  "evolvesFrom": {
+    "_id": "36iGOS6sZWqWu4IWF5xcZnfGTdD",
+    "_type": "entry",
+    "_entry": "36dmGRyYSzMWupEZxfBIEGAqf8n"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

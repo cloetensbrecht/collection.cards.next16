@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gurdurr",
-  "number": 533
+  "number": 533,
+  "evolvesFrom": {
+    "_id": "36iFzNlM1HtyeaXQFC5fO2jDlNB",
+    "_type": "entry",
+    "_entry": "36dmGQUfSuXCMxtPA2GEBU7PgEA"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iG0SiXXEj27Yo8Y7g6IVqf1FN",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGW6vqpTcD7shHl29ebVdOZs"
+    }
+  ],
+  "blocks": []
 }

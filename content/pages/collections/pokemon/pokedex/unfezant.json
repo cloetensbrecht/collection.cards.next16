@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Unfezant",
-  "number": 521
+  "number": 521,
+  "evolvesFrom": {
+    "_id": "36iFcUbjjCc8SioyZUGHsdbH8oN",
+    "_type": "entry",
+    "_entry": "36dmGVoCS7wLI0uoLsMpcwrgbiq"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

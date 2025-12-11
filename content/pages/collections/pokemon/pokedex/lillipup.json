@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lillipup",
-  "number": 506
+  "number": 506,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iFB8Ti9kKw00jFOdUcOAMMS2a",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSmhOEoYnqcc7JbEs8GMSpq"
+    }
+  ],
+  "blocks": []
 }

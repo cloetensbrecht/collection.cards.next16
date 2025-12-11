@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Carracosta",
-  "number": 565
+  "number": 565,
+  "evolvesFrom": {
+    "_id": "36iH7KfunlYGf35Kbib19d1meUC",
+    "_type": "entry",
+    "_entry": "36dmGWAzIWFlvT9zJZMsWiSny3J"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

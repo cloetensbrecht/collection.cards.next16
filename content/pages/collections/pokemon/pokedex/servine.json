@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Servine",
-  "number": 496
+  "number": 496,
+  "evolvesFrom": {
+    "_id": "36iEoJ30TyKqbeRP9Ew3rOTCmwb",
+    "_type": "entry",
+    "_entry": "36dmGUdh2E5CnayLpgAWfVQC2Ld"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iEpP4VcTiethcybNsSMi5TaaQ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRNGoMItBSYiK9LqSNR8Aqs"
+    }
+  ],
+  "blocks": []
 }

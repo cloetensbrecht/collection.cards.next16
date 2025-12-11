@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tympole",
-  "number": 535
+  "number": 535,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iG4YjRvCkNmqU945deYKiDZf5",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQC1h5FAK83r5WQjYgkYO16"
+    }
+  ],
+  "blocks": []
 }

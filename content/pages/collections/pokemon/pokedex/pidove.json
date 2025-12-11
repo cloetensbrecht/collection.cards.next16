@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pidove",
-  "number": 519
+  "number": 519,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iFZheXmdrP6dmUn0M7G0ZyoJR",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVoCS7wLI0uoLsMpcwrgbiq"
+    }
+  ],
+  "blocks": []
 }

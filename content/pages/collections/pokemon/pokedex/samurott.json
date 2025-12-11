@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Samurott",
-  "number": 503
+  "number": 503,
+  "evolvesFrom": {
+    "_id": "36iF4GU6UepRDsj7wl4YxnJE9Hp",
+    "_type": "entry",
+    "_entry": "36dmGS6dzllLItSLGAlCjoeQzlf"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

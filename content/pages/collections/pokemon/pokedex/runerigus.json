@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Runerigus",
-  "number": 867
+  "number": 867,
+  "evolvesFrom": {
+    "_id": "36iGzXF5rd3I22HZXnUcuBmXBbf",
+    "_type": "entry",
+    "_entry": "36dmGTwdayxHrjKIDfQ685q3MLF"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

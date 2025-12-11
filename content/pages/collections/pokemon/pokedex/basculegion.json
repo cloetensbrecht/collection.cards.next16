@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Basculegion",
-  "number": 902
+  "number": 902,
+  "evolvesFrom": {
+    "_id": "36iGb5uUyTsIOiwpSMu5DvD0fu3",
+    "_type": "entry",
+    "_entry": "36dmGVTF95lCVxGej9ig09jx9bK"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

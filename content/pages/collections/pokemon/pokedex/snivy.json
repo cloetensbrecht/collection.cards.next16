@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Snivy",
-  "number": 495
+  "number": 495,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iEn8ezXk2DDUZIYFUIBb8sSnS",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSPlwAvCJUdG3g80TK7AWFn"
+    }
+  ],
+  "blocks": []
 }

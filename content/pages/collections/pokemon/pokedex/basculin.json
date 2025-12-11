@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Basculin",
-  "number": 550
+  "number": 550,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iGaD8ZKY9VXnoMxl5HUkd23EV",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVRD2X8FVg6fewDbZADOpv9"
+    }
+  ],
+  "blocks": []
 }

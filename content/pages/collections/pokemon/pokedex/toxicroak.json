@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Toxicroak",
-  "number": 454
+  "number": 454,
+  "evolvesFrom": {
+    "_id": "36iEG9Th7tNgivNmLS9mTUQPUhE",
+    "_type": "entry",
+    "_entry": "36dmGUNacaoRK61n0fWOKKOWp5M"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

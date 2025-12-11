@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Conkeldurr",
-  "number": 534
+  "number": 534,
+  "evolvesFrom": {
+    "_id": "36iG190hgp2k8z7Yyw6PiTKe8dn",
+    "_type": "entry",
+    "_entry": "36dmGUwVlnFRXgQTQy6MWx3i1J5"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

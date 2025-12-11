@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Drapion",
-  "number": 452
+  "number": 452,
+  "evolvesFrom": {
+    "_id": "36iECAbE8VI5kJEhFeplCaleTc4",
+    "_type": "entry",
+    "_entry": "36dmGR6iAjE0OUzDWbwRkON1jUK"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

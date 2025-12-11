@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Boldore",
-  "number": 525
+  "number": 525,
+  "evolvesFrom": {
+    "_id": "36iFlKa73W3FPThufUSXINMBLgI",
+    "_type": "entry",
+    "_entry": "36dmGUTpZqKOLyqfWbUoBRWXyUe"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iFmOWGYBhgtS8umgWBxchUipX",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVRUK5Gh8eBFjBGRDtKwgYU"
+    }
+  ],
+  "blocks": []
 }

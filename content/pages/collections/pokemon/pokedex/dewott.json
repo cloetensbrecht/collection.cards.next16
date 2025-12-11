@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dewott",
-  "number": 502
+  "number": 502,
+  "evolvesFrom": {
+    "_id": "36iF27dq0Lo61qi5h4cCmWuxleG",
+    "_type": "entry",
+    "_entry": "36dmGVUrGtgq8jWiusg8v3xV3ym"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iF3GYJlkvnBlfDUMiii8R0ClP",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRYn1SZw8GxGwwkHe672a7X"
+    }
+  ],
+  "blocks": []
 }

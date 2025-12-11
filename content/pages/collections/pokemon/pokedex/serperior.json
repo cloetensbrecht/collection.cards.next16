@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Serperior",
-  "number": 497
+  "number": 497,
+  "evolvesFrom": {
+    "_id": "36iEqSMCuOLAUVR5DEHcKtdG8GV",
+    "_type": "entry",
+    "_entry": "36dmGSPlwAvCJUdG3g80TK7AWFn"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

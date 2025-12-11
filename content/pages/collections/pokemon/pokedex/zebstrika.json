@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Zebstrika",
-  "number": 523
+  "number": 523,
+  "evolvesFrom": {
+    "_id": "36iFi8jznbdOqgbRREOOULowKEN",
+    "_type": "entry",
+    "_entry": "36dmGWUcnLXc8MfgdwjdMKI6lr2"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

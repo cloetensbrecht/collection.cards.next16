@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Whirlipede",
-  "number": 544
+  "number": 544,
+  "evolvesFrom": {
+    "_id": "36iGM8VtB3bBtbUO830nHmT9tf0",
+    "_type": "entry",
+    "_entry": "36dmGWk4AFiFWauPCGMRozJvMTB"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iGN64m2FbLOfTssb91FUQXesb",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRmNjO5gK2KhpnQ02mR9Twg"
+    }
+  ],
+  "blocks": []
 }

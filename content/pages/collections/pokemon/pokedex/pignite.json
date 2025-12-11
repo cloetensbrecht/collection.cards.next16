@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pignite",
-  "number": 499
+  "number": 499,
+  "evolvesFrom": {
+    "_id": "36iEvshcmGEi3v9q9znWuh9J89K",
+    "_type": "entry",
+    "_entry": "36dmGT4cfeQTPro6prbSl11NLy0"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iEwm0AF4QZ6Lt95XcvpWocksi",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUkKrZqgxcj3EIHwPOJ0VrA"
+    }
+  ],
+  "blocks": []
 }

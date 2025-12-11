@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Whimsicott",
-  "number": 547
+  "number": 547,
+  "evolvesFrom": {
+    "_id": "36iGTBgHDWdERYXq7ygMsK8j8iD",
+    "_type": "entry",
+    "_entry": "36dmGWJhniaC8xKYrbu4fC7h0j6"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

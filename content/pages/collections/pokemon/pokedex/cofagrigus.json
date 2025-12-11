@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cofagrigus",
-  "number": 563
+  "number": 563,
+  "evolvesFrom": {
+    "_id": "36iGyD8Z4M9q54pnQUYdfUk1Z6Z",
+    "_type": "entry",
+    "_entry": "36dmGTwdayxHrjKIDfQ685q3MLF"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

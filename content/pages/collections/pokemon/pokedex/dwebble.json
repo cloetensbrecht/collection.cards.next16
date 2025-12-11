@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dwebble",
-  "number": 557
+  "number": 557,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iGoi7QzeCaDjz31lqXFbZDlMn",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUbm8nmGgoYurjC26wu7PsA"
+    }
+  ],
+  "blocks": []
 }

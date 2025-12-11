@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pansage",
-  "number": 511
+  "number": 511,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iFLadgvWqOghxsKXcw1EJC69X",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSbvX3MIdi1fCOs5eW7zwBA"
+    }
+  ],
+  "blocks": []
 }

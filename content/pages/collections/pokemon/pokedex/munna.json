@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Munna",
-  "number": 517
+  "number": 517,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iFVyBeZPaBu5aP5AwfO5UTuiM",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRNml7J5ICPoRYYEuPCdEA5"
+    }
+  ],
+  "blocks": []
 }

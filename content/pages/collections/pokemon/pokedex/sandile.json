@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sandile",
-  "number": 551
+  "number": 551,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iGdhHm5kAw7XjUmcv3Hbonj1J",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGR0N4j7Y66ZiAU8HMPvofmH"
+    }
+  ],
+  "blocks": []
 }

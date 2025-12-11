@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Emboar",
-  "number": 500
+  "number": 500,
+  "evolvesFrom": {
+    "_id": "36iExq9J7pxk3ksdNYa3yvRLsd9",
+    "_type": "entry",
+    "_entry": "36dmGRkOYYIguuvDZ6Syi0ghGby"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

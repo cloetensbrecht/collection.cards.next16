@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Krookodile",
-  "number": 553
+  "number": 553,
+  "evolvesFrom": {
+    "_id": "36iGgZvBBOXIyYvyscIcPrGENhx",
+    "_type": "entry",
+    "_entry": "36dmGR0N4j7Y66ZiAU8HMPvofmH"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

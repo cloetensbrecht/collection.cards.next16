@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Snover",
-  "number": 459
+  "number": 459,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iEQK5pQdtko3iYSIQvsqq7Ynp",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTCs2Oah4tzMl9xEO43Ga5k"
+    }
+  ],
+  "blocks": []
 }

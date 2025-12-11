@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Musharna",
-  "number": 518
+  "number": 518,
+  "evolvesFrom": {
+    "_id": "36iFWsbwD8gSyYvQUrIEQMY9hy8",
+    "_type": "entry",
+    "_entry": "36dmGRZLRDr687yIPVwnVGaUeig"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

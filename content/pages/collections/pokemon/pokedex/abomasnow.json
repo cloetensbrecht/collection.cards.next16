@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Abomasnow",
-  "number": 460
+  "number": 460,
+  "evolvesFrom": {
+    "_id": "36iER8rpbiiacFVoadURP1YVUe5",
+    "_type": "entry",
+    "_entry": "36dmGV2ehFVGdIzOqrBImlIGQ0F"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }
