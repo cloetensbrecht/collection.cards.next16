@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Morelull",
-  "number": 755
+  "number": 755,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iN0vf5tdm6bpoSsjiMUoQo0Tj",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVvhpFDWcNmxUpuMz1R6DBd"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Araquanid",
-  "number": 752
+  "number": 752,
+  "evolvesFrom": {
+    "_id": "36iMdgMjnLSe6sonGir31BaVC24",
+    "_type": "entry",
+    "_entry": "36dmGRfcD62Vl8OmF1Pk3ktJWlA"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

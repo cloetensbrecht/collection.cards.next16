@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wimpod",
-  "number": 767
+  "number": 767,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iNLX2GYZ954VrUZMPmOYqbbf6",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRXVUcgmXVoxbcROsCPWi6k"
+    }
+  ],
+  "blocks": []
 }

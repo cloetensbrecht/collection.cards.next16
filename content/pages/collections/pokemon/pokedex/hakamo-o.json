@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Hakamo-o",
-  "number": 783
+  "number": 783,
+  "evolvesFrom": {
+    "_id": "36iNnFrHVyAHHfGdlVTZvU4IQ3Q",
+    "_type": "entry",
+    "_entry": "36dmGSTMrTNLQpca1808OONMtiF"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iNoHMTSe0hfzbShIEe9J8OyB1",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTx49fTm8rTRe44UDCGnSCL"
+    }
+  ],
+  "blocks": []
 }

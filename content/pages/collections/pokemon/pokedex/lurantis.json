@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lurantis",
-  "number": 754
+  "number": 754,
+  "evolvesFrom": {
+    "_id": "36iMyVyNHR4I3hY1VDucWe5uwCr",
+    "_type": "entry",
+    "_entry": "36dmGVLvWtpLvhwikkbrdDFe9ZL"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Steenee",
-  "number": 762
+  "number": 762,
+  "evolvesFrom": {
+    "_id": "36iNDMDsJGqPjQplTxJGM0JUwfO",
+    "_type": "entry",
+    "_entry": "36dmGQzsbKYDPy8Wy3MYSSgsH1j"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iNEEogtrYcbKfnbM2g7lrhGVf",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGT7MOXjUaocuXAx2BgjbLw7"
+    }
+  ],
+  "blocks": []
 }

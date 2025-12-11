@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Silvally",
-  "number": 773
+  "number": 773,
+  "evolvesFrom": {
+    "_id": "36iNa0uNcgTk4xG2G7ewyJ7hGOJ",
+    "_type": "entry",
+    "_entry": "36dmGSdjTdVK1z6IshwGAhdeEm1"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

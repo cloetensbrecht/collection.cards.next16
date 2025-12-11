@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Bounsweet",
-  "number": 761
+  "number": 761,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iNC3A6sc7mV9ZzLil5ppN4yKB",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSuuWlclGnyV6pqDs4lvO6r"
+    }
+  ],
+  "blocks": []
 }

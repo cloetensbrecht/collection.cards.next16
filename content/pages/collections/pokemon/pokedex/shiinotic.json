@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Shiinotic",
-  "number": 756
+  "number": 756,
+  "evolvesFrom": {
+    "_id": "36iN1pV32quDkKpquNmqBKidSXM",
+    "_type": "entry",
+    "_entry": "36dmGW6kJANNNHkEfsCqiR9hBjY"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

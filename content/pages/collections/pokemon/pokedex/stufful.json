@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Stufful",
-  "number": 759
+  "number": 759,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iN9BXfXsvOXWhaFiy7ugL9FQt",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQj00lMsDa7ZoH8BYI6nA22"
+    }
+  ],
+  "blocks": []
 }

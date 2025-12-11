@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Solgaleo",
-  "number": 791
+  "number": 791,
+  "evolvesFrom": {
+    "_id": "36iO1mj9kdtrvvLtTXnTqhALD37",
+    "_type": "entry",
+    "_entry": "36dmGVTXNOpOhm28OZIxBWecSXe"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cosmog",
-  "number": 789
+  "number": 789,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iNxJyMctAT4lllD3uBL7WWcGQ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVTXNOpOhm28OZIxBWecSXe"
+    }
+  ],
+  "blocks": []
 }

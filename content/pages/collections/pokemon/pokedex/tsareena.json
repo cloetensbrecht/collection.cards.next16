@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tsareena",
-  "number": 763
+  "number": 763,
+  "evolvesFrom": {
+    "_id": "36iNFUjjDtPL3zCbNb9hSAb04Be",
+    "_type": "entry",
+    "_entry": "36dmGSuuWlclGnyV6pqDs4lvO6r"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

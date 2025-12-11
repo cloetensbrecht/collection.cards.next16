@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Salandit",
-  "number": 757
+  "number": 757,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iN4PiyuuyCGeR55S46mxDgCuS",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSMzH3ZOEp8BugSm2DtKtb6"
+    }
+  ],
+  "blocks": []
 }

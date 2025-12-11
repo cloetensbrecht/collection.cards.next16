@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Golisopod",
-  "number": 768
+  "number": 768,
+  "evolvesFrom": {
+    "_id": "36iNMcUqZBSYT4ovIIm7NQHnJvc",
+    "_type": "entry",
+    "_entry": "36dmGT2MET22ilb7Hww4dxVJBgo"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

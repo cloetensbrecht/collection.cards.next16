@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sandygast",
-  "number": 769
+  "number": 769,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iNPMbOUkRGrCoG7TR4OjYBew0",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRP2Z6M2zmbV6vfc8cKqpm6"
+    }
+  ],
+  "blocks": []
 }

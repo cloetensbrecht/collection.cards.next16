@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Salazzle",
-  "number": 758
+  "number": 758,
+  "evolvesFrom": {
+    "_id": "36iN59LvpvvnhnRuX1f6h1XInUi",
+    "_type": "entry",
+    "_entry": "36dmGRfQoA8EzPB9Sba14n3aXCz"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

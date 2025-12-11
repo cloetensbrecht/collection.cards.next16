@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Jangmo-o",
-  "number": 782
+  "number": 782,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iNmCpEG96bZU89RsdQqnTSwi6",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQpz9jEinO7GFvbSIBf9vMP"
+    }
+  ],
+  "blocks": []
 }

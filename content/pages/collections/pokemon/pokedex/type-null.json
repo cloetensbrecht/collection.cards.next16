@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Type: Null",
-  "number": 772
+  "number": 772,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iNZDmmafwdaWEOgTrGZKUEIho",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGX9wrXXuzUZndVi9aSfhYJd"
+    }
+  ],
+  "blocks": []
 }

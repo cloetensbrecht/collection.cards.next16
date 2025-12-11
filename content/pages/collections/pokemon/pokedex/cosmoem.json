@@ -3,5 +3,25 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cosmoem",
-  "number": 790
+  "number": 790,
+  "evolvesFrom": {
+    "_id": "36iNyx9RTrhGviBqWUqj2HxdHYc",
+    "_type": "entry",
+    "_entry": "36dmGVeLPXNxunLD6CHgbcxl9zr"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iO0jarWXZweMTYdDnThjY4o14",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSHUrxSGMYemAQ7TxUoFHlr"
+    },
+    {
+      "_id": "36iO0eLjw10VktH0u7vReTuh1B3",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGUzDBqmJAZ4R9KPZ65McSQT"
+    }
+  ],
+  "blocks": []
 }

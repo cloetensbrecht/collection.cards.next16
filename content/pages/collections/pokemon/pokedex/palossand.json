@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Palossand",
-  "number": 770
+  "number": 770,
+  "evolvesFrom": {
+    "_id": "36iNQOaq46m5CDNjCAssN7sex1b",
+    "_type": "entry",
+    "_entry": "36dmGTVluZs6sE9dMQ9PzXIQxZr"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

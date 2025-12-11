@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dewpider",
-  "number": 751
+  "number": 751,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iMcmLlEgSdzAJtjqS1lXXl2c9",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXYYzJ88IYlGlgvD8Wn2vIJ"
+    }
+  ],
+  "blocks": []
 }

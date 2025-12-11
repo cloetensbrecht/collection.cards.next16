@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Lunala",
-  "number": 792
+  "number": 792,
+  "evolvesFrom": {
+    "_id": "36iO3UDXmvE1SUGwUds11u7wK1k",
+    "_type": "entry",
+    "_entry": "36dmGVTXNOpOhm28OZIxBWecSXe"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }
