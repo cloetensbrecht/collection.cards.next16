@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gholdengo",
-  "number": 1000
+  "number": 1000,
+  "evolvesFrom": {
+    "_id": "36iTPIsvTiCWfEcQJskstCF1N4r",
+    "_type": "entry",
+    "_entry": "36dmGRC1LZpPDe1IjJzGbs84UNZ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Revavroom",
-  "number": 966
+  "number": 966,
+  "evolvesFrom": {
+    "_id": "36iSjgIWFVR2aV2EELpdRMlaEck",
+    "_type": "entry",
+    "_entry": "36dmGUijknoRIwJykKBQLOVfVQn"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

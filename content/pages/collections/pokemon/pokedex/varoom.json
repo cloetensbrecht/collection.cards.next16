@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Varoom",
-  "number": 965
+  "number": 965,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iSirRj8f9vUOJR2EKLjosy391",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTuHY7Gddq7VZKlauNowYGq"
+    }
+  ],
+  "blocks": []
 }

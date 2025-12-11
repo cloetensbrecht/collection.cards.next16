@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Arctibax",
-  "number": 997
+  "number": 997,
+  "evolvesFrom": {
+    "_id": "36iTJ6OZrQnzZpLSYViDAJ5QDet",
+    "_type": "entry",
+    "_entry": "36dmGR54TjUEPnFVN9IA93dEI4o"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iTJjy0m4OjF35SORVwZPttMUE",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQ7h5K2raQ9YdtdbXs6NfMX"
+    }
+  ],
+  "blocks": []
 }

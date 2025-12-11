@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wugtrio",
-  "number": 961
+  "number": 961,
+  "evolvesFrom": {
+    "_id": "36iSaQCFm7EnWha7qXFSxi4V0CY",
+    "_type": "entry",
+    "_entry": "36dmGPyuwLy2CWAYRqsk8mBdbvh"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

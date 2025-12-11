@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Espathra",
-  "number": 956
+  "number": 956,
+  "evolvesFrom": {
+    "_id": "36iSR71PB68x7yufkwGeysRROKL",
+    "_type": "entry",
+    "_entry": "36dmGWSh406TXavK3QlwxHqo3Rx"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

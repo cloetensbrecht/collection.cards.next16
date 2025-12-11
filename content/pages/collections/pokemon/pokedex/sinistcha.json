@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sinistcha",
-  "number": 1013
+  "number": 1013,
+  "evolvesFrom": {
+    "_id": "36iTg6t3dp52xALYOPKhBdBRmmX",
+    "_type": "entry",
+    "_entry": "36dmGUi3fHQdrB5Bt775AhR244t"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

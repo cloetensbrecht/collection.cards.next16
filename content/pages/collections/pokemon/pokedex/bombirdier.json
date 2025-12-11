@@ -3,5 +3,8 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Bombirdier",
-  "number": 962
+  "number": 962,
+  "evolvesFrom": {},
+  "evolvesTo": [],
+  "blocks": []
 }

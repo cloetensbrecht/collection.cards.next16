@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tinkatuff",
-  "number": 958
+  "number": 958,
+  "evolvesFrom": {
+    "_id": "36iSUOD70Ck6By6CCArfvJRoYc1",
+    "_type": "entry",
+    "_entry": "36dmGRZztJPO4muaVzdytTQGxlr"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iSVDoEC6Zqa5PZG2EWHie55nf",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUburrXH5uuF5Q60NGxreQi"
+    }
+  ],
+  "blocks": []
 }

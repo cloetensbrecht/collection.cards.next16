@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Wiglett",
-  "number": 960
+  "number": 960,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iSZO68xWnShhdISc9GXtRAFSY",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSTsrm9vCkHEMeqEg1Kzu4E"
+    }
+  ],
+  "blocks": []
 }

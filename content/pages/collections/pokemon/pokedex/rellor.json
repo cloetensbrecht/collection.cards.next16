@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Rellor",
-  "number": 953
+  "number": 953,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iSN50p8N9pP7TLNnu22J4IE3R",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVBh3SlU6H6Ec6FiU5uwefE"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Finizen",
-  "number": 963
+  "number": 963,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iSeYVyrRZ7Wqn7IFrcLGr19Qm",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQFj78kjQCajCK2fHcIS8Qm"
+    }
+  ],
+  "blocks": []
 }

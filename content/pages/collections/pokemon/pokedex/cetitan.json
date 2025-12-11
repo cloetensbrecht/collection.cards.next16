@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cetitan",
-  "number": 975
+  "number": 975,
+  "evolvesFrom": {
+    "_id": "36iSvFBH6SkXC97lQO7dchvLepL",
+    "_type": "entry",
+    "_entry": "36dmGTi3J8285mFjywmVqNPQo7W"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

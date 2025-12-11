@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Capsakid",
-  "number": 951
+  "number": 951,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iSKMnxT1hKoB36si2LlFyenJd",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGX99Asi7WAJv1ZiBwnKc24y"
+    }
+  ],
+  "blocks": []
 }

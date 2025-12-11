@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Houndstone",
-  "number": 972
+  "number": 972,
+  "evolvesFrom": {
+    "_id": "36iSrTqJExvrcj5JApX3xkwTZb8",
+    "_type": "entry",
+    "_entry": "36dmGSRzWEM51xnmbrFjEEiuum1"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

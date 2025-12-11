@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Baxcalibur",
-  "number": 998
+  "number": 998,
+  "evolvesFrom": {
+    "_id": "36iTKh9ACTy8ierL7hdIvO9qoyZ",
+    "_type": "entry",
+    "_entry": "36dmGQtxQudRovafipZ9ZnUJATB"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

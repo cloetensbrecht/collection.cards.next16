@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Greavard",
-  "number": 971
+  "number": 971,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iSqj33064bMywwPCx3kQ3zldT",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVRbrTUYJ7X2h36o1EzuTtz"
+    }
+  ],
+  "blocks": []
 }

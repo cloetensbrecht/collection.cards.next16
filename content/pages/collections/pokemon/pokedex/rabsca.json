@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Rabsca",
-  "number": 954
+  "number": 954,
+  "evolvesFrom": {
+    "_id": "36iSNqUAj9l70zyYxEKmnxCPK43",
+    "_type": "entry",
+    "_entry": "36dmGR2NVITcCj3Tp8kj03ZWpgG"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

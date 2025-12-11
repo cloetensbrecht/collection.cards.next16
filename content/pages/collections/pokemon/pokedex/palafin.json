@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Palafin",
-  "number": 964
+  "number": 964,
+  "evolvesFrom": {
+    "_id": "36iSfPmEmT9YzxhL5KjYZDnxKqU",
+    "_type": "entry",
+    "_entry": "36dmGQXFaNEA46we8yTU68WMCMz"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

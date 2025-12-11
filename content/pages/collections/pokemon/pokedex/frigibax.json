@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Frigibax",
-  "number": 996
+  "number": 996,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iTIE9pmTGRXshMhUBiKcEpygJ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQtxQudRovafipZ9ZnUJATB"
+    }
+  ],
+  "blocks": []
 }

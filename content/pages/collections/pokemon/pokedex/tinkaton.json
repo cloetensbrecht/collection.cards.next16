@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tinkaton",
-  "number": 959
+  "number": 959,
+  "evolvesFrom": {
+    "_id": "36iSWFqP42t3XMTbSnSEkLfsLC8",
+    "_type": "entry",
+    "_entry": "36dmGS4LPJ08hXEiE7NPLAMSWpQ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

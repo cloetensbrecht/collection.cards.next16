@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Cetoddle",
-  "number": 974
+  "number": 974,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iSua5W9ZniT0Tl0YZJKk6dWgv",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGV10iCC9JvxdeFoY32AVcYm"
+    }
+  ],
+  "blocks": []
 }

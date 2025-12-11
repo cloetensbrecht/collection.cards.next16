@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Scovillain",
-  "number": 952
+  "number": 952,
+  "evolvesFrom": {
+    "_id": "36iSL35olP89xCoxr90QeBXZE4f",
+    "_type": "entry",
+    "_entry": "36dmGWVXHxfyVNzaAUV89W0l2aS"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }
