@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pyroar",
-  "number": 668
+  "number": 668,
+  "evolvesFrom": {
+    "_id": "36iKDGhpNmQx9ubqsvbLd3hF9BI",
+    "_type": "entry",
+    "_entry": "36dmGTzmwwwAOKv9zqPkid3yDkI"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

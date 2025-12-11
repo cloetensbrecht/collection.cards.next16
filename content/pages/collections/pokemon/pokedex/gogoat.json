@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Gogoat",
-  "number": 673
+  "number": 673,
+  "evolvesFrom": {
+    "_id": "36iKScHOjJHmvpgNd1pVQ8MOeoG",
+    "_type": "entry",
+    "_entry": "36dmGRySwQONttapHVIESSqDwFl"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

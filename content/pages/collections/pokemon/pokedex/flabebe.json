@@ -1,0 +1,17 @@
+{
+  "_id": "36dmGUZSQ5s5ZmrC7pZWpPK8UEr",
+  "_type": "Pokemon",
+  "_index": "a0",
+  "title": "Flabébé",
+  "number": 669,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iKLsfHLquhWjVHWaHksK641Lq",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUZX6hPUptlFsKGcp5MyuxZ"
+    }
+  ],
+  "blocks": []
+}

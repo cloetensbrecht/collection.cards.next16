@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Fletchling",
-  "number": 661
+  "number": 661,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iK0jq9OmHbygsVp6cLPM3ae8g",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQJszp1FXDeJxtQlFFYBU9A"
+    }
+  ],
+  "blocks": []
 }

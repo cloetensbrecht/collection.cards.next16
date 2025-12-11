@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tyrunt",
-  "number": 696
+  "number": 696,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iL7ii1W333Z7sQv1p2dvZYG12",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGPyOM6YLMwGXSmVVT43XHHk"
+    }
+  ],
+  "blocks": []
 }

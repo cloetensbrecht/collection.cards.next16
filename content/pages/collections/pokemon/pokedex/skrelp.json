@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Skrelp",
-  "number": 690
+  "number": 690,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iKxrgjhBVDrr0pN80GfTLIr7C",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVwtDb3fuXY4g9sp26yMRA1"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Vivillon",
-  "number": 666
+  "number": 666,
+  "evolvesFrom": {
+    "_id": "36iK8tY1XoN6DnDt6WdtxTgUWAn",
+    "_type": "entry",
+    "_entry": "36dmGXeTyaALE4m0bPjHMySOWkC"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

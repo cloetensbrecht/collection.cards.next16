@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Clauncher",
-  "number": 692
+  "number": 692,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iL1ZB69lAlFag5Wh8sqF6FNpe",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWP9USTRgVWb6IYquua1Bbr"
+    }
+  ],
+  "blocks": []
 }

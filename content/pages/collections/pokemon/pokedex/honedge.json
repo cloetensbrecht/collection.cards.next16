@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Honedge",
-  "number": 679
+  "number": 679,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iKev8L6WbFuje6Pg8ozHsnunc",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGRPnjW30v2gi4QuoZJ0j79B"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Inkay",
-  "number": 686
+  "number": 686,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iKrZAOO5q1IgQ0g6E0j3rXtBs",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTLT1d1ewprJoIZAj60SZsS"
+    }
+  ],
+  "blocks": []
 }

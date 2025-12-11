@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Espurr",
-  "number": 677
+  "number": 677,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iKaNPCGj11f16sdQn8065F2QN",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSNtAR8CZD15zZvrE41ZiPI"
+    }
+  ],
+  "blocks": []
 }

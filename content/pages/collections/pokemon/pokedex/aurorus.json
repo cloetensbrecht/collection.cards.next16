@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Aurorus",
-  "number": 699
+  "number": 699,
+  "evolvesFrom": {
+    "_id": "36iLBxwKPRpSyg63ygYU2XHh5wU",
+    "_type": "entry",
+    "_entry": "36dmGQhG8qM19vrWctGlAbIIfCp"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

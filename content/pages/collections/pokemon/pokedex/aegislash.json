@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Aegislash",
-  "number": 681
+  "number": 681,
+  "evolvesFrom": {
+    "_id": "36iKhYkdQgMzoenjJEPKZBL9UtD",
+    "_type": "entry",
+    "_entry": "36dmGRPnjW30v2gi4QuoZJ0j79B"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

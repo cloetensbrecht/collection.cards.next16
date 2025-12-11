@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Spewpa",
-  "number": 665
+  "number": 665,
+  "evolvesFrom": {
+    "_id": "36iK78avk3NGDKTVBnvQzAED3kh",
+    "_type": "entry",
+    "_entry": "36dmGSRoGbPR0ShvLWswacUz2Cp"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iK81l3yk2RnLzhApEdUvsc3m5",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSa5HRpwg5sl0ju2RxsAfHK"
+    }
+  ],
+  "blocks": []
 }

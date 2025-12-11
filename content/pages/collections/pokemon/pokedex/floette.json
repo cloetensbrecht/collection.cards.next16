@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Floette",
-  "number": 670
+  "number": 670,
+  "evolvesFrom": {
+    "_id": "36iKMsKqDRtufbF3kSHfXSSYz4c",
+    "_type": "entry",
+    "_entry": "36dmGUZSQ5s5ZmrC7pZWpPK8UEr"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iKNhwGP85VabkwRjr41vJDNOJ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGUMUT3VkUKAH8KSTrAr3pJ3"
+    }
+  ],
+  "blocks": []
 }

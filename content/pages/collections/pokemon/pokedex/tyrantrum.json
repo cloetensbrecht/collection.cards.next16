@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tyrantrum",
-  "number": 697
+  "number": 697,
+  "evolvesFrom": {
+    "_id": "36iL8gmeca9JO4NyEdttR2gEUNG",
+    "_type": "entry",
+    "_entry": "36dmGRCrwRmDr7Tf9BqBhHOobJm"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

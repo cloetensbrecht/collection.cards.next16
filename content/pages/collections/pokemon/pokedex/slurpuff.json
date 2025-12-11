@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Slurpuff",
-  "number": 685
+  "number": 685,
+  "evolvesFrom": {
+    "_id": "36iKp7hr3ViFt5gzjHpc4lkjfgp",
+    "_type": "entry",
+    "_entry": "36dmGRJwS0nbPu3DPAjMIv838Dn"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

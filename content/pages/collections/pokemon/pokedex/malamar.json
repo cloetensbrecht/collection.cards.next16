@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Malamar",
-  "number": 687
+  "number": 687,
+  "evolvesFrom": {
+    "_id": "36iKsQq0PaqKTuTsXwRGnORLANb",
+    "_type": "entry",
+    "_entry": "36dmGX7wtPYS0Lw6RQIoB9fB3cj"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

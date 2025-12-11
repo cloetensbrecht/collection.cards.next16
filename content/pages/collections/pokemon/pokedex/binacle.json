@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Binacle",
-  "number": 688
+  "number": 688,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iKuX2tsCejk84LgcJEdUPnZnI",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGVk8W8cr0wzA09jO7PzwN0d"
+    }
+  ],
+  "blocks": []
 }

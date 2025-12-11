@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Heliolisk",
-  "number": 695
+  "number": 695,
+  "evolvesFrom": {
+    "_id": "36iL5OXAbNU5Eu7UaNYwAw87FJx",
+    "_type": "entry",
+    "_entry": "36dmGVd70jwdg7SGc0aDjHZBcqE"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

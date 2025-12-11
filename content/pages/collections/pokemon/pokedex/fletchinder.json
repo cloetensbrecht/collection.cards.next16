@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Fletchinder",
-  "number": 662
+  "number": 662,
+  "evolvesFrom": {
+    "_id": "36iK1TWHqo5F93AtCvHPfRO9Xtk",
+    "_type": "entry",
+    "_entry": "36dmGSvRlCkXamJwzoovyUQpLZF"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iK2QouLl2ALoLiuzuBSQt5Eaa",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGV2m4gPYxQPlYGtwSmUJUyS"
+    }
+  ],
+  "blocks": []
 }

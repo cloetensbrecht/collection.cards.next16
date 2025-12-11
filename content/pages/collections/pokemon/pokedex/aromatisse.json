@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Aromatisse",
-  "number": 683
+  "number": 683,
+  "evolvesFrom": {
+    "_id": "36iKl5h8gQXF1R98TZip0rvA87Y",
+    "_type": "entry",
+    "_entry": "36dmGUQYVx1ND7R4m8tBd3QguPZ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

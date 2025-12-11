@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dragalge",
-  "number": 691
+  "number": 691,
+  "evolvesFrom": {
+    "_id": "36iKyjPfYBkbvp62RZXerZGTm3B",
+    "_type": "entry",
+    "_entry": "36dmGRwRkYjjYpFQuyZ22IpSPvl"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Meowstic",
-  "number": 678
+  "number": 678,
+  "evolvesFrom": {
+    "_id": "36iKbSVctXyd1kODvqu5RpZ4HwT",
+    "_type": "entry",
+    "_entry": "36dmGSsnK6vrPQAGctqsjtqN2sB"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

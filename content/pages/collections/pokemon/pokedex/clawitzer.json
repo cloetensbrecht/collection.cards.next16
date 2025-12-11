@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Clawitzer",
-  "number": 693
+  "number": 693,
+  "evolvesFrom": {
+    "_id": "36iL2OEducceSZKG7qISsLuHpyl",
+    "_type": "entry",
+    "_entry": "36dmGRSiZo4s521EJIStpej4OE9"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

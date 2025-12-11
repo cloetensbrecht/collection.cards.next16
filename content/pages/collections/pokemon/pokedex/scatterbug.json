@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Scatterbug",
-  "number": 664
+  "number": 664,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iK627FVKDZV32U9kTAUwZjAfF",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXeTyaALE4m0bPjHMySOWkC"
+    }
+  ],
+  "blocks": []
 }

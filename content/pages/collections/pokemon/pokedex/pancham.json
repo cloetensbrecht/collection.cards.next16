@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pancham",
-  "number": 674
+  "number": 674,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iKVBuW9zUoJdbc5somEvyxkhE",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTK1bJF9UazTGiWL4mUeLgJ"
+    }
+  ],
+  "blocks": []
 }

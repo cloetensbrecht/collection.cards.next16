@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Skiddo",
-  "number": 672
+  "number": 672,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iKRmISFM7LpLGSInJBx6duw3S",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGREZOcvAnIYIQRxKRk6S6JD"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Florges",
-  "number": 671
+  "number": 671,
+  "evolvesFrom": {
+    "_id": "36iKORGnxc3SxrtJZOdJryZfNkn",
+    "_type": "entry",
+    "_entry": "36dmGUZX6hPUptlFsKGcp5MyuxZ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }
