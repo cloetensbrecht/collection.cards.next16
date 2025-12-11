@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pawmi",
-  "number": 921
+  "number": 921,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iRP3VeIBSmANiXm3vXuWZwreR",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQT1q64F9b7rqIKE3RcXyxp"
+    }
+  ],
+  "blocks": []
 }

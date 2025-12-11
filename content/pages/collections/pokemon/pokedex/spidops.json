@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Spidops",
-  "number": 918
+  "number": 918,
+  "evolvesFrom": {
+    "_id": "36iRJMwafeDR4y1tdJ3V9nZYqyJ",
+    "_type": "entry",
+    "_entry": "36dmGXA9w2yJdpaV1CcgtJI6rd9"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

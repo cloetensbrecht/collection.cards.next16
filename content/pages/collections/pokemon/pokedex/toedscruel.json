@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Toedscruel",
-  "number": 949
+  "number": 949,
+  "evolvesFrom": {
+    "_id": "36iSEOUPH8y3dQcTq65x43Dsy6Y",
+    "_type": "entry",
+    "_entry": "36dmGTFd0ldFVwbjF25YZdXmTkf"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

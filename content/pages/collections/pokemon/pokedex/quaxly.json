@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Quaxly",
-  "number": 912
+  "number": 912,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iR8jkOyB7r99qcec2do8v82hP",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQvC4R3sWbFRsh4PByeR2mN"
+    }
+  ],
+  "blocks": []
 }

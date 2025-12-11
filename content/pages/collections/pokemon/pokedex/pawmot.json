@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Pawmot",
-  "number": 923
+  "number": 923,
+  "evolvesFrom": {
+    "_id": "36iRS7fXteDftPJsSSLTSlOdq2Y",
+    "_type": "entry",
+    "_entry": "36dmGQT1q64F9b7rqIKE3RcXyxp"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Bellibolt",
-  "number": 939
+  "number": 939,
+  "evolvesFrom": {
+    "_id": "36iRw2MXRqQQfZCax92TDloyiHd",
+    "_type": "entry",
+    "_entry": "36dmGT25aoEoa61qpyyr7ck6IcJ"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

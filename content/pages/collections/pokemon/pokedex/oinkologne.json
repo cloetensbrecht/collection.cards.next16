@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Oinkologne",
-  "number": 916
+  "number": 916,
+  "evolvesFrom": {
+    "_id": "36iRGCsg3nit7EbaAuVC0rGpJd4",
+    "_type": "entry",
+    "_entry": "36dmGX4SVMUjr93zZKWCFXJgjDG"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

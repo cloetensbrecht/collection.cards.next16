@@ -3,5 +3,21 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Charcadet",
-  "number": 935
+  "number": 935,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iRqpW7p1Aw9w4VOmvAZaMYlQV",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGTBa6jipxzC102rowVgvC2c"
+    },
+    {
+      "_id": "36iRqqzD8O5ANKkdhu3EdQi30A3",
+      "_index": "a1",
+      "_type": "entry",
+      "_entry": "36dmGSDjeOdzNfSLyKPvuKkgOFY"
+    }
+  ],
+  "blocks": []
 }

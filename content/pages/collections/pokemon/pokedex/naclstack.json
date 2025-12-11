@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Naclstack",
-  "number": 933
+  "number": 933,
+  "evolvesFrom": {
+    "_id": "36iRkmDGAJWkFXC44OmoB6IF5Yz",
+    "_type": "entry",
+    "_entry": "36dmGQQwzInMIRCgBmsWPr331iz"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iRlbVXQkEMMZO9vXdX7Uo7iVJ",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGSJMem8OF2eOPo9TpCOQqDC"
+    }
+  ],
+  "blocks": []
 }

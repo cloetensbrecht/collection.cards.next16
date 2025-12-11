@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Ceruledge",
-  "number": 937
+  "number": 937,
+  "evolvesFrom": {
+    "_id": "36iRsusplU13POkUjhQ9FcS3505",
+    "_type": "entry",
+    "_entry": "36dmGT8Lpp4XWOVBw6w3ZZgXzGH"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

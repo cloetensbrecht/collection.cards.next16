@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Garganacl",
-  "number": 934
+  "number": 934,
+  "evolvesFrom": {
+    "_id": "36iRmcMaEUrvMzUxkv27CSamF8g",
+    "_type": "entry",
+    "_entry": "36dmGTavZQhsX8Aq1Uhege8n7eN"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

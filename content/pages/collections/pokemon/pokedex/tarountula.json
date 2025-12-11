@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Tarountula",
-  "number": 917
+  "number": 917,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iRIYSaFoXADpxQBESBE0N43c9",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWNJvztpsCFjRCofyZWXZ3V"
+    }
+  ],
+  "blocks": []
 }

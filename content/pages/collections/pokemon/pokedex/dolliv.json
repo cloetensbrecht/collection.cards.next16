@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dolliv",
-  "number": 929
+  "number": 929,
+  "evolvesFrom": {
+    "_id": "36iRd4U2ySfPp2jCvEfgLUDvGRv",
+    "_type": "entry",
+    "_entry": "36dmGVU5hwmsNQX23bxHLaS35DY"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iRdx7likhIffJFNnPcDiLqcx1",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGU2gnUsVO4YrSYcJWnqEU96"
+    }
+  ],
+  "blocks": []
 }

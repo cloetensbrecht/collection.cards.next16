@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Crocalor",
-  "number": 910
+  "number": 910,
+  "evolvesFrom": {
+    "_id": "36iR34YGbA1ZbPXNbQIgQRALG7b",
+    "_type": "entry",
+    "_entry": "36dmGRUeTqqZeiTK6cIwD7HZMX6"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iR45xf8RtaAb3PzeR6VRz9jQ5",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGQuuns2iVYDKh4RhaTayeDg"
+    }
+  ],
+  "blocks": []
 }

@@ -3,5 +3,19 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Floragato",
-  "number": 907
+  "number": 907,
+  "evolvesFrom": {
+    "_id": "36iQwzVW39XobdldJn3FyAo6pVo",
+    "_type": "entry",
+    "_entry": "36dmGTNTwH5LaODp6ijL9iww6lL"
+  },
+  "evolvesTo": [
+    {
+      "_id": "36iQxxhLjLna5MKrx0TizXu7wfb",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGW4sY6DiEmeSxsdORGoeG0h"
+    }
+  ],
+  "blocks": []
 }

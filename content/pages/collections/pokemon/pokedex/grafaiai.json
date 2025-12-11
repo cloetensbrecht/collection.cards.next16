@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Grafaiai",
-  "number": 945
+  "number": 945,
+  "evolvesFrom": {
+    "_id": "36iS6rpcs36MXDSvRx6Jm909K1v",
+    "_type": "entry",
+    "_entry": "36dmGR7H90UWoAgCE4BunU1at5h"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Fuecoco",
-  "number": 909
+  "number": 909,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iR27n71sIPf2FtGC54AUZUw4p",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGS0F1RIS08iplWlapL34zG2"
+    }
+  ],
+  "blocks": []
 }

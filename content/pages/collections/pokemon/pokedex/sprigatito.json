@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Sprigatito",
-  "number": 906
+  "number": 906,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iQw6cRmRbZQHeiXdn4U4CDJ4Y",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGWvKQO1SyMO43H3VlpNt7fg"
+    }
+  ],
+  "blocks": []
 }

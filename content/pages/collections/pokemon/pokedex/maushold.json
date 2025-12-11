@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Maushold",
-  "number": 925
+  "number": 925,
+  "evolvesFrom": {
+    "_id": "36iRW13xsnikxCIQTnp8QyBSC8Q",
+    "_type": "entry",
+    "_entry": "36dmGUUbgumXcxzGfxbzsBROAyF"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

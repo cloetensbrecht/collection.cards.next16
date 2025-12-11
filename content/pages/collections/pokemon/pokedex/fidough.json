@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Fidough",
-  "number": 926
+  "number": 926,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iRYfGGD3rQFjIH1Jq416HfRQa",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGXXAkn45tXWYdUuCy4HqX9T"
+    }
+  ],
+  "blocks": []
 }

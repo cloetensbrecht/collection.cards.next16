@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Dachsbun",
-  "number": 927
+  "number": 927,
+  "evolvesFrom": {
+    "_id": "36iRZeDLhQf5sx7j1ZVo2Y51okf",
+    "_type": "entry",
+    "_entry": "36dmGSZoe1hFwYWd27kTL1mWAXB"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Brambleghast",
-  "number": 947
+  "number": 947,
+  "evolvesFrom": {
+    "_id": "36iSALXWjOqDixwdUIs0UC7n414",
+    "_type": "entry",
+    "_entry": "36dmGWPI3eGXIK3KaLrZO7bz6Yq"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

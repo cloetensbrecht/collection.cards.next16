@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Arboliva",
-  "number": 930
+  "number": 930,
+  "evolvesFrom": {
+    "_id": "36iRespmcjmkZSDwrVAqVTvB3tW",
+    "_type": "entry",
+    "_entry": "36dmGV1WXxxUFeqlFFrwsuu4Wwl"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

@@ -3,5 +3,12 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Kilowattrel",
-  "number": 941
+  "number": 941,
+  "evolvesFrom": {
+    "_id": "36iRywi1azGK3ABsDnbX9uHfq31",
+    "_type": "entry",
+    "_entry": "36dmGQYVk9sG7P82tUxmtBGS29T"
+  },
+  "evolvesTo": [],
+  "blocks": []
 }

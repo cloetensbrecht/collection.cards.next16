@@ -3,5 +3,15 @@
   "_type": "Pokemon",
   "_index": "a0",
   "title": "Smoliv",
-  "number": 928
+  "number": 928,
+  "evolvesFrom": {},
+  "evolvesTo": [
+    {
+      "_id": "36iRcF6QHSS578u27VoDJlcuuEH",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "36dmGV1WXxxUFeqlFFrwsuu4Wwl"
+    }
+  ],
+  "blocks": []
 }
