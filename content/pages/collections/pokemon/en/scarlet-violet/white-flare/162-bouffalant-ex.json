@@ -8,9 +8,13 @@
   "rarity": "ultra-rare",
   "cardtype": "pokemon",
   "hp": 220,
-  "pokemon": "Bouffalant",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36l7tFmJmdL8IJmQeGT5RcwaCha",
+    "_type": "entry",
+    "_entry": "36dmGQkiIQNGJDGvA9F2zu79MS7"
+  },
   "illustrator": {
     "_id": "34EF6iHzX65C8q5h5RJQZ2Syr59",
     "_type": "entry",

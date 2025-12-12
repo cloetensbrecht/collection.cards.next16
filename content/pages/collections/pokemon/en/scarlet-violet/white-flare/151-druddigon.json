@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Druddigon",
   "energy": "dragon",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36l84zYmKHCKeuY5aBfXB7ZcthO",
+    "_type": "entry",
+    "_entry": "36dmGQVLZwhMFNm2ZvPz1xLmVhR"
+  },
   "illustrator": {
     "_id": "34EEJQ05R0KnSgVg0duli9mvTCy",
     "_type": "entry",

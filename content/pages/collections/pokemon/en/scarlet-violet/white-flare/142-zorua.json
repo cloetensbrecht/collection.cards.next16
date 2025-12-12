@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Zorua",
   "energy": "darkness",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36l8E3l4YVD0q4MSf7rJF5l6fFa",
+    "_type": "entry",
+    "_entry": "36dmGVSa68uILI9Xt2QrsYxTKyR"
+  },
   "illustrator": {
     "_id": "34EDb8FidVQuyxixcCkBV8N1Ubt",
     "_type": "entry",

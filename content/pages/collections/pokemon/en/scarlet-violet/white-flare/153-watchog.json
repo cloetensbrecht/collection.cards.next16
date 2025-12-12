@@ -8,7 +8,11 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Watchog",
+  "pokemon": {
+    "_id": "36l7bLqr1QfPs5lmhWKqOS7jKHo",
+    "_type": "entry",
+    "_entry": "36dmGT1zn3ThvSPF1lwW4e9O1SU"
+  },
   "energy": "colorless",
   "stage": "stage1",
   "illustrator": {

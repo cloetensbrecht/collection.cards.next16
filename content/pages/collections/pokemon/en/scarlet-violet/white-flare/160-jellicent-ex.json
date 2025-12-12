@@ -8,9 +8,13 @@
   "rarity": "ultra-rare",
   "cardtype": "pokemon",
   "hp": 270,
-  "pokemon": "Jellicent",
   "energy": "psychic",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36l7vGdee46ddIm5El0irWI0zp7",
+    "_type": "entry",
+    "_entry": "36dmGTHJXcnZj1sIuNpL8387r85"
+  },
   "illustrator": {
     "_id": "34EEzMqIezI0AWOrQ4P7FhkX4Kh",
     "_type": "entry",

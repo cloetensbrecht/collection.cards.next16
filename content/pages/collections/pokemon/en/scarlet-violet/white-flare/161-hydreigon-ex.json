@@ -8,9 +8,13 @@
   "rarity": "ultra-rare",
   "cardtype": "pokemon",
   "hp": 330,
-  "pokemon": "Hydreigon",
   "energy": "darkness",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36l7uD5PMqIahPxZGnZX83iiQiC",
+    "_type": "entry",
+    "_entry": "36dmGS0bGIPnSFzC9Py6T6yqfdt"
+  },
   "illustrator": {
     "_id": "34EF2nVpeFJn7KtRkwlqMPaVia0",
     "_type": "entry",

@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 110,
-  "pokemon": "Zweilous",
   "energy": "darkness",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36l88fz6iZ092LU7RxIztvdCr6f",
+    "_type": "entry",
+    "_entry": "36dmGSsCQ1KE5n8bqZW86xsPtyQ"
+  },
   "illustrator": {
     "_id": "34EDyTXsOkkR7gZAZeSVTsjzoRF",
     "_type": "entry",

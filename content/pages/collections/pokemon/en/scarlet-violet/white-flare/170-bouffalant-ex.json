@@ -8,7 +8,11 @@
   "rarity": "special-illustration-rare",
   "cardtype": "pokemon",
   "hp": 220,
-  "pokemon": "Bouffalant",
+  "pokemon": {
+    "_id": "36l7f9EQNbp1JopO446FaGJhGZQ",
+    "_type": "entry",
+    "_entry": "36dmGQkiIQNGJDGvA9F2zu79MS7"
+  },
   "energy": "colorless",
   "stage": "basic",
   "illustrator": {

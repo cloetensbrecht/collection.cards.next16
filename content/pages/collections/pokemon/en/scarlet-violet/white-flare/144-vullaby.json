@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Vullaby",
   "energy": "darkness",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36l8BUaPHDYchYBaE86RfGBOy2Z",
+    "_type": "entry",
+    "_entry": "36dmGWWzunGEJurgOWMREOL2KPq"
+  },
   "illustrator": {
     "_id": "34EDmlHP2RduPNvSXu1BzmqoH26",
     "_type": "entry",

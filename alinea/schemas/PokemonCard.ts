@@ -2,7 +2,6 @@ import {cardType} from '@/consts/cardtype'
 import {edge} from '@/consts/edge'
 import {energy as energyOptions} from '@/consts/energy'
 import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/pattern'
-import {pokedex} from '@/consts/pokedex'
 import {rarity as rarityOptions} from '@/consts/rarity'
 import {variant} from '@/consts/variant'
 import {IcOutlineCropPortrait} from '@/icons/IcRoundCropPortrait'
@@ -45,7 +44,7 @@ const Variant = Config.type('Variant', {
 
 const cardtype = Field.select('Card Type', {
   options: cardType,
-  width: 0.3,
+  width: 0.2,
   required: true
 })
 
@@ -59,11 +58,10 @@ const subtype = Field.select('Subtype', {
   width: 0.4
 })
 
-const pokemon = Field.select('Pokémon', {
-  options: pokedex.reduce((acc, curr) => {
-    return {...acc, [curr.name]: curr.name}
-  }, {}),
-  width: 0.5
+const pokemon = Field.entry('Pokémon', {
+  location: {workspace: 'main', root: 'pages'},
+  condition: {_type: 'Pokemon'},
+  width: 1
 })
 
 const stage = Field.select('Stage', {
@@ -186,9 +184,9 @@ export const PokemonCard = Config.type('Pokémon Card', {
     cardtype,
     hp: Field.number('HP', {width: 0.2}),
     subtype,
-    pokemon,
     energy,
     stage,
+    pokemon,
     illustrator,
     card: Field.image('Card', {width: 1, required: true}),
     reverseCard: Field.image('Reverse Card', {

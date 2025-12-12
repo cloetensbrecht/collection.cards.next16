@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 110,
-  "pokemon": "Durant",
   "energy": "metal",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36l85xV5cS8IxlF0zz68l0ZRwCA",
+    "_type": "entry",
+    "_entry": "36dmGQcEQkdcnZUpBT0AXuGjRnf"
+  },
   "illustrator": {
     "_id": "34EEB7rRoPzPchJUcAbOfS9zQCN",
     "_type": "entry",

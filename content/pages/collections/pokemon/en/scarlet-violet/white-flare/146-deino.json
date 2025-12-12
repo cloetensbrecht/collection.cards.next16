@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Deino",
   "energy": "darkness",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36l89YTJwbhKTlUskcZvIg2Jfqf",
+    "_type": "entry",
+    "_entry": "36dmGQU2A7YO1AI0qFpWXXZCRLF"
+  },
   "illustrator": {
     "_id": "34EDujF3GQMW0TV4sasEknSQiDP",
     "_type": "entry",

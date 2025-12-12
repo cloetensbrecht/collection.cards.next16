@@ -8,9 +8,13 @@
   "rarity": "ultra-rare",
   "cardtype": "pokemon",
   "hp": 230,
-  "pokemon": "Reshiram",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36l7wqHShYkX1TJnNtQRQUZrdj3",
+    "_type": "entry",
+    "_entry": "36dmGVXP2J1M9B7DMGuB5HJdhAr"
+  },
   "illustrator": {
     "_id": "34EEswGDZPql84LM2zvCcLMoJcX",
     "_type": "entry",

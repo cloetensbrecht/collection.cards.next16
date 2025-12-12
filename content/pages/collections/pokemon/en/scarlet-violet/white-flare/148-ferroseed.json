@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Ferroseed",
   "energy": "metal",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36l87qagsKAuMffRdrpO4WG0qTk",
+    "_type": "entry",
+    "_entry": "36dmGSzcJNkMYotPqKJ2SB14fat"
+  },
   "illustrator": {
     "_id": "34EE1oOxvPZp4GQ1wAMj9NKptoz",
     "_type": "entry",

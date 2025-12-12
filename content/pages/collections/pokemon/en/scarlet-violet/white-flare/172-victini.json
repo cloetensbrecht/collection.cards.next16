@@ -8,7 +8,11 @@
   "rarity": "black-white-rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Victini",
+  "pokemon": {
+    "_id": "36l7dOiv0GN863HdvdSatSBCAJK",
+    "_type": "entry",
+    "_entry": "36dmGRJaF2mkPAzHpZUT6jrUUkE"
+  },
   "energy": "fire",
   "stage": "basic",
   "illustrator": {

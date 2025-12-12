@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 110,
-  "pokemon": "Mandibuzz",
   "energy": "darkness",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36l8AW4aKbwK4d5wk1Gc7b63zCS",
+    "_type": "entry",
+    "_entry": "36dmGTzF3o6F92h36uCYmt5HUBh"
+  },
   "illustrator": {
     "_id": "34EDqAII9tkCTf5Ypi85LSGZ4bD",
     "_type": "entry",

@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Scrafty",
   "energy": "darkness",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36l8GXpBZ6HnCS4eJzkg2nvvxvr",
+    "_type": "entry",
+    "_entry": "36dmGSlYF3ufl6cYnwxEuXm2pYw"
+  },
   "illustrator": {
     "_id": "34EDNMfQb4WFXsTEXwitCDidoF5",
     "_type": "entry",

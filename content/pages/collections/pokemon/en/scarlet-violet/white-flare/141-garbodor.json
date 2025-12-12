@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 140,
-  "pokemon": "Garbodor",
   "energy": "darkness",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36l8EzLpAeqBJ92NSbfPcyqcez7",
+    "_type": "entry",
+    "_entry": "36dmGSeV8i5DBTVuoeuwsPgBQJO"
+  },
   "illustrator": {
     "_id": "34EDVEU1RaAEUQr4LZabhIAvgsi",
     "_type": "entry",
