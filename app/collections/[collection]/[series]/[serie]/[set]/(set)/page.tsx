@@ -12,6 +12,7 @@ import {blurDataURL} from '@/lib/blurDataURL'
 import {Query} from 'alinea'
 import Image from 'next/image'
 import {notFound} from 'next/navigation'
+import {Suspense} from 'react'
 
 const fetchSetData = async (url: string) => {
   const data = await cms.first({
@@ -170,7 +171,9 @@ export default async function Set({
         )}
       </div>
       {collection === 'pokemon' ? (
-        <PokemonSetOverview cards={setData.cards} logo={setData.logo} />
+        <Suspense>
+          <PokemonSetOverview cards={setData.cards} logo={setData.logo} />
+        </Suspense>
       ) : (
         <CardGrid cards={setData.cards} />
       )}
