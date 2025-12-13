@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Tornadus",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZyhZ31PNk45a80QvEaliDaNZ",
+    "_type": "entry",
+    "_entry": "36dmGRcNbKxrmlYWTLf5p2A2um4"
+  },
   "illustrator": {
     "_id": "34AAh1ln5DJ1JoOgkQ4boAkXDek",
     "_type": "entry",

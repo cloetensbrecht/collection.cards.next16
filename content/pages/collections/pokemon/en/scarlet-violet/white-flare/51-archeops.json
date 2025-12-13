@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 140,
-  "pokemon": "Archeops",
   "energy": "fighting",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36maLsgFX0aunrATVMkO3fIs866",
+    "_type": "entry",
+    "_entry": "36dmGTX52zkhraftgOmxG6o48L5"
+  },
   "illustrator": {
     "_id": "34A3bfrQ4Q8aDnneAzeGc8OjgaV",
     "_type": "entry",

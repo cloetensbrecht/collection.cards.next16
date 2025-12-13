@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Cottonee",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZqi8JyZlEFGbJCTzbe0aNv71",
+    "_type": "entry",
+    "_entry": "36dmGWJhniaC8xKYrbu4fC7h0j6"
+  },
   "illustrator": {
     "_id": "34BUp4vdvHYobCqzveMaxxJP16e",
     "_type": "entry",

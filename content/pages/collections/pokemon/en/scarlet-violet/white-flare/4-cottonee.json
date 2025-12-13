@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Cottonee",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maxdnlUX4Nq5a5ZO17WGXhk5t",
+    "_type": "entry",
+    "_entry": "36dmGWJhniaC8xKYrbu4fC7h0j6"
+  },
   "illustrator": {
     "_id": "349kEuCx19hvXV9OarkKOjqrU62",
     "_type": "entry",

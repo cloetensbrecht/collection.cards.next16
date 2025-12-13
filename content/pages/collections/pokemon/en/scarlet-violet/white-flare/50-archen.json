@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Archen",
   "energy": "fighting",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36maMgjOarz0SvDJzl0XQu8w80u",
+    "_type": "entry",
+    "_entry": "36dmGQncx5NnWIGBnhklPbdca8q"
+  },
   "illustrator": {
     "_id": "34A3PpQ0kPM6VhMbs4XJaq81mXF",
     "_type": "entry",

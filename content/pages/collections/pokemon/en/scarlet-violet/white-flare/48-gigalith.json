@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 170,
-  "pokemon": "Gigalith",
   "energy": "fighting",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36maOF4EB4ebtRACsH4vQDZnvyu",
+    "_type": "entry",
+    "_entry": "36dmGVRUK5Gh8eBFjBGRDtKwgYU"
+  },
   "illustrator": {
     "_id": "34A33MuxPhfz4Xg3JfI1kaC3bzd",
     "_type": "entry",

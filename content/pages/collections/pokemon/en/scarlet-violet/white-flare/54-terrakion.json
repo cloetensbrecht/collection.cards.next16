@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 140,
-  "pokemon": "Terrakion",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maJeyO9KOMPArdufBt0n9WaCi",
+    "_type": "entry",
+    "_entry": "36dmGVGdNb2RKECskjhImqPMP4S"
+  },
   "illustrator": {
     "_id": "34A420zhlPYDB1au8cTYrBh15ql",
     "_type": "entry",

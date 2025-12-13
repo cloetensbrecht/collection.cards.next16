@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Heatmor",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZezRmAzcrwdK9qEG4yYXfDgI",
+    "_type": "entry",
+    "_entry": "36dmGVgfCTSw5CFd9A4fx0Fv0pA"
+  },
   "illustrator": {
     "_id": "34BWwwz0JxkbWiIaj5RGW3qkPj8",
     "_type": "entry",

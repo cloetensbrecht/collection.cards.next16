@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Gothita",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZME2PxRaya7emgLPV05IIp4F",
+    "_type": "entry",
+    "_entry": "36dmGVqQVq76BhDFDlmFq3BydZ1"
+  },
   "illustrator": {
     "_id": "34EBw3Jeg8u1kWW7vbHIQbbqHmw",
     "_type": "entry",

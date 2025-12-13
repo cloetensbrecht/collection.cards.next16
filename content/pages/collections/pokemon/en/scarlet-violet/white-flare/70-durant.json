@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 110,
-  "pokemon": "Durant",
   "energy": "metal",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36ma5yqMi7Ypino0Wn0qrirCspZ",
+    "_type": "entry",
+    "_entry": "36dmGQcEQkdcnZUpBT0AXuGjRnf"
+  },
   "illustrator": {
     "_id": "34A9Z8xYakfEId3lpryfubZMtWU",
     "_type": "entry",

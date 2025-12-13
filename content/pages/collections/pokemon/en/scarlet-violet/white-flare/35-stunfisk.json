@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 110,
-  "pokemon": "Stunfisk",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maYfkaWQr9UK4QTEbEsnlB5Vu",
+    "_type": "entry",
+    "_entry": "36dmGSQV1YDkZIe4PRxQKMUPtbI"
+  },
   "illustrator": {
     "_id": "349yuXLMTHNRbs8rOX03x5Htjb6",
     "_type": "entry",

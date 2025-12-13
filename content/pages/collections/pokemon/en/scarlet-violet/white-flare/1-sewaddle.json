@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Sewaddle",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mb07oUOh9Aep2CSmaIaaw9chN",
+    "_type": "entry",
+    "_entry": "36dmGXahwe3u2QxURNDbqMgCG1u"
+  },
   "illustrator": {
     "_id": "349e5QB0mKhnHE3rXYea4OHhFrv",
     "_type": "entry",

@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 110,
-  "pokemon": "Liepard",
   "energy": "darkness",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mZ8MpXEJN4EWyzH4VmWOC1E8n",
+    "_type": "entry",
+    "_entry": "36dmGVWDDOrk5jfwD1hLNxuZPE4"
+  },
   "illustrator": {
     "_id": "34EDAMkYpIq2Hq75SKpbBn14nNd",
     "_type": "entry",

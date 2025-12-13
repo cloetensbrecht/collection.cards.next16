@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 110,
-  "pokemon": "Boldore",
   "energy": "fighting",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36maOzPqdODYfFKlXgSIxX0v8MT",
+    "_type": "entry",
+    "_entry": "36dmGUkhCI2mvB9erAgHcpjD7qI"
+  },
   "illustrator": {
     "_id": "34A2nKz0gX3GQVxvmliJ6a6HKL5",
     "_type": "entry",

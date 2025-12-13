@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Scraggy",
   "energy": "darkness",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maGTU9GL1CeeHqseWx84nyRrW",
+    "_type": "entry",
+    "_entry": "36dmGX9HC2SXN7Pc0yTwfEagqet"
+  },
   "illustrator": {
     "_id": "34A7xwInTAeyNjA8oDolnlpEPcW",
     "_type": "entry",

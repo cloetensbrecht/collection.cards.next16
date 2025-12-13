@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Mienfoo",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZDzW8nJRylJUnDviIkO0IIc1",
+    "_type": "entry",
+    "_entry": "36dmGSBCGLS6WzdJfBI5bTVzaI4"
+  },
   "illustrator": {
     "_id": "34ECmMC296IBCkk2njhVrpdodqQ",
     "_type": "entry",

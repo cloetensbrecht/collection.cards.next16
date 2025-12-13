@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Vullaby",
   "energy": "darkness",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maBvzH1esKOdSor6IJ0Pmo1ug",
+    "_type": "entry",
+    "_entry": "36dmGWWzunGEJurgOWMREOL2KPq"
+  },
   "illustrator": {
     "_id": "34A8jUoXbePrnG3vd1Wwa8Bqqiv",
     "_type": "entry",

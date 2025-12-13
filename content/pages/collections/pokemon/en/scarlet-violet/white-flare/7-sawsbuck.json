@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 130,
-  "pokemon": "Sawsbuck",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mauxdcYaq77BCJCmPUob6DU5H",
+    "_type": "entry",
+    "_entry": "36dmGROCBXXwYQwRhrVN89HJoP3"
+  },
   "illustrator": {
     "_id": "349o4Di85p61NDGzCIjTjS6tdVO",
     "_type": "entry",

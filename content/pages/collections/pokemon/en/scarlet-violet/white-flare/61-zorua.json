@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Zorua",
   "energy": "darkness",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maDUtqdvLHZ5WNpfa5kQVLULa",
+    "_type": "entry",
+    "_entry": "36dmGVSa68uILI9Xt2QrsYxTKyR"
+  },
   "illustrator": {
     "_id": "34A8RvMcUKLIqLCoVGFhuUeZaKn",
     "_type": "entry",

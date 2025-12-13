@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 160,
-  "pokemon": "Stoutland",
   "energy": "colorless",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36ma0SyFooos3KdPu2ClHyzSFlz",
+    "_type": "entry",
+    "_entry": "36dmGRmc14rELHiWtlGSoE6wW0l"
+  },
   "illustrator": {
     "_id": "34AASW1BdddFADGl1FNgUqKTqsb",
     "_type": "entry",

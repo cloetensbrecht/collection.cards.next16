@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Dewott",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mZdBzRVcX3qA5JUARwKdsXrMR",
+    "_type": "entry",
+    "_entry": "36dmGS6dzllLItSLGAlCjoeQzlf"
+  },
   "illustrator": {
     "_id": "34BX4mXhT6tvWF0jjTkeFsFoqZm",
     "_type": "entry",

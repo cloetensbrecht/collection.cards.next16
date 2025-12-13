@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Patrat",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36ma49B62hnxwM1EY7CwmqjOwto",
+    "_type": "entry",
+    "_entry": "36dmGUH95vxwc7iPZZKxooBf62z"
+  },
   "illustrator": {
     "_id": "34A9pkbj8yTZnEu9IktnJZKJ4jS",
     "_type": "entry",

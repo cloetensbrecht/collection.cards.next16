@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Zoroark",
   "energy": "darkness",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36maCmEbtXufdR8cMEBG9gmdNtY",
+    "_type": "entry",
+    "_entry": "36dmGWMQ9l5WZ9cBdTKAh2yPgI9"
+  },
   "illustrator": {
     "_id": "34A8X5P8WdDBATLeoT7b9Sp1Tgq",
     "_type": "entry",

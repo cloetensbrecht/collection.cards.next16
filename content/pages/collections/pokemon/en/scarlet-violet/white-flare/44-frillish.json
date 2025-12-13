@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Frillish",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maRcPP1Xdrt6M44Hz7pzc6E3f",
+    "_type": "entry",
+    "_entry": "36dmGTQsznbRYR1Ouepeg3MA7sQ"
+  },
   "illustrator": {
     "_id": "34A2I3olhsyDeuCQ1Wknj7HpF1d",
     "_type": "entry",

@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Archen",
   "energy": "fighting",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mZFrbYdnbmyj6B1Dno2aIDP5A",
+    "_type": "entry",
+    "_entry": "36dmGQncx5NnWIGBnhklPbdca8q"
+  },
   "illustrator": {
     "_id": "34ECcZgcVgmWhLJtvk0xdSELdz8",
     "_type": "entry",

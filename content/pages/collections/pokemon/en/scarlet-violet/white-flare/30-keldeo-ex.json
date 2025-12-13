@@ -8,9 +8,13 @@
   "rarity": "double-rare",
   "cardtype": "pokemon",
   "hp": 210,
-  "pokemon": "Keldeo",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36macwLYHgt1AtKLPsIv54nH0gz",
+    "_type": "entry",
+    "_entry": "36dmGUCYZZ8fxClapbTvZV26PsM"
+  },
   "illustrator": {
     "_id": "349xqD6WRo3oVL1Ny0DOTFRqAVP",
     "_type": "entry",

@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Ducklett",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZaK3B73M1xZvo4ZihZL49dsQ",
+    "_type": "entry",
+    "_entry": "36dmGX8SDYEG8qpk1kJh25h6MV8"
+  },
   "illustrator": {
     "_id": "34BXIpwrB13lPI7sDp2mNfwN3fo",
     "_type": "entry",

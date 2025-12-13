@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Herdier",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36ma1hj7YyhTx66gp9GSAPXuyKP",
+    "_type": "entry",
+    "_entry": "36dmGSmhOEoYnqcc7JbEs8GMSpq"
+  },
   "illustrator": {
     "_id": "34AADr07TYp9NJfRoxFsvGr1u9q",
     "_type": "entry",

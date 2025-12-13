@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Accelgor",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mZnPozNIt8xRCHzj47isJGq7D",
+    "_type": "entry",
+    "_entry": "36dmGVE4rniGPgrOBUjnsZbp0x5"
+  },
   "illustrator": {
     "_id": "34BVXmCt57Fc32ol9OruiTHHnP7",
     "_type": "entry",

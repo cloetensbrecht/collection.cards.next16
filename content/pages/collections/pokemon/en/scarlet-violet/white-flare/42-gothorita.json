@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Gothorita",
   "energy": "psychic",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36maTCj2VURkGPox6HquVxKqN2X",
+    "_type": "entry",
+    "_entry": "36dmGRfs7C0bEG9hySyuxfmH7ty"
+  },
   "illustrator": {
     "_id": "34A1w0W5FKc9KjM95F6zcBXgzwH",
     "_type": "entry",

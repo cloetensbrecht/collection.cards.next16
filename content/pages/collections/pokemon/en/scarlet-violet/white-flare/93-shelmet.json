@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Shelmet",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZo5F0eHDgZ3CTkUsfUFhW6H4",
+    "_type": "entry",
+    "_entry": "36dmGUoQH9KNtnHpSKfHMVtlYVN"
+  },
   "illustrator": {
     "_id": "34BVOD0QXQnDKbgWNhFY8o0FaUC",
     "_type": "entry",

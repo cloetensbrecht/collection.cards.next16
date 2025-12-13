@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Joltik",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maaQ57jL9Yiib93fGLXvJ39Zg",
+    "_type": "entry",
+    "_entry": "36dmGXMcHzVPmNo1ogaWTLGaGkx"
+  },
   "illustrator": {
     "_id": "349yU0M397jvCteoilLTF5H6xxn",
     "_type": "entry",

@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 150,
-  "pokemon": "Vanilluxe",
   "energy": "water",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36madqWqETedtc3lnYGYLXPjQJW",
+    "_type": "entry",
+    "_entry": "36dmGUUfx7zM7d4FiqgtuTtJoPI"
+  },
   "illustrator": {
     "_id": "349xYrdRlTjUhqINsWbBfOVRTxo",
     "_type": "entry",

@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 140,
-  "pokemon": "Garbodor",
   "energy": "darkness",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36maEFVSkNvOfJedaz8Q4yVnOvK",
+    "_type": "entry",
+    "_entry": "36dmGSeV8i5DBTVuoeuwsPgBQJO"
+  },
   "illustrator": {
     "_id": "34A8KMjOJhgNpug4ChQj3IbO120",
     "_type": "entry",

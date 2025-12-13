@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Swadloon",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mZscfDxAWFkdfXd2Qa4z4PIhr",
+    "_type": "entry",
+    "_entry": "36dmGQQ4PzVylKwkbwxKjHA1wbt"
+  },
   "illustrator": {
     "_id": "34BUIPXQIEL4nQTTqkoTMSv8wsH",
     "_type": "entry",

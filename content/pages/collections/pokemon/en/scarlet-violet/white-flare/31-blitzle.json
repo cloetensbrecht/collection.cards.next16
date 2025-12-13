@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Blitzle",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mac9TY5AI0ijnOxi0p4L2b0NJ",
+    "_type": "entry",
+    "_entry": "36dmGWUcnLXc8MfgdwjdMKI6lr2"
+  },
   "illustrator": {
     "_id": "349y4ITuHbqwoWI84WMGfPRbCTC",
     "_type": "entry",

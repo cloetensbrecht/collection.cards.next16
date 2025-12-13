@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Watchog",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36ma3O0grA3Jgp78aTOulLmGlI8",
+    "_type": "entry",
+    "_entry": "36dmGT1zn3ThvSPF1lwW4e9O1SU"
+  },
   "illustrator": {
     "_id": "34A9zEdM69pCOXrJKbGtj6lVk17",
     "_type": "entry",

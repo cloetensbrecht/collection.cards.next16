@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 110,
-  "pokemon": "Sawk",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maNaKUfZE2usnSJJvkVGz27sh",
+    "_type": "entry",
+    "_entry": "36dmGRsgJtP8ASW0UkDHsALovif"
+  },
   "illustrator": {
     "_id": "34A3FdnOza4y1feK1EWJP9nqs4A",
     "_type": "entry",

@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Swanna",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36magFejA0Sa5UtxdlKDrqbor4F",
+    "_type": "entry",
+    "_entry": "36dmGWRYPhYvWgNqYqOPVaFeM0v"
+  },
   "illustrator": {
     "_id": "349wnQgU4MFuQ7QDm3ih8j7Lavn",
     "_type": "entry",

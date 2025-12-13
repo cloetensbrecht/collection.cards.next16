@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Purrloin",
   "energy": "darkness",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maIfnoloDshmRXQE2iA1884hK",
+    "_type": "entry",
+    "_entry": "36dmGWVZezJYEwwoJqoY7wgPN0u"
+  },
   "illustrator": {
     "_id": "34A7gn13dzvuSOxquJax8qFnZa4",
     "_type": "entry",

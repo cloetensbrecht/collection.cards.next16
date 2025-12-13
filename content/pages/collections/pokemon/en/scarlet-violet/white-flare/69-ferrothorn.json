@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 140,
-  "pokemon": "Ferrothorn",
   "energy": "metal",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36ma6ganR51iUvoocHcufym8oRc",
+    "_type": "entry",
+    "_entry": "36dmGRxKAquu2ucg0ZaUBK4jcxp"
+  },
   "illustrator": {
     "_id": "34A9SayWHMsrsPamQn8SLV4FYWQ",
     "_type": "entry",

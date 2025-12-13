@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Simisear",
   "energy": "fire",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mZiLTtan7LMyPqp4FI3pmVo2b",
+    "_type": "entry",
+    "_entry": "36dmGTJm83aUaOSaVc8GvNR0s1c"
+  },
   "illustrator": {
     "_id": "34BWWKqzDHJj8rmIA5Km07lUeAI",
     "_type": "entry",

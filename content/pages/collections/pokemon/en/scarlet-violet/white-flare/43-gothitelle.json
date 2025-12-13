@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 150,
-  "pokemon": "Gothitelle",
   "energy": "psychic",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36maSGba2iyyMax2CdI4VSZ0Ugt",
+    "_type": "entry",
+    "_entry": "36dmGV7H2MeUBE2AITmkHec6aEE"
+  },
   "illustrator": {
     "_id": "34A25gitY6X9I2S7M9CI21YjrqL",
     "_type": "entry",

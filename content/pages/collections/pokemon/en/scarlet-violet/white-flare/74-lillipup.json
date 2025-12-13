@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Lillipup",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36ma2im6em6v0EA2z4YxYS0rEGU",
+    "_type": "entry",
+    "_entry": "36dmGTC5FxHyEO0QggJsMjjMQ8Y"
+  },
   "illustrator": {
     "_id": "34AA77QTJoZTTHK3DUygm4llxxs",
     "_type": "entry",

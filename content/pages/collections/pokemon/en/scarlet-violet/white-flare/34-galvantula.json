@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Galvantula",
   "energy": "lightning",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36maZSQRKipweKcD53I3DAkryfh",
+    "_type": "entry",
+    "_entry": "36dmGSV7mLEwaVx44i5ID3XQpww"
+  },
   "illustrator": {
     "_id": "349yk5WmIjb8kMukesqimt6T7Bp",
     "_type": "entry",

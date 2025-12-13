@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Swadloon",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mazAX6HU5uNMccmcixV8K6q4F",
+    "_type": "entry",
+    "_entry": "36dmGQQ4PzVylKwkbwxKjHA1wbt"
+  },
   "illustrator": {
     "_id": "349k0XeX9dTvUsq9JohoolNUkJL",
     "_type": "entry",

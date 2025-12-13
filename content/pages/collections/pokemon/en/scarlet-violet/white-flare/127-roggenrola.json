@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Roggenrola",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZJW0y4fWDtthDnRGL1HNydMj",
+    "_type": "entry",
+    "_entry": "36dmGUTpZqKOLyqfWbUoBRWXyUe"
+  },
   "illustrator": {
     "_id": "34ECF3qwXia55KDDfMhuoU9DGoz",
     "_type": "entry",

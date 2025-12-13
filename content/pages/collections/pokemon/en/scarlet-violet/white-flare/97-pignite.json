@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 110,
-  "pokemon": "Pignite",
   "energy": "fire",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mZlFd7uh8yivAHDHfTDkL8Ji9",
+    "_type": "entry",
+    "_entry": "36dmGRkOYYIguuvDZ6Syi0ghGby"
+  },
   "illustrator": {
     "_id": "34BW7JMomDsyrpe1JfbS1Z1LyHh",
     "_type": "entry",

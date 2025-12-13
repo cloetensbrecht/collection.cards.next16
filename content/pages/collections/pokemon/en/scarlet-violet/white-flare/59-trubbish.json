@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Trubbish",
   "energy": "darkness",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maF1tQhth82nz4M9LWtxXmfIj",
+    "_type": "entry",
+    "_entry": "36dmGQqFq1BrvyUGLRSceIJBvs2"
+  },
   "illustrator": {
     "_id": "34A8D7u3xI3dKMTELYuTBu6o86K",
     "_type": "entry",

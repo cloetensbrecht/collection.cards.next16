@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Litwick",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36manWWwSqCFUSgELhx3IPDBXkx",
+    "_type": "entry",
+    "_entry": "36dmGWQVHNRPDz11UJZNcg8lqnt"
+  },
   "illustrator": {
     "_id": "349tXbBcvyY3RGqwXsjeFWhmg82",
     "_type": "entry",

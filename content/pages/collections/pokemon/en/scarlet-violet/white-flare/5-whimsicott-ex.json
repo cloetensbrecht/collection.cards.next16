@@ -8,9 +8,13 @@
   "rarity": "double-rare",
   "cardtype": "pokemon",
   "hp": 230,
-  "pokemon": "Whimsicott",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mawlCNKFj7QHgrMjg59aYEEYA",
+    "_type": "entry",
+    "_entry": "36dmGR8m2VofhObu2sAQ3HGNpEn"
+  },
   "illustrator": {
     "_id": "349nuDSJARKo09ot8nIwwGtjL0H",
     "_type": "entry",

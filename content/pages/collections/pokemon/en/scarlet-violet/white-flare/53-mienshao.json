@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Mienshao",
   "energy": "fighting",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36maKPL22eHsMQxHQrDyZSS1x7t",
+    "_type": "entry",
+    "_entry": "36dmGTXx4IahqxhtjxzlGrLALZW"
+  },
   "illustrator": {
     "_id": "34A3tYThgDZnfF22oLoj5hCOr9o",
     "_type": "entry",

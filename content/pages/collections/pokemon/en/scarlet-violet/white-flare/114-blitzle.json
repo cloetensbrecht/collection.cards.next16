@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Blitzle",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZW9rfI8UEkJMdwh7HjE0pJck",
+    "_type": "entry",
+    "_entry": "36dmGWUcnLXc8MfgdwjdMKI6lr2"
+  },
   "illustrator": {
     "_id": "34EAvohA6sbNUnORTofSHGq6izf",
     "_type": "entry",

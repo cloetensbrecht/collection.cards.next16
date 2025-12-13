@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 150,
-  "pokemon": "Chandelure",
   "energy": "fire",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36mZflH558FjRSMMeTuCHgklET5",
+    "_type": "entry",
+    "_entry": "36dmGUTNby63Vi5yKyfntsp3SmT"
+  },
   "illustrator": {
     "_id": "34BWqsHYMd2quuvcmWnLYgkaU0u",
     "_type": "entry",

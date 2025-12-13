@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Basculin",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mahcqxxLLKhEeqfCJ88yFpKoR",
+    "_type": "entry",
+    "_entry": "36dmGVTF95lCVxGej9ig09jx9bK"
+  },
   "illustrator": {
     "_id": "349wDeGx9NJSo3DleLfsbhGblpq",
     "_type": "entry",

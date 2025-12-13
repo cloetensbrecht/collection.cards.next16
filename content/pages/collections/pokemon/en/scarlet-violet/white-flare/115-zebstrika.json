@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Zebstrika",
   "energy": "lightning",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mZV7ba50hSitnkFipdIZdhPyk",
+    "_type": "entry",
+    "_entry": "36dmGWiWAFxmDkFn8ieDFvACMUt"
+  },
   "illustrator": {
     "_id": "34EAzReXWeexGfdcJ8L2RTIfTHP",
     "_type": "entry",

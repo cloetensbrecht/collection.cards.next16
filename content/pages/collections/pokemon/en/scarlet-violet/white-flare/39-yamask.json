@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Yamask",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maVRwBlDQa7mHMbR9hzsrvCF1",
+    "_type": "entry",
+    "_entry": "36dmGTwdayxHrjKIDfQ685q3MLF"
+  },
   "illustrator": {
     "_id": "34A0CioJeRBMNnLSxEA05L9h3wt",
     "_type": "entry",

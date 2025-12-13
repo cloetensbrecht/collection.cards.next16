@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Oshawott",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZdzy7brllieXhZGTU4IhIdFO",
+    "_type": "entry",
+    "_entry": "36dmGVUrGtgq8jWiusg8v3xV3ym"
+  },
   "illustrator": {
     "_id": "34BX0SXtbtbaffxR59fczDpEFb1",
     "_type": "entry",

@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Pansear",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZjTT7RlvcEqPdd6gWYS5aaVp",
+    "_type": "entry",
+    "_entry": "36dmGTBkXZeS8wTFiD9IoDj1kP8"
+  },
   "illustrator": {
     "_id": "34BWT5sMREgDTFykK1wtoYW5Npr",
     "_type": "entry",

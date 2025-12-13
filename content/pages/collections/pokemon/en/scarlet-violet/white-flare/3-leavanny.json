@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 130,
-  "pokemon": "Leavanny",
   "energy": "grass",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36mayMBVUfRhqdVGLGtCwOVsRLn",
+    "_type": "entry",
+    "_entry": "36dmGSI2kW9brevSV2P8rb7m32O"
+  },
   "illustrator": {
     "_id": "349k8Kq9fT87jjmj4JZBC4R4MZR",
     "_type": "entry",

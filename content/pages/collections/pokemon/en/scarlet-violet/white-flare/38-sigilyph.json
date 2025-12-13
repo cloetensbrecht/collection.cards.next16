@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Sigilyph",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36maW4aphi9ByLRIZwrvDvO9pfw",
+    "_type": "entry",
+    "_entry": "36dmGQtC6HC5EBQW6mN2eU9wq4t"
+  },
   "illustrator": {
     "_id": "349zkl5FZlg2eZZixl7d0MMvwhX",
     "_type": "entry",

@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Swoobat",
   "energy": "psychic",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36maWweDxga0vvRn4kSp3owaT3N",
+    "_type": "entry",
+    "_entry": "36dmGQEn09qZOj7QJaig1JBiVJi"
+  },
   "illustrator": {
     "_id": "349zOnaRR0Bez2nQtYoV5bGRhDO",
     "_type": "entry",

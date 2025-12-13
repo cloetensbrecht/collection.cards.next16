@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Tepig",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZlvw3Yj7vrNGuAxqvcKK29jL",
+    "_type": "entry",
+    "_entry": "36dmGT4cfeQTPro6prbSl11NLy0"
+  },
   "illustrator": {
     "_id": "34BW3C8ss8nfEg95N9MwKefCSDC",
     "_type": "entry",

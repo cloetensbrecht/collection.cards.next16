@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Cofagrigus",
   "energy": "psychic",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36mZN7YHMkpUrsWzvtOdPVCjxvR",
+    "_type": "entry",
+    "_entry": "36dmGRMapQAQhVPnw64ZKNtZoof"
+  },
   "illustrator": {
     "_id": "34EBqwu3fLYxSBOYRlPNXCWpC7c",
     "_type": "entry",

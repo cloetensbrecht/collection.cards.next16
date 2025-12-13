@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 160,
-  "pokemon": "Samurott",
   "energy": "water",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36mZcIgYnrmMNP5WT7IRvxxooZz",
+    "_type": "entry",
+    "_entry": "36dmGRYn1SZw8GxGwwkHe672a7X"
+  },
   "illustrator": {
     "_id": "34BX8F0tmJVWS9i3G3szGrQbpiz",
     "_type": "entry",

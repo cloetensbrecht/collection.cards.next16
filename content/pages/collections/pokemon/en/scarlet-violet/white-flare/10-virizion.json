@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Virizion",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36masTxHNJkLsm4aOxobE7Ce421",
+    "_type": "entry",
+    "_entry": "36dmGR2l5ar9iqyA37KWp7g8esh"
+  },
   "illustrator": {
     "_id": "349qkD045KYkBeHwcOZuc0xve2y",
     "_type": "entry",

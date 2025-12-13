@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Vanillite",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZYVqjdToqzHrNPPAkSds6Uvi",
+    "_type": "entry",
+    "_entry": "36dmGU63Fxy45K5uQpct0LAKDQM"
+  },
   "illustrator": {
     "_id": "34EAbo2NduNQ7NqaQcCE8JKhSYc",
     "_type": "entry",

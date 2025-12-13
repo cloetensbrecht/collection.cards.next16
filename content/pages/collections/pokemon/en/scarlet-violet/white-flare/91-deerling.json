@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Deerling",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36mZpl0dnJPBotBIt5bnsFEOxEO",
+    "_type": "entry",
+    "_entry": "36dmGQnJ7n8dxNZ0MN1QOfOHkQj"
+  },
   "illustrator": {
     "_id": "34BV8CWHWrEPMch3MO4eU2tOusA",
     "_type": "entry",
