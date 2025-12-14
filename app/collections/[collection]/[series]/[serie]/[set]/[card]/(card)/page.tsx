@@ -4,10 +4,10 @@ import {PokemonSerie} from '@/alinea/schemas/PokemonSerie'
 import {PokemonSeries} from '@/alinea/schemas/PokemonSeries'
 import {PokemonSet} from '@/alinea/schemas/PokemonSet'
 import {cms} from '@/cms'
-import CardGrid, {CardGridProps} from '@/components/cardgrid/CardGrid'
+import CardGrid from '@/components/cardgrid/CardGrid'
 import Container from '@/components/container/Container'
 import {Title} from '@/components/title/Title'
-import {blurDataURL} from '@/lib/blurDataURL'
+import {fetchPokemonCards} from '@/server/fetchPokemonCards'
 import {Query} from 'alinea'
 import {notFound} from 'next/navigation'
 
@@ -22,54 +22,7 @@ const fetchCardData = async (url: string) => {
 
   if (!data) return null
 
-  const cards = [] as CardGridProps['cards']
-
-  const basicInfo: CardGridProps['cards'][number] = {
-    blurDataURL: blurDataURL(data.card?.thumbHash),
-    cardtype: data.cardtype,
-    edgeColor: data.edgeColor,
-    energy: data.energy,
-    focus: data.card?.focus,
-    glowColor:
-      data.energy || data.subtype
-        ? `var(--${data.energy || data.subtype})`
-        : undefined,
-    hp: data.hp,
-    id: data._id,
-    pokemon: data.pokemon,
-    src: data.card ? `/media${data.card?.src}` : undefined,
-    title: data.title,
-    variant: 'normal',
-    // details for PokemonCardDetailsProps:
-    isEx: data.isEx,
-    isFullArt: data.isFullArt,
-    isTrainerGallery: data.isTrainerGallery,
-    number: data.number,
-    rarity: data.rarity
-  }
-
-  // there are no variants, add the normal card
-  if (!data.variants || data.variants.length === 0) {
-    cards.push(basicInfo)
-  }
-
-  // add the variants
-  data.variants?.forEach(variant => {
-    cards.push({
-      ...basicInfo,
-      id: variant._id,
-      foil: variant.foil?.src || undefined,
-      mask: variant.mask?.src || undefined,
-      pattern: variant.pattern || undefined,
-      src:
-        variant.variant === 'reverse_holofoil' && data.reverseCard?.src
-          ? `/media${data.reverseCard?.src}`
-          : basicInfo.src,
-      title: `${basicInfo.title}`,
-      variant: variant.variant || 'normal'
-    })
-  })
-
+  const cards = await fetchPokemonCards([data._id])
   return {
     ...data,
     cards

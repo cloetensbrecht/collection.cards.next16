@@ -4,11 +4,11 @@ import {PokemonSerie} from '@/alinea/schemas/PokemonSerie'
 import {PokemonSeries} from '@/alinea/schemas/PokemonSeries'
 import {PokemonSet} from '@/alinea/schemas/PokemonSet'
 import {cms} from '@/cms'
-import CardGrid, {CardGridProps} from '@/components/cardgrid/CardGrid'
+import CardGrid from '@/components/cardgrid/CardGrid'
 import Container from '@/components/container/Container'
 import PokemonSetOverview from '@/components/pokemonsetoverview/PokemonSetOverview'
 import {Title} from '@/components/title/Title'
-import {blurDataURL} from '@/lib/blurDataURL'
+import {fetchPokemonCards} from '@/server/fetchPokemonCards'
 import {Query} from 'alinea'
 import Image from 'next/image'
 import {notFound} from 'next/navigation'
@@ -21,6 +21,7 @@ const fetchSetData = async (url: string) => {
       ...PokemonSet,
       cards: Query.children({
         type: PokemonCard,
+        select: {id: Query.id},
         orderBy: {asc: PokemonCard.number}
       })
     },
@@ -30,66 +31,15 @@ const fetchSetData = async (url: string) => {
     }
   })
 
-  return data
-    ? {
-        ...data,
-        cards: (data.cards as (PokemonCard & {_id: string})[]).reduce(
-          (acc, item) => {
-            if (!item.card?.src) return acc
+  if (!data) return null
 
-            const basicInfo: CardGridProps['cards'][number] = {
-              blurDataURL: blurDataURL(item.card?.thumbHash),
-              cardtype: item.cardtype,
-              edgeColor: item.edgeColor,
-              energy: item.energy,
-              focus: item.card?.focus,
-              glowColor:
-                item.energy || item.subtype
-                  ? `var(--${item.energy || item.subtype})`
-                  : undefined,
-              hp: item.hp,
-              id: item._id,
-              pokemon: item.pokemon,
-              src: `/media${item.card.src}`,
-              title: item.title,
-              variant: 'normal',
-              // details for PokemonCardDetailsProps:
-              isEx: item.isEx,
-              isFullArt: item.isFullArt,
-              isTrainerGallery: item.isTrainerGallery,
-              number: item.number,
-              rarity: item.rarity
-            }
+  const cardIds = data?.cards.map(card => card.id) || []
+  const cards = await fetchPokemonCards(cardIds)
 
-            // there are no variants, add the normal card
-            if (!item.variants || item.variants.length === 0) {
-              acc.push(basicInfo)
-              return acc
-            }
-
-            // add the variants
-            item.variants?.forEach(variant => {
-              acc.push({
-                ...basicInfo,
-                id: variant._id,
-                foil: variant.foil?.src || undefined,
-                mask: variant.mask?.src || undefined,
-                pattern: variant.pattern || undefined,
-                src:
-                  variant.variant === 'reverse_holofoil' &&
-                  item.reverseCard?.src
-                    ? `/media${item.reverseCard?.src}`
-                    : basicInfo.src,
-                title: `${basicInfo.title}`,
-                variant: variant.variant || 'normal'
-              })
-            })
-            return acc
-          },
-          [] as CardGridProps['cards']
-        )
-      }
-    : null
+  return {
+    ...data,
+    cards
+  }
 }
 
 export async function generateStaticParams() {

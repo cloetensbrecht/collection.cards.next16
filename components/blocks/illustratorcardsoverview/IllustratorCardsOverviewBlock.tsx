@@ -2,54 +2,24 @@ import {IllustratorCardsOverviewBlock as IllustratorCardsOverviewBlockSchema} fr
 import {PokemonCard} from '@/alinea/schemas/PokemonCard'
 import {cms} from '@/cms'
 import CardGrid, {CardGridProps} from '@/components/cardgrid/CardGrid'
-import {blurDataURL} from '@/lib/blurDataURL'
+import {fetchPokemonCards} from '@/server/fetchPokemonCards'
 import {Query} from 'alinea'
 
 const fetchIllustratorCards = async (
   illustratorId: string
 ): Promise<CardGridProps['cards']> => {
-  return (
-    await cms.find({
-      type: PokemonCard,
-      select: {
-        ...PokemonCard,
-        id: Query.id
-      },
-      filter: {
-        illustrator: {has: {_entry: {in: [illustratorId]}}}
-      },
-      orderBy: {asc: Query.id}
-    })
-  )
-    .filter(({card}) => card !== undefined && card.src)
-    .map(item => {
-      const card: CardGridProps['cards'][number] = {
-        blurDataURL: blurDataURL(item.card?.thumbHash),
-        cardtype: item.cardtype,
-        edgeColor: item.edgeColor,
-        energy: item.energy,
-        focus: item.card?.focus,
-        foil: item.variants?.[0]?.foil?.src || undefined,
-        glowColor:
-          item.energy || item.subtype
-            ? `var(--${item.energy || item.subtype})`
-            : undefined,
-        hp: item.hp,
-        id: item.id,
-        mask: item.variants?.[0]?.mask?.src || undefined,
-        pattern: item.variants?.[0]?.pattern || undefined,
-        src: `/media${item.card.src}`,
-        title: item.title,
-        variant: item.variants?.[0]?.variant || 'normal',
-        // details for PokemonCardDetailsProps:
-        isEx: item.isEx,
-        isFullArt: item.isFullArt,
-        isTrainerGallery: item.isTrainerGallery,
-        number: item.number,
-        rarity: item.rarity
-      }
-      return card
-    })
+  const illustratorCardIds = await cms.find({
+    type: PokemonCard,
+    select: {
+      id: Query.id
+    },
+    filter: {
+      illustrator: {has: {_entry: {in: [illustratorId]}}}
+    },
+    orderBy: {asc: Query.id}
+  })
+
+  return await fetchPokemonCards(illustratorCardIds.map(pc => pc.id))
 }
 
 const IllustratorCardsOverviewBlock: React.FC<
