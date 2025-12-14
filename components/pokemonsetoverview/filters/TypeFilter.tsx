@@ -8,7 +8,7 @@ type TypeFilterProps = {
 }
 
 const TypeFilter: React.FC<TypeFilterProps> = ({options, onChange, selected}) =>
-  options.length > 0 ? (
+  options.length > 1 ? (
     <MultiSelect
       innerLabel="Filter by Type"
       label="Type"

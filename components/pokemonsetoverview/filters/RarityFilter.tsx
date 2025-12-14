@@ -12,7 +12,7 @@ const RarityFilter: React.FC<RarityFilterProps> = ({
   onChange,
   selected
 }) =>
-  options.length > 0 ? (
+  options.length > 1 ? (
     <MultiSelect
       label="Rarity"
       innerLabel="Filter by Rarity"

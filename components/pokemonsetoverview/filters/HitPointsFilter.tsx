@@ -11,7 +11,7 @@ const HitPointsFilter: React.FC<HitPointsFilterProps> = ({
   onChange,
   selected
 }) =>
-  options.length > 0 ? (
+  options.length > 1 ? (
     <MultiSelect
       label="Hit Points"
       innerLabel="Filter by Hit Points"

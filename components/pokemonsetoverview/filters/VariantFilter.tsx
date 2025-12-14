@@ -22,7 +22,7 @@ const VariantFilter: React.FC<VariantFilterProps> = ({
   onChange,
   selected
 }) =>
-  options.length > 0 ? (
+  options.length > 1 ? (
     <MultiSelect
       innerLabel="Filter by Variant"
       label="Variant"

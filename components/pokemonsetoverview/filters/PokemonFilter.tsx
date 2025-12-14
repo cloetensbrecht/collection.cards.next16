@@ -15,7 +15,7 @@ const PokemonFilter: React.FC<PokemonFilterProps> = ({
   onChange,
   selected
 }) =>
-  options.length > 0 ? (
+  options.length > 1 ? (
     <MultiSelect
       innerLabel="Filter by Pokémon"
       label="Pokémon"

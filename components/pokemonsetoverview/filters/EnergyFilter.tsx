@@ -12,7 +12,7 @@ const EnergyFilter: React.FC<EnergyFilterProps> = ({
   onChange,
   selected
 }) =>
-  options.length > 0 ? (
+  options.length > 1 ? (
     <MultiSelect
       innerLabel="Filter by Energy"
       label="Energy"
