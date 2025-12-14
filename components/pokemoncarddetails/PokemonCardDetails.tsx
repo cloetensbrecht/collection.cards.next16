@@ -1,10 +1,12 @@
 'use client'
 
+import {PokemonCard} from '@/alinea/schemas/PokemonCard'
 import {Energy, energy as energyList, getEnergyIcon} from '@/consts/energy'
 import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/pattern'
 import {variant, variantPattern} from '@/consts/variant'
 import {AnimatePresence, motion} from 'framer-motion'
 import {Sparkles} from 'lucide-react'
+import Link from 'next/link'
 import {createElement, useState} from 'react'
 import {Title} from '../title/Title'
 import {Button} from '../ui/button'
@@ -15,6 +17,7 @@ export type PokemonCardDetailsProps = {
   id: string
   number: string
   pattern?: keyof typeof reverseHolofoilPatterns | keyof typeof holofoilPatterns
+  pokemon: PokemonCard['pokemon']
   variant: keyof typeof variant
   title: string
 }
@@ -26,6 +29,7 @@ export default function PokemonCardDetails({
   id,
   number,
   pattern,
+  pokemon,
   title,
   variant
 }: PokemonCardDetailsProps & {
@@ -101,6 +105,7 @@ export default function PokemonCardDetails({
               </Label>
             </p>
           )}
+          {pokemon && <Link href={pokemon.href}>{pokemon.title}</Link>}
         </motion.div>
       </AnimatePresence>
 

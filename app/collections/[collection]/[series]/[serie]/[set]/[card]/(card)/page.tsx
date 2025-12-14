@@ -36,6 +36,7 @@ const fetchCardData = async (url: string) => {
         : undefined,
     hp: data.hp,
     id: data._id,
+    pokemon: data.pokemon,
     src: data.card ? `/media${data.card?.src}` : undefined,
     title: data.title,
     variant: 'normal',

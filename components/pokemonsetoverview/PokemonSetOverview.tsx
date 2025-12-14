@@ -27,6 +27,7 @@ import Tooltip from '../tooltip/Tooltip'
 import {ToggleGroup, ToggleGroupItem} from '../ui/toggle-group'
 import EnergyFilter from './filters/EnergyFilter'
 import HitPointsFilter from './filters/HitPointsFilter'
+import PokemonFilter from './filters/PokemonFilter'
 import RarityFilter from './filters/RarityFilter'
 import TypeFilter from './filters/TypeFilter'
 import VariantFilter from './filters/VariantFilter'
@@ -83,12 +84,16 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
     ...(Object.keys(holofoilPatterns) as Pattern[]),
     ...(Object.keys(reverseHolofoilPatterns) as Pattern[])
   ])
+  const pokemonParser = parseAsStringEnum<string>(
+    cards.map(card => card.pokemon?.path || '')
+  )
   const [filters, setFilters] = useQueryStates({
     energy: energyParser,
     hp: parseAsInteger,
     rarity: rarityParser,
     cardtype: cardTypeParser,
-    variant: variantParser
+    variant: variantParser,
+    pokemon: pokemonParser
   })
   const [viewMode, setViewMode] = useQueryState(
     'view',
@@ -109,6 +114,8 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
   const selectedRarity = filters.rarity
   const selectedCardType = filters.cardtype
   const selectedVariant = filters.variant
+  const selectedPokemon = filters.pokemon
+  console.log({selectedPokemon})
 
   const availableEnergies = Array.from(
     new Set(cards.map(card => card.energy).filter(Boolean))
@@ -157,6 +164,19 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
     return indexA - indexB
   })
 
+  const availablePokemonsMap = new Map<string, {label: string; value: string}>()
+  cards.forEach(card => {
+    if (card.pokemon) {
+      availablePokemonsMap.set(card.pokemon.path, {
+        label: card.pokemon.title,
+        value: card.pokemon.path
+      })
+    }
+  })
+  const availablePokemons = Array.from(availablePokemonsMap.values()).sort(
+    (a, b) => a.label.localeCompare(b.label)
+  )
+
   const filteredCards = useMemo(
     () =>
       stackCards(
@@ -170,6 +190,8 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
             const cardVariant = card.pattern || card.variant
             if (cardVariant !== selectedVariant) return false
           }
+          if (selectedPokemon && card.pokemon?.path !== selectedPokemon)
+            return false
           return true
         }),
         stack
@@ -180,6 +202,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
       selectedHitPoints,
       selectedRarity,
       selectedCardType,
+      selectedPokemon,
       selectedVariant,
       stack
     ]
@@ -229,6 +252,13 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
               setFilters({variant: value})
             }}
             selected={selectedVariant}
+          />
+          <PokemonFilter
+            options={availablePokemons}
+            onChange={({value}) => {
+              setFilters({pokemon: value})
+            }}
+            selected={selectedPokemon}
           />
         </div>
         <div className="flex items-center gap-2 lg:gap-4">

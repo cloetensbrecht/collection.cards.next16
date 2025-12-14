@@ -49,6 +49,7 @@ const fetchSetData = async (url: string) => {
                   : undefined,
               hp: item.hp,
               id: item._id,
+              pokemon: item.pokemon,
               src: `/media${item.card.src}`,
               title: item.title,
               variant: 'normal',
