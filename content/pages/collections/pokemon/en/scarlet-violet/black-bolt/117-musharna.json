@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Musharna",
   "energy": "psychic",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pUCIk6JYvBqqt2KotXzqZrCtu",
+    "_type": "entry",
+    "_entry": "36dmGRNml7J5ICPoRYYEuPCdEA5"
+  },
   "illustrator": {
     "_id": "33vyUe58vtkqtVW86p1GLplkEbo",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBPC19KyDwmimbqlzYWKSyEr"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320FJfjor2t9xq5CCrIxPyRE5mT",

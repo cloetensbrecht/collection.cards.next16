@@ -8,9 +8,13 @@
   "rarity": "special-illustration-rare",
   "cardtype": "pokemon",
   "hp": 230,
-  "pokemon": "Zekrom",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pTWk4B1xHHVoTPxNhFmh067xH",
+    "_type": "entry",
+    "_entry": "36dmGQNrWUKnriDJIrW4i5bxkYp"
+  },
   "illustrator": {
     "_id": "33vwhngwBzOsFYzFTEaEL7Eg0gg",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBTG5RCMNegukfshZ0sieD1P"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320W2dGzBVhcQjcyNCvbSAavQlh",

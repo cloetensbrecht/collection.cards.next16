@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Krokorok",
   "energy": "darkness",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pUxXU38XdItlDiLaF9ftEDOg8",
+    "_type": "entry",
+    "_entry": "36dmGR0N4j7Y66ZiAU8HMPvofmH"
+  },
   "illustrator": {
     "_id": "33w0L6LQ7pNT09dqqcpU06of5QB",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31woH5yPTwJTxg3zfB63uyQncZt"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wsFHTWcWVKQsErdWXIwMNlzcV",

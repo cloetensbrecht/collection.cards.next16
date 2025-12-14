@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Foongus",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUUhDJ7vBWC6PUOzpWFd1hllo",
+    "_type": "entry",
+    "_entry": "36dmGWellYIf21ds8htaq33s6El"
+  },
   "illustrator": {
     "_id": "33vzA71bMVs9qx3yyYtpyAK3nOh",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31zafIgWqPB8G4MrBG7jMbypqoI"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31zak7ml5328WUPeSonkSt5Pbma",

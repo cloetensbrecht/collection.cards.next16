@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Farfetch’d",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pZpgquXym6RoiZk622odjpyeH",
+    "_type": "entry",
+    "_entry": "36dmGRhg0tCixKpmKdXO59u2nT0"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CJUFFYpqIMCMy2R4LEq9nulGf",
     "_type": "image",
     "_entry": "31A25ErbtmOs6GeTc7aNwPCAn3S"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

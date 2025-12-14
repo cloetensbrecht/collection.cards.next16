@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 150,
-  "pokemon": "Beartic",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pVX1xQHHmz8n8pooa2rUna1ku",
+    "_type": "entry",
+    "_entry": "36dmGRi90PEa6Al0pO3pQcSCe2z"
+  },
   "illustrator": {
     "_id": "33w1G9jJJJzh0NYXi6sr8eqnZJy",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31oiF91n8fSravgsJNGXGtIU3HP"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31opEZSk4d80wgZybT5ZJP1HFUZ",

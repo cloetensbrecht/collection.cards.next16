@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Meowth",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWqkrl2w7MIeVl4WC3euLxlvw",
+    "_type": "entry",
+    "_entry": "36dmGSgVrf0WhzKtuQOQ7WugLot"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qE0HyhvcZFQMYccguPlYbcNWo",
     "_type": "image",
     "_entry": "30q9C02f2BimfE9AXmV63I70Z3q"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

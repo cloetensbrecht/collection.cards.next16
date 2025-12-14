@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Darumaka",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUSyRNMWZfupa8DzLjRFBYhBO",
+    "_type": "entry",
+    "_entry": "36dmGRbLkVtD0VkDJIJO7RVRURS"
+  },
   "illustrator": {
     "_id": "33vz70aTN1XjQwyqfdclLCqRTud",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31zbLdAPBq3TLLSobMlJ5vu60Fs"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31zbRgvNww80gr58VcVT4Ab2plj",

@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Mewtwo",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pb3Xj2ODIihvxprnG4x69qAkp",
+    "_type": "entry",
+    "_entry": "36dmGQb4xP8IadRT6HMKzaJJ9Nl"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oUINasz1U7iLsYLS3Bx3xocyl",
     "_type": "image",
     "_entry": "30oJl9FihZTMQOjXljlcFzkU3Ih"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

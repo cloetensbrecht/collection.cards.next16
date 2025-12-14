@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Pinsir",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pXPF5pO08BfftS9eBZr98Q41a",
+    "_type": "entry",
+    "_entry": "36dmGWVmVwBdpvQFjOoHXiSYZWH"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qBaQxgtfsv9ySgMp1wHyePoxJ",
     "_type": "image",
     "_entry": "30q9C5AIalu16fUbDv0YwLxmvsT"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

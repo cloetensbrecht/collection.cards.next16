@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Ivysaur",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pYZNVAUKG5QHyPVkS7lNQ1IY6",
+    "_type": "entry",
+    "_entry": "36dmGVF10vcAVKJlLDkYPxErvfs"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31XZQALpZ4SKAngmmLw42iE6BhH",
     "_type": "image",
     "_entry": "31XZLqmwEH9h6ksPhXdeNWnqDTW"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Charmeleon",
   "energy": "fire",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pasOh2POTIyFUuMeRllg57Af2",
+    "_type": "entry",
+    "_entry": "36dmGTrspOMj4c0Rd6TrcfWmpKK"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oZrMYXTG8WRDg27R8mwld85nr",
     "_type": "image",
     "_entry": "30oJlA4MfX7zeER4soz9HenHJdK"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

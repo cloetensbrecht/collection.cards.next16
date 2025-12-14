@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 140,
-  "pokemon": "Conkeldurr",
   "energy": "fighting",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pV5BYGuebhJcBsCHhYSoxUF32",
+    "_type": "entry",
+    "_entry": "36dmGW6vqpTcD7shHl29ebVdOZs"
+  },
   "illustrator": {
     "_id": "33w0cC9PoiEx5qSx0bXFVayZ0Zm",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wiztOVLfIfR7CiIVCju3J2qyT"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wmsrno9e7BooYfYGp2ilhdyB3",

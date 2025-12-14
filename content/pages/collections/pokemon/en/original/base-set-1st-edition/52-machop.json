@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Machop",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36paWu3KorgVKdu9x4OTzAVuyDr",
+    "_type": "entry",
+    "_entry": "36dmGR2Hf1x7srXUDAA9FRBzTK0"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30od85Y6e5WkayIwOijZQEf3M0t",
     "_type": "image",
     "_entry": "30oJlEtXW2Z9zw88SmzryGCnvuf"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

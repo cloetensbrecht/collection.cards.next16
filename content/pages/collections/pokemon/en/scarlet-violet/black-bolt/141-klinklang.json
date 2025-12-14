@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 150,
-  "pokemon": "Klinklang",
   "energy": "metal",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pTrNRZw8UoQtWuSTIbyG3Wxar",
+    "_type": "entry",
+    "_entry": "36dmGUw1gG0KnsMw0dSWNdECcer"
+  },
   "illustrator": {
     "_id": "33vxk4aIFzaEluphJOdRsN2FHAE",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBQT9lU2NT6dsf8mdWBlj1nz"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320Qh9yRmGNY5tuCxFFHHDjnzV3",

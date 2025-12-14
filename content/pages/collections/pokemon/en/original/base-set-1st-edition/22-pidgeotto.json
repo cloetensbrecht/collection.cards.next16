@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Pidgeotto",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36patyZfbkxcqUaHtCn9PCY5I29",
+    "_type": "entry",
+    "_entry": "36dmGS5kHlA8czV23E6ydVsD0w2"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oZatpUanCHY9pQ6c8dU3vj0JE",
     "_type": "image",
     "_entry": "30oJl8htf5ZUR8seI3HFBXvpCRs"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

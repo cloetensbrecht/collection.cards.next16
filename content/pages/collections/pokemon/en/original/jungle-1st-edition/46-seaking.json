@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Seaking",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pX1At56zjdT5xi5fdfxAUBdhX",
+    "_type": "entry",
+    "_entry": "36dmGQzKeOFnFXFfj8JC7yUbrGf"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qDFRvjrZ2ClNmA0F7ahcOEzJK",
     "_type": "image",
     "_entry": "30q9C6G2x2TsoVYU9m1oYyxbpEA"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

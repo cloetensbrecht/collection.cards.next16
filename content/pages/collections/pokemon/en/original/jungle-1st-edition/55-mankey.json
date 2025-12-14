@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 30,
-  "pokemon": "Mankey",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWrnaP1vfPgtKs6v9ScD55XMz",
+    "_type": "entry",
+    "_entry": "36dmGQlCl38T25c89i593sQL3UK"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qDw8xKDXZbNl0poT8uUAnvhpf",
     "_type": "image",
     "_entry": "30q9BzQPfmGbCytJ4cgLB9pfFNO"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

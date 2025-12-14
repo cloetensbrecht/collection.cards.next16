@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Fearow",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pXD5Ydl0SjFrzcRqslqnQzXl5",
+    "_type": "entry",
+    "_entry": "36dmGU7b4ArlxhsOqcYkA6b5765"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qCV4fFbtKlqRSmvRtIgicz84C",
     "_type": "image",
     "_entry": "30q9C2fU6SsdbOh83bpzwSrYpgu"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

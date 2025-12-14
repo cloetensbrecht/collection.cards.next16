@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Elgyem",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVD1RokUztFgKOnp4k5cDCS6g",
+    "_type": "entry",
+    "_entry": "36dmGWTqzgMWzWAtLx1ECDkANaX"
+  },
   "illustrator": {
     "_id": "33w0vFRdxpqNdT5om5VBuPYEyDH",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31ve9QubSo5nQXe83zDbtVqUtJ7"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wiD56O2VLBFgqE0iC0PkLo3vG",

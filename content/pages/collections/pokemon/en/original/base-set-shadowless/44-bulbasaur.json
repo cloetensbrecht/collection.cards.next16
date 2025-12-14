@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Bulbasaur",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pZZTpla6pD2M4CtBFgEORneF6",
+    "_type": "entry",
+    "_entry": "36dmGTtxW7600GckSwIKeAFghxM"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CJAE381DlzybKeqlxnbbqPdFq",
     "_type": "image",
     "_entry": "31A25B1WOvNb2JK11BsTeEti402"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

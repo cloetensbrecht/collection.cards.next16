@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Kangaskhan",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pXU8Qv9A0JnfOd3xy8Q5sX1Ut",
+    "_type": "entry",
+    "_entry": "36dmGVUDIzcmIY9MEt096dBX7eB"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qBC0dF5dvjEa3fPcm9oFOAozG",
     "_type": "image",
     "_entry": "30q9C60keAfEoLfyapgckx7mCtY"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

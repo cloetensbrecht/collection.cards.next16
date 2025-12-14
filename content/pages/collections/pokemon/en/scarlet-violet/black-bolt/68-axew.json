@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Axew",
   "energy": "dragon",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUpCBN0vGVoSLkOUWmg5BfMqg",
+    "_type": "entry",
+    "_entry": "36dmGXRhIRYYJHHsGYJ0ZBlRlxO"
+  },
   "illustrator": {
     "_id": "33w043YxHetn9mh5zWjRlgP9NvZ",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wtY2OGJ8Lf4ujSi7vdu5uc8nG"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wxK0H4cQv9mBD5cMGHGyeEE7s",

@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Nidorino",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36paibBZ2M07P648LdvrBVZm8iv",
+    "_type": "entry",
+    "_entry": "36dmGWK5XEWhqxmeR5E81EcPpeZ"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30obVdL3OttQivmbtVQrOypmFeD",
     "_type": "image",
     "_entry": "30oJlCPQIo77Xn4yc1sAy4Tus7j"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

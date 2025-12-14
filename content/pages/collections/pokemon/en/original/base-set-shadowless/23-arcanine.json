@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Arcanine",
   "energy": "fire",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pZt4CXvSLVvOOfDsBtOuwaXBj",
+    "_type": "entry",
+    "_entry": "36dmGRZuMFo84sh31nmTeZJmG67"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CJxKlKvOvj3eAcYast0FDGkUp",
     "_type": "image",
     "_entry": "311ZYrE1SeMRH7KHRSZk9nLajrl"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

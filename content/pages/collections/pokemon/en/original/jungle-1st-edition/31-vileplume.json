@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Vileplume",
   "energy": "grass",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pXIunfa3my7lt3Hs3aeDwZtzK",
+    "_type": "entry",
+    "_entry": "36dmGWRoxFCvceU8CXrfBkqnvGG"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qC37uCID2bVIGK2eg8Rhrj8YD",
     "_type": "image",
     "_entry": "30q9Bz8K0UktQuaF0ULBHsFqucL"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

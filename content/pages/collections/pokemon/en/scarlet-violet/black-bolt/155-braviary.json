@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 140,
-  "pokemon": "Braviary",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pTfJQLejjWQGaq7T8FRgGe6XD",
+    "_type": "entry",
+    "_entry": "36dmGWKQ9CZUaQCvya8Q0pvcTzz"
+  },
   "illustrator": {
     "_id": "33vxAx9pxwkIqtsIXp8njYDJXG6",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBQfcky2kfcz8Zvy1zMW1aOd"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320TPpDWx7cklc0wJwL1CL7Y7hb",

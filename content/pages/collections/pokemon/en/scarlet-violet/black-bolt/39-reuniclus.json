@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 140,
-  "pokemon": "Reuniclus",
   "energy": "psychic",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pVDlCzGDpz4p7xW9RhKGkq1P6",
+    "_type": "entry",
+    "_entry": "36dmGUgwjBQbokZhF8lPqtKHgwC"
+  },
   "illustrator": {
     "_id": "33w0wSgAVwE3S5xnmzALHE3I5Rj",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31ve9VLnNRomoqZX5DnqFcEHwo4"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31whoZNFNYSdCPvTCd1qEk4o3vN",

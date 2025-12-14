@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Cryogonal",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVW8n99GAGyHaoaRDWs6zwWkn",
+    "_type": "entry",
+    "_entry": "36dmGTJMq2UVdBGcydtgRrNIZnS"
+  },
   "illustrator": {
     "_id": "33w1EeR8bsKXSWB7ofr7qelnQbv",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31oiFBS9NJea3ZzrmagbGMm3tD5"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31opmLPbVsh4MkjmpDNxU0ZI0YA",

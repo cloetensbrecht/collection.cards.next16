@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Caterpie",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pYLmI2rIPkbf6SIggXArrNgKA",
+    "_type": "entry",
+    "_entry": "36dmGXBC3R25sF4gLXKv2K2imOC"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31YJ4JOuS87Q0gkZKuf4p73bO8z",
     "_type": "image",
     "_entry": "31YJ0Km3fLsZYXfjTHqWeLuCefc"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Squirtle",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pZJQhs1upPat5R9ApOsRAHqRA",
+    "_type": "entry",
+    "_entry": "36dmGTaad3VFWGtyc2KYOvGCyBg"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CIjwel26cHqap7F2Z1R6GZYXe",
     "_type": "image",
     "_entry": "31A25DSWfdNMFc6DQ4qZSIWPZ0L"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

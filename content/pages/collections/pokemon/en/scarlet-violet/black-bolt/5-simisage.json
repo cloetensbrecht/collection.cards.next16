@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Simisage",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pVo2vtpMNLlLCRXJqUdT2bEDp",
+    "_type": "entry",
+    "_entry": "36dmGSbvX3MIdi1fCOs5eW7zwBA"
+  },
   "illustrator": {
     "_id": "33w1v2sSKUS4ySveyHIOyqI9tZb",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31mXe0R1w2QHzbcLBRqqFUJuoeZ"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31mXZY75c6PdwkgKUltJzuR0JO7",

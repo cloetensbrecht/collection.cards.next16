@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Whirlipede",
   "energy": "darkness",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pTySAUjWBWAqWnb0WBxT6c6an",
+    "_type": "entry",
+    "_entry": "36dmGRyYSzMWupEZxfBIEGAqf8n"
+  },
   "illustrator": {
     "_id": "33vxzWve7E6vufinrQBVBFiyKpS",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBPRGJYXZFA0zAq3DJlTev2e"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320NWbWJbMg21qO4Ph5m7GqVApE",

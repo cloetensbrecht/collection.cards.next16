@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Venonat",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVvwfWIXE95llOOqqwvLl1Y3L",
+    "_type": "entry",
+    "_entry": "36dmGUFtQdWi3dKS8qiCosV86fw"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qEmknjU04pbfjPbiFOjoaTqgW",
     "_type": "image",
     "_entry": "30q9C2UKvcQ71Xx2ErXVM2HHGPk"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

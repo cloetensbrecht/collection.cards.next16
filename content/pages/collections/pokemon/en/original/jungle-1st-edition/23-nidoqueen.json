@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Nidoqueen",
   "energy": "grass",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pXRNZCF3mfCApREfU29EXSB9e",
+    "_type": "entry",
+    "_entry": "36dmGT2kc5gsNix8fMsjMrf9u0a"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qBOpVdFSJbbab4ZHC6QNLhk4M",
     "_type": "image",
     "_entry": "30q9C6PZXthT7ES3lAUaJ0uuH8f"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

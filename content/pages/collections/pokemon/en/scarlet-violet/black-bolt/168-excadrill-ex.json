@@ -8,9 +8,13 @@
   "rarity": "special-illustration-rare",
   "cardtype": "pokemon",
   "hp": 270,
-  "pokemon": "Excadrill",
   "energy": "fighting",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pTV1rqQYSnHsfYnkAPeAWvx4c",
+    "_type": "entry",
+    "_entry": "36dmGUZdJL68TmCCNmUu8MLzuKU"
+  },
   "illustrator": {
     "_id": "33vwbXnYNBe5Y54aDHMWL0mY2D9",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBROIS0E1jcrH19KBhqfHFTl"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "3214KkzeinurSZGHdJyo8OplI53",

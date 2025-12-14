@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 30,
-  "pokemon": "Magikarp",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pak6h5Ni3IwWL2XBwYmHQe9VQ",
+    "_type": "entry",
+    "_entry": "36dmGTt1i9pOAJMFSd05ix58bdm"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30obD4J7NTFlhkapV01iTXykIdZ",
     "_type": "image",
     "_entry": "30oJlFKuRHU2vrLbQ0nZLv6KoU7"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

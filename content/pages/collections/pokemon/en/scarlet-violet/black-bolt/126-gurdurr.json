@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Gurdurr",
   "energy": "fighting",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pU4SNxlf9A7rZ870z4qzdqCU9",
+    "_type": "entry",
+    "_entry": "36dmGUwVlnFRXgQTQy6MWx3i1J5"
+  },
   "illustrator": {
     "_id": "33vyCtHLuHMgZNX8ex1olqQNB2q",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBQJozM4JChNVqjzVxc3DfDA"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320Ks5LWRRnhCQVVOF3e4fKLqJh",

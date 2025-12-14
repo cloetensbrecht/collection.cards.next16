@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 30,
-  "pokemon": "Gastly",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pYH2M6KgpazNxJaFtB7Tk0h28",
+    "_type": "entry",
+    "_entry": "36dmGRGATne4iongN02YAPZlK1J"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31YL2Zu11ChfIbQ2sDd2vvxc5Cb",
     "_type": "image",
     "_entry": "31YKvjiaDxbj35gVzsMMXhWxL2e"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

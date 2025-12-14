@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Dugtrio",
   "energy": "fighting",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36paw8Dw8NTJAZlnp3lEhH9rmCa",
+    "_type": "entry",
+    "_entry": "36dmGR42WfD0BSSAknO8H9CWr8Q"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oZHqKBs5y7Cr1R3OcwSNxK6S4",
     "_type": "image",
     "_entry": "30oJlEKX49r0sE2l29jZsSWZI9Y"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

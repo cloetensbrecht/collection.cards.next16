@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Drilbur",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pV8jnkPTASMjWHc3f5DKADWIH",
+    "_type": "entry",
+    "_entry": "36dmGRz6BOpHZ2wZLm9sUoBRbEj"
+  },
   "illustrator": {
     "_id": "33w0iwEBYjgiEdDqjqdB0Hwz8d3",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wj00Yv7vV0LYSpt0c1GUVf1IM"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wl05xj0rNPggRIIJDA6S2mhqO",

@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Nidoran ♀",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWockurO0DyX7o9scfSG00bac",
+    "_type": "entry",
+    "_entry": "36dmGVEJCRoOC5rweHioxe9lZVp"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qE8hZUt4Qr1USpmBRlbkTTHLX",
     "_type": "image",
     "_entry": "30q9C5NatDxs020gb4oTupxaJRJ"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

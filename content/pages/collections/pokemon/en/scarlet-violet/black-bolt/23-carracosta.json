@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 180,
-  "pokemon": "Carracosta",
   "energy": "water",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pVZNkbQqFX1h3MPXw3O2x9SWh",
+    "_type": "entry",
+    "_entry": "36dmGXbjfyxwJSdAkTSgVryeVns"
+  },
   "illustrator": {
     "_id": "33w1KazjSAfUEIdkc2ZV9I2PQ2z",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31oiF7DHwgxk2rWkPz1awDM9lvc"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31omAOQGc1rfErw7eYQi5X5U1WA",

@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Pikachu",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pW1Sg3407nagULegKLKJnH1O7",
+    "_type": "entry",
+    "_entry": "36dmGVW8NzGuMRXGpENvaWWbwlZ"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qEWLc8alXbhnJjZ69tlLq9SxO",
     "_type": "image",
     "_entry": "30q9BzSVJzMl6IRcXs4asSF6Ohf"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Kadabra",
   "energy": "psychic",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pZkaOC6F41L2v1cOc5jNnOEoy",
+    "_type": "entry",
+    "_entry": "36dmGQ1YWiH5cLnGFG92tWfNOuV"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CJP2cCZ0n1IM23mYHSvG7NzH3",
     "_type": "image",
     "_entry": "31A25CtlO4ZUsQIPll22F0KqmM5"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

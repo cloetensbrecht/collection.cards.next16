@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Dewgong",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pariXAcoywBdETojPFAobo6rO",
+    "_type": "entry",
+    "_entry": "36dmGQSHQrV2kEOWkNE2dTwwdxW"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oZvzVKefVOg9OEFCEQx4lr14y",
     "_type": "image",
     "_entry": "30oJl8c36PtVAfxOQRQRJkQjjsZ"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Magnemite",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36paW7bYumzfYImpmOzGFdcmh4e",
+    "_type": "entry",
+    "_entry": "36dmGWp5au5r2JJK3qWfJE8aGjJ"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30odLw0XP2pFcbV8xS3uFWz4Vyi",
     "_type": "image",
     "_entry": "30oJlA1IzaTByymuTNaFRX3J88k"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

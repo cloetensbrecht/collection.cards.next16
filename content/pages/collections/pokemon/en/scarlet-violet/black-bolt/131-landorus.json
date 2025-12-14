@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 130,
-  "pokemon": "Landorus",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pU03pEQzRkTZWuAx3X6EBH0W3",
+    "_type": "entry",
+    "_entry": "36dmGXGPQGTJRv6kPFA1IYaYbBj"
+  },
   "illustrator": {
     "_id": "33vy3DV1PSDWvInCfs5B6xWv36v",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBQkVQGyNIGmqDhfYNkNawMi"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320M0g7kA7W6Ou2Pz9txPywOjoL",

@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Poliwhirl",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pYS87P1rV7XLDglrh4JVuM6kv",
+    "_type": "entry",
+    "_entry": "36dmGRdGX12wXHz1vhoSLsAmweM"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31YFg8smxMfAakZlVv5l2bMdE4a",
     "_type": "image",
     "_entry": "31YFbmhUbsRakP4oFnb5QIM64fs"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Tirtouga",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pULLTa0E77DlzPkUcuDRIFLHL",
+    "_type": "entry",
+    "_entry": "36dmGWAzIWFlvT9zJZMsWiSny3J"
+  },
   "illustrator": {
     "_id": "33vyoaGgKpBUqCdl7QbqtbOh6oD",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320ACZU1NHgF481p21B7rbhJ6w8"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320AIGIiXCNUNNued7sH6iozzWo",

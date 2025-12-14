@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Cubone",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWx9NmutGmHqvDOZKH9zHQA1D",
+    "_type": "entry",
+    "_entry": "36dmGQmDUo07cJLUladptdIK0Gc"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qDZ6Azzq8qO6wdSmXURA54uqb",
     "_type": "image",
     "_entry": "30q9C2Ffe0zZDZnFRNJHOPeEBvR"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

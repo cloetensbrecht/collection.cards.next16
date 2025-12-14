@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Jigglypuff",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWt61eJlo0G8MwCMfX0aNiNrO",
+    "_type": "entry",
+    "_entry": "36dmGVdFAUMDiVhBWXG5WXt23pc"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qDrdCtfXBB41Gqcbd9NqXrHML",
     "_type": "image",
     "_entry": "30q9Bz4TwotytMvABUDxTsIlzxG"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

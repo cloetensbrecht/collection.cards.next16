@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 160,
-  "pokemon": "Eelektross",
   "energy": "lightning",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pVRhzr7AGobkUSTdU4isiLlE8",
+    "_type": "entry",
+    "_entry": "36dmGVjr0vZV5SA0Nuk8p3Q85lv"
+  },
   "illustrator": {
     "_id": "33w173bUL84xdKCE0dsRk8ASQTb",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31ve9OimBqYFIQrX9hy5uB1nUnt"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31vfQpqs40e3FLyHb0UtgZp3RaU",

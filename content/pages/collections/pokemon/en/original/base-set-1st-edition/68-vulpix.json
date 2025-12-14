@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Vulpix",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36paKhRx3CvAPWPNTS81ZoEXOjC",
+    "_type": "entry",
+    "_entry": "36dmGSRiMYXbtLcHZO9smP415Kh"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oelaub0zN8Yg7LKmOcZAVPASU",
     "_type": "image",
     "_entry": "30oJlF3dZDfLAECm9pG12uLAgmD"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

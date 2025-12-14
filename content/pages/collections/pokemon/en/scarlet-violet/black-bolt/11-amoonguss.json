@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Amoonguss",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pVjInPMi9pwnMrqeUxtHLgFEK",
+    "_type": "entry",
+    "_entry": "36dmGUjdjBHThfJyYNuVipkEBkT"
+  },
   "illustrator": {
     "_id": "33w1nTDmBC5fOTlyYyRcS1kbx4t",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31mbB5iN0Gqhu3RR3SFk5icfuGL"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31mbHWltkVgdx6B535KoPZrwRqo",

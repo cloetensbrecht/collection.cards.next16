@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Persian",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pX5kiJeVDoHvnTG6GFqFNJWKd",
+    "_type": "entry",
+    "_entry": "36dmGVYCX53kneHlLYstW1cPUFJ"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qCxoZoByqx61ea37G6L3zUUw1",
     "_type": "image",
     "_entry": "30q9C5cx1ZvtAHhjAbvCPUT2SGk"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

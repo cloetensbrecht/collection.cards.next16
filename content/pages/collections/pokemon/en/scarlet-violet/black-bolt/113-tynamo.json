@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Tynamo",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUFuQFnsTw2rM8ImgNQijNQWw",
+    "_type": "entry",
+    "_entry": "36dmGVI6bLK6hOMDQ0kUxid1s99"
+  },
   "illustrator": {
     "_id": "33vyc052uZgB8b8hLwQGfKn3eib",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320Ak74OTxE1FKdanl8OfBxXtvj"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320BnGt0JeAY5Vma8UfC4r042Xa",

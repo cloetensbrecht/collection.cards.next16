@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Exeggutor",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pXEDD1w4ZipOoWwxMzfITVYr7",
+    "_type": "entry",
+    "_entry": "36dmGXUwP3l9hfAOpgKFKG8kdmW"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qCQQUoJnfIgedrjA6tn2XPWtb",
     "_type": "image",
     "_entry": "30q9C1Dzkpgy0zqzgqI4YiGsQe6"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

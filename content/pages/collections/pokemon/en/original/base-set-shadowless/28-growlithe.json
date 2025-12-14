@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Growlithe",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pZoaUEpo7yLBXDF9aZdY0vgxK",
+    "_type": "entry",
+    "_entry": "36dmGQWrnIGtkvjFMD0m5ufwu0M"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CJSvuIY7y3iDaf6B2OHfpfpwX",
     "_type": "image",
     "_entry": "31A257n7Eu4yGVg5A35rYQdT5U7"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

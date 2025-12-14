@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Weepinbell",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pWz3gaYuJQUKD13KvoaL5JLPP",
+    "_type": "entry",
+    "_entry": "36dmGS40b7LG6suJQlQ5theAPkP"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qDOIO22GXVZu8TVp1BohaihHF",
     "_type": "image",
     "_entry": "30q9BzF4wB6enXgP3xuXKweHujt"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

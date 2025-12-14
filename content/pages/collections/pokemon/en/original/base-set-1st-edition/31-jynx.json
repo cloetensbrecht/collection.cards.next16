@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Jynx",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pan0USzVxMiMSR3Q0qp7dgG1n",
+    "_type": "entry",
+    "_entry": "36dmGVoAmGat7d8Jy8fnKMIm7tR"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oaTEmeFj4edwxgbxJfJsFR3Dk",
     "_type": "image",
     "_entry": "30oJlBQ0jzxer4ywFdzCSzp09Qy"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

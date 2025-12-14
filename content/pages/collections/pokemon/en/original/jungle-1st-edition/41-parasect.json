@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Parasect",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pX7OcHd6VTeq0GgTxbvXY4gcu",
+    "_type": "entry",
+    "_entry": "36dmGQ5nCrWaGoQkkYiDZMB0f1f"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qCtgU9IooFjguobodyIlwgQHv",
     "_type": "image",
     "_entry": "30q9C0Prj88xe40bnO8mpD3FrNu"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

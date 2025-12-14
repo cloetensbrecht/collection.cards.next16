@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Voltorb",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36paLNsEIHjLQPDbWxVAnKEBFJx",
+    "_type": "entry",
+    "_entry": "36dmGUfXTrlqhHeVu2F08ul6xbq"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oeh8Vo12xzg18sVBkfhFxtBIY",
     "_type": "image",
     "_entry": "30oJlAoGB1LbTpkpm1YdD79nNcN"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

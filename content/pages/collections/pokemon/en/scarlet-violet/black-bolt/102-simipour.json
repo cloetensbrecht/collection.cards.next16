@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Simipour",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pUOmg0sVIGrq1fUW3B9pQeInF",
+    "_type": "entry",
+    "_entry": "36dmGVjlmkSSAkGgEUF0lBEKrpM"
+  },
   "illustrator": {
     "_id": "33vyxAM2voPrG0GspklXPkD6Nm5",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31zclUKNPSTfGrRf3C8i8TkJ5Ff"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31zcnZycvFu0XgXQvTsWgrabE0P",

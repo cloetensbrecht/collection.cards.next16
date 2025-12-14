@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Butterfree",
   "energy": "grass",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pXGnaTGvVm3rPqSgczUI5AHd0",
+    "_type": "entry",
+    "_entry": "36dmGTON397aUjO9atpmG3VLI3E"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qCDx6qWShZDdIqCi6Tx9azXWt",
     "_type": "image",
     "_entry": "30q9C5c6oeO1C4Og8pc45drolrx"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

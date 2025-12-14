@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Charmander",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pYL1IwwvYpslBJt1wofv2rH48",
+    "_type": "entry",
+    "_entry": "36dmGTk0jy6djNXF2sh4C1SMjx5"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31YJSJ49OZuuCPTLhiBd474tWx6",
     "_type": "image",
     "_entry": "31YJNohlzRcbOumlJypSjKuiGt0"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

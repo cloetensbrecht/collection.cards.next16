@@ -8,9 +8,13 @@
   "rarity": "ultra-rare",
   "cardtype": "pokemon",
   "hp": 200,
-  "pokemon": "Meloetta",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pTbw4z1Xb76WwjwolSlv7e0FB",
+    "_type": "entry",
+    "_entry": "36dmGS8OCKjsPDo318tFm6YpR5W"
+  },
   "illustrator": {
     "_id": "33vwxSdKqEUm2eGeGdkDk6TlKTh",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBQOHYVClswRwpnC6RvOVxLE"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320UHnRGezTVaP8TByPvMRS0qm7",

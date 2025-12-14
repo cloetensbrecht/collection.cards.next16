@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Tranquill",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pUm6SksEkFgzukhWdC0AtW9aK",
+    "_type": "entry",
+    "_entry": "36dmGVoCS7wLI0uoLsMpcwrgbiq"
+  },
   "illustrator": {
     "_id": "33vzuszqMvQh31UwWd0Tx5mWVZp",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wyj6UUnDJptmwLgTnEmnItdtc"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wzBU4swQY3VseRa3Dr0hmZfuF",

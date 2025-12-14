@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 130,
-  "pokemon": "Escavalier",
   "energy": "metal",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pTuCO2eELd8xdJUc3S7yczFMF",
+    "_type": "entry",
+    "_entry": "36dmGVoTN0MEcwqYq4IgpdcCaRA"
+  },
   "illustrator": {
     "_id": "33vxq5QqVVv0si3PTh3DuACZlxe",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBNYMnDqdrOzKyNYX4dykWEm"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320Pbsv6TpWQ2nO00lmpBcyPkuu",

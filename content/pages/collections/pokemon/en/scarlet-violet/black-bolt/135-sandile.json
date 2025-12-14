@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Sandile",
   "energy": "darkness",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pTwd0Q7hTrahifzBA3L1e8GvK",
+    "_type": "entry",
+    "_entry": "36dmGXiBnJoqDLSpTT0nbTFLgZf"
+  },
   "illustrator": {
     "_id": "33vxw8lC1ysoFS2OIKhLl0lCHqa",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBNZiKvjEwYgYU7Z4YntICwi"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320P6O9ofEsnjoPZWDNMsXJzLeb",

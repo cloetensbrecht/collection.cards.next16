@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 110,
-  "pokemon": "Alomomola",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVYUgntOmvqyppKm0TB6v1TQR",
+    "_type": "entry",
+    "_entry": "36dmGRwvCvqHfHgemsMo5BB2b1q"
+  },
   "illustrator": {
     "_id": "33w1J9eRq6PsoO6O7shNC22Y4W0",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31oiF6FlLpwYeexJyR8grcscg0h"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31onYb9f9JYZNgy9qLEBgiQP8SR",

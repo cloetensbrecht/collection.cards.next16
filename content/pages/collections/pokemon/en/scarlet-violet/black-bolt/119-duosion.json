@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Duosion",
   "energy": "psychic",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pUAgdDfK4r3kOwASOqAEFwsZ4",
+    "_type": "entry",
+    "_entry": "36dmGXZcYiBrL7AiU48xX7p74Ge"
+  },
   "illustrator": {
     "_id": "33vyQYDSv9Q2jlm4MXdV8UYQ0Ly",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBSdI3Q2NVzg7CyjDWlevqHu"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320G1p9Z9tBLdxVV7Dp8uHLDvUj",

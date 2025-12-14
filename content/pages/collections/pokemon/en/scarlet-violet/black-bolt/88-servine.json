@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Servine",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pUaqCzyCA5ob1WRtDrGPlT9tA",
+    "_type": "entry",
+    "_entry": "36dmGSPlwAvCJUdG3g80TK7AWFn"
+  },
   "illustrator": {
     "_id": "33vzOu5z0RGlZbrS1uBCsFlDpVC",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31yUZ2SyIZ39v3tlKAt0xA2O9b7"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31zXvNPVI29YPtzo3c4P3o3VqbL",

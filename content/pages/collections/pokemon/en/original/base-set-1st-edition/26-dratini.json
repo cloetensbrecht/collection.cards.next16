@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Dratini",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36paqtwk3x1KZynmDw5xIxINU1G",
+    "_type": "entry",
+    "_entry": "36dmGSVmVzqCKelGJToC6ObfEnw"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oa1YY761xcJ0VFAHjzvGINOEH",
     "_type": "image",
     "_entry": "30oJlCdUNMiyF6gAqcMhgarUv5T"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

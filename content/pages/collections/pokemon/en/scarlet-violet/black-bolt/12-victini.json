@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Victini",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVibprNGf6wTmagNdxfOy52No",
+    "_type": "entry",
+    "_entry": "36dmGRJaF2mkPAzHpZUT6jrUUkE"
+  },
   "illustrator": {
     "_id": "33w1leZMn1F2Ezbqo0OCsSx8IRV",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31mbZ56vvvzTxxDowRHnTDXt7Bb"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31mbcbPc4rVGCYoSzC6Mc4azjZ4",

@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Eelektrik",
   "energy": "lightning",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pUErCgW5oEnCjqM27KL5kvkm5",
+    "_type": "entry",
+    "_entry": "36dmGQ3s5v8LKYxIXW4Q86RNM24"
+  },
   "illustrator": {
     "_id": "33vyZz5tSmHP85DMnBPPGXxeNBk",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320Ak4tbSKu7NOoI0Y9Kt0GCjdn"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320BzuKC0gUMtCk7XQxvDGYudNI",

@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 130,
-  "pokemon": "Throh",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pV4DKxXeZcLp1s6FjgpnDgERc",
+    "_type": "entry",
+    "_entry": "36dmGSBP8Z0GnqU69N1p3HVCLDm"
+  },
   "illustrator": {
     "_id": "33w0Zwak1dz1MTFbpfhwRr3sEdU",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wizudxeId6eXppb7B54FvaKo1"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wnaZcMulnruRwpJPP6pq55Iyg",

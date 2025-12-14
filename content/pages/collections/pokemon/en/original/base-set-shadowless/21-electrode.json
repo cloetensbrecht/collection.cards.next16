@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Electrode",
   "energy": "lightning",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pZuiwx2hierLDr9FjDi1IQFuA",
+    "_type": "entry",
+    "_entry": "36dmGSqigXkL1RXUaojjMd2ISsj"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CJz84MvUoejddhkU151FRPJBm",
     "_type": "image",
     "_entry": "311ZK3oZBSv3Vk1nWgy1h8x4doV"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

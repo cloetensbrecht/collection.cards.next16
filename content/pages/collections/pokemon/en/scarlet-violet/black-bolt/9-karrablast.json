@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Karrablast",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVkt2gCCksYay8P8Ubn3ppT6B",
+    "_type": "entry",
+    "_entry": "36dmGQ4NuQy7s9NpcDs4uZygQ4w"
+  },
   "illustrator": {
     "_id": "33w1pmZzW4q6KZWl3D5vltZjqFi",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31maLv5YGl7Djo8zO6T0OGGTONX"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31maQa2nSYzcrZ5L3H6KT15sjAV",

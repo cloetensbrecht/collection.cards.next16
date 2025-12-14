@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 30,
-  "pokemon": "Diglett",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pYJpCThdevTh1NwY9Tln31oJx",
+    "_type": "entry",
+    "_entry": "36dmGW8Gh9xIH2TdKkiFsLIdKCl"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31YJwwNPRzDbHJbfxxk7KyYpW0q",
     "_type": "image",
     "_entry": "31YJjAmvjdNnV4AO4twIgX2BFHF"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

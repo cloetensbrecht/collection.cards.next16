@@ -8,9 +8,13 @@
   "rarity": "special-illustration-rare",
   "cardtype": "pokemon",
   "hp": 200,
-  "pokemon": "Meloetta",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pTVr0FI073sAtm2P4oYvlSNb6",
+    "_type": "entry",
+    "_entry": "36dmGS8OCKjsPDo318tFm6YpR5W"
+  },
   "illustrator": {
     "_id": "33vwdlFNs4nLIlhauiW4VoqBGCX",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBN7AYiUbVJaEHQ2q9jSpTR8"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320WCBtRHOJMClZ7cPq19Tl1usV",

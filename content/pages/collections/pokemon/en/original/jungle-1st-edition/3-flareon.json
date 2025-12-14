@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Flareon",
   "energy": "fire",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pXlUR8jZ9GtmrgggXJUMWwmLO",
+    "_type": "entry",
+    "_entry": "36dmGUaWW91KdsBfqC6me7YhSee"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30q9ZLZE0cyVtucOFIu9IkgHOHg",
     "_type": "image",
     "_entry": "30q9C2skvyspqnKDhERVHj1NHEN"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Poliwag",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pY8dx2mgOF8EIyZUldkM9xbgV",
+    "_type": "entry",
+    "_entry": "36dmGXNzAtTfy7bZo1WhdPPJJnb"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31YjjVXvHZ3dkzWsp0vhllU3gUP",
     "_type": "image",
     "_entry": "31YjeSz8rymnMpxKv97lncRzhg0"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

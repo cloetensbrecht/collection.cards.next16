@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Nidoking",
   "energy": "grass",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pa4RK2Hu6CH4axFqvnA1TyjCv",
+    "_type": "entry",
+    "_entry": "36dmGUEOdaZbjjaq6Jqei8IofKB"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CK8xWpnJ4AD3Nzqt2k3TFOQfe",
     "_type": "image",
     "_entry": "311Y6chvcYY7WANl8dJjJT0RRqO"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

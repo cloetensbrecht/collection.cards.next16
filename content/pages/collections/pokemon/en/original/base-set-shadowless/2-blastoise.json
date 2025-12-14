@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Blastoise",
   "energy": "water",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36paBOhkhjJENduUUjUDYF0N8f7",
+    "_type": "entry",
+    "_entry": "36dmGVtPChuFQJrxtD4ZxalwMSY"
+  },
+  "illustrator": {},
   "card": {
     "_id": "311Td0XJe6ZSCsFTCBWv6ymzIjI",
     "_type": "image",
     "_entry": "311TbFwxdI7BLkMVI7J74hnroRV"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311L9YdGKtJr18DAiN3NNkCUlHt",

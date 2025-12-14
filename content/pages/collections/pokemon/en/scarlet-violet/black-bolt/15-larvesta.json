@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Larvesta",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVg7f2nCa7ojEsBvUn6NMfzdi",
+    "_type": "entry",
+    "_entry": "36dmGQFPdtoPmLC87ampgQ5kFGP"
+  },
   "illustrator": {
     "_id": "33w1gqM4vMM5BkVfpypxVPVBKfh",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31meCrmeVtwE1hDIE6fnsML80ZW"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31meGOVZYRpbzXn1tgmv4zv2sqk",

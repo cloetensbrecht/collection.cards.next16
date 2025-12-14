@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Poliwrath",
   "energy": "water",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pYptsikgqd2bUn0MRAEn7pf0n",
+    "_type": "entry",
+    "_entry": "36dmGR96RZGMM9ZAm2w9TI5wl3n"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31P21vUFCpwoS33M4CR6OdF7nsb",
     "_type": "image",
     "_entry": "31P1wcfSQbNjEwyR59ABXJVw6zt"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Hitmonchan",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pYv7XTIMaDc4aOKrBl7dWEcnV",
+    "_type": "entry",
+    "_entry": "36dmGVWusKITqkPBPcK2frqO23O"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31MNGCHQpL8OZ9KMYXj4Or3WaiK",
     "_type": "image",
     "_entry": "31MN4CODV24uDdRCRfjYQ8PJHZ4"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

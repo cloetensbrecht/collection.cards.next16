@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Tauros",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWzy4kMkl0jAC7dgL3tcfl69F",
+    "_type": "entry",
+    "_entry": "36dmGUXZVIn0TgxkXdJlkB60zqt"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qDJgZUe3ffFS5pNN8m8h0WhYy",
     "_type": "image",
     "_entry": "30q9C36Goc3PsfSyE2RGRaXTK3g"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

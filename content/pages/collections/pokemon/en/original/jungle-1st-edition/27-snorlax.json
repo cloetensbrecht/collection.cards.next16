@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Snorlax",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pXNKbDIxlsG8Zha39CIJHZ4JS",
+    "_type": "entry",
+    "_entry": "36dmGTIxwqHPHwqRRDTT8I7l1NV"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qBjpvHeEHjwPSHlAJlvMIO6fK",
     "_type": "image",
     "_entry": "30q9C0xWwm0iDZ7zWKbmFQJZP87"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

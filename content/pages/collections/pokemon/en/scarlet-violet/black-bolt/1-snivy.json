@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Snivy",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVrBy6yV9rEQithbrD7gqktKy",
+    "_type": "entry",
+    "_entry": "36dmGUdh2E5CnayLpgAWfVQC2Ld"
+  },
   "illustrator": {
     "_id": "33w228Upbb4v92k4saQMSXaMqpw",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31m88rhJNx0A1lm6S43rPWUjzYF"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31mQhouKLh6HQZJAbGOROIgCnw4",

@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Doduo",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pZW35Qk59dfYeQV2pW3U549ip",
+    "_type": "entry",
+    "_entry": "36dmGQYGkWfaZFhNG5BmXDWMcej"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CJ3j8UBOQHRgC6IpVdepeMltl",
     "_type": "image",
     "_entry": "31A25BKWUUBxXjygLk1MfuL6cfG"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

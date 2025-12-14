@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Chansey",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pYykOL83pmV9TwaGOP4TZnxO1",
+    "_type": "entry",
+    "_entry": "36dmGQjOU4dD9IkNLnKlfPp06Od"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31MDBiJsVE1QjoOHAfHrOJls3Un",
     "_type": "image",
     "_entry": "31MD9jIYl4g5FMHzCndjXz4M3di"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311L9YdGKtJr18DAiN3NNkCUlHt",

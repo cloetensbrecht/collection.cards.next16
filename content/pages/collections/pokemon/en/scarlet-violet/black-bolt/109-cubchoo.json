@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Cubchoo",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUImPrFLzOSpFziqTQdafufS0",
+    "_type": "entry",
+    "_entry": "36dmGSJwlUsXt1rYgNeXAwEPtGp"
+  },
   "illustrator": {
     "_id": "33vyiylddNhBS6MNVYDV2FOLstI",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320Ak3Oi1cMlf8gfR5scaHg9APO"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320B31cveJqF0Kqra4Iglf9qOcZ",

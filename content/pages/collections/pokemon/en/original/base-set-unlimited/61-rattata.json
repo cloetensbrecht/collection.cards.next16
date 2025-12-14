@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 30,
-  "pokemon": "Rattata",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pY6cQKCOWwS6Al9GWu4YXXt3r",
+    "_type": "entry",
+    "_entry": "36dmGUUmG7Rntx4Xhr3lBoaWgeI"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31YkIjtqFxe8ocrE3FQT6zrMqIm",
     "_type": "image",
     "_entry": "31YkEOSayRIUWI2Uk5oJdUN5OKl"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

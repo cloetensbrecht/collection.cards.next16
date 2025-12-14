@@ -8,9 +8,13 @@
   "rarity": "double-rare",
   "cardtype": "pokemon",
   "hp": 230,
-  "pokemon": "Kyurem",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVVNUeUuLIwUh0YohKxS6EoVZ",
+    "_type": "entry",
+    "_entry": "36dmGTjwfad79qEMbaW6x5m5gzt"
+  },
   "illustrator": {
     "_id": "33w1CnfWg6WDneOH4XNYIOPSflZ",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31oiF9yYz25VguriFXVjSWigcMI"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31oqB6LsSZUPQ1XoSjqx7ga9yeo",

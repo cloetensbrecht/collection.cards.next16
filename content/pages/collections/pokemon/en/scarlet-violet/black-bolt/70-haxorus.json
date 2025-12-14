@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 170,
-  "pokemon": "Haxorus",
   "energy": "dragon",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pUni2oVHOdQWkcERRtoS11J2a",
+    "_type": "entry",
+    "_entry": "36dmGTdVejk9A864GfMgXbgv7G6"
+  },
   "illustrator": {
     "_id": "33w00WgXNoCMgTINy4an15noyMi",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wtY40Uf0BaJ5JM185BU34Tcnm"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wy3iYvEXuOGXsQIdCdtTAqx2Z",

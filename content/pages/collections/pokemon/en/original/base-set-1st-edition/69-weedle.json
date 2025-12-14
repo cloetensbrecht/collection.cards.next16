@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Weedle",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36paJd1f6QkWo9u0PVEO7P95cA8",
+    "_type": "entry",
+    "_entry": "36dmGRe758wj6Obf3frHPC4FkPP"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oepQw6BcMkQ7Ba9mOiaGXHlwx",
     "_type": "image",
     "_entry": "30oJlCwr3QQKCXVp1pKdw6xoycn"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

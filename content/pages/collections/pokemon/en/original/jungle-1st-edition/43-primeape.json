@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Primeape",
   "energy": "fighting",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pX4Qwd5o9SQLJDrCLekYDvdXN",
+    "_type": "entry",
+    "_entry": "36dmGQUkwNjV3v0XXzbejNfYo88"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qD2ycS1e5tBmUSKSHoedgUTgV",
     "_type": "image",
     "_entry": "30q9C2lfgOMLOd7HbAqlKP5BGVC"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

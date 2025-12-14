@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Clefable",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pXnJ4uluJrgA9vk9Mk4KTosd9",
+    "_type": "entry",
+    "_entry": "36dmGQxq2e49KfjlIWKevgJVzVg"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30q9NfOmiUsRTkwSKvUPN174s0O",
     "_type": "image",
     "_entry": "30q9C6H1jPuyxJ03WIwlY69cTCm"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Panpour",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUPiDYMa03BQHrzvaEux4NbGv",
+    "_type": "entry",
+    "_entry": "36dmGWf4ucuazfQZWtMPijkjBo8"
+  },
   "illustrator": {
     "_id": "33vz0BW0LjRpPygxuBQ2BlsiP13",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31zcX34w1gmYZ9dKQvFOpFb72n2"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31zcc25xmU451G8HZE1IoKzdrvP",

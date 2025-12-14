@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Wartortle",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36paeRC4Vey5JjJRa1RWzjAlfmi",
+    "_type": "entry",
+    "_entry": "36dmGTXIK1QnJJNR6EyNhlMfSlq"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oc49oRsZYO3fzDabxC9gYFGyT",
     "_type": "image",
     "_entry": "30oJlF2bo9dNQFIEpAaHYJzwEAQ"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

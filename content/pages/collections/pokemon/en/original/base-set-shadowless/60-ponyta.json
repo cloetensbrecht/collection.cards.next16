@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Ponyta",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pZMgUnTVeH63DVsrLrXDGqMAb",
+    "_type": "entry",
+    "_entry": "36dmGQnmFaVAd5sYsYZ3Vp5MbyC"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CImdEtbvPY0guoNop0WAHJVz4",
     "_type": "image",
     "_entry": "31A25CUCUXdzHaIY2VpvmUeOak1"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

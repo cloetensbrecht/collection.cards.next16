@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Bellsprout",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWxz4ukLnrrd2emXCGxG2BKsk",
+    "_type": "entry",
+    "_entry": "36dmGXfkBUmmQA0Af61QJkCezza"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qDU9gGD5jf3O4nE10LmZeP76o",
     "_type": "image",
     "_entry": "30q9C4PCdR8do6GCnPXvnnQBC9r"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Drowzee",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36paZNAoefwdaTmiudPR62hrxHS",
+    "_type": "entry",
+    "_entry": "36dmGTv6NOs1w9DQ3QCjbLpxLW3"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oceF03iiFceZp4pkwInIwC6Yf",
     "_type": "image",
     "_entry": "30oJlET4jQZ22QsKe8z3M9JN6tY"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

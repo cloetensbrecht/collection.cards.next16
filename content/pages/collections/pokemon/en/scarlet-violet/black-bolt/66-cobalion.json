@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Cobalion",
   "energy": "metal",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUqqT4MkP3wsVWCs57NdxKyCo",
+    "_type": "entry",
+    "_entry": "36dmGQtnKDyY954C2RyW8h18ODv"
+  },
   "illustrator": {
     "_id": "33w07PoTwZLH89rMh6xyU1vXp0E",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wtY0ZbiV9um4Tvq29YHEjuh6I"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wwLoWowjyS6LUH2TjsH6Qm2sp",

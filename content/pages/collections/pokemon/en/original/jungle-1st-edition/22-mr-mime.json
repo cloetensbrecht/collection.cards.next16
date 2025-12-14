@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Mr. Mime",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pXSXWNqvAcdjfZ1rMEscaoIqV",
+    "_type": "entry",
+    "_entry": "36dmGQHUNlvTafdYxU5SSTQslSh"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qBJusGmEVzt9O6VjZKXuYzYfY",
     "_type": "image",
     "_entry": "30q9C1FABMHbkcLwzlA9KcxJZsE"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

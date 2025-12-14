@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Klang",
   "energy": "metal",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pUuL6M2GIoqMR6uSV13HwK9uk",
+    "_type": "entry",
+    "_entry": "36dmGXdfxgkdD1CCRCm8plpBPvJ"
+  },
   "illustrator": {
     "_id": "33w0Dk0JzYBEGZRspw22r6Dh5Qg",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wtY5D6P6k9fM7Vtnd6Itm794h"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wuonQj0DXxkBKANLKjxZjcnVC",

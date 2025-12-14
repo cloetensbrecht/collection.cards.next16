@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Pansage",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVomdJhlPclLJq4sFd2SZkfpa",
+    "_type": "entry",
+    "_entry": "36dmGX9pIvubIDMyylX6wVP64ur"
+  },
   "illustrator": {
     "_id": "33w1wjARZJwQTYBbWHQikcpIbXq",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31mWptro02K5H7a15ipavTPQNt6"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31mWrdoga0pfwP7ynqvwiIJJPK9",

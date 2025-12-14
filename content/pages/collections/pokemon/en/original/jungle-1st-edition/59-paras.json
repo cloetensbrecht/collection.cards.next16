@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Paras",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWmFtvgQw0E9xEneCMCG6kZBJ",
+    "_type": "entry",
+    "_entry": "36dmGQJ4tajejFgNNOKcxe9vePP"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qEIBoY9cKKZAdvh24jQTArvkP",
     "_type": "image",
     "_entry": "30q9C0XcxiLThl2RKaXm18lh9Cj"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

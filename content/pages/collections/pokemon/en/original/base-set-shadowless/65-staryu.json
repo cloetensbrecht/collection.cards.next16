@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Staryu",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pZHpjv6uEOwO1p0ZYBfymXOlH",
+    "_type": "entry",
+    "_entry": "36dmGWyQi5sWZeES6UwcemkK6Pg"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CIfoYu0CH4FSu0gmrr2pD5bdX",
     "_type": "image",
     "_entry": "31A25EDuEsniRgLuOrD65iVpz23"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

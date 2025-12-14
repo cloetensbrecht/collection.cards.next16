@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Volcarona",
   "energy": "fire",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pVfKotxND2ahd0UbnvDDS3wiH",
+    "_type": "entry",
+    "_entry": "36dmGRDzqFOGkNU0uMfek8D94iR"
+  },
   "illustrator": {
     "_id": "33w1eP4ju9YUdVwQKcMd8kgtMa5",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31mea1MQKu322IBuc7AgnhURZSc"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31mejADrgF4xEislm66kupuck9O",

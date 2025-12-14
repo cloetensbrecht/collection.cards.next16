@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Palpitoad",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pVcAJER2VsbBM74KRESq1h3o4",
+    "_type": "entry",
+    "_entry": "36dmGQC1h5FAK83r5WQjYgkYO16"
+  },
   "illustrator": {
     "_id": "33w1PYcFGEzqDzd4BKc2oA4Wh7G",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31oiF6ctfY623UF27Cur1qiMOtD"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31okbfTdOhSkFju6AD7w9cbPk1j",

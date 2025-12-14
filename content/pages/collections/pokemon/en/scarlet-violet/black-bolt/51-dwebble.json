@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Dwebble",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pV3ZHn1GpwVoo7SBw1wRdSlPc",
+    "_type": "entry",
+    "_entry": "36dmGVPQrJjWFXM2Y9chtzZ7V5q"
+  },
   "illustrator": {
     "_id": "33w0XyxtlYqOWe565GgfJwV3j0I",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31woH7Cfs5ApjQFTplsR8c2Hc5I"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31woJtFTwJdrdK1NcbkHvq0in9h",

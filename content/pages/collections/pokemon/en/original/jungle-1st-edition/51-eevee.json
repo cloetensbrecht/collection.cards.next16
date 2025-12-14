@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Eevee",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWwDR9mqToZ34WQhrRyQAZAsp",
+    "_type": "entry",
+    "_entry": "36dmGWceOHkNLbBySnEgkN3dbRA"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qDe7brsPonuk9r8QtLMfEsKVD",
     "_type": "image",
     "_entry": "30q9C4hcjrIEVICky9egPvfjqrR"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

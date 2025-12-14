@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 30,
-  "pokemon": "Abra",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pYNbPNUgjR0I0I84TIYIGGsVI",
+    "_type": "entry",
+    "_entry": "36dmGVPERn3o427v7oYpqGPbwSc"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31YHYe1Bjl9ZkNDu2eBcdnIpRwe",
     "_type": "image",
     "_entry": "31YHVGrTvEqUWXFxM6AZr4TcOUY"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

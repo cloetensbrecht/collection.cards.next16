@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Timburr",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pU5I6534LDpOC1AybWcg2jRzf",
+    "_type": "entry",
+    "_entry": "36dmGQUfSuXCMxtPA2GEBU7PgEA"
+  },
   "illustrator": {
     "_id": "33vyFTlouHYo01uoVdRLoV4EdJj",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBOU8HmqMDxJGSKSgXLNZc1R"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320KfFJU1d1eRuxxHuNiusuujuL",

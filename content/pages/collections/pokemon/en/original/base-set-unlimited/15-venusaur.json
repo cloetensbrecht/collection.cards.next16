@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Venusaur",
   "energy": "grass",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pYoA9MxWjioGbuXxZqYk52C3x",
+    "_type": "entry",
+    "_entry": "36dmGRAIwdBiUk3ZHkrejyQXXaY"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31P9rPy6uuODMfDcnxgfoS69Hwb",
     "_type": "image",
     "_entry": "31P9qGDU0nWkgLtXmxrvTsaKwJn"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

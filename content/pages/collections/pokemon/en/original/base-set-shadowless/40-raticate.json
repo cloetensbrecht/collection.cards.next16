@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Raticate",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pZdtZW4P1JIPeD8tmAdiM2ZEa",
+    "_type": "entry",
+    "_entry": "36dmGRF1GIPCxDK1uJcgpQdyokW"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CJHGH7mqSNasc1ip4HyAHVtCJ",
     "_type": "image",
     "_entry": "31A25AVfhIgmz5D2GMiCOQ5qqLk"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

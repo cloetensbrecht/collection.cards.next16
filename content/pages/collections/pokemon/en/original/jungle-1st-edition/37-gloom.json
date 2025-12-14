@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Gloom",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pXC26aTJNeaKiokt88GQWQ2Vl",
+    "_type": "entry",
+    "_entry": "36dmGTLOZRmGHWFR2foDopjVCyy"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qCZNHXM6btaJArLbUnB7IjeBD",
     "_type": "image",
     "_entry": "30q9C2Qohy74y6m9SA9A4YFAkWy"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

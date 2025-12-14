@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Venomoth",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pXbijR8hMVpVwAAUpRDpwZHgC",
+    "_type": "entry",
+    "_entry": "36dmGUAaTxORRSKs7lOZDrjgRPf"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qARqKHyhhloWVRLFCa2Y3QO92",
     "_type": "image",
     "_entry": "30q9C0jgdOjfGSmGwRPtzaTeCQ1"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

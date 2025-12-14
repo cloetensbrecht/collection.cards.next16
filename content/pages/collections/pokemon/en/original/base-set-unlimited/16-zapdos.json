@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Zapdos",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pYnEY6pAdQCYUJT4e6WD7iYcm",
+    "_type": "entry",
+    "_entry": "36dmGS9CNoDs9x4YnmeIjmFA0It"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31PAPhFLKLv9tUYBpmwapMKICFQ",
     "_type": "image",
     "_entry": "31PAKrQNoK7OTjSPz8KUOhLOxOb"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

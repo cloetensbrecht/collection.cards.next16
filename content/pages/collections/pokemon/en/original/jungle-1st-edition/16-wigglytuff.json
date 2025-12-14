@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Wigglytuff",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pXYpYjHVo0caKGRcfWbDfBykN",
+    "_type": "entry",
+    "_entry": "36dmGU8p8IzEILVtIzhFnb5FvLw"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qAiZ67ApLHu23n2HqudzMhqRt",
     "_type": "image",
     "_entry": "30q9C3qthkViwUBJu2dnVqiwMS3"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Metapod",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pYDOhvWyNEYpZwJ9cG1WEDYGF",
+    "_type": "entry",
+    "_entry": "36dmGWTkzNbExGWLQUrimG0qYfz"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31YV0gO9ol4G4DNWOFFktA3ROPZ",
     "_type": "image",
     "_entry": "31YUwpfJK0TMrcfMO4vhq2I1A4J"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

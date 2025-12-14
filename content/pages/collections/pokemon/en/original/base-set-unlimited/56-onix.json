@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Onix",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pYBNhqEcTyU6eKO0RXJCTXY6m",
+    "_type": "entry",
+    "_entry": "36dmGTFK2w5MMiIUxEPvEWusYSo"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31YVnUIcZ1tPsFAg4MJFteYvzVt",
     "_type": "image",
     "_entry": "31YVjZltSEzYPO3hFhIXD4PONka"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 30,
-  "pokemon": "Porygon",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36paggfA5Hutmr6NUTcR7BaCS2Z",
+    "_type": "entry",
+    "_entry": "36dmGRCOguDafPR93bufJ8bDzVF"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30obnwxALb8Bx6YIjvhpIUEAtxf",
     "_type": "image",
     "_entry": "30oJlG2pIdF0V2t1mO8DZUgkMYx"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

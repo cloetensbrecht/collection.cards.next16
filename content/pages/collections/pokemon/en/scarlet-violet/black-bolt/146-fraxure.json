@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Fraxure",
   "energy": "dragon",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pTnLdxPO0y677gZ8bUmN4yaEV",
+    "_type": "entry",
+    "_entry": "36dmGVxSQdT5sOsww1bbJyKPACj"
+  },
   "illustrator": {
     "_id": "33vxXLV6cm1lG8LyP28vSZtZrpD",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBMWm1XrOWCsWtHi1DreBenq"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320RP3tYwhuXkSWGWKOyB6CSNyw",

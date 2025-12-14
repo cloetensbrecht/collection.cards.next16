@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Jolteon",
   "energy": "lightning",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pXVFzLyIiRi9B2j06f3lYtIyO",
+    "_type": "entry",
+    "_entry": "36dmGWOPyLp9cSryoRxU0onHt7P"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qB4s2KLSvDILRz3FJ0st79Pqt",
     "_type": "image",
     "_entry": "30q9C4w5224Vha27RnWXgB8c19j"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

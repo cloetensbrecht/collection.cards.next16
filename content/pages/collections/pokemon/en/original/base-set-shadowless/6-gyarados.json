@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Gyarados",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pa8JL7gi6DM6al49KtDzorTgT",
+    "_type": "entry",
+    "_entry": "36dmGQJC5DSUskfgFIQbmUiNVld"
+  },
+  "illustrator": {},
   "card": {
     "_id": "311ayaBuXYOhkpBTRYEuigDSNJY",
     "_type": "image",
     "_entry": "311X1iJ1utp61YRuRigIFGBSL6v"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

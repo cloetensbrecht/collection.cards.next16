@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 140,
-  "pokemon": "Darmanitan",
   "energy": "fire",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pVgxHvKj9mIOPFuVBAPujDkV6",
+    "_type": "entry",
+    "_entry": "36dmGWLcMJNlnBviZGK41nIm6Rj"
+  },
   "illustrator": {
     "_id": "33w1iYzQTTqNQU6Qbzy1aoDJpwH",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31mdo3rBQUrjG0tPLG5RSaPqoSX"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31mdsnOXNHuWllf0t4Ohispjd3n",

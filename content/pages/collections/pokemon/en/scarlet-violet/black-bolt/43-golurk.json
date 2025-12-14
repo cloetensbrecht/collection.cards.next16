@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 160,
-  "pokemon": "Golurk",
   "energy": "psychic",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pVAOwh2nRWW792UCubkesKim1",
+    "_type": "entry",
+    "_entry": "36dmGU61refsv045OOnto9xmt5g"
+  },
   "illustrator": {
     "_id": "33w0q1TtCZcFq63AIgIxhGE5xpK",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wj012Laixy0m5Ge5WIqA4zQCI"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wjvwiiBje1CyhuDFqztlAWJ1n",

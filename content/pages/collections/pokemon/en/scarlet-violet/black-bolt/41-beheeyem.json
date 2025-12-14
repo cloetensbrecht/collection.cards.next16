@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Beheeyem",
   "energy": "psychic",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pVCKFKygefKLY70MDBk5Ks7Do",
+    "_type": "entry",
+    "_entry": "36dmGRVLxL6626OMEirswW8fozP"
+  },
   "illustrator": {
     "_id": "33w0tHlq4zIwDnSAh2XQDv3H5wC",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wj009dSZK7Zi9La5yN6CWW8nN"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wj2naawyU66Ceawdmb0OVLQuR",

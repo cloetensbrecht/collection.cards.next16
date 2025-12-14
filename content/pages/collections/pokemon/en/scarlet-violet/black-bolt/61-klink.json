@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Klink",
   "energy": "metal",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUv3ke4fHIT3XUQ1GzEZqRkYh",
+    "_type": "entry",
+    "_entry": "36dmGPzbeU7xOAsfYaxYVcr0Abo"
+  },
   "illustrator": {
     "_id": "33w0FfDyjl3FxNisbZ48KAA2pLP",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wtY6ijZgJ5fXt8vB0K6piZwkz"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wuIU4YYd1GsCVOWGwhQAlqQZw",

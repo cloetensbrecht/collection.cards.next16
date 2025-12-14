@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Emolga",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVUclLlcsuHOUakkQkRcfR2gf",
+    "_type": "entry",
+    "_entry": "36dmGR7kNBhSQr8HmNkToLNOOq3"
+  },
   "illustrator": {
     "_id": "33w1BQpLgwEhygOTFKIS9nNqmwh",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31oiFDWBBC2AGgHglNTlCjcL5Vk"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31oqi76Xy0DTNyK6q3F3GFMcA2k",

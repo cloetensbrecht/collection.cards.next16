@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 170,
-  "pokemon": "Krookodile",
   "energy": "darkness",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pTuzpCfjRk7e7Er2nTShpLIMU",
+    "_type": "entry",
+    "_entry": "36dmGSglZJx8GGfHqKngOrpm3D2"
+  },
   "illustrator": {
     "_id": "33vxsDXB68gEiFHP4TRkkUTRcBr",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBQKAxyNphfcz2jYQnbmcdMf"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320PRBLSaPDUudaNAHDkW4E9f8f",

@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Cinccino",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pUjAqU7GalaxppmHRWB4f1UWu",
+    "_type": "entry",
+    "_entry": "36dmGVqT19vfQgBWp8S7osuwavr"
+  },
   "illustrator": {
     "_id": "33vznMcaaWDzE5McF9ea6rbpTnO",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wyj6c0uToSNEUt9lQsFpX3eG6"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31x0D1vdrRBZexnw5xPuZL2m4sm",

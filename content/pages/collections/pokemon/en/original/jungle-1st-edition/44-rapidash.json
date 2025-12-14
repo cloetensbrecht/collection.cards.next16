@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Rapidash",
   "energy": "fire",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pX39S2b3wTEISH0AkyhVFyu3k",
+    "_type": "entry",
+    "_entry": "36dmGTeHg3ctrwck5jw2Eedr9uj"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qD7TEuAR4QoX0XMxqeB6WTAwR",
     "_type": "image",
     "_entry": "30q9C5f0jmOXUs24YIEEFMUS8km"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Munna",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVGyyelKPqjAPuIOTle3M2FsB",
+    "_type": "entry",
+    "_entry": "36dmGRZLRDr687yIPVwnVGaUeig"
+  },
   "illustrator": {
     "_id": "33w125kZSHHnbfJptwxqqBH0odv",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31ve9SJ9dMVWQRZbpI9jQ30hgAr"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wf2YDksctivJCU7qrkWf79QVG",

@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Pidove",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUmw2U7yCEPk1Pcvfm9869Rmq",
+    "_type": "entry",
+    "_entry": "36dmGTDOLtiGQ4bAPpJym7lLlEV"
+  },
   "illustrator": {
     "_id": "33vzwfEgBwzMF3rRjFpyGQuYLzz",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wyj5KsoLjFLhx8kMPM0IYByLE"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wyn0UNJCSH6iDEEPoS2POdflS",

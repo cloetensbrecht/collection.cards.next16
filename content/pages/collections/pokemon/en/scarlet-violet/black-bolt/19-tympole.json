@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Tympole",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVcxxMfOnwQQSPpeX0ODLuNl6",
+    "_type": "entry",
+    "_entry": "36dmGXYlAxJY1uwbkJcdL3lxN5s"
+  },
   "illustrator": {
     "_id": "33w1RwNVHXmcneIF3Oeo8ijQ0w8",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31oiFDEvVogYjLZtLv2lvyg2fH6"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31okBvGC2zcERlV9Oh40iaVPjV0",

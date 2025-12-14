@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Starmie",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36paNdOOcPvizKeUb0NLe8zLEYS",
+    "_type": "entry",
+    "_entry": "36dmGUmOMQU5oZEc6JHehDCbBET"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oeSjU7PNfHNdO1zVR8tas94pd",
     "_type": "image",
     "_entry": "30oJlDzaW0rP1YmSVsFOQ47823Z"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

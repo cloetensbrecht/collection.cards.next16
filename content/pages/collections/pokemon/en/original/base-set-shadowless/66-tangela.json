@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Tangela",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pZGknxxR8LwWkw18yX6a6oDrQ",
+    "_type": "entry",
+    "_entry": "36dmGVTbxbaEbanjOBz3nymMUXC"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CIevoP9OfuZ5s0EViqAgHeXMI",
     "_type": "image",
     "_entry": "31A25FJciFLfW7UOUcKOhprRYTD"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

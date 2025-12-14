@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Maractus",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUWVOMkWOTtdNMhezx7aOsCYc",
+    "_type": "entry",
+    "_entry": "36dmGQJUgcqEpp9GqDYjJYCsw0r"
+  },
   "illustrator": {
     "_id": "33vzEZWqw89zyhI9jIFaiQaPnNX",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31za4IxbglBYw9Sp1qwhgNNhNQD"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31za8VgZ28hcT88VGU20iBeYl6k",

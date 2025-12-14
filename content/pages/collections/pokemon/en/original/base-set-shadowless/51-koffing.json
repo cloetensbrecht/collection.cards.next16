@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Koffing",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pZTfh4nx5ucgRwiTf4tHKy5Wz",
+    "_type": "entry",
+    "_entry": "36dmGQ08ntynb7WTGJIUuCZnVUU"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CIy28Wwp5Uv9HzRPDYFjvn4Fv",
     "_type": "image",
     "_entry": "31A25CCcFAhwajTQPrg4bGxYXU1"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

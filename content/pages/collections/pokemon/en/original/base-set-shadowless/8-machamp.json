@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Machamp",
   "energy": "fighting",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pa6hzEEpyFqXyp1tRPFcp63GG",
+    "_type": "entry",
+    "_entry": "36dmGSgI692CruU3DQzUzGk0Rr6"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CKBqi13V28zfSnJ5EMyGFYsBG",
     "_type": "image",
     "_entry": "311XiTHcPiws6aED29CXuPviMFh"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

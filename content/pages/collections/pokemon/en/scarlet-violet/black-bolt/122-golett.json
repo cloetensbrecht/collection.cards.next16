@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Golett",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pU7sSa9xDlNceZXiTbRRvXKts",
+    "_type": "entry",
+    "_entry": "36dmGSEwZLxsRMRGtFPMZsLSbGw"
+  },
   "illustrator": {
     "_id": "33vyLDcigSEjUE0826syrraVA93",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBQPLQoJtznx5D8QdwJWsJlx"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320JspJqsV5UWEXbzVmjXZ5Xhmi",

@@ -8,9 +8,13 @@
   "rarity": "special-illustration-rare",
   "cardtype": "pokemon",
   "hp": 320,
-  "pokemon": "Serperior",
   "energy": "grass",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pTYVYHgSOhvhMmcgU8W3JtCG7",
+    "_type": "entry",
+    "_entry": "36dmGRNGoMItBSYiK9LqSNR8Aqs"
+  },
   "illustrator": {
     "_id": "33vwnr0vmGc3gep9OQKOSgr5t3Z",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBPv5l72NZcyB8a31CrQW2BW"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320Vhjw8qUkvK4BHFsTMXjHb5O6",

@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Alakazam",
   "energy": "psychic",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36paC5LD1re4mL9FNRZ3PvKyqDZ",
+    "_type": "entry",
+    "_entry": "36dmGUDXTAYYTN1mxzxYRWvCnry"
+  },
+  "illustrator": {},
   "card": {
     "_id": "311TBx4yIk6YqU3H6xP5s6wxlkA",
     "_type": "image",
     "_entry": "311T8GPVRbpEpfvl7GmA31b2bHj"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311KGviQPO11LiQJ82uhFuT7LNc",

@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Rufflet",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pTg8OWLGQcB08Xiq2XdM2A62R",
+    "_type": "entry",
+    "_entry": "36dmGTDlaRV0bjA7pUrtqtIQP4v"
+  },
   "illustrator": {
     "_id": "33vxDnXaKdjbDzmK5NykaaMR7TS",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBSS1R1iJbwMH0d5bftflddt"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320TFeXE9Daexfj5CYhJrqyWsog",

@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Raichu",
   "energy": "lightning",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pa16Qr5WJGRKlC24oV4b5Djm9",
+    "_type": "entry",
+    "_entry": "36dmGWk9MIcQEgz4paCSCeW8ulu"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CK6QQDngSqnSoN0wz7EzFXG3O",
     "_type": "image",
     "_entry": "311YP230odoMb3yfh40Y07geVXN"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

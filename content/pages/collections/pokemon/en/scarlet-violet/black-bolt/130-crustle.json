@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 150,
-  "pokemon": "Crustle",
   "energy": "fighting",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pU12r35jMNeR0uwpa1TETnRJv",
+    "_type": "entry",
+    "_entry": "36dmGUbm8nmGgoYurjC26wu7PsA"
+  },
   "illustrator": {
     "_id": "33vy5GIyQhqqvzAdFGPrKKkHAAE",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBReSbyqjoy2XxPcrnY3B9qD"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320LkXOzJuOGJx5nQRXwB85o3w3",

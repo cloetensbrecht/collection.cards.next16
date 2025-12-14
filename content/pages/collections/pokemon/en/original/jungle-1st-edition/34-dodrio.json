@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Dodrio",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pXFmOWyK7uC74qJUTEAAkyFlL",
+    "_type": "entry",
+    "_entry": "36dmGVFTNYjH3mQo99Xv8XXXB2V"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qCKjsH8Fvr8RYQqofc06GYkyb",
     "_type": "image",
     "_entry": "30q9BzJI511C3ffwXRPFmzC60ln"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

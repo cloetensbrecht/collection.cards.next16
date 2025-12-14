@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Pidgey",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pZOoqQD6huOonnBB4lJk3OSOA",
+    "_type": "entry",
+    "_entry": "36dmGUSeeafKeJgNdEYR8lxbkqT"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CIp9HASmgbw1g7s3T5ldKss2g",
     "_type": "image",
     "_entry": "31A25BF5gM7jNEDWZbDDYqF4m44"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

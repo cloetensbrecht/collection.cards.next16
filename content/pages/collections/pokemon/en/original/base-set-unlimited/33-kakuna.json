@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Kakuna",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pYWvlIbqohjozMHhFhzxzm8Yv",
+    "_type": "entry",
+    "_entry": "36dmGTBwrCMTHK14iAbutQ60n0c"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31Y94fUemy2E8UyUVVUZ3TgLQvh",
     "_type": "image",
     "_entry": "31Y909F3JohkYLLSU48NiAlp32U"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

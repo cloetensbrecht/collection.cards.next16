@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Ninetales",
   "energy": "fire",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pa3YJ5q8xyPG1agz3QsgXtMP0",
+    "_type": "entry",
+    "_entry": "36dmGXTO1JCk3s3akl1woKEhrtV"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CK8D6nJZ2HGfovBksGgtf6x3F",
     "_type": "image",
     "_entry": "311YC6ga72Xq91DmS2wN9rKb7N3"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

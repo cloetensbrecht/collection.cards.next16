@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Seel",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pafAhBemUunJI2MrOD1Gy3s0W",
+    "_type": "entry",
+    "_entry": "36dmGRCsYtmvxdHEPmWi6wmwS1w"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oby42Djy3BZVGXa2i1TjXfxWJ",
     "_type": "image",
     "_entry": "30oJlCin68P8ZDIUImFzyOEZv2C"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

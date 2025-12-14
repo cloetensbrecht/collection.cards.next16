@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Pawniard",
   "energy": "metal",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUsbhBjE0QcRtreHrXvwd2d6E",
+    "_type": "entry",
+    "_entry": "36dmGVAkpINyOxFYoUs3Mdovnfw"
+  },
   "illustrator": {
     "_id": "33w09x00ihG8HAV9GaxpRkZ86n0",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wtY63ePcvtkLSX3AldXCNDChr"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wvlYoAEi7ka44173jglNRkjui",

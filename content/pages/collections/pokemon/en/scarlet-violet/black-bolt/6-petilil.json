@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Petilil",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVn8cptOZzZNupnmN1oqLKcYR",
+    "_type": "entry",
+    "_entry": "36dmGRgQw8eOqn0g4zg98NcmkZ2"
+  },
   "illustrator": {
     "_id": "33w1towjEvL5UA2CLNW4lSBejoJ",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31mYGLcojtMfq7RbB2RhOU8RHqy"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31mYJ4BNucqSqmFPRLRTIjVauKR",

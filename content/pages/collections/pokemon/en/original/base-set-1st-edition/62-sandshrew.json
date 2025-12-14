@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Sandshrew",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36paPIBZJiS3J2ajmDyrt00FCii",
+    "_type": "entry",
+    "_entry": "36dmGQ72oklJMikuDRHk15khwOY"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oeIlk6D5qmZ3pFDTrB37Po58T",
     "_type": "image",
     "_entry": "30oJlElwmJLa1qMqiPtJ4BviKHp"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

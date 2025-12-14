@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Magmar",
   "energy": "fire",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pZhRsUROrtfDaaYeNwhbF1eOI",
+    "_type": "entry",
+    "_entry": "36dmGX2CsKbcXvJqYPEK2lbD2pO"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31CJLD2v0cbiE117R1IW5aPIIqv",
     "_type": "image",
     "_entry": "31A25BWOGUov8UZYbblPMRr9VOq"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

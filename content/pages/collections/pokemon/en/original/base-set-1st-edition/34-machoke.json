@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Machoke",
   "energy": "fighting",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pakq3BnkPV8ER8zdcPVfWxsVR",
+    "_type": "entry",
+    "_entry": "36dmGU9oMOeDOx9QnP8yfKN7NU2"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30ob7Zfzk4R9eVHbH3KQVEo07aX",
     "_type": "image",
     "_entry": "30oJl9Gi6vnTQeTfANdYX5DxJL9"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

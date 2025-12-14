@@ -8,9 +8,13 @@
   "rarity": "ultra-rare",
   "cardtype": "pokemon",
   "hp": 220,
-  "pokemon": "Genesect",
   "energy": "metal",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pTa0If4Ban5uMgqujY0IElSeK",
+    "_type": "entry",
+    "_entry": "36dmGTkARNjEGuVgoJdgepyuWu1"
+  },
   "illustrator": {
     "_id": "33vwtmQb0iX4LhNU1kyW3qHGxFA",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBS6Dr6WleYiiq2Ccs5C2wBI"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320Uha0enMvPpFStevrIklIOlDY",

@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Charizard",
   "energy": "fire",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pb8EibkP8oiX75TSfPddG4rHd",
+    "_type": "entry",
+    "_entry": "36dmGQx3jiE96hbvAi5wIsyck5G"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oNgYj4DyABd2QwiMlkLM8g9Pp",
     "_type": "image",
     "_entry": "30oJl8ZGnUpfjYPySfdVmJpML5P"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311L9YdGKtJr18DAiN3NNkCUlHt",

@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Oddish",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWnLTimZtmVPYokrT29URU25v",
+    "_type": "entry",
+    "_entry": "36dmGR3H9EWN9os8c2eaFoHRTFa"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qEE2ECZmDMJK4L7uDeTFSQF7P",
     "_type": "image",
     "_entry": "30q9C120tRIiIVfaTbTSemEsCfc"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

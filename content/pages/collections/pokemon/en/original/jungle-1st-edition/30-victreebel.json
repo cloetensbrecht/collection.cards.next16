@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Victreebel",
   "energy": "grass",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pXK2tqtUVaH7IFBvylrAm7zBn",
+    "_type": "entry",
+    "_entry": "36dmGXVdeDyGWKHEaP4l1SFH22h"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qBxRBYH5cMjxs2rSQt0o6nqAC",
     "_type": "image",
     "_entry": "30q9Byx74uEH3P0sa0d0q3c8A4g"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

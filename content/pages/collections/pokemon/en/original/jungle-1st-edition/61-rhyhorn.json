@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Rhyhorn",
   "energy": "fighting",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVyOjC71pTVzRXybFvK0H5lNA",
+    "_type": "entry",
+    "_entry": "36dmGQPfitYFt1jrbPOSxIz8Xpl"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qEbwTMmHtmqNBXH8R0jj9wRS2",
     "_type": "image",
     "_entry": "30q9C3pWBBwr8xa0hDN6IWa4k2m"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

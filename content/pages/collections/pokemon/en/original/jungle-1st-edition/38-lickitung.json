@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 90,
-  "pokemon": "Lickitung",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pXB9xLtyLdQxl8QhlVZRzcQ3k",
+    "_type": "entry",
+    "_entry": "36dmGQhuHQEY8Qw5drTkc31vgJ8"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qCexm6SFT1h1Dd6mZqMQrYZF0",
     "_type": "image",
     "_entry": "30q9C1l2EqjUWQrRhKa4JbKyEL9"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

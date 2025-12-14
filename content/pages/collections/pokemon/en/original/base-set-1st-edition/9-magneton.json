@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Magneton",
   "energy": "lightning",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pb4M7vUYfIzGgeHYDaHkGMz3t",
+    "_type": "entry",
+    "_entry": "36dmGV2D7X6TjspVOoGKpwDwIpH"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oU6hVv0XwdjwW8Zes4p3dpdwK",
     "_type": "image",
     "_entry": "30oJlDnFidVdhdoEfvflEipNckW"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

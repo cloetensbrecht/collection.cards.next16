@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Electabuzz",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pYjR1Pegm3b5cvHt0b1gGhu0l",
+    "_type": "entry",
+    "_entry": "36dmGR3wIpXYSYV2WJf5ZSkhApC"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31PBZxD1PqR3DJKsqB7HjUBRqjL",
     "_type": "image",
     "_entry": "31PBV4vSzkd2ayHxukbCYxAWRUP"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

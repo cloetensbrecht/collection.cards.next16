@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 70,
-  "pokemon": "Scyther",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pXOTQ03Gbc4Kmd0ORSOZBtvZC",
+    "_type": "entry",
+    "_entry": "36dmGRjy9ugY1Hxi4TNXMKaLOEy"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qBeJPkHGyN6wAkL2YevFe3G2X",
     "_type": "image",
     "_entry": "30q9C2cMXbD9yx0o1sjyF1wpu4t"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

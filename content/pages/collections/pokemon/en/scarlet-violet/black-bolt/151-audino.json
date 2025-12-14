@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Audino",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pTixCbUugAMJROQpRYPckUHli",
+    "_type": "entry",
+    "_entry": "36dmGXJwSa5InFeMdFB2RgcbLh4"
+  },
   "illustrator": {
     "_id": "33vxIq3U5TgKaCPVYMwH0Th16QR",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBPT2ZlmuRbn3A6p9hidv2XR"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320SpnFo1b92Vw32hoQHsZiYydD",

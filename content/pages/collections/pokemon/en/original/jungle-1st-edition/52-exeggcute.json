@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Exeggcute",
   "energy": "grass",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWvIQTrifDmSvRofYLZCl2jTF",
+    "_type": "entry",
+    "_entry": "36dmGXcpoIRF0u4Ty3cmMMKKiTT"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qDizoojPuuUut9OVtABOxCvIY",
     "_type": "image",
     "_entry": "30q9C3EJq0Tq5ozebHN9M9vmJUP"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

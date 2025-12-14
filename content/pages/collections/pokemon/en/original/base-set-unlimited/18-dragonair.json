@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Dragonair",
   "energy": "colorless",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pYldC2gZY7KeS0evu7F8frJ3l",
+    "_type": "entry",
+    "_entry": "36dmGXQM1SYayYIby0qQXMDd30a"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31PB1AfdLQwt57Y2YiXcCHGympy",
     "_type": "image",
     "_entry": "31PAwah1KE2Yfaj4ysJzGFg1FeV"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 170,
-  "pokemon": "Seismitoad",
   "energy": "water",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pVbMh9fbEdF5lGOVNcZuxFNgY",
+    "_type": "entry",
+    "_entry": "36dmGTo333eB06wqFknNAzACa7N"
+  },
   "illustrator": {
     "_id": "33w1O5J96C0u52z8H9hPb06qSPg",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31oiFDwoNrq7lsoNr2ZVtAIEWxn"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31okx4KCwDz3q3w4EmHDDQNrgGJ",

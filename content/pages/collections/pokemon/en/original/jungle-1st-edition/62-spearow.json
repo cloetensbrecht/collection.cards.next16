@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 50,
-  "pokemon": "Spearow",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVxSNRwtQ9JhAqm9hFdbHnr0e",
+    "_type": "entry",
+    "_entry": "36dmGSF0aMHw36KOb48kGOupB80"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qEgT6s09veLKv5XpBleoWyx3x",
     "_type": "image",
     "_entry": "30q9C0UxfE3rpYBLaNMbRs6QEI3"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

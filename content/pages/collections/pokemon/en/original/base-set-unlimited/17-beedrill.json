@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Beedrill",
   "energy": "grass",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pYmLFYwf2LIBx8qNPtvs7gkl7",
+    "_type": "entry",
+    "_entry": "36dmGWuUuu9FCMMcqvoQTzShcTB"
+  },
+  "illustrator": {},
   "card": {
     "_id": "31PAhMYjNQav1TGVXAQCXXECdwu",
     "_type": "image",
     "_entry": "31PAdLZAM5tINxoobbMKKjrpEHa"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31CJvMrNyh4V2IcH1YO8auhuxB1",

@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 100,
-  "pokemon": "Lilligant",
   "energy": "grass",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pUXKVw1jMFCMcuUQGu3XswgQo",
+    "_type": "entry",
+    "_entry": "36dmGTX6OT6xIkBNC0LG7lOJxSW"
+  },
   "illustrator": {
     "_id": "33vzGyDIi48nCWs8OiH1r9oIz08",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31zZmTbhxAGOWgkPUKXvnaVP70E"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31zZqrS4mXd0uNaFED8WUrigs0w",

@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Bisharp",
   "energy": "metal",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pUrhfByCxJbigd1H1bRuahXtQ",
+    "_type": "entry",
+    "_entry": "36dmGUFfdsx3KoGZcWvUw4v7hAJ"
+  },
   "illustrator": {
     "_id": "33w08rt1NH0bt2aS7YlXCsJka4g",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wtY3AUIAt8IZgk2vmRUCiCs1T"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31ww2Rt0asRoFcxcsTuAah1AJmU",

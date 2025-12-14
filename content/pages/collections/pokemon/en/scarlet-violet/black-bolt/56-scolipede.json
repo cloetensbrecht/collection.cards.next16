@@ -8,9 +8,13 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 160,
-  "pokemon": "Scolipede",
   "energy": "darkness",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pUzSCY11bTmFfJlgz4lVYw6Ge",
+    "_type": "entry",
+    "_entry": "36dmGRmNjO5gK2KhpnQ02mR9Twg"
+  },
   "illustrator": {
     "_id": "33w0PHQQRytFjdqGLDph2WSz2CW",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31woH13yQ9FN38BGRumX3gQXaIC"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wql2R0lpqZBQK8j2ojD0IbpMN",

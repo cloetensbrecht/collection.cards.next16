@@ -8,14 +8,20 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Goldeen",
   "energy": "water",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pWu3bjVxAvA62WNU976H7SlR1",
+    "_type": "entry",
+    "_entry": "36dmGV564oWJNt473CIDZ11OAa4"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qDmyX9J8zl6FF7FhHsNzccD28",
     "_type": "image",
     "_entry": "30q9C10vtkYnScSqYVfnqgEqQhf"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

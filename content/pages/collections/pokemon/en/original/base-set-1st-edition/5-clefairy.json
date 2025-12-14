@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Clefairy",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pb7XMAE7XTV8jzxEfSb4jU4TJ",
+    "_type": "entry",
+    "_entry": "36dmGQAZBp7XJ9bDKLNgyyjSiSR"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oTCwPhCppvfw9wFuZp4TrZiuc",
     "_type": "image",
     "_entry": "30oJlCbTCvIIDc1xJ1ymw8k7wZ0"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311L9YdGKtJr18DAiN3NNkCUlHt",

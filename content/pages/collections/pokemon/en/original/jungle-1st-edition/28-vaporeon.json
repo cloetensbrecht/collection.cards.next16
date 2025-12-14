@@ -8,14 +8,20 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Vaporeon",
   "energy": "water",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36pXLiQXiSgqO7nAxfJupZiS20Z",
+    "_type": "entry",
+    "_entry": "36dmGVuHoVu6fD1s01Hofj33ocz"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30qBoLLwwiOXqtm3NlOFdyUnwEY",
     "_type": "image",
     "_entry": "30q9C0sqasb2hF3T5v08qBTpgIl"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31QfOkUgYWat7U4oXfs6zsEN1bn",

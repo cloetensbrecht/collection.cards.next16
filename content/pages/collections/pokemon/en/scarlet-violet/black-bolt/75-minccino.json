@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Minccino",
   "energy": "colorless",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pUk2AS4Kn0DiwcxZ01KP0Gkg1",
+    "_type": "entry",
+    "_entry": "36dmGWhSlB7vUGDVsiHgTvpoihY"
+  },
   "illustrator": {
     "_id": "33vzozjeEapVctnxsVjUHmvE5ej",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31wyj6rh1mNUhIm00CDOvUMHFDq"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wzx8a2zDk7pG8WPAelyOKaGS3",

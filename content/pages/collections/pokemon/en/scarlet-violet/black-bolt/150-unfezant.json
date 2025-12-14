@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 150,
-  "pokemon": "Unfezant",
   "energy": "colorless",
   "stage": "stage2",
+  "pokemon": {
+    "_id": "36pTjk5FkZMMhTDSsLcbMfX5IeG",
+    "_type": "entry",
+    "_entry": "36dmGUEpyIa6X0ZWtvPv7yXYEK9"
+  },
   "illustrator": {
     "_id": "33vxM7LgMrdX9j4NoxtgJxY7f7e",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBTDxuJnyNVE4P2IPwVW3Si5"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320RwHgZHvArsEH3eVl8Oivckht",

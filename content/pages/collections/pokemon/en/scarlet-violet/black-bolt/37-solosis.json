@@ -8,9 +8,13 @@
   "rarity": "common",
   "cardtype": "pokemon",
   "hp": 40,
-  "pokemon": "Solosis",
   "energy": "psychic",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVFJzfqn9TpZmP4UvvrlIhGSS",
+    "_type": "entry",
+    "_entry": "36dmGW8viBHArCMnqoftDt9G7NS"
+  },
   "illustrator": {
     "_id": "33w0z2bmVfN6flVJCdpdxO7Zt30",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31ve9RJoaOTekpnL8qRr70oEUwm"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wgiQmyN2zBi4lbLOb7PlXfYPD",

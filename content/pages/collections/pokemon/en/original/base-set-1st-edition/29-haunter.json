@@ -8,14 +8,20 @@
   "rarity": "uncommon",
   "cardtype": "pokemon",
   "hp": 60,
-  "pokemon": "Haunter",
   "energy": "psychic",
   "stage": "stage1",
+  "pokemon": {
+    "_id": "36paod1PsZrkouDAJv5TwOdcv22",
+    "_type": "entry",
+    "_entry": "36dmGWJyQsyMmmKH8jMpGkueBIm"
+  },
+  "illustrator": {},
   "card": {
     "_id": "30oaJHse9tNqi8miMu1pp3zOxah",
     "_type": "image",
     "_entry": "30oJlDa8PQto1WR2jLXpuPQqVJ7"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "311WcCrc6q86Na8yYy4vKE5tAnN",

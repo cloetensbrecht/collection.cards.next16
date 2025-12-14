@@ -8,9 +8,13 @@
   "rarity": "illustration-rare",
   "cardtype": "pokemon",
   "hp": 80,
-  "pokemon": "Venipede",
   "energy": "darkness",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pTzGLGONvs6vASzO6ry6H9Xgf",
+    "_type": "entry",
+    "_entry": "36dmGWk4AFiFWauPCGMRozJvMTB"
+  },
   "illustrator": {
     "_id": "33vy1R4VIgR5223d9H6AtHjxO2Y",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "320FBQ1AulHUEgUfsfbCXUvO8aZ"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "320NHVa8Uk9YnJZKtKNSxlHLDvU",

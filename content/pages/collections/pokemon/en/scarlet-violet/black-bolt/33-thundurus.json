@@ -8,9 +8,13 @@
   "rarity": "rare",
   "cardtype": "pokemon",
   "hp": 120,
-  "pokemon": "Thundurus",
   "energy": "lightning",
   "stage": "basic",
+  "pokemon": {
+    "_id": "36pVImS39IOPGWVmZ9deUdWyJaG",
+    "_type": "entry",
+    "_entry": "36dmGRXJ39FehPwZ93qfIObEJS5"
+  },
   "illustrator": {
     "_id": "33w15OcYAgesBj7TUDyjWw5S7yW",
     "_type": "entry",
@@ -21,6 +25,7 @@
     "_type": "image",
     "_entry": "31ve9SLPEERSxmuEZvk6NtKa256"
   },
+  "reverseCard": {},
   "variants": [
     {
       "_id": "31wdXIUH4fVQc7rOfOgT9hdeIn2",
