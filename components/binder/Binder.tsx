@@ -60,6 +60,7 @@ const Binder: React.FC<BinderProps> = ({
                   width={logo.width}
                   height={logo.height}
                   className="w-[40%] h-auto"
+                  sizes={'269px'}
                 />
               )}
             </div>
