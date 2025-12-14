@@ -45,6 +45,7 @@ export type CardGridProps = {
   cards: (Card | (Card & {variants: Card[]}))[]
   columns?: number
   isStacked?: boolean
+  pockets?: number
 }
 
 type State = {
@@ -57,7 +58,12 @@ type State = {
   status: 'positioning' | 'opening' | 'open' | 'closing' | 'closed'
 }
 
-const CardGrid: React.FC<CardGridProps> = ({cards, columns, isStacked}) => {
+const CardGrid: React.FC<CardGridProps> = ({
+  cards,
+  columns,
+  isStacked,
+  pockets
+}) => {
   const gridRef = useRef<HTMLDivElement>(null)
   const [gridWidth, setGridWidth] = useState(0)
   const [state, setState] = useState<State>({
@@ -87,6 +93,13 @@ const CardGrid: React.FC<CardGridProps> = ({cards, columns, isStacked}) => {
     }
   }, [])
 
+  const cardsWithPlaceholders = [...cards]
+  if (pockets && cardsWithPlaceholders.length < pockets) {
+    cardsWithPlaceholders.push(
+      ...Array(pockets - cardsWithPlaceholders.length).fill({} as Card)
+    )
+  }
+
   const currentCard = cards[state.currentIndex]
   const extendedCard = useMemo(() => ({...currentCard, sizes}), [currentCard])
   const columnCount = useMemo(
@@ -95,7 +108,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards, columns, isStacked}) => {
   )
   const columnWidth = (gridWidth - (columnCount - 1) * gapSize) / columnCount
   const rowHeight = Math.floor(columnWidth * (1024 / 733) + gapSize) // maintain 408:555 ratio
-  const rowCount = Math.ceil(cards.length / columnCount)
+  const rowCount = Math.ceil(cardsWithPlaceholders.length / columnCount)
   const hasNextButton = state.currentIndex < cards.length - 1
   const hasPrevButton = state.currentIndex > 0
 
@@ -239,7 +252,7 @@ const CardGrid: React.FC<CardGridProps> = ({cards, columns, isStacked}) => {
             {virtualizer.getVirtualItems().map(virtualRow => {
               const start = virtualRow.index * columnCount
               const end = start + columnCount
-              const rowItems = cards.slice(start, end)
+              const rowItems = cardsWithPlaceholders.slice(start, end)
               const onClickHandler = (column: number) => {
                 setState(s => ({
                   ...s,

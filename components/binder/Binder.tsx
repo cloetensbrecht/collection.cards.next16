@@ -70,6 +70,7 @@ const Binder: React.FC<BinderProps> = ({
             cards={rightPageCards}
             columns={columns}
             isStacked={isStacked}
+            pockets={pockets}
           />
         </div>
       </div>
