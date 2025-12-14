@@ -115,7 +115,6 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
   const selectedCardType = filters.cardtype
   const selectedVariant = filters.variant
   const selectedPokemon = filters.pokemon
-  console.log({selectedPokemon})
 
   const availableEnergies = Array.from(
     new Set(cards.map(card => card.energy).filter(Boolean))
