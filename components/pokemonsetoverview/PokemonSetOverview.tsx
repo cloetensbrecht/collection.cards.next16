@@ -35,7 +35,7 @@ type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
 type PokemonSetOverviewProps = {
   cards: Card[]
-  logo: ImageLink<undefined>
+  logo?: ImageLink<undefined>
 }
 
 function chunkArray<T>(arr: T[], size = 9): T[][] {

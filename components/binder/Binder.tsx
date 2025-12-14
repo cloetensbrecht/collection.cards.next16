@@ -10,7 +10,7 @@ type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
 type BinderProps = {
   isStacked?: boolean
-  logo: ImageLink<undefined>
+  logo?: ImageLink<undefined>
   pages: (Card | (Card & {variants: Card[]}))[][]
   page: number
   pockets: number
@@ -53,13 +53,15 @@ const Binder: React.FC<BinderProps> = ({
             />
           ) : (
             <div className="w-full h-full flex items-center justify-center">
-              <Image
-                src={`/media${logo.src}`}
-                alt={logo.title}
-                width={logo.width}
-                height={logo.height}
-                className="w-[40%] h-auto"
-              />
+              {logo && (
+                <Image
+                  src={`/media${logo.src}`}
+                  alt={logo.title}
+                  width={logo.width}
+                  height={logo.height}
+                  className="w-[40%] h-auto"
+                />
+              )}
             </div>
           )}
         </div>
