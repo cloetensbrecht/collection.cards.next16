@@ -132,14 +132,23 @@ const CardGrid: React.FC<CardGridProps> = ({
     return heights
   }, [cards, columnCount, rowCount, rowHeight])
 
-  const virtualizer = useWindowVirtualizer({
-    count: rowCount,
-    estimateSize: rowIndex => {
+  const getRowHeight = useCallback(
+    (rowIndex: number) => {
       if (!isStacked) return rowHeight
       return rowHeights[rowIndex]
     },
+    [isStacked, rowHeight, rowHeights]
+  )
+
+  const virtualizer = useWindowVirtualizer({
+    count: rowCount,
+    estimateSize: getRowHeight,
     overscan: 2
   })
+
+  useEffect(() => {
+    virtualizer.measure()
+  }, [isStacked, virtualizer])
 
   const scrollToRow = useCallback(
     (rowIndex: number) => {
@@ -240,6 +249,17 @@ const CardGrid: React.FC<CardGridProps> = ({
 
   if (cards.length === 0) return <NoResults />
 
+  const top =
+    rowHeights.reduce(
+      (acc, height, index) =>
+        index < (state.nextRow !== null ? state.nextRow : state.currentRow)
+          ? acc + height
+          : acc,
+      0
+    ) +
+    rowHeights[state.nextRow !== null ? state.nextRow : state.currentRow] -
+    rowHeight
+
   return (
     <>
       <div
@@ -290,20 +310,7 @@ const CardGrid: React.FC<CardGridProps> = ({
               }
               onAnimationComplete={onPlaceholderAnimationCompleteHandler}
               card={extendedCard}
-              top={
-                rowHeights.reduce(
-                  (acc, height, index) =>
-                    index <
-                    (state.nextRow !== null ? state.nextRow : state.currentRow)
-                      ? acc + height
-                      : acc,
-                  0
-                ) +
-                rowHeights[
-                  state.nextRow !== null ? state.nextRow : state.currentRow
-                ] -
-                rowHeight
-              }
+              top={top}
             />
           </>
         )}
