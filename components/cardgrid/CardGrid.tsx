@@ -6,6 +6,7 @@ import {
   useCallback,
   useEffect,
   useEffectEvent,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState
@@ -46,6 +47,7 @@ export type CardGridProps = {
   columns?: number
   isStacked?: boolean
   pockets?: number
+  setTotalHeight?: (height: number) => void
 }
 
 type State = {
@@ -62,7 +64,8 @@ const CardGrid: React.FC<CardGridProps> = ({
   cards,
   columns,
   isStacked,
-  pockets
+  pockets,
+  setTotalHeight
 }) => {
   const gridRef = useRef<HTMLDivElement>(null)
   const [gridWidth, setGridWidth] = useState(0)
@@ -127,10 +130,19 @@ const CardGrid: React.FC<CardGridProps> = ({
         )
       )
 
-      heights[rowIndex] = rowHeight + stackedCardOffset * maxVariantsInRow
+      const newRowHeight = rowHeight + stackedCardOffset * maxVariantsInRow
+
+      heights[rowIndex] = newRowHeight === 1 ? 0 : newRowHeight
     }
     return heights
   }, [cards, columnCount, rowCount, rowHeight])
+
+  useLayoutEffect(() => {
+    if (setTotalHeight) {
+      const totalHeight = rowHeights.reduce((a, b) => a + b, 0)
+      if (totalHeight !== 0) setTotalHeight(totalHeight - gapSize)
+    }
+  }, [rowHeights, setTotalHeight, isStacked])
 
   const getRowHeight = useCallback(
     (rowIndex: number) => {
