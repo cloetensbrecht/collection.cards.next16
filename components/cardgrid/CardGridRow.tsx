@@ -58,17 +58,7 @@ const CardGridRow: React.FC<CardGridRowProps> = ({
                   style={
                     {
                       top: `${(index + 1) * stackedCardOffset * -1}px`,
-                      zIndex: -index * 10,
-                      '--pointer-x': '50%',
-                      '--pointer-y': '50%',
-                      '--background-x': '50%',
-                      '--background-y': '50%',
-                      '--pointer-from-center': '0',
-                      '--pointer-from-left': '0.5',
-                      '--pointer-from-top': '0.5',
-                      '--tilt-x': '0deg',
-                      '--tilt-y': '0deg',
-                      '--scale': '1'
+                      zIndex: -index * 10
                     } as React.CSSProperties
                   }
                 >
