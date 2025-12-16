@@ -2,6 +2,7 @@ import {stackedCardOffset} from '@/consts/stack'
 import {VirtualItem} from '@tanstack/react-virtual'
 import {memo, useMemo} from 'react'
 import Card, {CardProps} from '../card/Card'
+import PlaceholderCard from '../placeholdercard/PlaceholderCard'
 import TiltCard from '../tiltcard/TiltCard'
 
 type Card = Omit<CardProps, 'onClick' | 'sizes'>
@@ -47,44 +48,52 @@ const CardGridRow: React.FC<CardGridRowProps> = ({
         marginTop: `${maxVariants * stackedCardOffset}px`
       }}
     >
-      {cards.map((card, column) => (
-        <div key={`${card.id}_${column}`} className="relative">
-          {(card as Card & {variants: Card[]}).variants?.map(
-            (variant, index) => {
-              return (
-                <div
-                  className="absolute w-full h-full pointer-events-none"
-                  key={variant.id}
-                  style={
-                    {
-                      top: `${(index + 1) * stackedCardOffset * -1}px`,
-                      zIndex: -index * 10
-                    } as React.CSSProperties
-                  }
-                >
-                  <Card
+      {cards.map((card, column) => {
+        const isPlaceholderCard = Object.keys(card).length === 0
+
+        return (
+          <div key={`${card.id}_${column}`} className="relative">
+            {(card as Card & {variants: Card[]}).variants?.map(
+              (variant, index) => {
+                return (
+                  <div
+                    className="absolute w-full h-full pointer-events-none"
                     key={variant.id}
-                    {...variant}
-                    isActive={false}
-                    asButton={true}
-                    sizes={cardSizes}
-                    glowColor={undefined}
-                  />
-                </div>
-              )
-            }
-          )}
-          <TiltCard className="h-full">
-            <Card
-              {...card}
-              isActive={activeCardId === card.id}
-              asButton={true}
-              onClick={() => onClickHandler(column)}
-              sizes={cardSizes}
-            />
-          </TiltCard>
-        </div>
-      ))}
+                    style={
+                      {
+                        top: `${(index + 1) * stackedCardOffset * -1}px`,
+                        zIndex: -index * 10
+                      } as React.CSSProperties
+                    }
+                  >
+                    <Card
+                      key={variant.id}
+                      {...variant}
+                      isActive={false}
+                      asButton={true}
+                      sizes={cardSizes}
+                      glowColor={undefined}
+                    />
+                  </div>
+                )
+              }
+            )}
+            {isPlaceholderCard ? (
+              <PlaceholderCard />
+            ) : (
+              <TiltCard className="h-full">
+                <Card
+                  {...card}
+                  isActive={activeCardId === card.id}
+                  asButton={true}
+                  onClick={() => onClickHandler(column)}
+                  sizes={cardSizes}
+                />
+              </TiltCard>
+            )}
+          </div>
+        )
+      })}
     </div>
   )
 }
