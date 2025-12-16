@@ -1,0 +1,13 @@
+:root {
+  --pointer-x: 50%;
+  --pointer-y: 50%;
+  --background-x: 50%;
+  --background-y: 50%;
+  --pointer-fromcenter: 0;
+  --pointer-fromleft: 0.5;
+  --pointer-fromtop: 0.5;
+  --tilt-x: 0deg;
+  --tilt-y: 0deg;
+  --scale: 1;
+  --transition-speed: '400ms';
+}
