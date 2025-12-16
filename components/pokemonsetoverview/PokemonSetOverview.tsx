@@ -18,7 +18,7 @@ import {
   useQueryState,
   useQueryStates
 } from 'nuqs'
-import {useMemo} from 'react'
+import {useEffect, useMemo} from 'react'
 import Binder from '../binder/Binder'
 import {CardProps} from '../card/Card'
 import CardGrid from '../cardgrid/CardGrid'
@@ -108,6 +108,10 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
     parseAsBoolean.withDefault(false)
   )
   const [page, setPage] = useQueryState('page', parseAsInteger.withDefault(1))
+
+  useEffect(() => {
+    setPage(null)
+  }, [filters, pockets, stack, viewMode, setPage])
 
   const selectedEnergy = filters.energy
   const selectedHitPoints = filters.hp
@@ -279,7 +283,6 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
                   onClick={() => {
                     setViewMode('grid')
                     setPockets(null)
-                    setPage(null)
                   }}
                   tabIndex={undefined}
                   value="grid"
@@ -320,7 +323,6 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
                       className="p-1.5 px-2.5 cursor-pointer font-normal aria-[checked=true]:bg-accent aria-[checked=true]:text-accent-foreground"
                       onClick={() => {
                         setPockets(p)
-                        setPage(null)
                       }}
                       tabIndex={undefined}
                       value={p}
@@ -345,7 +347,6 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
                 className="px-1.75 cursor-pointer "
                 onClick={() => {
                   setStack(s => !s)
-                  setPage(null)
                 }}
                 tabIndex={undefined}
                 value="stack"
