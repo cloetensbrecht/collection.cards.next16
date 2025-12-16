@@ -35,58 +35,60 @@ const Binder: React.FC<BinderProps> = ({
   const rightPageIsCoverPage = rightPageCards.length === 0
 
   return (
-    <div className="relative bg-white dark:bg-foreground/8 rounded-md shadow-sm overflow-hidden">
-      {leftPageIsCoverPage && (
-        <div
-          className="absolute top-0 right-[50%] bottom-0 left-0 bg-foreground/3 mask-size-[30px_auto] mask-center mask-repeat"
-          style={{
-            maskImage: maskImage
-          }}
-        />
-      )}
-      <div className="flex w-full flex-row">
-        <div className="basis-1/2 p-6 pr-12 bg-gradient-to-r from-95% from-foreground/0 dark:from-background/0 to-foreground/10 dark:to-background/50 to-100%">
-          {!leftPageIsCoverPage ? (
-            <CardGrid
-              cards={leftPageCards}
-              columns={columns}
-              isStacked={isStacked}
-              pockets={pockets}
-            />
-          ) : (
-            <div className="w-full h-full flex items-center justify-center">
-              {logo && (
-                <Image
-                  src={`/media${logo.src}`}
-                  alt={logo.title}
-                  width={logo.width}
-                  height={logo.height}
-                  className="w-[40%] h-auto"
-                  sizes={'269px'}
-                />
-              )}
-            </div>
-          )}
+    <div className="px-24">
+      <div className="relative bg-white dark:bg-foreground/8 rounded-md shadow-sm overflow-hidden">
+        {leftPageIsCoverPage && (
+          <div
+            className="absolute top-0 right-[50%] bottom-0 left-0 bg-foreground/3 mask-size-[30px_auto] mask-center mask-repeat"
+            style={{
+              maskImage: maskImage
+            }}
+          />
+        )}
+        <div className="flex w-full flex-row">
+          <div className="basis-1/2 p-6 pr-12 bg-gradient-to-r from-95% from-foreground/0 dark:from-background/0 to-foreground/10 dark:to-background/50 to-100%">
+            {!leftPageIsCoverPage ? (
+              <CardGrid
+                cards={leftPageCards}
+                columns={columns}
+                isStacked={isStacked}
+                pockets={pockets}
+              />
+            ) : (
+              <div className="w-full h-full flex items-center justify-center">
+                {logo && (
+                  <Image
+                    src={`/media${logo.src}`}
+                    alt={logo.title}
+                    width={logo.width}
+                    height={logo.height}
+                    className="w-[40%] h-auto"
+                    sizes={'269px'}
+                  />
+                )}
+              </div>
+            )}
+          </div>
+          <div className="basis-1/2 p-6 pl-12 bg-gradient-to-l from-95% from-foreground/0 dark:from-background/0 to-foreground/10 dark:to-background/50 to-100%">
+            {!rightPageIsCoverPage && (
+              <CardGrid
+                cards={rightPageCards}
+                columns={columns}
+                isStacked={isStacked}
+                pockets={pockets}
+              />
+            )}
+          </div>
         </div>
-        <div className="basis-1/2 p-6 pl-12 bg-gradient-to-l from-95% from-foreground/0 dark:from-background/0 to-foreground/10 dark:to-background/50 to-100%">
-          {!rightPageIsCoverPage && (
-            <CardGrid
-              cards={rightPageCards}
-              columns={columns}
-              isStacked={isStacked}
-              pockets={pockets}
-            />
-          )}
-        </div>
+        {rightPageIsCoverPage && (
+          <div
+            className="absolute top-0 left-[50%] bottom-0 right-0 bg-foreground/3 mask-size-[30px_auto] mask-center mask-repeat"
+            style={{
+              maskImage: maskImage
+            }}
+          />
+        )}
       </div>
-      {rightPageIsCoverPage && (
-        <div
-          className="absolute top-0 left-[50%] bottom-0 right-0 bg-foreground/3 mask-size-[30px_auto] mask-center mask-repeat"
-          style={{
-            maskImage: maskImage
-          }}
-        />
-      )}
     </div>
   )
 }
