@@ -9,6 +9,7 @@ import CardModalBackground from './CardModalBackground'
 
 interface ImageModalProps {
   card: CardProps | null
+  isBinderPage?: 'left' | 'right' | null
   onClose: () => void
   onExitComplete: () => void
   onOpen: () => void
@@ -16,6 +17,7 @@ interface ImageModalProps {
 
 const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
   card,
+  isBinderPage,
   onClose,
   onExitComplete,
   onOpen,
@@ -46,7 +48,7 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
         <>
           <CardModalBackground onClose={onClose} />
           <motion.div
-            layoutId="card-modal-placeholder"
+            layoutId={`card-modal-placeholder-${isBinderPage || 'default'}`}
             className="fixed left-1/2 top-1/2 z-50 w-full max-w-5xl -translate-x-1/2 -translate-y-1/2 px-6"
             onClick={e => e.stopPropagation()}
             onLayoutAnimationComplete={onOpen}
@@ -60,7 +62,9 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
                 <div className="flex w-full max-w-[50%] sm:w-1/3 items-center justify-center aspect-[733/1024] max-h-[100%] z-10">
                   <div className="aspect-[733/1024] w-auto h-full max-w-[100%] max-h-[100%] flex items-center justify-center">
                     <motion.div
-                      layoutId="selected-card-image"
+                      layoutId={`selected-card-image-${
+                        isBinderPage || 'default'
+                      }`}
                       className="relative w-full h-full content-center"
                     >
                       <TiltCard>

@@ -35,6 +35,8 @@ type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 export type CardGridProps = {
   cards: (Card | (Card & {variants: Card[]}))[]
   columns?: number
+  isBinderLeftPage?: boolean
+  isBinderRightPage?: boolean
   isStacked?: boolean
   pockets?: number
   setTotalHeight?: (height: number) => void
@@ -50,24 +52,36 @@ type State = {
   status: 'positioning' | 'opening' | 'open' | 'closing' | 'closed'
 }
 
+const defaultState: State = {
+  currentColumn: 0,
+  currentRow: 0,
+  currentIndex: 0,
+  nextColumn: null,
+  nextRow: null,
+  nextIndex: null,
+  status: 'closed'
+}
+
 const CardGrid: React.FC<CardGridProps> = ({
   cards,
   columns,
+  isBinderLeftPage,
+  isBinderRightPage,
   isStacked,
   pockets,
   setTotalHeight
 }) => {
   const gridRef = useRef<HTMLDivElement>(null)
   const [gridWidth, setGridWidth] = useState(0)
-  const [state, setState] = useState<State>({
-    currentColumn: 0,
-    currentRow: 0,
-    currentIndex: 0,
-    nextColumn: null,
-    nextRow: null,
-    nextIndex: null,
-    status: 'closed'
+  const [state, setState] = useState<State>(defaultState)
+
+  const resetStateEvent = useEffectEvent(() => {
+    setState(defaultState)
   })
+
+  useEffect(() => {
+    resetStateEvent()
+  }, [cards])
 
   useEffect(() => {
     const observer = new ResizeObserver(entries => {
@@ -301,9 +315,13 @@ const CardGrid: React.FC<CardGridProps> = ({
               )
             })}
             <CardModalPlaceholder
+              card={extendedCard}
               columnWidth={columnWidth}
-              height={rowHeight - gapSize}
               gapSize={gapSize}
+              height={rowHeight - gapSize}
+              isBinderPage={
+                isBinderLeftPage ? 'left' : isBinderRightPage ? 'right' : null
+              }
               modalState={state.status}
               nextSelectionCol={
                 state.nextColumn !== null
@@ -311,7 +329,6 @@ const CardGrid: React.FC<CardGridProps> = ({
                   : state.currentColumn
               }
               onAnimationComplete={onPlaceholderAnimationCompleteHandler}
-              card={extendedCard}
               top={top}
             />
           </>
@@ -322,6 +339,9 @@ const CardGrid: React.FC<CardGridProps> = ({
           ['opening', 'open'].includes(state.status) && currentCard
             ? extendedCard
             : null
+        }
+        isBinderPage={
+          isBinderLeftPage ? 'left' : isBinderRightPage ? 'right' : null
         }
         onClose={onCloseModalHandler}
         onExitComplete={onExitCompleteHandler}

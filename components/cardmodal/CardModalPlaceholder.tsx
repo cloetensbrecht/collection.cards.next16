@@ -14,6 +14,7 @@ type CardModalPlaceholderProps = {
   columnWidth: number
   gapSize: number
   height: number
+  isBinderPage?: 'left' | 'right' | null
   modalState: ModalState
   nextSelectionCol: number
   onAnimationComplete: () => void
@@ -25,13 +26,14 @@ const CardModalPlaceholder: React.FC<CardModalPlaceholderProps> = ({
   columnWidth,
   gapSize,
   height,
+  isBinderPage,
   modalState,
   nextSelectionCol,
   onAnimationComplete,
   top
 }) => (
   <motion.div
-    layoutId="card-modal-placeholder"
+    layoutId={`card-modal-placeholder-${isBinderPage || 'default'}`}
     className="absolute bg-card rounded-[10px] md:rounded-[4.15%/2.98%] pointer-events-none z-0"
     onAnimationComplete={onAnimationComplete}
     transition={{
@@ -54,7 +56,7 @@ const CardModalPlaceholder: React.FC<CardModalPlaceholderProps> = ({
       width: columnWidth
     }}
   >
-    <motion.div layoutId="selected-card-image">
+    <motion.div layoutId={`selected-card-image-${isBinderPage || 'default'}`}>
       <TiltCard className="h-full">
         {card && (
           <Card {...card} glowColor={undefined} className="shadow-none" />

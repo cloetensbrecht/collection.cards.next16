@@ -84,6 +84,7 @@ const Binder: React.FC<BinderProps> = ({
                 <CardGrid
                   cards={leftPageCards}
                   columns={columns}
+                  isBinderLeftPage={true}
                   isStacked={isStacked}
                   pockets={pockets}
                   setTotalHeight={setTotalLeftHeight}
@@ -112,6 +113,7 @@ const Binder: React.FC<BinderProps> = ({
                 <CardGrid
                   cards={rightPageCards}
                   columns={columns}
+                  isBinderRightPage={true}
                   isStacked={isStacked}
                   pockets={pockets}
                   setTotalHeight={setTotalRightHeight}
