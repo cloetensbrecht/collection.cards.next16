@@ -3,13 +3,13 @@
 import {Pattern as PatternIcon} from '@/icons/Pattern'
 import {cn} from '@/lib/utils'
 import {ImageLink} from 'alinea'
-import {ChevronLeft, ChevronRight} from 'lucide-react'
 import Image from 'next/image'
 import {useEffect, useState} from 'react'
 import {CardProps} from '../card/Card'
 import CardGrid from '../cardgrid/CardGrid'
 import {PokemonCardDetailsProps} from '../pokemoncarddetails/PokemonCardDetails'
-import {Button} from '../ui/button'
+import NextButton from './NextButton'
+import PrevButton from './PrevButton'
 const {renderToString} = await import('react-dom/server')
 
 type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
@@ -48,17 +48,19 @@ const Binder: React.FC<BinderProps> = ({
     setTotalHeight(Math.max(totalLeftHeight, totalRightHeight))
   }, [totalLeftHeight, totalRightHeight])
 
+  const isPrevButtonDisabled = page <= 1
+  const prevButtonOnClickHandler = () => setPage(page - 2)
+
+  const isNextButtonDisabled = page >= pages.length
+  const nextButtonOnClickHandler = () => setPage(page + 2)
+
   return (
     <div className="relative px-24">
-      <Button
-        variant={'ghost'}
-        size={'icon'}
-        onClick={() => setPage(page - 2)}
-        disabled={page <= 1}
-        className="absolute left-0 top-1/2 -translate-y-1/2 cursor-pointer rounded-full [&_svg:not([class*='size-'])]:size-7 size-10"
-      >
-        <ChevronLeft />
-      </Button>
+      <PrevButton
+        className="absolute left-0 top-1/2 -translate-y-1/2"
+        disabled={isPrevButtonDisabled}
+        onClick={prevButtonOnClickHandler}
+      />
       <div className="relative bg-white dark:bg-foreground/8 rounded-md shadow-sm overflow-hidden">
         {leftPageIsCoverPage && (
           <div
@@ -80,7 +82,6 @@ const Binder: React.FC<BinderProps> = ({
             >
               {!leftPageIsCoverPage ? (
                 <CardGrid
-                  key={`page_${page}`}
                   cards={leftPageCards}
                   columns={columns}
                   isStacked={isStacked}
@@ -109,7 +110,6 @@ const Binder: React.FC<BinderProps> = ({
             >
               {!rightPageIsCoverPage && (
                 <CardGrid
-                  key={`page_${page + 1}`}
                   cards={rightPageCards}
                   columns={columns}
                   isStacked={isStacked}
@@ -129,15 +129,11 @@ const Binder: React.FC<BinderProps> = ({
           />
         )}
       </div>
-      <Button
-        variant={'ghost'}
-        size={'icon'}
-        onClick={() => setPage(page + 2)}
-        disabled={page >= pages.length}
-        className="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer rounded-full [&_svg:not([class*='size-'])]:size-7 size-10"
-      >
-        <ChevronRight />
-      </Button>
+      <NextButton
+        className="absolute right-0 top-1/2 -translate-y-1/2"
+        disabled={isNextButtonDisabled}
+        onClick={nextButtonOnClickHandler}
+      />
     </div>
   )
 }

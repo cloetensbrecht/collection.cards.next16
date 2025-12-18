@@ -30,16 +30,6 @@ function getColumnCount(width: number): number {
   return 4 // desktop
 }
 
-function getColumnWidth(width: number, columnCount: number): number {
-  const gapWidth = gapSize * (columnCount - 1)
-  if (width < 640) return (width - containerPadding - gapWidth) / columnCount // mobile
-  if (width < 768) return (640 - containerPadding - gapWidth) / columnCount // tablet
-  if (width < 1024) return (768 - containerPadding - gapWidth) / columnCount // tablet
-  if (width < 1280) return (1024 - containerPadding - gapWidth) / columnCount // tablet
-  if (width < 1536) return (1280 - containerPadding - gapWidth) / columnCount // tablet
-  return (1488 - gapWidth) / columnCount // desktop
-}
-
 type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
 export type CardGridProps = {
@@ -160,7 +150,7 @@ const CardGrid: React.FC<CardGridProps> = ({
 
   useEffect(() => {
     virtualizer.measure()
-  }, [isStacked, virtualizer])
+  }, [isStacked, virtualizer, cards, gridWidth])
 
   const scrollToRow = useCallback(
     (rowIndex: number) => {
