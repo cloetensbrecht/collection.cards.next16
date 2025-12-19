@@ -2910,9 +2910,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"alinea@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "alinea@npm:1.6.0"
+"alinea@npm:^1.6.1":
+  version: 1.6.1
+  resolution: "alinea@npm:1.6.1"
   dependencies:
     "@alinea/iso": "npm:^0.3.3"
     esbuild: "npm:^0.25.4"
@@ -2921,7 +2921,7 @@ __metadata:
     react-dom: "*"
   bin:
     alinea: dist/cli.js
-  checksum: 10c0/b9af1e61aa701e7f9188d63c54077c513313cad73b63ce9155c175088b7c04ceb1a9aaee27243299ea989b1cb7f05840596a57e10239b8890ccddb6be5eed9f6
+  checksum: 10c0/1a4c8858f2bb0246a065e2d312e59370e033eec436880a722096a9de0d35b9f626249bc94fc1c95408a96b981b1017b15cd2ee19cd51dde2d97ebb73363907f0
   languageName: node
   linkType: hard
 
@@ -3288,7 +3288,7 @@ __metadata:
     "@types/react-dom": "npm:^19.2.3"
     "@vercel/analytics": "npm:^1.5.0"
     "@vercel/speed-insights": "npm:^1.2.0"
-    alinea: "npm:^1.6.0"
+    alinea: "npm:^1.6.1"
     baseline-browser-mapping: "npm:^2.9.0"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
