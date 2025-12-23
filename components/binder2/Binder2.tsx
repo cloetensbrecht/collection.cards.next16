@@ -17,6 +17,7 @@ type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
 type Binder2Props = {
   cards: (Card | (Card & {variants: Card[]}))[]
+  isStacked?: boolean
   logo?: ImageLink<undefined>
   page?: number
   pockets?: number
@@ -62,6 +63,7 @@ const defaultState: State = {
 
 const Binder2: React.FC<Binder2Props> = ({
   cards,
+  isStacked,
   logo,
   page = 1,
   pockets = 9,
@@ -248,7 +250,7 @@ const Binder2: React.FC<Binder2Props> = ({
 
   useEffect(() => {
     resetPageEvent()
-  }, [pockets])
+  }, [cards.length, isStacked, pockets])
 
   return (
     <>

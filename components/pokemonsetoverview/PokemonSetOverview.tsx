@@ -361,6 +361,7 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
         <>
           <Binder2
             cards={filteredCards}
+            isStacked={stack}
             logo={logo}
             page={page}
             pockets={Number(pockets)}
