@@ -97,6 +97,12 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
     setCurrentPage(initialPage)
   }, [initialPage])
 
+  useEffect(() => {
+    if (!flipPages) return
+    setFlipPages(null)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentPage])
+
   return (
     <>
       <div className="flex flex-col items-center gap-8 w-full">
@@ -137,7 +143,6 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
                       } else {
                         setCurrentPage(cp => Math.max(cp - 2, 0))
                       }
-                      setFlipPages(null)
                     }}
                   >
                     {flipPages.front}
@@ -175,7 +180,6 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
                       } else {
                         setCurrentPage(cp => Math.min(cp + 2, totalPages - 1))
                       }
-                      setFlipPages(null)
                     }}
                   >
                     {flipPages.front}
