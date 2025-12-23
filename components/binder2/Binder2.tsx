@@ -2,7 +2,7 @@
 
 import {stackedCardOffset} from '@/consts/stack'
 import {ImageLink} from 'alinea'
-import {useCallback, useEffect, useMemo, useState} from 'react'
+import {useCallback, useEffect, useEffectEvent, useMemo, useState} from 'react'
 import Book from '../book/Book'
 import {CardProps} from '../card/Card'
 import CardModal from '../cardmodal/CardModal'
@@ -237,6 +237,18 @@ const Binder2: React.FC<Binder2Props> = ({
       ].filter(Boolean),
     [cardPages, logo]
   )
+
+  const resetPageEvent = useEffectEvent(() => {
+    setState({
+      ...defaultState,
+      currentPage: addCoverPage ? 0 : 0
+    })
+    setPage(1)
+  })
+
+  useEffect(() => {
+    resetPageEvent()
+  }, [pockets])
 
   return (
     <>
