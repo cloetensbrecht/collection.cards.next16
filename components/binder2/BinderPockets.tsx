@@ -70,6 +70,9 @@ const BinderPockets: React.FC<BinderPocketsProps> = ({
   for (let i = 0; i < cards.length; i += columns) {
     rows.push(cards.slice(i, i + columns))
   }
+  for (let i = rows.length; i < pockets / columns; i++) {
+    rows.push([])
+  }
 
   return (
     <div
@@ -93,7 +96,7 @@ const BinderPockets: React.FC<BinderPocketsProps> = ({
 
           return (
             <CardGridRow
-              key={row.map(card => card.id).join('_')}
+              key={rowIndex}
               activeCardId={
                 state.status === 'open' ? currentCard?.id : undefined
               }
