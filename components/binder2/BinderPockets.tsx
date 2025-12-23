@@ -74,7 +74,7 @@ const BinderPockets: React.FC<BinderPocketsProps> = ({
   return (
     <div
       ref={gridRef}
-      className="relative p-6 w-full h-full group-[.is-left]/page:pr-12 group-[.is-right]/page:pl-12 gap-4 flex flex-col overflow-hidden"
+      className="relative p-6 w-full h-full group-[.is-left]/page:pr-12 group-[.is-right]/page:pl-12 gap-4 flex flex-col overflow-hidden will-change-transform [transform:translateZ(0)]"
     >
       {gridWidth > 0 &&
         rows.map((row, rowIndex) => {
