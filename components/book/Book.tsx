@@ -46,12 +46,16 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
 
   const CurrentLeftPage =
     currentPage <= totalPages - 1 ? (
-      <Page side="left">{pages[currentPage]}</Page>
+      <Page className="z-20" side="left">
+        {pages[currentPage]}
+      </Page>
     ) : null
 
   const CurrentRightPage =
     currentPage + 1 < totalPages ? (
-      <Page side="right">{pages[currentPage + 1]}</Page>
+      <Page className="z-20" side="right">
+        {pages[currentPage + 1]}
+      </Page>
     ) : null
 
   const NextLeftPage =
@@ -66,7 +70,7 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
 
   const NextRightPage =
     currentPage + 3 < totalPages ? (
-      <Page className="absolute inset-0" side="right">
+      <Page className="absolute inset-0 z-0" side="right">
         {pages[currentPage + 3]}
       </Page>
     ) : null
