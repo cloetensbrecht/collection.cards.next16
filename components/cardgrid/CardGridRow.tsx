@@ -1,4 +1,5 @@
 import {stackedCardOffset} from '@/consts/stack'
+import {cn} from '@/lib/utils'
 import {VirtualItem} from '@tanstack/react-virtual'
 import {memo, useMemo} from 'react'
 import Card, {CardProps} from '../card/Card'
@@ -13,8 +14,9 @@ type CardGridRowProps = {
   cardSizes: string
   columns: number
   height: number
-  onClickHandler: (column: number) => void
-  virtualRow: VirtualItem
+  onClickHandler?: (column: number) => void
+  relative?: boolean
+  virtualRow?: VirtualItem
 }
 
 const CardGridRow: React.FC<CardGridRowProps> = ({
@@ -24,6 +26,7 @@ const CardGridRow: React.FC<CardGridRowProps> = ({
   columns,
   height,
   onClickHandler,
+  relative,
   virtualRow
 }) => {
   const maxVariants = useMemo(
@@ -38,15 +41,24 @@ const CardGridRow: React.FC<CardGridRowProps> = ({
       ),
     [cards]
   )
+
+  const style = {
+    gridTemplateColumns: `repeat(${columns}, 1fr)`,
+    height: `${height}px`,
+    marginTop: `${maxVariants * stackedCardOffset}px`
+  } as React.CSSProperties
+
+  if (virtualRow) {
+    style.transform = `translateY(${virtualRow.start}px)`
+  }
+
   return (
     <div
-      className={'absolute top-0 left-0 grid w-full gap-4 z-1 hover:z-[10]'}
-      style={{
-        transform: `translateY(${virtualRow.start}px)`,
-        gridTemplateColumns: `repeat(${columns}, 1fr)`,
-        height: `${height}px`,
-        marginTop: `${maxVariants * stackedCardOffset}px`
-      }}
+      className={cn(
+        relative ? 'relative' : 'absolute top-0 left-0',
+        'grid w-full gap-4 z-1 hover:z-[10]'
+      )}
+      style={style}
     >
       {cards.map((card, column) => {
         const isPlaceholderCard = Object.keys(card).length === 0
@@ -86,7 +98,7 @@ const CardGridRow: React.FC<CardGridRowProps> = ({
                   {...card}
                   isActive={activeCardId === card.id}
                   asButton={true}
-                  onClick={() => onClickHandler(column)}
+                  onClick={() => onClickHandler && onClickHandler(column)}
                   sizes={cardSizes}
                 />
               </TiltCard>

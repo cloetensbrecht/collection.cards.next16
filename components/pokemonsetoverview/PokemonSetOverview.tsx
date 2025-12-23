@@ -19,7 +19,7 @@ import {
   useQueryStates
 } from 'nuqs'
 import {useEffect, useMemo} from 'react'
-import Binder from '../binder/Binder'
+import Binder2 from '../binder2/Binder2'
 import {CardProps} from '../card/Card'
 import CardGrid from '../cardgrid/CardGrid'
 import {PokemonCardDetailsProps} from '../pokemoncarddetails/PokemonCardDetails'
@@ -358,14 +358,23 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
         </div>
       </div>
       {viewMode === 'binder' ? (
-        <Binder
-          isStacked={stack}
-          logo={logo}
-          pages={binderPages}
-          page={page}
-          pockets={Number(pockets)}
-          setPage={(newPage: number) => setPage(newPage)}
-        />
+        <>
+          <Binder2
+            cards={filteredCards}
+            logo={logo}
+            page={page}
+            pockets={Number(pockets)}
+            setPage={setPage}
+          />
+          {/* <Binder
+            isStacked={stack}
+            logo={logo}
+            pages={binderPages}
+            page={page}
+            pockets={Number(pockets)}
+            setPage={(newPage: number) => setPage(newPage)}
+          /> */}
+        </>
       ) : (
         <CardGrid cards={filteredCards} isStacked={stack} />
       )}

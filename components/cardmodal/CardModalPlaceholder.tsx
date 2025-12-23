@@ -15,6 +15,7 @@ type CardModalPlaceholderProps = {
   gapSize: number
   height: number
   isBinderPage?: 'left' | 'right' | null
+  leftPadding?: number
   modalState: ModalState
   nextSelectionCol: number
   onAnimationComplete: () => void
@@ -27,6 +28,7 @@ const CardModalPlaceholder: React.FC<CardModalPlaceholderProps> = ({
   gapSize,
   height,
   isBinderPage,
+  leftPadding = 0,
   modalState,
   nextSelectionCol,
   onAnimationComplete,
@@ -49,7 +51,8 @@ const CardModalPlaceholder: React.FC<CardModalPlaceholderProps> = ({
       top,
       left:
         (nextSelectionCol || 0) * columnWidth +
-        (nextSelectionCol || 0) * gapSize
+        (nextSelectionCol || 0) * gapSize +
+        leftPadding
     }}
     style={{
       height: `${height}px`,
