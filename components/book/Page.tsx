@@ -18,7 +18,6 @@ const Page: React.FC<PropsWithChildren<PageProps>> = ({
       className={cn(
         `group/page is-${side}`,
         'min-h-fit w-full h-full z-0 overflow-hidden bg-white dark:bg-background',
-        'min-h-[calc(50cqw*881/679)]',
         side === 'right' ? 'rounded-r-lg' : 'rounded-l-lg',
         className
       )}
