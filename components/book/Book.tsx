@@ -9,12 +9,14 @@ import PrevButton from './PrevButton'
 
 type BookProps = {
   currentPage?: number
+  className?: string
   onPageChange?: (newPage: number) => void
   pages: React.ReactNode[]
 }
 
 const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
   children,
+  className,
   currentPage: initialPage = 0,
   onPageChange,
   pages
@@ -109,7 +111,7 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
 
   return (
     <>
-      <div className="flex flex-col items-center gap-8 w-full">
+      <div className={cn('flex flex-col items-center gap-8 w-full', className)}>
         <div className="relative flex items-center justify-center gap-8 w-full">
           <PrevButton onClick={goToPrevPage} disabled={isPrevButtonDisabled} />
           <div
