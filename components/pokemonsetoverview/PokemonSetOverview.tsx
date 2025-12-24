@@ -18,7 +18,7 @@ import {
   useQueryState,
   useQueryStates
 } from 'nuqs'
-import {useEffect, useMemo} from 'react'
+import {useEffect, useMemo, useRef} from 'react'
 import Binder2 from '../binder2/Binder2'
 import {CardProps} from '../card/Card'
 import CardGrid from '../cardgrid/CardGrid'
@@ -109,7 +109,12 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
   )
   const [page, setPage] = useQueryState('page', parseAsInteger.withDefault(1))
 
+  const didMount = useRef(false)
   useEffect(() => {
+    if (!didMount.current) {
+      didMount.current = true
+      return
+    }
     setPage(null)
   }, [filters, pockets, stack, viewMode, setPage])
 

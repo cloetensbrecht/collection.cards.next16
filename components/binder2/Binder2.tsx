@@ -2,7 +2,14 @@
 
 import {stackedCardOffset} from '@/consts/stack'
 import {ImageLink} from 'alinea'
-import {useCallback, useEffect, useEffectEvent, useMemo, useState} from 'react'
+import {
+  useCallback,
+  useEffect,
+  useEffectEvent,
+  useMemo,
+  useRef,
+  useState
+} from 'react'
 import Book from '../book/Book'
 import {CardProps} from '../card/Card'
 import CardModal from '../cardmodal/CardModal'
@@ -248,7 +255,12 @@ const Binder2: React.FC<Binder2Props> = ({
     setPage(1)
   })
 
+  const didMount = useRef(false)
   useEffect(() => {
+    if (!didMount.current) {
+      didMount.current = true
+      return
+    }
     resetPageEvent()
   }, [cards.length, isStacked, pockets])
 
