@@ -269,7 +269,7 @@ const Binder2: React.FC<Binder2Props> = ({
   const resetPageEvent = useEffectEvent(() => {
     setState({
       ...defaultState,
-      currentPage: addCoverPage ? 0 : 0
+      currentPage: 0
     })
     setPage(1)
   })
@@ -283,15 +283,17 @@ const Binder2: React.FC<Binder2Props> = ({
     resetPageEvent()
   }, [cards.length, isStacked, pockets])
 
+  const onPageChange = (newPage: number) => {
+    setState({...defaultState, currentPage: newPage})
+  }
+
   return (
     <>
       <Book
         currentPage={page - 1}
         className={aspectRatios[pockets || 9].fullSize}
         leftPageClassName={aspectRatios[pockets || 9].halfSize}
-        onPageChange={newPage => {
-          setState({...defaultState, currentPage: newPage})
-        }}
+        onPageChange={onPageChange}
         pages={pocketPages}
         rightPageClassName={aspectRatios[pockets || 9].halfSize}
       >
