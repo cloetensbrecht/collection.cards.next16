@@ -119,12 +119,6 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
     setCurrentPage(initialPage)
   }, [initialPage])
 
-  useEffect(() => {
-    if (!flipPages) return
-    setFlipPages(null)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentPage])
-
   return (
     <>
       <div className={'flex flex-col items-center gap-8 w-full'}>
@@ -167,11 +161,14 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
                         ease: [0.43, 0.13, 0.23, 0.96]
                       }}
                       onAnimationComplete={() => {
-                        if (onPageChange) {
-                          onPageChange(Math.max(currentPage - 2, 0))
-                        } else {
-                          setCurrentPage(cp => Math.max(cp - 2, 0))
-                        }
+                        const prev = Math.max(currentPage - 2, 0)
+
+                        if (onPageChange) onPageChange(prev)
+                        else setCurrentPage(prev)
+
+                        requestAnimationFrame(() => {
+                          setFlipPages(null)
+                        })
                       }}
                     >
                       {flipPages.front}
@@ -204,13 +201,14 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
                         ease: [0.43, 0.13, 0.23, 0.96]
                       }}
                       onAnimationComplete={() => {
-                        if (onPageChange) {
-                          onPageChange(
-                            Math.min(currentPage + 2, totalPages - 1)
-                          )
-                        } else {
-                          setCurrentPage(cp => Math.min(cp + 2, totalPages - 1))
-                        }
+                        const next = Math.min(currentPage + 2, totalPages - 1)
+
+                        if (onPageChange) onPageChange(next)
+                        else setCurrentPage(next)
+
+                        requestAnimationFrame(() => {
+                          setFlipPages(null)
+                        })
                       }}
                     >
                       {flipPages.front}
