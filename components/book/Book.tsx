@@ -2,7 +2,7 @@
 
 import {cn} from '@/lib/utils'
 import {motion} from 'framer-motion'
-import {useEffect, useState} from 'react'
+import {memo, useCallback, useEffect, useState} from 'react'
 import NextButton from './NextButton'
 import Page from './Page'
 import PrevButton from './PrevButton'
@@ -119,6 +119,24 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
     setCurrentPage(initialPage)
   }, [initialPage])
 
+  const onAnimationCompletePrev = useCallback(() => {
+    const prev = Math.max(currentPage - 2, 0)
+    if (onPageChange) onPageChange(prev)
+    else setCurrentPage(prev)
+    requestAnimationFrame(() => {
+      setFlipPages(null)
+    })
+  }, [currentPage, onPageChange, setCurrentPage, setFlipPages])
+
+  const onAnimationCompleteNext = useCallback(() => {
+    const next = Math.min(currentPage + 2, totalPages - 1)
+    if (onPageChange) onPageChange(next)
+    else setCurrentPage(next)
+    requestAnimationFrame(() => {
+      setFlipPages(null)
+    })
+  }, [currentPage, onPageChange, setCurrentPage, setFlipPages, totalPages])
+
   return (
     <>
       <div className={'flex flex-col items-center gap-8 w-full'}>
@@ -160,16 +178,7 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
                         duration: 0.8,
                         ease: [0.43, 0.13, 0.23, 0.96]
                       }}
-                      onAnimationComplete={() => {
-                        const prev = Math.max(currentPage - 2, 0)
-
-                        if (onPageChange) onPageChange(prev)
-                        else setCurrentPage(prev)
-
-                        requestAnimationFrame(() => {
-                          setFlipPages(null)
-                        })
-                      }}
+                      onAnimationComplete={onAnimationCompletePrev}
                     >
                       {flipPages.front}
                       {flipPages.back}
@@ -200,16 +209,7 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
                         duration: 0.8,
                         ease: [0.43, 0.13, 0.23, 0.96]
                       }}
-                      onAnimationComplete={() => {
-                        const next = Math.min(currentPage + 2, totalPages - 1)
-
-                        if (onPageChange) onPageChange(next)
-                        else setCurrentPage(next)
-
-                        requestAnimationFrame(() => {
-                          setFlipPages(null)
-                        })
-                      }}
+                      onAnimationComplete={onAnimationCompleteNext}
                     >
                       {flipPages.front}
                       {flipPages.back}
@@ -227,4 +227,4 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
   )
 }
 
-export default Book
+export default memo(Book)
