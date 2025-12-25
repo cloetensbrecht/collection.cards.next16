@@ -146,6 +146,7 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
             className="relative w-full shadow-2xl rounded-lg [container-type:inline-size]"
             style={{perspective: '2000px'}}
           >
+            {children}
             <div
               className={cn(
                 'relative w-full',
@@ -218,7 +219,6 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
                 )}
               </div>
             </div>
-            {children}
           </div>
           <NextButton onClick={goToNextPage} disabled={isNextButtonDisabled} />
         </div>
