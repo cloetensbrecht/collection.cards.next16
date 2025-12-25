@@ -44,6 +44,25 @@ const gapSize = 16
 const containerPadding = 48
 const sizes = `(max-width: 639px) calc(50vw - ${containerPadding}px - ${gapSize}px), (max-width: 676px) 187px, (max-width: 1023px) 230px, (max-width: 1279px) 232px,  (max-width: 1535px) 296px, 360px`
 
+const aspectRatios: Record<number, {fullSize: string; halfSize: string}> = {
+  4: {
+    fullSize: 'min-h-[calc(100cqw*888/1358)]',
+    halfSize: 'min-h-[calc(50cqw*888/1358)]'
+  },
+  9: {
+    fullSize: 'min-h-[calc(100cqw*881/1358)]',
+    halfSize: 'min-h-[calc(50cqw*881/1358)]'
+  },
+  12: {
+    fullSize: 'min-h-[calc(100cqw*665/1358)]',
+    halfSize: 'min-h-[calc(50cqw*665/1358)]'
+  },
+  16: {
+    fullSize: 'min-h-[calc(100cqw*876/1358)]',
+    halfSize: 'min-h-[calc(50cqw*876/1358)]'
+  }
+}
+
 type State = {
   currentColumn: number
   currentIndex: number
@@ -268,10 +287,13 @@ const Binder2: React.FC<Binder2Props> = ({
     <>
       <Book
         currentPage={page - 1}
+        className={aspectRatios[pockets || 9].fullSize}
+        leftPageClassName={aspectRatios[pockets || 9].halfSize}
         onPageChange={newPage => {
           setState({...defaultState, currentPage: newPage})
         }}
         pages={pocketPages}
+        rightPageClassName={aspectRatios[pockets || 9].halfSize}
       >
         <CardModalPlaceholder
           card={{...currentCard, sizes}}

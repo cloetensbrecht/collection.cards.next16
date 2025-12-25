@@ -10,7 +10,9 @@ import PrevButton from './PrevButton'
 type BookProps = {
   currentPage?: number
   className?: string
+  leftPageClassName?: string
   onPageChange?: (newPage: number) => void
+  rightPageClassName?: string
   pages: React.ReactNode[]
 }
 
@@ -18,7 +20,9 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
   children,
   className,
   currentPage: initialPage = 0,
+  leftPageClassName,
   onPageChange,
+  rightPageClassName,
   pages
 }) => {
   const totalPages = pages.length
@@ -31,7 +35,10 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
 
   const PrevLeftPage =
     currentPage - 2 >= 0 ? (
-      <Page className="absolute inset-0 z-0" side="left">
+      <Page
+        className={cn('absolute inset-0 z-0', leftPageClassName)}
+        side="left"
+      >
         {pages[currentPage - 2]}
       </Page>
     ) : null
@@ -39,7 +46,10 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
   const PrevRightPage =
     currentPage - 1 >= 0 ? (
       <Page
-        className="absolute inset-0 backface-hidden rotate-y-180 z-10"
+        className={cn(
+          'absolute inset-0 backface-hidden rotate-y-180 z-10',
+          rightPageClassName
+        )}
         side="right"
       >
         {pages[currentPage - 1]}
@@ -48,14 +58,14 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
 
   const CurrentLeftPage =
     currentPage <= totalPages - 1 ? (
-      <Page className="z-20" side="left">
+      <Page className={cn('z-20', leftPageClassName)} side="left">
         {pages[currentPage]}
       </Page>
     ) : null
 
   const CurrentRightPage =
     currentPage + 1 < totalPages ? (
-      <Page className="z-20" side="right">
+      <Page className={cn('z-20', rightPageClassName)} side="right">
         {pages[currentPage + 1]}
       </Page>
     ) : null
@@ -63,7 +73,10 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
   const NextLeftPage =
     currentPage + 2 <= totalPages - 1 ? (
       <Page
-        className="absolute inset-0 backface-hidden rotate-y-180 z-10"
+        className={cn(
+          'absolute inset-0 backface-hidden rotate-y-180 z-10',
+          leftPageClassName
+        )}
         side="left"
       >
         {pages[currentPage + 2]}
@@ -72,7 +85,10 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
 
   const NextRightPage =
     currentPage + 3 < totalPages ? (
-      <Page className="absolute inset-0 z-0" side="right">
+      <Page
+        className={cn('absolute inset-0 z-0', rightPageClassName)}
+        side="right"
+      >
         {pages[currentPage + 3]}
       </Page>
     ) : null
@@ -111,102 +127,104 @@ const Book: React.FC<React.PropsWithChildren<BookProps>> = ({
 
   return (
     <>
-      <div className={cn('flex flex-col items-center gap-8 w-full', className)}>
+      <div className={'flex flex-col items-center gap-8 w-full'}>
         <div className="relative flex items-center justify-center gap-8 w-full">
           <PrevButton onClick={goToPrevPage} disabled={isPrevButtonDisabled} />
           <div
-            className="relative w-full shadow-2xl rounded-lg flex items-stretch [container-type:inline-size] "
+            className="relative w-full shadow-2xl rounded-lg [container-type:inline-size]"
             style={{perspective: '2000px'}}
           >
-            {/* Left side */}
             <div
               className={cn(
-                'w-1/2 relative',
-                flipPages && flipPages.side === 'left' ? 'z-10' : 'z-0'
+                'relative w-full',
+                'flex items-stretch min-h-fit',
+                className
               )}
-              style={{transformStyle: 'preserve-3d'}}
             >
-              {(!flipPages || flipPages.side === 'right') && CurrentLeftPage}
-              {flipPages && flipPages.side === 'left' && (
-                <>
-                  {PrevLeftPage}
-                  <motion.div
-                    className="h-full"
-                    style={{
-                      transformStyle: 'preserve-3d',
-                      transformOrigin: 'right center'
-                    }}
-                    animate={{
-                      rotateY: 180
-                    }}
-                    transition={{
-                      duration: 0.8,
-                      ease: [0.43, 0.13, 0.23, 0.96]
-                    }}
-                    onAnimationComplete={() => {
-                      if (onPageChange) {
-                        onPageChange(Math.max(currentPage - 2, 0))
-                      } else {
-                        setCurrentPage(cp => Math.max(cp - 2, 0))
-                      }
-                    }}
-                  >
-                    {flipPages.front}
-                    {flipPages.back}
-                  </motion.div>
-                </>
-              )}
-            </div>
+              {/* Left side */}
+              <div
+                className={cn(
+                  'w-1/2 relative',
+                  flipPages && flipPages.side === 'left' ? 'z-10' : 'z-0'
+                )}
+                style={{transformStyle: 'preserve-3d'}}
+              >
+                {(!flipPages || flipPages.side === 'right') && CurrentLeftPage}
+                {flipPages && flipPages.side === 'left' && (
+                  <>
+                    {PrevLeftPage}
+                    <motion.div
+                      className="h-full"
+                      style={{
+                        transformStyle: 'preserve-3d',
+                        transformOrigin: 'right center'
+                      }}
+                      animate={{
+                        rotateY: 180
+                      }}
+                      transition={{
+                        duration: 0.8,
+                        ease: [0.43, 0.13, 0.23, 0.96]
+                      }}
+                      onAnimationComplete={() => {
+                        if (onPageChange) {
+                          onPageChange(Math.max(currentPage - 2, 0))
+                        } else {
+                          setCurrentPage(cp => Math.max(cp - 2, 0))
+                        }
+                      }}
+                    >
+                      {flipPages.front}
+                      {flipPages.back}
+                    </motion.div>
+                  </>
+                )}
+              </div>
 
-            {/* Right side */}
-            <div
-              className="w-1/2 relative z-0"
-              style={{transformStyle: 'preserve-3d'}}
-            >
-              {(!flipPages || flipPages.side === 'left') && CurrentRightPage}
-              {flipPages && flipPages.side === 'right' && (
-                <>
-                  {NextRightPage}
-                  <motion.div
-                    className="h-full"
-                    style={{
-                      transformStyle: 'preserve-3d',
-                      transformOrigin: 'left center'
-                    }}
-                    animate={{
-                      rotateY: -180
-                    }}
-                    transition={{
-                      duration: 0.8,
-                      ease: [0.43, 0.13, 0.23, 0.96]
-                    }}
-                    onAnimationComplete={() => {
-                      if (onPageChange) {
-                        onPageChange(Math.min(currentPage + 2, totalPages - 1))
-                      } else {
-                        setCurrentPage(cp => Math.min(cp + 2, totalPages - 1))
-                      }
-                    }}
-                  >
-                    {flipPages.front}
-                    {flipPages.back}
-                  </motion.div>
-                </>
-              )}
+              {/* Right side */}
+              <div
+                className="w-1/2 relative z-0"
+                style={{transformStyle: 'preserve-3d'}}
+              >
+                {(!flipPages || flipPages.side === 'left') && CurrentRightPage}
+                {flipPages && flipPages.side === 'right' && (
+                  <>
+                    {NextRightPage}
+                    <motion.div
+                      className="h-full"
+                      style={{
+                        transformStyle: 'preserve-3d',
+                        transformOrigin: 'left center'
+                      }}
+                      animate={{
+                        rotateY: -180
+                      }}
+                      transition={{
+                        duration: 0.8,
+                        ease: [0.43, 0.13, 0.23, 0.96]
+                      }}
+                      onAnimationComplete={() => {
+                        if (onPageChange) {
+                          onPageChange(
+                            Math.min(currentPage + 2, totalPages - 1)
+                          )
+                        } else {
+                          setCurrentPage(cp => Math.min(cp + 2, totalPages - 1))
+                        }
+                      }}
+                    >
+                      {flipPages.front}
+                      {flipPages.back}
+                    </motion.div>
+                  </>
+                )}
+              </div>
             </div>
             {children}
           </div>
           <NextButton onClick={goToNextPage} disabled={isNextButtonDisabled} />
         </div>
       </div>
-      {/* <div className="flex gap-8 justify-between w-full h-[200px]">
-        <div className="relative w-full h-full">{PrevLeftPage}</div>
-        <div className="relative w-full h-full">{PrevRightPage}</div>
-        <div className="relative w-full h-full">{CurrentLeftPage}</div>
-        <div className="relative w-full h-full">{CurrentRightPage}</div>
-        <div className="relative w-full h-full">{NextLeftPage}</div>
-        <div className="relative w-full h-full">{NextRightPage}</div>
-      </div> */}
     </>
   )
 }
