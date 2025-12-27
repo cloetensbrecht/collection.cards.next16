@@ -1,13 +1,16 @@
 import {Pokemon} from '@/alinea/schemas/Pokemon'
 import {cms} from '@/cms'
+import Container from '@/components/container/Container'
+import Pattern from '@/components/pattern/Pattern'
+import PokedexGrid from '@/components/pokedexgrid/PokedexGrid'
 import {Query} from 'alinea'
-import Link from 'next/link'
 
 export default async function PokedexPage() {
-  const pokemon = await cms.find({
+  const pokedex = await cms.find({
     type: Pokemon,
     select: {
       number: Pokemon.number,
+      path: Query.path,
       title: Query.title,
       url: Query.url
     },
@@ -15,26 +18,12 @@ export default async function PokedexPage() {
       asc: Pokemon.number
     }
   })
+
   return (
-    <div>
-      <table>
-        <thead>
-          <tr>
-            <th>Number</th>
-            <th>Title</th>
-          </tr>
-        </thead>
-        <tbody>
-          {pokemon.map(p => (
-            <tr key={p.number}>
-              <td>#{p.number}</td>
-              <td>
-                <Link href={p.url}>{p.title}</Link>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+    <Pattern className="pt-24">
+      <Container>
+        <PokedexGrid pokedex={pokedex} />
+      </Container>
+    </Pattern>
   )
 }

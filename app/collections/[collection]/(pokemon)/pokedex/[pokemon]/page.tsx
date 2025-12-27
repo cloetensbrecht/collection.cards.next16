@@ -2,6 +2,7 @@ import {Pokemon} from '@/alinea/schemas/Pokemon'
 import {PokemonCard} from '@/alinea/schemas/PokemonCard'
 import {cms} from '@/cms'
 import Container from '@/components/container/Container'
+import PokedexIcon from '@/components/pokedexicon/PokedexIcon'
 import PokemonSetOverview from '@/components/pokemonsetoverview/PokemonSetOverview'
 import {Title} from '@/components/title/Title'
 import {fetchPokemonCards} from '@/server/fetchPokemonCards'
@@ -48,12 +49,17 @@ export default async function PokemonPage({
 
   return (
     <Container>
-      <Title.H1>
-        {pokemonData.title}
-        <span className="ml-2 text-gray-400 dark:text-gray-300/75 font-normal text-sm">
-          #{pokemonData.number}
-        </span>
-      </Title.H1>
+      <div className="flex gap-4 pb-5 items-start justify-between">
+        <Title.H1>
+          {pokemonData.title}
+          <span className="ml-2 text-gray-400 dark:text-gray-300/75 font-normal text-sm">
+            #{pokemonData.number}
+          </span>
+        </Title.H1>
+        {pokemonData.number && (
+          <PokedexIcon number={pokemonData.number} width={48} height={48} />
+        )}
+      </div>
       <Suspense>
         <PokemonSetOverview cards={cards} />
       </Suspense>
