@@ -27,6 +27,23 @@ const fetchPokemonData = async (pokemonId: string) => {
   return await fetchPokemonCards(pokemonCardIds.map(pc => pc.id))
 }
 
+export async function generateStaticParams() {
+  const data = await cms.find({
+    type: Pokemon,
+    select: {
+      path: Query.path
+    },
+    orderBy: {
+      asc: Pokemon.number
+    }
+  })
+
+  return data.map(pokemon => ({
+    collection: 'pokemon',
+    pokemon: pokemon.path
+  }))
+}
+
 export default async function PokemonPage({
   params
 }: {

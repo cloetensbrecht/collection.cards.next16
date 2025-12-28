@@ -32,6 +32,14 @@ const pokedex = await cms.find({
   }
 })
 
+export async function generateStaticParams() {
+  return [
+    {
+      collection: 'pokemon'
+    }
+  ]
+}
+
 export default async function PokedexPage() {
   const data = await pageData()
   if (!data) return notFound()
