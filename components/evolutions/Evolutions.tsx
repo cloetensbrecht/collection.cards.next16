@@ -22,7 +22,7 @@ const Evolutions: React.FC<EvolutionsProps> = ({
   return (
     <div className="flex flex-col gap-1 sm:items-end">
       <p className="font-normal text-xs text-muted-foreground">Evolution</p>
-      <ol className="flex flex-wrap items-center gap-1.5 text-sm break-words sm:gap-2.5 pb-8">
+      <ol className="flex flex-wrap items-center gap-1.5 text-sm break-words sm:gap-2.5">
         {isEvolvingFrom && (
           <>
             <li className="inline-flex items-center gap-1.5">
