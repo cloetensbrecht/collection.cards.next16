@@ -1,7 +1,6 @@
 import {ChevronRight} from 'lucide-react'
 import Link from 'next/link'
 import {memo} from 'react'
-import {Fragment} from 'react/jsx-runtime'
 
 type EvolutionsProps = {
   evolvesFrom?: {title: string; path: string} | null
@@ -20,9 +19,9 @@ const Evolutions: React.FC<EvolutionsProps> = ({
   if (!isEvolvingFrom && !isEvolvingTo) return null
 
   return (
-    <div className="flex flex-col gap-1 sm:items-end">
+    <div className="flex flex-col gap-1 sm:ml-auto w-full sm:w-auto text-left sm:text-right">
       <p className="font-normal text-xs text-muted-foreground">Evolution</p>
-      <ol className="flex flex-wrap items-center gap-1.5 text-sm break-words sm:gap-2.5">
+      <ol className="flex flex-wrap items-center gap-1.5 text-sm sm:justify-end">
         {isEvolvingFrom && (
           <>
             <li className="inline-flex items-center gap-1.5">
@@ -52,20 +51,30 @@ const Evolutions: React.FC<EvolutionsProps> = ({
             <ChevronRight className="lucide lucide-chevron-right" size={16} />
           </li>
         )}
-        {isEvolvingTo &&
-          evolvesTo.map((to, index) => {
-            return (
-              <Fragment key={to.path}>
-                <Link
-                  href={to.path}
-                  className="transition-colors hover:text-muted-foreground"
+        {isEvolvingTo && (
+          <li className="flex flex-wrap gap-x-1">
+            {evolvesTo.map((to, index) => {
+              return (
+                <span
+                  key={to.path}
+                  className="text-muted-foreground whitespace-nowrap"
                 >
-                  {to.title}
-                </Link>
-                {index < evolvesTo.length - 1 ? ' and ' : ''}
-              </Fragment>
-            )
-          })}
+                  <Link
+                    href={to.path}
+                    className="transition-colors text-foreground hover:text-muted-foreground"
+                  >
+                    {to.title}
+                  </Link>
+                  {index < evolvesTo.length - 1
+                    ? index < evolvesTo.length - 2
+                      ? ', '
+                      : ' and '
+                    : ''}
+                </span>
+              )
+            })}
+          </li>
+        )}
       </ol>
     </div>
   )

@@ -72,7 +72,7 @@ export default async function PokemonPage({
 
   return (
     <Container>
-      <div className="flex flex-col sm:flex-row gap-4 pb-5 items-start justify-between">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 pb-5 items-start">
         <Title.H1>
           {pokemonData.title}
           <span className="ml-2 text-gray-400 dark:text-gray-300/75 font-normal text-sm">
