@@ -39,12 +39,6 @@ type PokemonSetOverviewProps = {
   logo?: ImageLink<undefined>
 }
 
-function chunkArray<T>(arr: T[], size = 9): T[][] {
-  const chunks: T[][] = []
-  for (let i = 0; i < arr.length; i += size) chunks.push(arr.slice(i, i + size))
-  return chunks
-}
-
 const stackCards = (
   cards: Card[],
   stack: boolean
@@ -215,12 +209,6 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
       stack
     ]
   )
-
-  const binderPages = useMemo(() => {
-    return viewMode === 'binder'
-      ? chunkArray(filteredCards, parseInt(pockets || '9', 10))
-      : []
-  }, [filteredCards, pockets, viewMode])
 
   return (
     <>

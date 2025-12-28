@@ -12,7 +12,7 @@ const Blocks: React.FC<BlocksProps> = ({blocks}) => {
   if (!blocks || blocks.length === 0) return null
 
   return (
-    <div className="flex gap-12 flex-col">
+    <div className="flex gap-12 flex-col pb-10">
       {blocks.map(block => {
         switch (block._type) {
           case 'TextBlock':

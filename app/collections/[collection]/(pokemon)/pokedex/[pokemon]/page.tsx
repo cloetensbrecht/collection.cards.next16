@@ -1,7 +1,9 @@
 import {Pokemon} from '@/alinea/schemas/Pokemon'
 import {PokemonCard} from '@/alinea/schemas/PokemonCard'
 import {cms} from '@/cms'
+import Blocks from '@/components/blocks/Blocks'
 import Container from '@/components/container/Container'
+import NoResults from '@/components/noresults/NoResults'
 import PokedexIcon from '@/components/pokedexicon/PokedexIcon'
 import PokemonSetOverview from '@/components/pokemonsetoverview/PokemonSetOverview'
 import {Title} from '@/components/title/Title'
@@ -36,7 +38,8 @@ export default async function PokemonPage({
     select: {
       id: Query.id,
       title: Query.title,
-      number: Pokemon.number
+      number: Pokemon.number,
+      blocks: Pokemon.blocks
     },
     filter: {
       path: pokemon
@@ -60,9 +63,16 @@ export default async function PokemonPage({
           <PokedexIcon number={pokemonData.number} width={48} height={48} />
         )}
       </div>
-      <Suspense>
-        <PokemonSetOverview cards={cards} />
-      </Suspense>
+      <Blocks blocks={pokemonData.blocks} />
+      {!cards || cards.length === 0 ? (
+        <NoResults
+          description={`It looks like there are no cards added for ${pokemonData.title} yet.\n\rMissing cards?`}
+        />
+      ) : (
+        <Suspense>
+          <PokemonSetOverview cards={cards} />
+        </Suspense>
+      )}
     </Container>
   )
 }
