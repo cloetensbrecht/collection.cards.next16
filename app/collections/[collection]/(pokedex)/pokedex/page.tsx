@@ -1,29 +1,52 @@
+import {Pokedex} from '@/alinea/schemas/Pokedex'
 import {Pokemon} from '@/alinea/schemas/Pokemon'
 import {cms} from '@/cms'
+import Blocks from '@/components/blocks/Blocks'
 import Container from '@/components/container/Container'
 import Pattern from '@/components/pattern/Pattern'
 import PokedexGrid from '@/components/pokedexgrid/PokedexGrid'
+import {Title} from '@/components/title/Title'
 import {Query} from 'alinea'
+import {notFound} from 'next/navigation'
 
-export default async function PokedexPage() {
-  const pokedex = await cms.find({
-    type: Pokemon,
+const pageData = async () => {
+  return await cms.first({
+    type: Pokedex,
     select: {
-      number: Pokemon.number,
-      path: Query.path,
       title: Query.title,
-      url: Query.url
-    },
-    orderBy: {
-      asc: Pokemon.number
+      blocks: Pokedex.blocks
     }
   })
+}
+
+const pokedex = await cms.find({
+  type: Pokemon,
+  select: {
+    number: Pokemon.number,
+    path: Query.path,
+    title: Query.title,
+    url: Query.url
+  },
+  orderBy: {
+    asc: Pokemon.number
+  }
+})
+
+export default async function PokedexPage() {
+  const data = await pageData()
+  if (!data) return notFound()
 
   return (
-    <Pattern className="pt-24">
+    <>
       <Container>
-        <PokedexGrid pokedex={pokedex} />
+        <Title.H1>{data.title}</Title.H1>
+        <Blocks blocks={data.blocks} />
       </Container>
-    </Pattern>
+      <Pattern className="pt-24">
+        <Container>
+          <PokedexGrid pokedex={pokedex} />
+        </Container>
+      </Pattern>
+    </>
   )
 }
