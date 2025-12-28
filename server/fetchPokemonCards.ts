@@ -34,6 +34,7 @@ export const fetchPokemonCards = async (
           : undefined,
       hp: data.hp,
       id: data._id,
+      illustrator: data.illustrator,
       pokemon: data.pokemon,
       src: data.card ? `/media${data.card?.src}` : undefined,
       title: data.title,

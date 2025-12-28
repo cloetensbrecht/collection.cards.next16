@@ -4,8 +4,9 @@ import {PokemonCard} from '@/alinea/schemas/PokemonCard'
 import {Energy, energy as energyList, getEnergyIcon} from '@/consts/energy'
 import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/pattern'
 import {variant, variantPattern} from '@/consts/variant'
+import {EntryLink} from 'alinea'
 import {AnimatePresence, motion} from 'framer-motion'
-import {CatIcon, Sparkles} from 'lucide-react'
+import {CatIcon, PaletteIcon, Sparkles} from 'lucide-react'
 import Link from 'next/link'
 import {createElement, useState} from 'react'
 import {Title} from '../title/Title'
@@ -15,11 +16,12 @@ import {Label} from '../ui/label'
 export type PokemonCardDetailsProps = {
   energy: Energy | null
   id: string
+  illustrator?: EntryLink<undefined>
   number: string
   pattern?: keyof typeof reverseHolofoilPatterns | keyof typeof holofoilPatterns
   pokemon: PokemonCard['pokemon']
-  variant: keyof typeof variant
   title: string
+  variant: keyof typeof variant
 }
 
 export default function PokemonCardDetails({
@@ -27,6 +29,7 @@ export default function PokemonCardDetails({
   prevHandler,
   energy,
   id,
+  illustrator,
   number,
   pattern,
   pokemon,
@@ -88,7 +91,11 @@ export default function PokemonCardDetails({
           </Title.H2>
           <p>
             <Label>
-              <Sparkles className="inline-block mr-2 mb-1" size={16} />
+              <Sparkles
+                className="inline-block mr-2 mb-1"
+                size={16}
+                aria-label="Variant"
+              />
               {variantPattern[variant]}
               {pattern && (
                 <span className="ml-1.5 text-gray-400 dark:text-gray-300/75 font-normal text-sm italic">
@@ -100,7 +107,7 @@ export default function PokemonCardDetails({
           {energy && (
             <p>
               <Label>
-                <EnergyIcon energy={energy} />
+                <EnergyIcon energy={energy} aria-label="Energy" />
                 {energyList[energy]}
               </Label>
             </p>
@@ -108,8 +115,34 @@ export default function PokemonCardDetails({
           {pokemon && (
             <p>
               <Label>
-                <CatIcon className="inline-block mr-2 mb-1" size={16} />
-                <Link href={pokemon.href}>{pokemon.title}</Link>
+                <CatIcon
+                  className="inline-block mr-2 mb-1"
+                  size={16}
+                  aria-label="Pokédex"
+                />
+                <Link
+                  href={pokemon.href}
+                  className="transition-colors hover:text-muted-foreground"
+                >
+                  {pokemon.title}
+                </Link>
+              </Label>
+            </p>
+          )}
+          {illustrator && (
+            <p>
+              <Label>
+                <PaletteIcon
+                  className="inline-block mr-2 mb-1"
+                  size={16}
+                  aria-label="Illustrator"
+                />
+                <Link
+                  href={illustrator.href}
+                  className="transition-colors hover:text-muted-foreground"
+                >
+                  {illustrator.title}
+                </Link>
               </Label>
             </p>
           )}
