@@ -1,9 +1,10 @@
 import {Pattern} from '@/icons/Pattern'
 import {ImageLink} from 'alinea'
 import Image from 'next/image'
+import {JSX} from 'react'
 const {renderToString} = await import('react-dom/server')
 
-type CoverPageProps = {image?: ImageLink<undefined>}
+type CoverPageProps = {image?: ImageLink<undefined> | JSX.Element}
 
 const maskImage = `url(\'data:image/svg+xml;utf8,${renderToString(
   <Pattern />
@@ -19,14 +20,18 @@ const CoverPage: React.FC<CoverPageProps> = ({image}) => (
     />
     {image && (
       <div className="w-full min-h-full flex items-center justify-center">
-        <Image
-          src={`/media${image.src}`}
-          alt={image.title}
-          width={image.width}
-          height={image.height}
-          className="w-[40%] h-auto"
-          sizes={'269px'}
-        />
+        {typeof image === 'object' && 'src' in image ? (
+          <Image
+            src={`/media${image.src}`}
+            alt={image.title}
+            width={image.width}
+            height={image.height}
+            className="w-[40%] h-auto"
+            sizes={'269px'}
+          />
+        ) : (
+          image
+        )}
       </div>
     )}
   </div>

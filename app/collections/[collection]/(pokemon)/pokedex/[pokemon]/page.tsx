@@ -60,7 +60,12 @@ export default async function PokemonPage({
           </span>
         </Title.H1>
         {pokemonData.number && (
-          <PokedexIcon number={pokemonData.number} width={48} height={48} />
+          <PokedexIcon
+            number={pokemonData.number}
+            width={48}
+            height={48}
+            aria-label={pokemonData.title}
+          />
         )}
       </div>
       <Blocks blocks={pokemonData.blocks} />
@@ -70,7 +75,19 @@ export default async function PokemonPage({
         />
       ) : (
         <Suspense>
-          <PokemonSetOverview cards={cards} />
+          <PokemonSetOverview
+            cards={cards}
+            logo={
+              pokemonData.number ? (
+                <PokedexIcon
+                  number={pokemonData.number}
+                  width={92}
+                  height={92}
+                  aria-label={pokemonData.title}
+                />
+              ) : undefined
+            }
+          />
         </Suspense>
       )}
     </Container>

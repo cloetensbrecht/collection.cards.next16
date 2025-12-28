@@ -18,7 +18,7 @@ import {
   useQueryState,
   useQueryStates
 } from 'nuqs'
-import {useEffect, useMemo, useRef} from 'react'
+import React, {JSX, useEffect, useMemo, useRef} from 'react'
 import Binder from '../binder/Binder'
 import {CardProps} from '../card/Card'
 import CardGrid from '../cardgrid/CardGrid'
@@ -36,7 +36,7 @@ type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 
 type PokemonSetOverviewProps = {
   cards: Card[]
-  logo?: ImageLink<undefined>
+  logo?: ImageLink<undefined> | JSX.Element
 }
 
 const stackCards = (

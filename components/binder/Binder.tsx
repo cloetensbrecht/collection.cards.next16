@@ -3,6 +3,7 @@
 import {stackedCardOffset} from '@/consts/stack'
 import {ImageLink} from 'alinea'
 import {
+  JSX,
   useCallback,
   useEffect,
   useEffectEvent,
@@ -25,7 +26,7 @@ type Card = PokemonCardDetailsProps & Omit<CardProps, 'onClick' | 'sizes'>
 type BinderProps = {
   cards: (Card | (Card & {variants: Card[]}))[]
   isStacked?: boolean
-  logo?: ImageLink<undefined>
+  logo?: ImageLink<undefined> | JSX.Element
   page?: number
   pockets?: number
   setPage: (newPage: number) => void
