@@ -9,6 +9,7 @@ import {AnimatePresence, motion} from 'framer-motion'
 import {CatIcon, ChevronRight, PaletteIcon, Sparkles} from 'lucide-react'
 import Link from 'next/link'
 import {createElement, useState} from 'react'
+import ComingSoon from '../comingsoon/ComingSoon'
 import {Title} from '../title/Title'
 import {Button} from '../ui/button'
 import {Label} from '../ui/label'
@@ -177,6 +178,9 @@ export default function PokemonCardDetails({
               </Label>
             </p>
           )}
+          <ComingSoon>
+            <Button className="mt-4 cursor-pointer">Add to Collection</Button>
+          </ComingSoon>
         </motion.div>
       </AnimatePresence>
 
