@@ -5,7 +5,7 @@ import {Energy, energy as energyList, getEnergyIcon} from '@/consts/energy'
 import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/pattern'
 import {variant, variantPattern} from '@/consts/variant'
 import {AnimatePresence, motion} from 'framer-motion'
-import {Sparkles} from 'lucide-react'
+import {CatIcon, Sparkles} from 'lucide-react'
 import Link from 'next/link'
 import {createElement, useState} from 'react'
 import {Title} from '../title/Title'
@@ -105,7 +105,14 @@ export default function PokemonCardDetails({
               </Label>
             </p>
           )}
-          {pokemon && <Link href={pokemon.href}>{pokemon.title}</Link>}
+          {pokemon && (
+            <p>
+              <Label>
+                <CatIcon className="inline-block mr-2 mb-1" size={16} />
+                <Link href={pokemon.href}>{pokemon.title}</Link>
+              </Label>
+            </p>
+          )}
         </motion.div>
       </AnimatePresence>
 
