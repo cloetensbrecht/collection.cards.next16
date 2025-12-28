@@ -75,10 +75,40 @@ export default async function PokemonPage({
       path: Query.path
     },
     filter: {
-      evolvesTo: {includes: {_entry: {in: [pokemonData.evolvesFrom._entry]}}}
+      evolvesTo: {
+        includes: {
+          _entry: {
+            in: pokemonData.evolvesFrom ? [pokemonData.evolvesFrom._entry] : []
+          }
+        }
+      }
     }
   })
   evolvesFrom.push(pokemonData.evolvesFrom)
+
+  const evolvesAfterTo = (
+    await cms.find({
+      type: Pokemon,
+      select: {
+        title: Query.title,
+        path: Query.path,
+        number: Pokemon.number
+      },
+      filter: {
+        evolvesFrom: {
+          has: {
+            _entry: {
+              in: (pokemonData.evolvesTo &&
+              Object.keys(pokemonData.evolvesTo).length
+                ? pokemonData.evolvesTo
+                : []
+              ).map(e => e._entry)
+            }
+          }
+        }
+      }
+    })
+  ).sort((a, b) => (a.number || 0) - (b.number || 0))
 
   const cards = await fetchPokemonData(pokemonData.id)
 
@@ -94,6 +124,7 @@ export default async function PokemonPage({
         <Evolutions
           evolvesFrom={evolvesFrom}
           evolvesTo={pokemonData.evolvesTo}
+          evolvesAfterTo={evolvesAfterTo}
           currentPokemonTitle={pokemonData.title}
         />
       </div>

@@ -4,17 +4,20 @@ import {Fragment, memo} from 'react'
 
 type EvolutionsProps = {
   evolvesFrom?: {title: string; path: string}[] | null
-  evolvesTo?: Array<{title: string; path: string}> | null
+  evolvesTo?: {title: string; path: string}[] | null
+  evolvesAfterTo?: {title: string; path: string}[] | null
   currentPokemonTitle: string
 }
 
 const Evolutions: React.FC<EvolutionsProps> = ({
   evolvesFrom,
   evolvesTo,
+  evolvesAfterTo,
   currentPokemonTitle
 }) => {
   const isEvolvingFrom = evolvesFrom && evolvesFrom.length > 0
   const isEvolvingTo = evolvesTo && evolvesTo.length > 0
+  const isEvolvingAfterTo = evolvesAfterTo && evolvesAfterTo.length > 0
 
   if (!isEvolvingFrom && !isEvolvingTo) return null
 
@@ -24,7 +27,7 @@ const Evolutions: React.FC<EvolutionsProps> = ({
       <ol className="flex flex-wrap items-center gap-1.5 text-sm sm:justify-end">
         {isEvolvingFrom &&
           evolvesFrom.map((from, index) => {
-            if (!from.path) return null
+            if (!from || !from.path) return null
             return (
               <Fragment key={index}>
                 <li className="inline-flex items-center gap-1.5">
@@ -74,6 +77,39 @@ const Evolutions: React.FC<EvolutionsProps> = ({
                   </Link>
                   {index < evolvesTo.length - 1
                     ? index < evolvesTo.length - 2
+                      ? ', '
+                      : ' and '
+                    : ''}
+                </span>
+              )
+            })}
+          </li>
+        )}
+        {isEvolvingAfterTo && (
+          <li
+            aria-hidden="true"
+            role="presentation"
+            className="text-muted-foreground"
+          >
+            <ChevronRight className="lucide lucide-chevron-right" size={16} />
+          </li>
+        )}
+        {isEvolvingAfterTo && (
+          <li className="flex flex-wrap gap-x-1">
+            {evolvesAfterTo.map((to, index) => {
+              return (
+                <span
+                  key={to.path}
+                  className="text-muted-foreground whitespace-nowrap"
+                >
+                  <Link
+                    href={to.path}
+                    className="transition-colors text-foreground hover:text-muted-foreground"
+                  >
+                    {to.title}
+                  </Link>
+                  {index < evolvesAfterTo.length - 1
+                    ? index < evolvesAfterTo.length - 2
                       ? ', '
                       : ' and '
                     : ''}
