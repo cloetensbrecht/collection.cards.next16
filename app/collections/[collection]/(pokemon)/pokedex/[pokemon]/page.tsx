@@ -68,6 +68,18 @@ export default async function PokemonPage({
 
   if (!pokemonData) return notFound()
 
+  const evolvesFrom = await cms.find({
+    type: Pokemon,
+    select: {
+      title: Query.title,
+      path: Query.path
+    },
+    filter: {
+      evolvesTo: {includes: {_entry: {in: [pokemonData.evolvesFrom._entry]}}}
+    }
+  })
+  evolvesFrom.push(pokemonData.evolvesFrom)
+
   const cards = await fetchPokemonData(pokemonData.id)
 
   return (
@@ -80,7 +92,7 @@ export default async function PokemonPage({
           </span>
         </Title.H1>
         <Evolutions
-          evolvesFrom={pokemonData.evolvesFrom}
+          evolvesFrom={evolvesFrom}
           evolvesTo={pokemonData.evolvesTo}
           currentPokemonTitle={pokemonData.title}
         />
