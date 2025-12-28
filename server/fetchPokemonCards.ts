@@ -2,6 +2,7 @@ import {PokemonCard} from '@/alinea/schemas/PokemonCard'
 import {cms} from '@/cms'
 import {CardGridProps} from '@/components/cardgrid/CardGrid'
 import {blurDataURL} from '@/lib/blurDataURL'
+import {Query} from 'alinea'
 
 export const fetchPokemonCards = async (
   pokemonCardIds: string[]
@@ -9,6 +10,17 @@ export const fetchPokemonCards = async (
   const cardsData = (
     await cms.find({
       type: PokemonCard,
+      select: {
+        ...PokemonCard,
+        _id: Query.id,
+        parents: Query.parents({
+          select: {
+            _type: Query.type,
+            title: Query.title,
+            url: Query.url
+          }
+        })
+      },
       filter: {
         _id: {in: pokemonCardIds}
       }
@@ -44,7 +56,22 @@ export const fetchPokemonCards = async (
       isFullArt: data.isFullArt,
       isTrainerGallery: data.isTrainerGallery,
       number: data.number,
-      rarity: data.rarity
+      rarity: data.rarity,
+      serie: {
+        title:
+          data.parents.find(parent => parent._type === 'PokemonSerie')?.title ||
+          '',
+        url:
+          data.parents.find(parent => parent._type === 'PokemonSerie')?.url ||
+          ''
+      },
+      set: {
+        title:
+          data.parents.find(parent => parent._type === 'PokemonSet')?.title ||
+          '',
+        url:
+          data.parents.find(parent => parent._type === 'PokemonSet')?.url || ''
+      }
     }
 
     // there are no variants, add the normal card

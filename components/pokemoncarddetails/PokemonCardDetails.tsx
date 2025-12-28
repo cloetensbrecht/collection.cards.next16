@@ -6,7 +6,7 @@ import {holofoilPatterns, reverseHolofoilPatterns} from '@/consts/pattern'
 import {variant, variantPattern} from '@/consts/variant'
 import {EntryLink} from 'alinea'
 import {AnimatePresence, motion} from 'framer-motion'
-import {CatIcon, PaletteIcon, Sparkles} from 'lucide-react'
+import {CatIcon, ChevronRight, PaletteIcon, Sparkles} from 'lucide-react'
 import Link from 'next/link'
 import {createElement, useState} from 'react'
 import {Title} from '../title/Title'
@@ -20,6 +20,8 @@ export type PokemonCardDetailsProps = {
   number: string
   pattern?: keyof typeof reverseHolofoilPatterns | keyof typeof holofoilPatterns
   pokemon: PokemonCard['pokemon']
+  serie: {title: string; url: string}
+  set: {title: string; url: string}
   title: string
   variant: keyof typeof variant
 }
@@ -33,6 +35,8 @@ export default function PokemonCardDetails({
   number,
   pattern,
   pokemon,
+  serie,
+  set,
   title,
   variant
 }: PokemonCardDetailsProps & {
@@ -83,12 +87,39 @@ export default function PokemonCardDetails({
             ease: 'easeOut'
           }}
         >
-          <Title.H2>
-            {title}{' '}
-            <span className="ml-2 text-gray-400 dark:text-gray-300/75 font-normal text-sm">
-              # {number}
-            </span>
-          </Title.H2>
+          <div className="flex flex-col gap-1 pb-4">
+            <Title.H2 className="pb-0">
+              {title}{' '}
+              <span className="ml-2 text-gray-400 dark:text-gray-300/75 font-normal text-sm">
+                # {number}
+              </span>
+            </Title.H2>
+            <ol className="flex flex-wrap items-center gap-1.5 text-sm break-words">
+              <li>
+                <Link
+                  href={serie.url}
+                  className="transition-colors text-sm hover:text-muted-foreground"
+                >
+                  {serie.title}
+                </Link>
+              </li>
+              <li
+                aria-hidden="true"
+                role="presentation"
+                className="text-muted-foreground"
+              >
+                <ChevronRight size={16} />
+              </li>
+              <li>
+                <Link
+                  href={set.url}
+                  className="transition-colors text-sm hover:text-muted-foreground"
+                >
+                  {set.title}
+                </Link>
+              </li>
+            </ol>
+          </div>
           <p>
             <Label>
               <Sparkles
