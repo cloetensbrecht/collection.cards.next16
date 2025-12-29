@@ -6,6 +6,7 @@ import {PokemonSet} from '@/alinea/schemas/PokemonSet'
 import {cms} from '@/cms'
 import CardGrid from '@/components/cardgrid/CardGrid'
 import Container from '@/components/container/Container'
+import NoResults from '@/components/noresults/NoResults'
 import PokemonSetOverview from '@/components/pokemonsetoverview/PokemonSetOverview'
 import {Title} from '@/components/title/Title'
 import {fetchPokemonCards} from '@/server/fetchPokemonCards'
@@ -121,7 +122,13 @@ export default async function Set({
           </div>
         )}
       </div>
-      {collection === 'pokemon' ? (
+      {setData.cards.length === 0 ? (
+        <NoResults
+          contribute={true}
+          title="This set is just getting started"
+          description={`No cards have been added yet.\nBe the first to contribute and help the community grow.`}
+        />
+      ) : collection === 'pokemon' ? (
         <Suspense>
           <PokemonSetOverview cards={setData.cards} logo={setData.logo} />
         </Suspense>

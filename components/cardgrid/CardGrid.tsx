@@ -263,14 +263,6 @@ const CardGrid: React.FC<CardGridProps> = ({
     }
   }, [state.status])
 
-  if (cards.length === 0)
-    return (
-      <NoResults
-        title="No results found"
-        description="It looks like there are no cards added for this Pokémon yet."
-      />
-    )
-
   const top =
     rowHeights.reduce(
       (acc, height, index) =>
@@ -289,6 +281,13 @@ const CardGrid: React.FC<CardGridProps> = ({
         className="relative"
         style={{height: virtualizer.getTotalSize() - gapSize}}
       >
+        {cards.length === 0 && (
+          <NoResults
+            contribute={true}
+            title="No results found"
+            description={`It looks like no cards match your current filter settings. Try adjusting or removing some filters to see more results.\nDo you think some cards are missing? Contribute and help complete the collection.`}
+          />
+        )}
         {gridWidth > 0 && (
           <>
             {virtualizer.getVirtualItems().map(virtualRow => {
