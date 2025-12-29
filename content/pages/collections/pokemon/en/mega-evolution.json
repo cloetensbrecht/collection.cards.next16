@@ -3,5 +3,70 @@
   "_type": "PokemonSerie",
   "_index": "Zl",
   "title": "Mega Evolution",
-  "blocks": []
+  "blocks": [
+    {
+      "_id": "37XDc3D81tcNqJcyz7ELQE4Cgxy",
+      "_index": "a0",
+      "_type": "TextBlock",
+      "text": [
+        {
+          "_type": "paragraph",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The Mega Evolution Series marks a blockbuster return of one of the most beloved mechanics in Pokémon TCG history. Debuting on September 26, 2025, this series modernizes the Mega Evolution concept for the current era, introducing "
+            },
+            {
+              "_type": "text",
+              "text": "Mega Evolution Pokémon ex",
+              "marks": [
+                {
+                  "_type": "bold"
+                }
+              ]
+            },
+            {
+              "_type": "text",
+              "text": " with massive HP pools—some reaching a staggering 380 HP—and devastating attacks. These Stage 2 powerhouses add a high-risk strategic element: if a Mega Evolution Pokémon ex is Knocked Out, the opponent takes "
+            },
+            {
+              "_type": "text",
+              "text": "three Prize cards",
+              "marks": [
+                {
+                  "_type": "bold"
+                }
+              ]
+            },
+            {
+              "_type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Visually, the series pushes the boundaries of card art with the introduction of "
+            },
+            {
+              "_type": "text",
+              "text": "Mega Hyper Rare (MUR) cards",
+              "marks": [
+                {
+                  "_type": "bold"
+                }
+              ]
+            },
+            {
+              "_type": "text",
+              "text": ". These gold-etched masterpieces feature original, standalone artwork and have become a primary target for high-end collectors."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -3,5 +3,83 @@
   "_type": "PokemonSerie",
   "_index": "Zm",
   "title": "Scarlet & Violet",
-  "blocks": []
+  "blocks": [
+    {
+      "_id": "37XBzLKUiAWhWdtZutLso8hdH7x",
+      "_index": "a0",
+      "_type": "TextBlock",
+      "text": [
+        {
+          "_type": "paragraph",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The Scarlet & Violet series of the Pokémon TCG takes players to the vast "
+            },
+            {
+              "_type": "text",
+              "text": "Paldea region",
+              "marks": [
+                {
+                  "_type": "bold"
+                }
+              ]
+            },
+            {
+              "_type": "text",
+              "text": ", introducing the first Generation IX Pokémon and the powerful "
+            },
+            {
+              "_type": "text",
+              "text": "Pokémon ex",
+              "marks": [
+                {
+                  "_type": "bold"
+                }
+              ]
+            },
+            {
+              "_type": "text",
+              "text": " mechanic. This era revitalized the game by bringing back the ex designation and introducing "
+            },
+            {
+              "_type": "text",
+              "text": "Tera Pokémon ex",
+              "marks": [
+                {
+                  "_type": "bold"
+                }
+              ]
+            },
+            {
+              "_type": "text",
+              "text": ", featuring stunning crystalline artwork and unique strategic abilities, such as immunity to damage while on the Bench."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Visually, the series marked a historic shift for the international hobby. Most notably, the traditional yellow borders used since the game's inception were replaced with "
+            },
+            {
+              "_type": "text",
+              "text": "sleek silver borders",
+              "marks": [
+                {
+                  "_type": "bold"
+                }
+              ]
+            },
+            {
+              "_type": "text",
+              "text": " to match the Japanese card designs."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

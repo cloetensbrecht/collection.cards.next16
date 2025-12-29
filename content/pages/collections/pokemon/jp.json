@@ -2,6 +2,23 @@
   "_id": "357Hu74VW1nwOpoolza0a8BDSeY",
   "_type": "PokemonSeries",
   "_index": "Yz3",
-  "title": "Japanese TCG",
-  "blocks": []
+  "title": "Japanese",
+  "blocks": [
+    {
+      "_id": "37XBosZ5bf8GXlFQm0GJpUQpg5R",
+      "_index": "a0",
+      "_type": "TextBlock",
+      "text": [
+        {
+          "_type": "paragraph",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Explore the Pokémon Trading Card Game in Japanese! Browse all the series and sets, from the earliest expansions to the latest releases, and discover your favorite cards."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
