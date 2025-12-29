@@ -131,6 +131,7 @@ export default async function PokemonPage({
       <Blocks blocks={pokemonData.blocks} />
       {!cards || cards.length === 0 ? (
         <NoResults
+          title="No results found"
           description={`It looks like there are no cards added for ${pokemonData.title} yet.\n\rMissing cards?`}
         />
       ) : (

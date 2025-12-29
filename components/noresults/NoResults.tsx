@@ -1,8 +1,8 @@
 import {Title} from '../title/Title'
 
 type NoResultsProps = {
-  title?: string
-  description?: string
+  title: string
+  description: string
 }
 
 const NoResults: React.FC<NoResultsProps> = ({title, description}) => {

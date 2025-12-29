@@ -22,6 +22,7 @@ import React, {JSX, useEffect, useMemo, useRef} from 'react'
 import Binder from '../binder/Binder'
 import {CardProps} from '../card/Card'
 import CardGrid from '../cardgrid/CardGrid'
+import NoResults from '../noresults/NoResults'
 import {PokemonCardDetailsProps} from '../pokemoncarddetails/PokemonCardDetails'
 import Tooltip from '../tooltip/Tooltip'
 import {ToggleGroup, ToggleGroupItem} from '../ui/toggle-group'
@@ -209,6 +210,14 @@ const PokemonSetOverview: React.FC<PokemonSetOverviewProps> = ({
       stack
     ]
   )
+
+  if (cards.length === 0)
+    return (
+      <NoResults
+        title="No results found"
+        description="It looks like there are no cards added for this Pokémon yet."
+      />
+    )
 
   return (
     <>

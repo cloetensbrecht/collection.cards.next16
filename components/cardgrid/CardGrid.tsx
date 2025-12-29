@@ -263,7 +263,13 @@ const CardGrid: React.FC<CardGridProps> = ({
     }
   }, [state.status])
 
-  if (cards.length === 0) return <NoResults />
+  if (cards.length === 0)
+    return (
+      <NoResults
+        title="No results found"
+        description="It looks like there are no cards added for this Pokémon yet."
+      />
+    )
 
   const top =
     rowHeights.reduce(
