@@ -74,7 +74,7 @@ const CardModal: React.FC<PropsWithChildren<ImageModalProps>> = ({
                   </div>
                 </div>
                 <div className="w-full sm:w-2/3 sm:overflow-auto z-0">
-                  <div className="p-4 space-y-4">{children}</div>
+                  <div className="p-4 space-y-4 h-full">{children}</div>
                 </div>
               </div>
             </div>

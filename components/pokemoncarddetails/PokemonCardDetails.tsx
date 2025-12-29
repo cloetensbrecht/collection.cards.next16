@@ -72,7 +72,7 @@ export default function PokemonCardDetails({
   }
 
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden h-full flex flex-col justify-between">
       <AnimatePresence initial={false} custom={direction} mode="wait">
         <motion.div
           key={id}
@@ -185,16 +185,22 @@ export default function PokemonCardDetails({
       </AnimatePresence>
 
       <div className="flex gap-2 mt-4">
-        {prevHandler && (
-          <Button className="m-0 cursor-pointer" onClick={handlePrev}>
-            Previous
-          </Button>
-        )}
-        {nextHandler && (
-          <Button className="m-0 cursor-pointer" onClick={handleNext}>
-            Next
-          </Button>
-        )}
+        <Button
+          className="m-0 cursor-pointer"
+          onClick={handlePrev}
+          disabled={!prevHandler}
+          variant={'outline'}
+        >
+          Previous
+        </Button>
+        <Button
+          className="m-0 cursor-pointer"
+          onClick={handleNext}
+          disabled={!nextHandler}
+          variant={'outline'}
+        >
+          Next
+        </Button>
       </div>
     </div>
   )
